@@ -1,2 +1,5 @@
 
-_data/publications-backup.yaml
+*~
+_data/old-index.html
+_data/get_ids.perl
+_data/extract_yaml.perl
