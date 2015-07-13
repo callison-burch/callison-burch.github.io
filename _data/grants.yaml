@@ -1,0 +1,160 @@
+-
+   title: Crowdsourcing Translation (LORELEI)
+   awarding_body: DARPA
+   amount: TBD
+   start_date: 2015
+   end_date: 2019
+   PI_info: co-PI with Stephanie Strassel
+-
+   title: Learning translations from monolingual texts (LORELEI)
+   awarding_body: DARPA
+   amount: $478,000
+   start_date: 2015
+   end_date: 2019
+   PI_info: PI at Penn
+-
+   title: Natural Logic Solver for Aristo
+   awarding_body: Allen Institute for Artificial Intelligence (AI2)
+   amount: $95,000
+   start_date: 2015
+   end_date: 2016
+   PI_info: PI
+-
+   title: EAGER&colon; Simplification as Machine Translation
+   awarding_body: NSF
+   amount: $100,000
+   start_date: 2014
+   end_date: 2015
+   PI_info: PI
+-
+   title: Unsolicited Gift
+   awarding_body: Facebook
+   amount: $50,000
+   start_date: 2014
+-
+   title: Sloan Research Fellowship
+   awarding_body: Alfred P. Sloan Foundation
+   amount: $50,000
+   start_date: 2014
+-
+   title: Google Faculty Research Award (Learning Paraphrases from Large, Diverse Data Sets)
+   awarding_body: Google
+   amount: $62,000
+   start_date: 2013
+-
+   title: Large-scale Paraphrasing for Natural Language Understanding (DEFT)
+   awarding_body: DARPA
+   amount: $1,600,000
+   start_date: 2012
+   end_date: 2017
+   PI_info: PI with Ben Van Durme
+-
+   title: EAGER&colon; Combining natural language inference and data-driven paraphrasing
+   awarding_body: NSF
+   amount: $100,000
+   start_date: 2012
+   end_date: 2013
+   PI_info: co-PI with Ben Van Durme
+-
+   title: Crowdsourcing Translation (Computer Science Study Panel phase 3)
+   awarding_body: DARPA
+   amount: $500,000
+   start_date: 2012
+   end_date: 2015
+   PI_info: PI
+-
+   title: Improved Arabic dialect translation through Crowdsourcing
+   awarding_body: DARPA
+   amount: $176,000
+   start_date: 2012
+   end_date: 2013
+   PI_info: PI
+-
+   title: Acquisition and use of paraphrases in a knowledge-rich setting
+   awarding_body: Vulcan
+   amount: $260,000
+   start_date: 2011
+   end_date: 2013
+   PI_info: co-PI with Ben Van Durme
+-
+   title: Google Faculty Research Award (Translate the World&colon; A Unified Framework for Crowdsourcing Translation)
+   awarding_body: Google
+   amount: $150,000
+   start_date: 2011
+   PI_info: co-PI with Philip Resnik and Ben Bederson
+-
+   title: Crowdsourcing Translation
+   awarding_body: Microsoft
+   amount: $25,000
+   start_date: 2011
+-
+   title: RI&colon;Medium&colon; Semi-supervised Discriminative Training of Sequence Transduction Model
+   awarding_body: NSF
+   amount: $800,000
+   start_date: 2011
+   end_date: 2015
+   PI_info: co-PI with Sanjeev Khudanpur, Brian Roark, Damianos Karakos, Richard Sproat
+-
+   title: Translation of informal texts via Mechanical Turk
+   awarding_body: BBN Technologies 
+   amount: $144,000
+   start_date: 2010
+   end_date: 2011
+   PI_info: PI
+-
+   title: BABEL&colon; Bayesian Architecture Begetting Every Language (Computer Science Study Panel phase 2)
+   awarding_body: DARPA
+   amount: $500,000
+   start_date: 2010
+   end_date: 2012
+   PI_info: PI
+-
+   title: Google Faculty Research Award (The Babel Challenge&colon; Translating all the World’s Languages)
+   awarding_body: Google
+   amount: $45,000
+   start_date: 2010
+   PI_info: co-PI with Miles Osborne
+-
+   title: EuroMatrixPlus&colon; Bringing Machine Translation for European Languages to the User
+   awarding_body: European Union Framework 7 Programme
+   amount: €4,950,000 
+   start_date: 2009
+   end_date: 2012
+   PI_info: PI at JHU (JHU Amount&colon; €516,000)
+   notes: JHU Amount&colon; 516,000 euros / 319,000 euros not including cost sharing. Total project budget&colon;4,950,000 euros / 3,800,000 euros not including cost sharing 
+-
+   title: Global Autonomous Language Exploitation (GALE) project, Periods 3 and 4
+   awarding_body: DARPA
+   amount: $575,000
+   start_date: 2009
+   end_date: 2011
+   PI_info: co-PI with Sanjeev Khudanpur and Damianos Karakos
+-
+   title: Computer Science Study Panel
+   awarding_body: DARPA
+   amount: $93,000
+   start_date: 2008
+   end_date: 2009
+   PI_info: PI
+-
+   title: RI&colon;SMALL&colon; Multi-Level Modeling of Language and Translation
+   awarding_body: NSF
+   amount: $40,000
+   start_date: 2007
+   end_date: 2012
+   PI_info: co-PI with David Yarowsky
+-
+   title: EuroMatrix&colon; Statistical and Hybrid Machine Translation Between All European Lan
+   awarding_body: European Union Framework 6 Programme
+   amount: €3,200,000 
+   start_date: 2009
+   end_date: 2012
+   PI_info: non-PI coauthor 
+   notes: 4,950,000 euros / 3,800,000 euros not including cost sharing 
+-
+   title: SMART&colon;Scotland Technology Innovation Grant
+   awarding_body: British Government
+   amount: £45,000 
+   start_date: 2002
+   end_date: 2005
+   notes: research funds for my company, Linear B Ltd.
