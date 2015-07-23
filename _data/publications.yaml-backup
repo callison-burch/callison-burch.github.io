@@ -6,19 +6,6 @@
    year: 2015
    url: publications/new-data-for-text-simplification.pdf
    id: new-data-for-text-simplification
-   figures: 
-      -
-         img: figures/new-data-for-text-simplification/table1.jpg
-         label: Table 1
-         caption: Example sentence pairs (NORM-SIMP) aligned between English Wikipedia and Simple English Wikipedia. The breakdown in percentages is obtained through manual examination of 200 randomly sampled sentence pairs in the Parallel Wikipedia Simplification (PWKP) corpus.
-      -
-         img: figures/new-data-for-text-simplification/table2.jpg
-         label: Table 2
-         caption: The vocabulary size of the Parallel Wikipedia Simplification (PWKP) corpus and the vocabulary difference between its normal and simple sides (as a 2×2 matrix). Only words consisting of the 26 English letters are counted.
-      -
-         img: figures/new-data-for-text-simplification/figure1.jpg
-         label: Figure 1
-         caption: Manual classification of aligned sentence pairs from the Newsela corpus. We categorize randomly sampled 50 sentence pairs drawn from the Original-Simp2 and 50 sentences from the Original-Simp4.
    abstract: Simple Wikipedia has dominated simplification research in the past 5 years. In this opinion paper, we argue that focusing on Wikipedia limits simplification research. We back up our arguments with corpus analysis and by highlighting statements that other researchers have made in the simplification literature. We introduce a new simplification dataset that is a significant improvement over Simple Wikipedia, and present a novel quantitative-comparative approach to study the quality of simplification data resources. 
    bibtex: |
       @article{Xu-EtAl:2015:TACL,

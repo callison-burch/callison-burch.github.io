@@ -5,3 +5,4 @@ _data/get_ids.perl
 _data/extract_yaml.perl
 _site/
 publications/*.txt
+_data/publications.yaml-backup2

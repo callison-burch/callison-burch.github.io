@@ -24,7 +24,7 @@ with open('captions.csv', 'rb') as csvfile:
 				doc_info[id][type + " " + num] = caption
 
 
-publications_data = list(open("/Users/ccb/Sites/callison-burch.github.io/_data/publications.yaml"))
+publications_data = list(open("/Users/ccb/Sites/callison-burch.github.io/_data/publications.yaml-backup"))
 
 path_to_publications = "/Users/ccb/Sites/callison-burch.github.io/publications/"
 
@@ -34,7 +34,6 @@ for line in publications_data:
 		id = line[7:len(line)-1]
 		if id in doc_info:
 			print "   figures:"
-			print "      -"
 			full_text = " ".join(list(open(path_to_publications + id + ".txt")))
 
 			uniq_items = set()
@@ -47,6 +46,9 @@ for line in publications_data:
 			for item in ordered_items:
 		       		if item in doc_info[id]:
 		       			caption = doc_info[id][item]
+					pattern = re.compile(r'\s+')
+					caption = re.sub(pattern, ' ', caption)
+					print "      -"
 		       			print "         img: figures/" + id + "/" + id + "-" + item.lower().replace(" ", "-") + ".jpg"
 		       			print "         label: " + item
 		       			print "         caption: " + caption.replace(":", "&colon;")
