@@ -3,3 +3,5 @@
 _data/old-index.html
 _data/get_ids.perl
 _data/extract_yaml.perl
+_site/
+publications/*.txt
