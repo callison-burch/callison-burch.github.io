@@ -4,7 +4,8 @@ How to compile the web page locally
 # Tutorial materials at http://jekyllrb.com/docs/usage/
 
 # Do once:
-# gem install jekyll
+# sudo gem install jekyll
+# sudo gem install github-pages
 
 cd crowdsourcing-class.github.io
 jekyll build --watch &
