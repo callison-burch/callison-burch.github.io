@@ -194,7 +194,7 @@ active_tab: CV
 <h2>PhDs Graduated</h2>
 
 <ol>
-    {% for student in site.data.students %}
+    {% for student in site.data.students_graduated %}
 <li>
 	{{ student.name }}, {{ student.institution }} 
 	{% if student.advisors contains ' and ' %}

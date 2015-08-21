@@ -57,8 +57,8 @@ active_tab: publications
 	{% endif %}
 
 
-
-	{% if publication.figures %}
+<!-- ccb - turning off figures for now, until I can figure out how to load them in a lazy fashion, so that the user doesn't get bombarded with so much data -->
+	{% if publication.figures_TURN_OFF_FOR_NOW %}
 	<!-- figures button -->
 	<a data-toggle="modal" href="#{{publication.id}}-figures" class="label label-primary">Figures</a>
 	<!-- /.figures button -->
@@ -74,25 +74,23 @@ active_tab: publications
 	 <!-- Carousel -->
 	<div id="{{publication.id}}-figures-carousel" class="carousel slide" data-interval="false">
 
-	<!--
-	  <ol class="carousel-indicators">
-	    <li data-target="#{{publication.id}}-figures-carousel" data-slide-to="0" class="active"></li>
-	    <li data-target="#{{publication.id}}-figures-carousel" data-slide-to="1"></li>
-	    <li data-target="#{{publication.id}}-figures-carousel" data-slide-to="2"></li>
-	  </ol>
-	-->
 	  <!-- Carousel items -->
 	  <div class="carousel-inner" role="listbox">
                 {% assign isFirstFigure = 1 %}
 	  	{% for figure in publication.figures %}
 		  	{% if isFirstFigure == 1 %}
 			  	<div class="item active">
+				<!-- ccb testing adding abstract as first time on carousel -->
+			        <b>Abstract:</b> {{publication.abstract}}
+				</div>
+			  	<div class="item">
+				<!-- /ccb end testing adding abstract as first time on carousel -->
                 		{% assign isFirstFigure = 0 %}
 		  	{% else %}
 			  	<div class="item">
                 	{% endif %}
-					<img src="{{figure.img}}" alt="" width="100%">
 					<p><b>{{figure.label}}:</b> {{figure.caption}}</p>
+<img src="{{figure.img}}" alt="" width="100%">
 				</div>
 		{% endfor %}
 	  </div>
@@ -115,7 +113,6 @@ active_tab: publications
 	</div><!-- /.modal-dialog -->
 	</div><!-- /.figures-content -->
 	{% endif %}
-
 
 
 	{% if publication.bibtex %}
