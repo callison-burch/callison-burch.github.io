@@ -1,4 +1,118 @@
 -
+   title: PPDB 2.0&colon; Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification
+   authors: Ellie Pavlick, Pushpendre Rastogi, Juri Ganitkevich, Ben Van Durme, Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2015
+   url: publications/ppdb-reranking.pdf
+   id: ppdb-reranking
+   abstract: We present a new release of the Paraphrase Database. PPDB 2.0 includes a discriminatively re-ranked set of paraphrases that achieve a higher correlation with human judgments than PPDB 1.0’s heuristic rankings. Each paraphrase pair in the database now also includes fine-grained entailment relations, word embedding similarities, and style annotations.
+   bibtex: |
+    @InProceedings{PavlickEtAl-2015:ACL:Semantics,
+      author =  {Ellie Pavlick and Johan Bos and Malvina Nissim and Charley Beller and Benjamin Van Durme and Chris Callison-Burch},
+      title =   {Adding Semantics to Data-Driven Paraphrasing}
+      booktitle = {Association for Computational Linguistics},
+      month     = {July},
+      year      = {2015},
+      address   = {Beijing, China},
+      publisher = {Association for Computational Linguistics},
+    }
+-
+   title: Domain-Specific Paraphrase Extraction
+   authors: Ellie Pavlick, Juri Ganitkevich, Tsz Ping Chan, Xuchen Yao, Ben Van Durme, Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2015
+   url: publications/domain-specific-paraphrases.pdf
+   id: domain-specific-paraphrases
+   abstract: The validity of applying paraphrase rules depends on the domain of the text that they are being applied to. We develop a novel method for extracting domain-specific paraphrases. We adapt the bilingual pivoting paraphrase method to bias the training data to be more like our target domain of biology. Our best model results in higher precision while retaining complete recall, giving a 10% relative improvement in AUC.
+   bibtex: |
+    @InProceedings{PavlickEtAl-2015:ACL:Domain,
+      author =  {Ellie Pavlick and Juri Ganitkevich and Benjamin Van Durme and Chris Callison-Burch},
+      title =   {Domain-Specific Paraphrase Extraction},
+      booktitle = {Association for Computational Linguistics},
+      month     = {July},
+      year      = {2015},
+      address   = {Beijing, China},
+      publisher = {Association for Computational Linguistics},
+    }
+-
+   title: FrameNet+&colon; Fast Paraphrastic Tripling of FrameNet
+   authors: Ellie Pavlick, Travis Wolfe, Pushpendre Rastogi, Chris Callison-Burch, Mark Drezde, Ben Van Durme
+   venue: ACL
+   type: conference
+   year: 2015
+   url: publications/FrameNetPlus.pdf
+   id: FrameNetPlus
+   abstract: We increase the lexical coverage of FrameNet through automatic paraphrasing. We use crowdsourcing to manually filter out bad paraphrases in order to ensure a high-precision resource. Our expanded FrameNet contains an additional 22K lexical units, a 3-fold increase over the current FrameNet, and achieves 40% better coverage when evaluated in a practical setting on New York Times data.
+   bibtex: |
+    @InProceedings{PavlickEtAl-2015:ACL:FNPlus,
+      author =  {Ellie Pavlick and Travis Wolfe and Pushpendre Rastogi and Chris Callison-Burch and Mark Drezde and Benjamin Van Durme},
+      title =   {FrameNet+: Fast Paraphrastic Tripling of FrameNet},
+      booktitle = {Association for Computational Linguistics},
+      month     = {July},
+      year      = {2015},
+      address   = {Beijing, China},
+      publisher = {Association for Computational Linguistics},
+    }
+-
+   title: Effectively Crowdsourcing Radiology Report Annotations
+   authors: Anne Cocos, Aaron J. Masino, Ting Qian, Ellie Pavlick, and Chris Callison-Burch
+   venue: Sixth International Workshop on Health Text Mining and Information Analysis
+   type: workshop
+   year: 2015
+   url: publications/crowdsourcing-radiology.pdf
+   id: crowdsourcing-radiology
+   abstract: Crowdsourcing platforms are a popular choice for researchers to gather text annotations quickly at scale. We investigate whether crowdsourced annotations are useful when the labeling task requires medical domain knowledge. Comparing a sentence classification model trained with expert-annotated sentences to the same model trained on crowd-labeled sentences, we find the crowdsourced training data to be just as effective as the manually produced dataset. We can improve the accuracy of the crowd-fueled model without collecting further labels by filtering out worker labels applied with low confidence.
+   bibtex: |
+    @InProceedings{CocosEtAl-2015:LOUHI:Radiology,
+      author =  {Anne Cocos and Aaron J. Masino and Ting Qian and Ellie Pavlick and Chris Callison-Burch},
+      title =   {Effectively Crowdsourcing Radiology Report Annotations}
+      booktitle = {Sixth International Workshop on Health Text Mining and Information Analysis},
+      month     = {November},
+      year      = {2015},
+      address   = {Lisbon, Portugal},
+    }
+-
+   title: Automatically Scoring Freshman Writing&colon; A Preliminary Investigation
+   authors: Courtney Napoles and Chris Callison-Burch
+   venue: Workshop on Innovative Use of NLP for Building Educational Applications
+   type: workshop
+   year: 2015
+   url: publications/automatically-scoring-freshman-writing.pdf
+   id: automatically-scoring-freshman-writing
+   abstract: In this work, we explore applications of automatic essay scoring (AES) to a corpus of essays written by college freshmen and discuss the challenges we faced. While most AES systems evaluate highly constrained writing, we developed a system that handles open-ended, long-form writing. We present a novel corpus for this task, containing more than 3,000 essays and drafts written for a freshman writing course. We describe statistical analysis of the corpus and identify problems with automatically scoring this type of data. Finally, we demonstrate how to overcome grader bias by using a multi-task setup, and predict scores as well as human graders on a different dataset. Finally, we discuss how AES can help teachers assign more uniform grades.
+   bibtex: |
+    @InProceedings{napoles-callisonburch:2015:bea,
+      author    = {Napoles, Courtney  and  Callison-Burch, Chris},
+      title     = {Automatically Scoring Freshman Writing: A Preliminary Investigation},
+      booktitle = {Proceedings of the Tenth Workshop on Innovative Use of NLP for Building Educational Applications},
+      month     = {June},
+      year      = {2015},
+      address   = {Denver, Colorado},
+      publisher = {Association for Computational Linguistics},
+      pages     = {254--263}
+    }
+
+-
+   title: Extracting Structured Information via Automatic + Human Computation
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: HCOMP
+   type: workshop
+   year: 2015
+   url: publications/gun-violence-db.pdf
+   id: gun-violence-db
+   abstract: We present a system for extracting structured information from unstructured text using a combination of information retrieval, natural language processing, machine learning, and crowdsourcing. We test our pipeline by building a structured database of gun violence incidents in the United States. The results of our pilot study demonstrate that the proposed methodology is a viable way of collecting large-scale, up-to-date data for public health, public policy, and social science research.
+   bibtex: |
+    @InProceedings{PavlickAndCallisonBurch-2015:HCOMP:GVDB,
+      author =  {Ellie Pavlick and Chris Callison-Burch},
+      title =   {Extracting Structured Information via Automatic + Human Computation}
+      booktitle = {HCOMP},
+      month     = {November},
+      year      = {2015},
+      address   = {San Diego, California},
+    }
+-
    title: Problems in Current Text Simplification Research&colon; New Data Can Help
    authors: Wei Xu, Chris Callison-Burch, and Courtney Napoles
    venue: TACL
@@ -22,7 +136,7 @@
       -
          img: figures/new-data-for-text-simplification/new-data-for-text-simplification-figure-1.jpg
          label: Figure 1
-         caption: Manual classification of aligned sentence pairs from the Newsela corpus. We categorize randomly sampled 50 sentence pairs drawn from the Original-Simp2 and 50 sentences from the Original- Simp4.
+         caption: Manual classification of aligned sentence pairs from the Newsela corpus. We categorize randomly sampled 50 sentence pairs drawn from the Original-Simp2 and 50 sentences from the Original-Simp4.
       -
          img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-4.jpg
          label: Table 4
@@ -231,7 +345,7 @@
       -
          img: figures/paraphrase-and-semantic-similarity-in-twitter/paraphrase-and-semantic-similarity-in-twitter-figure-1.jpg
          label: Figure 1
-         caption: A heat-map showing overlap between ex- pert and crowdsourcing annotation. The intensity along the diagonal indicates good reliability of crowdsourcing workers for this particular task; and the shift above the di- agonal reflects the difference between the two annotation schemas. For crowdsourcing (turk), the numbers indicate how many annotators out of 5 picked the sentence pair as paraphrases; 0,1 are considered non-paraphrases; 3,4,5 are paraphrases. For expert annotation, all 0,1,2 are non- paraphrases; 4,5 are paraphrases. Medium-scored cases (2 for crowdsourcing; 3 for expert annotation) are dis- carded in the system evaluation of the PI sub-task.
+         caption: A heat-map showing overlap between expert and crowdsourcing annotation. The intensity along the diagonal indicates good reliability of crowdsourcing workers for this particular task; and the shift above the diagonal reflects the difference between the two annotation schemas. For crowdsourcing (turk), the numbers indicate how many annotators out of 5 picked the sentence pair as paraphrases; 0,1 are considered non-paraphrases; 3,4,5 are paraphrases. For expert annotation, all 0,1,2 are non-paraphrases; 4,5 are paraphrases. Medium-scored cases (2 for crowdsourcing; 3 for expert annotation) are discarded in the system evaluation of the PI sub-task.
       -
          img: figures/paraphrase-and-semantic-similarity-in-twitter/paraphrase-and-semantic-similarity-in-twitter-figure-2.jpg
          label: Figure 2
@@ -298,7 +412,7 @@
       -
          img: figures/extracting-paraphrases-from-twitter/extracting-paraphrases-from-twitter-figure-4.jpg
          label: Figure 4
-         caption: A heat-map showing overlap between expert and crowdsourcing annotation. The intensity along the diagonal indicates good reliability of crowdsourcing workers for this particular task; and the shift above the diagonal reflects the difference between the two annotation schemas. For crowd- sourcing (turk), the numbers indicate how many annotators out of 5 picked the sentence pair as para- phrases; 0,1 are considered non-paraphrases; 3,4,5 are paraphrases. For expert annotation, all 0,1,2 are non-paraphrases; 4,5 are paraphrases. Medium- scored cases are discarded in training and testing in our experiments.
+         caption: A heat-map showing overlap between expert and crowdsourcing annotation. The intensity along the diagonal indicates good reliability of crowdsourcing workers for this particular task; and the shift above the diagonal reflects the difference between the two annotation schemas. For crowdsourcing (turk), the numbers indicate how many annotators out of 5 picked the sentence pair as paraphrases; 0,1 are considered non-paraphrases; 3,4,5 are paraphrases. For expert annotation, all 0,1,2 are non-paraphrases; 4,5 are paraphrases. Medium-scored cases are discarded in training and testing in our experiments.
       -
          img: figures/extracting-paraphrases-from-twitter/extracting-paraphrases-from-twitter-figure-5.jpg
          label: Figure 5
@@ -345,7 +459,7 @@
       -
          img: figures/callhome-egyptian-arabic-speech-translations/callhome-egyptian-arabic-speech-translations-table-3.jpg
          label: Table 3
-         caption: A sample of the special symbols using in the Arabic transcripts. These represent non-conventional speech segments such as non-verbal vocalizations, disfluencies, back- ground noise and distortion.
+         caption: A sample of the special symbols using in the Arabic transcripts. These represent non-conventional speech segments such as non-verbal vocalizations, disfluencies, background noise and distortion.
       -
          img: figures/callhome-egyptian-arabic-speech-translations/callhome-egyptian-arabic-speech-translations-table-4.jpg
          label: Table 4
