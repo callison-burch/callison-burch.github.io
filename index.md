@@ -8,6 +8,7 @@ caption: |
  <b>Office Hours:</b> Thurs and Fri noon-1<br />
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
+keep_sidebar: true 
 ---
 
 

@@ -48,7 +48,7 @@
           </button>
           <ul class="nav navbar-nav">
             <div class="hidden-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Chris Callison-Burch</a></li></div>
-            <div class="visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">CCB</a></li></div>
+            <div class="visible-xs"><li id="main_page"><a href="index.html" class="navbar-brand">Chris Callison-Burch</a></li></div>
           </ul>
         </div>
         <nav class="collapse navbar-collapse" role="navigation">
@@ -65,18 +65,20 @@
 
 
     <div class="container">
-      {% if page.img %}
       <div class="row">
-        <div class="col-sm-2 hidden-sm hidden-xs">
+      {% if page.img %}
+        <div class="col-sm-3 hidden-sm hidden-xs">
           {% if page.img_link %}<a href="{{ page.img_link }}">{% endif %} 
           <img src="assets/img/{{ page.img }}.jpg" class="img-responsive img-rounded" alt="{{ page.picture }}"/>
           {% if page.img_link %}</a>{% endif %} 
           <span class="text-muted">{{ page.caption }}</span>
         </div>
-        {% endif %}
-        <div class="col-sm-10">
+        <div class="col-sm-9">
           {{ content }}
         </div>
+      {% else %}
+          {{ content }}
+      {% endif %}
       </div>
 
       <footer class="text-center text-muted">

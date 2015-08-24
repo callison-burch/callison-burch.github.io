@@ -202,7 +202,13 @@ active_tab: CV
 	{% else %}
 		(advisor: {{student.advisors}}),
 	{% endif %}
-	"{{ student.thesis_title }}", {{ student.graduation_date }}.
+	{% if student.thesis_link %}
+        	"<a href="publications/{{ student.thesis_link}}">{{ student.thesis_title }}</a>", {{ student.graduation_date }}.
+	{% else %}
+        	"{{ student.thesis_title }}", {{ student.graduation_date }}.
+	{% endif %}
+
+
 </li>
   {% endfor %}
 </ol>

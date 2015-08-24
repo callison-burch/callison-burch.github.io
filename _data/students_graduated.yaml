@@ -5,6 +5,7 @@
    advisors: Chris Callison-Burch
    graduation_date: July 2014
    thesis_title: Using Comparable Corpora to Augment Low Resource Statistical Machine Translation Models
+   thesis_link: dissertations/ann-irvine-thesis.pdf
 -
    name: Xuchen Yao
    institution: Johns Hopkins University
@@ -12,6 +13,7 @@
    advisors: Benjamin Van Durme and Chris Callison-Burch
    graduation_date: July 2014
    thesis_title: Feature-Driven Question Answering with Natural Language Alignment
+   thesis_link: dissertations/xuchen-yao-thesis.pdf
 -
    name: Omar Zaidan
    institution: Johns Hopkins University
@@ -19,6 +21,7 @@
    advisors: Chris Callison-Burch
    graduation_date: April 2012
    thesis_title: Crowdsourcing Annotation for Machine Learning in Natural Language Processing Tasks
+   thesis_link: dissertations/omar-zaidan-thesis.pdf
 -
    name: Lane Schwartz
    institution: University of Minnesota
@@ -26,3 +29,4 @@
    advisors: William Schuler and Chris Callison-Burch
    graduation_date: February 2012
    thesis_title: An Incremental Syntactic Language Model for Statistical Phrase-based Translation
+   thesis_link: dissertations/lane-schwartz-thesis.pdf
