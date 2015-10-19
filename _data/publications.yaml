@@ -1,188 +1,4 @@
 -
-   title: PPDB 2.0&colon; Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification
-   authors: Ellie Pavlick, Pushpendre Rastogi, Juri Ganitkevich, Ben Van Durme, Chris Callison-Burch
-   venue: ACL
-   type: conference
-   year: 2015
-   url: publications/ppdb-reranking.pdf
-   id: ppdb-reranking
-   abstract: We present a new release of the Paraphrase Database. PPDB 2.0 includes a discriminatively re-ranked set of paraphrases that achieve a higher correlation with human judgments than PPDB 1.0’s heuristic rankings. Each paraphrase pair in the database now also includes fine-grained entailment relations, word embedding similarities, and style annotations.
-   bibtex: |
-    @InProceedings{PavlickEtAl-2015:ACL:Semantics,
-      author =  {Ellie Pavlick and Johan Bos and Malvina Nissim and Charley Beller and Benjamin Van Durme and Chris Callison-Burch},
-      title =   {Adding Semantics to Data-Driven Paraphrasing}
-      booktitle = {Association for Computational Linguistics},
-      month     = {July},
-      year      = {2015},
-      address   = {Beijing, China},
-      publisher = {Association for Computational Linguistics},
-    }
--
-   title: Domain-Specific Paraphrase Extraction
-   authors: Ellie Pavlick, Juri Ganitkevich, Tsz Ping Chan, Xuchen Yao, Ben Van Durme, Chris Callison-Burch
-   venue: ACL
-   type: conference
-   year: 2015
-   url: publications/domain-specific-paraphrases.pdf
-   id: domain-specific-paraphrases
-   abstract: The validity of applying paraphrase rules depends on the domain of the text that they are being applied to. We develop a novel method for extracting domain-specific paraphrases. We adapt the bilingual pivoting paraphrase method to bias the training data to be more like our target domain of biology. Our best model results in higher precision while retaining complete recall, giving a 10% relative improvement in AUC.
-   bibtex: |
-    @InProceedings{PavlickEtAl-2015:ACL:Domain,
-      author =  {Ellie Pavlick and Juri Ganitkevich and Benjamin Van Durme and Chris Callison-Burch},
-      title =   {Domain-Specific Paraphrase Extraction},
-      booktitle = {Association for Computational Linguistics},
-      month     = {July},
-      year      = {2015},
-      address   = {Beijing, China},
-      publisher = {Association for Computational Linguistics},
-    }
--
-   title: FrameNet+&colon; Fast Paraphrastic Tripling of FrameNet
-   authors: Ellie Pavlick, Travis Wolfe, Pushpendre Rastogi, Chris Callison-Burch, Mark Drezde, Ben Van Durme
-   venue: ACL
-   type: conference
-   year: 2015
-   url: publications/FrameNetPlus.pdf
-   id: FrameNetPlus
-   abstract: We increase the lexical coverage of FrameNet through automatic paraphrasing. We use crowdsourcing to manually filter out bad paraphrases in order to ensure a high-precision resource. Our expanded FrameNet contains an additional 22K lexical units, a 3-fold increase over the current FrameNet, and achieves 40% better coverage when evaluated in a practical setting on New York Times data.
-   bibtex: |
-    @InProceedings{PavlickEtAl-2015:ACL:FNPlus,
-      author =  {Ellie Pavlick and Travis Wolfe and Pushpendre Rastogi and Chris Callison-Burch and Mark Drezde and Benjamin Van Durme},
-      title =   {FrameNet+: Fast Paraphrastic Tripling of FrameNet},
-      booktitle = {Association for Computational Linguistics},
-      month     = {July},
-      year      = {2015},
-      address   = {Beijing, China},
-      publisher = {Association for Computational Linguistics},
-    }
--
-   title: Effectively Crowdsourcing Radiology Report Annotations
-   authors: Anne Cocos, Aaron J. Masino, Ting Qian, Ellie Pavlick, and Chris Callison-Burch
-   venue: Sixth International Workshop on Health Text Mining and Information Analysis
-   type: workshop
-   year: 2015
-   url: publications/crowdsourcing-radiology.pdf
-   id: crowdsourcing-radiology
-   abstract: Crowdsourcing platforms are a popular choice for researchers to gather text annotations quickly at scale. We investigate whether crowdsourced annotations are useful when the labeling task requires medical domain knowledge. Comparing a sentence classification model trained with expert-annotated sentences to the same model trained on crowd-labeled sentences, we find the crowdsourced training data to be just as effective as the manually produced dataset. We can improve the accuracy of the crowd-fueled model without collecting further labels by filtering out worker labels applied with low confidence.
-   bibtex: |
-    @InProceedings{CocosEtAl-2015:LOUHI:Radiology,
-      author =  {Anne Cocos and Aaron J. Masino and Ting Qian and Ellie Pavlick and Chris Callison-Burch},
-      title =   {Effectively Crowdsourcing Radiology Report Annotations}
-      booktitle = {Sixth International Workshop on Health Text Mining and Information Analysis},
-      month     = {November},
-      year      = {2015},
-      address   = {Lisbon, Portugal},
-    }
--
-   title: Automatically Scoring Freshman Writing&colon; A Preliminary Investigation
-   authors: Courtney Napoles and Chris Callison-Burch
-   venue: Workshop on Innovative Use of NLP for Building Educational Applications
-   type: workshop
-   year: 2015
-   url: publications/automatically-scoring-freshman-writing.pdf
-   id: automatically-scoring-freshman-writing
-   abstract: In this work, we explore applications of automatic essay scoring (AES) to a corpus of essays written by college freshmen and discuss the challenges we faced. While most AES systems evaluate highly constrained writing, we developed a system that handles open-ended, long-form writing. We present a novel corpus for this task, containing more than 3,000 essays and drafts written for a freshman writing course. We describe statistical analysis of the corpus and identify problems with automatically scoring this type of data. Finally, we demonstrate how to overcome grader bias by using a multi-task setup, and predict scores as well as human graders on a different dataset. Finally, we discuss how AES can help teachers assign more uniform grades.
-   bibtex: |
-    @InProceedings{napoles-callisonburch:2015:bea,
-      author    = {Napoles, Courtney  and  Callison-Burch, Chris},
-      title     = {Automatically Scoring Freshman Writing: A Preliminary Investigation},
-      booktitle = {Proceedings of the Tenth Workshop on Innovative Use of NLP for Building Educational Applications},
-      month     = {June},
-      year      = {2015},
-      address   = {Denver, Colorado},
-      publisher = {Association for Computational Linguistics},
-      pages     = {254--263}
-    }
-
--
-   title: Extracting Structured Information via Automatic + Human Computation
-   authors: Ellie Pavlick and Chris Callison-Burch
-   venue: HCOMP
-   type: workshop
-   year: 2015
-   url: publications/gun-violence-db.pdf
-   id: gun-violence-db
-   abstract: We present a system for extracting structured information from unstructured text using a combination of information retrieval, natural language processing, machine learning, and crowdsourcing. We test our pipeline by building a structured database of gun violence incidents in the United States. The results of our pilot study demonstrate that the proposed methodology is a viable way of collecting large-scale, up-to-date data for public health, public policy, and social science research.
-   bibtex: |
-    @InProceedings{PavlickAndCallisonBurch-2015:HCOMP:GVDB,
-      author =  {Ellie Pavlick and Chris Callison-Burch},
-      title =   {Extracting Structured Information via Automatic + Human Computation}
-      booktitle = {HCOMP},
-      month     = {November},
-      year      = {2015},
-      address   = {San Diego, California},
-    }
--
-   title: Problems in Current Text Simplification Research&colon; New Data Can Help
-   authors: Wei Xu, Chris Callison-Burch, and Courtney Napoles
-   venue: TACL
-   type: journal
-   year: 2015
-   url: publications/new-data-for-text-simplification.pdf
-   id: new-data-for-text-simplification
-   figures:
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-1.jpg
-         label: Table 1
-         caption: Example sentence pairs (NORM-SIMP) aligned between English Wikipedia and Simple English Wikipedia. The breakdown in percentages is obtained through manual examination of 200 randomly sampled sentence pairs in the Parallel Wikipedia Simplification (PWKP) corpus.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-2.jpg
-         label: Table 2
-         caption: The vocabulary size of the Parallel Wikipedia Simplification (PWKP) corpus and the vocabulary difference between its normal and simple sides (as a 2×2 matrix). Only words consisting of the 26 English letters are counted.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-3.jpg
-         label: Table 3
-         caption: Example of sentences written at multiple levels of text complexity from the Newsela data set. The Lexile readability score and grade level apply to the whole article rather than individual sentences, so the same sentences may receive different scores, e.g. the above sentences for the 6th and 7th grades. The bold font highlights the parts of sentence that are different from the adjacent version(s).
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-figure-1.jpg
-         label: Figure 1
-         caption: Manual classification of aligned sentence pairs from the Newsela corpus. We categorize randomly sampled 50 sentence pairs drawn from the Original-Simp2 and 50 sentences from the Original-Simp4.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-4.jpg
-         label: Table 4
-         caption: Basic statistics of the Newsela Simplification corpus vs. the Parallel Wikipedia Simplification (PWKP) corpus. The Newsela corpus consists of 1130 articles with original and 4 simplified versions each. Simp-1 is of the least simplified level, while Simp-4 is the most simplified. The numbers marked by * are slightly different from previously reported, because of the use of different tokenizers.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-5.jpg
-         label: Table 5
-         caption: This table shows the vocabulary changes between different levels of simplification in the Newsela corpus (as a 5×5 matrix). Each cell shows the number of unique word types that appear in the corpus listed in the column but do not appear in the corpus listed in the row. We also list the average frequency of those vocabulary items. For example, in the cell marked *, the Simp-4 version contains 583 unique words that do not appear in the Original version. By comparing the cells marked **, we see about half of the words (19,197 out of 39,046) in the Original version are not in the Simp-4 version. Most of the vocabulary that is removed consists of low-frequency words (with an average frequency of 2.6 in the Original).
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-6.jpg
-         label: Table 6
-         caption: Top 50 tokens associated with the complex text, computed using the Monroe et al. (2008) method. Bold words are shared by the complex version of Newsela and the complex version of Wikipedia.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-7.jpg
-         label: Table 7
-         caption: Top 50 tokens associated with the simplified text.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-8.jpg
-         label: Table 8
-         caption: Frequency of example words from Table 6. These complex words are reduced at a much greater rate in the simplified Newsela than they are in the Simple English Wikipedia. A smaller odds ratio indicates greater reduction.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-9.jpg
-         label: Table 9
-         caption: Top 30 syntax patterns associated with the complex text (left) and simplified text (right). Bold patterns are the top patterns shared by Newsela and Wikipedia.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-figure-2.jpg
-         label: Figure 2
-         caption: Distribution of document-level compression ratio, displayed as a histogram smoothed by kernel density estimation. The Newsela corpus is more normally distributed, suggesting more consistent quality.
-      -
-         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-figure-3.jpg
-         label: Figure 3
-         caption: A radar chart that visualizes the odds ratio (radius axis) of discourse connectives in simple side vs. complex side. An odds ratio larger than 1 indicates the word is more likely to occur in the simplified text than in the complex text, and vice versa. Simple cue words (in the shaded region), except “hence”, are more likely to be added during Newsela’s simplification process than in Wikipedia’s. Complex conjunction connectives (in the unshaded region) are more likely to be retained in Wikipedia’s simplifications than in Newsela’s.
-   abstract: Simple Wikipedia has dominated simplification research in the past 5 years. In this opinion paper, we argue that focusing on Wikipedia limits simplification research. We back up our arguments with corpus analysis and by highlighting statements that other researchers have made in the simplification literature. We introduce a new simplification dataset that is a significant improvement over Simple Wikipedia, and present a novel quantitative-comparative approach to study the quality of simplification data resources. 
-   bibtex: |
-      @article{Xu-EtAl:2015:TACL,
-         author = {Wei Xu and Chris Callison-Burch and Courtney Napoles},
-         title = {Problems in Current Text Simplification Research: New Data Can
-       Help},
-         journal = {Transactions of the Association for Computational Linguistics},
-         volume = {3},
-         year = {2015},
-         url = {http://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf},
-         pages = {283--297}
-       }
-       
--
    title: Adding Semantics to Data-Driven Paraphrasing
    authors: Ellie Pavlick, Johan Bos, Malvina Nissim, Charley Beller, Benjamin Van Durme, and Chris Callison-Burch
    venue: ACL
@@ -270,8 +86,135 @@
        year = {2015},
        address = {Beijing, China},
        url = {http://www.cis.upenn.edu/~ccb/publications/adding-semantics-to-data-driven-paraphrasing.pdf}
+       }       
+-
+   title: PPDB 2.0&colon; Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification
+   authors: Ellie Pavlick, Pushpendre Rastogi, Juri Ganitkevich, Ben Van Durme, Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2015
+   url: publications/ppdb-reranking.pdf
+   id: ppdb-reranking
+   abstract: We present a new release of the Paraphrase Database. PPDB 2.0 includes a discriminatively re-ranked set of paraphrases that achieve a higher correlation with human judgments than PPDB 1.0’s heuristic rankings. Each paraphrase pair in the database now also includes fine-grained entailment relations, word embedding similarities, and style annotations.
+   bibtex: |
+    @InProceedings{PavlickEtAl-2015:ACL:Semantics,
+      author =  {Ellie Pavlick and Pushpendre Rastogi and Juri Ganitkevich and Ben Van Durme, Chris Callison-Burch},
+      title =   {PPDB 2.0&colon; Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification}
+      booktitle = {Association for Computational Linguistics},
+      month     = {July},
+      year      = {2015},
+      address   = {Beijing, China},
+      publisher = {Association for Computational Linguistics},
+    }
+-
+   title: Domain-Specific Paraphrase Extraction
+   authors: Ellie Pavlick, Juri Ganitkevich, Tsz Ping Chan, Xuchen Yao, Ben Van Durme, Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2015
+   url: publications/domain-specific-paraphrases.pdf
+   id: domain-specific-paraphrases
+   abstract: The validity of applying paraphrase rules depends on the domain of the text that they are being applied to. We develop a novel method for extracting domain-specific paraphrases. We adapt the bilingual pivoting paraphrase method to bias the training data to be more like our target domain of biology. Our best model results in higher precision while retaining complete recall, giving a 10% relative improvement in AUC.
+   bibtex: |
+    @InProceedings{PavlickEtAl-2015:ACL:Domain,
+      author =  {Ellie Pavlick and Juri Ganitkevich and Tsz Ping Chan and Xuchen Yao and Ben Van Durme, Chris Callison-Burch},
+      title =   {Domain-Specific Paraphrase Extraction},
+      booktitle = {Association for Computational Linguistics},
+      month     = {July},
+      year      = {2015},
+      address   = {Beijing, China},
+      publisher = {Association for Computational Linguistics},
+    }
+-
+   title: FrameNet+&colon; Fast Paraphrastic Tripling of FrameNet
+   authors: Ellie Pavlick, Travis Wolfe, Pushpendre Rastogi, Chris Callison-Burch, Mark Drezde, Ben Van Durme
+   venue: ACL
+   type: conference
+   year: 2015
+   url: publications/FrameNetPlus.pdf
+   id: FrameNetPlus
+   abstract: We increase the lexical coverage of FrameNet through automatic paraphrasing. We use crowdsourcing to manually filter out bad paraphrases in order to ensure a high-precision resource. Our expanded FrameNet contains an additional 22K lexical units, a 3-fold increase over the current FrameNet, and achieves 40% better coverage when evaluated in a practical setting on New York Times data.
+   bibtex: |
+    @InProceedings{PavlickEtAl-2015:ACL:FNPlus,
+      author =  {Ellie Pavlick and Travis Wolfe and Pushpendre Rastogi and Chris Callison-Burch and Mark Drezde and Benjamin Van Durme},
+      title =   {FrameNet+: Fast Paraphrastic Tripling of FrameNet},
+      booktitle = {Association for Computational Linguistics},
+      month     = {July},
+      year      = {2015},
+      address   = {Beijing, China},
+      publisher = {Association for Computational Linguistics},
+    }
+-
+   title: Problems in Current Text Simplification Research&colon; New Data Can Help
+   authors: Wei Xu, Chris Callison-Burch, and Courtney Napoles
+   venue: TACL
+   type: journal
+   year: 2015
+   url: publications/new-data-for-text-simplification.pdf
+   id: new-data-for-text-simplification
+   figures:
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-1.jpg
+         label: Table 1
+         caption: Example sentence pairs (NORM-SIMP) aligned between English Wikipedia and Simple English Wikipedia. The breakdown in percentages is obtained through manual examination of 200 randomly sampled sentence pairs in the Parallel Wikipedia Simplification (PWKP) corpus.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-2.jpg
+         label: Table 2
+         caption: The vocabulary size of the Parallel Wikipedia Simplification (PWKP) corpus and the vocabulary difference between its normal and simple sides (as a 2×2 matrix). Only words consisting of the 26 English letters are counted.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-3.jpg
+         label: Table 3
+         caption: Example of sentences written at multiple levels of text complexity from the Newsela data set. The Lexile readability score and grade level apply to the whole article rather than individual sentences, so the same sentences may receive different scores, e.g. the above sentences for the 6th and 7th grades. The bold font highlights the parts of sentence that are different from the adjacent version(s).
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-figure-1.jpg
+         label: Figure 1
+         caption: Manual classification of aligned sentence pairs from the Newsela corpus. We categorize randomly sampled 50 sentence pairs drawn from the Original-Simp2 and 50 sentences from the Original-Simp4.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-4.jpg
+         label: Table 4
+         caption: Basic statistics of the Newsela Simplification corpus vs. the Parallel Wikipedia Simplification (PWKP) corpus. The Newsela corpus consists of 1130 articles with original and 4 simplified versions each. Simp-1 is of the least simplified level, while Simp-4 is the most simplified. The numbers marked by * are slightly different from previously reported, because of the use of different tokenizers.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-5.jpg
+         label: Table 5
+         caption: This table shows the vocabulary changes between different levels of simplification in the Newsela corpus (as a 5×5 matrix). Each cell shows the number of unique word types that appear in the corpus listed in the column but do not appear in the corpus listed in the row. We also list the average frequency of those vocabulary items. For example, in the cell marked *, the Simp-4 version contains 583 unique words that do not appear in the Original version. By comparing the cells marked **, we see about half of the words (19,197 out of 39,046) in the Original version are not in the Simp-4 version. Most of the vocabulary that is removed consists of low-frequency words (with an average frequency of 2.6 in the Original).
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-6.jpg
+         label: Table 6
+         caption: Top 50 tokens associated with the complex text, computed using the Monroe et al. (2008) method. Bold words are shared by the complex version of Newsela and the complex version of Wikipedia.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-7.jpg
+         label: Table 7
+         caption: Top 50 tokens associated with the simplified text.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-8.jpg
+         label: Table 8
+         caption: Frequency of example words from Table 6. These complex words are reduced at a much greater rate in the simplified Newsela than they are in the Simple English Wikipedia. A smaller odds ratio indicates greater reduction.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-table-9.jpg
+         label: Table 9
+         caption: Top 30 syntax patterns associated with the complex text (left) and simplified text (right). Bold patterns are the top patterns shared by Newsela and Wikipedia.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-figure-2.jpg
+         label: Figure 2
+         caption: Distribution of document-level compression ratio, displayed as a histogram smoothed by kernel density estimation. The Newsela corpus is more normally distributed, suggesting more consistent quality.
+      -
+         img: figures/new-data-for-text-simplification/new-data-for-text-simplification-figure-3.jpg
+         label: Figure 3
+         caption: A radar chart that visualizes the odds ratio (radius axis) of discourse connectives in simple side vs. complex side. An odds ratio larger than 1 indicates the word is more likely to occur in the simplified text than in the complex text, and vice versa. Simple cue words (in the shaded region), except “hence”, are more likely to be added during Newsela’s simplification process than in Wikipedia’s. Complex conjunction connectives (in the unshaded region) are more likely to be retained in Wikipedia’s simplifications than in Newsela’s.
+   abstract: Simple Wikipedia has dominated simplification research in the past 5 years. In this opinion paper, we argue that focusing on Wikipedia limits simplification research. We back up our arguments with corpus analysis and by highlighting statements that other researchers have made in the simplification literature. We introduce a new simplification dataset that is a significant improvement over Simple Wikipedia, and present a novel quantitative-comparative approach to study the quality of simplification data resources. 
+   bibtex: |
+      @article{Xu-EtAl:2015:TACL,
+         author = {Wei Xu and Chris Callison-Burch and Courtney Napoles},
+         title = {Problems in Current Text Simplification Research: New Data Can
+       Help},
+         journal = {Transactions of the Association for Computational Linguistics},
+         volume = {3},
+         year = {2015},
+         url = {http://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf},
+         pages = {283--297}
        }
        
+
 -
    title: Cost Optimization for Crowdsourcing Translation
    authors: Mingkun Gao, Wei Xu, and Chris Callison-Burch
@@ -372,6 +315,63 @@
          url = 
        }
        
+-
+   title: Effectively Crowdsourcing Radiology Report Annotations
+   authors: Anne Cocos, Aaron J. Masino, Ting Qian, Ellie Pavlick, and Chris Callison-Burch
+   venue: Sixth International Workshop on Health Text Mining and Information Analysis
+   type: workshop
+   year: 2015
+   url: publications/crowdsourcing-radiology.pdf
+   id: crowdsourcing-radiology
+   abstract: Crowdsourcing platforms are a popular choice for researchers to gather text annotations quickly at scale. We investigate whether crowdsourced annotations are useful when the labeling task requires medical domain knowledge. Comparing a sentence classification model trained with expert-annotated sentences to the same model trained on crowd-labeled sentences, we find the crowdsourced training data to be just as effective as the manually produced dataset. We can improve the accuracy of the crowd-fueled model without collecting further labels by filtering out worker labels applied with low confidence.
+   bibtex: |
+    @InProceedings{CocosEtAl-2015:LOUHI:Radiology,
+      author =  {Anne Cocos and Aaron J. Masino and Ting Qian and Ellie Pavlick and Chris Callison-Burch},
+      title =   {Effectively Crowdsourcing Radiology Report Annotations}
+      booktitle = {Sixth International Workshop on Health Text Mining and Information Analysis},
+      month     = {November},
+      year      = {2015},
+      address   = {Lisbon, Portugal},
+    }
+-
+   title: Automatically Scoring Freshman Writing&colon; A Preliminary Investigation
+   authors: Courtney Napoles and Chris Callison-Burch
+   venue: Workshop on Innovative Use of NLP for Building Educational Applications
+   type: workshop
+   year: 2015
+   url: publications/automatically-scoring-freshman-writing.pdf
+   id: automatically-scoring-freshman-writing
+   abstract: In this work, we explore applications of automatic essay scoring (AES) to a corpus of essays written by college freshmen and discuss the challenges we faced. While most AES systems evaluate highly constrained writing, we developed a system that handles open-ended, long-form writing. We present a novel corpus for this task, containing more than 3,000 essays and drafts written for a freshman writing course. We describe statistical analysis of the corpus and identify problems with automatically scoring this type of data. Finally, we demonstrate how to overcome grader bias by using a multi-task setup, and predict scores as well as human graders on a different dataset. Finally, we discuss how AES can help teachers assign more uniform grades.
+   bibtex: |
+    @InProceedings{napoles-callisonburch:2015:bea,
+      author    = {Napoles, Courtney  and  Callison-Burch, Chris},
+      title     = {Automatically Scoring Freshman Writing: A Preliminary Investigation},
+      booktitle = {Proceedings of the Tenth Workshop on Innovative Use of NLP for Building Educational Applications},
+      month     = {June},
+      year      = {2015},
+      address   = {Denver, Colorado},
+      publisher = {Association for Computational Linguistics},
+      pages     = {254--263}
+    }
+
+-
+   title: Extracting Structured Information via Automatic + Human Computation
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: HCOMP
+   type: workshop
+   year: 2015
+   url: publications/gun-violence-db.pdf
+   id: gun-violence-db
+   abstract: We present a system for extracting structured information from unstructured text using a combination of information retrieval, natural language processing, machine learning, and crowdsourcing. We test our pipeline by building a structured database of gun violence incidents in the United States. The results of our pilot study demonstrate that the proposed methodology is a viable way of collecting large-scale, up-to-date data for public health, public policy, and social science research.
+   bibtex: |
+    @InProceedings{PavlickAndCallisonBurch-2015:HCOMP:GVDB,
+      author =  {Ellie Pavlick and Chris Callison-Burch},
+      title =   {Extracting Structured Information via Automatic + Human Computation}
+      booktitle = {HCOMP},
+      month     = {November},
+      year      = {2015},
+      address   = {San Diego, California},
+    }
 -
    title: Extracting Lexically Divergent Paraphrases from Twitter
    authors: Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan and Yangfeng Ji
