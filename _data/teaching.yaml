@@ -4,7 +4,7 @@
    institution: University of Pennsylvania
    term: Spring
    year: 2015
-   description: This course introduces undergraduates to the fundamental algorithms and data structures that are used in the field of computer science. We introduce methods for analyzing the complexity of an algorithm and predicting the running time of software. We describe data structures like stacks, queues, lists, trees, priority queues, maps, hash tables and graphs, and we discuss how to implement them efficiently and how to use them effectively in software. Course assignments include of weekly assignments consisting of problem sets and programming exercises in Java, and a larger term project. This course has an enrollment of 200 students.
+   description: This course introduces undergraduates to the fundamental algorithms and data structures that are used in the field of computer science. We introduce methods for analyzing the complexity of an algorithm and predicting the running time of software. We describe data structures like stacks, queues, lists, trees, priority queues, maps, hash tables and graphs, and we discuss how to implement them efficiently and how to use them effectively in software. Course assignments include of weekly assignments consisting of problem sets and programming exercises in Java, and a larger term project. This course has an enrollment of 175 students.
    url: http://www.seas.upenn.edu/~cis121/current/
    enrollment: 174
    instructor_rating: 
