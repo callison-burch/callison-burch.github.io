@@ -27,8 +27,6 @@ active_tab: publications
 
 <h3>Past PhD Students</h3>
 
-
-
 <div class="container-fluid">
   <div class="row">
   {% for student in site.data.students_graduated %}
@@ -47,8 +45,34 @@ active_tab: publications
 	{% else %}
 		Advisor: {{student.advisors}}<br />
 	{% endif %}
+	{% if student.current_position and student.current_employer %}
+		Current position: {{ student.current_position }} at {{ student.current_employer }}
+	{% endif %}
       </div>
   {% endfor %}
   </div>
 </div>
+
+
+<h3>Past Postdocs</h3>
+
+<div class="container-fluid">
+  <div class="row">
+  {% for postdoc in site.data.past_postdocs %}
+      <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
+        {% if postdoc.homepage %}
+        <a href="{{ postdoc.homepage }}"><img src="assets/img/students/{{postdoc.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px"/></a><br />
+         <b><a href="{{ postdoc.homepage }}">{{ postdoc.name }}</a></b><br />
+        {% else %}
+	<img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px"/><br />
+         <b>{{ postdoc.name }}</b><br />         
+        {% endif %}
+	{% if postdoc.current_position and postdoc.current_employer %}
+		Current position: {{ postdoc.current_position }} at {{ postdoc.current_employer }}
+	{% endif %}
+      </div>
+  {% endfor %}
+  </div>
+</div>
+
 
