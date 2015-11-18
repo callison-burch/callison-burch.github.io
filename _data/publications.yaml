@@ -1267,7 +1267,7 @@
    type: workshop
    year: 2013
    url: publications/joshua-5.0.pdf
-   id: joshua-5.0
+   id: joshua-5
    figures:
       -
          img: figures/joshua-5.0/joshua-5.0-figure-1.jpg
@@ -1968,7 +1968,7 @@
    type: workshop
    year: 2012
    url: publications/joshua-4.0.pdf
-   id: joshua-4.0
+   id: joshua-4
    figures:
       -
          img: figures/joshua-4.0/joshua-4.0-figure-1.jpg
@@ -2517,7 +2517,7 @@
    type: workshop
    year: 2011
    url: publications/joshua-3.0.pdf
-   id: joshua-3.0
+   id: joshua-3
    figures:
       -
          img: figures/joshua-3.0/joshua-3.0-figure-1.jpg
@@ -3056,7 +3056,7 @@
    type: workshop
    year: 2010
    url: publications/joshua-2.0.pdf
-   id: joshua-2.0
+   id: joshua-2
    abstract: We describe the progress we have made in the past year on Joshua (Li et al., 2009a), an open source toolkit for parsing-based machine translation. The new functionality includes&colon; support for translation grammars with a rich set of syntactic nonterminals, the ability for external modules to posit constraints on how spans in the input sentence should be translated, lattice parsing for dealing with input uncertainty, a semiring framework that provides a unified way of doing various dynamic programming calculations, variational decoding for approximating the intractable MAP decoding, hypergraph-based discriminative training for better feature engineering, a parallelized MERT module, document-level and tail-based MERT, visualization of the derivation trees, and a cleaner pipeline for MT experiments. 
    bibtex: |
       @InProceedings{li-EtAl:2010:WMT,
