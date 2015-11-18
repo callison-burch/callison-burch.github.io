@@ -5,6 +5,8 @@ active_tab: publications
 ---
 
 
+<h3>PhD Students</h3>
+
 <div class="container-fluid">
   <div class="row">
   {% for student in site.data.students %}
@@ -22,6 +24,31 @@ active_tab: publications
   {% endfor %}
   </div>
 </div>
+
+
+
+<h3>Current Undergraduate/Masters RAs</h3>
+
+<div class="container-fluid">
+  <div class="row">
+  {% for student in site.data.research_assistants %}
+      <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
+        {% if student.homepage %}
+        <a href="{{ student.homepage }}"><img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px"/></a><br />
+         <b><a href="{{ student.homepage }}">{{ student.name }}</a></b><br />
+        {% else %}
+	<img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px"/><br />
+         <b>{{ student.name }}</b><br />    
+        {% endif %}     
+        {{ student.degree }}<br />
+	{% if student.project %}
+		Project: {{ student.project }} 
+	{% endif %}
+      </div>
+  {% endfor %}
+  </div>
+</div>
+
 
 
 
