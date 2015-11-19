@@ -3,6 +3,15 @@ title: Research Statement - Chris Callison-Burch
 layout: default
 active_tab: main_page 
 keep_sidebar: false
+figures:
+   -
+      img: figures/research-statement/pivoting.jpg
+      label: Figure 1
+      caption: The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase  <i>imprisoned</i>.
+   -
+      img: figures/research-statement/structural-transformations.pdf
+      label: Table 1
+      caption: We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.
 publications:
 -
    title: Moses&colon; Open source toolkit for statistical machine translation
@@ -291,33 +300,68 @@ publications:
               
 ---
 
+
+
 # Research Statement
 
 
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I have proposed approaching natural language understanding by using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
 My approach to language understanding is inspired by my past research in machine translation.
-The advent of data-driven, statistical models has resulted in dramatically improved quality for machine translation.  Commercial systems like Google Translate, or state-of-the-art research software that I have helped develop (the Moses system ([Koehn et al, 2007](#moses-toolkit)) and the Joshua decoder ([Li et al, 2009](#joshua-open-source-toolkit-for-statistical-machine-translation), [Li et al, 2010](#joshua-2), [Weese et al, 2011](#joshua-3), [Ganitkevitch et al, 2012](#joshua-4), [Post et al, 2013](#joshua-5)) use pairs of English and foreign phrases as their underlying representation.  These phrase pairs are automatically acquired from a large volume of translated documents, and are treated as meaning-equivalent without having an explicit semantic representation.  Vast quantities of bilingual training data allow us to extract a huge number of phrase pairs and to estimate associated probabilities. I assembled the largest publicly available bilingual training data for statistical machine translation, consisting of 22 million sentence pairs with 1.5 billion French + English words ([Callison-Burch et al, 2009](findings-of-the-wmt09-shared-tasks)). This encompasses a huge range of language use from scientific abstracts to movie dialog slang, and thus allows the system to translate a wide variety of input sentences. 
+The advent of data-driven, statistical models has resulted in dramatically improved quality for machine translation.  Commercial systems like Google Translate, or state-of-the-art research software that I have helped develop (the Moses system ([Koehn et al, 2007](#moses-toolkit)) and the Joshua decoder ([Li et al, 2009](#joshua-open-source-toolkit-for-statistical-machine-translation), [Li et al, 2010](#joshua-2), [Weese et al, 2011](#joshua-3), [Ganitkevitch et al, 2012](#joshua-4), [Post et al, 2013](#joshua-5))) use pairs of English and foreign phrases as their underlying representation.  These phrase pairs are automatically acquired from a large volume of translated documents, and are treated as meaning-equivalent without having an explicit semantic representation.  Vast quantities of bilingual training data allow us to extract a huge number of phrase pairs and to estimate associated probabilities. I assembled the largest publicly available bilingual training data for statistical machine translation, consisting of 22 million sentence pairs with 1.5 billion French + English words ([Callison-Burch et al, 2009](findings-of-the-wmt09-shared-tasks)). This encompasses a huge range of language use from scientific abstracts to movie dialog slang, and thus allows the system to translate a wide variety of input sentences. 
 
 
-\begin{wrapfigure}{r}{.35\linewidth}
-\vspace{-.35cm}
-    \includegraphics[width=\linewidth]{images/pivoting.pdf}
-    \caption{The German {\it festgenommen} links the English phrase {\it thrown into jail} to its paraphrase  {\it imprisoned}.}\label{pivoting} 
-\end{wrapfigure}
 Currently, I have three areas of research.  My primary research focus is to automate the understanding of English via paraphrases. I adapt the data, representations, and algorithms from statistical machine translation to facilitate natural language understanding.  In addition, I have two other research directions.  One attempts to extend machine translation so that it may be applied to a wider range of languages by doing away with the necessity for bilingual parallel corpora.  Instead, my research focuses on learning translations from monolingual texts in two languages.  My third research focus is on using crowdsourcing to explore new areas of natural language processing.  (This crowdsourcing work has even extended beyond NLP and now includes social justice issues, including workers' rights and gun violence in the United States.)
 
 
 ## Natural Language Understanding via Paraphrasing
+<!-- figures button -->
+<h1><a data-toggle="modal" href="#research-statement-figures" data-slide-to="5" class="label label-primary">Figures</a></h1>
+<!-- /.figures button -->
+<!-- figures-content -->
+<div id="research-statement-figures" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="research-statement">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="research-statement">Research Statement Figures</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+	 <!-- Carousel -->
+	<div id="research-statement-figures-carousel" class="carousel slide" data-interval="false">
 
-
-\begin{figure}
-\begin{center}
-    \includegraphics[width=.7\linewidth]{images/structural-transformations.pdf}
-\end{center}
-    \caption{We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.}\label{structural-transformations} 
-%\end{wrapfigure}
-\end{figure}
+	  <!-- Carousel items -->
+	  <div class="carousel-inner" role="listbox">
+                {% assign isFirstFigure = 1 %}
+	  	{% for figure in page.figures %}
+		  	{% if isFirstFigure == 1 %}
+			  	<div class="item active">
+                		{% assign isFirstFigure = 0 %}
+		  	{% else %}
+			  	<div class="item">
+                	{% endif %}
+					<p><b>{{figure.label}}:</b> {{figure.caption}}</p>
+<img src="{{figure.img}}" alt="" width="100%">
+				</div>
+		{% endfor %}
+	  </div>
+	  <!-- /.Carousel items -->
+	  <!-- Controls -->
+		<a class="left carousel-control" href="#research-statement-figures-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:gray"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#research-statement-figures-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:gray"></span>
+		<span class="sr-only">Next</span>
+		</a>
+	  <!-- /.Controls -->
+	</div>
+	<!-- /.Carousel -->
+         </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+   </div><!-- /.modal-dialog -->
+</div><!-- /.figures-content -->
 
 
 I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure \ref{pivoting} illustrates the method \citep{Callison-Burch2007}.  {\it Thrown into jail} occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, {\it thrown into jail} not only paraphrases as {\it imprisoned}, but also as {\it arrested, detained, incarcerated, jailed, locked up, taken into custody}, and {\it thrown into prison}. 
@@ -511,16 +555,14 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 ## Bibliography 
 
   
-
 <table class="table"> 
   <tbody>
 
-  {% for year in (2000..2015) reversed %}
+  {% for year in (2000..2014) reversed %}
     {% for publication in page.publications %}
     {%if publication.year == year%}
     <tr>
-      <td> 
-        <div id="{{publication.id}}">
+      <td>
 	{% if publication.url %}
 		<a href="{{ publication.url }}">{{ publication.title }}.</a>
         {% else %}
@@ -528,6 +570,7 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	{% endif %}
 	{{ publication.authors }}.
 	{{ publication.venue }}-{{ publication.year }}.
+
 	{% if publication.abstract %}
 	<!-- abstract button -->
 	<a data-toggle="modal" href="#{{publication.id}}-abstract" class="label label-success">Abstract</a>
@@ -549,8 +592,7 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	{% endif %}
 
 
-<!-- ccb - turning off figures for now, until I can figure out how to load them in a lazy fashion, so that the user doesn't get bombarded with so much data -->
-	{% if publication.figures_TURN_OFF_FOR_NOW %}
+	{% if publication.figures %}
 	<!-- figures button -->
 	<a data-toggle="modal" href="#{{publication.id}}-figures" class="label label-primary">Figures</a>
 	<!-- /.figures button -->
@@ -572,11 +614,9 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	  	{% for figure in publication.figures %}
 		  	{% if isFirstFigure == 1 %}
 			  	<div class="item active">
-				<!-- ccb testing adding abstract as first time on carousel -->
 			        <b>Abstract:</b> {{publication.abstract}}
 				</div>
 			  	<div class="item">
-				<!-- /ccb end testing adding abstract as first time on carousel -->
                 		{% assign isFirstFigure = 0 %}
 		  	{% else %}
 			  	<div class="item">
@@ -629,7 +669,6 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	{% endif %}
 
 
-	</div>
 
 	</td>
     <tr>
