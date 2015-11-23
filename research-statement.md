@@ -164,17 +164,17 @@ My goal is to go beyond simply expanding bilingual dictionaries so that we can u
 
 ## Crowdsourcing
 
+My third research focus is crowdsourcing.  The idea of using crowdsourcing to create annotated data for natural language processing applications is a relatively new topic, and it raises a number of scientific challenges. Rather than treating annotated training data as a gold standard created by experts whose labels are authoritative, we must cope with the fact that we have anonymous, non-expert annotators whose labels are noisy and who may not even be doing the task conscientiously. We build models of the annotators themselves, and use those models to create high quality labeled training data by soliciting redundant labels and making predictions about which labels and which annotators are most likely to be correct. The ability to accurately model the annotators has direct implications for the cost of creating a labeled training data set, since we can decide how much to trust a given annotator's label and whether soliciting a redundant label would be likely to improve the accuracy. 
+
+
 <div class="container-fluid">
 <div class="row">
 <div class="col-lg-12" style="margin-bottom: 20px">
 <img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg"  style="height: 100%; width: 100%;"/><br />
-<b>Figure 5:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among the 4 redundant translations that they produced for each source sentence.  The oracles suggest that the Turker translation quality could be as good as a professional's, if we had a reliable way of picking the best translation.
+<b>Figure 5:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations.  
 </div>
 </div>
 </div>
-
-My third research focus is crowdsourcing.  The idea of using crowdsourcing to create annotated data for natural language processing applications is a relatively new topic, and it raises a number of scientific challenges. Rather than treating annotated training data as a gold standard created by experts whose labels are authoritative, we must cope with the fact that we have anonymous, non-expert annotators whose labels are noisy and who may not even be doing the task conscientiously. We build models of the annotators themselves, and use those models to create high quality labeled training data by soliciting redundant labels and making predictions about which labels and which annotators are most likely to be correct. The ability to accurately model the annotators has direct implications for the cost of creating a labeled training data set, since we can decide how much to trust a given annotator's label and whether soliciting a redundant label would be likely to improve the accuracy. 
-
 
 
 One of my first successes with crowdsourcing for NLP was to show that the quality of Urdu-English translations produced by non-professional translators can be made to approach the quality of professional translation at a fraction of the cost  ([Zaidan and Callison-Burch (2011)](#crowdsourcing-translation))  Figure 5 highlights the main findings of the study.  It shows that through judicious application of quality control techniques, crowdsourced translations can fall in the range that we would expect of professional translators. This, combined with the fact that crowdsourced translations are more than an order of magnitude cheaper, opens the real possibility of creating training data for SMT, previously thought to be too expensive to create from scratch. I have established myself as one of the foremost experts in crowdsourcing as applied to language ([Callison-Burch and Dredze (2010)](#creating-speech-and-language-data-with-amazon-mechanical-turk))  . I have used crowdsourcing to create a wide range of new NLP data sets, which approach the size and quality of ones produced by the Linguistics Data Consortium (LDC).   Here's a sample of what I have produced:
