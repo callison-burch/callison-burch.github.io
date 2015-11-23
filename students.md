@@ -5,7 +5,7 @@ active_tab: publications
 ---
 
 
-<h3>PhD Students and Postdocs</h3>
+<h3 id="students">PhD Students and Postdocs</h3>
 
 <div class="container-fluid">
   <div class="row">
@@ -27,7 +27,7 @@ active_tab: publications
 
 
 
-<h3>Current Undergraduate/Masters RAs</h3>
+<h3 id="RAs">Current Undergraduate/Masters RAs</h3>
 
 <div class="container-fluid">
   <div class="row">

@@ -3,6 +3,8 @@ title: Teaching Statement - Chris Callison-Burch
 layout: default
 active_tab: main_page 
 keep_sidebar: false
+publications:
+- teaching-machine-translation
 ---
 
 # Teaching Statement
@@ -14,7 +16,7 @@ I teach three courses at Penn.  Two are courses related to my research, and one 
 ## [Machine Translation CIS 526](http://mt-class.org/penn/)
 
 I have been working in the field of machine translation since 2000, when statistical data-driven approaches became the dominant paradigm.  Statistical machine translation emerged as the clear winner of more than a decade's worth of DARPA bakeoffs, and it underlies commercial translation services like Google's online translation platform and Skype's speech-to-speech translation.  I co-designed a course at Johns Hopkins University with my colleagues Adam Lopez and Matt Post to teach the fundamental techniques that underlie statistical machine translation to graduate students and advanced undergrads.  In addition to a set of 20+ full lectures, we created an innovative set of hands-on projects.  We published a journal article about the course projects
-[(Lopez et al, 2013)](publications/teaching-machine-translation.pdf).  Here is the abstract of the article: 
+[(Lopez et al, 2013)](#teaching-machine-translation).  Here is the abstract of the article: 
 
 
 > Machine translation (MT) draws from several different disciplines, making it a complex subject to teach. There are excellent pedagogical texts, but problems in MT and current algorithms for solving them are best learned by doing. As a centerpiece of our MT course, we devised a series of open-ended challenges for students in which the goal was to improve performance on carefully constrained instances of four key MT tasks: alignment, decoding, evaluation, and reranking. Students brought a diverse set of techniques to the problems, including some novel solutions which performed remarkably well. A surprising and exciting outcome was that student solutions or their combinations fared competitively on some tasks, demonstrating that even newcomers to the field can help improve the state-of-the-art on hard NLP problems while simultaneously learning a great deal. The problems, baseline code, and results are freely available.
@@ -35,7 +37,7 @@ I designed the course to appeal to students in Penn's interdisciplinary major Ne
 
 In the homework assignments, we build a structured database about all reported incidents of gun violence in the United States.   This idea came through a collaboration with Doug Weibe, a professor in Department of Biostatistics and Epidemiology in Penn's School of Medicine, who studies gun violence from a public heath perspective.  Congress has blocked the CDC and NIH from conducting research on this topic.  The homework assignments in NETS 213 combine together to create exactly the sort of gun violence database that partisan congressional action has sought to block. First, students use machine learning to train a text classifier to predict whether an article describes an incident of gun violence or not.  They apply it to more than 2 million web pages harvested from over 2,000 local newspapers around the country. Next, they have crowd workers validate the predictions of the classifier.  The students learn how to use Mechanical Turk and how to perform quality control on contributions from anonymous crowd workers.  They then build an interface that allows crowd workers to extract structured information from the gun violence articles (including things like the location of the shooting, demographic information of the shooter and the victim, and details about the circumstances like whether alcohol was involved, or if it was an incident of domestic violence).  Finally they create visualizations to analyze the structured data that they created.  
 
-My goal is to engage students by showing them how research can have social impact.  So far the strategy has been working.  The course enrollment doubled from 25 students in the first year, to 50 in the second.  I expect 75+ students to take it when I teach it again this Spring.
+My goal is to engage students by showing them how research can have social impact.  So far the strategy has been working.  The course enrollment doubled from 25 students in the first year, to 50 in the second.  75 students have enrolled to take it when I teach it again this Spring, and an additional 29 are on the waitlist.
  
 ## [Data Structures and Algorithms (CIS 121)](http://www.seas.upenn.edu/~cis121/current/)
 
@@ -54,5 +56,132 @@ I am currently working with 8 undergraduate and master's student RAs.  My own ca
 
 I am proud of my track record of trying to promote women in computer science.   At Johns Hopkins University, I was the chair of the diversity committee for the CS department.  I helped to start a Women in Computer Science (WiCS) group.  The goals of WiCS were to foster a sense of community and to improve retention of women in our undergraduate program. We offered undergraduates mentorship from female graduate students and from faculty (like myself), introduced the students to research opportunities,  offered them advice on applying for graduate programs and jobs post-graduation, and wrote letters of recommendation for NSF Fellowships and grad school. I mentored 6 undergraduates at JHU through WiCS.  One of them, Ellie Pavlick, went on to apply to the PhD program at Penn.  She has become one of my strongest PhD students.
 
-Of the PhD students and postdocs who I am currently advising at JHU and Penn, 4 of 6 are women.  At Penn, 100% of them are women. Of the undergraduates and master's students who I am now mentoring,  5 of 8  are women.  I hope to continue improving the gender diversity of the computer science department here, and I feel that the best way of doing so it to engage women in research. 
+Of the [PhD students and postdocs who I am currently advising](students.html#phds) at JHU and Penn, 4 of 6 are women.  At Penn, 100% of them are women. Of [the undergraduates and master's students who I am now mentoring](students.html#RAs),  5 of 8  are women.  I hope to continue improving the gender diversity of the computer science department here, and I feel that the best way of doing so it to engage women in research. 
 
+
+## Bibliography 
+
+  
+<table class="table"> 
+  <tbody>
+
+{% for year in (2000..2015) reversed %}
+ {% for id in page.publications %}
+  {% for publication in site.data.publications %}
+   {% if publication.id == id %} 
+    {% if publication.year == year %}
+    <tr id="{{ publication.id }}">
+      <td>
+	{% if publication.url %}
+		<a href="{{ publication.url }}">{{ publication.title }}.</a>
+        {% else %}
+		{{ publication.title }}.
+	{% endif %}
+	{{ publication.authors }}.
+	{{ publication.venue }}-{{ publication.year }}.
+
+	{% if publication.abstract %}
+	<!-- abstract button -->
+	<a data-toggle="modal" href="#{{publication.id}}-abstract" class="label label-success">Abstract</a>
+	<!-- /.abstract button -->
+	<!-- abstract content -->
+	<div id="{{publication.id}}-abstract" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{publication.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{publication.id}}">{{publication.title}}</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+        {{publication.abstract}}
+        </div><!-- /.modal-body -->
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+	</div><!-- /.abstract-content -->
+	{% endif %}
+
+
+	{% if publication.figures %}
+	<!-- figures button -->
+	<a data-toggle="modal" href="#{{publication.id}}-figures" class="label label-primary">Figures</a>
+	<!-- /.figures button -->
+	<!-- figures content -->
+	<div id="{{publication.id}}-figures" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{publication.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{publication.id}}">{{publication.title}}</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+	 <!-- Carousel -->
+	<div id="{{publication.id}}-figures-carousel" class="carousel slide" data-interval="false">
+
+	  <!-- Carousel items -->
+	  <div class="carousel-inner" role="listbox">
+                {% assign isFirstFigure = 1 %}
+	  	{% for figure in publication.figures %}
+		  	{% if isFirstFigure == 1 %}
+			  	<div class="item active">
+			        <b>Abstract:</b> {{publication.abstract}}
+				</div>
+			  	<div class="item">
+                		{% assign isFirstFigure = 0 %}
+		  	{% else %}
+			  	<div class="item">
+                	{% endif %}
+					<p><b>{{figure.label}}:</b> {{figure.caption}}</p>
+<img src="{{figure.img}}" alt="" width="100%">
+				</div>
+		{% endfor %}
+	  </div>
+	  <!-- /.Carousel items -->
+	  <!-- Controls -->
+		<a class="left carousel-control" href="#{{publication.id}}-figures-carousel" role="button" data-slide="prev">
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:gray"></span>
+		<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#{{publication.id}}-figures-carousel" role="button" data-slide="next">
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:gray"></span>
+		<span class="sr-only">Next</span>
+		</a>
+	  <!-- /.Controls -->
+	</div>
+	<!-- /.Carousel -->
+
+        </div><!-- /.modal-body -->
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+	</div><!-- /.figures-content -->
+	{% endif %}
+
+
+	{% if publication.bibtex %}
+	<!-- bibtex button -->
+	<a data-toggle="modal" href="#{{publication.id}}-bibtex" class="label label-default">BibTex</a>
+	<!-- /.bibtex button -->
+	<!-- bibtex content -->
+	<div id="{{publication.id}}-bibtex" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{publication.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{publication.id}}">{{publication.title}}</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+ 	   <pre>{{publication.bibtex}}
+           </pre>
+        </div><!-- /.modal-body -->
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+	</div><!-- /.bibtex-content -->
+	{% endif %}
+	</td>
+    <tr>
+    {% endif %}
+   {% endif %}
+  {% endfor %}
+ {% endfor %}
+{% endfor %}
+  </tbody>
+</table>
