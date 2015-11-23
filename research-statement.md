@@ -122,19 +122,19 @@ To build statistical machine translation systems without parallel corpora, I hav
 </div>
 <div class="container-fluid">
 <div class="row">
-<div class="col-lg-8 col-md-6 col-xs-12">
+<div class="col-lg-6 col-xs-12">
 My students and I have examined combining a diverse set of monolingually-derived signals of translation equivalence <a href="#supervised-bilingual-lexicon-induction">(Irvine and Callison-Burch (2013))</a>. In addition to vector space models, we have incorporated a diverse set of signals including temporal similarity (Figure 4), orthographic similarity,  and topical similarity.  Table 3 shows examples of the highest ranking English translations of 5 Spanish words for several of our signals of translation equivalence.  Each signal produces different types of errors.(For instance, using topic similarity, <i>montana, miley</i>, and <i>hannah</i> are ranked highly as candidate translations of the Spanish word <i>montana</i>. 
 The TV character Hannah Montana is played by actress Miley Cyrus, so the topic similarity between these words makes sense.)  
 </div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
+<div class="col-lg-6 col-xs-12" style="margin-bottom: 20px">
 <img src="figures/research-statement/temporal.jpg"  style="height: 100%; width: 100%;"/><br />
 <b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
 </div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
+<div class="col-lg-6 col-xs-12" style="margin-bottom: 20px">
 <img src="figures/research-statement/ranked-translations.jpg"  style="height: 100%; width: 100%;"/><br />
 <b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
 </div>
-<div class="col-lg-8 col-md-6 col-xs-12">
+<div class="col-lg-6 col-xs-12">
 My group has conducted a study of bilingual lexicon induction on a wide range of languages and data sizes <a href="#discriminative-bilingual-lexicon-induction">(Irvine and Callison-Burch (in submission))</a>.
 We examine translation into 
 English from 25 foreign languages: Albanian, 
