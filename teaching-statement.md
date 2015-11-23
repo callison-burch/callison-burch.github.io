@@ -13,7 +13,7 @@ I teach three courses at Penn.  Two are courses related to my research, and one 
 
  
 
-## [Machine Translation CIS 526](http://mt-class.org/penn/)
+## [Machine Translation (CIS 526)](http://mt-class.org/penn/)
 
 I have been working in the field of machine translation since 2000, when statistical data-driven approaches became the dominant paradigm.  Statistical machine translation emerged as the clear winner of more than a decade's worth of DARPA bakeoffs, and it underlies commercial translation services like Google's online translation platform and Skype's speech-to-speech translation.  I co-designed a course at Johns Hopkins University with my colleagues Adam Lopez and Matt Post to teach the fundamental techniques that underlie statistical machine translation to graduate students and advanced undergrads.  In addition to a set of 20+ full lectures, we created an innovative set of hands-on projects.  We published a journal article about the course projects
 [(Lopez et al, 2013)](#teaching-machine-translation).  Here is the abstract of the article: 
