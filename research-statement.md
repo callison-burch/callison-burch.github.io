@@ -3,15 +3,6 @@ title: Research Statement - Chris Callison-Burch
 layout: default
 active_tab: main_page 
 keep_sidebar: false
-figures:
-   -
-      img: figures/research-statement/pivoting.jpg
-      label: Figure 1
-      caption: The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase  <i>imprisoned</i>.
-   -
-      img: figures/research-statement/structural-transformations.pdf
-      label: Table 1
-      caption: We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.
 publications:
 - moses-toolkit
 - joshua-open-source-toolkit-for-statistical-machine-translation
@@ -30,6 +21,7 @@ publications:
 - new-data-for-text-simplification
 - toward-statistical-machine-translation-without-parallel-corpora
 - end-to-end-smt-with-zero-or-small-bitexts
+- supervised-bilingual-lexicon-induction
 - discriminative-bilingual-lexicon-induction
 - crowdsourcing-translation
 - creating-speech-and-language-data-with-amazon-mechanical-turk
@@ -314,9 +306,6 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	</div><!-- /.modal-dialog -->
 	</div><!-- /.bibtex-content -->
 	{% endif %}
-
-
-
 	</td>
     <tr>
     {% endif %}

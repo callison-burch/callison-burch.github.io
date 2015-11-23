@@ -4,18 +4,6 @@ layout: default
 active_tab: publications
 ---
 
-<!-- ccb - todo - move this to the side column 
-<div class="col-md-3">
-	<div class="sidenav" data-spy="affix">
-		<ul class="nav nav-stacked">
-		{% for year in (2000..2015) reversed %}
-			<li><a href="#{{ year }}">{{ year }}</a></li>
-		{% endfor %}
-		</ul>
-	</div>
-</div> 
--->
-  
 
 <table class="table"> 
   <tbody>
