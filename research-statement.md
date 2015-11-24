@@ -53,36 +53,29 @@ Currently, I have three areas of research.  My primary research focus is to auto
 
 ## Natural Language Understanding via Paraphrasing
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-8 col-md-6 col-xs-12">
-I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure 1 illustrates the method <a href="#callison-burch-thesis">(Callison-Burch (2007))</a>.  <i>Thrown into jail</i> occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, <i>thrown into jail</i> not only paraphrases as <i>imprisoned</i>, but also as <i>arrested, detained, incarcerated, jailed, locked up, taken into custody</i>, and <i>thrown into prison</i>.  However, not all the paraphrases are uniformly good.  The baseline method also extracts candidate paraphrases that mean the same thing, but do not share the same syntactic category as the original phrase, such as <i>be thrown in prison, been thrown into jail, being arrested, in jail, in prison, put in prison for, were thrown into jail,</i> and <i>who are held in detention</i>. It is also prone to generating many bad paraphrases, such as <i>maltreated, thrown, cases, custody, arrest, owners,</i> and <i>protection</i>, because of noisy/inaccurate word alignments and other problems.  Separating good paraphrases from bad presents fascinating research challenges <a href="#ppdb-reranking">(Pavlick et al (2015))</a>.
+<div class="pull-right" style="width: 50%; max-width: 400px">
+<img src="figures/research-statement/pivoting.jpg" alt="Figure 1" class="img-responsive" /><br />
+<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
 </div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/pivoting.jpg"  style="height: 100%; width: 100%;" /><br />
-<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase  <i>imprisoned</i>.
-</div>
-</div>
-</div>
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-8 col-md-6 col-xs-12">
-I have extended the bilingual pivoting methodology to syntactic representations of translation rules.  This builds on my research group's work into adding syntactic information into statistical machine translation rules. We have adopted a synchronous context free grammar (SCFG) representation for our Joshua decoder, and we demonstrated that it is useful for translating between languages with different word orders like Urdu's subject-object-verb order and English's subject-verb-object order
- <a href="#semantically-informed-syntactic-machine-translation">(Baker et al (2010))</a>.  Instead of pivoting over foreign phrases, we can pivot over foreign SCFG rules, as shown in Figure 2.
-This allows us to automatically acquire meaning-preserving syntactic transformations like the English possessive rule.  This rule is a general transformation that can apply to most noun phrases in English.  It allows us to recognize that <i>the laptop's screen</i> can be rewritten as <i>the screen of the laptop</i>.
- Table 1 shows a variety of other meaning-preserving structural transformations that we learn in this way 
- <a href="#learning-sentential-paraphrases-from-bilingual-parallel-corpora">(Ganitkevitch et al (2011))</a> 
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/scfg-paraphrase-rule.jpg"  style="height: 100%; width: 100%; max-width: 400px"/><br />
+
+I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure 1 illustrates the method ([Callison-Burch (2007)](#callison-burch-thesis)).  *Thrown into jail* occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, *thrown into jail* not only paraphrases as *imprisoned*, but also as *arrested, detained, incarcerated, jailed, locked up, taken into custody*, and *thrown into prison*.  However, not all the paraphrases are uniformly good.  The baseline method also extracts candidate paraphrases that mean the same thing, but do not share the same syntactic category as the original phrase, such as *be thrown in prison, been thrown into jail, being arrested, in jail, in prison, put in prison for, were thrown into jail,* and *who are held in detention*. It is also prone to generating many bad paraphrases, such as *maltreated, thrown, cases, custody, arrest, owners,* and *protection*, because of noisy/inaccurate word alignments and other problems.  Separating good paraphrases from bad presents fascinating research challenges ([Pavlick et al (2015)](#ppdb-reranking)).
+
+
+<div class="pull-right" style="width: 50%; max-width: 400px">
+<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2" class="img-responsive" /><br />
 <b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
 </div>
-<div class="col-lg-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/structural-transformations.jpg"  style="height: 100%; width: 100%; max-width: 800px"/><br />
+
+
+I have extended the bilingual pivoting methodology to syntactic representations of translation rules.  This builds on my research group's work into adding syntactic information into statistical machine translation rules. We have adopted a synchronous context free grammar (SCFG) representation for our Joshua decoder, and we demonstrated that it is useful for translating between languages with different word orders like Urdu's subject-object-verb order and English's subject-verb-object order
+([Baker et al (2010)](#semantically-informed-syntactic-machine-translation)).  Instead of pivoting over foreign phrases, we can pivot over foreign SCFG rules, as shown in Figure 2. This allows us to automatically acquire meaning-preserving syntactic transformations like the English possessive rule.  This rule is a general transformation that can apply to most noun phrases in English.  It allows us to recognize that *the laptop's screen* can be rewritten as *the screen of the laptop*. Table 1 shows a variety of other meaning-preserving structural transformations that we learn in this way ([Ganitkevitch et al (2011)](#learning-sentential-paraphrases-from-bilingual-parallel-corpora)).
+
+
+<div class="pull-right" style="width: 100%; max-width: 800px">
+<img src="figures/research-statement/structural-transformations.jpg"  alt="Table 1" class="img-responsive" /><br />
 <b>Table 1:</b> We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.
 </div>
-</div>
-</div>
+
 
 We used my bilingual pivoting technique to create the paraphrase database, called PPDB for short  ([Ganitkevitch et al, 2013](#ppdb)).   PPDB contains 8 million synonyms, 68 million phrasal paraphrases, and 94 million meaning-preserving syntactic transformations.  PPDB is freely available from our web site [paraphrase.org](http://paraphrase.org/#/search?q=freely%20available&filter=&lang=en).  It is a much larger resource than the manually-constructed WordNet resource that is heavily used in NLP research.  PPDB has made immediate impact and was widely adopted by other researchers.  It has been cited 88 times in the two years since its publication, and it was central to the research described in the NAACL 2015 best paper ([Faruqui et al, 2015](http://aclweb.org/anthology/N/N15/N15-1184.pdf)) on retrofitting word vectors to semantic lexicons.  The NAACL paper shows that PPDB has enormous potential for improving deep learning of word embeddings.  I plan to explore this connection further. 
 
@@ -92,10 +85,14 @@ Over the past year we made several advances to PPDB that improve its usefulness 
 - **Domain adaptation**: Language is used differently in different domains.  In [Pavlick et al (2015)](#domain-specific-paraphrases) we demonstrate an algorithm that is able to automatically adapt paraphrases to suit a particular domain.  For instance, paraphrase of the word *divide* when used in biology should include *division, break, split, dispense, multiply, cleave, fracture, separate, mitotic division, partition* since it refers to cellular division/multiplication.  In a parliamentary domain it more commonly refers to the divide between rich and poor, and should be paraphrased as *gap, division, gulf, separate, distinction, rift, difference*.
 - **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and Xu et al (accepted), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  
 
-<div class="col-lg-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/semantic-entailment-types.jpg"  style="height: 100%; width: 100%; max-width: 800px"/><br />
+
+<div class="pull-right" style="width: 100%; max-width: 800px">
+<img src="figures/research-statement/semantic-entailment-types.jpg" alt="Table 2" class="img-responsive"/><br />
 <b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
 </div>
+
+
+
 
 The goal of the paraphrasing line of my research is to push the longstanding AI goal of language understanding forward with data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.
 
@@ -108,42 +105,36 @@ Statistical machine translation has long been purported to be ``language indepen
 
 Like other statistical NLP systems and machine learning applications, the  performance of statistical machine translation improves as more training data is used.   For a few language pairs, we have tremendous amounts of training data --  I created a French-English parallel corpus with nearly 1 billion words on  each side, the DARPA GALE program produced Arabic-English and Chinese-English parallel corpora with 250 million words in each language, and we have somewhere on the order of 50--100 million words worth of parallel data for the official languages of the European Union.  However, for most language pairs, we have comparatively tiny amounts of bilingual training data, which means that current statistical machine translation techniques will not work.  
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-8 col-md-6 col-xs-12">
-To build statistical machine translation systems without parallel corpora, I have revived research started by <a href="http://www.aclweb.org/anthology/P/P99/P99-1067.pdf">Rapp (1999)</a>, who investigated  inducing bilingual lexicons from monolingual texts.  The method uses vector-space semantic models to build a context vector representing words whose  translations are unknown.  The elements in an unknown word's vector are projected into the vector space of the other language using the known translations from a small seed bilingual dictionary.  This sparse projected vector is compared to the vectors for all words in the target language.  The word whose vector is most similar to the projected vector is considered to be the best translation of the unknown word.  This process is illustrated in Figure 3.  I have successfully replicated the results of Rapp (1999), and used the method to estimate the parameters of phrase-based statistical machine translation systems 
-<a href="#toward-statistical-machine-translation-without-parallel-corpora">(Klementiev et al (2012)</a>, <a href="#end-to-end-smt-with-zero-or-small-bitexts">(Irvine and Callison-Burch (2015))</a>.  The advantage of this paradigm is that it only requires a small bilingual dictionary and large monolingual corpora, rather than bilingual parallel data.
-</div>
-<div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/context.jpg"  style="height: 100%; width: 100%;"/><br />
+<div class="pull-right" style="width: 50%; max-width: 400px">
+<img src="figures/research-statement/context.jpg" alt="Figure 3" class="img-responsive" /><br />
 <b>Figure 3:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
 </div>
-</div>
-</div>
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-6 col-xs-12">
-My students and I have examined combining a diverse set of monolingually-derived signals of translation equivalence <a href="#supervised-bilingual-lexicon-induction">(Irvine and Callison-Burch (2013))</a>. In addition to vector space models, we have incorporated a diverse set of signals including temporal similarity (Figure 4), orthographic similarity,  and topical similarity.  Table 3 shows examples of the highest ranking English translations of 5 Spanish words for several of our signals of translation equivalence.  Each signal produces different types of errors.(For instance, using topic similarity, <i>montana, miley</i>, and <i>hannah</i> are ranked highly as candidate translations of the Spanish word <i>montana</i>. 
-The TV character Hannah Montana is played by actress Miley Cyrus, so the topic similarity between these words makes sense.)  
-</div>
-<div class="col-lg-6 col-xs-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/temporal.jpg"  style="height: 100%; width: 100%;"/><br />
+
+
+To build statistical machine translation systems without parallel corpora, I have revived research started by <a href="http://www.aclweb.org/anthology/P/P99/P99-1067.pdf">Rapp (1999)</a>, who investigated  inducing bilingual lexicons from monolingual texts.  The method uses vector-space semantic models to build a context vector representing words whose  translations are unknown.  The elements in an unknown word's vector are projected into the vector space of the other language using the known translations from a small seed bilingual dictionary.  This sparse projected vector is compared to the vectors for all words in the target language.  The word whose vector is most similar to the projected vector is considered to be the best translation of the unknown word.  This process is illustrated in Figure 3.  I have successfully replicated the results of Rapp (1999), and used the method to estimate the parameters of phrase-based statistical machine translation systems 
+<a href="#toward-statistical-machine-translation-without-parallel-corpora">(Klementiev et al (2012)</a>, <a href="#end-to-end-smt-with-zero-or-small-bitexts">(Irvine and Callison-Burch (2015))</a>.  The advantage of this paradigm is that it only requires a small bilingual dictionary and large monolingual corpora, rather than bilingual parallel data.
+
+
+<div class="pull-right" style="width: 50%; max-width: 400px">
+<img src="figures/research-statement/temporal.jpg" alt="Figure 4" class="img-responsive" /><br />
 <b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
 </div>
-<div class="col-lg-6 col-xs-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/ranked-translations.jpg"  style="height: 100%; width: 100%;"/><br />
-<b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
-</div>
-<div class="col-lg-6 col-xs-12">
+
+
+My students and I have examined combining a diverse set of monolingually-derived signals of translation equivalence <a href="#supervised-bilingual-lexicon-induction">(Irvine and Callison-Burch (2013))</a>. In addition to vector space models, we have incorporated a diverse set of signals including temporal similarity (Figure 4), orthographic similarity,  and topical similarity.  Table 3 shows examples of the highest ranking English translations of 5 Spanish words for several of our signals of translation equivalence.  Each signal produces different types of errors.(For instance, using topic similarity, *montana, miley*, and *hannah* are ranked highly as candidate translations of the Spanish word *montana*. 
+The TV character Hannah Montana is played by actress Miley Cyrus, so the topic similarity between these words makes sense.)  
+
+
+
 My group has conducted a study of bilingual lexicon induction on a wide range of languages and data sizes <a href="#discriminative-bilingual-lexicon-induction">(Irvine and Callison-Burch (in submission))</a>.
 We examine translation into 
 English from 25 foreign languages: Albanian, 
 Azeri, Bengali, Bosnian, Bulgarian, Cebuano, Gujarati, Hindi, Hungarian, Indonesian, Latvian, Nepali, Romanian, Serbian, Slovak, Somali, Spanish, Swedish, Tamil, Telugu, Turkish, Ukrainian, Uzbek, Vietnamese and Welsh.  Rather than testing solely on high frequency words, as previous research has done, we test on low frequency as well, so that our results are more relevant to statistical machine translation, where systems typically lack translations of rare words that fall outside of their training data.  We systematically explore a wide range of features and phenomena that affect the quality of the translations discovered by bilingual lexicon induction. We give illustrative examples of the highest ranking translations for orthogonal signals of translation equivalence like contextual similarity and temporal similarity.  We analyze the effects of frequency and burstiness, and the sizes of the seed bilingual dictionaries and the monolingual training corpora.  Our model performs better than the previous state-of-the-art matching canonical correlation analysis (MCCA) algorithm, achieving an accuracy of 42% versus MCCA's 15%.
-</div>
-</div>
-</div>
 
- 
+<div class="pull-right" style="width: 50%; max-width: 400px">
+<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3" class="img-responsive" /><br />
+<b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
+</div>
 
  
  
@@ -159,13 +150,9 @@ My goal is to go beyond simply expanding bilingual dictionaries so that we can u
 My third research focus is crowdsourcing.  The idea of using crowdsourcing to create annotated data for natural language processing applications is a relatively new topic, and it raises a number of scientific challenges. Rather than treating annotated training data as a gold standard created by experts whose labels are authoritative, we must cope with the fact that we have anonymous, non-expert annotators whose labels are noisy and who may not even be doing the task conscientiously. We build models of the annotators themselves, and use those models to create high quality labeled training data by soliciting redundant labels and making predictions about which labels and which annotators are most likely to be correct. The ability to accurately model the annotators has direct implications for the cost of creating a labeled training data set, since we can decide how much to trust a given annotator's label and whether soliciting a redundant label would be likely to improve the accuracy. 
 
 
-<div class="container-fluid">
-<div class="row">
-<div class="col-lg-12" style="margin-bottom: 20px">
-<img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg"  style="height: 100%; width: 100%;"/><br />
+<div class="pull-right" style="width: 100%; max-width: 800px">
+<img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg" alt="Figure 5" class="img-responsive" /><br />
 <b>Figure 5:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations.  
-</div>
-</div>
 </div>
 
 
