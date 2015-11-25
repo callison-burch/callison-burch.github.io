@@ -106,7 +106,7 @@ Over the past year we made several advances to PPDB that improve its usefulness 
 
 
 
-The goal of the paraphrasing line of my research is to push the longstanding AI goal of language understanding forward with data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.
+The goal of the paraphrasing line of my research is to advange the longstanding AI goal of language understanding with data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.
 
 
 ## Statistical Machine Translation Without Parallel Corpora
