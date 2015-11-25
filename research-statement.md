@@ -52,13 +52,13 @@ Currently, I have three areas of research.  My primary research focus is to auto
 
 
 <div class="hidden-sm hidden-xs">
-<div class="pull-right" style="width: 50%; max-width: 400px">
-<img src="figures/research-statement/pivoting.jpg" alt="Figure 1" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />
 <b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
 </div>
 </div><div class="visible-sm visible-xs">
-<div class="pull-right" style="width: 100%; max-width: 400px">
-<img src="figures/research-statement/pivoting.jpg" alt="Figure 1" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />
 <b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
 </div>
 </div>
@@ -67,14 +67,14 @@ I developed a method that extracts paraphrases from bilingual parallel corpora  
 
 
 <div class="hidden-sm hidden-xs">
-<div class="pull-right" style="width: 50%; max-width: 400px">
-<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />
 <b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
 </div>
 </div>
 <div class="visible-sm visible-xs">
-<div class="pull-right" style="width: 100%; max-width: 400px">
-<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />
 <b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
 </div>
 </div>
@@ -83,8 +83,8 @@ I have extended the bilingual pivoting methodology to syntactic representations 
 ([Baker et al (2010)](#semantically-informed-syntactic-machine-translation)).  Instead of pivoting over foreign phrases, we can pivot over foreign SCFG rules, as shown in Figure 2. This allows us to automatically acquire meaning-preserving syntactic transformations like the English possessive rule.  This rule is a general transformation that can apply to most noun phrases in English.  It allows us to recognize that *the laptop's screen* can be rewritten as *the screen of the laptop*. Table 1 shows a variety of other meaning-preserving structural transformations that we learn in this way ([Ganitkevitch et al (2011)](#learning-sentential-paraphrases-from-bilingual-parallel-corpora)).
 
 
-<div class="center-block" style="width: 100%; max-width: 600px">
-<img src="figures/research-statement/structural-transformations.jpg"  alt="Table 1" class="img-responsive" /><br />
+<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
+<img src="figures/research-statement/structural-transformations.jpg"  alt="Table 1: We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules." class="img-responsive" /><br />
 <b>Table 1:</b> We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.
 </div>
 
@@ -98,8 +98,8 @@ Over the past year we made several advances to PPDB that improve its usefulness 
 - **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and Xu et al (accepted), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  
 
 
-<div class="center-block" style="width: 100%; max-width: 600px">
-<img src="figures/research-statement/semantic-entailment-types.jpg" alt="Table 2" class="img-responsive"/><br />
+<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
+<img src="figures/research-statement/semantic-entailment-types.jpg" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
 <b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
 </div>
 
@@ -118,14 +118,14 @@ Statistical machine translation has long been purported to be ``language indepen
 Like other statistical NLP systems and machine learning applications, the  performance of statistical machine translation improves as more training data is used.   For a few language pairs, we have tremendous amounts of training data --  I created a French-English parallel corpus with nearly 1 billion words on  each side, the DARPA GALE program produced Arabic-English and Chinese-English parallel corpora with 250 million words in each language, and we have somewhere on the order of 50--100 million words worth of parallel data for the official languages of the European Union.  However, for most language pairs, we have comparatively tiny amounts of bilingual training data, which means that current statistical machine translation techniques will not work.  
 
 <div class="hidden-sm hidden-xs">
-<div class="pull-right" style="width: 50%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 3" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/context.jpg" alt="Figure 3: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
 <b>Figure 3:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
 </div>
 </div>
 <div class="visible-sm visible-xs">
-<div class="pull-right" style="width: 100%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 3" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/context.jpg" alt="Figure 3: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
 <b>Figure 3:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
 </div>
 </div>
@@ -136,14 +136,14 @@ To build statistical machine translation systems without parallel corpora, I hav
 
 
 <div class="hidden-sm hidden-xs">
-<div class="pull-right" style="width: 50%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 4" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/temporal.jpg" alt="Figure 4: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
 <b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
 </div>
 </div>
 <div class="visible-sm visible-xs">
-<div class="pull-right" style="width: 100%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 4" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/temporal.jpg" alt="Figure 4: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
 <b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
 </div>
 </div>
@@ -160,13 +160,13 @@ Azeri, Bengali, Bosnian, Bulgarian, Cebuano, Gujarati, Hindi, Hungarian, Indones
 
 
 <div class="hidden-sm hidden-xs">
-<div class="pull-right" style="width: 50%; max-width: 400px">
-<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3: Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded." class="img-responsive" /><br />
 <b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
 </div>
 <div class="visible-sm visible-xs">
-<div class="pull-right" style="width: 100%; max-width: 400px">
-<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3" class="img-responsive" /><br />
+<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3: Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded." class="img-responsive" /><br />
 <b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
 </div>
 </div>
@@ -184,8 +184,8 @@ My goal is to go beyond simply expanding bilingual dictionaries so that we can u
 My third research focus is crowdsourcing.  The idea of using crowdsourcing to create annotated data for natural language processing applications is a relatively new topic, and it raises a number of scientific challenges. Rather than treating annotated training data as a gold standard created by experts whose labels are authoritative, we must cope with the fact that we have anonymous, non-expert annotators whose labels are noisy and who may not even be doing the task conscientiously. We build models of the annotators themselves, and use those models to create high quality labeled training data by soliciting redundant labels and making predictions about which labels and which annotators are most likely to be correct. The ability to accurately model the annotators has direct implications for the cost of creating a labeled training data set, since we can decide how much to trust a given annotator's label and whether soliciting a redundant label would be likely to improve the accuracy. 
 
 
-<div class="center-block" style="width: 100%; max-width: 800px">
-<img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg" alt="Figure 5" class="img-responsive" /><br />
+<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 800px;">
+<img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg" alt="Figure 5: A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations." class="img-responsive" /><br />
 <b>Figure 5:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations.  
 </div>
 
@@ -289,11 +289,11 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	  <!-- /.Carousel items -->
 	  <!-- Controls -->
 		<a class="left carousel-control" href="#{{publication.id}}-figures-carousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:gray"></span>
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="margin-bottom: 20px; color:gray"></span>
 		<span class="sr-only">Previous</span>
 		</a>
 		<a class="right carousel-control" href="#{{publication.id}}-figures-carousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:gray"></span>
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="margin-bottom: 20px; color:gray"></span>
 		<span class="sr-only">Next</span>
 		</a>
 	  <!-- /.Controls -->
