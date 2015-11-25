@@ -43,35 +43,47 @@ publications:
 
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I have proposed approaching natural language understanding by using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
-My approach to language understanding is inspired by my past research in machine translation.
-The advent of data-driven, statistical models has resulted in dramatically improved quality for machine translation.  Commercial systems like Google Translate, or state-of-the-art research software that I have helped develop (the Moses system ([Koehn et al, 2007](#moses-toolkit)) and the Joshua decoder ([Li et al, 2009](#joshua-open-source-toolkit-for-statistical-machine-translation), [Li et al, 2010](#joshua-2), [Weese et al, 2011](#joshua-3), [Ganitkevitch et al, 2012](#joshua-4), [Post et al, 2013](#joshua-5))) use pairs of English and foreign phrases as their underlying representation.  These phrase pairs are automatically acquired from a large volume of translated documents, and are treated as meaning-equivalent without having an explicit semantic representation.  Vast quantities of bilingual training data allow us to extract a huge number of phrase pairs and to estimate associated probabilities. I assembled the largest publicly available bilingual training data for statistical machine translation, consisting of 22 million sentence pairs with 1.5 billion French + English words ([Callison-Burch et al, 2009](#findings-of-the-wmt09-shared-tasks)). This encompasses a huge range of language use from scientific abstracts to movie dialog slang, and thus allows the system to translate a wide variety of input sentences. 
-
+My approach to language understanding is inspired by my past research in machine translation. The advent of data-driven, statistical models has resulted in dramatically improved quality for machine translation.  Commercial systems like Google Translate, or state-of-the-art research software that I have helped develop (the Moses system ([Koehn et al, 2007](#moses-toolkit)) and the Joshua decoder ([Li et al, 2009](#joshua-open-source-toolkit-for-statistical-machine-translation), [Li et al, 2010](#joshua-2), [Weese et al, 2011](#joshua-3), [Ganitkevitch et al, 2012](#joshua-4), [Post et al, 2013](#joshua-5))) use pairs of English and foreign phrases as their underlying representation.  These phrase pairs are automatically acquired from a large volume of translated documents, and are treated as meaning-equivalent without having an explicit semantic representation.  Vast quantities of bilingual training data allow us to extract a huge number of phrase pairs and to estimate associated probabilities. I assembled the largest publicly available bilingual training data for statistical machine translation, consisting of 22 million sentence pairs with 1.5 billion French + English words ([Callison-Burch et al, 2009](#findings-of-the-wmt09-shared-tasks)). This encompasses a huge range of language use from scientific abstracts to movie dialog slang, and thus allows the system to translate a wide variety of input sentences. 
 
 Currently, I have three areas of research.  My primary research focus is to automate the understanding of English via paraphrases. I adapt the data, representations, and algorithms from statistical machine translation to facilitate natural language understanding.  In addition, I have two other research directions.  One attempts to extend machine translation so that it may be applied to a wider range of languages by doing away with the necessity for bilingual parallel corpora.  Instead, my research focuses on learning translations from monolingual texts in two languages.  My third research focus is on using crowdsourcing to explore new areas of natural language processing.  (This crowdsourcing work has even extended beyond NLP and now includes social justice issues, including workers' rights and gun violence in the United States.)
 
 
-
 ## Natural Language Understanding via Paraphrasing
 
+
+<div class="hidden-sm hidden-xs">
 <div class="pull-right" style="width: 50%; max-width: 400px">
 <img src="figures/research-statement/pivoting.jpg" alt="Figure 1" class="img-responsive" /><br />
 <b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
+</div>
+</div><div class="visible-sm visible-xs">
+<div class="pull-right" style="width: 100%; max-width: 400px">
+<img src="figures/research-statement/pivoting.jpg" alt="Figure 1" class="img-responsive" /><br />
+<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
+</div>
 </div>
 
 I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure 1 illustrates the method ([Callison-Burch (2007)](#callison-burch-thesis)).  *Thrown into jail* occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, *thrown into jail* not only paraphrases as *imprisoned*, but also as *arrested, detained, incarcerated, jailed, locked up, taken into custody*, and *thrown into prison*.  However, not all the paraphrases are uniformly good.  The baseline method also extracts candidate paraphrases that mean the same thing, but do not share the same syntactic category as the original phrase, such as *be thrown in prison, been thrown into jail, being arrested, in jail, in prison, put in prison for, were thrown into jail,* and *who are held in detention*. It is also prone to generating many bad paraphrases, such as *maltreated, thrown, cases, custody, arrest, owners,* and *protection*, because of noisy/inaccurate word alignments and other problems.  Separating good paraphrases from bad presents fascinating research challenges ([Pavlick et al (2015)](#ppdb-reranking)).
 
 
+<div class="hidden-sm hidden-xs">
 <div class="pull-right" style="width: 50%; max-width: 400px">
 <img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2" class="img-responsive" /><br />
 <b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
 </div>
-
+</div>
+<div class="visible-sm visible-xs">
+<div class="pull-right" style="width: 100%; max-width: 400px">
+<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2" class="img-responsive" /><br />
+<b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
+</div>
+</div>
 
 I have extended the bilingual pivoting methodology to syntactic representations of translation rules.  This builds on my research group's work into adding syntactic information into statistical machine translation rules. We have adopted a synchronous context free grammar (SCFG) representation for our Joshua decoder, and we demonstrated that it is useful for translating between languages with different word orders like Urdu's subject-object-verb order and English's subject-verb-object order
 ([Baker et al (2010)](#semantically-informed-syntactic-machine-translation)).  Instead of pivoting over foreign phrases, we can pivot over foreign SCFG rules, as shown in Figure 2. This allows us to automatically acquire meaning-preserving syntactic transformations like the English possessive rule.  This rule is a general transformation that can apply to most noun phrases in English.  It allows us to recognize that *the laptop's screen* can be rewritten as *the screen of the laptop*. Table 1 shows a variety of other meaning-preserving structural transformations that we learn in this way ([Ganitkevitch et al (2011)](#learning-sentential-paraphrases-from-bilingual-parallel-corpora)).
 
 
-<div class="pull-right" style="width: 100%; max-width: 800px">
+<div class="center-block" style="width: 100%; max-width: 600px">
 <img src="figures/research-statement/structural-transformations.jpg"  alt="Table 1" class="img-responsive" /><br />
 <b>Table 1:</b> We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.
 </div>
@@ -86,7 +98,7 @@ Over the past year we made several advances to PPDB that improve its usefulness 
 - **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and Xu et al (accepted), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  
 
 
-<div class="pull-right" style="width: 100%; max-width: 800px">
+<div class="center-block" style="width: 100%; max-width: 600px">
 <img src="figures/research-statement/semantic-entailment-types.jpg" alt="Table 2" class="img-responsive"/><br />
 <b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
 </div>
@@ -105,9 +117,17 @@ Statistical machine translation has long been purported to be ``language indepen
 
 Like other statistical NLP systems and machine learning applications, the  performance of statistical machine translation improves as more training data is used.   For a few language pairs, we have tremendous amounts of training data --  I created a French-English parallel corpus with nearly 1 billion words on  each side, the DARPA GALE program produced Arabic-English and Chinese-English parallel corpora with 250 million words in each language, and we have somewhere on the order of 50--100 million words worth of parallel data for the official languages of the European Union.  However, for most language pairs, we have comparatively tiny amounts of bilingual training data, which means that current statistical machine translation techniques will not work.  
 
+<div class="hidden-sm hidden-xs">
 <div class="pull-right" style="width: 50%; max-width: 400px">
 <img src="figures/research-statement/context.jpg" alt="Figure 3" class="img-responsive" /><br />
 <b>Figure 3:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
+</div>
+</div>
+<div class="visible-sm visible-xs">
+<div class="pull-right" style="width: 100%; max-width: 400px">
+<img src="figures/research-statement/context.jpg" alt="Figure 3" class="img-responsive" /><br />
+<b>Figure 3:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
+</div>
 </div>
 
 
@@ -115,11 +135,18 @@ To build statistical machine translation systems without parallel corpora, I hav
 <a href="#toward-statistical-machine-translation-without-parallel-corpora">(Klementiev et al (2012)</a>, <a href="#end-to-end-smt-with-zero-or-small-bitexts">(Irvine and Callison-Burch (2015))</a>.  The advantage of this paradigm is that it only requires a small bilingual dictionary and large monolingual corpora, rather than bilingual parallel data.
 
 
+<div class="hidden-sm hidden-xs">
 <div class="pull-right" style="width: 50%; max-width: 400px">
 <img src="figures/research-statement/temporal.jpg" alt="Figure 4" class="img-responsive" /><br />
 <b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
 </div>
-
+</div>
+<div class="visible-sm visible-xs">
+<div class="pull-right" style="width: 100%; max-width: 400px">
+<img src="figures/research-statement/temporal.jpg" alt="Figure 4" class="img-responsive" /><br />
+<b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
+</div>
+</div>
 
 My students and I have examined combining a diverse set of monolingually-derived signals of translation equivalence <a href="#supervised-bilingual-lexicon-induction">(Irvine and Callison-Burch (2013))</a>. In addition to vector space models, we have incorporated a diverse set of signals including temporal similarity (Figure 4), orthographic similarity,  and topical similarity.  Table 3 shows examples of the highest ranking English translations of 5 Spanish words for several of our signals of translation equivalence.  Each signal produces different types of errors.(For instance, using topic similarity, *montana, miley*, and *hannah* are ranked highly as candidate translations of the Spanish word *montana*. 
 The TV character Hannah Montana is played by actress Miley Cyrus, so the topic similarity between these words makes sense.)  
@@ -131,11 +158,18 @@ We examine translation into
 English from 25 foreign languages: Albanian, 
 Azeri, Bengali, Bosnian, Bulgarian, Cebuano, Gujarati, Hindi, Hungarian, Indonesian, Latvian, Nepali, Romanian, Serbian, Slovak, Somali, Spanish, Swedish, Tamil, Telugu, Turkish, Ukrainian, Uzbek, Vietnamese and Welsh.  Rather than testing solely on high frequency words, as previous research has done, we test on low frequency as well, so that our results are more relevant to statistical machine translation, where systems typically lack translations of rare words that fall outside of their training data.  We systematically explore a wide range of features and phenomena that affect the quality of the translations discovered by bilingual lexicon induction. We give illustrative examples of the highest ranking translations for orthogonal signals of translation equivalence like contextual similarity and temporal similarity.  We analyze the effects of frequency and burstiness, and the sizes of the seed bilingual dictionaries and the monolingual training corpora.  Our model performs better than the previous state-of-the-art matching canonical correlation analysis (MCCA) algorithm, achieving an accuracy of 42% versus MCCA's 15%.
 
+
+<div class="hidden-sm hidden-xs">
 <div class="pull-right" style="width: 50%; max-width: 400px">
 <img src="figures/research-statement/ranked-translations.jpg" alt="Table 3" class="img-responsive" /><br />
 <b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
 </div>
-
+<div class="visible-sm visible-xs">
+<div class="pull-right" style="width: 100%; max-width: 400px">
+<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3" class="img-responsive" /><br />
+<b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
+</div>
+</div>
  
  
  
@@ -150,7 +184,7 @@ My goal is to go beyond simply expanding bilingual dictionaries so that we can u
 My third research focus is crowdsourcing.  The idea of using crowdsourcing to create annotated data for natural language processing applications is a relatively new topic, and it raises a number of scientific challenges. Rather than treating annotated training data as a gold standard created by experts whose labels are authoritative, we must cope with the fact that we have anonymous, non-expert annotators whose labels are noisy and who may not even be doing the task conscientiously. We build models of the annotators themselves, and use those models to create high quality labeled training data by soliciting redundant labels and making predictions about which labels and which annotators are most likely to be correct. The ability to accurately model the annotators has direct implications for the cost of creating a labeled training data set, since we can decide how much to trust a given annotator's label and whether soliciting a redundant label would be likely to improve the accuracy. 
 
 
-<div class="pull-right" style="width: 100%; max-width: 800px">
+<div class="center-block" style="width: 100%; max-width: 800px">
 <img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg" alt="Figure 5" class="img-responsive" /><br />
 <b>Figure 5:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations.  
 </div>
