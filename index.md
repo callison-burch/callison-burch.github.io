@@ -18,7 +18,7 @@ I am the Aravind K Joshi Term Assistant Professor in the Computer and Informatio
 
 In 2014 I was named a Sloan Research Fellow. [Here is a press release](http://www.upenn.edu/pennnews/news/three-penn-researchers-awarded-sloan-fellowships) from Penn about my research and the research of the two other Penn faculty members who received the award.
 
-I was the program co-chair for [EMNLP 2015](http://www.emnlp2015.org) in Lisbon. I am an action editor for the new journal Transactions of the ACL ([TACL](http://www.transacl.org)). I recently finished my terms on the editorial board of Computational Linguistics, and as the Chair of the NAACL Executive Board.
+I am the Secretary-Treasurer for SIGDAT, which organizes the EMNLP conferences.  [EMNLP 2016](http://www.emnlp2016.net) will be held in Austin. I am an action editor for the new journal Transactions of the ACL ([TACL](http://www.transacl.org)). I recently finished my terms on the editorial board of Computational Linguistics, and as the Chair of the NAACL Executive Board.
 
 My research group released [PPDB, the paraphrase database](http://paraphrase.org/), a resource with 169 million paraphrase transformation rules.
 
