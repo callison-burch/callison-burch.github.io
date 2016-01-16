@@ -99,7 +99,7 @@ active_tab: CV
   {% endfor %}
   </tbody>
 </table>
-
+Quality scale: 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 <h2>Grants</h2>
 
