@@ -28,3 +28,4 @@ I am in my 3rd year at Penn, so I am up for reappointment.  If you would like to
 <h4><a href="research-statement.html" class="label label-success">Research Statement</a></h4>
 <h4><a href="teaching-statement.html" class="label label-primary">Teaching Statement</a></h4>
 <h4><a href="resume.html" class="label label-info">Curriculum Vitae</a></h4>
+<h4><a href="https://scholar.google.com/citations?user=nv-MV58AAAAJ&hl=en" class="label label-warning">Google Scholar Profile</a></h4>
