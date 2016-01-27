@@ -1,19 +1,24 @@
 ---
 title: Teaching
 layout: default
-img: graph-definitions
-img_link: http://www.seas.upenn.edu/~cis121/current/
-caption: Graph terminology introduced in Data Structures and Algorithms
+img: turk-engraving-detail
+img_link: http://crowdsourcing-class.org
+caption: An engraving of the Mechanical Turk, the 18th century chess-playing automaton
 ---
 
 
-[Data Structures and Algorithms](http://www.seas.upenn.edu/~cis121/current/) - CIS 121 (Fall 2015)
-: This course introduces undergraduates to the fundamental algorithms and data structures that are used in the field of computer science.  We introduce methods for analyzing the complexity of an algorithm and predicting the running time of software. We describe data structures like stacks, queues, lists, trees, priority queues, maps, hash tables and graphs, and we discuss how to implement them efficiently and how to use them effectively in software. Course assignments include of weekly homeworks consisting of problem sets and programming exercises in Java, and a larger term project.  This course has an enrollment of nearly 200 students. <br /> <br />
-
 [Crowdsourcing and Human Computation](http://crowdsourcing-class.org/) - NETS 213 (Spring 2016, then next in Spring 2018)
-: Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like Mechanical Turk provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underly democracy and other group decision-making processes. <br /> <br />
+: Crowdsourcing and human computation are emerging fields that sit squarely at the intersection of economics and computer science. They examine how people can be used to solve complex tasks that are currently beyond the capabilities of artificial intelligence algorithms. Online marketplaces like Mechanical Turk provide an infrastructure that allows micropayments to be given to people in return for completing human intelligence tasks. This opens up previously unthinkable possibilities like people being used as function calls in software. We will investigate how crowdsourcing can be used for computer science applications like machine learning, next-generation interfaces, and data mining. Beyond these computer science aspects, we will also delve into topics like prediction markets, how businesses can capitalize on collective intelligence, and the fundamental principles that underly democracy and other group decision-making processes. This course has an enrollment of 120 students. <br /> <br />
 
 
+
+<!--
+img: graph-definitions
+img_link: http://www.seas.upenn.edu/~cis121/current/
+caption: Graph terminology introduced in Data Structures and Algorithms
+-->
+[Data Structures and Algorithms](http://www.seas.upenn.edu/~cis121/15fa/index.html) - CIS 121 (Fall 2016)
+: This course introduces undergraduates to the fundamental algorithms and data structures that are used in the field of computer science.  We introduce methods for analyzing the complexity of an algorithm and predicting the running time of software. We describe data structures like stacks, queues, lists, trees, priority queues, maps, hash tables and graphs, and we discuss how to implement them efficiently and how to use them effectively in software. Course assignments include of weekly homeworks consisting of problem sets and programming exercises in Java, and a larger term project.  This course has an enrollment of nearly 200 students. <br /> <br />
 
 
 [Machine Translation](http://mt-class.org) - CIS 526 (next offered Spring 2017)
