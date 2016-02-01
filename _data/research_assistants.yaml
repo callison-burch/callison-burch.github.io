@@ -1,3 +1,30 @@
+- 
+   name: Lawrence Chan
+   degree: Undergraduate
+   pic:
+   homepage: 
+   project: Likelihood Estimates of OpEds 
+   graduation_date: May 2018
+   gender: male
+   role: RA
+- 
+   name: Alexander Ma
+   degree: Undergraduate
+   pic:
+   homepage: 
+   project: Clustering Paraphrases
+   graduation_date: May 2018
+   gender: male
+   role: Independent Study
+- 
+   name: Parker Stakoff
+   degree: Undergraduate
+   pic: RAs/parker_stakoff.jpg
+   homepage: 
+   project: Transitive Constraints on Semantics
+   graduation_date: May 2018
+   gender: female
+   role: RA
 -
    name: Drew Stone
    degree: Undergraduate
@@ -5,6 +32,8 @@
    homepage: 
    project: Transliteration
    graduation_date: May 2018
+   gender: male
+   role: RA
 -
    name: Veronica Wharton
    degree: Undergraduate
@@ -12,6 +41,8 @@
    homepage: http://veronicawharton.com/
    project: Scalar Adjectives
    graduation_date: May 2017
+   gender: female
+   role: RA, Independent Study
 -
    name: Sierra Yit
    degree: Undergraduate
@@ -19,13 +50,26 @@
    homepage: 
    project: Monolingual Alignment
    graduation_date: May 2017
+   gender: female
+   role: RA, TA
 -
-   name: Anwesha Das
+   name: Theresa Breiner
    degree: Master's Student
-   pic: RAs/anwesha_das.jpg
-   homepage: 
-   project: Monolingual Alignment
+   pic: RAs/theresa_breiner.jpg
+   homepage: https://www.linkedin.com/in/theresabreiner
+   project: Transliteration
    graduation_date: May 2016
+   gender: female
+   role: Independent Study
+-
+   name: Brendan Callahan
+   degree: Master's Student
+   pic: RAs/brendan_callahan.jpg
+   homepage: 
+   project: Learning Translations with Images and Text
+   graduation_date: 
+   gender: female
+   role: Independent Study
 -
    name: Shreejit Gangadharan
    degree: Master's Student
@@ -33,20 +77,26 @@
    homepage: 
    project: Bilingual Lexicon Induction
    graduation_date: May 2016
+   gender: male
+   role: RA
 -
-   name: Deepti Panuganti
+   name: Grishma Jena
    degree: Master's Student
-   pic: RAs/deepti_panuganti.jpg
+   pic: RAs/grishma_jena.jpg
    homepage: 
-   project: Vector Space Models
-   graduation_date: May 2016
+   project: Bilingual Lexicon Induction
+   graduation_date: 
+   gender: female
+   role: Independent Study
 -
-   name: Siyu Qiu
+   name: Sneha Rajana
    degree: Master's Student
-   pic: RAs/siyu_qiu.jpg
-   homepage: http://www.seas.upenn.edu/~siqiu/
-   project: Twitter Paraphrases
-   graduation_date: December 2015
+   pic: RAs/sneha_rajana.jpg
+   homepage: 
+   project: Learning Antonyms
+   graduation_date: 
+   gender: female
+   role: Independent Study
 -
    name: Dhruvil Shah
    degree: Master's Student
@@ -54,3 +104,5 @@
    homepage: 
    project: Named Entity Recognition
    graduation_date: May 2016
+   gender: male
+   role: RA
