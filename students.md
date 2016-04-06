@@ -1,7 +1,7 @@
 ---
 title: Students
 layout: default
-active_tab: publications
+active_tab: students
 ---
 
 
