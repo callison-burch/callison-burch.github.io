@@ -44,7 +44,7 @@
    year: 2016
    url: publications/sentential-paraphrasing-demo-paper.pdf
    id: sentential-paraphrasing-demo-paper
-   abstract: We present a simple, prepackaged solution to generating paraphrases of English sentences. We use the Paraphrase Database (PPDB) for monolingual sentence rewriting and provide machine translation language packs: prepackaged, tuned models that can be downloaded and used to generate paraphrases on a standard Unix environment. The language packs can be treated as a black box or customized to specific tasks. In this demonstration, we will explain how to use the included interactive web-based tool to generate sentential paraphrases.
+   abstract: We present a simple, prepackaged solution to generating paraphrases of English sentences. We use the Paraphrase Database (PPDB) for monolingual sentence rewriting and provide machine translation language packs&colon; prepackaged, tuned models that can be downloaded and used to generate paraphrases on a standard Unix environment. The language packs can be treated as a black box or customized to specific tasks. In this demonstration, we will explain how to use the included interactive web-based tool to generate sentential paraphrases.
    bibtex: |
       @inproceedings{Napoles-et-al:2016:NAACL-demos,
        author = {Courtney Napoles and Chris Callison-Burch and Matt Post},
