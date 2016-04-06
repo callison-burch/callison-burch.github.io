@@ -18,25 +18,6 @@
        url = {http://www.cis.upenn.edu/~ccb/publications/clustering-paraphrases-by-word-sense.pdf}
        } 
 -
-   title: Optimizing Statistical Machine Translation for Text Simplification
-   authors: Wei Xu, Courtney Napoles, Ellie Pavlick, Jim Chen, and Chris Callison-Burch
-   venue: TACL
-   type: journal
-   year: 2016
-   url: publications/optimizing-machine-translation-for-text-simplifciation.pdf
-   id: optimizing-machine-translation-for-text-simplifciation
-   abstract: Most recent sentence simplification systems use basic machine translation models to learn lexical and syntactic paraphrases from a manually simplified parallel corpus. These methods are limited by the quality and quantity of manually simplified corpora, which are expensive to build. In this paper, we conduct an in-depth adaptation of statistical machine translation to perform text simplification, taking advantage of large-scale paraphrases learned from bilingual texts and a small amount of manual simplifications with multiple references. Our work is the first to design automatic metrics that are effective for tuning and  evaluating simplification systems, which will facilitate iterative development for this task.
-   bibtex: |
-      @article{Xu-EtAl:2016:TACL,
-         author = {Wei Xu and Courtney Napoles and Ellie Pavlick and Quanze Chen and Chris Callison-Burch},
-         title = {Optimizing Statistical Machine Translation for Text Simplification},
-         journal = {Transactions of the Association for Computational Linguistics},
-         volume = {},
-         year = {2016},
-         url = {http://www.cis.upenn.edu/~ccb/publications/optimizing-machine-translation-for-text-simplifciation.pdf},
-         pages = {}
-       }
--
    title: Sentential Paraphrasing as Black-Box Machine Translation
    authors: Courtney Napoles, Chris Callison-Burch, and Matt Post
    venue: NAACL
@@ -55,6 +36,25 @@
        address = {San Diego, California},
        url = {http://www.cis.upenn.edu/~ccb/publications/sentential-paraphrasing-demo-paper.pdf}
        } 
+-
+   title: Optimizing Statistical Machine Translation for Text Simplification
+   authors: Wei Xu, Courtney Napoles, Ellie Pavlick, Jim Chen, and Chris Callison-Burch
+   venue: TACL
+   type: journal
+   year: 2016
+   url: publications/optimizing-machine-translation-for-text-simplifciation.pdf
+   id: optimizing-machine-translation-for-text-simplifciation
+   abstract: Most recent sentence simplification systems use basic machine translation models to learn lexical and syntactic paraphrases from a manually simplified parallel corpus. These methods are limited by the quality and quantity of manually simplified corpora, which are expensive to build. In this paper, we conduct an in-depth adaptation of statistical machine translation to perform text simplification, taking advantage of large-scale paraphrases learned from bilingual texts and a small amount of manual simplifications with multiple references. Our work is the first to design automatic metrics that are effective for tuning and  evaluating simplification systems, which will facilitate iterative development for this task.
+   bibtex: |
+      @article{Xu-EtAl:2016:TACL,
+         author = {Wei Xu and Courtney Napoles and Ellie Pavlick and Quanze Chen and Chris Callison-Burch},
+         title = {Optimizing Statistical Machine Translation for Text Simplification},
+         journal = {Transactions of the Association for Computational Linguistics},
+         volume = {},
+         year = {2016},
+         url = {http://www.cis.upenn.edu/~ccb/publications/optimizing-machine-translation-for-text-simplifciation.pdf},
+         pages = {}
+       }
 -
    title: A Comprehensive Analysis of Bilingual Lexicon Induction
    authors: Ann Irvine and Chris Callison-Burch
