@@ -1,4 +1,23 @@
 -
+   title: Simple PPDB&colon; A Paraphrase Database for Simplification
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2016
+   url: publications/simple-ppdb.pdf
+   id: simple-ppdb
+   abstract: We release the Simple Paraphrase Database, a subset of of the Paraphrase Database (PPDB) adapted for the task of text simplification. We train a supervised model to associate simplification scores with each phrase pair, producing rankings competitive with state-of-the-art lexical simplification models. Our new simplification database contains 4.4 million paraphrase rules, making it the largest available resource for lexical simplification.
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
+       author = {Ellie Pavlick and Chris Callison-Burch},
+       title = {Simple PPDB&colon; A Paraphrase Database for Simplification},
+       booktitle = {The 54th Annual Meeting of the Association for Computational Linguistics (ACL)},
+       month = {August},
+       year = {2016},
+       address = {Berlin, Germany},
+       url = {http://www.cis.upenn.edu/~ccb/publications/simple-ppdb.pdf}
+       } 
+-
    title: Clustering Paraphrases by Word Sense
    authors: Anne Cocos and Chris Callison-Burch
    venue: NAACL
@@ -457,6 +476,103 @@
          url = {http://www.cis.upenn.edu/~ccb/publications/end-to-end-smt-with-zero-or-small-bitexts.pdf},
          pages = {}
        }
+-
+   title: Arabic Dialect Identification
+   authors: Omar Zaidan and Chris Callison-Burch
+   venue: Computational Linguistics
+   type: journal
+   year: 2014
+   url: publications/arabic-dialect-id.pdf
+   id: arabic-dialect-id
+   figures:
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-1.jpg
+         label: Figure 1
+         caption: One possible breakdown of spoken Arabic into dialect groups&colon; Maghrebi, Egyptian, Levantine, Gulf, and Iraqi. Habash (2010) and Versteegh (2001) give a breakdown along mostly the same lines. Note that this is a relatively coarse breakdown, and further division of the dialect groups is possible, especially in large regions such as the Maghreb.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-1.jpg
+         label: Table 1
+         caption: A few examples illustrating similarities and differences across MSA and three Arabic dialects&colon; Levantine, Gulf, and Egyptian. Even when a word is spelled the same across two or more varieties, the pronunciation might differ due to differences in short vowels (which are not spelled out). Also, due to the lack of orthography standardization, and variance in pronunciation even within a single dialect, some dialectal words could have more than one spelling (e.g. Egyptian “I drink” could be bAšrb, Levantine “He drinks” could be byšrb). (We use the Habash-Soudi-Buckwalter transliteration scheme to represent Arabic orthography, which maps each Arabic letter to a single, distinct character. We provide a table with the character mapping in Appendix A.)
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-2.jpg
+         label: Figure 2
+         caption: Two roughly equivalent Arabic sentences, one in MSA and one in Levantine Arabic, translated by the same MT system (Google Translate) into English. An acceptable translation would be When will we see this group of criminals undergo trial (or tried)?. The MSA variant is handled well, while the dialectal variant is mostly transliterated.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-3.jpg
+         label: Figure 3
+         caption: Two roughly equivalent Arabic sentences, one in MSA and one in Egyptian Arabic, translated by the same MT system (Google Translate) into English. An acceptable translation would be What is this that is happening? What is this that I’m seeing?. As in Figure 2, the dialectal variant is handles quite poorly.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-4.jpg
+         label: Figure 4
+         caption: The output of a Spanish-to-English system when given a Portuguese sentence as input, compared to the output of a Portuguese-to-English system, which performs well. The behavior is very similar to that in Figures 2 and 3, namely the failure to translate out-of-vocabulary words when there is a language mismatch.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-2.jpg
+         label: Table 2
+         caption: A summary of the different components of the AOC dataset. Overall, 1.4M comments were harvested from 86.1K articles, corresponding to 52.1M words.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-5.jpg
+         label: Figure 5
+         caption: Three sentences that were identified by our annotators as dialectical, even thought they do not contain individually dialectal words. A word-based OOV-detection approach would fail to classify these sentences as being dialectal, since all these words could appear in an MSA corpus. One might argue that a distinction should be drawn between informal uses of MSA versus dialectical sentences, but annotators consistently classify these sentences as dialect.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-6.jpg
+         label: Figure 6
+         caption: The dialectal sentences of Figure 5, with MSA equivalents.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-7.jpg
+         label: Figure 7
+         caption: The interface for the dialect identification task. This example, and the full interface, can be viewed at the URL http&colon;//bit.ly/eUtiO3.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-3.jpg
+         label: Table 3
+         caption: Some statistics over the labels provided by three spammers. Compared to the typical worker (right-most column), all workers perform terribly on the MSA control items, and also usually fail to recognize dialectal content in commentary sentences. Other red flags, such as geographic location and ‘identifying’ unrepresented dialects, are further proof of the spammy behavior.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-8.jpg
+         label: Figure 8
+         caption: The distribution of labels provided by the workers for the dialect identification task, over all three news sources (a) and over each individual news source (b–d). Al-Ghad is published in Jordan, Al-Riyadh in Saudi Arabia, and Al-Youm Al-Sabe’ in Egypt. Their local readerships are reflected in the higher proportion of corresponding dialects. Note that this is not a breakdown on the sentence level, and does not reflect any kind of majority voting. For example, most of the LEV labels on sentences from the Saudi newspaper are trumped by GLF labels when taking a majority vote, making the proportion of LEV-majority sentences smaller than what might be deduced by looking at the label distribution in (c).
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-4.jpg
+         label: Table 4
+         caption: The specific-dialect label distribution (given that a dialect label was provided), shown for each speaker group.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-9.jpg
+         label: Figure 9
+         caption: A bubble chart showing workers’ MSA and dialect recall. Each data point (or ‘bubble’) in the graph represents one annotator, with the bubble size corresponding to the number of Assignments completed by that annotator.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-5.jpg
+         label: Table 5
+         caption: Two annotators with a General label bias, one who uses the label liberally, and one who is more conservative. Note that in both cases, there is a noticeably smaller percentage of General labels in the Egyptian newspaper than in the Jordanian and Saudi newspapers.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-10.jpg
+         label: Figure 10
+         caption: Learning curves for the general MSA vs. dialect task, with all three news sources pooled together. Learning curves for the individual news sources can be found in Figure 11. The 83% line has no significance, and is provided to ease comparison with Figure 11.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-figure-11.jpg
+         label: Figure 11
+         caption: Learning curves for the MSA vs. dialect task, for each of the three news sources. The 83% line has no significance, and is provided to ease comparison across the three components, and with Figure 10.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-6.jpg
+         label: Table 6
+         caption: Accuracy rates (%) on several 2-way classification tasks (MSA vs. dialect) for various models. Models in the top part of the table do not utilize the dialect-annotated data, while models in the bottom part do. (For the latter kind of models, the accuracy rates reported are based on a training set size of 90% of the available data.)
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-7.jpg
+         label: Table 7
+         caption: Confusion matrix in the 4-way classification setup. Rows correspond to actual labels, and columns correspond to predicted labels. For instance, 6.7% of MSA sentences were given a GLF label (first row, third column). Note that entries within a single row sum to 100%.
+      -
+         img: figures/arabic-dialect-id/arabic-dialect-id-table-8.jpg
+         label: Table 8
+         caption: Predicted label breakdown for the crawled data, over the four varieties of Arabic. All varieties were given equal priors.
+   abstract: The written form of the Arabic language, Modern Standard Arabic (MSA), differs in a non-trivial manner from the various spoken regional dialects of Arabic – the true “native languages” of Arabic speakers. Those dialects, in turn, differ quite a bit from each other. However, due to MSA’s prevalence in written form, almost all Arabic datasets have predominantly MSA content. In this article, we describe the creation of a novel Arabic resource with dialect annotations. We have created a large monolingual dataset rich in dialectal Arabic content, called the Arabic Online Commentary Dataset (Zaidan and Callison-Burch 2011). We describe our annotation effort to identify the dialect level (and dialect itself) in each of more than 100,000 sentences from the dataset by crowdsourcing the annotation task, and delve into interesting annotator behaviors (like over-identification of one’s own dialect). Using this new annotated dataset, we consider the task of Arabic dialect identification&colon; given the word sequence forming an Arabic sentence, determine the variety of Arabic in which it is written. We use the data to train and evaluate automatic classifiers for dialect identification, and establish that classifiers using dialectal data significantly and dramatically outperform baselines that use MSA-only data, achieving near-human classification accuracy. Finally, we apply our classifiers to discover dialectical data from a large web crawl consisting of 3.5 million pages mined from online Arabic newspapers. 
+   bibtex: |
+      @article{zaidan-callisonburch:CL:2013,
+         author    = {Omar F. Zaidan and Chris Callison-Burch},
+         title =   {Arabic Dialect Identification},
+         journal = {Computational Linguistics},
+         year =    {2014},
+         volume = {40},
+         number = {1},
+         pages = {171-202}
+       }
+
 -
    title: Extracting Lexically Divergent Paraphrases from Twitter
    authors: Wei Xu, Alan Ritter, Chris Callison-Burch, William B. Dolan and Yangfeng Ji
@@ -1478,104 +1594,6 @@
          publisher = {Association for Computational Linguistics},
          url = {http://cis.upenn.edu/~ccb/publications/parma.pdf}
        }
-       
--
-   title: Arabic Dialect Identification
-   authors: Omar Zaidan and Chris Callison-Burch
-   venue: Computational Linguistics
-   type: journal
-   year: arabic-dialect-id
-   url: publications/arabic-dialect-id.pdf
-   id: arabic-dialect-id
-   figures:
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-1.jpg
-         label: Figure 1
-         caption: One possible breakdown of spoken Arabic into dialect groups&colon; Maghrebi, Egyptian, Levantine, Gulf, and Iraqi. Habash (2010) and Versteegh (2001) give a breakdown along mostly the same lines. Note that this is a relatively coarse breakdown, and further division of the dialect groups is possible, especially in large regions such as the Maghreb.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-1.jpg
-         label: Table 1
-         caption: A few examples illustrating similarities and differences across MSA and three Arabic dialects&colon; Levantine, Gulf, and Egyptian. Even when a word is spelled the same across two or more varieties, the pronunciation might differ due to differences in short vowels (which are not spelled out). Also, due to the lack of orthography standardization, and variance in pronunciation even within a single dialect, some dialectal words could have more than one spelling (e.g. Egyptian “I drink” could be bAšrb, Levantine “He drinks” could be byšrb). (We use the Habash-Soudi-Buckwalter transliteration scheme to represent Arabic orthography, which maps each Arabic letter to a single, distinct character. We provide a table with the character mapping in Appendix A.)
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-2.jpg
-         label: Figure 2
-         caption: Two roughly equivalent Arabic sentences, one in MSA and one in Levantine Arabic, translated by the same MT system (Google Translate) into English. An acceptable translation would be When will we see this group of criminals undergo trial (or tried)?. The MSA variant is handled well, while the dialectal variant is mostly transliterated.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-3.jpg
-         label: Figure 3
-         caption: Two roughly equivalent Arabic sentences, one in MSA and one in Egyptian Arabic, translated by the same MT system (Google Translate) into English. An acceptable translation would be What is this that is happening? What is this that I’m seeing?. As in Figure 2, the dialectal variant is handles quite poorly.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-4.jpg
-         label: Figure 4
-         caption: The output of a Spanish-to-English system when given a Portuguese sentence as input, compared to the output of a Portuguese-to-English system, which performs well. The behavior is very similar to that in Figures 2 and 3, namely the failure to translate out-of-vocabulary words when there is a language mismatch.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-2.jpg
-         label: Table 2
-         caption: A summary of the different components of the AOC dataset. Overall, 1.4M comments were harvested from 86.1K articles, corresponding to 52.1M words.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-5.jpg
-         label: Figure 5
-         caption: Three sentences that were identified by our annotators as dialectical, even thought they do not contain individually dialectal words. A word-based OOV-detection approach would fail to classify these sentences as being dialectal, since all these words could appear in an MSA corpus. One might argue that a distinction should be drawn between informal uses of MSA versus dialectical sentences, but annotators consistently classify these sentences as dialect.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-6.jpg
-         label: Figure 6
-         caption: The dialectal sentences of Figure 5, with MSA equivalents.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-7.jpg
-         label: Figure 7
-         caption: The interface for the dialect identification task. This example, and the full interface, can be viewed at the URL http&colon;//bit.ly/eUtiO3.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-3.jpg
-         label: Table 3
-         caption: Some statistics over the labels provided by three spammers. Compared to the typical worker (right-most column), all workers perform terribly on the MSA control items, and also usually fail to recognize dialectal content in commentary sentences. Other red flags, such as geographic location and ‘identifying’ unrepresented dialects, are further proof of the spammy behavior.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-8.jpg
-         label: Figure 8
-         caption: The distribution of labels provided by the workers for the dialect identification task, over all three news sources (a) and over each individual news source (b–d). Al-Ghad is published in Jordan, Al-Riyadh in Saudi Arabia, and Al-Youm Al-Sabe’ in Egypt. Their local readerships are reflected in the higher proportion of corresponding dialects. Note that this is not a breakdown on the sentence level, and does not reflect any kind of majority voting. For example, most of the LEV labels on sentences from the Saudi newspaper are trumped by GLF labels when taking a majority vote, making the proportion of LEV-majority sentences smaller than what might be deduced by looking at the label distribution in (c).
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-4.jpg
-         label: Table 4
-         caption: The specific-dialect label distribution (given that a dialect label was provided), shown for each speaker group.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-9.jpg
-         label: Figure 9
-         caption: A bubble chart showing workers’ MSA and dialect recall. Each data point (or ‘bubble’) in the graph represents one annotator, with the bubble size corresponding to the number of Assignments completed by that annotator.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-5.jpg
-         label: Table 5
-         caption: Two annotators with a General label bias, one who uses the label liberally, and one who is more conservative. Note that in both cases, there is a noticeably smaller percentage of General labels in the Egyptian newspaper than in the Jordanian and Saudi newspapers.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-10.jpg
-         label: Figure 10
-         caption: Learning curves for the general MSA vs. dialect task, with all three news sources pooled together. Learning curves for the individual news sources can be found in Figure 11. The 83% line has no significance, and is provided to ease comparison with Figure 11.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-figure-11.jpg
-         label: Figure 11
-         caption: Learning curves for the MSA vs. dialect task, for each of the three news sources. The 83% line has no significance, and is provided to ease comparison across the three components, and with Figure 10.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-6.jpg
-         label: Table 6
-         caption: Accuracy rates (%) on several 2-way classification tasks (MSA vs. dialect) for various models. Models in the top part of the table do not utilize the dialect-annotated data, while models in the bottom part do. (For the latter kind of models, the accuracy rates reported are based on a training set size of 90% of the available data.)
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-7.jpg
-         label: Table 7
-         caption: Confusion matrix in the 4-way classification setup. Rows correspond to actual labels, and columns correspond to predicted labels. For instance, 6.7% of MSA sentences were given a GLF label (first row, third column). Note that entries within a single row sum to 100%.
-      -
-         img: figures/arabic-dialect-id/arabic-dialect-id-table-8.jpg
-         label: Table 8
-         caption: Predicted label breakdown for the crawled data, over the four varieties of Arabic. All varieties were given equal priors.
-   abstract: The written form of the Arabic language, Modern Standard Arabic (MSA), differs in a non-trivial manner from the various spoken regional dialects of Arabic – the true “native languages” of Arabic speakers. Those dialects, in turn, differ quite a bit from each other. However, due to MSA’s prevalence in written form, almost all Arabic datasets have predominantly MSA content. In this article, we describe the creation of a novel Arabic resource with dialect annotations. We have created a large monolingual dataset rich in dialectal Arabic content, called the Arabic Online Commentary Dataset (Zaidan and Callison-Burch 2011). We describe our annotation effort to identify the dialect level (and dialect itself) in each of more than 100,000 sentences from the dataset by crowdsourcing the annotation task, and delve into interesting annotator behaviors (like over-identification of one’s own dialect). Using this new annotated dataset, we consider the task of Arabic dialect identification&colon; given the word sequence forming an Arabic sentence, determine the variety of Arabic in which it is written. We use the data to train and evaluate automatic classifiers for dialect identification, and establish that classifiers using dialectal data significantly and dramatically outperform baselines that use MSA-only data, achieving near-human classification accuracy. Finally, we apply our classifiers to discover dialectical data from a large web crawl consisting of 3.5 million pages mined from online Arabic newspapers. 
-   bibtex: |
-      @article{zaidan-callisonburch:CL:2013,
-         author    = {Omar F. Zaidan and Chris Callison-Burch},
-         title =   {Arabic Dialect Identification},
-         journal = {Computational Linguistics},
-         year =    {2013},
-         volume = {XXX},
-         number = {XXX},
-         pages = {XXX}
-       }
-       
 -
    title: Learning to translate with products of novices&colon; a suite of open-ended challenge problems for teaching MT
    authors: Adam Lopez, Matt Post, Chris Callison-Burch, Jonathan Weese, Juri Ganitkevitch, Narges Ahmidi, Olivia Buzek, Leah Hanson, Beenish Jamil, Matthias Lee, Ya-Ting Lin, Henry Pao, Fatima Rivera, Leili Shahriyari, Debu Sinha, Adam Teichert, Stephen Wampler, Michael Weinberger, Daguang Xu, Lin Yang, and Shang Zhao
