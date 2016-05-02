@@ -133,7 +133,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 <!-- print the publication type -->
 {%if publication_type == "conference" %}
-<h3>Refereed conference papers (all have acceptance rates ≈ 25%)</h3>
+<h3>Refereed conference papers (most have acceptance rates ≈ 25%)</h3>
 {% elsif publication_type == "journal" %}
 <h3>Journal articles</h3>
 {% elsif publication_type == "chapter" %}
