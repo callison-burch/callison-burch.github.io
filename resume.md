@@ -3,6 +3,7 @@ title: Chris Callison-Burch
 layout: default
 active_tab: CV
 ---
+<h1>Chris Callison-Burch</h1>
 
 <h2>Employment</h2>
 
@@ -146,7 +147,8 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 
 <ol>
-  {% for year in (2000..2015) reversed %}
+{% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
+  {% for year in (2000..this_year) reversed %}
     {% for publication in site.data.publications %}
     {%if publication.year == year and publication.type == publication_type%}
 <li>
@@ -189,6 +191,15 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 </ul>
 
 
+
+<h2>Current PhD Students and Postdocs</h2>
+
+<ol>
+    {% for student in site.data.students %}
+<li> {{ student.name }},  {{ student.degree }}, {{ student.institution }} 
+</li>
+  {% endfor %}
+</ol>
 
 <h2>PhDs Graduated</h2>
 
