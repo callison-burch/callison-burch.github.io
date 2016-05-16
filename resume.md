@@ -3,7 +3,10 @@ title: Chris Callison-Burch
 layout: default
 active_tab: CV
 ---
-<h1>Chris Callison-Burch</h1>
+<h1>Chris Callison-Burch: CV</h1>
+<p class="text-muted">
+(Last updated {{ site.time | date: "%B %d, %Y" }})<br/>
+</p>
 
 <h2>Employment</h2>
 
@@ -151,15 +154,17 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   {% for year in (2000..this_year) reversed %}
     {% for publication in site.data.publications %}
     {%if publication.year == year and publication.type == publication_type%}
-<li>
-	{{ publication.authors }}, ({{publication.year}}).
+
         {% if publication.url %}
-		<a href="{{ publication.url }}">{{ publication.title }}.</a>
-        {% else %}
-		{{ publication.title }}.
-	{% endif %}
+<li><a href="http://cis.upenn.edu/~ccb/{{ publication.url }}">
+	{{ publication.authors }} ({{publication.year}}).
+	{{ publication.title }}.
 	{{ publication.venue }}.
-</li>
+</a></li>
+        {% else %}
+<li>{{ publication.authors }} ({{publication.year}}).{{ publication.title }}.</li>
+	{% endif %}
+
     {% endif %}
     {% endfor %}
   {% endfor %}
@@ -173,9 +178,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 <ol>
     {% for talk in site.data.talks %}
-<li>
-	{{ talk.venue }}. {{talk.title}}. {{talk.date}}
-</li>
+<li> {{ talk.venue }}. {{talk.title}}. {{talk.date}} </li>
   {% endfor %}
 </ol>
 

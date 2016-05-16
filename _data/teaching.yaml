@@ -31,6 +31,8 @@
    enrollment: 174
    instructor_rating: 2.22
    course_rating: 2.19
+   department_average_instructor_rating: 2.43
+   department_average_course_rating: 2.35
 -
    title: Machine Translation
    number: CIS 526
