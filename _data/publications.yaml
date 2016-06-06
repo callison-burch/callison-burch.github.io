@@ -1,4 +1,23 @@
 -
+   title: Most babies are little and most problems are huge&colon; Compositional Entailment in Adjective-Nouns
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2016
+   url: publications/compositional-entailment-in-adjective-nouns.pdf
+   id: compositional-entailment-in-adjective-nouns
+   abstract: We examine adjective-noun (AN) composition in the task of recognizing textual entailment (RTE). We analyze behavior of ANs in large corpora and show that, despite conventional wisdom, adjectives do not always restrict the denotation of the nouns they modify. We use natural logic to characterize the variety of entailment relations that can result from AN composition. Predicting these relations depends on context and on common-sense knowledge, making AN composition especially challenging for current RTE systems. We demonstrate the inability of current state-of-the-art systems to handle AN composition in a simplified RTE task which involves the insertion of only a single word.
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
+       author = {Ellie Pavlick and Chris Callison-Burch},
+       title = {Most babies are little and most problems are huge&colon; Compositional Entailment in Adjective-Nouns},
+       booktitle = {The 54th Annual Meeting of the Association for Computational Linguistics (ACL)},
+       month = {August},
+       year = {2016},
+       address = {Berlin, Germany},
+       url = {http://www.cis.upenn.edu/~ccb/publications/compositional-entailment-in-adjective-nouns.pdf}
+       } 
+-
    title: Simple PPDB&colon; A Paraphrase Database for Simplification
    authors: Ellie Pavlick and Chris Callison-Burch
    venue: ACL
