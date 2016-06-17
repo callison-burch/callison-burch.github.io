@@ -481,7 +481,7 @@
    authors: Ann Irvine and Chris Callison-Burch
    venue: Journal of Natural Language Engineering
    type: journal
-   year: 2015
+   year: 2016
    url: publications/end-to-end-smt-with-zero-or-small-bitexts.pdf
    id: end-to-end-smt-with-zero-or-small-bitexts
    abstract: We use bilingual lexicon induction techniques, which learn translations from monolingual texts in two languages, to build an end-to-end statistical machine translation (SMT) system without the use of any bilingual sentence-aligned parallel corpora. We present detailed analysis of the accuracy of bilingual lexicon induction, and show how a discriminative model can be used to combine various signals of translation equivalence (like contextual similarity, temporal similarity, orthographic similarity and topic similarity). Our discriminative model produces higher accuracy translations than previous bilingual lexicon induction techniques. We reuse these signals of translation equivalence as features on a phrase-based SMT system. These monolingually-estimated features enhance low resource SMT systems in addition to allowing end-to-end machine translation without parallel corpora.
@@ -490,10 +490,11 @@
          author = {Ann Irvine and Chris Callison-Burch},
          title = {End-to-End Statistical Machine Translation with Zero or Small Parallel Texts},
          journal = {Journal of Natural Language Engineering},
-         volume = {},
-         year = {2015},
+         volume = {22},
+         issue = {4},
+         year = {2016},
          url = {http://www.cis.upenn.edu/~ccb/publications/end-to-end-smt-with-zero-or-small-bitexts.pdf},
-         pages = {}
+         pages = {517-548}
        }
 -
    title: Arabic Dialect Identification
