@@ -5,7 +5,7 @@ img: profile-small
 img_link: assets/img/profile-large.jpg
 caption: |
  <b>Office:</b> Levine 506<br />
- <b>Office Hours:</b> Wednesdays 3-5  (Spring '16)<br />
+ <b>Office Hours:</b> By appointment (Summer '16)<br />
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
