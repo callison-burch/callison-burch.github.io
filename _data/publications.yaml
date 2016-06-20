@@ -37,6 +37,25 @@
        url = {http://www.cis.upenn.edu/~ccb/publications/simple-ppdb.pdf}
        } 
 -
+   title: So-Called Non-Subsective Adjectives
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: *SEM
+   type: conference
+   year: 2016
+   url: publications/non-subsective-adjectives.pdf
+   id: non-subsective-adjectives
+   abstract: The interpretation of adjective-noun pairs plays a crucial role in tasks such as recognizing textual entailment. Formal semantics often places adjectives into a taxonomy which should dictate adjectives’ entailment behavior when placed in adjective-noun compounds. However, we show experimentally that the behavior of subsective adjectives (e.g. red) versus non-subsective adjectives (e.g. fake) is not as cut and dry as often assumed. For example, inferences are not always symmetric&colon; while ID is generally considered to be mutually exclusive with fake ID, fake ID is considered to entail ID. We discuss the implications of these findings for automated natural language understanding.
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
+       author = {Ellie Pavlick and Chris Callison-Burch},
+       title = {So-Called Non-Subsective Adjectives},
+       booktitle = {*SEM 2016: The Fifth Joint Conference on Lexical and Computational Semantics},
+       month = {August},
+       year = {2016},
+       address = {Berlin, Germany},
+       url = {http://www.cis.upenn.edu/~ccb/publications/non-subsective-adjectives.pdf}
+       } 
+-
    title: Clustering Paraphrases by Word Sense
    authors: Anne Cocos and Chris Callison-Burch
    venue: NAACL
@@ -96,7 +115,7 @@
 -
    title: A Comprehensive Analysis of Bilingual Lexicon Induction
    authors: Ann Irvine and Chris Callison-Burch
-   venue: Submitted
+   venue: Computational Linguistics
    type: journal
    year: 2016
    url: publications/discriminative-bilingual-lexicon-induction.pdf
