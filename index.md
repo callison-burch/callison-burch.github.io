@@ -22,7 +22,7 @@ My research group released [PPDB, the paraphrase database](http://paraphrase.org
 
 We developed [Joshua, an open source decoder for statistical machine translation](http://joshua-decoder.org/), which uses synchronous context free grammars, and extracts linguistically informed translation rules. 
 
-I am in my 3rd year at Penn, so I am up for reappointment.  If you would like to read my reappointment materials, here they are:
+I will be going up for tenure in the Fall. If you would like to read my materials, here they are:
 <h4><a href="research-statement.html" class="label label-success">Research Statement</a></h4>
 <h4><a href="teaching-statement.html" class="label label-primary">Teaching Statement</a></h4>
 <h4><a href="resume.html" class="label label-info">Curriculum Vitae</a></h4>
