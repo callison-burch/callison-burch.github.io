@@ -1,4 +1,42 @@
 -
+   title: The Gun Violence Database&colon; A new task and data set for NLP
+   authors: Ellie Pavlick, Heng Ji, Xiaoman Pan and Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2016
+   url: publications/gun-violence-database.pdf
+   id: gun-violence-database
+   abstract: We argue that NLP researchers are especially well-positioned to contribute to the national discussion about gun violence. Reasoning about the causes and outcomes of gun violence is typically dominated by politics and emotion, and data-driven research on the topic is stymied by a shortage of data and a lack of federal funding. However, data abounds in the form of unstructured text from news articles across the country. This is an ideal application of NLP technologies, such as relation extraction, coreference resolution, and event detection. We introduce a new and growing dataset, the Gun Violence Database, in order to facilitate the adaptation of current NLP technologies to the domain of gun violence, thus enabling better social science research on this important and under-resourced problem.
+   bibtex: |
+      @inproceedings{Pavlick-EtAl:2016:EMNLP,
+       author = {Ellie Pavlick and Heng Ji and Xiaoman Pan and Chris Callison-Burch},
+       title = {The Gun Violence Database: A new task and data set for {NLP}},
+       booktitle = {Proceedings of The 2016 Conference on Empirical Methods on Natural Language Processing (EMNLP)},
+       month = {November},
+       year = {2016},
+       address = {Austin, TX},
+       url = {http://www.cis.upenn.edu/~ccb/publications/gun-violence-database.pdf}
+       } 
+-
+   title: Tense Manages to Predict Implicative Behavior in Verbs
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2016
+   url: publications/tense-predicts-implicative-verbs.pdf
+   id: tense-predicts-implicative-verbs
+   abstract: Implicative verbs (e.g. manage) entail their compliment clauses, while non-implicative verbs (e.g. want) do not. For example, while managing to solve the problem entails solving the problem, no such inference follows from wanting to solve the problem. Differentiating between implicative and non-implicative verbs is therefore an essential component of natural language understanding, relevant to applications such as textual entailment and summarization. We present a simple method for predicting implicativeness which exploits known constraints on the tense of implicative verbs and their compliments. We show that this yields an effective, data-driven way of capturing this nuanced property in verbs.
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:EMNLP,
+       author = {Ellie Pavlick and Chris Callison-Burch},
+       title = {Tense Manages to Predict Implicative Behavior in Verbs},
+       booktitle = {Proceedings of The 2016 Conference on Empirical Methods on Natural Language Processing (EMNLP)},
+       month = {November},
+       year = {2016},
+       address = {Austin, TX},
+       url = {http://www.cis.upenn.edu/~ccb/publications/tense-predicts-implicative-verbs.pdf}
+       } 
+-
    title: Tense Manages to Predict Implicative Behavior in Verbs
    authors: Ellie Pavlick and Chris Callison-Burch
    venue: EMNLP
@@ -126,10 +164,10 @@
          author = {Wei Xu and Courtney Napoles and Ellie Pavlick and Quanze Chen and Chris Callison-Burch},
          title = {Optimizing Statistical Machine Translation for Text Simplification},
          journal = {Transactions of the Association for Computational Linguistics},
-         volume = {},
+         volume = {4},
          year = {2016},
          url = {http://www.cis.upenn.edu/~ccb/publications/optimizing-machine-translation-for-text-simplifciation.pdf},
-         pages = {}
+         pages = {401--415}
        }
 -
    title: A Comprehensive Analysis of Bilingual Lexicon Induction
