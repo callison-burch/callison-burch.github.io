@@ -1,4 +1,42 @@
 -
+   title: Tense Manages to Predict Implicative Behavior in Verbs
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2016
+   url: publications/tense-predicts-implicative-verbs.pdf
+   id: tense-predicts-implicative-verbs
+   abstract: Implicative verbs (e.g. manage) entail their compliment clauses, while non-implicative verbs (e.g. want) do not. For example, while managing to solve the problem entails solving the problem, no such inference follows from wanting to solve the problem. Differentiating between implicative and non-implicative verbs is therefore an essential component of natural language understanding, relevant to applications such as textual entailment and summarization. We present a simple method for predicting implicativeness which exploits known constraints on the tense of implicative verbs and their compliments. We show that this yields an effective, data-driven way of capturing this nuanced property in verbs.
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
+       author = {Ellie Pavlick and Chris Callison-Burch},
+       title = {Tense Manages to Predict Implicative Behavior in Verbs},
+       booktitle = {Proceedings of EMNLP},
+       month = {November},
+       year = {2016},
+       address = {Austin, TX},
+       url = {http://www.cis.upenn.edu/~ccb/publications/tense-predicts-implicative-verbs.pdf}
+       } 
+-
+   title: So-Called Non-Subsective Adjectives
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: STARSEM
+   type: conference
+   year: 2016
+   url: publications/non-subsective-adjectives.pdf
+   id: non-subsective-adjectives
+   abstract: The interpretation of adjective-noun pairs plays a crucial role in tasks such as recognizing textual entailment. Formal semantics often places adjectives into a taxonomy which should dictate adjectives’ entailment behavior when placed in adjective-noun compounds. However, we show experimentally that the behavior of subsective adjectives (e.g. red) versus non-subsective adjectives (e.g. fake) is not as cut and dry as often assumed. For example, inferences are not always symmetric&colon; while ID is generally considered to be mutually exclusive with fake ID, fake ID is considered to entail ID. We discuss the implications of these findings for automated natural language understanding.
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
+       author = {Ellie Pavlick and Chris Callison-Burch},
+       title = {So-Called Non-Subsective Adjectives},
+       booktitle = {*SEM 2016: The Fifth Joint Conference on Lexical and Computational Semantics},
+       month = {August},
+       year = {2016},
+       address = {Berlin, Germany},
+       url = {http://www.cis.upenn.edu/~ccb/publications/non-subsective-adjectives.pdf}
+       } 
+-
    title: Most babies are little and most problems are huge&colon; Compositional Entailment in Adjective-Nouns
    authors: Ellie Pavlick and Chris Callison-Burch
    venue: ACL
@@ -29,31 +67,12 @@
    bibtex: |
       @inproceedings{Pavlick-Callison-Burch:2016:ACL,
        author = {Ellie Pavlick and Chris Callison-Burch},
-       title = {Simple PPDB&colon; A Paraphrase Database for Simplification},
+       title = {Simple {PPDB}&colon; A Paraphrase Database for Simplification},
        booktitle = {The 54th Annual Meeting of the Association for Computational Linguistics (ACL)},
        month = {August},
        year = {2016},
        address = {Berlin, Germany},
        url = {http://www.cis.upenn.edu/~ccb/publications/simple-ppdb.pdf}
-       } 
--
-   title: So-Called Non-Subsective Adjectives
-   authors: Ellie Pavlick and Chris Callison-Burch
-   venue: *SEM
-   type: conference
-   year: 2016
-   url: publications/non-subsective-adjectives.pdf
-   id: non-subsective-adjectives
-   abstract: The interpretation of adjective-noun pairs plays a crucial role in tasks such as recognizing textual entailment. Formal semantics often places adjectives into a taxonomy which should dictate adjectives’ entailment behavior when placed in adjective-noun compounds. However, we show experimentally that the behavior of subsective adjectives (e.g. red) versus non-subsective adjectives (e.g. fake) is not as cut and dry as often assumed. For example, inferences are not always symmetric&colon; while ID is generally considered to be mutually exclusive with fake ID, fake ID is considered to entail ID. We discuss the implications of these findings for automated natural language understanding.
-   bibtex: |
-      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
-       author = {Ellie Pavlick and Chris Callison-Burch},
-       title = {So-Called Non-Subsective Adjectives},
-       booktitle = {*SEM 2016: The Fifth Joint Conference on Lexical and Computational Semantics},
-       month = {August},
-       year = {2016},
-       address = {Berlin, Germany},
-       url = {http://www.cis.upenn.edu/~ccb/publications/non-subsective-adjectives.pdf}
        } 
 -
    title: Clustering Paraphrases by Word Sense
@@ -86,7 +105,7 @@
    bibtex: |
       @inproceedings{Napoles-et-al:2016:NAACL-demos,
        author = {Courtney Napoles and Chris Callison-Burch and Matt Post},
-       title = {Clustering Paraphrases by Word Sense},
+       title = {Sentential Paraphrasing as Black-Box Machine Translation},
        booktitle = {The 2016 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2016)},
        month = {June},
        year = {2016},
@@ -222,7 +241,7 @@
    bibtex: |
     @InProceedings{PavlickEtAl-2015:ACL:Semantics,
       author =  {Ellie Pavlick and Pushpendre Rastogi and Juri Ganitkevich and Ben Van Durme, Chris Callison-Burch},
-      title =   {PPDB 2.0&colon; Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification}
+      title =   {{PPDB} 2.0&colon; Better paraphrase ranking, fine-grained entailment relations, word embeddings, and style classification}
       booktitle = {Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics (ACL 2015)},
       month     = {July},
       year      = {2015},
