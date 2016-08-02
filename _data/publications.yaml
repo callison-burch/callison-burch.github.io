@@ -3394,8 +3394,8 @@
        
 -
    title: Creating Speech and Language Data With Amazon’s Mechanical Turk
-   authors: Chris Callison-Burch and Mark Dredze.  In Proceedings NAACL <a href="http://sites.google
-   venue: com/site/amtworkshop2010/">Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
+   authors: Chris Callison-Burch and Mark Dredze.  
+   venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
    type: workshop
    year: 2010
    url: publications/creating-speech-and-language-data-with-amazon-mechanical-turk.pdf
