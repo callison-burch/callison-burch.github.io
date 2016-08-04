@@ -6,8 +6,7 @@ active_tab: publications
 
 
 <table class="table"> 
-  <tbody>
-
+<tbody>
   {% for year in (2000..2016) reversed %}
     <tr><td>
 	<a name="{{year}}"></a><h1>{{year}}</h1>
@@ -123,13 +122,10 @@ active_tab: publications
 	</div><!-- /.modal-dialog -->
 	</div><!-- /.bibtex-content -->
 	{% endif %}
-
-
-
 	</td>
     <tr>
     {% endif %}
     {% endfor %}
   {% endfor %}
-  </tbody>
-</table>
+<!-- ccb - debugging by removing </tbody> -->
+<!-- ccb - debugging by removing</table> -->
