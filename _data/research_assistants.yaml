@@ -1,27 +1,18 @@
-- 
-   name: Lawrence Chan
+-
+   name: John Hewitt
    degree: Undergraduate
-   pic: RAs/lawrence_chan.jpg
-   homepage: 
-   project: Likelihood Estimates of OpEds 
+   pic: RAs/john_hewitt.jpg
+   homepage: https://www.seas.upenn.edu/~johnhew/
+   project: Bilingual lexicon induction
    graduation_date: May 2018
    gender: male
    role: RA
-- 
-   name: Alexander Ma
-   degree: Undergraduate
-   pic: RAs/alexander_ma.jpg
-   homepage: https://hk.linkedin.com/in/alexander-ma-739320ab
-   project: Transitive Constraints on Semantics
-   graduation_date: May 2018
-   gender: male
-   role: Independent Study
 - 
    name: Parker Stakoff
    degree: Undergraduate
    pic: RAs/parker_stakoff.jpg
    homepage: 
-   project: Transitive Constraints on Semantics
+   project: Visualizations, Crowdsourcing
    graduation_date: May 2018
    gender: female
    role: RA
@@ -33,76 +24,13 @@
    project: Scalar Adjectives
    graduation_date: May 2017
    gender: female
-   role: RA, Independent Study
+   role: RA
 -
-   name: Sierra Yit
+   name: Victoria Xiao
    degree: Undergraduate
-   pic: RAs/sierra_yit.jpg
+   pic: RAs/victoria_xiao.jpg
    homepage: 
-   project: Monolingual Alignment
-   graduation_date: May 2017
+   project: Monolingual alignment
+   graduation_date: May 2018
    gender: female
-   role: RA, TA
--
-   name: Theresa Breiner
-   degree: Master's Student
-   pic: RAs/theresa_breiner.jpg
-   homepage: https://www.linkedin.com/in/theresabreiner
-   project: Transliteration
-   graduation_date: May 2016
-   gender: female
-   role: Independent Study
--
-   name: Brendan Callahan
-   degree: Master's Student
-   pic: RAs/brendan_callahan.jpg
-   homepage: 
-   project: Images and Text
-   graduation_date: 
-   gender: female
-   role: Independent Study
--
-   name: Shreejit Gangadharan
-   degree: Master's Student
-   pic: RAs/shreejit_gangadharan.jpg
-   homepage: 
-   project: Bilingual Lexicon Induction
-   graduation_date: May 2016
-   gender: male
-   role: RA
--
-   name: Grishma Jena
-   degree: Master's Student
-   pic: RAs/grishma_jena.jpg
-   homepage: 
-   project: Bilingual Lexicon Induction
-   graduation_date: 
-   gender: female
-   role: Independent Study
--
-   name: Sneha Rajana
-   degree: Master's Student
-   pic: RAs/sneha_rajana.jpg
-   homepage: 
-   project: Learning Antonyms
-   graduation_date: 
-   gender: female
-   role: Independent Study
--
-   name: Dhruvil Shah
-   degree: Master's Student
-   pic: RAs/dhruvil_shah.jpg
-   homepage: 
-   project: Named Entity Recognition
-   graduation_date: May 2016
-   gender: male
-   role: RA
--
-   name: Ishan Srivastava
-   degree: Master's Student
-   pic: RAs/ishan_srivastava.jpg
-   homepage: 
-   project: Images and Text
-   graduation_date: May 2016
-   gender: male
    role: RA
