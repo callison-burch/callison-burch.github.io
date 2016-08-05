@@ -1,4 +1,43 @@
 -
+   semester: Summer 2016
+   students: 
+   -
+      name: John Hewitt
+      degree: Undergraduate
+      pic: RAs/john_hewitt.jpg
+      homepage: https://www.seas.upenn.edu/~johnhew/
+      project: Bilingual lexicon induction
+      graduation_date: May 2018
+      gender: male
+      role: RA
+   - 
+      name: Parker Stakoff
+      degree: Undergraduate
+      pic: RAs/parker_stakoff.jpg
+      homepage: 
+      project: Visualizations, Crowdsourcing
+      graduation_date: May 2018
+      gender: female
+      role: RA
+   -
+      name: Veronica Wharton
+      degree: Undergraduate
+      pic: RAs/veronica_wharton.jpg
+      homepage: http://veronicawharton.com/
+      project: Scalar Adjectives
+      graduation_date: May 2017
+      gender: female
+      role: RA
+   -
+      name: Victoria Xiao
+      degree: Undergraduate
+      pic: RAs/victoria_xiao.jpg
+      homepage: 
+      project: Monolingual alignment
+      graduation_date: May 2018
+      gender: female
+      role: RA
+-
    semester: Spring 2016
    students: 
    - 
