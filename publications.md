@@ -20,6 +20,9 @@ active_tab: publications
         {% else %}
 		{{ publication.title }}.
 	{% endif %}
+	{% if publication.award %}
+		<b>{{ publication.award }}.</b>
+	{% endif %}
 	{{ publication.authors }}.
 	{{ publication.venue }}-{{ publication.year }}.
 
