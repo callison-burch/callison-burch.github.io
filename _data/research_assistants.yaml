@@ -17,6 +17,24 @@
    gender: female
    role: RA
 -
+   name: Sierra Yit
+   degree: Undergraduate
+   pic: RAs/sierra_yit.jpg
+   homepage: 
+   project: Monolingual Alignment
+   graduation_date: May 2017
+   gender: female
+   role: RA
+-
+   name: Sneha Rajana
+   degree: Master's Student
+   pic: RAs/sneha_rajana.jpg
+   homepage: 
+   project: Learning Antonyms
+   graduation_date: 
+   gender: female
+   role: Independent Study
+-
    name: Veronica Wharton
    degree: Undergraduate
    pic: RAs/veronica_wharton.jpg
@@ -34,3 +52,12 @@
    graduation_date: May 2018
    gender: female
    role: RA
+-
+   name: Xiao Ling
+   degree: Master's Student
+   pic: RAs/xiao_ling.jpg
+   homepage: 
+   project: Scalar Adjectives
+   graduation_date: May 2018
+   gender: male
+   role: Independent Study
