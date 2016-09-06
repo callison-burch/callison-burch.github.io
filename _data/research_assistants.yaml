@@ -1,4 +1,13 @@
 -
+   name: Grace Arnold
+   degree: Undergraduate
+   pic: RAs/grace_arnold.jpg
+   homepage: https://www.linkedin.com/in/1gracearnold
+   project: Crowdsourced Interpretation of TOS 
+   graduation_date: May 2018
+   gender: female
+   role: Independent Study
+-
    name: John Hewitt
    degree: Undergraduate
    pic: RAs/john_hewitt.jpg
@@ -7,15 +16,15 @@
    graduation_date: May 2018
    gender: male
    role: RA
-- 
-   name: Parker Stakoff
+-
+   name: Mara Levy
    degree: Undergraduate
-   pic: RAs/parker_stakoff.jpg
-   homepage: 
-   project: Visualizations, Crowdsourcing
-   graduation_date: May 2018
+   pic: RAs/mara_levy.png
+   homepage: https://www.linkedin.com/in/mara-levy-27217b11b
+   project: Crowdsourced Interpretation of TOS 
+   graduation_date: May 2019
    gender: female
-   role: RA
+   role: Independent Study
 -
    name: Sierra Yit
    degree: Undergraduate
@@ -25,15 +34,6 @@
    graduation_date: May 2017
    gender: female
    role: RA
--
-   name: Sneha Rajana
-   degree: Master's Student
-   pic: RAs/sneha_rajana.jpg
-   homepage: 
-   project: Learning Antonyms
-   graduation_date: 
-   gender: female
-   role: Independent Study
 -
    name: Veronica Wharton
    degree: Undergraduate
@@ -53,11 +53,38 @@
    gender: female
    role: RA
 -
+   name: Yoni Nachmany
+   degree: Undergraduate
+   pic: RAs/yoni_nachmany.jpg
+   homepage: https://www.linkedin.com/in/yoninachmany
+   project: Crowdsourced Interpretation of TOS 
+   graduation_date: May 2018
+   gender: male
+   role: Independent Study
+-
+   name: Brendan Callahan
+   degree: Master's Student
+   pic: RAs/brendan_callahan.jpg
+   homepage: 
+   project: Images and Text
+   graduation_date: May 2016
+   gender: male
+   role: Independent Study
+-
+   name: Sneha Rajana
+   degree: Master's Student
+   pic: RAs/sneha_rajana.jpg
+   homepage: 
+   project: Learning Antonyms
+   graduation_date: May 2016
+   gender: female
+   role: RA
+-
    name: Xiao Ling
    degree: Master's Student
    pic: RAs/xiao_ling.jpg
    homepage: 
    project: Scalar Adjectives
-   graduation_date: May 2018
+   graduation_date: December 2016
    gender: male
    role: Independent Study
