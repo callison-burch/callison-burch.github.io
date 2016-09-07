@@ -1,4 +1,22 @@
 -
+   name: Amit Patel
+   degree: Undergraduate
+   pic: 
+   homepage: 
+   project: Neural Nets for Taxonomy Learning
+   graduation_date: 
+   gender: male
+   role: RA
+-
+   name: Elizabeth Hamp
+   degree: Undergraduate
+   pic: RAs/elizabeth_hamp.jpg
+   homepage: https://www.linkedin.com/in/elizabethhamp
+   project: Crowdsourced Interpretation of TOS 
+   graduation_date: May 2018
+   gender: female
+   role: RA
+-
    name: Grace Arnold
    degree: Undergraduate
    pic: RAs/grace_arnold.jpg
@@ -6,7 +24,16 @@
    project: Crowdsourced Interpretation of TOS 
    graduation_date: May 2018
    gender: female
-   role: Independent Study
+   role: RA
+-
+   name: Hannah Cutler
+   degree: Undergraduate
+   pic:
+   homepage: 
+   project: Senior Design
+   graduation_date: May 2017
+   gender: female
+   role: Senior Design
 -
    name: John Hewitt
    degree: Undergraduate
@@ -26,12 +53,39 @@
    gender: female
    role: Independent Study
 -
+   name: Nivedita Sankar
+   degree: Undergraduate
+   pic: RAs/nivedita_sankar.jpg
+   homepage: https://www.linkedin.com/in/niveditasankar
+   project: Grievance Process for Crowdsourcing
+   graduation_date: May 2017
+   gender: female
+   role: Senior Design
+-
    name: Sierra Yit
    degree: Undergraduate
    pic: RAs/sierra_yit.jpg
    homepage: 
    project: Monolingual Alignment
    graduation_date: May 2017
+   gender: female
+   role: RA
+-
+   name: Ross Mechanic
+   degree: Undergraduate
+   pic:
+   homepage: 
+   project: Senior Design
+   graduation_date: May 2017
+   gender: male
+   role: Senior Design
+-
+   name: Talia Delijani
+   degree: Undergraduate
+   pic: RAs/talia_delijani.jpg
+   homepage: 
+   project: Predicting Missing Adjectives
+   graduation_date: May 2018
    gender: female
    role: RA
 -
@@ -42,7 +96,7 @@
    project: Scalar Adjectives
    graduation_date: May 2017
    gender: female
-   role: RA
+   role: Senior Project
 -
    name: Victoria Xiao
    degree: Undergraduate
