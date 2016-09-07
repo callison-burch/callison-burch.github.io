@@ -1,10 +1,10 @@
 -
    name: Amit Patel
    degree: Undergraduate
-   pic: 
-   homepage: 
+   pic: RAs/amit_patel.jpg
+   homepage: http://www.amitpatel.me/
    project: Neural Nets for Taxonomy Learning
-   graduation_date: 
+   graduation_date: May 2018
    gender: male
    role: RA
 -
@@ -28,8 +28,8 @@
 -
    name: Hannah Cutler
    degree: Undergraduate
-   pic:
-   homepage: 
+   pic: RAs/hannah_cutler.jpg
+   homepage: https://www.linkedin.com/in/hannah-cutler-b6b74383
    project: Senior Design
    graduation_date: May 2017
    gender: female
@@ -66,15 +66,15 @@
    degree: Undergraduate
    pic: RAs/sierra_yit.jpg
    homepage: 
-   project: Monolingual Alignment
+   project: Predicting Missing Adjectives
    graduation_date: May 2017
    gender: female
-   role: RA
+   role: Independent Study
 -
    name: Ross Mechanic
    degree: Undergraduate
-   pic:
-   homepage: 
+   pic: RAs/ross_mechanic.jpg
+   homepage: https://www.linkedin.com/in/rossmechanic
    project: Senior Design
    graduation_date: May 2017
    gender: male
