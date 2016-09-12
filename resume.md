@@ -160,6 +160,9 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 	{{ publication.authors }} ({{publication.year}}).
 	{{ publication.title }}.
 	{{ publication.venue }}.
+        {% if publication.award %}
+	<b> {{ publication.award }}.</b>
+	{% endif %}
 </a></li>
         {% else %}
 <li>{{ publication.authors }} ({{publication.year}}).{{ publication.title }}.</li>
