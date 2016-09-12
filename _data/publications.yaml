@@ -1,4 +1,13 @@
 -
+   title: The Gun Violence Database
+   authors: Ellie Pavlick and Chris Callison-Burch
+   venue: Bloomberg Data for Good Exchange
+   type: workshop
+   year: 2016
+   url: publications/gvdb-d4gx.pdf
+   id: gvdb-d4gx
+   abstract: We describe the Gun Violence Database (GVDB), a large and growing database of gun violence incidents in the United States. The GVDB is built from the detailed information found in local news reports about gun violence, and is constructed via a large-scale crowdsourced annotation effort through our web site, http://gun-violence.org/. We argue that centralized and publicly available data about gun violence can facilitate scientific, fact-based discussion about a topic that is often dominated by politics and emotion. We describe our efforts to automate the construction of the database using state-of-the-art natural language processing (NLP) technologies, eventually enabling a fully-automated, highly-scalable resource for research on this important public health problem.
+-
    title: The Gun Violence Database&colon; A new task and data set for NLP
    authors: Ellie Pavlick, Heng Ji, Xiaoman Pan and Chris Callison-Burch
    venue: EMNLP
