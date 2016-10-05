@@ -13,7 +13,7 @@ img: graph-definitions
 img_link: http://www.seas.upenn.edu/~cis121/current/
 caption: Graph terminology introduced in Data Structures and Algorithms
 -->
-[Data Structures and Algorithms](http://www.seas.upenn.edu/~cis121/15fa/index.html) - CIS 121 (Fall 2016)
+[Data Structures and Algorithms](http://www.seas.upenn.edu/~cis121/current/) - CIS 121 (Fall 2016)
 : This course introduces undergraduates to the fundamental algorithms and data structures that are used in the field of computer science.  We introduce methods for analyzing the complexity of an algorithm and predicting the running time of software. We describe data structures like stacks, queues, lists, trees, priority queues, maps, hash tables and graphs, and we discuss how to implement them efficiently and how to use them effectively in software. Course assignments include of weekly homeworks consisting of problem sets and programming exercises in Java, and a larger term project.  This course has an enrollment of  250 students. <br /> <br />
 
 <!--
