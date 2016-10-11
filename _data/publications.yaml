@@ -384,8 +384,6 @@
          url = {http://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf},
          pages = {283--297}
        }
-       
-
 -
    title: Cost Optimization for Crowdsourcing Translation
    authors: Mingkun Gao, Wei Xu, and Chris Callison-Burch
@@ -438,7 +436,15 @@
        address = {Denver, Colorado},
        url = {http://www.cis.upenn.edu/~ccb/publications/cost-optimization-for-crowdsourcing-translation.pdf}
        }
-       
+-
+   title: The Shield of Heroic Memories
+   authors: Chris Callison-Burch
+   venue: The Adventure Zone podcast
+   type: unpublished
+   year: 2015
+   url: publications/shield-of-heroic-memories.mp3
+   id: shield-of-heroic-memories
+   abstract: I designed an item for The Adventure Zone, a comedy podcast about three brothers playing D&D with their dad.  I wish that the reveiwers for my academic papers were as enthusiastic about my submissions as the McElroy brothers were about this item.       
 -
    title: SemEval-2015 Task 1&colon; Paraphrase and Semantic Similarity in Twitter
    authors: Wei Xu, Chris Callison-Burch, and Bill Dolan
