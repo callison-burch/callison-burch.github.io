@@ -24,7 +24,7 @@ active_tab: publications
 		<b>{{ publication.award }}.</b>
 	{% endif %}
 	{{ publication.authors }}.
-	{{ publication.venue }}-{{ publication.year }}.
+	{{ publication.venue }} {{ publication.year }}.
 
 	{% if publication.abstract %}
 	<!-- abstract button -->
