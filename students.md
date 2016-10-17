@@ -5,7 +5,7 @@ active_tab: students
 ---
 
 
-<h3 id="students">PhD Students and Postdocs</h3>
+<h3 id="students">PhD Students, Postdocs, and Visiting Scholars</h3>
 
 <div class="container-fluid">
   <div class="row">
