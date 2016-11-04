@@ -8,33 +8,6 @@
    gender: male
    role: RA
 -
-   name: Elizabeth Hamp
-   degree: Undergraduate
-   pic: RAs/elizabeth_hamp.jpg
-   homepage: https://www.linkedin.com/in/elizabethhamp
-   project: Crowdsourced Interpretation of TOS 
-   graduation_date: May 2018
-   gender: female
-   role: RA
--
-   name: Grace Arnold
-   degree: Undergraduate
-   pic: RAs/grace_arnold.jpg
-   homepage: https://www.linkedin.com/in/1gracearnold
-   project: Crowdsourced Interpretation of TOS 
-   graduation_date: May 2018
-   gender: female
-   role: RA
--
-   name: Hannah Cutler
-   degree: Undergraduate
-   pic: RAs/hannah_cutler.jpg
-   homepage: https://www.linkedin.com/in/hannah-cutler-b6b74383
-   project: Senior Design
-   graduation_date: May 2017
-   gender: female
-   role: Senior Design
--
    name: John Hewitt
    degree: Undergraduate
    pic: RAs/john_hewitt.jpg
@@ -43,15 +16,6 @@
    graduation_date: May 2018
    gender: male
    role: RA
--
-   name: Mara Levy
-   degree: Undergraduate
-   pic: RAs/mara_levy.png
-   homepage: https://www.linkedin.com/in/mara-levy-27217b11b
-   project: Crowdsourced Interpretation of TOS 
-   graduation_date: May 2019
-   gender: female
-   role: Independent Study
 -
    name: Nivedita Sankar
    degree: Undergraduate
@@ -70,15 +34,6 @@
    graduation_date: May 2017
    gender: female
    role: Independent Study
--
-   name: Ross Mechanic
-   degree: Undergraduate
-   pic: RAs/ross_mechanic.jpg
-   homepage: https://www.linkedin.com/in/rossmechanic
-   project: Senior Design
-   graduation_date: May 2017
-   gender: male
-   role: Senior Design
 -
    name: Talia Delijani
    degree: Undergraduate
@@ -106,15 +61,6 @@
    graduation_date: May 2018
    gender: female
    role: RA
--
-   name: Yoni Nachmany
-   degree: Undergraduate
-   pic: RAs/yoni_nachmany.jpg
-   homepage: https://www.linkedin.com/in/yoninachmany
-   project: Crowdsourced Interpretation of TOS 
-   graduation_date: May 2018
-   gender: male
-   role: Independent Study
 -
    name: Brendan Callahan
    degree: Master's Student
