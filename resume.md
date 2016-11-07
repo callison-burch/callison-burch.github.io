@@ -202,8 +202,12 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 <ol>
     {% for student in site.data.students %}
-<li> {{ student.name }},  {{ student.degree }}, {{ student.institution }} 
+<li> {{ student.name }},  {{ student.degree }}, {{ student.institution }}.
+    {% if student.expected_graduation_date %}
+    Expected graduation date: {{ student.expected_graduation_date }}
+    {% endif %}
 </li>
+
   {% endfor %}
 </ol>
 

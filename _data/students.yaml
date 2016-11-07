@@ -18,6 +18,7 @@
    pic: jie_gao.jpg
    institution: University of Pennsylvania
    start_year: 2016
+   expected_graduation_date: Summer 2021
    homepage:
 -
    name: Reno Kriz
@@ -25,6 +26,7 @@
    pic: reno_kriz.jpg
    institution: University of Pennsylvania
    start_year: 2016
+   expected_graduation_date: Summer 2021
    homepage:
 -
    name: Anne Cocos
@@ -32,6 +34,7 @@
    pic: anne_cocos.png
    institution: University of Pennsylvania 
    start_year: 2014
+   expected_graduation_date: Summer 2019
    homepage: http://www.seas.upenn.edu/~acocos
 -
    name: Ellie Pavlick
@@ -39,6 +42,7 @@
    pic: ellie_pavlick.jpg
    institution: University of Pennsylvania 
    start_year: 2012
+   expected_graduation_date: Summer 2017
    homepage: http://www.seas.upenn.edu/~epavlick/
 -
    name: Juri Ganitkevitch
@@ -46,6 +50,7 @@
    pic: juri_ganitkevitch.png
    institution: Johns Hopkins University
    start_year: 2009
+   expected_graduation_date: Fall 2017
    homepage: http://cs.jhu.edu/~juri/
 -
    name: Courtney Napoles
@@ -53,6 +58,7 @@
    pic: courtney_napoles.png
    institution: Johns Hopkins University
    start_year: 2009
+   expected_graduation_date: Summer 2017
    homepage: http://cs.jhu.edu/~napoles/
 -
    name: Jonny Weese
@@ -60,4 +66,5 @@
    pic: jonny_weese.png
    institution: Johns Hopkins University
    start_year: 2008
+   expected_graduation_date: Fall 2017
    homepage: http://cs.jhu.edu/~jonny/
