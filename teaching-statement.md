@@ -7,7 +7,10 @@ publications:
 - teaching-machine-translation
 ---
 
-# Teaching Statement
+# Chris Callison-Burch: Teaching Statement
+<p class="text-muted">
+(Last updated {{ site.time | date: "%B %d, %Y" }})<br/>
+</p>
 
 I teach three courses at Penn.  Two are courses related to my research, and one is an introductory undergraduate course.  My teaching philosophy is that students are best engaged through hands-on work.  This idea is borne out in the project-based design of my classes, and in my mentorship of undergraduates and master's students through research projects.  Here, I'll describe my courses, my work with undergraduates and master's students, and my personal efforts at increasing the number of women in computer science.
 
@@ -35,7 +38,7 @@ My interest in crowdsourcing has expanded beyond NLP.  I created a new course on
 
 I designed the course to appeal to students in Penn's interdisciplinary major Networks and Social Systems Engineering ("NETS" for short).  NETS students bring computer science fundamentals to bear on a variety of problems in other disciplines. Among other things, my course shows how computer science can be used to do things like empower epidemiologists and enable data-driven public policy. 
 
-In the homework assignments, we build a structured database about all reported incidents of gun violence in the United States.   This idea came through a collaboration with Doug Weibe, a professor in Department of Biostatistics and Epidemiology in Penn's School of Medicine, who studies gun violence from a public heath perspective.  Congress has blocked the CDC and NIH from conducting research on this topic.  The homework assignments in NETS 213 combine together to create exactly the sort of gun violence database that partisan congressional action has sought to block. First, students use machine learning to train a text classifier to predict whether an article describes an incident of gun violence or not.  They apply it to more than 2 million web pages harvested from over 2,000 local newspapers around the country. Next, they have crowd workers validate the predictions of the classifier.  The students learn how to use Mechanical Turk and how to perform quality control on contributions from anonymous crowd workers.  They then build an interface that allows crowd workers to extract structured information from the gun violence articles (including things like the location of the shooting, demographic information of the shooter and the victim, and details about the circumstances like whether alcohol was involved, or if it was an incident of domestic violence).  Finally they create visualizations to analyze the structured data that they created.  
+In the homework assignments, we build [a structured database about all reported incidents of gun violence in the United States](http://gun-violence.org).   This idea came through a collaboration with Doug Weibe, a professor in Department of Biostatistics and Epidemiology in Penn's School of Medicine, who studies gun violence from a public heath perspective.  Congress has blocked the CDC and NIH from conducting research on this topic.  The homework assignments in NETS 213 combine together to create exactly the sort of gun violence database that partisan congressional action has sought to block. First, [students use machine learning](http://crowdsourcing-class.org/assignment4.html) to train a text classifier to predict whether an article describes an incident of gun violence or not.  They apply it to more than 2 million web pages harvested from over 2,000 local newspapers around the country. Next, they have [crowd workers validate the predictions of the classifier](http://crowdsourcing-class.org/assignment5.html).  The students learn how to use Mechanical Turk and how to perform [quality control on contributions from anonymous crowd workers](http://crowdsourcing-class.org/assignment7.html).  They then build an [interface that allows crowd workers to extract structured information](http://crowdsourcing-class.org/assignment8.html) from the gun violence articles (including things like the location of the shooting, demographic information of the shooter and the victim, and details about the circumstances like whether alcohol was involved, or if it was an incident of domestic violence).  Finally they [create visualizations to analyze the data](http://crowdsourcing-class.org/assignment9.html) that they created.  
 
 My goal is to engage students by showing them how research can have social impact.  So far the strategy has been working.  The course enrollment doubled from 25 students in the first year, to 50 in the second.  More than 100 students have signed up to take it when I teach it again this Spring.
  
@@ -183,5 +186,3 @@ Of the [PhD students postdocs, and visiting scholars who I am currently advising
   {% endfor %}
  {% endfor %}
 {% endfor %}
-  </tbody>
-</table>

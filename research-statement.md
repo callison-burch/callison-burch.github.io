@@ -20,6 +20,8 @@ publications:
 - adding-semantics-to-data-driven-paraphrasing
 - domain-specific-paraphrases
 - new-data-for-text-simplification
+- optimizing-machine-translation-for-text-simplifciation
+- clustering-paraphrases-by-word-sense
 - toward-statistical-machine-translation-without-parallel-corpora
 - end-to-end-smt-with-zero-or-small-bitexts
 - supervised-bilingual-lexicon-induction
@@ -34,13 +36,15 @@ publications:
 - improved-speech-to-speech-translation
 - language-demographics-of-mechanical-turk
 - crowd-workers
-- gun-violence-db
+- gun-violence-database
 ---
 
 
 
 # Research Statement
-
+<p class="text-muted">
+(Last updated {{ site.time | date: "%B %d, %Y" }})<br/>
+</p>
 
 Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I approach natural language understanding using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
@@ -90,13 +94,7 @@ I have extended the bilingual pivoting methodology to syntactic representations 
 </div>
 
 
-We used my bilingual pivoting technique to create the paraphrase database, called PPDB for short  ([Ganitkevitch et al, 2013](#ppdb)).   PPDB contains 8 million synonyms, 68 million phrasal paraphrases, and 94 million meaning-preserving syntactic transformations.  PPDB is freely available from our web site [paraphrase.org](http://paraphrase.org/#/search?q=freely%20available&filter=&lang=en).  It is a much larger resource than the manually-constructed WordNet resource that is heavily used in NLP research.  PPDB has made immediate impact and was widely adopted by other researchers.  It has been cited 88 times in the two years since its publication, and it was central to the research described in the NAACL 2015 best paper ([Faruqui et al, 2015](http://aclweb.org/anthology/N/N15/N15-1184.pdf)) on retrofitting word vectors to semantic lexicons.  The NAACL paper shows that PPDB has enormous potential for improving deep learning of word embeddings.  I plan to explore this connection further. 
-
-Over the past year we made several advances to PPDB that improve its usefulness for understanding natural language:
-
-- **Semantics**:  In [Pavlick et al (2015)](#adding-semantics-to-data-driven-paraphrasing), we add an interpretable semantics to PPDB. The relationship between the phrase pairs in the database had been defined as approximately equivalent.  Our new research allows these pairs to be encoded with more nuanced semantic relations, including directed entailment (*little girl/girl*) and exclusion (*nobody/someone*). We automatically assign semantic entailment relations to all 100 million entries in PPDB using features derived from past work on discovering inference rules from text and semantic taxonomy induction.
-- **Domain adaptation**: Language is used differently in different domains.  In [Pavlick et al (2015)](#domain-specific-paraphrases) we demonstrate an algorithm that is able to automatically adapt paraphrases to suit a particular domain.  For instance, paraphrase of the word *divide* when used in biology should include *division, break, split, dispense, multiply, cleave, fracture, separate, mitotic division, partition* since it refers to cellular division/multiplication.  In a parliamentary domain it more commonly refers to the divide between rich and poor, and should be paraphrased as *gap, division, gulf, separate, distinction, rift, difference*.
-- **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and Xu et al (accepted), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  
+We used my bilingual pivoting technique to create the paraphrase database, called PPDB for short  ([Ganitkevitch et al, 2013](#ppdb)).   PPDB contains 8 million synonyms, 68 million phrasal paraphrases, and 94 million meaning-preserving syntactic transformations.  PPDB is freely available from our web site [paraphrase.org](http://paraphrase.org/#/search?q=freely%20available&filter=&lang=en).  It is a much larger resource than the manually-constructed WordNet resource that is heavily used in NLP research.  PPDB has made immediate impact and was widely adopted by other researchers.  It has been cited 185 times in the three years since its publication, and it was central to the research described in the NAACL 2015 best paper ([Faruqui et al, 2015](http://aclweb.org/anthology/N/N15/N15-1184.pdf)) on retrofitting word vectors to semantic lexicons.  The NAACL paper shows that PPDB has enormous potential for improving deep learning of word embeddings.  I plan to explore this connection further. 
 
 
 <div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
@@ -106,50 +104,75 @@ Over the past year we made several advances to PPDB that improve its usefulness 
 
 
 
+Over the past two years we made several advances to PPDB that improve its usefulness for understanding natural language:
 
-The goal of the paraphrasing line of my research is to advance the longstanding AI goal of language understanding  data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.
+- **Semantics**:  In [Pavlick et al (2015)](#adding-semantics-to-data-driven-paraphrasing), we add an interpretable semantics to PPDB. The relationship between the phrase pairs in the database had been defined as approximately equivalent.  Our new research allows these pairs to be encoded with more nuanced semantic relations, including directed entailment (*little girl/girl*) and exclusion (*nobody/someone*). We automatically assign semantic entailment relations to all 100 million entries in PPDB using features derived from past work on discovering inference rules from text and semantic taxonomy induction.  Examples are given in Table 2.
+
+<div class="hidden-sm hidden-xs">
+<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/bug_clusters.jpg" alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />
+<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />
+<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.
+</div>
+</div>
+<div class="visible-sm visible-xs">
+<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/bug_clusters.jpg"  alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />
+<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />
+<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.
+</div>
+</div>
+
+
+- **Domain adaptation**: Language is used differently in different domains.  In [Pavlick et al (2015)](#domain-specific-paraphrases) we demonstrate an algorithm that is able to automatically adapt paraphrases to suit a particular domain.  For instance, paraphrase of the word *divide* when used in biology should include *division, break, split, dispense, multiply, cleave, fracture, separate, mitotic division, partition* since it refers to cellular division/multiplication.  In a parliamentary domain it more commonly refers to the divide between rich and poor, and should be paraphrased as *gap, division, gulf, separate, distinction, rift, difference*.
+- **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and [Xu et al (2016)](#optimizing-machine-translation-for-text-simplifciation), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  
+- **Word sense clustering**: The original release of PPDB grouped all senses of polysemous words together, and did not partition paraphrases into groups like WordNet does with its synsets. Thus a search for paraphrases of the noun *bug* would yield a single list of paraphrases that includes *insect, glitch, beetle, error, microbe, wire, cockroach, malfunction, microphone, mosquito, virus, tracker, pest, informer, snitch, parasite, bacterium, fault, mistake, failure* and many others.   In [Cocos and Callison-Burch (2016)](#clustering-paraphrases-by-word-sense), we systematically explore different clustering algorithms, and ways of defining the similarity matrix that they use as input (Figure 3). We produce high quality sense clusters that represent a substantial improvement to PPDB.  We are currently exploring using our sense clusters to perform word sense disambiguation.
+
+
+
+The goal of the paraphrasing line of my research is to advance the longstanding AI goal of language understanding  data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.  I have submitted an NSF CAREER proposal on this topic.  It is currently under review.
 
 
 ## Statistical Machine Translation Without Parallel Corpora
 
+<div class="hidden-sm hidden-xs">
+<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
+<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
+</div>
+</div>
+<div class="visible-sm visible-xs">
+<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
+<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
+</div>
+</div>
 
 Statistical machine translation has long been purported to be "language independent" since linguistic information is not typically used when training systems.  This has been touted as a strength of the paradigm, because the only requirement for building a  new system is a sentence-aligned bilingual parallel corpus.  However, this language independence does not mean that statistical machine translation works equally well for every language.  Translation quality depends on many factors, including the amount of training data, morphological complexity, and divergences in word order.  Since very large parallel corpora are required to achieve good translation quality, statistical machine translation can, in reality, only be applied to a very limited number of languages. My research agenda for the next decade is to transform statistical machine translation so that (1) models can be trained without the use bilingual parallel corpora, (2) linguistic information can be integrated directly into the models and as priors for learning translations and re-ordering patterns, and (3) large groups of Internet users can collaborate to improve translation quality.   If successful, these efforts will radically change the field and make statistical machine translation applicable to (nearly) all of the world's languages.
 
 
+
+<div class="hidden-sm hidden-xs">
+<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
+<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
+<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
+</div>
+</div>
+<div class="visible-sm visible-xs">
+<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
+<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
+<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
+</div>
+</div>
+ 
 Like other statistical NLP systems and machine learning applications, the  performance of statistical machine translation improves as more training data is used.   For a few language pairs, we have tremendous amounts of training data --  I created a French-English parallel corpus with nearly 1 billion words on  each side, the DARPA GALE program produced Arabic-English and Chinese-English parallel corpora with 250 million words in each language, and we have somewhere on the order of 50--100 million words worth of parallel data for the official languages of the European Union.  However, for most language pairs, we have comparatively tiny amounts of bilingual training data, which means that current statistical machine translation techniques will not work.  
 
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 3: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
-<b>Figure 3:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 3: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
-<b>Figure 3:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
-</div>
-</div>
-
-
-To build statistical machine translation systems without parallel corpora, I have revived research started by <a href="http://www.aclweb.org/anthology/P/P99/P99-1067.pdf">Rapp (1999)</a>, who investigated  inducing bilingual lexicons from monolingual texts.  The method uses vector-space semantic models to build a context vector representing words whose  translations are unknown.  The elements in an unknown word's vector are projected into the vector space of the other language using the known translations from a small seed bilingual dictionary.  This sparse projected vector is compared to the vectors for all words in the target language.  The word whose vector is most similar to the projected vector is considered to be the best translation of the unknown word.  This process is illustrated in Figure 3.  I have successfully replicated the results of Rapp (1999), and used the method to estimate the parameters of phrase-based statistical machine translation systems 
+To build statistical machine translation systems without parallel corpora, I have revived research started by <a href="http://www.aclweb.org/anthology/P/P99/P99-1067.pdf">Rapp (1999)</a>, who investigated  inducing bilingual lexicons from monolingual texts.  The method uses vector-space semantic models to build a context vector representing words whose  translations are unknown.  The elements in an unknown word's vector are projected into the vector space of the other language using the known translations from a small seed bilingual dictionary.  This sparse projected vector is compared to the vectors for all words in the target language.  The word whose vector is most similar to the projected vector is considered to be the best translation of the unknown word.  This process is illustrated in Figure 4.  I have successfully replicated the results of Rapp (1999), and used the method to estimate the parameters of phrase-based statistical machine translation systems 
 <a href="#toward-statistical-machine-translation-without-parallel-corpora">(Klementiev et al (2012)</a>, <a href="#end-to-end-smt-with-zero-or-small-bitexts">(Irvine and Callison-Burch (2015))</a>.  The advantage of this paradigm is that it only requires a small bilingual dictionary and large monolingual corpora, rather than bilingual parallel data.
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 4: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
-<b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 4: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
-<b>Figure 4:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
-</div>
-</div>
 
-My students and I have examined combining a diverse set of monolingually-derived signals of translation equivalence ([Irvine and Callison-Burch (2013)](#supervised-bilingual-lexicon-induction)). In addition to vector space models, we have incorporated a diverse set of signals including temporal similarity (Figure 4), orthographic similarity,  and topical similarity.  Table 3 shows examples of the highest ranking English translations of 5 Spanish words for several of our signals of translation equivalence.  Each signal produces different types of errors.(For instance, using topic similarity, *montana, miley*, and *hannah* are ranked highly as candidate translations of the Spanish word *montana*. 
+My students and I have examined combining a diverse set of monolingually-derived signals of translation equivalence ([Irvine and Callison-Burch (2013)](#supervised-bilingual-lexicon-induction)). In addition to vector space models, we have incorporated a diverse set of signals including temporal similarity (Figure 5), orthographic similarity,  and topical similarity.  Table 3 shows examples of the highest ranking English translations of 5 Spanish words for several of our signals of translation equivalence.  Each signal produces different types of errors.(For instance, using topic similarity, *montana, miley*, and *hannah* are ranked highly as candidate translations of the Spanish word *montana*. 
 The TV character Hannah Montana is played by actress Miley Cyrus, so the topic similarity between these words makes sense.)  
 
 
@@ -166,7 +189,7 @@ The TV character Hannah Montana is played by actress Miley Cyrus, so the topic s
 </div>
 </div>
 
-My group has conducted a study of bilingual lexicon induction on a wide range of languages and data sizes ([Irvine and Callison-Burch (in submission)](#discriminative-bilingual-lexicon-induction)). We examine translation into  English from 25 foreign languages: Albanian, Azeri, Bengali, Bosnian, Bulgarian, Cebuano, Gujarati, Hindi, Hungarian, Indonesian, Latvian, Nepali, Romanian, Serbian, Slovak, Somali, Spanish, Swedish, Tamil, Telugu, Turkish, Ukrainian, Uzbek, Vietnamese and Welsh.  Rather than testing solely on high frequency words, as previous research has done, we test on low frequency as well, so that our results are more relevant to statistical machine translation, where systems typically lack translations of rare words that fall outside of their training data.  We systematically explore a wide range of features and phenomena that affect the quality of the translations discovered by bilingual lexicon induction. We give illustrative examples of the highest ranking translations for orthogonal signals of translation equivalence like contextual similarity and temporal similarity.  We analyze the effects of frequency and burstiness, and the sizes of the seed bilingual dictionaries and the monolingual training corpora.  Our model performs better than the previous state-of-the-art matching canonical correlation analysis (MCCA) algorithm, achieving an accuracy of 42% versus MCCA's 15%.
+My group has conducted a study of bilingual lexicon induction on a wide range of languages and data sizes ([Irvine and Callison-Burch (accepted)](#discriminative-bilingual-lexicon-induction)). We examine translation into  English from 25 foreign languages: Albanian, Azeri, Bengali, Bosnian, Bulgarian, Cebuano, Gujarati, Hindi, Hungarian, Indonesian, Latvian, Nepali, Romanian, Serbian, Slovak, Somali, Spanish, Swedish, Tamil, Telugu, Turkish, Ukrainian, Uzbek, Vietnamese and Welsh.  Rather than testing solely on high frequency words, as previous research has done, we test on low frequency as well, so that our results are more relevant to statistical machine translation, where systems typically lack translations of rare words that fall outside of their training data.  We systematically explore a wide range of features and phenomena that affect the quality of the translations discovered by bilingual lexicon induction. We give illustrative examples of the highest ranking translations for orthogonal signals of translation equivalence like contextual similarity and temporal similarity.  We analyze the effects of frequency and burstiness, and the sizes of the seed bilingual dictionaries and the monolingual training corpora.  Our model performs better than the previous state-of-the-art matching canonical correlation analysis (MCCA) algorithm, achieving an accuracy of 42% versus MCCA's 15%.
 
 
  
@@ -184,12 +207,12 @@ My third research focus is crowdsourcing.  The idea of using crowdsourcing to cr
 
 
 <div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 800px;">
-<img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg" alt="Figure 5: A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations." class="img-responsive" /><br />
-<b>Figure 5:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations.  
+<img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg" alt="Figure 6: A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations." class="img-responsive" /><br />
+<b>Figure 6:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations.  
 </div>
 
 
-One of my first successes with crowdsourcing for NLP was to show that the quality of Urdu-English translations produced by non-professional translators can be made to approach the quality of professional translation at a fraction of the cost  ([Zaidan and Callison-Burch (2011)](#crowdsourcing-translation))  Figure 5 highlights the main findings of the study.  It shows that through judicious application of quality control techniques, crowdsourced translations can fall in the range that we would expect of professional translators. This, combined with the fact that crowdsourced translations are more than an order of magnitude cheaper, opens the real possibility of creating training data for SMT, previously thought to be too expensive to create from scratch. I have established myself as one of the foremost experts in crowdsourcing as applied to language ([Callison-Burch and Dredze (2010)](#creating-speech-and-language-data-with-amazon-mechanical-turk))  . I have used crowdsourcing to create a wide range of new NLP data sets, which approach the size and quality of ones produced by the Linguistics Data Consortium (LDC).   Here's a sample of what I have produced:
+One of my first successes with crowdsourcing for NLP was to show that the quality of Urdu-English translations produced by non-professional translators can be made to approach the quality of professional translation at a fraction of the cost  ([Zaidan and Callison-Burch (2011)](#crowdsourcing-translation))  Figure 6 highlights the main findings of the study.  It shows that through judicious application of quality control techniques, crowdsourced translations can fall in the range that we would expect of professional translators. This, combined with the fact that crowdsourced translations are more than an order of magnitude cheaper, opens the real possibility of creating training data for SMT, previously thought to be too expensive to create from scratch. I have established myself as one of the foremost experts in crowdsourcing as applied to language ([Callison-Burch and Dredze (2010)](#creating-speech-and-language-data-with-amazon-mechanical-turk))  . I have used crowdsourcing to create a wide range of new NLP data sets, which approach the size and quality of ones produced by the Linguistics Data Consortium (LDC).   Here's a sample of what I have produced:
 
 * A large scale evaluation of machine translation output by crowd workers with a comprehensive comparison against expert annotators and recommendations for quality control
 ([Callison-Burch et al (2010)](#findings-of-wmt10-and-metrics-matr)).
@@ -205,17 +228,17 @@ One of my first successes with crowdsourcing for NLP was to show that the qualit
 My research into crowdsourcing for NLP has been facilitated by a $500,000 DARPA grant, two Google faculty research awards totaling $195,000, and approximately $100,000 towards a Mechanical Turk annotation budget from the Human Language Technology Center of Excellence.   I have a new 2 year DARPA LORELEI grant under the LDC for creating data for low resource languages using crowdsourcing. 
 
 My interests in crowdsourcing have expanded beyond natural language processing.  I have designed a semester-long course on Crowdsourcing and Human Computation (described in my teaching statement).  I have two research projects related to social justice that use crowdsourcing.  In one project, I am designing tools to help crowd workers find better higher paying work 
- ([Callison-Burch (2014)](#crowd-workers)) (see [crowd-workers.com](http://crowd-workers.com/landing)).  In another, I am using crowdsourcing to create a structured database of all shootings in the United States to facilitate public health research (which the Republican congress has blocked the CDC and NIH from doing).  See my teaching statement for a description of the gun violence database project 
- ([Pavlick and Callison-Burch (2015)](#gun-violence-db)).
+ ([Callison-Burch (2014)](#crowd-workers)) (see [crowd-workers.com](http://crowd-workers.com/landing)).  In another, I am using crowdsourcing to create a [structured database of all shootings in the United States](http://gun-violence.org) to facilitate public health research (which the Republican congress has blocked the CDC and NIH from doing).  See my teaching statement for a description of the gun violence database project 
+ ([Pavlick and Callison-Burch (2016)](#gun-violence-db)).
 
 
 ## Bibliography 
 
   
 <table class="table"> 
-  <tbody>
+<tbody>
 
-{% for year in (2000..2015) reversed %}
+{% for year in (2000..2016) reversed %}
  {% for id in page.publications %}
   {% for publication in site.data.publications %}
    {% if publication.id == id %} 
@@ -333,5 +356,4 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
   {% endfor %}
  {% endfor %}
 {% endfor %}
-  </tbody>
-</table>
+
