@@ -1,7 +1,16 @@
 -
-   semester: Summer 2016
+   semester: Fall 2016
    students: 
-   -
+    -
+      name: Amit Patel
+      degree: Undergraduate
+      pic: RAs/amit_patel.jpg
+      homepage: http://www.amitpatel.me/
+      project: Neural Nets for Taxonomy Learning
+      graduation_date: May 2018
+      gender: male
+      role: RA
+    -
       name: John Hewitt
       degree: Undergraduate
       pic: RAs/john_hewitt.jpg
@@ -10,16 +19,34 @@
       graduation_date: May 2018
       gender: male
       role: RA
-   - 
-      name: Parker Stakoff
+    -
+      name: Nivedita Sankar
       degree: Undergraduate
-      pic: RAs/parker_stakoff.jpg
+      pic: RAs/nivedita_sankar.jpg
+      homepage: https://www.linkedin.com/in/niveditasankar
+      project: Grievance Process for Crowdsourcing
+      graduation_date: May 2017
+      gender: female
+      role: Senior Design
+    -
+      name: Sierra Yit
+      degree: Undergraduate
+      pic: RAs/sierra_yit.jpg
       homepage: 
-      project: Visualizations, Crowdsourcing
+      project: Predicting Missing Adjectives
+      graduation_date: May 2017
+      gender: female
+      role: Independent Study
+    -
+      name: Talia Delijani
+      degree: Undergraduate
+      pic: RAs/talia_delijani.jpg
+      homepage: 
+      project: Predicting Missing Adjectives
       graduation_date: May 2018
       gender: female
       role: RA
-   -
+    -
       name: Veronica Wharton
       degree: Undergraduate
       pic: RAs/veronica_wharton.jpg
@@ -27,8 +54,8 @@
       project: Scalar Adjectives
       graduation_date: May 2017
       gender: female
-      role: RA
-   -
+      role: Senior Project
+    -
       name: Victoria Xiao
       degree: Undergraduate
       pic: RAs/victoria_xiao.jpg
@@ -37,6 +64,72 @@
       graduation_date: May 2018
       gender: female
       role: RA
+    -
+      name: Brendan Callahan
+      degree: Master's Student
+      pic: RAs/brendan_callahan.jpg
+      homepage: 
+      project: Images and Text
+      graduation_date: May 2016
+      gender: male
+      role: Independent Study
+    -
+      name: Sneha Rajana
+      degree: Master's Student
+      pic: RAs/sneha_rajana.jpg
+      homepage: 
+      project: Learning Antonyms
+      graduation_date: May 2016
+      gender: female
+      role: RA
+    -
+      name: Xiao Ling
+      degree: Master's Student
+      pic: RAs/xiao_ling.jpg
+      homepage: 
+      project: Scalar Adjectives
+      graduation_date: December 2016
+      gender: male
+      role: Independent Study
+-
+    semester: Summer 2016
+    students: 
+    -
+       name: John Hewitt
+       degree: Undergraduate
+       pic: RAs/john_hewitt.jpg
+       homepage: https://www.seas.upenn.edu/~johnhew/
+       project: Bilingual lexicon induction
+       graduation_date: May 2018
+       gender: male
+       role: RA
+    - 
+       name: Parker Stakoff
+       degree: Undergraduate
+       pic: RAs/parker_stakoff.jpg
+       homepage: 
+       project: Visualizations, Crowdsourcing
+       graduation_date: May 2018
+       gender: female
+       role: RA
+    -
+       name: Veronica Wharton
+       degree: Undergraduate
+       pic: RAs/veronica_wharton.jpg
+       homepage: http://veronicawharton.com/
+       project: Scalar Adjectives
+       graduation_date: May 2017
+       gender: female
+       role: RA
+    -
+       name: Victoria Xiao
+       degree: Undergraduate
+       pic: RAs/victoria_xiao.jpg
+       homepage: 
+       project: Monolingual alignment
+       graduation_date: May 2018
+       gender: female
+       role: RA
 -
    semester: Spring 2016
    students: 

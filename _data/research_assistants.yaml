@@ -1,11 +1,37 @@
 -
-   name: Amit Patel
+   name: Bradley Jackson
    degree: Undergraduate
-   pic: RAs/amit_patel.jpg
-   homepage: http://www.amitpatel.me/
-   project: Neural Nets for Taxonomy Learning
-   graduation_date: May 2018
+   pic: RAs/bradley_jackson.jpg
+   homepage: 
+   project: XXX
+   graduation_date: May 2019
    gender: male
+   role: RA
+-
+   name: Jack Liu
+   degree: Undergraduate
+   pic: RAs/jack_liu.jpg
+   project: Learning Meronyms
+   graduation_date: May 2017
+   gender: male
+   role: Senior Thesis
+-
+   name: Jessica Li
+   degree: Undergraduate
+   pic: RAs/jessica_yingjiao_li.jpg
+   homepage: 
+   project: Paraphrsaing
+   graduation_date: May 2018
+   gender: female
+   role: RA
+-
+   name: Jianging Wang
+   degree: Undergraduate
+   pic: RAs/jianging_wang.jpg
+   homepage: https://www.linkedin.com/in/jianing-wang-8a7744115
+   project: Machine Translation
+   graduation_date: May 2019
+   gender: female
    role: RA
 -
    name: John Hewitt
@@ -17,30 +43,12 @@
    gender: male
    role: RA
 -
-   name: Nivedita Sankar
+   name: Sara Dwyer
    degree: Undergraduate
-   pic: RAs/nivedita_sankar.jpg
-   homepage: https://www.linkedin.com/in/niveditasankar
-   project: Grievance Process for Crowdsourcing
-   graduation_date: May 2017
-   gender: female
-   role: Senior Design
--
-   name: Sierra Yit
-   degree: Undergraduate
-   pic: RAs/sierra_yit.jpg
+   pic: profile_pic.png
    homepage: 
-   project: Predicting Missing Adjectives
-   graduation_date: May 2017
-   gender: female
-   role: Independent Study
--
-   name: Talia Delijani
-   degree: Undergraduate
-   pic: RAs/talia_delijani.jpg
-   homepage: 
-   project: Predicting Missing Adjectives
-   graduation_date: May 2018
+   project: Machine Translation
+   graduation_date: May 2019
    gender: female
    role: RA
 -
@@ -71,20 +79,29 @@
    gender: male
    role: Independent Study
 -
+   name: Devanshu Jain
+   degree: Master's Student
+   pic: profile_pic.jpg
+   homepage: 
+   project: Transliteration
+   graduation_date: May 2018
+   gender: male
+   role: Independent Study
+-
    name: Sneha Rajana
    degree: Master's Student
    pic: RAs/sneha_rajana.jpg
    homepage: 
    project: Learning Antonyms
-   graduation_date: May 2016
+   graduation_date: May 2017
    gender: female
-   role: RA
+   role: Master's Thesis
 -
    name: Xiao Ling
    degree: Master's Student
    pic: RAs/xiao_ling.jpg
    homepage: 
    project: Scalar Adjectives
-   graduation_date: December 2016
+   graduation_date: May 2017
    gender: male
-   role: Independent Study
+   role: Master's Thesis

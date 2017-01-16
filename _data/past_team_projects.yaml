@@ -1,4 +1,45 @@
 -
+   semester: Fall 2016
+   project_name: Crowdsourced Interpretation of Terms of Service
+   students:
+   -
+      name: Elizabeth Hamp
+      degree: Undergraduate
+      pic: RAs/elizabeth_hamp.jpg
+      homepage: https://www.linkedin.com/in/elizabethhamp
+      project: Crowdsourced Interpretation of TOS 
+      graduation_date: May 2018
+      gender: female
+      role: RA
+   -
+      name: Grace Arnold
+      degree: Undergraduate
+      pic: RAs/grace_arnold.jpg
+      homepage: https://www.linkedin.com/in/1gracearnold
+      project: Crowdsourced Interpretation of TOS 
+      graduation_date: May 2018
+      gender: female
+      role: RA
+   -
+      name: Mara Levy
+      degree: Undergraduate
+      pic: RAs/mara_levy.png
+      homepage: https://www.linkedin.com/in/mara-levy-27217b11b
+      project: Crowdsourced Interpretation of TOS 
+      graduation_date: May 2019
+      gender: female
+      role: Independent Study
+   -
+      name: Yoni Nachmany
+      degree: Undergraduate
+      pic: RAs/yoni_nachmany.jpg
+      homepage: https://www.linkedin.com/in/yoninachmany
+      project: Crowdsourced Interpretation of TOS 
+      graduation_date: May 2018
+      gender: male
+      role: Independent Study
+-
+   semester: Fall 2016
    project_name: Visualizing Relations in the Paraphrase Database
    students:
    -
@@ -17,7 +58,15 @@
       project: Senior Design
       graduation_date: May 2017
       gender: female
-      role: Senior Design  
+      role: Senior Design
+   -
+      name: Jack Liu
+      degree: Undergraduate
+      pic: RAs/jack_liu.jpg
+      project: Senior Design
+      graduation_date: May 2017
+      gender: male
+      role: Senior Design     
    -
       name: Ross Mechanic
       degree: Undergraduate
@@ -28,6 +77,7 @@
       gender: male
       role: Senior Design
 -
+   semester: Fall 2016
    project_name: Trending Topics on Wikipedia
    students:
    -
