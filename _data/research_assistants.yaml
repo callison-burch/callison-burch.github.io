@@ -3,7 +3,7 @@
    degree: Undergraduate
    pic: RAs/bradley_jackson.jpg
    homepage: 
-   project: XXX
+   project: Paraphrasing
    graduation_date: May 2019
    gender: male
    role: RA
@@ -81,8 +81,8 @@
 -
    name: Devanshu Jain
    degree: Master's Student
-   pic: profile_pic.jpg
-   homepage: 
+   pic: RAs/devanshu_jain.jpg
+   homepage: https://devanshujain.me/
    project: Transliteration
    graduation_date: May 2018
    gender: male
