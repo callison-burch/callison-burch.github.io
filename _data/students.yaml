@@ -5,6 +5,7 @@
    institution: Centre national de la recherche scientifique
    start_year: 2016
    homepage: https://perso.limsi.fr/marianna/
+   gender: female
 -
    name: Anietie Andy
    degree: Visiting Postdoc
@@ -12,6 +13,7 @@
    institution: Howard University
    start_year: 2017
    homepage:
+   gender: male
 -
    name: Derry Wijaya
    degree: Postdoc
@@ -19,6 +21,7 @@
    institution: University of Pennsylvania
    start_year: 2016
    homepage: http://www.cs.cmu.edu/afs/cs/Web/People/dwijaya/
+   gender: female
 -
    name: Jie Gao
    degree: PhD Student
@@ -27,6 +30,7 @@
    start_year: 2016
    expected_graduation_date: Summer 2021
    homepage:
+   gender: female
 -
    name: Reno Kriz
    degree: PhD Student
@@ -35,6 +39,7 @@
    start_year: 2016
    expected_graduation_date: Summer 2021
    homepage:
+   gender: male
 -
    name: Anne Cocos
    degree: PhD Student
@@ -43,6 +48,7 @@
    start_year: 2014
    expected_graduation_date: Summer 2019
    homepage: http://www.seas.upenn.edu/~acocos
+   gender: female
 -
    name: Ellie Pavlick
    degree: PhD Student
@@ -51,6 +57,7 @@
    start_year: 2012
    expected_graduation_date: Summer 2017
    homepage: http://www.seas.upenn.edu/~epavlick/
+   gender: female
 -
    name: Juri Ganitkevitch
    degree: PhD Student
@@ -59,6 +66,7 @@
    start_year: 2009
    expected_graduation_date: Fall 2017
    homepage: http://cs.jhu.edu/~juri/
+   gender: male
 -
    name: Courtney Napoles
    degree: PhD Student
@@ -67,6 +75,7 @@
    start_year: 2009
    expected_graduation_date: Summer 2017
    homepage: http://cs.jhu.edu/~napoles/
+   gender: female
 -
    name: Jonny Weese
    degree: PhD Student
@@ -75,3 +84,4 @@
    start_year: 2008
    expected_graduation_date: Fall 2017
    homepage: http://cs.jhu.edu/~jonny/
+   gender: male

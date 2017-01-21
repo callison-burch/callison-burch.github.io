@@ -8,6 +8,7 @@
    thesis_link: dissertations/ann-irvine-thesis.pdf
    current_position: Principal Data Scientist
    current_employer: RedOwl Analytics
+   gender: female
 -
    name: Xuchen Yao
    institution: Johns Hopkins University
@@ -18,6 +19,7 @@
    thesis_link: dissertations/xuchen-yao-thesis.pdf
    current_position: Founder of startup KITT.AI incubated
    current_employer: the Allen Institute for Artificial Intelligence (AI2)  
+   gender: male
 -
    name: Omar Zaidan
    institution: Johns Hopkins University
@@ -28,6 +30,7 @@
    current_position: Bing team
    current_employer: Microsoft  
    thesis_link: dissertations/omar-zaidan-thesis.pdf
+   gender: male
 -
    name: Lane Schwartz
    institution: University of Minnesota
@@ -38,3 +41,4 @@
    current_position: Assistant Professor
    current_employer: UIUC Linguistics Dept.  
    thesis_link: dissertations/lane-schwartz-thesis.pdf
+   gender: male

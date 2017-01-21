@@ -7,6 +7,7 @@
    postdoc_end: August 2016
    current_position: Assistant Professor
    current_employer: Ohio State University
+   gender: female
 -
    name: Matt Post
    homepage: http://cs.jhu.edu/~post/
@@ -16,6 +17,7 @@
    postdoc_end:
    current_position: Research Scientist
    current_employer: Human Language Technology Center of Excellence
+   gender: male
 -
    name: Alex Klementiev
    homepage: http://klementiev.org
@@ -25,3 +27,4 @@
    postdoc_end: July 2011
    current_position: Senior Machine Learning Scientist
    current_employer: Amazon
+   gender: male
