@@ -1,12 +1,12 @@
 -
-   name: Bradley Jackson
+   name: Grace Arnold
    degree: Undergraduate
-   pic: RAs/bradley_jackson.jpg
-   homepage: 
-   project: Sentential Paraphrasing
-   graduation_date: May 2019
-   gender: male
-   role: Independent Study
+   pic: RAs/grace_arnold.jpg
+   homepage: https://www.linkedin.com/in/1gracearnold
+   project: Crowdsourcing and Machine Learining 
+   graduation_date: May 2018
+   gender: female
+   role: RA
 -
    name: Jack Liu
    degree: Undergraduate
@@ -20,7 +20,7 @@
    degree: Undergraduate
    pic: RAs/jessica_yingjiao_li.jpg
    homepage: 
-   project: Paraphrsaing
+   project: Chinese Paraphrases
    graduation_date: May 2018
    gender: female
    role: RA
