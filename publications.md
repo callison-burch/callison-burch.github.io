@@ -24,7 +24,11 @@ active_tab: publications
 		<b>{{ publication.award }}.</b>
 	{% endif %}
 	{{ publication.authors }}.
-	{{ publication.venue }} {{ publication.year }}.
+        {% if publication.page_count < 8 and (publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL")   %}
+		{{ publication.venue }} {{ publication.year }} short papers.
+	{% else %}
+		{{ publication.venue }}  {{ publication.year }}.
+	{% endif %}
 
 	{% if publication.abstract %}
 	<!-- abstract button -->

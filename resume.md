@@ -104,7 +104,23 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   </tbody>
 </table>
 
+
 <h2>Grants</h2>
+
+{% assign grant_status = "current,pending,past" | split: "," %}
+{% for status in grant_status %}
+
+<!-- print the grant status -->
+{%if status == "current" %}
+<h3>Current grants</h3>
+{% elsif status == "pending" %}
+<h3>Pending grants</h3>
+{% elsif status == "past" %}
+<h3>Past grants</h3>
+{% else %}
+<h3>Other</h3>
+{% endif %}
+
 
 <table class="table"> 
   <tbody>
@@ -116,6 +132,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
        <th>PI Info</th>
      </tr>
   {% for grant in site.data.grants %}
+    {% if grant.status == status %}
      <tr>
        <td>{{grant.title}}</td>
        <td>{{grant.awarding_body}}</td>
@@ -123,10 +140,12 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
        <td>{{grant.start_date}}{% if grant.end_date %}-{{grant.end_date}}{% endif %}</td>
        <td>{% if grant.PI_info %}{{grant.PI_info}}{% endif %}</td>
      </tr>
+     {% endif %}
   {% endfor %}
   </tbody>
 </table>
 
+{% endfor %}
 
 
 <h2>Publications</h2>
@@ -159,15 +178,23 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 <li><a href="http://cis.upenn.edu/~ccb/{{ publication.url }}">
 	{{ publication.authors }} ({{publication.year}}).
 	{{ publication.title }}.
-	{{ publication.venue }}.
+        {% if publication.page_count < 8 and (publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL")   %}
+		{{ publication.venue }} short papers.
+	{% else %}
+		{{ publication.venue }}.
+	{% endif %}
+
         {% if publication.award %}
 	<b> {{ publication.award }}.</b>
 	{% endif %}
-</a></li>
+</a>
+        {% if publication.page_count %}
+		{{publication.page_count}} pages.
+	{% endif %}
+</li>
         {% else %}
 <li>{{ publication.authors }} ({{publication.year}}).{{ publication.title }}.</li>
 	{% endif %}
-
     {% endif %}
     {% endfor %}
   {% endfor %}
