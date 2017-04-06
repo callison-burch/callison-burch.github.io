@@ -1,4 +1,69 @@
 -
+   title: Word Sense Filtering Improves Embedding-Based Lexical Substitution
+   authors: Anne Cocos, Marianna Apidianaki and Chris Callison-Burch
+   venue: Workshop on Sense, Concept and Entity Representations and their Applications
+   type: workshop
+   award: Best Paper Award
+   year: 2017
+   url: publications/word-sense-filtering-improves-lexical-substitution.pdf
+   page_count: 9
+   id: word-sense-filtering-improves-lexical-substitution
+   abstract: The role of word sense disambiguation in lexical substitution has been questioned due to the high performance of vector space models which propose good substitutes without explicitly accounting for sense. We show that a filtering mechanism based on a sense inventory optimized for substitutability can improve the results of these models. Our sense inventory is constructed using a clustering method which generates paraphrase clusters that are congruent with lexical substitution annotations in a development set. The results show that lexical substitution can still benefit from senses which can improve the output of vector space paraphrase ranking models. 
+   bibtex: |
+      @inproceedings{Cocos-Apidianaki-Callison-Burch:2017:SENSE-WS,
+        author    = {Anne Cocos and Marianna Apidianaki  and  Chris Callison-Burch},
+        title     = {Word Sense Filtering Improves Embedding-Based Lexical Substitution},
+        booktitle = {Proceedings of the 1st Workshop on Sense, Concept and Entity Representations and their Applications},
+        month     = {April},
+        year      = {2017},
+        address   = {Valencia, Spain},
+        publisher = {Association for Computational Linguistics},
+        pages     = {110--119},
+        url       = {http://www.aclweb.org/anthology/E17-2016}
+      }
+-
+   title: The Language of Place&colon; Semantic Value from Geospatial Context
+   authors: Ann Cocos and Chris Callison-Burch
+   venue: EACL
+   type: conference
+   year: 2017
+   url: publications/language-of-place.pdf
+   page_count: 5
+   id: language-of-place
+   abstract: There is a relationship between what we say and where we say it. Word embeddings are usually trained assuming that semantically-similar words occur within the same textual contexts. We investigate the extent to which semantically-similar words occur within the same geospatial contexts. We enrich a corpus of geolocated Twitter posts with physical data derived from Google Places and OpenStreetMap, and train word embeddings using the resulting geospatial contexts. Intrinsic evaluation of the resulting vectors shows that geographic context alone does provide useful information about semantic relatedness.
+   bibtex: |
+    @InProceedings{cocos-callisonburch:2017:EACLshort,
+      author    = {Cocos, Anne  and  Callison-Burch, Chris},
+      title     = {The Language of Place: Semantic Value from Geospatial Context},
+      booktitle = {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics: Volume 2, Short Papers},
+      month     = {April},
+      year      = {2017},
+      address   = {Valencia, Spain},
+      publisher = {Association for Computational Linguistics},
+      pages     = {99--104},
+      url       = {http://www.aclweb.org/anthology/E17-2016}
+    }
+-
+   title: Crowd Control&colon; Effectively Utilizing Unscreened Crowd Workers for Biomedical Data Annotation
+   authors: Anne Cocos, Ting Qiana, Chris Callison-Burch, and Aaron J. Masino
+   venue: Journal of Biomedical Informatics
+   type: journal
+   year: 2017
+   url: http://www.sciencedirect.com/science/article/pii/S1532046417300746
+   page_count: 22
+   id: optimizing-machine-translation-for-text-simplifciation
+   abstract: Annotating unstructured texts in Electronic Health Records data is usually a necessary step for conducting machine learning research on such datasets. Manual annotation by domain experts provides data of the best quality, but has become increasingly impractical given the rapid increase in the volume of EHR data. In this article, we examine the effectiveness of crowdsourcing with unscreened online workers as an alternative for transforming unstructured texts in EHRs into annotated data that are directly usable in supervised learning models. We find the crowdsourced annotation data to be just as effective as expert data in training a sentence classification model to detect the mentioning of abnormal ear anatomy in radiology reports of audiology. Furthermore, we have discovered that enabling workers to self-report a confidence level associated with each annotation can help researchers pinpoint less-accurate annotations requiring expert scrutiny. Our findings suggest that even crowd workers without specific domain knowledge can contribute effectively to the task of annotating unstructured EHR datasets.
+   bibtex: |
+      @article{Xu-EtAl:2016:TACL,
+         author = {Anne Cocos and Ting Qiana and Chris Callison-Burch and Aaron Masino},
+         title = {Crowd Control: Effectively Utilizing Unscreened Crowd Workers for Biomedical Data Annotation},
+         journal = {Journal of Biomedical Informatics},
+         volume = {},
+         number = {},
+         year = {2017},
+         url = {http://www.sciencedirect.com/science/article/pii/S1532046417300746}
+       }
+-
    title: The Gun Violence Database
    authors: Ellie Pavlick and Chris Callison-Burch
    venue: Bloomberg Data for Good Exchange
