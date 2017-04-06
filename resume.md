@@ -96,8 +96,8 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
        <td>{{course.term}} {{course.year}}</td>
        <td>{{course.title}} ({{course.number}})</td>
        <td>{{course.enrollment}}</td>
-       <td>{{course.course_rating}}</td>
-       <td>{{course.instructor_rating}}</td>
+       <td>{{course.course_rating | round: 1}}</td>
+       <td>{{course.instructor_rating | round: 1}}</td>
      </tr>
       {% endif %}
   {% endfor %}
