@@ -1,15 +1,155 @@
 -
-   semester: Fall 2016
+   semester: Summer 2017
    students: 
     -
-      name: Amit Patel
-      degree: Undergraduate
-      pic: RAs/amit_patel.jpg
-      homepage: http://www.amitpatel.me/
-      project: Neural Nets for Taxonomy Learning
-      graduation_date: May 2018
-      gender: male
-      role: RA
+       name: Eddie Okon
+       degree: Undergraduate
+       pic:
+       homepage:
+       project: Clustering Paraprhases
+       graduation_date:
+       gender: male
+       role: RA
+    -
+       name: Natasha Ter-Saakov
+       degree: High School / Undergraduate
+       pic:
+       homepage:
+       project: 
+       graduation_date:
+       gender: female
+       role: RA
+    -
+       name: Maryanne Cosgrove
+       degree: Undergraduate
+       pic:
+       homepage:
+       project: 
+       graduation_date:
+       gender: female
+       role: RA
+    -
+       name: Bradley Jackson
+       degree: Undergraduate
+       pic:
+       homepage:
+       project: 
+       graduation_date:
+       gender: male
+       role: RA
+-
+   semester: Spring 2017
+   students: 
+    -
+       name: Grace Arnold
+       degree: Undergraduate
+       pic: RAs/grace_arnold.jpg
+       homepage: https://www.linkedin.com/in/1gracearnold
+       project: Crowdsourcing and Machine Learining 
+       graduation_date: May 2018
+       gender: female
+       role: RA
+    -
+       name: Jack Liu
+       degree: Undergraduate
+       pic: RAs/jack_liu.jpg
+       project: Learning Meronyms
+       graduation_date: May 2017
+       gender: male
+       role: Senior Thesis
+    -
+       name: Jessica Li
+       degree: Undergraduate
+       pic: RAs/jessica_yingjiao_li.jpg
+       homepage: 
+       project: Chinese Paraphrases
+       graduation_date: May 2018
+       gender: female
+       role: RA
+    -
+       name: Jianging Wang
+       degree: Undergraduate
+       pic: RAs/jianging_wang.jpg
+       homepage: https://www.linkedin.com/in/jianing-wang-8a7744115
+       project: Machine Translation
+       graduation_date: May 2019
+       gender: female
+       role: RA
+    -
+       name: John Hewitt
+       degree: Undergraduate
+       pic: RAs/john_hewitt.jpg
+       homepage: https://www.seas.upenn.edu/~johnhew/
+       project: Bilingual lexicon induction
+       graduation_date: May 2018
+       gender: male
+       role: RA
+    -
+       name: Sara Dwyer
+       degree: Undergraduate
+       pic: RAs/sara_dwyer.jpg
+       homepage: 
+       project: Machine Translation
+       graduation_date: May 2019
+       gender: female
+       role: RA
+    -
+       name: Veronica Wharton
+       degree: Undergraduate
+       pic: RAs/veronica_wharton.jpg
+       homepage: http://veronicawharton.com/
+       project: Scalar Adjectives
+       graduation_date: May 2017
+       gender: female
+       role: Senior Project
+    -
+       name: Victoria Xiao
+       degree: Undergraduate
+       pic: RAs/victoria_xiao.jpg
+       homepage: 
+       project: Monolingual alignment
+       graduation_date: May 2018
+       gender: female
+       role: RA
+    -
+       name: Brendan Callahan
+       degree: Master's
+       pic: RAs/brendan_callahan.jpg
+       homepage: 
+       project: Images and Text
+       graduation_date: May 2016
+       gender: male
+       role: Independent Study
+    -
+       name: Devanshu Jain
+       degree: Master's
+       pic: RAs/devanshu_jain.jpg
+       homepage: https://devanshujain.me/
+       project: Transliteration
+       graduation_date: May 2018
+       gender: male
+       role: Independent Study
+    -
+       name: Sneha Rajana
+       degree: Master's
+       pic: RAs/sneha_rajana.jpg
+       homepage: 
+       project: Learning Antonyms
+       graduation_date: May 2017
+       gender: female
+       role: Master's Thesis
+    -
+       name: Xiao Ling
+       degree: Master's
+       pic: RAs/xiao_ling.jpg
+       homepage: 
+       project: Scalar Adjectives
+       graduation_date: May 2017
+       gender: male
+       role: Master's Thesis
+-
+   semester: Fall 2016
+   students: 
     -
       name: John Hewitt
       degree: Undergraduate
@@ -66,7 +206,7 @@
       role: RA
     -
       name: Brendan Callahan
-      degree: Master's Student
+      degree: Master's
       pic: RAs/brendan_callahan.jpg
       homepage: 
       project: Images and Text
@@ -75,7 +215,7 @@
       role: Independent Study
     -
       name: Sneha Rajana
-      degree: Master's Student
+      degree: Master's
       pic: RAs/sneha_rajana.jpg
       homepage: 
       project: Learning Antonyms
@@ -84,7 +224,7 @@
       role: RA
     -
       name: Xiao Ling
-      degree: Master's Student
+      degree: Master's
       pic: RAs/xiao_ling.jpg
       homepage: 
       project: Scalar Adjectives
@@ -180,7 +320,7 @@
       role: RA, TA
    -
       name: Theresa Breiner
-      degree: Master's Student
+      degree: Master's
       pic: RAs/theresa_breiner.jpg
       homepage: https://www.linkedin.com/in/theresabreiner
       project: Transliteration
@@ -189,7 +329,7 @@
       role: Independent Study
    -
       name: Brendan Callahan
-      degree: Master's Student
+      degree: Master's
       pic: RAs/brendan_callahan.jpg
       homepage: 
       project: Images and Text
@@ -198,7 +338,7 @@
       role: Independent Study
    -
       name: Shreejit Gangadharan
-      degree: Master's Student
+      degree: Master's
       pic: RAs/shreejit_gangadharan.jpg
       homepage: 
       project: Bilingual Lexicon Induction
@@ -207,7 +347,7 @@
       role: RA
    -
       name: Grishma Jena
-      degree: Master's Student
+      degree: Master's
       pic: RAs/grishma_jena.jpg
       homepage: 
       project: Bilingual Lexicon Induction
@@ -216,7 +356,7 @@
       role: Independent Study
    -
       name: Sneha Rajana
-      degree: Master's Student
+      degree: Master's
       pic: RAs/sneha_rajana.jpg
       homepage: 
       project: Learning Antonyms
@@ -225,7 +365,7 @@
       role: Independent Study
    -
       name: Dhruvil Shah
-      degree: Master's Student
+      degree: Master's
       pic: RAs/dhruvil_shah.jpg
       homepage: 
       project: Named Entity Recognition
@@ -234,7 +374,7 @@
       role: RA
    -
       name: Ishan Srivastava
-      degree: Master's Student
+      degree: Master's
       pic: RAs/ishan_srivastava.jpg
       homepage: 
       project: Images and Text
@@ -255,7 +395,7 @@
       role: RA
    -
       name: Anwesha Das
-      degree: Master's Student
+      degree: Master's
       pic: RAs/anwesha_das.jpg
       homepage: 
       project: Monolingual Alignment
@@ -263,7 +403,7 @@
       gender: female
    -
       name: Deepti Panuganti
-      degree: Master's Student
+      degree: Master's
       pic: RAs/deepti_panuganti.jpg
       homepage: 
       project: Vector Space Models
@@ -271,7 +411,7 @@
       gender: female
    -
       name: Siyu Qiu
-      degree: Master's Student
+      degree: Master's
       pic: RAs/siyu_qiu.jpg
       homepage: http://www.seas.upenn.edu/~siqiu/
       project: Twitter Paraphrases
@@ -279,7 +419,7 @@
       gender: female
    -
       name: Shreejit Gangadharan
-      degree: Master's Student
+      degree: Master's
       pic: RAs/shreejit_gangadharan.jpg
       homepage: 
       project: Bilingual Lexicon Induction
@@ -288,7 +428,7 @@
       role: RA
    -
       name: Dhruvil Shah
-      degree: Master's Student
+      degree: Master's
       pic: RAs/dhruvil_shah.jpg
       homepage: 
       project: Named Entity Recognition

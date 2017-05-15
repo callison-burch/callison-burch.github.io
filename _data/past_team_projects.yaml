@@ -1,118 +1,386 @@
 -
    semester: Fall 2016
-   project_name: Crowdsourced Interpretation of Terms of Service
-   students:
+   projects:
    -
-      name: Elizabeth Hamp
-      degree: Undergraduate
-      pic: RAs/elizabeth_hamp.jpg
-      homepage: https://www.linkedin.com/in/elizabethhamp
-      project: Crowdsourced Interpretation of TOS 
-      graduation_date: May 2018
-      gender: female
-      role: RA
-   -
-      name: Grace Arnold
-      degree: Undergraduate
-      pic: RAs/grace_arnold.jpg
-      homepage: https://www.linkedin.com/in/1gracearnold
-      project: Crowdsourced Interpretation of TOS 
-      graduation_date: May 2018
-      gender: female
-      role: RA
-   -
-      name: Mara Levy
-      degree: Undergraduate
-      pic: RAs/mara_levy.png
-      homepage: https://www.linkedin.com/in/mara-levy-27217b11b
-      project: Crowdsourced Interpretation of TOS 
-      graduation_date: May 2019
-      gender: female
-      role: Independent Study
-   -
-      name: Yoni Nachmany
-      degree: Undergraduate
-      pic: RAs/yoni_nachmany.jpg
-      homepage: https://www.linkedin.com/in/yoninachmany
-      project: Crowdsourced Interpretation of TOS 
-      graduation_date: May 2018
-      gender: male
-      role: Independent Study
+      project_name: NETS 213 Prize&colon; Crowdsourced Interpretation of Terms of Service
+      students:
+      -
+         name: Elizabeth Hamp
+         degree: Undergraduate
+         pic: RAs/elizabeth_hamp.jpg
+         homepage: https://www.linkedin.com/in/elizabethhamp
+         project: Crowdsourced Interpretation of TOS 
+         graduation_date: May 2018
+         gender: female
+         role: RA
+      -
+         name: Grace Arnold
+         degree: Undergraduate
+         pic: RAs/grace_arnold.jpg
+         homepage: https://www.linkedin.com/in/1gracearnold
+         project: Crowdsourced Interpretation of TOS 
+         graduation_date: May 2018
+         gender: female
+         role: RA
+      -
+         name: Mara Levy
+         degree: Undergraduate
+         pic: RAs/mara_levy.png
+         homepage: https://www.linkedin.com/in/mara-levy-27217b11b
+         project: Crowdsourced Interpretation of TOS 
+         graduation_date: May 2019
+         gender: female
+         role: Independent Study
+      -
+         name: Yoni Nachmany
+         degree: Undergraduate
+         pic: RAs/yoni_nachmany.jpg
+         homepage: https://www.linkedin.com/in/yoninachmany
+         project: Crowdsourced Interpretation of TOS 
+         graduation_date: May 2018
+         gender: male
+         role: Independent Study
 -
-   semester: Fall 2016
-   project_name: Visualizing Relations in the Paraphrase Database
-   students:
+   semester: 2016-2017
+   projects:
    -
-      name: Dean Fulgoni
-      degree: Undergraduate
-      pic: RAs/dean_fulgoni.jpg
-      project: Senior Design
-      graduation_date: May 2017
-      gender: male
-      role: Senior Design 
+      project_name: Senior Design Project&colon; Know Your Nyms
+      students:
+      -
+         name: Dean Fulgoni
+         degree: Undergraduate
+         pic: RAs/dean_fulgoni.jpg
+         project: Senior Design
+         graduation_date: May 2017
+         gender: male
+         role: Senior Design 
+      -
+         name: Hannah Cutler
+         degree: Undergraduate
+         pic: RAs/hannah_cutler.jpg
+         homepage: https://www.linkedin.com/in/hannah-cutler-b6b74383
+         project: Senior Design
+         graduation_date: May 2017
+         gender: female
+         role: Senior Design
+      -  
+         name: Ross Mechanic
+         degree: Undergraduate
+         pic: RAs/ross_mechanic.jpg
+         homepage: https://www.linkedin.com/in/rossmechanic
+         project: Senior Design
+         graduation_date: May 2017
+         gender: male
+         role: Senior Design
    -
-      name: Hannah Cutler
-      degree: Undergraduate
-      pic: RAs/hannah_cutler.jpg
-      homepage: https://www.linkedin.com/in/hannah-cutler-b6b74383
-      project: Senior Design
-      graduation_date: May 2017
-      gender: female
-      role: Senior Design
+      project_name: Senior Thesis&colon; Discovering Meronyms using Deep Learning
+      students:
+      -
+         name: Jack Liu 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Learning Meronyms
+         graduation_date: May 2017
+         gender: male
+         role: Senior Thesis
    -
-      name: Jack Liu
-      degree: Undergraduate
-      pic: RAs/jack_liu.jpg
-      project: Senior Design
-      graduation_date: May 2017
-      gender: male
-      role: Senior Design     
+      project_name: Senior Design Project&colon; Data-Driven Understanding of Adjectives in Yelp Reviews
+      award: Honorable Mention in the CIS Senior Design fair
+      students:
+       -
+         name: Veronica Wharton 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Data-Driven Understanding of Adjectives
+         graduation_date: May 2017
+         gender: female
+         role: Senior Design
    -
-      name: Ross Mechanic
-      degree: Undergraduate
-      pic: RAs/ross_mechanic.jpg
-      homepage: https://www.linkedin.com/in/rossmechanic
-      project: Senior Design
-      graduation_date: May 2017
-      gender: male
-      role: Senior Design
+      project_name: Senior Design Project&colon; Trending Topics on Wikipedia
+      award: ESE Societal Impact Award 
+      students:
+      -
+         name: Abhiti Prabahar 
+         degree: Undergraduate
+         pic: RAs/abhiti_prabahar.jpg
+         homepage: 
+         project: Trending Topics on Wikipedia
+         graduation_date: May 2017
+         gender: female
+         role: Senior Design
+      -
+         name: Alice Serfati 
+         degree: Undergraduate
+         pic: RAs/alice_serfati.jpg
+         homepage: 
+         project: Trending Topics on Wikipedia
+         graduation_date: May 2017
+         gender: female
+         role: Senior Design
+      -
+         name: Cristina Bustamant
+         degree: Undergraduate
+         pic: RAs/cristina_bustamant.jpg
+         homepage: 
+         project: Trending Topics on Wikipedia
+         graduation_date: May 2017
+         gender: female
+         role: Senior Design
+      -
+         name: Sierra Yit
+         degree: Undergraduate
+         pic: RAs/sierra_yit.jpg
+         homepage: 
+         project: Trending Topics on Wikipedia
+         graduation_date: May 2017
+         gender: female
+         role: Senior Design
 -
-   semester: Fall 2016
-   project_name: Trending Topics on Wikipedia
-   students:
+   semester: 2015-2016
+   projects:
    -
-      name: Abhiti Prabahar 
-      degree: Undergraduate
-      pic: RAs/abhiti_prabahar.jpg
-      homepage: 
-      project: Trending Topics on Wikipedia
-      graduation_date: May 2017
-      gender: female
-      role: Senior Design
+      project_name: Senior Design Project&colon; Visualizing Gun Violence
+      students:
+      -
+         name: Fabian Wikstroem 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Visualizing Gun Violence
+         graduation_date: May 2016
+         gender: male
+         role: Senior Design
+      -
+         name: Alexandra Selldorff 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Visualizing Gun Violence
+         graduation_date: May 2016
+         gender: female
+         role: Senior Design
+      -
+         name: Michael Browne
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Visualizing Gun Violence
+         graduation_date: May 2016
+         gender: male
+         role: Senior Design
+      -
+         name: Nina Ilieva
+         degree: Undergraduate
+         pic: RAs/sierra_yit.jpg
+         homepage: 
+         project: Visualizing Gun Violence
+         graduation_date: May 2016
+         gender: female
+         role: Senior Design
    -
-      name: Alice Serfati 
-      degree: Undergraduate
-      pic: RAs/alice_serfati.jpg
-      homepage: 
-      project: Trending Topics on Wikipedia
-      graduation_date: May 2017
-      gender: female
-      role: Senior Design
+      project_name: Senior Design Project&colon; Mobile Crowdsourcing
+      award: Honorable Mention in the CIS Senior Design fair
+      students:
+      -
+         name: Kate Miller 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Mobile Crowdsourcing
+         graduation_date: May 2016
+         gender: female
+         role: Senior Design
+      -
+         name: Alex Whitaker 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Mobile Crowdsourcing
+         graduation_date: May 2016
+         gender: male
+         role: Senior Design
+      -
+         name: Zach Krasner
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Mobile Crowdsourcing
+         graduation_date: May 2016
+         gender: male
+         role: Senior Design
+      -
+         name: Laura Kingsley
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Mobile Crowdsourcing
+         graduation_date: May 2016
+         gender: female
+         role: Senior Design
    -
-      name: Cristina Bustamant
-      degree: Undergraduate
-      pic: RAs/cristina_bustamant.jpg
-      homepage: 
-      project: Trending Topics on Wikipedia
-      graduation_date: May 2017
-      gender: female
-      role: Senior Design
+      project_name: Senior Design Project&colon; Machine Learning for MeetForCoffee
+      students:
+      -
+         name: Hong Kim 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: MeetForCoffee
+         graduation_date: May 2016
+         gender: male
+         role: Senior Design
+      -
+         name: Minsu Kim 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: MeetForCoffees
+         graduation_date: May 2016
+         gender: male
+         role: Senior Design
    -
-      name: Sierra Yit
-      degree: Undergraduate
-      pic: RAs/sierra_yit.jpg
-      homepage: 
-      project: Trending Topics on Wikipedia
-      graduation_date: May 2017
-      gender: female
-      role: Senior Design
+      project_name: Senior Thesis&colon; Natural Language Understanding with Paraphrases
+      students:
+      -
+         name: Yuqi Zhu 
+         degree: Undergraduate
+         pic: 
+         homepage: 
+         project: Natural Language Understanding
+         graduation_date: May 2016
+         gender: male
+         role: Senior Thesis
+-
+   semester: 2014-2015
+   projects:
+   -
+      project_name: Senior Design Project&colon; Observing Republican and Democrat Behavior through Tweeted Articles
+      students:
+      -
+         name: Dhruv Maheshwari 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Political Leanings on Twitter
+         graduation_date: May 2015
+         gender: male
+         role: Senior Design
+      -
+         name: Ali Altaf 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Political Leanings on Twitter
+         graduation_date: May 2015
+         gender: female
+         role: Senior Design 
+      -
+         name: Hamza Qaiser 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Political Leanings on Twitter
+         graduation_date: May 2015
+         gender: male
+      -
+         name: Dennis Sell 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Political Leanings on Twitter
+         graduation_date: May 2015
+         gender: male
+   -
+      project_name: Senior Design Project&colon; University Depression Monitoring Using Twitter Data
+      students:
+      -
+         name: Ashwin Baweja 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Depression Monitoring Using Twitter
+         graduation_date: May 2015
+         gender: male
+         role: Senior Design
+      -
+         name: Jason Kong 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Depression Monitoring Using Twitter
+         graduation_date: May 2015
+         gender: male
+         role: Senior Design 
+      -
+         name: Tommy Pan Fang 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Depression Monitoring Using Twitter
+         graduation_date: May 2015
+         gender: male
+      -
+         name: Yaou Wang 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Depression Monitoring Using Twitter
+         graduation_date: May 2015
+         gender: male
+   -
+      project_name: Senior Design Project&colon; Generating Music with Machine Translation Algorithms
+      award: Honorable Mention in the CIS Senior Design fair
+      students:
+      -
+         name: Rigel Swavely 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: MT for Music
+         graduation_date: May 2015
+         gender: male
+         role: Senior Design
+      -
+         name: Nicole Limtiaco  
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: MT for Music
+         graduation_date: May 2015
+         gender: female
+         role: Senior Design 
+-
+   semester: 2013-2014
+   projects:
+   -
+      project_name: Senior Design Project&colon; Bachify - Machine Learning for Bach chorales
+      award: 1st prize in the CIS Senior Design fair
+      students:
+      -
+         name: Israel Geselowitz 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Bachify
+         graduation_date: May 2014
+         gender: male
+         role: Senior Design
+      -
+         name: David Cerny 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Bachify
+         graduation_date: May 2014
+         gender: male
+         role: Senior Design 
+      -
+         name: Jiten Suthar 
+         degree: Undergraduate
+         pic:
+         homepage: 
+         project: Bachify
+         graduation_date: May 2014
+         gender: male
