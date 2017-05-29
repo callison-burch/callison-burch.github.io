@@ -401,6 +401,7 @@
       project: Monolingual Alignment
       graduation_date: May 2016
       gender: female
+      role: Independent Study
    -
       name: Deepti Panuganti
       degree: Master's
@@ -409,6 +410,7 @@
       project: Vector Space Models
       graduation_date: May 2016
       gender: female
+      role: Independent Study
    -
       name: Siyu Qiu
       degree: Master's
@@ -417,6 +419,7 @@
       project: Twitter Paraphrases
       graduation_date: December 2015
       gender: female
+      role: Independent Study
    -
       name: Shreejit Gangadharan
       degree: Master's
@@ -452,4 +455,4 @@
       project: Scalar Adjectives
       graduation_date: May 2017
       gender: female
-      role: RA, Independent Study
+      role: Independent Study
