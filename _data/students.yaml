@@ -8,9 +8,9 @@
    gender: female
 -
    name: Anietie Andy
-   degree: Visiting Postdoc
+   degree: Postdoc
    pic: anietie_andy.jpg
-   institution: Howard University
+   institution: University of Pennsylvania (PhD from Howard University)
    start_year: 2017
    homepage:
    gender: male
@@ -18,7 +18,7 @@
    name: Derry Wijaya
    degree: Postdoc
    pic: derry_wijaya.jpg
-   institution: University of Pennsylvania
+   institution: University of Pennsylvania (PhD from CMU)
    start_year: 2016
    homepage: http://www.cs.cmu.edu/afs/cs/Web/People/dwijaya/
    gender: female
