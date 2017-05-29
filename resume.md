@@ -277,3 +277,41 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   {% endfor %}
 </ol>
 
+<h2>Undergraduate and Masters Advising</h2>
+
+
+<h3>Independent Studies and RAships </h3>
+
+  {% for semester in site.data.past_research_assistants %}
+<h4>{{ semester.semester }}</h4>
+<ol>
+	{% for student in semester.students %}
+<li> {{ student.name }} - {{ student.degree }} - {{ student.role }} </li>
+	{% endfor %}
+</ol>
+  {% endfor %}
+
+
+<h3>Team Projects </h3>
+
+{% for item in site.data.past_team_projects %}
+<h4>{{ item.semester }} </h4>
+
+<ol>
+{% for project in item.projects %}
+<li>{{project.project_name}}
+{% if project.award %}
+- <b>{{project.award}}</b>
+{% endif %}
+
+<ul>
+{% for student in project.students %}
+<li> {{ student.name }}  </li>
+{% endfor %}
+</ul>
+</li>
+{% endfor %}
+</ol>
+{% endfor %}
+
+  
