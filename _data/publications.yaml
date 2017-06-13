@@ -1,4 +1,44 @@
 -
+   title: Mapping the Paraphrase Database to WordNet
+   authors: Anne Cocos, Marianna Apidianaki and Chris Callison-Burch
+   venue: STARSEM
+   type: conference
+   year: 2017
+   url: 
+   page_count: 
+   id: mapping-ppdb-to-wordnet
+   abstract: WordNet has facilitated important research in natural language processing but its usefulness is somewhat limited by its relatively small coverage. The Paraphrase Database (PPDB) covers 650 times more words, but lacks the semantic structure of WordNet that would make it more directly useful for downstream tasks. We present a method for mapping words from PPDB to WordNet synsets with 89% accuracy. The mapping also lays important groundwork for incorporating WordNet's  relations into PPDB so as to increase its utility for semantic  reasoning in applications. 
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
+       author = {Anne Cocos amd Marianna Apidianaki and Chris Callison-Burch},
+       title = {Mapping the Paraphrase Database to WordNet},
+       booktitle = {*SEM 2017: The Sixth Joint Conference on Lexical and Computational Semantics},
+       month = {August},
+       year = {2017},
+       address = {Vancouver, Canada},
+       url = {http://www.cis.upenn.edu/~ccb/publications/mapping-ppdb-to-wordnet.pdf}
+       } 
+-
+   title: Learning Antonyms with Paraphrases and a Morphology-aware Neural Network
+   authors: Sneha Rajana, Chris Callison-Burch, Marianna Apidianaki and Vered Shwartz
+   venue: STARSEM
+   type: conference
+   year: 2017
+   url: 
+   page_count: 
+   id: learning-antonyms
+   abstract: Recognizing antonymy is a key task for improving the performance of NLP systems. In this paper, we propose a novel method for deriving antonym pairs from paraphrase pairs containing negation markers. We further integrate morphological features indicative of antonymy into a path-based relation detection algorithm. Our novel neural network model, AntNET, outperforms state-of-the-art models in distinguishing antonyms from other semantic relations and is capable of efficiently handling multi-word expressions.
+   bibtex: |
+      @inproceedings{Pavlick-Callison-Burch:2016:ACL,
+       author = {Sneha Rajana and Chris Callison-Burch and Marianna Apidianaki and Vered Shwartz},
+       title = {Learning Antonyms with Paraphrases and a Morphology-aware Neural Network},
+       booktitle = {*SEM 2017: The Sixth Joint Conference on Lexical and Computational Semantics},
+       month = {August},
+       year = {2017},
+       address = {Vancouver, Canada},
+       url = {http://www.cis.upenn.edu/~ccb/publications/learning-antonyms.pdf}
+       } 
+-
    title: Word Sense Filtering Improves Embedding-Based Lexical Substitution
    authors: Anne Cocos, Marianna Apidianaki and Chris Callison-Burch
    venue: Workshop on Sense, Concept and Entity Representations and their Applications
