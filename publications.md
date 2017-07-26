@@ -25,7 +25,11 @@ active_tab: publications
 	{% endif %}
 	{{ publication.authors }}.
         {% if publication.page_count < 8 and (publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL")   %}
-		{{ publication.venue }} {{ publication.year }} short papers.
+        {% if publication.type == "demo" %}
+			{{ publication.venue }} {{ publication.year }} demos.
+		{% else %}
+			{{ publication.venue }} {{ publication.year }} short papers.
+		{% endif %}
 	{% else %}
 		{{ publication.venue }}  {{ publication.year }}.
 	{% endif %}
