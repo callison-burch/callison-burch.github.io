@@ -8,8 +8,8 @@ publications:
 ---
 
 # Chris Callison-Burch: Teaching Statement
-<p class="text-muted">
-(Last updated {{ site.time | date: "%B %d, %Y" }})<br/>
+<p class="text-muted">	
+(Last updated October 2016)<br/>
 </p>
 
 I teach three courses at Penn.  Two are courses related to my research, and one is an introductory undergraduate course.  My teaching philosophy is that students are best engaged through hands-on work.  This idea is borne out in the project-based design of my classes, and in my mentorship of undergraduates and master's students through research projects.  Here, I'll describe my courses, my work with undergraduates and master's students, and my personal efforts at increasing the number of women in computer science.
