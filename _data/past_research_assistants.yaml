@@ -4,37 +4,39 @@
     -
        name: Eddie Okon
        degree: Undergraduate
-       pic:
+       pic: RAs/eddie_okon.jpg
        homepage:
-       project: Clustering Paraprhases
-       graduation_date:
+       project: Clustering Paraprhases with Images
+       graduation_date: May 2018
        gender: male
        role: RA
     -
        name: Natasha Ter-Saakov
-       degree: High School / Undergraduate
-       pic:
-       homepage:
-       project: 
-       graduation_date:
+       degree: High school / Undergraduate
+       univerity: MIT
+       pic: RAs/natasha_ter-saakov.jpg
+       homepage: 
+       project: Intro to NLP
+       graduation_date: May 2021
        gender: female
        role: RA
     -
        name: Maryanne Cosgrove
        degree: Undergraduate
-       pic:
-       homepage:
-       project: 
-       graduation_date:
+       univerity: Yale
+       pic: RAs/maryanne_cosgrove.jpg
+       homepage: http://www.linkedin.com/in/maryanne-cosgrove
+       project: Trending topics on Wikipedia
+       graduation_date: May 2020
        gender: female
        role: RA
     -
        name: Bradley Jackson
        degree: Undergraduate
-       pic:
-       homepage:
-       project: 
-       graduation_date:
+       pic: RAs/bradley_jackson.jpg
+       homepage: 
+       project: Know your nyms
+       graduation_date: May 2019
        gender: male
        role: RA
 -
