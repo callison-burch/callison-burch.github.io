@@ -156,7 +156,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 <!-- print the publication type -->
 {%if publication_type == "conference" %}
-<h3>Refereed conference papers (most have <a href="https://www.aclweb.org/aclwiki/index.php?title=Conference_acceptance_rates">acceptance rates</a> ≈ 25%)</h3>
+<h3>Refereed conference papers (most have <a href="https://aclweb.org/aclwiki/Conference_acceptance_rates">acceptance rates</a> ≈ 25%)</h3>
 {% elsif publication_type == "journal" %}
 <h3>Journal articles</h3>
 {% elsif publication_type == "chapter" %}
