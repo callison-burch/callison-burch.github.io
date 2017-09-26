@@ -23,6 +23,24 @@
    homepage: http://www.cs.cmu.edu/afs/cs/Web/People/dwijaya/
    gender: female
 -
+   name: Daniel Deutsch
+   degree: PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2017
+   expected_graduation_date: Summer 2022
+   homepage:
+   gender: male
+-
+   name: Danni Ma
+   degree: PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2017
+   expected_graduation_date: Summer 2022
+   homepage:
+   gender: female
+-
    name: Jie Gao
    degree: PhD Student
    pic: jie_gao.jpg
@@ -41,6 +59,15 @@
    homepage:
    gender: male
 -
+   name: Daphne Ippolito
+   degree: PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2015
+   expected_graduation_date: Summer 2020
+   homepage:
+   gender: female
+-
    name: Anne Cocos
    degree: PhD Student
    pic: anne_cocos.png
@@ -48,15 +75,6 @@
    start_year: 2014
    expected_graduation_date: Summer 2019
    homepage: http://www.seas.upenn.edu/~acocos
-   gender: female
--
-   name: Ellie Pavlick
-   degree: PhD Student
-   pic: ellie_pavlick.jpg
-   institution: University of Pennsylvania 
-   start_year: 2012
-   expected_graduation_date: Summer 2017
-   homepage: http://www.seas.upenn.edu/~epavlick/
    gender: female
 -
    name: Juri Ganitkevitch
