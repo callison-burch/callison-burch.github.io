@@ -1,4 +1,18 @@
 -
+   name: Ellie Pavlick
+   degree: PhD Student
+   pic: ellie_pavlick.jpg
+   institution: University of Pennsylvania 
+   start_year: 2012
+   advisors: Chris Callison-Burch
+   graduation_date: July 2017
+   thesis_title: Compositional Lexical Semantics in Natural Language Inference
+   thesis_link: dissertations/ellie-pavlick-thesis.pdf
+   current_position: Assistant Professor 
+   current_employer: Brown University 
+   homepage: http://www.seas.upenn.edu/~epavlick/
+   gender: female
+-
    name: Ann Irvine
    institution: Johns Hopkins University
    pic: ann_irvine.png
