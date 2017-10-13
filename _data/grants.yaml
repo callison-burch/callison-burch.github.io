@@ -22,7 +22,7 @@
    amount: $116,000
    start_date: 2017
    end_date: 2017
-   status: current
+   status: past
    PI_info: PI with Ben Van Durme
 -
    title: CI-P&colon; Planning for Scalable Language Resource Creation through Novel Incentives and Crowdsourcing
@@ -38,7 +38,7 @@
    amount: $40,000 
    type: AWS credit
    start_date: 2016
-   status: current
+   status: past
    PI_info: PI
 -
    title: Low Resource Machine Translation via Matrix Factorization (Amazon Academic Research Awards)
@@ -47,7 +47,7 @@
    amount: $68,000
    start_date: 2016
    end_date: 2017
-   status: current
+   status: past
    PI_info: PI
 -
    title: Learning translations from monolingual texts (LORELEI)
@@ -106,7 +106,7 @@
    start_date: 2012
    end_date: 2017
    PI_info: PI with Ben Van Durme
-   status: current
+   status: past
 -
    title: EAGER&colon; Combining natural language inference and data-driven paraphrasing
    awarding_body: NSF
