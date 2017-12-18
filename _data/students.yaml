@@ -20,12 +20,12 @@
    pic: derry_wijaya.jpg
    institution: University of Pennsylvania (PhD from CMU)
    start_year: 2016
-   homepage: http://www.cs.cmu.edu/afs/cs/Web/People/dwijaya/
+   homepage: http://www.seas.upenn.edu/~derry/
    gender: female
 -
    name: Daniel Deutsch
    degree: PhD Student
-   pic: 
+   pic: daniel_deutsch.jpg
    institution: University of Pennsylvania
    start_year: 2017
    expected_graduation_date: Summer 2022
@@ -34,7 +34,7 @@
 -
    name: Danni Ma
    degree: PhD Student
-   pic: 
+   pic: profile_pic.png
    institution: University of Pennsylvania
    start_year: 2017
    expected_graduation_date: Summer 2022
@@ -43,7 +43,7 @@
 -
    name: Hangfeng He
    degree: PhD Student
-   pic: 
+   pic: profile_pic.jpg
    institution: University of Pennsylvania
    start_year: 2017
    expected_graduation_date: Summer 2022
@@ -70,11 +70,11 @@
 -
    name: Daphne Ippolito
    degree: PhD Student
-   pic: 
+   pic: daphne_ippolito.jpg
    institution: University of Pennsylvania
    start_year: 2015
    expected_graduation_date: Summer 2020
-   homepage:
+   homepage: http://www.seas.upenn.edu/~daphnei/
    gender: female
 -
    name: Anne Cocos
