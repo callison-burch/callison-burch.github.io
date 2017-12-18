@@ -178,10 +178,15 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 <li><a href="http://cis.upenn.edu/~ccb/{{ publication.url }}">
 	{{ publication.authors }} ({{publication.year}}).
 	{{ publication.title }}.
-        {% if publication.page_count < 8 and (publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL")   %}
-		{{ publication.venue }} short papers.
-	{% else %}
-		{{ publication.venue }}.
+	{{ publication.venue }}  {{ publication.year }}.
+        {% if publication.page_count < 8  %}
+		{% if publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL" %}
+       			{% if publication.type == "demo" %}
+				Demo papers.
+			{% else %}
+				Short papers.
+			{% endif %}
+		{% endif %}
 	{% endif %}
 
         {% if publication.award %}

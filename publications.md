@@ -24,14 +24,15 @@ active_tab: publications
 		<b>{{ publication.award }}.</b>
 	{% endif %}
 	{{ publication.authors }}.
-        {% if publication.page_count < 8 and (publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL")   %}
-        {% if publication.type == "demo" %}
-			{{ publication.venue }} {{ publication.year }} demos.
-		{% else %}
-			{{ publication.venue }} {{ publication.year }} short papers.
+	{{ publication.venue }}  {{ publication.year }}.
+        {% if publication.page_count < 8  %}
+		{% if publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL" %}
+       			{% if publication.type == "demo" %}
+				Demo papers.
+			{% else %}
+				Short papers.
+			{% endif %}
 		{% endif %}
-	{% else %}
-		{{ publication.venue }}  {{ publication.year }}.
 	{% endif %}
 
 	{% if publication.abstract %}

@@ -137,10 +137,15 @@ Since I am the General Chair of ACL 2017, I did not submit papers to the confere
 <li><a href="http://cis.upenn.edu/~ccb/{{ publication.url }}">
 	{{ publication.authors }} ({{publication.year}}).
 	{{ publication.title }}.
-        {% if publication.page_count < 8 and (publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL")   %}
-		{{ publication.venue }} short papers.
-	{% else %}
-		{{ publication.venue }}.
+	{{ publication.venue }}  {{ publication.year }}.
+        {% if publication.page_count < 8  %}
+		{% if publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL" %}
+       			{% if publication.type == "demo" %}
+				Demo papers.
+			{% else %}
+				Short papers.
+			{% endif %}
+		{% endif %}
 	{% endif %}
 
         {% if publication.award %}
