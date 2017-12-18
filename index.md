@@ -13,9 +13,9 @@ keep_sidebar: true
 
 
 
-I am an Associate Professor in the Computer and Information Science Department at the University of Pennsylvania. My research interests include statistical machine translation, data-driven paraphrasing, and crowdsourcing.
+I am an Associate Professor in the Computer and Information Science Department at the University of Pennsylvania. My research interests include machine translation, data-driven paraphrasing, and crowdsourcing.
 
-I will serve as the General Chair for ACL 2017, which will be held in Vancouver, Canada from July 30 - August 4, 2017. I am the Secretary-Treasurer for SIGDAT, which organizes the EMNLP conferences. I was the Program Co-Chair for EMNLP 2015. I am an action editor for the new journal Transactions of the ACL ([TACL](http://www.transacl.org)). I recently finished my terms on the editorial board of Computational Linguistics, and as the Chair of the NAACL Executive Board. In 2014, I was named a Sloan Research Fellow. 
+I served as the General Chair for ACL 2017 in Vancouver, Canada. I was the Secretary-Treasurer for SIGDAT from 2015-2017, which organizes the EMNLP conferences. I was the Program Co-Chair for EMNLP 2015. I am an action editor for the new journal Transactions of the ACL ([TACL](http://www.transacl.org)). I recently finished my terms on the editorial board of Computational Linguistics, and as the Chair of the NAACL Executive Board. In 2014, I was named a Sloan Research Fellow. 
 
 My research group released [PPDB, the paraphrase database](http://paraphrase.org/), a resource with 169 million paraphrase transformation rules.
 
