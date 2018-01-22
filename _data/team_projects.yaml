@@ -1,10 +1,86 @@
 -
-      project_name: Aggregating Insights from Amazon Product Reviews
+      project_name: Machine Learning for Gun Violence Advocacy
       students:
+      -
+         name: Ben Sandloer
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Elizabeth Hamp
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Yoni Nachmany
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Allison Schwartz
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Anosha Minai
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design            
+-
+      project_name: Aggregating Insights from Amazon Product Reviews
+      project_url: https://github.com/ryin1/senior-design-f17
+      students:
+      -
+         name: Carolina Zheng
+         degree: Undergraduate
+         pic: RAs/carolina_zheng.png
+         homepage: 
+         project: Aggregating Insights from Amazon Product Reviews 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Joe Cappadona
+         degree: Undergraduate
+         pic: RAs/joe_cappadona.png
+         homepage: 
+         project: Aggregating Insights from Amazon Product Reviews 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Raymond Yin
+         degree: Undergraduate
+         pic: RAs/raymond_yin.png
+         homepage: 
+         project: Aggregating Insights from Amazon Product Reviews 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
       -
          name: Sumit Shyamsukha
          degree: Undergraduate
-         pic: RAs/sumit_shyamsukha.jpg
+         pic: RAs/sumit_shyamsukha.png
          homepage: 
          project: Aggregating Insights from Amazon Product Reviews 
          graduation_date: May 2018
@@ -23,18 +99,18 @@
          gender: male
          role: Senior Design
       -
-         name: Vishnu
+         name: Vishnu Rachakonda
          degree: Undergraduate
-         pic:
+         pic: profile_pic.jpg
          homepage: 
          project: Reddermatology
          graduation_date: May 2018
          gender: male
          role: Senior Design
       -
-         name: Adam
+         name: Adam Yunus
          degree: Undergraduate
-         pic:
+         pic: profile_pic.jpg
          homepage: 
          project: Reddermatology
          graduation_date: May 2018
@@ -43,7 +119,7 @@
       -
          name: Vamsee
          degree: Undergraduate
-         pic:
+         pic: profile_pic.jpg
          homepage: 
          project: Reddermatology
          graduation_date: May 2018
@@ -106,7 +182,7 @@
       -
          name: Aliza Hochsztein
          degree: Undergraduate
-         pic:
+         pic: RAs/aliza_hochsztein.jpg
          homepage: 
          project: Piazza Post Clustering 
          graduation_date: May 2018
