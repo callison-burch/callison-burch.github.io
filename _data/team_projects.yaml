@@ -1,4 +1,44 @@
 -
+      project_name: Mindful app
+      students:
+      -
+         name: Anvita Achar
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Daniel Moreno
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Francisco Selame
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Karinna Loo
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+
+-
       project_name: Machine Learning for Gun Violence Advocacy
       students:
       -
@@ -161,6 +201,18 @@
          pic: RAs/matt_cohen.jpg
          homepage: 
          project: Get2KnowUs 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+-
+      project_name: Translating Text with Images
+      students:
+      -
+         name: John Hewitt
+         degree: Undergraduate
+         pic: RAs/john_hewitt.jpg
+         homepage: 
+         project: Translating Text with Images 
          graduation_date: May 2018
          gender: male
          role: Senior Design
