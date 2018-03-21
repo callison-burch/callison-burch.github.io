@@ -1,4 +1,64 @@
 -
+   title: Simplification Using Paraphrases and Context-based Lexical Substitution
+   authors: Reno Kriz, Eleni Miltsakaki, Marianna Apidianaki and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2018
+   url: publications/simpliciation-using-paraphrases-and-lexical-substitution.pdf
+   page_count: 12 
+   id: simpliciation-using-paraphrases-and-lexical-substitution
+   abstract: Lexical simplification involves, among other steps, identifying complex words or phrases that need simplification and recommending simpler words or phrases that can be more easily understood. In this paper, we improve the task of identifying English complex words by proposing a model that exploits both lexical and contextual features for identifying words in a text that need to be simplified. We improve the lexical substitution task by using a word embedding-based lexical substitution model, and replacing the detected complex words with simpler paraphrases that preserve the meaning of the original segments. We compare our lexical simplification system to several baselines, and evaluate the best performing system using human judgments for 2,351 tokens. 
+   bibtex: |
+      @inproceedings{Kriz-et-al:2018:NAACL,
+       author = {Reno Kriz and Eleni Miltsakaki and Marianna Apidianaki and Chris Callison-Burch},
+       title = {Simplification Using Paraphrases and Context-based Lexical Substitution},
+       booktitle = {The 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2018)},
+       month = {June},
+       year = {2018},
+       address = {New Orleans, Louisiana },
+       url = {http://www.cis.upenn.edu/~ccb/publications/simpliciation-using-paraphrases-and-lexical-substitution.pdf}
+       } 
+-
+   title: Automated Paraphrase Lattice Creation for HyTER Machine Translation Evaluation
+   authors: Marianna Apidianaki, Guillaume Wisniewski, Anne Cocos and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2018
+   url: publications/hyter-paraphrase-lattices.pdf
+   page_count: 6 
+   id: hyter-paraphrase-lattices
+   abstract: Human translators and MT systems can produce multiple plausible translations for input texts. To reward meaning-equivalent but lexically divergent translations, MT evaluation metrics exploit synonyms and paraphrases, or multiple references. The HyTER metric relies on massive reference networks encoding an exponential number of correct translations for parts of a given sentence, proposed by human annotators. The manually built networks encode the set of all correct translations for a sentence, and HyTER rewards high quality hypotheses by measuring their minimum edit distance to the set of possible translations
+   bibtex: |
+      @inproceedings{Apidianaki-et-al:2018:NAACL,
+       author = {Marianna Apidianaki and Guillaume Wisniewski and Anne Cocos and Chris Callison-Burch},
+       title = {Automated Paraphrase Lattice Creation for {HyTER} Machine Translation Evaluation},
+       booktitle = {The 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2018)},
+       month = {June},
+       year = {2018},
+       address = {New Orleans, Louisiana },
+       url = {http://www.cis.upenn.edu/~ccb/publications/hyter-paraphrase-lattices.pdf}
+       } 
+-
+   title: Comparing Constraints for Taxonomic Organization
+   authors: Anne Cocos, Marianna Apidianaki and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2018
+   url: publications/comparing-constraints-for-taxonomic-organization.pdf
+   page_count: 12 
+   id: comparing-constraints-for-taxonomic-organization
+   abstract: Building a lexical taxonomy from the ground up involves several sub-tasks&colon; selecting terms to include, predicting relations between terms, and selecting the best subset of relations to keep, given constraints on the taxonomy graph. Methods for the final taxonomic organization step vary in terms of the constraints they impose, and whether they enable discovery of synonymous terms. But it is hard to isolate the impact of these factors on the quality of the resulting taxonomy because organization methods are rarely compared directly. In this paper, we present a head-to-head comparison of six taxonomic organization algorithms that vary with respect to their structural and transitivity constraints, and treatment of synonymy. We find that while transitive algorithms out-perform their non-transitive counterparts, the top-performing transitive algorithm is prohibitively slow for taxonomies with as few as 50 entities. We propose a simple modification to a non-transitive maximum spanning tree algorithm to explicitly incorporate synonymy, resulting in a method that is orders of magnitude faster than the top-performer while giving comparable performance.
+   bibtex: |
+      @inproceedings{Cocos-et-al:2018:NAACL,
+       author = {Anne Cocos and Marianna Apidianaki and Chris Callison-Burch},
+       title = {Comparing Constraints for Taxonomic Organization},
+       booktitle = {The 2018 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2018)},
+       month = {June},
+       year = {2018},
+       address = {New Orleans, Louisiana },
+       url = {http://www.cis.upenn.edu/~ccb/publications/comparing-constraints-for-taxonomic-organization.pdf}
+       } 
+-
    title: A Data-Driven Analysis of Workers’ Earnings on Amazon Mechanical Turk
    authors: Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage, Chris Callison-Burch, Jeffrey P. Bigham
    venue: CHI
