@@ -7,5 +7,6 @@ _site/
 _site/*
 publications/*.txt
 _data/publications.yaml-backup2
-
+figures*
+figures*/*
 .DS_Store
