@@ -1,4 +1,169 @@
 -
+   semester: Summer 2018
+   students: 
+    -
+       name: Minh Nguyen
+       degree: Undergraduate (Swartmore)
+       pic: 
+       homepage:
+       project: Multimodal Embeddings
+       graduation_date: 
+       gender: female
+       role: RA (Swartmore Undergraduate Research Award)
+    -
+       name: Jai Thirani
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Chatbots
+       graduation_date: 
+       gender: male
+       role: RA
+    -
+       name: Arun Kirubarajan
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Chatbots
+       graduation_date: 
+       gender: male
+       role: RA (PURM)
+    -
+       name: Daniel Stekol
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Paraphrases and Image
+       graduation_date: 
+       gender: male
+       role: RA (PURM)
+    -
+       name: Veronica (Qing) Lyu
+       degree: Undergraduate (Tsinghua University)
+       pic: 
+       homepage:
+       project: Bilingual lexicon induction
+       graduation_date: 
+       gender: female
+       role: Independent Study
+
+-
+   semester: Spring 2018
+   students: 
+    -
+       name: Zhan Chin
+       degree: Undergraduate
+       pic: RAs/zhan_chin.jpg
+       homepage:
+       project: Creating ensembles of cross-lingual word embeddings
+       graduation_date: May 2018
+       gender: male
+       role: Independent Study
+    -
+       name: Luke Carlson
+       degree: Master's (Submatricated)
+       pic: 
+       homepage:
+       project: Cleaning up Comments&colon; Using Deep Learning to Detect Digital Harassment
+       graduation_date: May 2018
+       gender: male
+       role: Independent Study
+       job_after_graduation: Apple Machine Translation
+    -
+       name: Shrinidhi Ramakrishnan
+       degree: Master's 
+       pic: 
+       homepage:
+       project: Creating Worse Sense Clusters with Images
+       graduation_date: May 2018
+       gender: female
+       role: Independent Study
+       job_after_graduation: NVIDIA
+    -
+       name: Maria Kustikova 
+       degree: Master's 
+       pic: 
+       homepage:
+       project: Creating Worse Sense Clusters with Images
+       graduation_date: May 2019
+       gender: female
+       role: Independent Study
+    -
+       name: Gil Landau 
+       degree: Master's 
+       pic: 
+       homepage:
+       project: Scalar Adjectives with Word Embeddings
+       graduation_date: May 2019
+       gender: male
+       role: Independent Study
+    -
+       name: Jasmine (Sun Jae) Lee 
+       degree: Undergraduate 
+       pic: 
+       homepage:
+       project: Monolingual Word Alignments
+       graduation_date: 
+       gender: female
+       role: RA
+-
+   semester: Fall 2017
+   students: 
+    -
+       name: Alexander Ma
+       degree: Undergraduate
+       pic: RAs/alexander_ma.jpg
+       homepage:
+       project: Understanding the Role of Open Source (self designed project)
+       graduation_date: May 2018
+       gender: male
+       role: Independent Study
+    -
+       name: Priya Gupta 
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Monolingual Word Alignment
+       graduation_date: May 2018
+       gender: female
+       role: RA
+    -
+       name: Devanshu Jain
+       degree: Master's
+       pic: RAs/devanshu_jain.jpg
+       homepage: https://devanshujain.me/
+       project: Machine Transliteration
+       graduation_date: May 2018
+       gender: male
+       role: Master's Thesis
+    -
+       name: Harshal Godhia
+       degree: Master's
+       pic: 
+       homepage: 
+       project: Improving word embeddings to better capture semantics
+       graduation_date: May 2018
+       gender: male
+       role: Independent Study
+    -
+       name: Zhiyu Ma
+       degree: Master's
+       pic: 
+       homepage: 
+       project: Date-Based Word Similarity Comparison
+       graduation_date: May 2018
+       gender: male
+       role: Independent Study
+    -
+       name: Aliza Hochsztein
+       degree: Undergraduate
+       pic: RAs/aliza_hochsztein.jpg
+       homepage: 
+       project: Piazza Post Clustering 
+       graduation_date: May 2018
+       gender: female
+       role: Senior Thesis
+-
    semester: Summer 2017
    students: 
     -

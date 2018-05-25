@@ -1,90 +1,103 @@
 ---
 title: Faculty Brag Sheet
 layout: default
-active_tab: students
+active_tab: main_page 
+keep_sidebar: false 
 ---
 
 
 {% capture this_year %}{{'now' | date: '%Y'}}{% endcapture %}
 {% capture last_year %}{{'now' | date: '%Y'  | minus: 1}}{% endcapture %}
 
-<div class="container-fluid">
-  <div class="row">
+# Faculty Brag Sheet - Chris Callison-Burch 
 
-<h1>Faculty Brag Sheet - Chris Callison-Burch </h1>
+## A. Teaching and Undergraduate Advising
 
-<h2>A. Teaching and Undergraduate Advising</h2>
+### Teaching
 
-<p>In the Fall, I taught CIS 121 for the second time.  It had an enrollment of 219, and I recruited 26 undergraduate TAs to help me.   In the Spring, I had teaching relief because of the birth of my daughter, Willa Mercurio Callison.  Here are my teaching reviews while at Penn.  </p>
+I taught CIS 121 in Fall (which had an enrollment of 216), and CIS 530 in the Spring (with an enrollment of 64).  
 
-<h3>Teaching Reviews at Penn</h3>
+This was the third time that I taught CIS 121.   I made several intentional changes to try to make it more cohesive.  Since I use the Sedgwick and Wayne textbook and their lecture slides,  I decided to make the course more like Princeton's COS 226 in order to bring the homeworks more in line with the other materials.  I dropped the CIS 121 term project, and replaced it with weekly programming assignments, several of which I directly drew from COS 226 (with Kevin Wayne's permission).  In retrospect these changes didn't work well - the TAs didn't have enough time to get up to speed on the new HWs, and the students didn't like that the fact that Penn had a course that was a derivative of Princeton's course.  Students also didn't like the fact that I made lecture attendance mandatory.   My teaching reviews for 121 suffered as a result. 
 
-Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
-<table class="table"> 
-  <tbody>
-     <tr>
-       <th>Term</th>
-       <th>Course Title (Number)</th>
-       <th>Students Enrolled</th>
-       <th>Course Quality</th>
-       <th>Instructor Quality</th>
-     </tr>
-  {% for course in site.data.teaching %}
-      {% if course.institution == "University of Pennsylvania" %}
-     <tr>
-       <td>{{course.term}} {{course.year}}</td>
-       <td>{{course.title}} ({{course.number}})</td>
-       <td>{{course.enrollment}}</td>
-       <td>{{course.course_rating | round: 1}}</td>
-       <td>{{course.instructor_rating | round: 1}}</td>
-     </tr>
-      {% endif %}
+This was the first time that I taught Computational Linguistics, and I enjoyed it immensely.  I developed [the course content](http://computational-linguistics-class.org) from scratch, and tried some experimental things like doing part of the course as a flipped classroom, and designing open ended assignments with leaderboards.  Overall I felt that the course went very well, especially since it was my first time teaching the material.  I would like to teach this course again, perhaps alternating every other year with Ani Nenkova. 
+
+
+### Undergraduate and Master's Research Projects 
+
+{% assign women = 0 %}
+{% assign total_students = 0 %}
+{% assign counter = 1 %}
+
+{% for semester in site.data.past_research_assistants %}
+{% if semester.semester contains this_year or (semester.semester contains last_year and semester.semester contains "Fall" ) %}
+{% for student in semester.students %}
+  {% assign total_students = total_students | plus: 1 %}
+  {% if student.gender == "female" %}
+    {% assign women = women | plus: 1 %}
+  {% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+{% for semester in site.data.past_team_projects %}
+
+{% if semester.semester contains this_year or  (semester.semester contains last_year and semester.semester contains "Fall" ) %}
+
+{% for project in semester.projects %}
+  {% for student in project.students %}
+    {% assign total_students = total_students | plus: 1 %}
+    {% if student.gender == "female" %}
+      {% assign women = women | plus: 1 %}
+    {% endif %}
   {% endfor %}
-  </tbody>
-</table>
+{% endfor %}
+
+{% endif %}
+{% endfor %}
 
 
-<h3>Undergraduate Advising </h3>
+This year, I worked with {{total_students}} undergraduates and master's students on independent studies, RAships, and senior design projects.  {{ women | times: 100 | divided_by: total_students}}% of the students were women.
 
-<p>I have worked extensively with undergraduates and master's students on independent studies and RAships. I have made a special effort to recruit more women into computer science by doing research project with younger women.</p>
+
+One of the undergraduates who I have done research with for the past 3 years, John Hewitt, has accepted a PhD position at Stanford in Natural Language Processing, starting the the Fall.  John had two ACL papers accepted this year.
+
 
 
 {% for semester in site.data.past_research_assistants %}
-{% if semester.semester contains this_year or  semester.semester contains last_year %}
-{% assign counter = 0 %}
+{% if semester.semester contains this_year or  (semester.semester contains last_year and semester.semester contains "Fall" ) %}
+
+
+#### {{ semester.semester }} 
+<ol start="{{counter}}">
 {% for student in semester.students %}
-{% if student.gender == "female" %}
-{% assign counter = counter | plus: 1 %}
-  {% endif %}
-{% endfor %}
-	<h4>{{ semester.semester }} - {{counter}} women</h4>
-<ol>
-	{% for student in semester.students %}
 <li> {{ student.name }} - {{ student.degree }} - {{ student.role }} </li>
-	{% endfor %}
+{% assign counter = counter | plus: 1 %}
+{% endfor %}
 </ol>
 {% endif  %}
 {% endfor %}
 
-<h3>Team Projects </h3>
 
-{% for item in site.data.past_team_projects %}
+### Senior Design Projects 
 
-{% if item.semester contains this_year or  item.semester contains last_year %}
-<h4>{{ item.semester }} </h4>
+{% for semester in site.data.past_team_projects %}
+
+{% if semester.semester contains this_year or  (semester.semester contains last_year and semester.semester contains "Fall" ) %}
+#### {{ semester.semester }} 
 
 <ol>
-{% for project in item.projects %}
+{% for project in semester.projects %}
 <li>{{project.project_name}}
 {% if project.award %}
 - <b>{{project.award}}</b>
 {% endif %}
 
-<ul>
+<ol start="{{counter}}">
 {% for student in project.students %}
 <li> {{ student.name }}  </li>
+{% assign counter = counter | plus: 1 %}
 {% endfor %}
-</ul>
+</ol>
 </li>
 {% endfor %}
 </ol>
@@ -92,41 +105,38 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 {% endif  %}
 {% endfor %}
 
-  </div>
-</div>
 
-<h2>B.  Doctoral Student Education </h2>
+## B.  Doctoral Student Education 
 
 
-<h2>Current PhD Students and Postdocs</h2>
+### Current PhD Students and Postdocs
 
-<p>My lab currently has 4 PhD students, 2 postdocs and 1 visiting researcher. I also have 3 PhD students remaining at Johns Hopkins University.</p>
+My lab currently has 7 PhD students, 2 postdocs and 1 visiting researcher. I also have 1 remaining PhD student  at Johns Hopkins University.  Two of my other remaining JHU PhD students --Juri Ganitkevitch and Courtney Napoles-- successfully defended  their theses this year. 
+
 
 <ol>
     {% for student in site.data.students %}
 <li> {{ student.name }},  {{ student.degree }}, {{ student.institution }}.
     {% if student.expected_graduation_date %}
-    Expected graduation date: {{ student.expected_graduation_date }}
+Expected graduation date: {{ student.expected_graduation_date }}
     {% endif %}
 </li>
 
   {% endfor %}
 </ol>
 
-<p>My PhD student Ellie Pavlick has accepted a faculty position in computer science at Brown University. She had 12 interviews for faculty positions, which resulted in 7 offers from Princeton, Brown, NYU, University of Wisconsin-Madison, University of Michigan (offers from 2 departments), and the University of Colorado at Boulder. </p>
+Currently, women make up 60% of my lab.  I've had a good track record of placing women in tenure-track faculty positions:
+* This year, My postdoc Derry Wijaya has accepted a faculty position in computer science at Boston University.  She had 14 interviews, and 7 offers (UIC, Boston College, Boston University, SUNY Binghamton, Temple, Tufts, and Rochester). 
+* Last year, my PhD student Ellie accepted a faculty position in computer science at Brown University. She had 12 interviews for faculty positions, which resulted in 7 offers from Princeton, Brown, NYU, University of Wisconsin-Madison, University of Michigan (offers from 2 departments), and the University of Colorado at Boulder. 
+* Two years ago, my postdoc Wei Xu  accepted a faculty position in computer science at Ohio State University. She had 12 interviews for faculty positions, and OSU solved her two body problem. 
 
-<p>Last year, my postdoc Wei Xu  accepted a faculty position in computer science at Ohio State University. She had 12 interviews for faculty positions, and OSU solved her two body problem. </p>
+I have several other women in the pipeline who I hope to place into faculty jobs. The next one is likely to be Anne Cocos who is on target to graduate next year.  She won a Google Fellowship this year, and I think she will be a superb professor.
 
-<p>I have 2 more women in the pipeline who I expect to place into faculty jobs: Derry Wijaya and Anne Cocos.</p>
-
-
-<h2>C.  Research </h2>
-
-
-<h3>Publications</h3>
+## C.  Research 
 
 
-Since I am the General Chair of ACL 2017, I did not submit papers to the conference to avoid the appearance of conflict of interests.  My students and I have 6 papers under review for EMNLP 2017.
+### Publications
+
 
 <ol>
   {% for year in (last_year..this_year) reversed %}
@@ -168,18 +178,20 @@ Since I am the General Chair of ACL 2017, I did not submit papers to the confere
 
 <h3>Grants</h3>
 
+This year I had a SNAFU with funding.  I was provisionally awarded a 4.5 year $4M DARPA AIDA grant, but it was rescinded by the DARPA contracting office because of a perceived COI with the Linguistics Data Consortium, which was awarded the contract to create the program's evaluation data and which shared the same CAGE code with the rest of Penn.  LDC has since got its own CAGE code, and this conflict should not arise again in the future.  Unfortunately, the decision to rescind the award couldn't be reversed.  I'm therefore spending this summer applying for a lot of grants.
+
 {% assign grant_status = "current,pending" | split: "," %}
 {% for status in grant_status %}
 
 <!-- print the grant status -->
 {%if status == "current" %}
-<h4>Current grants</h4>
+#### Current grants
 {% elsif status == "pending" %}
-<h4>Pending grants</h4>
+#### Pending grants
 {% elsif status == "past" %}
-<h4>Past grants</h4>
+#### Past grants
 {% else %}
-<h3>Other</h3>
+### Other</h3>
 {% endif %}
 
 
@@ -211,5 +223,5 @@ Since I am the General Chair of ACL 2017, I did not submit papers to the confere
 
 <h2>E. Service </h2>
  
-I am serving as the General Chair for the ACL 2017 conference.  We had 1,500+ paper sumbissions this year.  I secured several first time sponsors including Apple and Alibaba.  I introduced a new initiative  to offer on-site subsidized childcare at the conference.  I am the most junior person to be selected to serve as the General Chair.
+I served as the General Chair for the ACL 2017 conference.  We had 1,500+ paper submissions this year.  I secured several first time sponsors including Apple and Alibaba.  I introduced a new initiative  to offer on-site subsidized childcare at the conference.  I was the most junior person to be selected to serve as the General Chair.
 

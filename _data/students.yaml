@@ -86,24 +86,6 @@
    homepage: http://www.seas.upenn.edu/~acocos
    gender: female
 -
-   name: John Hewitt
-   degree: Undergraduate Extraordinaire
-   pic: john_hewitt.jpg
-   institution: University of Pennsylvania 
-   start_year: 2014
-   expected_graduation_date: Summer 2018
-   homepage: https://www.seas.upenn.edu/~johnhew/
-   gender: male
--
-   name: Courtney Napoles
-   degree: PhD Student
-   pic: courtney_napoles.png
-   institution: Johns Hopkins University
-   start_year: 2009
-   expected_graduation_date: Summer 2017
-   homepage: http://cs.jhu.edu/~napoles/
-   gender: female
--
    name: Jonny Weese
    degree: PhD Student
    pic: jonny_weese.png

@@ -1,4 +1,237 @@
 -
+   semester: 2017-2018
+   projects:
+   -
+      project_name: Mindful app
+      students:
+      -
+         name: Anvita Achar
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Daniel Moreno
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Francisco Selame
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Karinna Loo
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Mindful
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+   -
+      project_name: Machine Learning for Gun Violence Advocacy
+      students:
+      -
+         name: Ben Sandloer
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Elizabeth Hamp
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Yoni Nachmany
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Allison Schwartz
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Anosha Minai
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Machine Learning for Gun Violence Advocacy 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design            
+   -
+      project_name: Aggregating Insights from Amazon Product Reviews
+      project_url: https://github.com/ryin1/senior-design-f17
+      students:
+      -
+         name: Carolina Zheng
+         degree: Undergraduate
+         pic: RAs/carolina_zheng.png
+         homepage: 
+         project: Aggregating Insights from Amazon Product Reviews 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Joe Cappadona
+         degree: Undergraduate
+         pic: RAs/joe_cappadona.png
+         homepage: 
+         project: Aggregating Insights from Amazon Product Reviews 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Raymond Yin
+         degree: Undergraduate
+         pic: RAs/raymond_yin.png
+         homepage: 
+         project: Aggregating Insights from Amazon Product Reviews 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Sumit Shyamsukha
+         degree: Undergraduate
+         pic: RAs/sumit_shyamsukha.png
+         homepage: 
+         project: Aggregating Insights from Amazon Product Reviews 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+   -
+      project_name: Reddermatology
+      students:
+      -
+         name: Eddie Okon
+         degree: Undergraduate
+         pic: RAs/eddie_okon.jpg
+         homepage: 
+         project: Reddermatology
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Vishnu Rachakonda
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Reddermatology
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Adam Yunus
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Reddermatology
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+      -
+         name: Vamsee
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         homepage: 
+         project: Reddermatology
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+   -
+      project_name: Get2KnowUs
+      students:
+      -
+         name: Natasha Narang
+         degree: Undergraduate
+         pic: RAs/natasha_narang.jpg
+         homepage: 
+         project: Get2KnowUs 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Sammi Caby
+         degree: Undergraduate
+         pic: RAs/sammi_caby.jpg
+         homepage: 
+         project: Get2KnowUs 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Vivian Ge
+         degree: Undergraduate
+         pic: RAs/vivian_ge.jpg
+         homepage: 
+         project: Get2KnowUs 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+      -
+         name: Matt Cohen
+         degree: Undergraduate
+         pic: RAs/matt_cohen.jpg
+         homepage: 
+         project: Get2KnowUs 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+   -
+      project_name: Translating Text with Images
+      award: Honorable Mention in the CIS Senior Design fair
+      students:
+      -
+         name: John Hewitt
+         degree: Undergraduate
+         pic: RAs/john_hewitt.jpg
+         homepage: 
+         project: Translating Text with Images 
+         graduation_date: May 2018
+         gender: male
+         role: Senior Design
+   -
+      project_name: Know Your Nyms
+      students:
+      -
+         name: Carrie (Yuqing) Wang
+         degree: Undergraduate
+         pic: RAs/carrie_wang.jpg
+         homepage: 
+         project: Know Your Nyms 
+         graduation_date: May 2018
+         gender: female
+         role: Senior Design
+-
    semester: Fall 2016
    projects:
    -

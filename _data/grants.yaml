@@ -1,4 +1,14 @@
 -
+   title: Semi-supervised Learning of Multimodal Representations
+   awarding_body: DARPA (in preparation)
+   amount: $200k
+   start_date: 2019
+   end_date: 2020
+   status: pending
+   PI_info: Chris Callison-Burch and Derry Wijaya
+   url: 
+   abstract: Systems that process text and image can link semantic and real-world knowledge and make better inferences about object-word connections even when linguistic evidence is scarce. Most current multimodal systems are supervised and thus limited to recognizing objects represented in hand-crafted image databases. Starting with knowledge of the mapping between texts and images in existing image databases, we propose a semi-supervised model that can dynamically update and extend this knowledge as it encounters images of new objects. The model will combine learning from both images and captions using matrix completion, and will infer object collocations in images from word collocations in their captions. The model will acquire large-scale vision-to-language mappings that will dynamically update and extend the coverage of existing image databases.
+-
    title: FW-HTF Theme 1&colon; Enabling Rural Digital Workers to Collaborate with AI to Learn Skills Over Time, Increase Wages and Opportunities, and Access Creative Work
    awarding_body: NSF (in preparation)
    amount: $3m
@@ -96,6 +106,7 @@
    amount: $40,000 
    type: AWS credit
    start_date: 2016
+   end_date: 2017
    status: past
    PI_info: PI
 -
@@ -122,7 +133,7 @@
    start_date: 2015
    end_date: 2017
    PI_info: co-PI with Stephanie Strassel
-   status: current
+   status: past
 -
    title: Natural Logic Solver for Aristo
    awarding_body: Allen Institute for Artificial Intelligence (AI2)
