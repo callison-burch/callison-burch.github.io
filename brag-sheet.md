@@ -178,7 +178,7 @@ I have several other women in the pipeline who I hope to place into faculty jobs
 
 <h3>Grants</h3>
 
-This year I had a SNAFU with funding.  I was provisionally awarded a 4.5 year $4M DARPA AIDA grant, but it was rescinded by the DARPA contracting office because of a perceived COI with the Linguistics Data Consortium, which was awarded the contract to create the program's evaluation data and which shared the same CAGE code with the rest of Penn.  LDC has since got its own CAGE code, and this conflict should not arise again in the future.  Unfortunately, the decision to rescind the award couldn't be reversed.  I'm therefore spending this summer applying for a lot of grants.
+This year I had a SNAFU with funding.  I was provisionally awarded a 4.5 year $4M DARPA AIDA grant, but it was rescinded by the DARPA contracting office because of a perceived COI with the Linguistics Data Consortium, which was awarded the contract to create the program's evaluation data and which shared the same CAGE code with the rest of Penn.  LDC subsequently got its own CAGE code, and this conflict should not arise again in the future.  Unfortunately, the decision to rescind the award couldn't be reversed.  I'm therefore spending this summer applying for a lot of grants.
 
 {% assign grant_status = "current,pending" | split: "," %}
 {% for status in grant_status %}
