@@ -1,11 +1,10 @@
 ---
-title: Students
+title: Lab
 layout: default
 active_tab: students
 ---
 
 
-<h3 id="students">PhD Students, Postdocs, and Visiting Scholars</h3>
 
 <div class="container-fluid">
   <div class="row">
@@ -26,3 +25,5 @@ active_tab: students
 </div>
 
 
+* [Undergrad and Master's RAs](students-undergrad-and-masters.html)
+* [Past Students and Postdocs](students-past.html)
