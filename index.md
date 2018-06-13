@@ -1,8 +1,8 @@
 ---
 title: Chris Callison-Burch
 layout: default
-img: profile-small
-img_link: assets/img/profile-large.jpg
+img: womens_march_cropped
+img_link: assets/img/womens_march.jpg
 caption: |
  <b>Office:</b> 3401 Walnut, room 463C<br />
  <b>Email:</b> ccb@upenn.edu<br />

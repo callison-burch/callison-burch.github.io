@@ -1,6 +1,26 @@
 -
-   name: Wei Xu
+   name: Derry Wijaya
    homepage: http://www.cis.upenn.edu/~xwe/
+   phd_from: Carnegie Mellon University University
+   pic: derry_wijaya.jpg
+   postdoc_start: 2016
+   postdoc_end: August 2018
+   current_position: Assistant Professor
+   current_employer: Boston University
+   gender: female
+-
+   name: Anietie Andy
+   homepage: https://anietieandy.github.io/
+   phd_from: Howard University
+   pic: anietie_andy.jpg
+   postdoc_start: 2017
+   postdoc_end: June 2018 
+   current_position: 
+   current_employer: 
+   gender: male
+-
+   name: Wei Xu
+   homepage: https://cocoxu.github.io/
    phd_from: New York University
    pic: wei_xu.jpg
    postdoc_start: February 2014
