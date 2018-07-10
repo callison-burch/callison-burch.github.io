@@ -55,3 +55,26 @@ active_tab: students
 </div>
 
 
+
+<h3>Past Visiting Scholars</h3>
+
+<div class="container-fluid">
+  <div class="row">
+  {% for visitor in site.data.past_visitors %}
+      <div class="col-lg-4 col-md-6 col-xs-12" style="margin-bottom: 20px">
+        {% if visitor.homepage %}
+        <a href="{{ visitor.homepage }}"><img src="assets/img/students/{{visitor.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px"/></a><br />
+         <b><a href="{{ visitor.homepage }}">{{ visitor.name }}</a></b><br />
+        {% else %}
+  <img src="assets/img/students/{{student.pic}}"  class="img-circle" style="height: 100%; width: 100%; max-height: 250px; max-width: 250px"/><br />
+         <b>{{ visitor.name }}</b><br />         
+        {% endif %}
+  {% if visitor.institution %}
+    {{ visitor.institution }}
+  {% endif %}
+      </div>
+  {% endfor %}
+  </div>
+</div>
+
+

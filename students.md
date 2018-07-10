@@ -24,6 +24,4 @@ active_tab: students
   </div>
 </div>
 
-
-* [Undergrad and Master's RAs](students-undergrad-and-masters.html)
-* [Past Students and Postdocs](students-past.html)
+## [Past Students, Postdocs and Visitors](students-past.html)
