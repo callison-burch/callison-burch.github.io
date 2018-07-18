@@ -10,7 +10,7 @@
    abstract: Systems that process text and image can link semantic and real-world knowledge and make better inferences about object-word connections even when linguistic evidence is scarce. Most current multimodal systems are supervised and thus limited to recognizing objects represented in hand-crafted image databases. Starting with knowledge of the mapping between texts and images in existing image databases, we propose a semi-supervised model that can dynamically update and extend this knowledge as it encounters images of new objects. The model will combine learning from both images and captions using matrix completion, and will infer object collocations in images from word collocations in their captions. The model will acquire large-scale vision-to-language mappings that will dynamically update and extend the coverage of existing image databases.
 -
    title: FW-HTF Theme 1&colon; Enabling Rural Digital Workers to Collaborate with AI to Learn Skills Over Time, Increase Wages and Opportunities, and Access Creative Work
-   awarding_body: NSF (in preparation)
+   awarding_body: NSF (submitted)
    amount: $3m
    start_date: 2019
    end_date: 2024
@@ -20,7 +20,7 @@
    abstract: 
 -
    title: STTR&colon; Personalized Retrieval-based Simplification
-   awarding_body: NSF (in preparation)
+   awarding_body: NSF (submitted)
    amount: $225k
    start_date: 2019
    end_date: 2023
@@ -28,23 +28,6 @@
    PI_info: Eleni Miltsakaki (Choosito.com) - PI, Chris Callison-Burch
    url: https://www.nsf.gov/pubs/2017/nsf17595/nsf17595.htm
    abstract: 
--
-   title: RIME&colon; Real-tIme Multimodal Evidence-based Reasoning
-   awarding_body: ONR (submitted)
-   amount: $2m
-   start_date: 2019
-   end_date: 2023
-   status: pending
-   PI_info: Zack Ives - PI, Dan Roth, Chris Callison-Burch, Susan Davidson, Mark Sammons
-   url: https://www.grants.gov/web/grants/view-opportunity.html?oppId=300565
-   abstract: |
-     Maintaining situational awareness in support of decision-making, across multiple personnel and with many incoming information streams, poses many challenges.  One must handle unreliable observations, combine low-level observations with background knowledge to produce higher-level predictions of state along with their underlying evidence, efficiently do this in real-time, and formulate potential action recommendations based on goals and objectives. We propose to develop Real-tIme Multimodal Evidence-based Reasoning technologies (RIME).  
-     We address the above challenges by considering three key research questions&colon;
-     1. How to acquire and represent raw information about classes, entities, and relationships, across various modalities including social media, open-source data posted to the Web, streams of sensor data, and pre-existing knowledge bases.
-     2. How to rapidly evaluate, rank, and synthesize data into higher-level conclusions, with associated justifications and confidence levels. 
-     3. How to efficiently combine data, constraints and goals, and potential actions into ranked potential courses of action (COAs), and how to present status and COAs to decision-makers in a real-time interactive form.
-     Through a multidisciplinary team consisting of artificial intelligence, natural language processing, and web/database researchers, we leverage advances in natural language processing for analyzing single sentences in text, data provenance techniques for providing evidence for hypotheses and conclusions from inference, data stream processing systems for handling high-volume information streams, and planning techniques for finding potential courses of action. Our innovations revolve around how to systematically integrate and represent propositions originating from multiple (sometimes conflicting) streams into a unified model of the world that also incorporates background information; how to integrate across different data modalities such as social media, sensor streams, knowledge bases, and open-source documents; and how to perform reasoning under uncertainty in a streaming environment.
-     Our deliverables will be instantiated within a unified RIME system, which takes streams of structured and textual data and continuously updates a concept meta-graph representing (and ranking) the hypothesized situations in the world.  When goals are specified or constraints are being violated, the system will also recommend potential courses of action.  Users will be able to interactively explore the evidence behind each potential situation and each course of action.
 -
    title: Learning to Reason with Learned Models and Domain Knowledge
    awarding_body: ONR (submitted)
@@ -61,19 +44,6 @@
       Knowledge Representation&colon; Declarative knowledge representations are powerful since they often come with a proof system. However, they do not account for the ambiguity and variability that are inherent in the messy data that must be dealt with in real world applications. We propose to develop a knowledge representation scheme that supports the “traditional” relational structure, but nevertheless enjoys useful properties of continuous representations. 
       Learning with Knowledge is perhaps the most significant challenge to effective machine learning for complex problems. We will address two key issues in this context&colon; (i) How to guide learning of complex models, via (declarative, soft and hard) prior knowledge and indirect supervision, so that interdependent output variables satisfy, perhaps softly, global expectations; and (ii) How to decompose models and automatically learn KR-like structured models of knowledge, in the course of performing a complex task, as a way to better support transfer across domains and facilitate better generalization for decisions in previously  unseen situations. 
       Our vision and concrete goals are fully supported by the expertise and experience of our team. We are leading researchers in Artificial Intelligence, including natural language processing, machine learning, and knowledge representation and reasoning, as well as in probabilistic knowledge bases, web and databases. We believe that we can significantly impact the way machine learning is studied in the context of complex decision problems, proposing new learning protocols, advanced knowledge representations, and an integrated learning to reason approach. 
--
-   title: Using Artificial Intelligence to Understand Gun Violence in America
-   awarding_body: University of Pennsylvania URF (submitted)
-   amount: $50k
-   start_date: 2019
-   end_date: 2020
-   status: pending
-   PI_info: Chris Callison-Burch
-   url: http://www.upenn.edu/research/smarts/university_research_foundation/
-   abstract: |
-      I propose to construct a database of all incidents of gun violence in the United States using techniques from artificial intelligence (AI), natural language processing (NLP), and crowdsourcing. I will extend a project that I developed for my undergraduate computer science class on Crowdsourcing and Human Computation, which uses a large number of volunteers and paid crowd workers to extract data from newspaper articles about gun violence. You can see the current state of the project here&colon; gun-violence.org
-      My goals for this research grant are (1) to engineer a system using AI and NLP to automate the data extraction pipeline that is now largely done manually, (2) to build a resource for policy makers, public health researchers, social scientists and advocacy groups so that they may gather data about gun violence in America, and (3) to obtain short term funding for my PhD students, since a recent administrative problem caused a provisionally approved $4M DARPA grant to be rescinded. I plan to seek additional external funding for this project, and I believe that a URF would provide a strong starting point for further research.
-
 -
    title: CI-NEW&colon; NIEUW&colon; Novel Incentives and Workflows in Linguistics Data Collection
    awarding_body: NSF
