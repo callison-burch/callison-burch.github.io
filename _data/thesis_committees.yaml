@@ -1,4 +1,28 @@
 -
+   name: Muthukumar Chandrasekaran
+   institution: National University of Singapore
+   advisors: Min-Yen Kan
+   graduation_date: 
+   thesis_title: 
+-
+   name: Courtney Napoles  
+   institution: Johns Hopkins University 
+   advisors: Chris Callison-Burch and Benjamin Van Durme
+   graduation_date: June 2018
+   thesis_title: Monolingual Sentence Rewriting as Machine Translation&colon; Generation and Evaluation 
+-
+   name: Ting-Hao Kenneth Huang 
+   institution: Carnegie Mellon University 
+   advisors: Jeffrey Bigham
+   graduation_date: June 2018
+   thesis_title: A Crowd-Powered Conversational Assistant That Automates Itself Over Time 
+-
+   name: Juri Ganitkevitch 
+   institution: Johns Hopkins University 
+   advisors: Chris Callison-Burch
+   graduation_date: February 2018
+   thesis_title: Large-Scale Paraphrase Extraction and Applications
+-
    name: Wang Ling
    institution: Carnegie Mellon University 
    advisors: Alan Black, Isabel Trancoso, Chris Dyer, and Luísa Coheur
