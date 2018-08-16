@@ -1,4 +1,44 @@
 -
+   title: Learning Scalar Adjective Intensity from Paraphrases
+   authors: Anne Cocos, Veronica Wharton, Ellie Pavlick, Marianna Apidianaki and Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2018
+   url: publications/learning-scalar-adjective-intensity-from-paraphrases.pdf
+   page_count: 11 
+   id: learning-scalar-adjective-intensity-from-paraphrases
+   abstract: Adjectives like *warm*, *hot*, and *scalding* all describe temperature but differ in intensity. Understanding these differences between adjectives is a necessary part of reasoning about natural language. We propose a new paraphrase-based method to automatically learn the relative intensity relation that holds between a pair of scalar adjectives. Our approach analyzes over 36k adjectival pairs from the Paraphrase Database under the assumption that, for example, paraphrase pair *really hot* <-> *scalding* suggests that *hot* < *scalding*. We show that combining this paraphrase evidence with existing, complementary pattern- and lexicon-based approaches improves the quality of systems for automatically ordering sets of scalar adjectives and inferring the polarity of indirect answers to yes/no questions.
+   bibtex: |
+      @inproceedings{Cocos-et-al:2018:ACL,
+       author = {Anne Cocos and Veronica Wharton and Ellie Pavlick and Marianna Apidianaki and Chris Callison-Burch},
+       title = {Learning Scalar Adjective Intensity from Paraphrases},
+       booktitle = {2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018)},
+       month = {November},
+       year = {2018},
+       address = {Brussels, Belgium},
+       url = {http://www.cis.upenn.edu/~ccb/publications/learning-scalar-adjective-intensity-from-paraphrases.pdf}
+       } 
+-
+   title: Magnitude&colon; A Fast, Efficient Universal Vector Embedding Utility Package
+   authors: Ajay Patel, Alex Sands, Marianna Apidianaki and Chris Callison-Burch
+   venue: EMNLP
+   type: demo
+   year: 2018
+   url: publications/magnitude-fast-efficient-vector-embeddings-in-python.pdf
+   page_count: 7 
+   id: magnitude-fast-efficient-vector-embeddings-in-python
+   abstract: Vector space embedding models like word2vec, GloVe, and fastText are extremely popular representations in natural language processing (NLP) applications.  We present Magnitude, a fast, lightweight tool for utilizing and processing embeddings.  Magnitude is an open source Python package with a compact vector storage file format that allows for efficient manipulation of huge numbers of embeddings.  Magnitude performs common operations up to 60 to 6,000 times faster than Gensim. Magnitude introduces several novel features for improved robustness like out-of-vocabulary lookups.
+   bibtex: |
+      @inproceedings{Cocos-et-al:2018:ACL,
+       author = {Ajay Patel and Alex Sands and Marianna Apidianaki and Chris Callison-Burch},
+       title = {Magnitude&colon; A Fast, Efficient Universal Vector Embedding Utility Package},
+       booktitle = {2018 Conference on Empirical Methods in Natural Language Processing (EMNLP 2018) - Demos},
+       month = {November},
+       year = {2018},
+       address = {Brussels, Belgium},
+       url = {http://www.cis.upenn.edu/~ccb/magnitude-fast-efficient-vector-embeddings-in-python.pdf}
+       } 
+-
    title: Learning Translations via Images with a Massively Multilingual Image Dataset
    authors: John Hewitt, Daphne Ippolito, Brendan Callahan, Reno Kriz, Derry Wijaya and Chris Callison-Burch
    venue: ACL
