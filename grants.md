@@ -11,7 +11,7 @@ active_tab: CV
 
 <h2>Grants</h2>
 
-{% assign grant_status = "current,pending,past" | split: "," %}
+{% assign grant_status = "current,past" | split: "," %}
 {% for status in grant_status %}
 
 <!-- print the grant status -->
