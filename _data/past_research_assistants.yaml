@@ -1,4 +1,25 @@
 -
+   semester: Fall 2018
+   students: 
+    -
+       name: Jacob Beckerman
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: OpenIE
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Rahul Shekhar
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: TBD
+       graduation_date: 
+       gender: male
+       role: Independent Study
+-
    semester: Summer 2018
    students: 
     -
@@ -15,7 +36,7 @@
        degree: Undergraduate
        pic: 
        homepage:
-       project: Chatbots
+       project: Evaluating Chatbots
        graduation_date: 
        gender: male
        role: RA
@@ -24,7 +45,7 @@
        degree: Undergraduate
        pic: 
        homepage:
-       project: Chatbots
+       project: Evaluating Chatbots
        graduation_date: 
        gender: male
        role: RA (PURM)
@@ -33,7 +54,7 @@
        degree: Undergraduate
        pic: 
        homepage:
-       project: Paraphrases and Image
+       project: Learning Translations from Images
        graduation_date: 
        gender: male
        role: RA (PURM)
@@ -74,7 +95,7 @@
        degree: Master's 
        pic: 
        homepage:
-       project: Creating Worse Sense Clusters with Images
+       project: Creating Word Sense Clusters with Images
        graduation_date: May 2018
        gender: female
        role: Independent Study
@@ -84,7 +105,7 @@
        degree: Master's 
        pic: 
        homepage:
-       project: Creating Worse Sense Clusters with Images
+       project: Creating Word Sense Clusters with Images
        graduation_date: May 2019
        gender: female
        role: Independent Study
