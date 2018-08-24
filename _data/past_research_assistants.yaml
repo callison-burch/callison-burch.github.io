@@ -67,6 +67,24 @@
        graduation_date: 
        gender: female
        role: Independent Study
+    -
+       name: Aditya Kashyap
+       degree: Master's in Data Science
+       pic: 
+       homepage:
+       project: Self-identification on Reddit
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Peter Kong 
+       degree: Master's
+       pic: 
+       homepage:
+       project: Evaluation metrics for style transfer 
+       graduation_date: 
+       gender: male
+       role: Independent Study
 
 -
    semester: Spring 2018
