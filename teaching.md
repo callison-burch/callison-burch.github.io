@@ -28,7 +28,7 @@ img: graph-definitions
 img_link: http://www.seas.upenn.edu/~cis121/current/
 caption: Graph terminology introduced in Data Structures and Algorithms
 -->
-[Computational Linguistics]() - CIS 530 (Spring 2018) 
+[Computational Linguistics](http://computational-linguistics-class.org) - CIS 530 (Spring 2018) 
 : This course provides an overview of the field of natural language processing.  <br /> <br />
 
 
