@@ -12,10 +12,5 @@ keep_sidebar: true
 ---
 
 
-<div class="alert alert-info">
-Interested in <a href="http://artificial-intelligence-class.org">CIS 421/521</a> but didn't get in?  You can <a href="https://forms.cis.upenn.edu/waitlist/index.php">add yourself to waitlist</a>. Priority will be given to graduating students who need the course for their major requirements.
-</div>
-
-
 I am an associate professor of Computer and Information Science at the University of Pennsylvania.  Before joining Penn, I was a research faculty member at the Center for Language and Speech Processing at Johns Hopkins University for 6 years. I served as the General Chair of the ACL 2017 conference, and the Program Co-Chair for the EMNLP 2015 conference. I was the Chair of the Executive Board of NAACL from 2011-2013, and the Secretary-Treasurer for SIGDAT from 2015-2017.  I have served on the editorial boards of the journals Transactions of the ACL (TACL) and Computational Linguistics.   I have more than 100 publications, which have been cited over 10,000 times.  I am a Sloan Research Fellow, and I have received faculty research awards from Google, Microsoft, Amazon and Facebook in addition to funding from DARPA and the NSF.  My research interests include natural language processing and crowdsourcing. 
 
