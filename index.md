@@ -5,6 +5,7 @@ img: womens_march_cropped
 img_link: assets/img/womens_march.jpg
 caption: |
  <b>Office:</b> 3401 Walnut, room 463C<br />
+ <b>Office Hours (Fall 2018):</b> Fridays 3-5pm 
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
