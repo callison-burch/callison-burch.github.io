@@ -5,7 +5,7 @@
    institution: University of Pennsylvania
    start_year: 2018
    expected_graduation_date: Summer 2023
-   homepage:
+   homepage: https://bikegirl.github.io
    gender: female
 -
    name: Daniel Deutsch
@@ -50,7 +50,7 @@
    institution: University of Pennsylvania
    start_year: 2016
    expected_graduation_date: Summer 2021
-   homepage:
+   homepage: https://rekriz11.github.io
    gender: male
 -
    name: Daphne Ippolito
@@ -68,7 +68,7 @@
    institution: University of Pennsylvania 
    start_year: 2014
    expected_graduation_date: Summer 2019
-   homepage: http://www.seas.upenn.edu/~acocos
+   homepage: http://acocos.github.io/
    gender: female
 -
    name: Jonny Weese
