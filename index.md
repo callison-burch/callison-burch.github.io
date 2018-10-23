@@ -12,7 +12,7 @@ keep_sidebar: true
 ---
 
 <div class="alert alert-info">
-In the Spring I will be teaching two courses: <a href="http://crowdsourcing-class.org">Crowdsourcing and Human Computation (NETS 213)</a> and <a href="http://computational-linguistics-class.org">Computational Linguistics (CIS 530)</a>.  CIS 530 will be on Mondays and Wednesdays 1:30-3pm.  NETS 213 lectures will be on Tuesdays and Thursdays 3-4:30pm.  You can request a permit to enroll for either class via the <a href="https://forms.cis.upenn.edu/waitlist/index.php">waitlist system</a>.
+In the Spring I will be teaching two courses: <a href="http://crowdsourcing-class.org">Crowdsourcing and Human Computation (NETS 213)</a> and <a href="http://computational-linguistics-class.org">Computational Linguistics (CIS 530)</a>.  CIS 530 will be on Mondays and Wednesdays 1:30-3pm.  NETS 213 lectures will be on Tuesdays and Thursdays 3-4:30pm.  You can request a permit to enroll for either class via the <a href="https://forms.cis.upenn.edu/waitlist/index.php">waitlist system</a>, starting on Monday October 29.
 </div>
 
 
