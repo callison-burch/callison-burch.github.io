@@ -11,7 +11,7 @@ img: artificial-intelligence
 img_link: http://artificial-intelligence-class.org
 caption: Can computers reason like humans?
 -->
-[Artifical Intelligence](http://artificial-intelligence-class.org) - CIS 421/521  (Fall 2018) 
+[Artificial Intelligence](http://artificial-intelligence-class.org) - CIS 421/521  (Fall 2018) 
 : How can computers reason and act in the world?  In this course we will cover a range of topics in Artificial Intelligence from classical topics like search, constraint satifaction problems, and games, and contemporary topics like neural networks, computer vision, and natural language processing. Programming assignments in Python.<br /> <br />
 
 <!--
