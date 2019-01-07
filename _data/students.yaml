@@ -61,12 +61,3 @@
    expected_graduation_date: Summer 2019
    homepage: http://acocos.github.io/
    gender: female
--
-   name: Jonny Weese
-   degree: PhD Student
-   pic: jonny_weese.png
-   institution: Johns Hopkins University
-   start_year: 2008
-   expected_graduation_date: Fall 2017
-   homepage: http://cs.jhu.edu/~jonny/
-   gender: male
