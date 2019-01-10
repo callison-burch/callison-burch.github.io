@@ -141,6 +141,25 @@
        url = {http://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf}
        } 
 -
+   title: ChatEval&colon; A Tool for the Systematic Evaluation of Chatbots
+   authors: Joao Sedoc, Daphne Ippolito, Arun Kirubarajan, Jai Thirani, Lyle Ungar, and Chris Callison-Burch
+   venue: Workshop on Intelligent Interactive Systems and Language Generation
+   type: workshop
+   year: 2018
+   url: publications/chateval.pdf
+   page_count: 4 
+   id: chateval
+   abstract: Open-domain dialog systems are difficult to evaluate. The current best practice for analyzing and comparing these dialog systems is the use of human judgments. However, the lack of standardization in evaluation procedures, and the fact that model parameters and code are rarely published hinder systematic human evaluation experiments. We introduce a unified framework for human evaluation of chatbots that augments existing chatbot tools, and provides a web-based hub for researchers to share and compare their dialog systems. Researchers can submit their trained models to the ChatEval web interface and obtain comparisons with baselines and prior work. The evaluation code is open-source to ensure evaluation is performed in a standardized and transparent way. In addition, we introduce open-source baseline models and evaluation datasets. ChatEval can be found at https://chateval.org/
+   bibtex: |
+      @inproceedings{Sedoc:2018:ChatEval,
+       author = {Joao Sedoc and Daphne Ippolito and Arun Kirubarajan and Jai Thirani and Lyle Ungar and Chris Callison-Burch},
+       title = {ChatEval&colon; A Tool for the Systematic Evaluation of Chatbots},
+       booktitle = {Proceedings of the Workshop on Intelligent Interactive Systems and Language Generation},
+       year = {2018},
+       address = {Tilburg, The Netherlands},
+       url = {http://www.cis.upenn.edu/~ccb/publications/chateval.pdf}
+       } 
+-
    title: Learning Translations via Matrix Completion
    authors: Derry Wijaya, Brendan Callahan, John Hewitt, Jie Gao, Xiao Ling, Marianna Apidianaki and Chris Callison-Burch
    venue: EMNLP
