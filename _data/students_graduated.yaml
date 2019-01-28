@@ -8,7 +8,7 @@
    graduation_date: June 2018
    homepage: http://cs.jhu.edu/~napoles/
    thesis_title: Monolingual Sentence Rewriting as Machine Translation&colon; Generation and Evaluation
-   thesis_link:
+   thesis_link: dissertations/courtney-napoles-thesis.pdf
    current_position: Research Scientist 
    current_employer: Grammarly 
    homepage: 
@@ -39,7 +39,7 @@
    thesis_link: dissertations/ellie-pavlick-thesis.pdf
    current_position: Assistant Professor 
    current_employer: Brown University 
-   homepage: http://www.seas.upenn.edu/~epavlick/
+   homepage: https://cs.brown.edu/people/epavlick/
    gender: female
 -
    name: Ann Irvine
