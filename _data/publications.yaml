@@ -1,4 +1,22 @@
 -
+   title: Worker Demographics and Earnings on Amazon Mechanical Turk&colon; An Exploratory Analysis
+   authors: Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage, Benjamin V. Hanrahan, Jeffrey P. Bigham and Chris Callison-Burch
+   venue: CHI Late Breaking Work
+   type: conference
+   year: 2019
+   url: publications/crowd-workers-demographics.pdf
+   page_count: 5
+   id: crowd-workers-demographics
+   abstract: Prior research reported that workers on Amazon Mechanical Turk (AMT) are underpaid, earning about $2/h. But the prior research did not investigate the difference in wage due to worker characteristics (e.g., country of residence). We present the first data-driven analysis on wage gap on AMT. Using work log data and demographic data collected via online survey, we analyse the gap in wage due to different factors. We show that there is indeed wage gap; for example, workers in the U.S. earn $3.01/h while those in India earn $1.41/h.
+   bibtex: |
+      @inproceedings{Hara-et-al:2019:CHI-LBW,
+       author = {Kotaro Hara and Abi Adams and Kristy Milland and Saiph Savage and Benjamin V. Hanrahan and Jeffrey P. Bigham and Chris Callison-Burch},
+       title = {A Data-Driven Analysis of Workers’ Earnings on Amazon Mechanical Turk},
+       booktitle = {CHI'19 Late Breaking Work},
+       year = {2019},
+       url = {http://www.cis.upenn.edu/~ccb/publications/crowd-workers-demographics.pdf}
+       } 
+-
    title: Learning Scalar Adjective Intensity from Paraphrases
    authors: Anne Cocos, Veronica Wharton, Ellie Pavlick, Marianna Apidianaki and Chris Callison-Burch
    venue: EMNLP
