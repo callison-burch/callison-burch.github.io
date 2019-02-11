@@ -13,7 +13,9 @@
        author = {Kotaro Hara and Abigail Adams and Kristy Milland and Saiph Savage and Benjamin V. Hanrahan and Jeffrey P. Bigham and Chris Callison-Burch},
        title = {Worker Demographics and Earnings on Amazon Mechanical Turk&colon; An Exploratory Analysis},
        booktitle = {CHI'19 Late Breaking Work},
+       month = {May},
        year = {2019},
+       address = {Glasgow, Scotland, UK},
        url = {http://www.cis.upenn.edu/~ccb/publications/crowd-workers-demographics.pdf}
        } 
 -
