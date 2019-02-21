@@ -5,6 +5,18 @@
    graduation_date: TBD
    thesis_title: TBD
 -
+   name: Shyam Upadhyay 
+   institution: University of Pennsylvania
+   advisors: Dan Roth
+   graduation_date: February 2019
+   thesis_title: Exploiting Cross-lingual Representations in Natural Language Processing
+-
+   name: Daniel Khashabi 
+   institution: University of Pennsylvania
+   advisors: Dan Roth
+   graduation_date: February 2019
+   thesis_title: Reasoning-Driven Question-Answering for Natural Language Understanding
+-
    name: Courtney Napoles  
    institution: Johns Hopkins University 
    advisors: Chris Callison-Burch and Benjamin Van Durme
