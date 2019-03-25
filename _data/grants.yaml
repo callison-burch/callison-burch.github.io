@@ -1,4 +1,61 @@
 -
+   title: FFW-HTF-RL&colon; Collaborative Research&colon; Enabling Marginalized Rural and Urban Digital Workers to Collaborate with AI to Learn Skills, Increase Wages, and Access Creative Work
+   awarding_body: NSF 
+   amount: $3m
+   start_date: 2019
+   end_date: 2024
+   status: submitted
+   PI_info: Jeffrey Bigham (CMU) - PI, Chris Callison-Burch (UPenn), Ben Hanrahan (Penn State), Niki Kittur (CMU), Beibei Li (CMU), Amy Ogan (CMU), Amy Pavel (CMU), Saiph Savage (West Virgina University), Julia Ticona (UPenn)
+   url: https://www.nsf.gov/pubs/2018/nsf18548/nsf18548.htm
+   abstract: 
+-
+   title: LWLL&colon; FLASH&colon; Fast Learning via Auxiliary signals, Structured knowledge, and Human expertise
+   awarding_body: DARPA
+   amount: $3.3m
+   start_date: 2019
+   end_date: 2022
+   status: pending
+   PI_info: Dan Roth (PI - UPenn), Igran Essa (Georgia Tech), Chris Callison-Burch (UPenn), Zsolt Kira (Georgia Tech), Le Song (Georgia Tech), Mayur Naik (UPenn), Osbert Bastani (UPenn)
+   url: 
+   abstract: 
+-
+   title: KAIROS&colon; RESIN&colon; Reasoning about Event Schemas for Induction of kNowledge
+   awarding_body: DARPA
+   amount: $12m
+   start_date: 2019
+   end_date: 2024
+   status: pending
+   PI_info: Heng Ji (PI), Mohit Bansal, Chris Callison-Burch, Shih-Fu Chang, Jiawei Han, Martha Palmer, Dan Roth, Carl Vondrick
+   url: 
+   abstract: 
+-
+   title: Machine Commonsense&colon; Commonsense Reasoning for Natural Language Understanding
+   awarding_body: DARPA
+   amount: $12m
+   start_date: 2019
+   end_date: 2023
+   status: rejected
+   PI_info: Dan Roth (PI), Larry Birnbaum, Chris Callison-Burch, Snigdha Chaturvedi, Dough Downey, Julia Hockenmaier, Heng Ji
+   url: 
+   abstract: 
+-
+   title: BETTER&colon; Task and User-Aware Representation Learning for Fine-Grained Cross-Lingual Information Retrieval
+   awarding_body: IARPA
+   amount: $6m
+   start_date: 2019
+   end_date: 2023
+   status: pending
+   PI_info: Ellie Pavlick (PI - Brown), Carsten Eickhoff (Brown), Chris Callison-Burch (UPenn), Wei Xu (OSU), Alan Ritter (OSU)
+   url: 
+   abstract: 
+-
+   title: Google Faculty Research Award (Using Self-Identification of Group Membership to Explore Differences in Argumentation and Evidence Finding)
+   awarding_body: Google
+   amount: $80,000
+   PI_info: Chris Callison-Burch and Emily Falk
+   start_date: 2019
+   status: current
+-
    title: SPUR WOMEN&colon; Support and Promote Undergraduate Research for Women
    awarding_body: Google
    amount: $25k
@@ -8,18 +65,28 @@
    PI_info: PI with Rita Powell
    url: https://ocwic.hosting.acm.org/o-community-wic/explorecsr-google-grant-for-undergrad-cs-research-focused-workshops-for-women/
 -
+   title: FW-HTF Theme 1&colon; Enabling Rural Digital Workers to Collaborate with AI to Learn Skills Over Time, Increase Wages and Opportunities, and Access Creative Work
+   awarding_body: NSF 
+   amount: $3m
+   start_date: 2019
+   end_date: 2024
+   status: rejected
+   PI_info: Jeffrey Bigham (CMU) - PI, Chris Callison-Burch (UPenn), Ben Hanrahan (Penn State), Aniket Kittur (CMU), Saiph Savage (West Virgina University)
+   url: https://www.nsf.gov/pubs/2018/nsf18548/nsf18548.htm
+   abstract: 
+-
    title: Learning and Reasoning for Multi-Modal Semantics&colon; Large Scale Data Science at UPenn
    awarding_body: DURIP Instrumentation Grant (submitted)
    amount: $700k
    start_date: 2019
    end_date: 2020
-   status: pending
+   status: rejected
    PI_info: Dan Roth - PI, Zack Ives, Chris Callison-Burch, and Lyle Ungar
    url: https://www.grants.gov/web/grants/view-opportunity.html?oppId=302053
    abstract: In the next decade, intelligence analysts will need to monitor a huge number of events and entities, formulate, and evaluate hypotheses with respect to them. Analysts must interact, at the appropriate level of semantic abstraction, with systems that can synthesize, summarize and interpret vast amounts of multimodal and multilingual information, integrate observed data with domain models and background information in multiple formats, propose hypotheses, and help verify them.      Developing an understanding of a situation involves identifying, classifying, and integrating information about evolving events and other propositions identified in media streams, grounding them in existing resources and past situations, and providing ways to entertain hypotheses, and develop “what if” scenarios.  It also necessitates understanding the sources of the information, that are now more diverse than ever, in deeper ways that we considered before.      Revolutionizing the way textual and visual information streams are being analyzed, represented and synthesized requires a broad range of technical expertise, in machine learning and deep learning, in knowledge representation and reasoning and in natural language processing. And it requires extensive computational resources to support developing new insights and new algorithmic methods, and new technologies in these areas.       Most of the research described in this proposal is driven by machine learning methods and, specifically, by deep learning methods. There is a need to significantly augment the computational infrastructure to include clusters of GPUs and in order to support this research, and the computational needs go beyond those that can be supported by a single funded project.  Our proposal will support modernizing the computational infrastructure of the Data Science group at the Computer and Information Science Department at the University of Pennsylvania. Members of this group have already made long lasting and significant contributions in all these areas, and a significant increase in the infrastructure, as needed to support current deep learning and optimization methods is essential to continuing and amplifying these contributions.       At the same time, this infrastructure will support the education of a large number of research, PhD and MS, students and their preparation to careers in industry and DoD.      Members of our team have experience developing software packages that have been made available and used extensively by the research community; the new infrastructure will allow us to continue this tradition and make our algorithmic contributions and learning and natural language processing tools available. 
 -
    title: Semi-supervised Learning of Multimodal Representations
-   awarding_body: DARPA (in preparation)
+   awarding_body: DARPA 
    amount: $200k
    start_date: 2019
    end_date: 2020
@@ -27,16 +94,7 @@
    PI_info: Chris Callison-Burch and Derry Wijaya
    url: 
    abstract: Systems that process text and image can link semantic and real-world knowledge and make better inferences about object-word connections even when linguistic evidence is scarce. Most current multimodal systems are supervised and thus limited to recognizing objects represented in hand-crafted image databases. Starting with knowledge of the mapping between texts and images in existing image databases, we propose a semi-supervised model that can dynamically update and extend this knowledge as it encounters images of new objects. The model will combine learning from both images and captions using matrix completion, and will infer object collocations in images from word collocations in their captions. The model will acquire large-scale vision-to-language mappings that will dynamically update and extend the coverage of existing image databases.
--
-   title: FW-HTF Theme 1&colon; Enabling Rural Digital Workers to Collaborate with AI to Learn Skills Over Time, Increase Wages and Opportunities, and Access Creative Work
-   awarding_body: NSF (submitted)
-   amount: $3m
-   start_date: 2019
-   end_date: 2024
-   status: pending
-   PI_info: Jeffrey Bigham (CMU) - PI, Chris Callison-Burch (UPenn), Ben Hanrahan (Penn State), Aniket Kittur (CMU), Saiph Savage (West Virgina University)
-   url: https://www.nsf.gov/pubs/2018/nsf18548/nsf18548.htm
-   abstract: 
+
 -
    title: STTR&colon; Personalized Retrieval-based Simplification
    awarding_body: NSF (submitted)
@@ -53,7 +111,7 @@
    amount: $2m
    start_date: 2019
    end_date: 2023
-   status: pending
+   status: rejected
    PI_info: Dan Roth - PI, Zack Ives, Chris Callison-Burch, Susan Davidson, Mark Sammons
    url: https://www.grants.gov/web/grants/view-opportunity.html?oppId=300565
    abstract: |
