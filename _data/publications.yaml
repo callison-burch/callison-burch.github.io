@@ -1,4 +1,44 @@
 -
+   title: Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification
+   authors: Reno Kriz, João Sedoc, Marianna Apidianaki Carolina Zheng, Gaurav Kumar, Eleni Miltsakaki,  and Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2019
+   url: publications/complexity-weighted-loss-for-sentence-simplification.pdf
+   page_count: 10
+   id: complexity-weighted-loss-for-sentence-simplification
+   abstract: Sentence simplification is the task of rewriting texts so they are easier to understand. Recent research has applied sequence-to-sequence (Seq2Seq) models to this task, focusing largely on training-time improvements via reinforcement learning and memory augmentation. One of the main problems with applying generic Seq2Seq models for simplification is that these models tend to copy directly from the original sentence, resulting in outputs that are relatively long and complex. We aim to alleviate this issue through the use of two main techniques. First, we incorporate content word complexities, as predicted with a leveled word complexity model, into our loss function during training. Second, we generate a large set of diverse candidate simplifications at test time, and rerank these to promote fluency, adequacy, and simplicity. Here, we measure simplicity through a novel sentence complexity model. These extensions allow our models to perform competitively with state-of-the-art systems while generating simpler sentences. We report standard automatic and human evaluation metrics.
+   bibtex: |
+      @inproceedings{Kriz-et-al:2019:NAACL,
+       author = {Reno Kriz and Joao Sedoc and Marianna Apidianaki Carolina Zheng and Gaurav Kumar and Eleni Miltsakaki and Chris Callison-Burch},
+       title = {Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification},
+       booktitle = {The 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019)},
+       month = {June},
+       year = {2019},
+       address = {Minneapolis, Minnesota},
+       url = {http://www.cis.upenn.edu/~ccb/publications/complexity-weighted-loss-for-sentence-simplification.pdf}
+       } 
+-
+   title: Seeing Things from a Different Angle&colon; Discovering Diverse Perspectives about Claims
+   authors: Sihao Chen, Daniel Khashabi, Wenpeng Yin, Chris Callison-Burch and Dan Roth
+   venue: NAACL
+   type: conference
+   year: 2019
+   url: publications/discovering-diverse-perspectives.pdf
+   page_count: 10
+   id: discovering-diverse-perspectives
+   abstract: One key consequence of the information revolution is a significant increase and a contamination of our information supply. The practice of fact checking won’t suffice to eliminate the biases in text data we observe, as the degree of factuality alone does not determine whether biases exist in the spectrum of opinions visible to us. To better understand controversial issues, one needs to view them from a diverse yet comprehensive set of perspectives. For example, there are many ways to respond to a claim such as “animals should have lawful rights”, and these responses form a spectrum of perspectives, each with a stance relative to this claim and, ideally, with evidence supporting it. Inherently, this is a natural language understanding task, and we propose to address it as such. Specifically, we propose the task of substantiated perspective discovery where, given a claim, a system is expected to discover a diverse set of well-corroborated perspectives that take a stance with respect to the claim. Each perspective should be substantiated by evidence paragraphs which summarize pertinent results and facts. We construct PERSPECTRUM, a dataset of claims, perspectives and evidence, making use of online debate websites to create the initial data collection, and augmenting it using search engines in order to expand and diversify our dataset. We use crowdsourcing to filter out the noise and ensure high-quality data. Our dataset contains 1k claims, accompanied with pools of 10k and 8k perspective sentences and evidence paragraphs, respectively. We provide a thorough analysis of the dataset to highlight key underlying language understanding challenges, and show that human baselines across multiple subtasks far outperform machine baselines built upon state-of-the-art NLP techniques. This poses a challenge and opportunity for the NLP community to address.
+   bibtex: |
+      @inproceedings{Chen-et-al:2019:NAACL,
+       author = {Sihao Chen and Daniel Khashabi and Wenpeng Yin and Chris Callison-Burch and Dan Roth},
+       title = {Seeing Things from a Different Angle&colon; Discovering Diverse Perspectives about Claims},
+       booktitle = {The 2019 Conference of the North American Chapter of the Association for Computational Linguistics (NAACL 2019)},
+       month = {June},
+       year = {2019},
+       address = {Minneapolis, Minnesota},
+       url = {http://www.cis.upenn.edu/~ccb/publications/discovering-diverse-perspectives.pdf}
+       } 
+-
    title: Worker Demographics and Earnings on Amazon Mechanical Turk&colon; An Exploratory Analysis
    authors: Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage, Benjamin V. Hanrahan, Jeffrey P. Bigham and Chris Callison-Burch
    venue: CHI Late Breaking Work
