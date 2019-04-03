@@ -2,7 +2,51 @@
    title: Artificial Intelligence
    number: CIS 421/521
    institution: University of Pennsylvania
+   term: Fall
+   year: 2019
+   description: 
+   url: http://artificial-intelligence-class.org/
+   enrollment: 
+   instructor_rating: 
+   course_rating: 
+-
+   title: Artificial Intelligence
+   number: CIS 421/521
+   institution: University of Pennsylvania
+   term: Summer
+   year: 2019
+   description: 
+   url: http://artificial-intelligence-class.org/
+   enrollment: 
+   instructor_rating: 
+   course_rating: 
+-
+   title: Computational Linguistics 
+   number: CIS 530
+   institution: University of Pennsylvania
    term: Spring
+   year: 2019
+   description: 
+   url: http://computational-linguistics-class.org/
+   enrollment: 75
+   instructor_rating:
+   course_rating:
+-
+   title: Crowdsourcing and Human Computation
+   number: NETS 213
+   institution: University of Pennsylvania
+   term: Spring
+   year: 2019
+   description: 
+   url: http://crowdsourcing-class.org
+   enrollment: 59
+   instructor_rating: 
+   course_rating:
+-
+   title: Artificial Intelligence
+   number: CIS 421/521
+   institution: University of Pennsylvania
+   term: Fall
    year: 2018
    description: 
    url: http://artificial-intelligence-class.org/
