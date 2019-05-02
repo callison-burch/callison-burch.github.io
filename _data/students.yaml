@@ -52,12 +52,3 @@
    expected_graduation_date: Summer 2020
    homepage: http://www.seas.upenn.edu/~daphnei/
    gender: female
--
-   name: Anne Cocos
-   degree: PhD Student
-   pic: anne_cocos.png
-   institution: University of Pennsylvania 
-   start_year: 2014
-   expected_graduation_date: Summer 2019
-   homepage: http://acocos.github.io/
-   gender: female
