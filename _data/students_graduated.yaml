@@ -1,4 +1,18 @@
 -
+   name: Anne Cocos
+   degree: PhD Student
+   pic: anne_cocos.png
+   institution: University of Pennsylvania 
+   start_year: 2014
+   advisors: Chris Callison-Burch
+   graduation_date: May 2019
+   homepage: http://acocos.github.io/
+   thesis_title: Paraphrase-based Models of Lexical Semantics
+   thesis_link: dissertations/anne-cocos-thesis.pdf
+   current_position: Research Scientist 
+   current_employer:  GlaxoSmithKline
+   gender: female
+-
    name: Courtney Napoles
    degree: PhD Student
    pic: courtney_napoles.png
