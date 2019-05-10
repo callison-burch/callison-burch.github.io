@@ -1,4 +1,176 @@
 -
+   semester: Summer 2019
+   students: 
+    -
+       name: Sarah Payne
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Word Vectors
+       graduation_date: 
+       gender: female
+       role: PURM
+    -
+       name: Sherry Run
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Word Vectors
+       graduation_date: 
+       gender: female
+       role: PURM
+    -
+       name: Jiawen Zhang
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Word Vectors
+       graduation_date: 
+       gender: female
+       role: RA
+    -
+       name: Xinyi Wang
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Word Vectors
+       graduation_date: 
+       gender: female
+       role: RA
+    -
+       name: Kreen De Jesus
+       degree: Masters
+       pic: 
+       homepage:
+       project: Word Vectors
+       graduation_date: 
+       gender: female
+       urm: true
+       role: RA
+    -
+       name: Damilola Omitaomu
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Crowdsourcing
+       graduation_date: 
+       gender: male
+       urm: true
+       role: RA
+    -
+       name: Maxwell Deng
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Crowdsourcing
+       graduation_date: 
+       gender: male
+       role: RA
+    -
+       name: Nyasha Zimunhu
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: 
+       graduation_date: 
+       gender: female
+       urm: true
+       role: RA
+    -
+       name: Yrmine Thelusma
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: 
+       graduation_date: 
+       gender: female
+       urm: true
+       role: RA
+-
+   semester: Spring 2019
+   students: 
+    -
+       name: Kreen De Jesus
+       degree: Masters
+       pic: 
+       homepage:
+       project: Word Vectors
+       graduation_date: 
+       gender: female
+       role: Independent Study
+    -
+       name: Aditya Kashyap
+       degree: Master's in Data Science
+       pic: 
+       homepage:
+       project: Self-identification on Reddit
+       graduation_date: 
+       gender: male
+       role: Master's Thesis
+    -
+       name: Maria Kustikova 
+       degree: Master's 
+       pic: 
+       homepage:
+       project: Creating Word Sense Clusters with Images
+       graduation_date: May 2019
+       gender: female
+       role: Master's Thesis
+    -
+       name: Jasmine Sun Jae Lee
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Paraphrasing noun compounds to reveal their relations
+       graduation_date: 
+       gender: female
+       role: Undergraduate Thesis
+    -
+       name: Sarah Payne
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Word Vectors
+       graduation_date: 
+       gender: female
+       role: RA
+    -
+       name: Daniel Stekol
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Deep learning
+       graduation_date: 
+       gender: male
+       role: RA
+    -
+       name: Trevor Huang
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Data collection for role playing games
+       graduation_date: 
+       gender: male
+       role: RA
+    -
+       name: Diana Marsala
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Self-identification on Reddit
+       graduation_date: 
+       gender: female
+       role: RA
+    -
+       name: Mengdi Huang
+       degree: Master's Student
+       pic: 
+       homepage:
+       project: Text Coherence
+       graduation_date: 
+       gender: female
+       role: RA
+-
    semester: Fall 2018
    students: 
     -
@@ -15,10 +187,100 @@
        degree: Undergraduate
        pic: 
        homepage:
-       project: TBD
+       project: Predicting whether an Adjective is Scalar or Not
        graduation_date: 
        gender: male
        role: Independent Study
+    -
+       name: Jasmine Sun Jae Lee
+       degree: Undergraduate
+       pic: 
+       homepage: 
+       project: Paraphrasing noun compounds to reveal their relations
+       graduation_date: 
+       gender: female
+       role: Undergraduate Thesis
+    -
+       name: Gil Landau
+       degree: Master's Student
+       pic: 
+       homepage:
+       project: Scalar Adjectives with Continuous Space Models
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Mengdi Huang
+       degree: Master's Student
+       pic: 
+       homepage:
+       project: Text Coherence
+       graduation_date: 
+       gender: female
+       role: RA
+    -
+       name: Gaurav Kumar
+       degree: Master's Student
+       pic: 
+       homepage:
+       project: Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification
+       graduation_date: 
+       gender: male
+       role: RA
+    -
+       name: Daniel Stekol
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Deep Learning 
+       graduation_date: 
+       gender: male
+       role: RA
+    -
+       name: Ignacio Arranz 
+       degree: Masters
+       pic: 
+       homepage:
+       project: Self-identification On Reddit
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Aditya Kashyap
+       degree: Master's in Data Science
+       pic: 
+       homepage:
+       project: Self-identification on Reddit
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Diana Marsala
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Self-identification on Reddit
+       graduation_date: 
+       gender: female
+       role: RA
+    -
+       name: Maria Kustikova 
+       degree: Master's 
+       pic: 
+       homepage:
+       project: Creating Word Sense Clusters with Images
+       graduation_date: May 2019
+       gender: female
+       role: Master's Thesis
+    -
+       name: Carolina Zheng
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Complexity-Weighted Loss and Diverse Reranking for Sentence Simplification
+       graduation_date: 
+       gender: female
+       role: RA
 -
    semester: Summer 2018
    students: 

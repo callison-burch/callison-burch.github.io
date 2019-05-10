@@ -1,4 +1,90 @@
 -
+   semester: 2018-2019
+   projects:
+   -
+      project_name: Google Explore Computer Science Research team
+      students:
+      -
+         name: Keren De Jesus
+         degree: Undergraduate
+         pic: profile_pic.jpg
+         institution: University of Pennsylvania 
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2019
+         gender: female
+         role: Google Explore Computer Science Research
+      -
+         name: Kellie Dinh
+         degree: Undergraduate
+         institution: Bryn Mawr
+         pic: profile_pic.jpg
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2019
+         gender: female
+         role: Google Explore Computer Science Research
+      -
+         name: Petra Robertson
+         degree: Undergraduate
+         institution: University of Pennsylvania 
+         pic: profile_pic.jpg
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2020
+         gender: female
+         role: Google Explore Computer Science Research
+      -
+         name: Ebtihal Jasim
+         degree: Undergraduate
+         institution: University of Pennsylvania 
+         pic: profile_pic.jpg
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2021
+         gender: female
+         role: Google Explore Computer Science Research
+      -
+         name: Jiawen Zhang
+         degree: Undergraduate
+         institution: Haverford 
+         pic: profile_pic.jpg
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2021
+         gender: female
+         role: Google Explore Computer Science Research
+      -
+         name: Nina Tansey
+         degree: Undergraduate
+         institution: University of Pennsylvania 
+         pic: profile_pic.jpg
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2022
+         gender: female
+         role: Google Explore Computer Science Research
+      -
+         name: Sherri Run Shi
+         degree: Undergraduate
+         institution: University of Pennsylvania 
+         pic: profile_pic.jpg
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2022
+         gender: female
+         role: Google Explore Computer Science Research
+      -
+         name: Xinyi Wang
+         degree: Undergraduate
+         institution: Bryn Mawr 
+         pic: profile_pic.jpg
+         homepage: 
+         project: Word Vectors
+         graduation_date: May 2020
+         gender: female
+         role: Google Explore Computer Science Research
+-
    semester: 2017-2018
    projects:
    -

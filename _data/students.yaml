@@ -1,4 +1,31 @@
 -
+   name: Veronica Qing Lyu 
+   degree: incoming PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2019
+   expected_graduation_date: Summer 2024
+   homepage: 
+   gender: female
+-
+   name: Harry Zhang 
+   degree: incoming PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2019
+   expected_graduation_date: Summer 2024
+   homepage: 
+   gender: male
+-
+   name: Aditya Kashyap 
+   degree: incoming  PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2019
+   expected_graduation_date: Summer 2024
+   homepage: 
+   gender: male
+-
    name: Rebecca Iglesias-Flores
    degree: PhD Student
    pic: rebecca_iglesias-flores.jpg
@@ -31,7 +58,7 @@
    pic: jie_gao.jpg
    institution: University of Pennsylvania
    start_year: 2016
-   expected_graduation_date: Summer 2021
+   expected_graduation_date: Summer 2022
    homepage:
    gender: female
 -
@@ -49,6 +76,14 @@
    pic: daphne_ippolito.jpg
    institution: University of Pennsylvania
    start_year: 2015
-   expected_graduation_date: Summer 2020
+   expected_graduation_date: Summer 2021
    homepage: http://www.seas.upenn.edu/~daphnei/
+   gender: female
+-
+   name: Anne Cocos
+   degree: PhD Student
+   pic: anne_cocos.png
+   expected_graduation_date: Summer 2019
+   institution: University of Pennsylvania 
+   start_year: 2014
    gender: female
