@@ -9,7 +9,7 @@
    id: comparison-of-diverse-decoding-methods-from-conditional-language-models
    abstract: Word embedding representations provide good estimates of word meaning and give state-of-the art performance in semantic tasks. Embedding approaches differ as to whether and how they account for the context surrounding a word. We present a comparison of different word and context representations on the task of proposing substitutes for a target word in context (lexical substitution). We also experiment with tuning contextualized word embeddings on a dataset of sense-specific instances for each target word. We show that powerful contextualized word representations, which give high performance in several semantics-related tasks, deal less well with the subtle in-context similarity relationships needed for substitution. This is better handled by models trained with this objective in mind, where the inter-dependence between word and context representations is explicitly modeled during training.
    bibtex: |
-      @inproceedings{Kriz-Ippolito-Sedoc-CB:2019,
+      @inproceedings{Kriz-Ippolito-Sedoc-CCB:2019,
        author = {Reno Kriz and Daphne Ippolito and Joao Sedoc and Chris Callison-Burch},
        title = {Comparison of Diverse Decoding Methods from Conditional Language Models},
        booktitle = {Proceedings of The 57th Annual Meeting of the Association for Computational Linguistics (ACL) },
