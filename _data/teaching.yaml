@@ -29,8 +29,8 @@
    description: 
    url: http://computational-linguistics-class.org/
    enrollment: 75
-   instructor_rating:
-   course_rating:
+   instructor_rating: 2.96
+   course_rating: 2.78
 -
    title: Crowdsourcing and Human Computation
    number: NETS 213
@@ -40,8 +40,8 @@
    description: 
    url: http://crowdsourcing-class.org
    enrollment: 59
-   instructor_rating: 
-   course_rating:
+   instructor_rating: 2.73
+   course_rating: 2.52
 -
    title: Artificial Intelligence
    number: CIS 421/521
