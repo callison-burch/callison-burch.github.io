@@ -20,7 +20,7 @@
        gender: female
        role: PURM
     -
-       name: Jiawen Zhang
+       name: Ivy Jiawen Zhang
        degree: Undergraduate
        pic: 
        homepage:
@@ -67,6 +67,15 @@
        gender: male
        role: RA
     -
+       name: Edward Cohen
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Crowdsourcing
+       graduation_date: 
+       gender: male
+       role: RA
+    -
        name: Nyasha Zimunhu
        degree: Undergraduate
        pic: 
@@ -86,6 +95,24 @@
        gender: female
        urm: true
        role: RA
+    -
+       name: Daniel Stekol
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Neural Nets
+       graduation_date: 
+       gender: male
+       role: RA
+    -
+       name: Hanna Wang
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Analyzing Earnings of Crowd Workers
+       graduation_date: 
+       gender: male
+       role: 
 -
    semester: Spring 2019
    students: 
