@@ -19,7 +19,7 @@
       } 
 -
    title: Comparison of Diverse Decoding Methods from Conditional Language Models
-   authors: Daphne Ippolito*, Reno Kriz*, Joao Sedoc, Maria Kustikova and Chris Callison-Burch
+   authors: Daphne Ippolito*, Reno Kriz*, João Sedoc, Maria Kustikova and Chris Callison-Burch
    venue: ACL
    type: conference
    year: 2019
@@ -97,7 +97,7 @@
        } 
 -
    title: ChatEval&colon; A Tool for the Systematic Evaluation of Chatbots
-   authors: Joao Sedoc*, Daphne Ippolito*, Arun Kirubarajan, Jai Thirani, Lyle Ungar, and Chris Callison-Burch
+   authors: João Sedoc*, Daphne Ippolito*, Arun Kirubarajan, Jai Thirani, Lyle Ungar, and Chris Callison-Burch
    venue: NAACL
    type: demo
    year: 2019
