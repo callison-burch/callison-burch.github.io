@@ -1,16 +1,35 @@
 -
+   title: PerspectroScope&colon; A Window to the World of Diverse Perspectives
+   authors: Sihao Chen, Daniel Khashabi, Chris Callison-Burch and Dan Roth
+   venue: ACL
+   type: demo
+   year: 2019
+   url: publications/perspectroscope-demo.pdf
+   page_count: 6
+   id: perspectroscope-demo
+   abstract: This work presents PERSPECTROSCOPE, a web-based system which lets users query a discussion-worthy natural language claim, and extract and visualize various perspectives in support or against the claim, along with evidence supporting each perspective. The system thus lets users explore various perspectives that could touch upon aspects of the issue at hand. The system is built as a combination of retrieval engines and learned textualentailment-like classifiers built using a few recent developments in natural language understanding. To make the system more adaptive, expand its coverage, and improve its decisions over time, our platform employs various mechanisms to get corrections from the users. PERSPECTROSCOPE is available at github.com/CogComp/perspectroscope.  A brief video of the system is available at youtube.com/watch?v=MXBTR1Sp3Bs.
+   bibtex: |
+      @inproceedings{Chen-Khashabi-et-al:2019,
+       author = {Sihao Chen and Daniel Khashabi and Chris Callison-Burch and Dan Roth},
+       title = {PerspectroScope&colon; A Window to the World of Diverse Perspectives},
+       booktitle = {Proceedings of The 57th Annual Meeting of the Association for Computational Linguistics (ACL) demo session},
+       year = {2019},
+       address = {Florence, Italy},
+       url = {http://www.cis.upenn.edu/~ccb/publications/comparison-of-diverse-decoding-methods-from-conditional-language-models.pdf}
+      } 
+-
    title: Comparison of Diverse Decoding Methods from Conditional Language Models
-   authors: Reno Kriz, Daphne Ippolito, Joao Sedoc and Chris Callison-Burch
+   authors: Daphne Ippolito*, Reno Kriz*, Joao Sedoc, Maria Kustikova and Chris Callison-Burch
    venue: ACL
    type: conference
    year: 2019
-   url: 
-   page_count: 
+   url: publications/comparison-of-diverse-decoding-methods-from-conditional-language-models.pdf
+   page_count: 11
    id: comparison-of-diverse-decoding-methods-from-conditional-language-models
-   abstract: Word embedding representations provide good estimates of word meaning and give state-of-the art performance in semantic tasks. Embedding approaches differ as to whether and how they account for the context surrounding a word. We present a comparison of different word and context representations on the task of proposing substitutes for a target word in context (lexical substitution). We also experiment with tuning contextualized word embeddings on a dataset of sense-specific instances for each target word. We show that powerful contextualized word representations, which give high performance in several semantics-related tasks, deal less well with the subtle in-context similarity relationships needed for substitution. This is better handled by models trained with this objective in mind, where the inter-dependence between word and context representations is explicitly modeled during training.
+   abstract: While conditional language models have greatly improved in their ability to output high-quality natural language, many NLP applications benefit from being able to generate a diverse set of candidate sequences. Diverse decoding strategies aim to, within a given-sized candidate list, cover as much of the space of high-quality outputs as possible, leading to improvements for tasks that re-rank and combine candidate outputs. Standard decoding methods, such as beam search, optimize for generating high likelihood sequences rather than diverse ones, though recent work has focused on increasing diversity in these methods. In this work, we perform an extensive survey of decoding-time strategies for generating diverse outputs from conditional language models. We also show how diversity can be improved without sacrificing quality by oversampling additional candidates, then filtering to the desired number.
    bibtex: |
-      @inproceedings{Kriz-Ippolito-Sedoc-CCB:2019,
-       author = {Reno Kriz and Daphne Ippolito and Joao Sedoc and Chris Callison-Burch},
+      @inproceedings{Ippolito-Kriz-et-al:2019,
+       author = {Daphne Ippolito and Reno Kriz and Joao Sedoc and Maria Kustikova and Chris Callison-Burch},
        title = {Comparison of Diverse Decoding Methods from Conditional Language Models},
        booktitle = {Proceedings of The 57th Annual Meeting of the Association for Computational Linguistics (ACL) },
        year = {2019},
@@ -63,7 +82,7 @@
    type: conference
    year: 2019
    url: publications/discovering-diverse-perspectives.pdf
-   page_count: 10
+   page_count: 16
    id: discovering-diverse-perspectives
    abstract: One key consequence of the information revolution is a significant increase and a contamination of our information supply. The practice of fact checking won’t suffice to eliminate the biases in text data we observe, as the degree of factuality alone does not determine whether biases exist in the spectrum of opinions visible to us. To better understand controversial issues, one needs to view them from a diverse yet comprehensive set of perspectives. For example, there are many ways to respond to a claim such as “animals should have lawful rights”, and these responses form a spectrum of perspectives, each with a stance relative to this claim and, ideally, with evidence supporting it. Inherently, this is a natural language understanding task, and we propose to address it as such. Specifically, we propose the task of substantiated perspective discovery where, given a claim, a system is expected to discover a diverse set of well-corroborated perspectives that take a stance with respect to the claim. Each perspective should be substantiated by evidence paragraphs which summarize pertinent results and facts. We construct PERSPECTRUM, a dataset of claims, perspectives and evidence, making use of online debate websites to create the initial data collection, and augmenting it using search engines in order to expand and diversify our dataset. We use crowdsourcing to filter out the noise and ensure high-quality data. Our dataset contains 1k claims, accompanied with pools of 10k and 8k perspective sentences and evidence paragraphs, respectively. We provide a thorough analysis of the dataset to highlight key underlying language understanding challenges, and show that human baselines across multiple subtasks far outperform machine baselines built upon state-of-the-art NLP techniques. This poses a challenge and opportunity for the NLP community to address.
    bibtex: |
@@ -138,7 +157,7 @@
        } 
 -
    title: Learning Translations via Images with a Massively Multilingual Image Dataset
-   authors: John Hewitt, Daphne Ippolito, Brendan Callahan, Reno Kriz, Derry Wijaya and Chris Callison-Burch
+   authors: John Hewitt*, Daphne Ippolito*, Brendan Callahan, Reno Kriz, Derry Wijaya and Chris Callison-Burch
    venue: ACL
    type: conference
    year: 2018
