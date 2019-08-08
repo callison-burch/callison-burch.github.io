@@ -1,4 +1,12 @@
 -
+   title: REU Supplement
+   awarding_body: NSF
+   amount: $16k
+   start_date: 2019
+   end_date: 2020
+   status: current
+   PI_info: co-PI Chris Cieri
+-
    title: SPUR WOMEN&colon; Support and Promote Undergraduate Research for Women
    awarding_body: Google
    amount: $15k from Google
@@ -7,15 +15,19 @@
    status: current
    PI_info: PI with Rita Powell
 -
-   title: FFW-HTF-RL&colon; Collaborative Research&colon; Enabling Marginalized Rural and Urban Digital Workers to Collaborate with AI to Learn Skills, Increase Wages, and Access Creative Work
+   title: FFW-HTF-RL&colon; Collaborative Research&colon; Up-skilling and Re-skilling Marginalized Rural and Urban Digital Workers&colon; AI-worker collaboration to access creative work
    awarding_body: NSF 
    amount: $3m
    start_date: 2019
    end_date: 2024
-   status: pending
+   status: current
    PI_info: Jeffrey Bigham (CMU) - PI, Chris Callison-Burch (UPenn), Ben Hanrahan (Penn State), Niki Kittur (CMU), Beibei Li (CMU), Amy Ogan (CMU), Amy Pavel (CMU), Saiph Savage (West Virgina University), Julia Ticona (UPenn)
    url: https://www.nsf.gov/pubs/2018/nsf18548/nsf18548.htm
-   abstract: 
+   abstract: |
+      The future of work includes new opportunities for rural and marginalized communities through online work and the gig economy. Many rural areas in the United States are plagued by a lack of economic opportunity. Urban areas may be geographically closer to opportunity, but workers similarly struggle to access it. Digital work can bring opportunities to otherwise marginalized communities; however, work on current platforms is often low-level labeling work offering few opportunities for advancement. It is often intended to train Artificial Intelligence to automate this work away, instead of training workers. Our proposed research instead aims to uplift workers and improve the marketplace for online work.We contend that if thus transformed, digital work may help with the economic recovery of regions whose traditional industries have left. 
+      This project aims to develop sustainable methods for transitioning workers to high-skilled and creative digital jobs that are unlikely to be automated in the near to medium term future. The key  theme we build on is that existing paid work opportunities in crowd work can be transformed to not only improve the work product for the employer, but also to help the worker move along the career paths necessary for the future of work. We address a fundamental challenge in that those who most need to develop skills to gain higher paying jobs cannot afford the unpaid time spent in training needed to develop them. Accomplishing this vision will require solving the following core research questions: (i) How can we best support the marginalized workers in their transition to online work?, (ii) How can Artificial Intelliegnce tools augment workers, rather than displace them?, (iii) How can we design tools to help workers build skills and creativity for work that is unlikely to be automated in the future?
+      In this project, we partner with local institutions to provide workers training to perform progressively more advanced digital work, while earning money. Our vision is to scaffold workers through basic computer fluency, working with AI tools, and finally innovation and entrepreneurship skills. This work is in collaboration with a rural partner (Rupert Public Library, in Rupert, WV) and urban partner (CommunityForge in Wilkinsburg, PA). This work benefits from a partnership with Bosch Inc. in Pittsburgh, ConservationX Labs in Washington DC, and the State of West Virginia.
+      This project has the potential to make advances across a variety of interrelated fields including crowdsourcing, Artificial Intelligence, Human Computer Interaction, Cognitive Science, Learning Science, Sociology and Economics. Simultaneously enabling both improved work outcomes as well as skill development in crowd work will require the development of models of workers, skills, and their trajectories at a more nuanced level. Enabling workers to collaborate with Artificial Intelligence will require new human-computer interaction paradigms. Supporting creativity and the development of new skills will require the exploration of new organization and coordination structures. By grounding our investigations in real world contexts we aim for generalizable knowledge that can lay a foundation for research on the future of crowd work at the human-AI frontier.
 -
    title: LWLL&colon; FLASH&colon; Fast Learning via Auxiliary signals, Structured knowledge, and Human expertise
    awarding_body: DARPA
