@@ -37,6 +37,25 @@
        url = {http://www.cis.upenn.edu/~ccb/publications/comparison-of-diverse-decoding-methods-from-conditional-language-models.pdf}
       } 
 -
+   title: Winter is here&colon; Summarizing Twitter Streams related to Pre-Scheduled Events
+   authors: Anietie Andy, Derry Wijaya and Chris Callison-Burch
+   venue: Proceedings of the Second Workshop on Storytelling
+   type: workshop
+   year: 2019
+   url: publications/winter-is-here.pdf
+   page_count: 5
+   id: winter-is-here
+   abstract: Pre-scheduled events, such as TV shows and sports games, usually garner considerable attention from the public. Twitter captures large volumes of discussions and messages related to these events, in real-time. Twitter streams related to pre-scheduled events are characterized by the following&colon; (1) spikes in the volume of published tweets reflect the highlights of the event and (2) some of the published tweets make reference to the characters involved in the event, in the context in which they are currently portrayed in a subevent. In this paper, we take advantage of these characteristics to identify the highlights of pre-scheduled events from tweet streams and we demonstrate a method to summarize these highlights. We evaluate our algorithm on tweets collected around 2 episodes of a popular TV show, Game of Thrones, Season 7.
+   bibtex: |
+      @inproceedings{Andy-Wijaya-et-al:2019,
+       author = {Anietie Andy and Derry Wijaya and Chris Callison-Burch},
+       title = {Winter is here: Summarizing Twitter Streams related to Pre-Scheduled Events},
+       booktitle = {Proceedings of the Second Workshop on Storytelling},
+       year = {2019},
+       address = {Florence, Italy},
+       url = {http://www.cis.upenn.edu/~ccb/publications/winter-is-here.pdf}
+       } 
+-
    title: A Comparison of Context-sensitive Models for Lexical Substitution
    authors: Aina Garí Soler, Anne Cocos, Marianna Apidianaki, Chris Callison-Burch
    venue: 13th International Conference on Computational Semantics (IWCS)
@@ -115,6 +134,45 @@
        address = {Minneapolis, Minnesota},
        url = {http://www.cis.upenn.edu/~ccb/publications/chateval-demo.pdf}
        } 
+-
+   title: Unsupervised Hierarchical Story Infilling
+   authors:  Daphne Ippolito, David Grangier, Chris Callison-Burch and Douglas Eck
+   venue: 13th International Conference on Computational Semantics (IWCS)
+   type: workshop
+   year: 2019
+   url: publications/story-infilling.pdf
+   page_count: 7
+   id: story-infilling
+   abstract: Story infilling involves predicting words to go into a missing span from a story. This challenging task has the potential to transform interactive tools for creative writing. However, state-of-the-art conditional language models have trouble balancing fluency and coherence with novelty and diversity. We address this limitation with a hierarchical model which first selects a set of rare words and then generates text conditioned on that set. By relegating the high entropy task of picking rare words to a word-sampling model, the second-stage model conditioned on those words can achieve high fluency and coherence by searching for likely sentences, without sacrificing diversity.
+   bibtex: |
+      @inproceedings{Ippolito-et-al:2019,
+       author = {Daphne Ippolito and David Grangier and Chris Callison-Burch and Douglas Eck},
+       title = {A Comparison of Context-sensitive Models for Lexical  Substitution},
+       booktitle = {Proceedings of the First Workshop on Narrative Understanding},
+       year = {2019},
+       address = {Minneapolis, Minnesota},
+       url = {http://www.cis.upenn.edu/~ccb/publications/story-infilling.pdf}
+       } 
+-
+   title: Natural Language Processing of Reddit Data to Evaluate Dermatology Patient Experiences and Therapeutics
+   authors: Edidiong Okon, Vishnutheja Rachakonda, Hyo Jung Hong,  Chris Callison-Burch and Jules Lipoff
+   venue: Journal of the American Academy of Dermatology
+   type: journal
+   year: 2019
+   url: https://www.sciencedirect.com/science/article/pii/S0190962219323710
+   page_count: 20
+   id: reddit-dermatology
+   abstract: Background - There is a lack of research studying patient-generated data on Reddit, one of the world’s most popular forums with active users interested in dermatology. Techniques within natural language processing, a field of artificial intelligence, can analyze large amounts of text information and extract insights. Objective - To apply natural language processing to Reddit comments about dermatology topics to assess for feasibility and potential for insights and engagement. Methods - A software pipeline preprocessed Reddit comments from 2005 to 2017 from seven popular dermatology-related subforums on Reddit, applied Latent Dirichlet allocation (LDA), and used spectral clustering to establish cohesive themes and the frequency of word representation and grouped terms within these topics. Results - We created a corpus of 176K comments and identified trends in patient engagement in spaces such as eczema, acne, etc., with a focus on homeopathic treatments and Accutane. Limitations - LDA is an unsupervised model, meaning there is no ground truth to which the model output can be compared. However, as these forums are anonymous, there seems little incentive for patients to be dishonest. Conclusions -  Reddit data has viability and utility for dermatologic research and engagement with the public, especially for common dermatology topics such as tanning, acne, and psoriasis.
+   bibtex: |
+      @article{Okon-EtAl:2016:JAAD,
+         author = {Edidiong Okon and Vishnutheja Rachakonda and Hyo Jung Hong and  Chris Callison-Burch and Jules Lipoff},
+         title = {Natural Language Processing of Reddit Data to Evaluate Dermatology Patient Experiences and Therapeutics},
+         journal = {Journal of the American Academy of Dermatology},
+         volume = {},
+         number = {},
+         year = {2017},
+         url = {https://www.sciencedirect.com/science/article/pii/S0190962219323710}
+       }
 -
    title: Worker Demographics and Earnings on Amazon Mechanical Turk&colon; An Exploratory Analysis
    authors: Kotaro Hara, Abigail Adams, Kristy Milland, Saiph Savage, Benjamin V. Hanrahan, Jeffrey P. Bigham and Chris Callison-Burch
