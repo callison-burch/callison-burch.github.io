@@ -154,6 +154,25 @@
        url = {http://www.cis.upenn.edu/~ccb/publications/story-infilling.pdf}
        } 
 -
+   title: Anonymization of Sensitive Information in Medical Health Records
+   authors:  Bhavna Saluja, Gaurav Kumar, João Sedoc, and Chris Callison-Burch
+   venue: Iberian Languages Evaluation Forum
+   type: workshop
+   year: 2019
+   url: publications/meddocan-shared-task-submission.pdf
+   page_count: 7
+   id: meddocan-shared-task-submission
+   abstract: Due to privacy constraints, clinical records with protected health information (PHI) cannot be directly shared. De-identification, i.e., the exhaustive removal, or replacement, of all mentioned PHI phrases has to be performed before making the clinical records available outside of hospitals. We have tried to identify PHI on medical records written in Spanish language. We applied two approaches for the anonymization of medical records in this paper. In the first approach, we gathered various token-level features and built a LinearSVC model which gave us F1 score of 0.861 on test data. In the other approach, we built a neural network involving an LSTM-CRF model which gave us a higher F1 score of 0.935 which is an improvement over the first approach.
+   bibtex: |
+      @inproceedings{Saluja-Kumar-et-al:2019,
+       author = {Bhavna Saluja and Gaurav Kumar and Joao Sedoc and Chris Callison-Burch},
+       title = {Anonymization of Sensitive Information in Medical Health Records},
+       booktitle = {Iberian Languages Evaluation Forum},
+       year = {2019},
+       address = {Bilbao, Spain},
+       url = {http://www.cis.upenn.edu/~ccb/publications/meddocan-shared-task-submission.pdf}
+       } 
+-
    title: Natural Language Processing of Reddit Data to Evaluate Dermatology Patient Experiences and Therapeutics
    authors: Edidiong Okon, Vishnutheja Rachakonda, Hyo Jung Hong,  Chris Callison-Burch and Jules Lipoff
    venue: Journal of the American Academy of Dermatology

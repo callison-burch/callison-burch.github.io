@@ -1,7 +1,7 @@
 -
    name: Veronica Qing Lyu 
    degree: PhD Student
-   pic: profile_pic.png
+   pic: veronica_qing_lyu.png
    institution: University of Pennsylvania
    start_year: 2019
    expected_graduation_date: Summer 2024
@@ -10,7 +10,7 @@
 -
    name: Harry Zhang 
    degree: PhD Student
-   pic: profile_pic.jpg
+   pic: harry_li_zhang.jpg
    institution: University of Pennsylvania
    start_year: 2019
    expected_graduation_date: Summer 2024
@@ -19,7 +19,7 @@
 -
    name: Aditya Kashyap 
    degree: PhD Student
-   pic: profile_pic.jpg
+   pic: aditya_kashyap.jpg
    institution: University of Pennsylvania
    start_year: 2019
    expected_graduation_date: Summer 2024
@@ -32,7 +32,7 @@
    institution: University of Pennsylvania
    start_year: 2018
    expected_graduation_date: Summer 2023
-   homepage: https://bikegirl.github.io
+   homepage: https://greedykruskal.me
    gender: female
 -
    name: Daniel Deutsch
