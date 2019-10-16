@@ -1,4 +1,24 @@
 -
+   title: Paraphrase-Sense-Tagged Sentences
+   authors: Anne Cocos and Chris Callison-Burch
+   venue: TACL
+   type: journal
+   year: 2019
+   url: publications/paraphrase-sense-tagged-sentences.pdf
+   page_count: 15
+   id: paraphrase-sense-tagged-sentences
+   abstract: Many natural language processing tasks require discriminating the particular meaning of a word in context, but building corpora for developing sense-aware models can be a challenge. We present a large resource of example usages for words having a particular meaning, called Paraphrase-Sense Tagged Sentences (PSTS). Built upon the premise that a word's paraphrases instantiate its fine-grained meanings – i.e. bug has different meanings corresponding to its paraphrases fly and microbe – the resource contains up to 10,000 sentences for each of 3 million target-paraphrase pairs where the target word takes on the meaning of the paraphrase. We describe an automatic method based on bilingual pivoting used to enumerate sentences for PSTS, and present two models for ranking PSTS sentences based on their quality. Finally, we demonstrate the utility of PSTS by using it to build a dataset for the task of hypernym prediction in context. Training a model on this automatically-generated dataset produces accuracy that is competitive with a model trained on smaller datasets crafted with some manual effort.
+   bibtex: |
+      @article{Cocos-Callison-Burch:2019:TACL,
+         author = {Anne Cocos and Chris Callison-Burch},
+         title = {Paraphrase-Sense-Tagged Sentences},
+         journal = {Transactions of the Association for Computational Linguistics},
+         volume = {},
+         year = {2019},
+         url = {http://www.cis.upenn.edu/~ccb/publications/paraphrase-sense-tagged-sentences.pdf},
+         pages = {}
+       }
+-
    title: PerspectroScope&colon; A Window to the World of Diverse Perspectives
    authors: Sihao Chen, Daniel Khashabi, Chris Callison-Burch and Dan Roth
    venue: ACL
@@ -549,7 +569,7 @@
    id: optimizing-machine-translation-for-text-simplifciation
    abstract: Annotating unstructured texts in Electronic Health Records data is usually a necessary step for conducting machine learning research on such datasets. Manual annotation by domain experts provides data of the best quality, but has become increasingly impractical given the rapid increase in the volume of EHR data. In this article, we examine the effectiveness of crowdsourcing with unscreened online workers as an alternative for transforming unstructured texts in EHRs into annotated data that are directly usable in supervised learning models. We find the crowdsourced annotation data to be just as effective as expert data in training a sentence classification model to detect the mentioning of abnormal ear anatomy in radiology reports of audiology. Furthermore, we have discovered that enabling workers to self-report a confidence level associated with each annotation can help researchers pinpoint less-accurate annotations requiring expert scrutiny. Our findings suggest that even crowd workers without specific domain knowledge can contribute effectively to the task of annotating unstructured EHR datasets.
    bibtex: |
-      @article{Xu-EtAl:2016:TACL,
+      @article{Cocos-EtAl:2017:Biomedical-Informatics,
          author = {Anne Cocos and Ting Qiana and Chris Callison-Burch and Aaron Masino},
          title = {Crowd Control: Effectively Utilizing Unscreened Crowd Workers for Biomedical Data Annotation},
          journal = {Journal of Biomedical Informatics},
