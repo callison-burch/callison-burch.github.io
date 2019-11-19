@@ -359,6 +359,12 @@
    type: conference
    award: Honorable Mention Award
    note: Honorable Mention Award for CHI 2018, which means that it is ranked among the top 5% of all submissions to the SIGCHI 2018 conference. The conference received over 2500 submissions and 25 were chosen for Best Paper (101 were chosen for Honourable Mention.)
+   press: 
+    - 
+      title: I Found Work on an Amazon Website. I Made 97 Cents an Hour.
+      source: New York Times
+      date: November 15, 2019
+      url: https://www.nytimes.com/interactive/2019/11/15/nyregion/amazon-mechanical-turk.html
    year: 2018
    url: publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
    page_count: 12 

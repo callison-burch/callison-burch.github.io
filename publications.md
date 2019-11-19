@@ -29,11 +29,38 @@ active_tab: publications
 		{% if publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL" %}
        			{% if publication.type == "demo" %}
 				Demo papers.
-			{% else %}
+				{% else %}
 				Short papers.
-			{% endif %}
+				{% endif %}
 		{% endif %}
+		{% endif %}
+
+
+
+	{% if publication.press %}
+	<!-- press button -->
+	<a data-toggle="modal" href="#{{publication.id}}-press" class="label label-info">Press</a>
+	<!-- /.press button -->
+	<!-- press content -->
+	<div id="{{publication.id}}-press" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{publication.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{publication.id}}">Press Coverage</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+    	{% for coverage in publication.press %}
+			<b>{{ coverage.source }}</b> - {{ coverage.date }} - <a href="{{coverage.url}}">{{coverage.title}}</a>
+		{% endfor %}
+        </div><!-- /.modal-body -->
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+	</div><!-- /.press-content -->
 	{% endif %}
+
+
+
 
 	{% if publication.abstract %}
 	<!-- abstract button -->
@@ -54,6 +81,10 @@ active_tab: publications
 	</div><!-- /.modal-dialog -->
 	</div><!-- /.abstract-content -->
 	{% endif %}
+
+
+
+
 
 
 <!-- ccb - turning off figures for now, until I can figure out how to load them in a lazy fashion, so that the user doesn't get bombarded with so much data -->
