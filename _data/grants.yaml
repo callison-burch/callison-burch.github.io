@@ -9,7 +9,7 @@
 -
    title: SPUR WOMEN&colon; Support and Promote Undergraduate Research for Women
    awarding_body: Google
-   amount: $15k from Google
+   amount: $15k from Google 
    start_date: 2019
    end_date: 2020
    status: current
@@ -34,7 +34,7 @@
    amount: $3.3m
    start_date: 2019
    end_date: 2022
-   status: approved
+   status: current
    PI_info: Dan Roth (PI - UPenn), Igran Essa (Georgia Tech), Chris Callison-Burch (UPenn), Zsolt Kira (Georgia Tech), Le Song (Georgia Tech), Mayur Naik (UPenn), Osbert Bastani (UPenn)
    url: 
    abstract: 
@@ -44,7 +44,7 @@
    amount: $12m
    start_date: 2019
    end_date: 2024
-   status: approved
+   status: current
    PI_info: Heng Ji (PI - UIUC), Mohit Bansal (UNC), Chris Callison-Burch (UPenn), Shih-Fu Chang (Columbia), Jiawei Han (UIUC), Martha Palmer (Colorado), Dan Roth (UPenn), Carl Vondrick (Columbia)
    url: 
    abstract: 
@@ -64,7 +64,7 @@
    amount: $6m
    start_date: 2019
    end_date: 2023
-   status: approved
+   status: current
    PI_info: Ellie Pavlick (PI - Brown), Carsten Eickhoff (Brown), Chris Callison-Burch (UPenn), Wei Xu (OSU), Alan Ritter (OSU)
    url: 
    abstract: 
@@ -110,7 +110,7 @@
    amount: $200k
    start_date: 2019
    end_date: 2020
-   status: approved
+   status: current
    PI_info: Chris Callison-Burch (PI-UPenn) and Derry Wijaya (Boston University)
    url: 
    abstract: Systems that process text and image can link semantic and real-world knowledge and make better inferences about object-word connections even when linguistic evidence is scarce. Most current multimodal systems are supervised and thus limited to recognizing objects represented in hand-crafted image databases. Starting with knowledge of the mapping between texts and images in existing image databases, we propose a semi-supervised model that can dynamically update and extend this knowledge as it encounters images of new objects. The model will combine learning from both images and captions using matrix completion, and will infer object collocations in images from word collocations in their captions. The model will acquire large-scale vision-to-language mappings that will dynamically update and extend the coverage of existing image databases.
@@ -120,7 +120,7 @@
    amount: $225k
    start_date: 2019
    end_date: 2023
-   status: pending
+   status: current
    PI_info: Eleni Miltsakaki (Choosito.com) - PI, Chris Callison-Burch
    url: https://www.nsf.gov/pubs/2017/nsf17595/nsf17595.htm
    abstract: 
