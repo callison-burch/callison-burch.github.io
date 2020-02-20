@@ -1,4 +1,26 @@
 -
+   title: The CLASSE GATOR (CLinical Acronym SenSE disambiGuATOR)&colon; A Method for Predicting Acronym Sense from Neonatal Clinical Notes
+   authors: Aditya Kashyap, Heather Burris, Chris Callison-Burch, Mary Regina Boland
+   venue: International Journal of Medical Informatics
+   type: journal
+   year: 2020
+   url: https://www.sciencedirect.com/science/article/pii/S1386505619312122?via%3Dihub
+   page_count: 
+   id: CLASSE-GATOR
+   abstract: |
+      Objective
+      To develop an algorithm for identifying acronym ‘sense’ from clinical notes without requiring a clinically annotated training set.
+
+      Materials and Methods
+      Our algorithm is called CLASSE GATOR: Clinical Acronym SenSE disambiGuATOR. CLASSE GATOR extracts acronyms and definitions from PubMed Central (PMC). A logistic regression model is trained using words associated with specific acronym-definition pairs from PMC. CLASSE GATOR uses this library of acronym-definitions and their corresponding word feature vectors to predict the acronym ‘sense’ from Beth Israel Deaconess (MIMIC-III) neonatal notes.
+
+      Results
+      We identified 1,257 acronyms and 8,287 definitions including a random definition from 31,764 PMC articles on prenatal exposures and 2,227,674 PMC open access articles. The average number of senses (definitions) per acronym was 6.6 (min = 2, max = 50). The average internal 5-fold cross validation was 87.9 % (on PMC). We found 727 unique acronyms (57.29 %) from PMC were present in 105,044 neonatal notes (MIMIC-III). We evaluated the performance of acronym prediction using 245 manually annotated clinical notes with 9 distinct acronyms. CLASSE GATOR achieved an overall accuracy of 63.04 % and outperformed random for 8/9 acronyms (88.89 %) when applied to clinical notes. We also compared our algorithm with UMN's acronym set, and found that CLASSE GATOR outperformed random for 63.46 % of 52 acronyms when using logistic regression, 75.00 % when using Bert and 76.92 % when using BioBert as the prediction algorithm within CLASSE GATOR.
+
+      Conclusions
+      CLASSE GATOR is the first automated acronym sense disambiguation method for clinical notes. Importantly, CLASSE GATOR does not require an expensive manually annotated acronym-definition corpus for training.
+   bibtex:
+-
    title: Paraphrase-Sense-Tagged Sentences
    authors: Anne Cocos and Chris Callison-Burch
    venue: TACL
