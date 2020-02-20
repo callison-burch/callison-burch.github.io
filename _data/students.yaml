@@ -61,3 +61,13 @@
    expected_graduation_date: Summer 2021
    homepage: http://www.seas.upenn.edu/~daphnei/
    gender: female
+-
+   name: Mohammad Sadegh Rasooli 
+   homepage: 
+   degree: Postdoc
+   institution: University of Pennsylvania
+   phd_from: Columbia University
+   pic: mohammad_sadegh_rasooli.jpg
+   postdoc_start: 2020
+   postdoc_end:
+   gender: male
