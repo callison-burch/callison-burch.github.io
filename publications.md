@@ -50,9 +50,11 @@ active_tab: publications
           <h4 class="modal-title" id="{{publication.id}}">Press Coverage</h4>
         </div><!-- /.modal-header -->
         <div class="modal-body">
+        <ul>
     	{% for coverage in publication.press %}
-			<b>{{ coverage.source }}</b> - {{ coverage.date }} - <a href="{{coverage.url}}">{{coverage.title}}</a>
+			<li><b>{{ coverage.source }}</b> - {{ coverage.date }} - <a href="{{coverage.url}}">{{coverage.title}}</a></li>
 		{% endfor %}
+		</ul>
         </div><!-- /.modal-body -->
 	</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
