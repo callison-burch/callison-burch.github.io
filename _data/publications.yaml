@@ -67,6 +67,26 @@
         keywords = "Electronic health records, Natural language processing, Secondary reuse, Transfer learning"
       }
 -
+   title: SNAP judgments into the digital age&colon; Reporting on food stamps varies significantly with time, publication type, and political leaning
+   authors: Benjamin Chrisinger, Eliza Kinsey, Ellie Pavlick, Chris Callison-Burch
+   venue: PloS one
+   type: journal
+   year: 2020
+   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229180
+   page_count: 19
+   id: SNAP-judgments
+   abstract: The Supplemental Nutrition Assistance Program (SNAP) is the second-largest and most contentious public assistance program administered by the United States government. The media forums where SNAP discourse occurs have changed with the advent of social and web-based media. We used machine learning techniques to characterize media coverage of SNAP over time (1990–2017), between outlets with national readership and those with narrower scopes, and, for a subset of web-based media, by the outlet’s political leaning. We applied structural topic models, a machine learning methodology that categorizes and summarizes large bodies of text that have document-level covariates or metadata, to a corpus of print media retrieved via LexisNexis (n = 76,634). For comparison, we complied a separate corpus via web-scrape algorithm of the Google News API (2012–2017), and assigned political alignment metadata to a subset documents according to a recent study of partisanship on social media. A similar procedure was used on a subset of the print media documents that could be matched to the same alignment index. Using linear regression models, we found some, but not all, topics to vary significantly with time, between large and small media outlets, and by political leaning. Our findings offer insights into the polarized and partisan nature of a major social welfare program in the United States, and the possible effects of new media environments on the state of this discourse.
+   bibtex: |
+    @article{chrisinger2020snap,
+      title={SNAP judgments into the digital age: Reporting on food stamps varies significantly with time, publication type, and political leaning},
+      author={Chrisinger, Benjamin W and Kinsey, Eliza W and Pavlick, Ellie and Callison-Burch, Chris},
+      journal={PloS one},
+      volume={15},
+      number={2},
+      year={2020},
+      publisher={Public Library of Science}
+    }
+-
    title: Paraphrase-Sense-Tagged Sentences
    authors: Anne Cocos and Chris Callison-Burch
    venue: TACL
