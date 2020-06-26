@@ -7,8 +7,8 @@
    description: 
    url: http://computational-linguistics-class.org/
    enrollment: 125
-   instructor_rating: 
-   course_rating: 
+   instructor_rating: 3.33
+   course_rating: 3.25
 -
    title: Interactive Fiction and Text Generation
    number: CIS 700-008
@@ -19,8 +19,8 @@
    description: In this course, we will study how natural language processing is used to develop interactive and creative text applications. We will first cover text adventure games, which are interesting for artificial intelligence research since to succeed at a such games an AI agent needs to understand language, perform common-sense reasoning, and interact with objects in a constrained world. We cover approaches to interpreting user input via a natural language understanding component called the “parser”. We will discuss various strategies for representing a world and modeling how it changes based on user interaction. Next, we will also cover topics like common-sense reasoning tasks, and extracting of narrative structure from stories. Finally, we will discuss natural language generation, both in the context of dialog agents and story generation. We will touch upon human-computer interaction, biases in language models, and other topics.
    url: http://interactive-fiction-class.org
    enrollment: 23
-   instructor_rating: 
-   course_rating: 
+   instructor_rating: 3.33
+   course_rating: 3.10
 -
    title: Artificial Intelligence
    number: CIS 421/521
