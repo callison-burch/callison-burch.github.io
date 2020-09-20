@@ -5,7 +5,7 @@ img: womens_march_cropped
 img_link: assets/img/womens_march.jpg
 caption: |
  <b>Office:</b> 3401 Walnut, room 463C<br />
- <b>Office Hours (Spring 2020):</b> My office hours are Fridays from 4-5pm.<br />
+ <b>Office Hours (Fall 2020):</b> My office hours are Mondays from 11am-1pm Eastern on Gater Town.<br />
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
