@@ -1,4 +1,76 @@
 -
+   title: Reasoning about Goals, Steps, and Temporal Ordering with WikiHow
+   authors: Qing Lyu*, Li Zhang*, Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2020
+   url: publications/reasoning-about-goals-with-wikihow.pdf
+   page_count: 11
+   id: reasoning-about-goals-with-wikihow
+   abstract: We propose a suite of reasoning tasks on two types of relations between procedural events&colon; GOAL-STEP relations ("learn poses" is a step in the larger goal of "doing yoga") and STEP-STEP TEMPORAL relations ("buy a yoga mat" typically precedes "learn poses"). We introduce a dataset targeting these two relations based on wikiHow, a website of instructional how-to articles. Our human-validated test set serves as a reliable benchmark for commonsense inference, with a gap of about 10% to 20% between the performance of state-of-the-art transformer models and human performance. Our automatically-generated training set allows models to effectively transfer to out-of-domain tasks requiring knowledge of procedural events, with greatly improved performances on SWAG, Snips, and Story Cloze Test in zero- and few-shot settings.
+   bibtex: |
+      @inproceedings{lyu-zhang-wikihow:2020,
+       author = {Qing Lyu and Li Zhang and Chris Callison-Burch},
+       title = {Reasoning about Goals, Steps, and Temporal Ordering with WikiHow},
+       booktitle = {Proceedings of The 2020 Conference on Empirical Methods In Natural Language Proceedings (EMNLP)},
+       year = {2020},
+       url = {http://www.cis.upenn.edu/~ccb/publications/reasoning-about-goals-with-wikihow.pdf}
+      } 
+-
+   title: Intent Detection with WikiHow
+   authors: Li Zhang, Qing Lyu, Chris Callison-Burch
+   venue: AACL-IJCNLP
+   type: conference
+   year: 2020
+   url: publications/intent-detection-with-wikihow.pdf
+   page_count: 6
+   id: intent-detection-with-wikihow
+   abstract: Modern task-oriented dialog systems need to reliably understand users’ intents. Intent detection is most challenging when moving to new domains or new languages, since there is little annotated data. To address this challenge, we present a suite of pretrained intent detection models. Our models are able to predict a broad range of intended goals from many actions because they are trained on wikiHow, a comprehensive instructional website. Our models achieve state-of-the-art results on the Snips dataset, the Schema-Guided Dialogue dataset, and all 3 languages of the Facebook multilingual dialog datasets. Our models also demonstrate strong zero- and few-shot performance, reaching over 75% accuracy using only 100 training examples in all datasets.
+   bibtex: |
+      @inproceedings{zhang-et-al-wikihow-intent-detection:2020,
+       author = {Qing Lyu and Li Zhang and Chris Callison-Burch},
+       title = {Intent Detection with WikiHow},
+       booktitle = {Proceedings of The 1st Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics and the 10th International Joint Conference on Natural Language Processing},
+       year = {2020},
+       url = {http://www.cis.upenn.edu/~ccb/publications/intent-detection-with-wikihow.pdf}
+      } 
+-
+   title: RoFT&colon; A Tool for Evaluating Human Detection of Machine-Generated Text
+   authors: Liam Dugan*, Daphne Ippolito*, Arun Kirubarajan*, Chris Callison-Burch
+   venue: EMNLP
+   type: demo
+   year: 2020
+   url: publications/roft-demo.pdf
+   page_count: 7
+   id: roft-demo
+   abstract: In recent years, large neural networks for natural language generation (NLG) have made leaps and bounds in their ability to generate fluent text. However, the tasks of evaluating quality differences between NLG systems and understanding how humans perceive the generated text remain both crucial and difficult. In this system demonstration, we present Real or Fake Text (RoFT), a website that tackles both of these challenges by inviting users to try their hand at detecting machine-generated text in a variety of domains. We introduce a novel evaluation task based on detecting the boundary at which a text passage that starts off human-written transitions to being machine-generated. We show preliminary results of using RoFT to evaluate detection of machine-generated news articles.
+   bibtex: |
+      @inproceedings{roft-demo:2020,
+       author = {Liam Dugan and Daphne Ippolito and Arun Kirubarajan and Chris Callison-Burch},
+       title = {RoFT: A Tool for Evaluating \\Human Detection of Machine-Generated Text},
+       booktitle = {Proceedings of The 2020 Conference on Empirical Methods In Natural Language Proceedings (EMNLP) - Demo Track},
+       year = {2020},
+       url = {http://www.cis.upenn.edu/~ccb/publications/roft-demo.pdf}
+      }
+-
+   title: Turkish Judge&colon; A Peer Evaluation Framework for Crowd Work Appeals
+   authors: Edward Cohen, Mukund Venkateswaran, Nivedita Sankar, Chris Callison-Burch
+   venue: HCOMP
+   type: demo
+   year: 2020
+   url: publications/turkish-judge-demo.pdf
+   page_count: 9
+   id: turkish-judge-demo
+   abstract: We present a crowd-driven adjudication system for rejected work on Amazon Mechanical Turk. The Mechanical Turk crowdsourcing platform allows Requesters to approve or reject assignments submitted by Workers. If the work is rejected, then Workers aren’t paid, and their reputation suffers. Currently, there is no built-in mechanism for Workers to appeal rejections, other than contacting Requesters directly. The time it takes Requesters to review potentially incorrectly rejected tasks means that their costs are substantially higher than the payment amount that is in dispute. As a solution to this issue, we present an automated appeals system called Turkish Judge which employs crowd workers as judges to adjudicate whether work was fairly rejected when their peers initiate an appeal. We describe our system, analyze the added cost to Requesters, and discuss the advantages of such a system to the Mechanical Turk marketplace and other similar microtasking platforms.
+   bibtex: |
+      @inproceedings{turkish-judge-demo:2020,
+       author = {Edward Cohen and Mukund Venkateswaran and Nivedita Sankar and Chris Callison-Burch},
+       title = {Turkish Judge: A Peer Evaluation Framework for Crowd Work Appeals},
+       booktitle = {Proceedings of the Eighth AAAI Conference on Human Computation and Crowdsourcing (HCOMP)},
+       year = {2020},
+       url = {http://www.cis.upenn.edu/~ccb/publications/turkish-judge-demo.pdf}
+      } 
+-
    title: Automatic Detection of Generated Text is Easiest when Humans are Fooled
    authors: Daphne Ippolito*, Daniel Duckworth*, Chris Callison-Burch and Douglas Eck
    venue: ACL
@@ -34,6 +106,7 @@
        year = {2020},
        url = {http://www.cis.upenn.edu/~ccb/publications/toward-better-storylines-with-sentence-level-language-models.pdf}
       } 
+
 -
    title: The CLASSE GATOR (CLinical Acronym SenSE disambiGuATOR)&colon; A Method for Predicting Acronym Sense from Neonatal Clinical Notes
    authors: Aditya Kashyap, Heather Burris, Chris Callison-Burch, Mary Regina Boland
