@@ -1,9 +1,15 @@
 -
+   name: Huda Khayrallah 
+   institution: Johns Hopkins University
+   advisors: Philipp Koehn
+   graduation_date: 
+   thesis_title: 
+-
    name: Stephen Mayhew
    institution: University of Pennsylvania
    advisors: Dan Roth
    graduation_date: August 2019
-   thesis_title: 
+   thesis_title: Low-resource Named Entity Recognition
 -
    name: João Sedoc
    institution: University of Pennsylvania
