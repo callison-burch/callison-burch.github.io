@@ -106,7 +106,24 @@
        year = {2020},
        url = {http://www.cis.upenn.edu/~ccb/publications/toward-better-storylines-with-sentence-level-language-models.pdf}
       } 
-
+-
+   title: Resolving Pronouns in Twitter Streams&colon; Context Can Help
+   authors: Anietie Andy, Chris Callison-Burch and Derry Wijaya
+   venue: Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC)
+   type: workshop
+   year: 2020
+   url: publications/resolving-pronouns-in-twitter-streams.pdf
+   page_count: 6
+   id: resolving-pronouns-in-twitter-streams
+   abstract: Many people live-tweet televised events like Presidential debates and popular TV-shows and discuss people or characters in the event. Naturally, many tweets make pronominal reference to these people/characters. We propose an algorithm for resolving personal pronouns that make reference to people involved in an event, in tweet streams collected during the event.
+   bibtex: |
+      @inproceedings{Andy-et-al:2020,
+       author = {Anietie Andy and Chris Callison-Burch and Derry Wijaya},
+       title = {Resolving Pronouns in Twitter Streams&colon; Context Can Help},
+       booktitle = {Proceedings of Third Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC 2020)},
+       year = {2020},
+       url = {http://www.cis.upenn.edu/~ccb/publications/resolving-pronouns-in-twitter-streams.pdf}
+      } 
 -
    title: The CLASSE GATOR (CLinical Acronym SenSE disambiGuATOR)&colon; A Method for Predicting Acronym Sense from Neonatal Clinical Notes
    authors: Aditya Kashyap, Heather Burris, Chris Callison-Burch, Mary Regina Boland
