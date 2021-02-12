@@ -1,4 +1,24 @@
 -
+   title: Artificial Intelligence in mental health and the biases of language based models
+   authors: Isabel Straw and Chris Callison-Burch
+   venue: PloS one
+   type: journal
+   year: 2020
+   url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240376
+   page_count: 19
+   id: AI-and-mental-health
+   abstract: The rapid integration of Artificial Intelligence (AI) into the healthcare field has occurred with little communication between computer scientists and doctors. The impact of AI on health outcomes and inequalities calls for health professionals and data scientists to make a collaborative effort to ensure historic health disparities are not encoded into the future. We present a study that evaluates bias in existing Natural Language Processing (NLP) models used in psychiatry and discuss how these biases may widen health inequalities. Our approach systematically evaluates each stage of model development to explore how biases arise from a clinical, data science and linguistic perspective.   A literature review of the uses of NLP in mental health was carried out across multiple disciplinary databases with defined Mesh terms and keywords. Our primary analysis evaluated biases within ‘GloVe’ and ‘Word2Vec’ word embeddings. Euclidean distances were measured to assess relationships between psychiatric terms and demographic labels, and vector similarity functions were used to solve analogy questions relating to mental health.  Our primary analysis of mental health terminology in GloVe and Word2Vec embeddings demonstrated significant biases with respect to religion, race, gender, nationality, sexuality and age. Our literature review returned 52 papers, of which none addressed all the areas of possible bias that we identify in model development. In addition, only one article existed on more than one research database, demonstrating the isolation of research within disciplinary silos and inhibiting cross-disciplinary collaboration or communication.  Our findings are relevant to professionals who wish to minimize the health inequalities that may arise as a result of AI and data-driven algorithms. We offer primary research identifying biases within these technologies and provide recommendations for avoiding these harms in the future.
+   bibtex: |
+    @article{straw2020,
+      title={Artificial Intelligence in mental health and the biases of language based models},
+      author={Straw, Isabel and Callison-Burch, Chris},
+      journal={PloS one},
+      volume={15},
+      number={12},
+      year={2020},
+      publisher={Public Library of Science}
+    }
+-
    title: Reasoning about Goals, Steps, and Temporal Ordering with WikiHow
    authors: Qing Lyu*, Li Zhang*, Chris Callison-Burch
    venue: EMNLP
