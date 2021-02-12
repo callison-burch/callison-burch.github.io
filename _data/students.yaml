@@ -1,4 +1,49 @@
 -
+   name: Alyssa Hwang 
+   degree: PhD Student
+   pic: alyssa_hwang.jpg
+   institution: University of Pennsylvania
+   start_year: 2020
+   expected_graduation_date: Summer 2025
+   homepage: 
+   gender: female
+-
+   name: Ajay Patel 
+   degree: PhD Student
+   pic: ajay_patel.jpg
+   institution: University of Pennsylvania
+   start_year: 2020
+   expected_graduation_date: Summer 2025
+   homepage: 
+   gender: male
+-
+   name: Bryan Li
+   degree: PhD Student
+   pic: bryan_li.jpg
+   institution: University of Pennsylvania
+   start_year: 2020
+   expected_graduation_date: Summer 2025
+   homepage: 
+   gender: male
+-
+   name: Samar Haider
+   degree: PhD Student
+   pic: samar_haider.jpg
+   institution: University of Pennsylvania
+   start_year: 2020
+   expected_graduation_date: Summer 2025
+   homepage: 
+   gender: male
+-
+   name: Yue Yang
+   degree: PhD Student
+   pic: yue_yang.png
+   institution: University of Pennsylvania
+   start_year: 2020
+   expected_graduation_date: Summer 2025
+   homepage: 
+   gender: male
+-
    name: Veronica Qing Lyu 
    degree: PhD Student
    pic: veronica_qing_lyu.png
@@ -60,6 +105,17 @@
    start_year: 2015
    expected_graduation_date: Summer 2021
    homepage: http://www.seas.upenn.edu/~daphnei/
+   gender: female
+
+-
+   name: Lara Martin
+   homepage: https://laramartin.net
+   degree: Postdoc
+   institution: University of Pennsylvania
+   phd_from: Georgia Tech
+   pic: lara_martin.png
+   postdoc_start: 2021
+   postdoc_end:
    gender: female
 -
    name: Mohammad Sadegh Rasooli 
