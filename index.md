@@ -4,8 +4,8 @@ layout: default
 img: womens_march_cropped
 img_link: assets/img/womens_march.jpg
 caption: |
- <b>Office:</b> 3401 Walnut, room 463C<br />
- <b>Office Hours (Fall 2020):</b> My office hours are Mondays from 11am-1pm Eastern on Gather Town in my virtual office.<br />
+ <b>Pandemic Office:</b> International Space Station<br />
+ <b>Office Hours (Spring 2021):</b> My office hours are Wednesdays from 3pm-4:30pm Eastern on  <a href="https://ohq.io/courses/204">OHQ.io</a>.<br />
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
