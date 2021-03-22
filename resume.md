@@ -104,7 +104,6 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
   </tbody>
 </table>
 
-
 <h2>Grants</h2>
 
 {% assign grant_status = "current,pending,past" | split: "," %}
@@ -226,6 +225,13 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 	{{item.description}}
 </li>
   {% endfor %}
+</ul>
+
+<h2>Awards</h2>
+<ul>
+{% for award in site.data.awards %}
+<li>{{award.award}} - {{award.description}} ({{award.date | date: '%Y'}})</li>
+{% endfor %}
 </ul>
 
 
