@@ -4,7 +4,7 @@
    amount: $16k
    start_date: 2019
    end_date: 2020
-   status: current
+   status: past
    PI_info: co-PI Chris Cieri
 -
    title: SPUR WOMEN&colon; Support and Promote Undergraduate Research for Women
@@ -12,7 +12,7 @@
    amount: $15k from Google 
    start_date: 2019
    end_date: 2020
-   status: current
+   status: past
    PI_info: PI with Rita Powell
 -
    title: FFW-HTF-RL&colon; Collaborative Research&colon; Up-skilling and Re-skilling Marginalized Rural and Urban Digital Workers&colon; AI-worker collaboration to access creative work
@@ -74,14 +74,14 @@
    amount: $80,000
    PI_info: Chris Callison-Burch and Emily Falk
    start_date: 2019
-   status: current
+   status: past
 -
    title: SPUR WOMEN&colon; Support and Promote Undergraduate Research for Women
    awarding_body: Google
    amount: $25k from Google, plus $25k matched by SEAS
    start_date: 2018
    end_date: 2019
-   status: current
+   status: past
    PI_info: PI with Rita Powell
    url: https://www.blog.google/outreach-initiatives/education/fifteen-grants-support-computing-research-undergraduate-women/
 -
