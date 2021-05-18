@@ -6,6 +6,13 @@
    end_date: present
    description: Faculty member in the Computer and Information Sciences Department
 -
+   position: Visiting Researcher
+   employer: Google
+   location: New York, NY
+   start_date: December 2018
+   end_date: December 2020
+   description: Part-time Visiting Researcher at Google Research NYC.
+-
    position: Aravind K. Joshi Term Assistant Professor
    employer: University of Pennsylvania
    location: Philadelphia, PA
