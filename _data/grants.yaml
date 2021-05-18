@@ -1,4 +1,34 @@
 -
+   title: Alexa Prize TaskBot Challenge
+   awarding_body: Amazon
+   amount: $250k
+   start_date: 2021
+   end_date: 2022
+   status: current
+   PI_info: Chris Callison-Burch (PI), Mark Yatskar (UPenn)
+   url: 
+   abstract: 
+-
+   title: PTG&colon; A User-Aware, Perceptually Grounded Intelligent Assistant Joining Augmented Reality, Video, Images, and Speech (J.A.R.V.I.S.)
+   awarding_body: DARPA
+   amount: $8m
+   start_date: 2021
+   end_date: 2025
+   status: pending
+   PI_info: Chris Callison-Burch (PI), Christoffer Heckman (Colorado), Heng Ji (UIUC), Katharina Kann (Colorado), Eleni Miltsakaki (UPenn), Martha Palmer (Colorado), Alessandro Roncone (Colorado), João Sedoc (NYU), Vivek Srikumar (Utah), Danielle Szafir (Colorado), Daniel Szafir (Colorado), Xiaolong Wang (UCSD), Mark Yatskar (UPenn)
+   url: 
+   abstract: 
+-
+   title: INCAS&colon; Using Self-Identification of Group Membership to Characterize Reactions to Influence Campaigns, Argumentation, and Persuasive Language
+   awarding_body: DARPA
+   amount: $3.8m
+   start_date: 2021
+   end_date: 2025
+   status: rejected
+   PI_info: Chris Callison-Burch (PI), Emily Falk (UPenn), Darren Linvill (Clemson) and Patrick Warren (Clemson)
+   url: 
+   abstract: 
+-
    title: REU Supplement
    awarding_body: NSF
    amount: $16k
@@ -107,9 +137,9 @@
 -
    title: Semi-supervised Learning of Multimodal Representations
    awarding_body: DARPA 
-   amount: $200k
+   amount: $428k
    start_date: 2019
-   end_date: 2020
+   end_date: 2022
    status: current
    PI_info: Chris Callison-Burch (PI-UPenn) and Derry Wijaya (Boston University)
    url: 
@@ -119,8 +149,8 @@
    awarding_body: NSF
    amount: $225k
    start_date: 2019
-   end_date: 2023
-   status: current
+   end_date: 2021
+   status: past
    PI_info: Eleni Miltsakaki (Choosito.com) - PI, Chris Callison-Burch
    url: https://www.nsf.gov/pubs/2017/nsf17595/nsf17595.htm
    abstract: 
@@ -145,7 +175,7 @@
    awarding_body: NSF
    amount: $1,218,465
    start_date: July 14, 2017
-   end_date: June 30, 2020
+   end_date: June 30, 2022
    status: current
    PI_info: co-PI with Christopher Cieri and Mark Liberman
    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1730377
@@ -190,7 +220,7 @@
    amount: $478,000
    start_date: 2015
    end_date: 2019
-   status: current
+   status: past
    PI_info: PI at Penn
 -
    title: SIREN-IL&colon; Specialized Intra/Interlingual Resources for Emergent News - Incident Language
