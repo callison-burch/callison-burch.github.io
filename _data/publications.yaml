@@ -1,4 +1,40 @@
 -
+   title: RESIN&colon; A Dockerlized Schema-Guided Cross-document Cross-lingual Cross-media Information Extraction and Event Tracking System
+   authors: Haoyang Wen, Ying Lin, Tuan Lai, Xiaoman Pan, Sha Li, Xudong Lin, Ben Zhou, Manling Li, Haoyu Wang, Hongming Zhang, Xiaodong Yu, Alexander Dong, Zhenhailong Wang, Yi Fung, Piyush Mishra, Qing Lyu, Dídac Surís, Brian Chen, Susan Windisch Brown, Martha Palmer, Chris Callison-Burch, Carl Vondrick, Jiawei Han, Dan Roth, Shih-Fu Chang, and Heng Ji
+   venue: NAACL
+   type: demo
+   year: 2021
+   url: publications/kairos-resin-system.pdf
+   page_count: 10
+   id: kairos-resin-system
+   abstract: We present a new information extraction system that can automatically construct temporal event graphs from a collection of news documents from multiple sources, multiple languages (English and Spanish for our experiment), and multiple data modalities (speech, text, image and video). The system advances state-of-the-art from two aspects&colon; (1) extending from sentence-level event extraction to cross-document cross-lingual cross-media event extraction, coreference resolution and temporal event tracking; (2) using human curated event schema library to match and enhance the extraction output. We have made the dockerized system publicly available for research purpose at GitHub, with a demo video.
+   bibtex: |
+      @inproceedings{kairos-resin-system:2021,
+       author = {Haoyang Wen and Ying Lin and Tuan Lai and Xiaoman Pan and Sha Li and Xudong Lin and Ben Zhou and Manling Li and Haoyu Wang and Hongming Zhang and Xiaodong Yu and Alexander Dong and Zhenhailong Wang and Yi Fung and Piyush Mishra and Qing Lyu and Dídac Surís and Brian Chen and Susan Windisch Brown and Martha Palmer and Chris Callison-Burch and Carl Vondrick and Jiawei Han and Dan Roth and Shih-Fu Chang and Heng Ji},
+       title = {{RESIN}: A Dockerized Schema-Guided Cross-document Cross-lingual Cross-media Information Extraction and Event Tracking System},
+       booktitle = {Proceedings of The 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+       year = {2021},
+       url = {http://www.cis.upenn.edu/~ccb/publications/kairos-resin-system.pdf}
+      }
+-
+   title: Cultural and Geographical Influences on Image Translatability of Words across Languages
+   authors: Nikzad Khani, Isidora Chara Tourni, Mohammad Sadegh Rasooli, Chris Callison-Burch and Derry Tanti Wijaya
+   venue: NAACL
+   type: conference
+   year: 2021
+   url: publications/cultural-and-geographical-influences-on-image-translatability-of-words-across-languages.pdf
+   page_count: 12
+   id: cultural-and-geographical-influences-on-image-translatability-of-words-across-languages
+   abstract: Neural Machine Translation (NMT) models have been observed to produce poor translations when there are few/no parallel sentences to train the models. In the absence of parallel data, several approaches have turned to the use of images to learn translations. Since images of words, e.g., *horse* may be unchanged across languages, translations can be identified via images associated with words in different languages that have a high degree of visual similarity. However, translating via images has been shown to improve upon text-only models only marginally. To better understand *when* images are useful for translation, we study *image translatability* of words, which we define as the translatability of words via images, by measuring intra- and inter-cluster similarities of image representations of words that are translations of each other. We find that images of words are not always invariant across languages, and that similarities of image representations of words that are translations of each other. We find that a language pairs with shared culture, meaning having either a common language family, ethnicity or religion, have improved image translatability (i.e., have more similar images for similar words) compared to its converse regardless of their geographic proximity. In addition, in line with previous works that show images help more in translating concrete words, we found that concrete words have improved image translatability compared to abstract ones.
+   bibtex: |
+      @inproceedings{khani-cultural-and-geographical-influences:2021,
+       author = {Nikzad Khani and Isidora Chara Tourni and Mohammad Sadegh Rasooli and Chris Callison-Burch and Derry Tanti Wijaya},
+       title = {Cultural and Geographical Influences on Image Translatability of Words across Languages},
+       booktitle = {Proceedings of The 2021 Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+       year = {2021},
+       url = {http://www.cis.upenn.edu/~ccb/publications/cultural-and-geographical-influences-on-image-translatability-of-words-across-languages.pdf}
+      }
+-
    title: Artificial Intelligence in mental health and the biases of language based models
    authors: Isabel Straw and Chris Callison-Burch
    venue: PloS one
