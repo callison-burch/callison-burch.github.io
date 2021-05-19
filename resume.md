@@ -291,6 +291,29 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 <h2>Undergraduate and Masters Advising</h2>
 
 
+<h3>Master's Theses Supervised</h3>
+
+
+<ol>
+    {% for student in site.data.masters_theses %}
+<li>
+  {{ student.name }}, {{ student.institution }} 
+  {% if student.advisors contains ' and ' %}
+    (advisors: {{student.advisors}}),
+  {% else %}
+    (advisor: {{student.advisors}}),
+  {% endif %}
+  {% if student.thesis_link %}
+          "<a href="publications/{{ student.thesis_link}}">{{ student.thesis_title }}</a>", {{ student.graduation_date }}.
+  {% else %}
+          "{{ student.thesis_title }}", {{ student.graduation_date }}.
+  {% endif %}
+
+
+</li>
+  {% endfor %}
+</ol>
+
 <h3>Independent Studies and RAships </h3>
 
   {% for semester in site.data.past_research_assistants %}

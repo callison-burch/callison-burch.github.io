@@ -1,0 +1,91 @@
+-
+   name: Sri Sanjeevini Devi Ganni
+   degree: Masters in Data Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch and Lara Martin
+   graduation_date: May 2021
+   thesis_title: Narratology and Fan Ficton
+   thesis_link: masters-theses/Sanjeevini-Ganni-masters-thesis-2021.pdf
+   gender: female
+-
+   name: Jacob Beckerman
+   degree: Masters in Computer and Information Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: December 2020
+   thesis_title: Graph Alogirthms and Visualization of Complex Legal Contracts
+   thesis_link: masters-theses/Jacob-Beckerman-masters-thesis-2020.pdf
+   gender: male   
+-
+   name: Liam Dugan
+   degree: Masters in Robotics 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: May 2020
+   thesis_title: Learning Formality from Japanese-English Parallel Corpora
+   thesis_link: masters-theses/Liam-Dugan-masters-thesis-2020.pdf
+   gender: male   
+-
+   name: Yonah Mann
+   degree: Masters in Data Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: May 2020
+   thesis_title: A Data Set for Training QA Systems to Answer Questions about Novels
+   thesis_link: masters-theses/Yonah-Mann-Masters-Thesis-2020.pdf
+   gender: male
+-
+   name: Maria Kustikova
+   degree: Masters in Robotics
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch and Kostas Daniilidis
+   graduation_date: May 2019
+   thesis_title: Clustering Paraphrases by Word Sense Using Textual and Visual Information
+   thesis_link: masters-theses/Maria-Kustikova-2019.pdf
+   gender: female
+-
+   name: Devanshu Jain
+   degree: Masters in Computer and Information Science
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: May 2018
+   thesis_title: Machine Transliteration
+   thesis_link: masters-theses/Devanshu-Jain-masters-thesis-2018.pdf
+   
+   gender: male
+-
+   name: Aditya Kashyap
+   degree: Masters in Data Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: May 2018
+   thesis_title: Generalizable Identity Classifiers from Self-Reporting Statements on Reddit
+   thesis_link: masters-theses/Aditya-Kashyap-masters-thesis-2018.pdf
+   gender: male
+-
+   name: Brendan Daniel Callahan
+   degree: Masters in Robotics
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: May 2017
+   thesis_title: Image-based Bilingual Lexicon Induction for Low Resrouce Languages
+   thesis_link: masters-theses/Brendan-Callahan-masters-thesis-2017.pdf
+   gender: male
+-
+   name: Sneha Rajana
+   degree: Masters in Computer and Information Science
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: May 2017
+   thesis_title: Learning Antonyms with Paraphrases and a Morphology-Aware Neural Network
+   thesis_link: masters-theses/Sneha-Rajana-masters-thesis-2017.pdf
+   gender: female
+-
+   name: Mingkun Gao
+   degree: Masters in Computer and Information Science
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch
+   graduation_date: May 2015
+   thesis_title: Crowdsourcing Machine Translation
+   thesis_link: masters-theses/Mingkun-Gao-master-thesis-2015.pdf
+   gender: male
