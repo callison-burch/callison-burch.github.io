@@ -1,4 +1,253 @@
 -
+   semester: Summer 2021
+   students: 
+    -
+       name: Priya Shah
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Virtual Home
+       graduation_date: 
+       gender: female
+       role: PURM
+    -
+       name: Ricardo Gonzalez
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Question Answering 
+       graduation_date: 
+       gender: male
+       role: University Scholars
+       urm: true
+    -
+       name: Diana Chuning Yuan
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Question Answering for textbooks 
+       graduation_date: 
+       gender: female
+       role: volunteer
+    -
+       name: Daniel Joongwon Kim
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: BiSECT Sentence Splitting
+       graduation_date: 
+       gender: male
+       role: RA
+-
+   semester: Spring 2021
+   students:
+    -
+       name: Daniel Joongwon Kim
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: BiSECT Sentence Splitting
+       graduation_date: 
+       gender: male
+       role: volunteer
+    -
+       name: Sanjeevini Ganni
+       degree: Masters
+       pic: 
+       homepage:
+       project: Narratology and Fan Fiction
+       graduation_date: Spring 2021
+       gender: female
+       role: thesis
+-
+   semester: Fall 2020
+   students:
+    -
+       name: Daniel Joongwon Kim
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: BiSECT Sentence Splitting
+       graduation_date: 
+       gender: male
+       role: volunteer
+    -
+       name: Jacob Beckerman
+       degree: Masters
+       pic: 
+       homepage:
+       project: Graph Algorithms and Visualization of Complex Legal Contracts
+       graduation_date: Fall 2020
+       gender: male
+       role: thesis
+    -
+       name: Sanjeevini Ganni
+       degree: Masters
+       pic: 
+       homepage:
+       project: Narratology and Fan Fiction
+       graduation_date: Spring 2021
+       gender: female
+       role: thesis
+    -
+       name: Ashley Nobi
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: KAIROS Event Annotation
+       graduation_date: 
+       gender: female
+       role: Independent Study
+       urm: true
+    -
+       name: Sadhana Ravoori
+       degree: Masters
+       pic: 
+       homepage:
+       project: WikiHow Image Understanding
+       graduation_date: Spring 2021
+       gender: female
+       role: Independent Study
+    -
+       name: Edward Cohen
+       degree: Masters
+       pic: 
+       homepage:
+       project: Turkish Judge
+       graduation_date: Spring 2021
+       gender: male
+       role: Independent Study
+-
+   semester: Summer 2020
+   students: 
+    -
+       name: Daniel Joongwon Kim
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: BiSECT Sentence Splitting
+       graduation_date: 
+       gender: male
+       role: volunteer
+    -
+       name: Sanjeevini Ganni
+       degree: Masters
+       pic: 
+       homepage:
+       project: Narratology and Fan Fiction
+       graduation_date: Spring 2021
+       gender: female
+       role: RA
+    -
+       name: Ashley Nobi
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: KAIROS Event Annotation
+       graduation_date: 
+       gender: female
+       role: RA
+       urm: true
+    -
+       name: Sadhana Ravoori
+       degree: Masters
+       pic: 
+       homepage:
+       project: WikiHow Image Understanding
+       graduation_date: Spring 2021
+       gender: female
+       role: RA
+-
+   semester: Spring 2020
+   students:
+    -
+       name: Edward Cohen
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Turkish Judge
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Mukund Venkateswaran
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Turkish Judge
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Damilola Omitaomu
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Empathic Conversations
+       graduation_date: 
+       gender: male
+       role: Thesis
+       urm: true
+-
+   semester: Fall 2019
+   students: 
+    -
+       name: Maxwell Deng
+       degree: Undergraduate
+       pic: 
+       homepage:
+       project: Reddit self indentification website
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Arun Kirubarajan
+       degree: Undergraduate
+       pic: 
+       homepage: 
+       project: ChatEval
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Tyler Larkworthy
+       degree: Undergraduate
+       pic: 
+       homepage: 
+       project: 
+       graduation_date: 
+       gender: male
+       role: Independent Study
+    -
+       name: Hanna Mushakevich
+       degree: Undergraduate
+       pic: 
+       homepage: 
+       project: NLP Tutorial
+       graduation_date: 
+       gender: female
+       role: Independent Study
+    -
+       name: Damilola Omitaomu
+       degree: Undergraduate
+       pic: 
+       homepage: 
+       project: Empathic Conversations
+       graduation_date: 
+       gender: male
+       role: Independent Study
+       urm: true
+    -
+       name: Sarah Payne
+       degree: Undergraduate
+       pic: 
+       homepage: 
+       project: 
+       graduation_date: 
+       gender: female
+       role: Independent Study
+
+-
    semester: Summer 2019
    students: 
     -
