@@ -219,6 +219,15 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 <h2>Academic Service</h2>
 
+
+<ul>
+    {% for item in site.data.service_Penn %}
+<li>
+  {{item.description}}
+</li>
+  {% endfor %}
+</ul>
+
 <ul>
     {% for item in site.data.service %}
 <li>
