@@ -1,15 +1,15 @@
 -
-   name: Jonathan Mallinson
-   institution: University of Edinburgh
-   advisors: Mirella Lapata
-   graduation_date: 
-   thesis_title: Universal paraphrasing via Machine Translation
--
    name: Huda Khayrallah 
    institution: Johns Hopkins University
    advisors: Philipp Koehn
    graduation_date: 
    thesis_title: 
+-
+   name: Jonathan Mallinson
+   institution: University of Edinburgh
+   advisors: Mirella Lapata
+   graduation_date: June 2021
+   thesis_title: Universal Paraphrasing via Machine Translation
 -
    name: Stephen Mayhew
    institution: University of Pennsylvania
