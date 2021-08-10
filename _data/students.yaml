@@ -1,12 +1,21 @@
 -
-   name: Alyssa Hwang 
+   name: Artemis Panagopoulou
    degree: PhD Student
-   pic: alyssa_hwang.jpg
+   pic: 
    institution: University of Pennsylvania
-   start_year: 2020
-   expected_graduation_date: Summer 2025
+   start_year: 2021
+   expected_graduation_date: Summer 2026
    homepage: 
    gender: female
+-
+   name: Liam Dugan 
+   degree: PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2021
+   expected_graduation_date: Summer 2026
+   homepage: 
+   gender: male
 -
    name: Ajay Patel 
    degree: PhD Student
@@ -16,6 +25,15 @@
    expected_graduation_date: Summer 2025
    homepage: 
    gender: male
+-
+   name: Alyssa Hwang 
+   degree: PhD Student
+   pic: alyssa_hwang.jpg
+   institution: University of Pennsylvania
+   start_year: 2020
+   expected_graduation_date: Summer 2025
+   homepage: 
+   gender: female
 -
    name: Bryan Li
    degree: PhD Student
@@ -50,7 +68,7 @@
    institution: University of Pennsylvania
    start_year: 2019
    expected_graduation_date: Summer 2024
-   homepage: 
+   homepage: https://veronica320.github.io/
    gender: female
 -
    name: Harry Zhang 
@@ -69,24 +87,6 @@
    start_year: 2019
    expected_graduation_date: Summer 2024
    homepage: 
-   gender: male
--
-   name: Rebecca Iglesias-Flores
-   degree: PhD Student
-   pic: rebecca_iglesias-flores.jpg
-   institution: University of Pennsylvania
-   start_year: 2018
-   expected_graduation_date: Summer 2023
-   homepage: https://greedykruskal.me
-   gender: female
--
-   name: Reno Kriz
-   degree: PhD Student
-   pic: reno_kriz.jpg
-   institution: University of Pennsylvania
-   start_year: 2016
-   expected_graduation_date: Summer 2021
-   homepage: https://rekriz11.github.io
    gender: male
 -
    name: Daphne Ippolito
@@ -108,13 +108,3 @@
    postdoc_start: 2021
    postdoc_end:
    gender: female
--
-   name: Mohammad Sadegh Rasooli 
-   homepage: 
-   degree: Postdoc
-   institution: University of Pennsylvania
-   phd_from: Columbia University
-   pic: mohammad_sadegh_rasooli.jpg
-   postdoc_start: 2020
-   postdoc_end:
-   gender: male
