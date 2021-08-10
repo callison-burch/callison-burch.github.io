@@ -1,4 +1,42 @@
 -
+   title: Goal-Oriented Script Construction
+   authors: Qing Lyu and Li Zhang and Chris Callison-Burch
+   venue: INGL
+   type: conference
+   year: 2021
+   url: publications/goal-oriented-script-construction.pdf
+   page_count: 
+   id: goal-oriented-script-construction
+   data: 
+   abstract: 
+   bibtex: |
+      @inproceedings{Lyu-et-al:2021,
+       author = {Qing Lyu and Li Zhang and Chris Callison-Burch},
+       title = {Goal-Oriented Script Construction},
+       booktitle = {Proceedings of the 14th International Conference on Natural Language Generation (INLG 2021)},
+       year = {2021},
+       url = {http://www.cis.upenn.edu/~ccb/publications/goal-oriented-script-construction.pdf}
+      }
+-
+   title: TopGuNN&colon; Fast NLP Training Data Augmentation using Large Corpora
+   authors: Rebecca Iglesias-Flores, Megha Mishra, Ajay Patel, Akanksha Malhotra, Reno Kriz, Martha Palmer and Chris Callison-Burch
+   venue: NAACL
+   type: workshop
+   year: 2021
+   url: publications/TopGuNN-system.pdf
+   page_count: 16
+   id: TopGuNN-system
+   code: https://github.com/Penn-TopGuNN/TopGuNN
+   abstract: 
+   bibtex: |
+      @inproceedings{TopGuNN-system:2021,
+       author = {Rebecca Iglesias-Flores and Megha Mishra and Ajay Patel and Akanksha Malhotra and Reno Kriz and Martha Palmer and Chris Callison-Burch},
+       title = {{TopGuNN}: Fast {NLP} Training Data Augmentation using Large Corpora},
+       booktitle = {Proceedings of the Second Workshop on Data Science with Human in the Loop: Language Advances},
+       year = {2021},
+       url = {http://www.cis.upenn.edu/~ccb/publications/TopGuNN-system.pdf}
+      }
+-
    title: RESIN&colon; A Dockerlized Schema-Guided Cross-document Cross-lingual Cross-media Information Extraction and Event Tracking System
    authors: Haoyang Wen, Ying Lin, Tuan Lai, Xiaoman Pan, Sha Li, Xudong Lin, Ben Zhou, Manling Li, Haoyu Wang, Hongming Zhang, Xiaodong Yu, Alexander Dong, Zhenhailong Wang, Yi Fung, Piyush Mishra, Qing Lyu, Dídac Surís, Brian Chen, Susan Windisch Brown, Martha Palmer, Chris Callison-Burch, Carl Vondrick, Jiawei Han, Dan Roth, Shih-Fu Chang, and Heng Ji
    venue: NAACL
