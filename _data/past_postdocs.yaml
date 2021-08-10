@@ -1,4 +1,16 @@
 -
+   name: Mohammad Sadegh Rasooli 
+   homepage: 
+   degree: Postdoc
+   institution: University of Pennsylvania
+   phd_from: Columbia University
+   pic: mohammad_sadegh_rasooli.jpg
+   postdoc_start: January 2020
+   postdoc_end: July 2021
+   current_position: 
+   current_employer: Microsoft
+   gender: male
+-
    name: Derry Wijaya
    homepage: https://derrywijaya.github.io
    phd_from: Carnegie Mellon University University
@@ -26,7 +38,7 @@
    postdoc_start: February 2014
    postdoc_end: August 2016
    current_position: Assistant Professor
-   current_employer: Ohio State University
+   current_employer: Georgia Tech
    gender: female
 -
    name: Matt Post
