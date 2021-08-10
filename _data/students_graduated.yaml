@@ -1,4 +1,18 @@
 -
+   name: Reno Kriz
+   degree: PhD Student
+   pic: reno_kriz.jpg
+   institution: University of Pennsylvania
+   start_year: 2016
+   advisors: Chris Callison-Burch and Marianna Apidianaki
+   graduation_date: June 2021
+   homepage: https://rekriz11.github.io
+   thesis_title: Towards a Practically Useful Text Simplification System
+   thesis_link: 
+   current_position: Research Scientist 
+   current_employer: Human Language Technology Center of Excellence
+   gender: male
+-
    name: Anne Cocos
    degree: PhD Student
    pic: anne_cocos.png
@@ -7,10 +21,11 @@
    advisors: Chris Callison-Burch and Marianna Apidianaki
    graduation_date: May 2019
    homepage: http://acocos.github.io/
+   linkedin: https://www.linkedin.com/in/annecocos/
    thesis_title: Paraphrase-based Models of Lexical Semantics
    thesis_link: dissertations/anne-cocos-thesis.pdf
-   current_position: Research Scientist 
-   current_employer:  GlaxoSmithKline
+   current_position: Director of Data Science 
+   current_employer:  Ask Iggy
    gender: female
 -
    name: Courtney Napoles
@@ -20,10 +35,10 @@
    start_year: 2009
    advisors: Chris Callison-Burch and Benjamin Van Durme
    graduation_date: June 2018
-   homepage: http://cs.jhu.edu/~napoles/
+   homepage: https://www.linkedin.com/in/cnapoles/
    thesis_title: Monolingual Sentence Rewriting as Machine Translation&colon; Generation and Evaluation
    thesis_link: dissertations/courtney-napoles-thesis.pdf
-   current_position: Research Scientist 
+   current_position: Language Data Manager 
    current_employer: Grammarly 
    homepage: 
    gender: female
@@ -37,8 +52,8 @@
    graduation_date: February 2018
    thesis_title: Large-Scale Paraphrase Extraction and Applications
    thesis_link: dissertations/juri-ganitkevitch-thesis.pdf
-   current_position: Senior Research Scientist 
-   current_employer: Google 
+   current_position: Machine Learning Engineer 
+   current_employer: Apple 
    homepage: https://www.linkedin.com/in/juri-ganitkevitch-294a4b32
    gender: male
 -
@@ -63,8 +78,9 @@
    graduation_date: July 2014
    thesis_title: Using Comparable Corpora to Augment Low Resource Statistical Machine Translation Models
    thesis_link: dissertations/ann-irvine-thesis.pdf
-   current_position: Principal Data Scientist
-   current_employer: RedOwl Analytics
+   current_position: Chief Data Scientist
+   current_employer: Resilience
+   homepage: https://www.linkedin.com/in/ann-irvine-b5b39677/
    gender: female
 -
    name: Xuchen Yao
@@ -74,8 +90,9 @@
    graduation_date: July 2014
    thesis_title: Feature-Driven Question Answering with Natural Language Alignment
    thesis_link: dissertations/xuchen-yao-thesis.pdf
-   current_position: Founder of startup KITT.AI incubated
-   current_employer: the Allen Institute for Artificial Intelligence (AI2)  
+   current_position: Cofounder/CEO 
+   current_employer: Seasalt.ai and Vobil.com
+   homepage: https://www.linkedin.com/in/xuchenyao/
    gender: male
 -
    name: Omar Zaidan
@@ -84,9 +101,10 @@
    advisors: Chris Callison-Burch
    graduation_date: April 2012
    thesis_title: Crowdsourcing Annotation for Machine Learning in Natural Language Processing Tasks
-   current_position: Bing team
-   current_employer: Microsoft  
+   current_position: Senior Applied Scientist
+   current_employer: Amazon  
    thesis_link: dissertations/omar-zaidan-thesis.pdf
+   homepage: https://www.linkedin.com/in/ozaidan/
    gender: male
 -
    name: Lane Schwartz
@@ -98,4 +116,5 @@
    current_position: Assistant Professor
    current_employer: UIUC Linguistics Dept.  
    thesis_link: dissertations/lane-schwartz-thesis.pdf
+   linkedin: https://www.linkedin.com/in/lane-schwartz-96093b8/
    gender: male
