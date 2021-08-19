@@ -25,14 +25,17 @@ active_tab: publications
 	{% endif %}
 	{{ publication.authors }}.
 	{{ publication.venue }}  {{ publication.year }}.
-        {% if publication.page_count < 8  %}
-		{% if publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL" %}
+    {% if publication.page_count < 8  %}
+			{% if publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL" %}
        			{% if publication.type == "demo" %}
-				Demo papers.
-				{% else %}
-				Short papers.
-				{% endif %}
+							Demo papers.
+						{% else %}
+							Short papers.
+						{% endif %}
+			{% endif %}
 		{% endif %}
+    {% if publication.type == "preprint" %}
+				Unpublished preprint.
 		{% endif %}
 
 
@@ -84,6 +87,14 @@ active_tab: publications
 	</div><!-- /.abstract-content -->
 	{% endif %}
 
+
+	{% if publication.data %}
+	<a href="{{publication.data}}" class="label label-warning">Data</a>
+	{% endif %}
+
+	{% if publication.code %}
+	<a href="{{publication.code}}" class="label label-primary">Code</a>
+	{% endif %}
 
 
 

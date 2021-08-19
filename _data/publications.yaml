@@ -1,14 +1,85 @@
 -
+   title: Deduplicating Training Data Makes Language Models Better
+   authors: Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini 
+   venue: arXiv
+   type: preprint
+   year: 2021
+   url: https://arXiv.org/abs/2107.06499
+   page_count: 20
+   id: deduplicating-training-data
+   data: https://github.com/google-research/deduplicate-text-datasets
+   abstract: We find that existing language modeling datasets contain many near-duplicate examples and long repetitive substrings. As a result, over 1% of the unprompted output of language models trained on these datasets is copied verbatim from the training data. We develop two tools that allow us to deduplicate training datasets -- for example removing from C4 a single 61 word English sentence that is repeated over 60,000 times. Deduplication allows us to train models that emit memorized text ten times less frequently and require fewer train steps to achieve the same or better accuracy. We can also reduce train-test overlap, which affects over 4% of the validation set of standard datasets, thus allowing for more accurate evaluation. We release code for reproducing our work and performing dataset deduplication at https://github.com/google-research/deduplicate-text-datasets
+   bibtex: |
+      @article{lee2021deduplicating,
+        title={Deduplicating Training Data Makes Language Models Better},
+        author={Lee, Katherine and Ippolito, Daphne and Nystrom, Andrew and Zhang, Chiyuan and Eck, Douglas and Callison-Burch, Chris and Carlini, Nicholas},
+        journal={arXiv preprint arXiv:2107.06499},
+        year={2021}
+      }
+-
+   title: 🥑 GooAQ&colon; Open Question Answering with Diverse Answer
+   authors: Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal, Hannaneh Hajishirzi, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2021
+   url: https://arXiv.org/abs/2104.08727
+   page_count: 12
+   id: GooAQ
+   data: https://github.com/allenai/gooaq
+   abstract: While day-to-day questions come with a variety of answer types, the current question-answering (QA) literature has failed to adequately address the answer diversity of questions. To this end, we present GooAQ, a large-scale dataset with a variety of answer types. This dataset contains over 5 million questions and 3 million answers collected from Google. GooAQ questions are collected semi-automatically from the Google search engine using its autocomplete feature. This results in naturalistic questions of practical interest that are nonetheless short and expressed using simple language. GooAQ answers are mined from Google's responses to our collected questions, specifically from the answer boxes in the search results. This yields a rich space of answer types, containing both textual answers (short and long) as well as more structured ones such as collections. We benchmarkT5 models on GooAQ and observe that (a) in line with recent work, LM's strong performance on GooAQ's short-answer questions heavily benefit from annotated data; however, (b) their quality in generating coherent and accurate responses for questions requiring long responses (such as 'how' and 'why' questions) is less reliant on observing annotated data and mainly supported by their pre-training. We release GooAQ to facilitate further research on improving QA with diverse response types
+   bibtex: |
+      @article{khashabi2021gooaq,
+        title={GooAQ: Open Question Answering with Diverse Answer Types},
+        author={Khashabi, Daniel and Ng, Amos and Khot, Tushar and Sabharwal, Ashish and Hajishirzi, Hannaneh and Callison-Burch, Chris},
+        journal={arXiv preprint arXiv:2104.08727},
+        year={2021}
+      }
+-
+   title: Wikily Neural Machine Translation Tailored to Cross-Lingual Tasks
+   authors: Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya
+   venue: arXiv
+   type: preprint
+   year: 2021
+   url: https://arXiv.org/abs/2104.08384
+   page_count: 16
+   id: Wikily-Neural-Machine-Translation
+   code: https://github.com/rasoolims/ImageTranslate
+   abstract:  We present a simple but effective approach for leveraging Wikipedia for neural machine translation as well as cross-lingual tasks of image captioning and dependency parsing without using any direct supervision from external parallel data or supervised models in the target language. We show that first sentences and titles of linked Wikipedia pages, as well as cross-lingual image captions, are strong signals for a seed parallel data to extract bilingual dictionaries and cross-lingual word embeddings for mining parallel text from Wikipedia. Our final model achieves high BLEU scores that are close to or sometimes higher than strong supervised baselines in low-resource languages; e.g. supervised BLEU of 4.0 versus 12.1 from our model in English-to-Kazakh. Moreover, we tailor our wikily translation models to unsupervised image captioning and cross-lingual dependency parser transfer. In image captioning, we train a multi-tasking machine translation and image captioning pipeline for Arabic and English from which the Arabic training data is a wikily translation of the English captioning data. Our captioning results in Arabic are slightly better than that of its supervised model. In dependency parsing, we translate a large amount of monolingual text, and use it as an artificial training data in an annotation projection framework. We show that our model outperforms recent work on cross-lingual transfer of dependency parsers.
+   bibtex: |
+      @article{rasooli2021wikily,
+        title={" Wikily" Neural Machine Translation Tailored to Cross-Lingual Tasks},
+        author={Rasooli, Mohammad Sadegh and Callison-Burch, Chris and Wijaya, Derry Tanti},
+        journal={arXiv preprint arXiv:2104.08384},
+        year={2021}
+      }
+-
+   title: Visual Goal-Step Inference using wikiHow
+   authors: Yue Yang, Artemis Panagopoulou, Qing Lyu, Li Zhang, Mark Yatskar, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2021
+   url: https://arxiv.org/abs/2104.05845
+   page_count: 10
+   id: visual-goal-step-inference-using-wikihow
+   abstract:  Procedural events can often be thought of as a high level goal composed of a sequence of steps. Inferring the sub-sequence of steps of a goal can help artificial intelligence systems reason about human activities. Past work in NLP has examined the task of goal-step inference for text. We introduce the visual analogue. We propose the Visual Goal-Step Inference (VGSI) task where a model is given a textual goal and must choose a plausible step towards that goal from among four candidate images. Our task is challenging for state-of-the-art muitimodal models. We introduce a novel dataset harvested from wikiHow that consists of 772,294 images representing human actions. We show that the knowledge learned from our data can effectively transfer to other datasets like HowTo100M, increasing the multiple-choice accuracy by 15% to 20%. Our task will facilitate multi-modal reasoning about procedural events.
+   bibtex: |
+      @article{yang2021visual,
+        title={Visual Goal-Step Inference using wikiHow},
+        author={Yang, Yue and Panagopoulou, Artemis and Lyu, Qing and Zhang, Li and Yatskar, Mark and Callison-Burch, Chris},
+        journal={arXiv preprint arXiv:2104.05845},
+        year={2021}
+      }
+-
    title: Goal-Oriented Script Construction
    authors: Qing Lyu and Li Zhang and Chris Callison-Burch
    venue: INGL
    type: conference
    year: 2021
    url: publications/goal-oriented-script-construction.pdf
-   page_count: 
+   page_count: 17
    id: goal-oriented-script-construction
    data: 
-   abstract: 
+   abstract: The knowledge of scripts, common chains of events in stereotypical scenarios, is a valuable asset for task-oriented natural language understanding systems. We propose the GoalOriented Script Construction task, where a model produces a sequence of steps to accomplish a given goal. We pilot our task on the first multilingual script learning dataset supporting 18 languages collected from wikiHow, a website containing half a million how-to articles. For baselines, we consider both a generation0based approach using a language model and a retrieval-based approach by first retrieving the relevant steps from a large candidate pool and then ordering them. We show that our task is practical, feasible but challenging for state-of-the-art Transformer models, and that our methods can be readily deployed for various other datasets and domains with decent zero-shot performance.
    bibtex: |
       @inproceedings{Lyu-et-al:2021,
        author = {Qing Lyu and Li Zhang and Chris Callison-Burch},
@@ -24,10 +95,10 @@
    type: workshop
    year: 2021
    url: publications/TopGuNN-system.pdf
-   page_count: 16
+   page_count: 15
    id: TopGuNN-system
    code: https://github.com/Penn-TopGuNN/TopGuNN
-   abstract: 
+   abstract: Acquiring training data for natural language processing systems can be expensive and time-consuming. Given a few training examples crafted by experts, large corpora can be mined for thousands of semantically similar examples that provide useful variability to improve model generalization. We present TopGuNN, a fast contextualized k-NN retrieval system that can efficiently index and search over contextual embeddings generated from large corpora to easily retrieve new diverse training examples. TopGuNN is demonstrated for a semantic role labeling training data augmentation use case over the Gigaword corpus. Using approximate k-NN and an efficient architecture, TopGuNN performs queries over an embedding space of 4.63TB (approximately 1.5B embeddings) in less than a day.
    bibtex: |
       @inproceedings{TopGuNN-system:2021,
        author = {Rebecca Iglesias-Flores and Megha Mishra and Ajay Patel and Akanksha Malhotra and Reno Kriz and Martha Palmer and Chris Callison-Burch},
@@ -43,6 +114,7 @@
    type: demo
    year: 2021
    url: publications/kairos-resin-system.pdf
+   code: https://github.com/RESIN-KAIROS/RESIN-pipeline-public
    page_count: 10
    id: kairos-resin-system
    abstract: We present a new information extraction system that can automatically construct temporal event graphs from a collection of news documents from multiple sources, multiple languages (English and Spanish for our experiment), and multiple data modalities (speech, text, image and video). The system advances state-of-the-art from two aspects&colon; (1) extending from sentence-level event extraction to cross-document cross-lingual cross-media event extraction, coreference resolution and temporal event tracking; (2) using human curated event schema library to match and enhance the extraction output. We have made the dockerized system publicly available for research purpose at GitHub, with a demo video.
@@ -73,6 +145,42 @@
        url = {http://www.cis.upenn.edu/~ccb/publications/cultural-and-geographical-influences-on-image-translatability-of-words-across-languages.pdf}
       }
 -
+   title: Simple-QE&colon; Better Automatic Quality Estimation for Text Simplification
+   authors: Reno Kriz, Marianna Apidianaki, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2020
+   url: https://arxiv.org/abs/2012.12382
+   page_count: 6
+   id: simple-qe
+   abstract: Text simplification systems generate versions of texts that are easier to understand for a broader audience. The quality of simplified texts is generally estimated using metrics that compare to human references, which can be difficult to obtain. We propose Simple-QE, a BERT-based quality estimation (QE) model adapted from prior summarization QE work, and show that it correlates well with human quality judgments. Simple-QE does not require human references, which makes the model useful in a practical setting where users would need to be informed about the quality of generated simplifications. We also show that we can adapt this approach to accurately predict the complexity of human-written texts.
+   bibtex: |
+      @article{kriz2020simple,
+        title={Simple-QE: Better Automatic Quality Estimation for Text Simplification},
+        author={Kriz, Reno and Apidianaki, Marianna and Callison-Burch, Chris},
+        journal={arXiv preprint arXiv:2012.12382},
+        year={2020}
+      }
+-
+   title: Automatic Standardization of Colloquial Persian
+   authors: Mohammad Sadegh Rasooli, Farzane Bakhtyari, Fatemeh Shafiei, Mahsa Ravanbakhsh, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2020
+   url: https://arxiv.org/abs/2012.05879
+   data: https://github.com/rasoolims/Shekasteh
+   code: https://github.com/rasoolims/PBreak
+   page_count: 6
+   id: standardization-of-persian
+   abstract: The Iranian Persian language has two varieties&colon; standard and colloquial. Most natural language processing tools for Persian assume that the text is in standard form&colon; this assumption is wrong in many real applications especially web content. This paper describes a simple and effective standardization approach based on sequence-to-sequence translation. We design an algorithm for generating artificial parallel colloquial-to-standard data for learning a sequence-to-sequence model. Moreover, we annotate a publicly available evaluation data consisting of 1912 sentences from a diverse set of domains. Our intrinsic evaluation shows a higher BLEU score of 62.8 versus 61.7 compared to an off-the-shelf rule-based standardization model in which the original text has a BLEU score of 46.4. We also show that our model improves English-to-Persian machine translation in scenarios for which the training data is from colloquial Persian with 1.4 absolute BLEU score difference in the development data, and 0.8 in the test data.
+   bibtex: |
+      @article{rasooli2020automatic,
+        title={Automatic Standardization of Colloquial Persian},
+        author={Rasooli, Mohammad Sadegh and Bakhtyari, Farzane and Shafiei, Fatemeh and Ravanbakhsh, Mahsa and Callison-Burch, Chris},
+        journal={arXiv preprint arXiv:2012.05879},
+        year={2020}
+      }
+-
    title: Artificial Intelligence in mental health and the biases of language based models
    authors: Isabel Straw and Chris Callison-Burch
    venue: PloS one
@@ -99,6 +207,8 @@
    type: conference
    year: 2020
    url: publications/reasoning-about-goals-with-wikihow.pdf
+   data: https://github.com/zharry29/wikihow-goal-step
+   code: https://colab.research.google.com/drive/16Qz4fp6eFHd0OGTITTHvw7sZo1Qe_VOS?usp=sharing
    page_count: 11
    id: reasoning-about-goals-with-wikihow
    abstract: We propose a suite of reasoning tasks on two types of relations between procedural events&colon; GOAL-STEP relations ("learn poses" is a step in the larger goal of "doing yoga") and STEP-STEP TEMPORAL relations ("buy a yoga mat" typically precedes "learn poses"). We introduce a dataset targeting these two relations based on wikiHow, a website of instructional how-to articles. Our human-validated test set serves as a reliable benchmark for commonsense inference, with a gap of about 10% to 20% between the performance of state-of-the-art transformer models and human performance. Our automatically-generated training set allows models to effectively transfer to out-of-domain tasks requiring knowledge of procedural events, with greatly improved performances on SWAG, Snips, and Story Cloze Test in zero- and few-shot settings.
@@ -117,6 +227,7 @@
    type: conference
    year: 2020
    url: publications/intent-detection-with-wikihow.pdf
+   data: https://github.com/zharry29/wikihow-intent
    page_count: 6
    id: intent-detection-with-wikihow
    abstract: Modern task-oriented dialog systems need to reliably understand users’ intents. Intent detection is most challenging when moving to new domains or new languages, since there is little annotated data. To address this challenge, we present a suite of pretrained intent detection models. Our models are able to predict a broad range of intended goals from many actions because they are trained on wikiHow, a comprehensive instructional website. Our models achieve state-of-the-art results on the Snips dataset, the Schema-Guided Dialogue dataset, and all 3 languages of the Facebook multilingual dialog datasets. Our models also demonstrate strong zero- and few-shot performance, reaching over 75% accuracy using only 100 training examples in all datasets.
