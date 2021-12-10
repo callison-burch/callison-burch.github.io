@@ -97,6 +97,10 @@ active_tab: publications
 	{% endif %}
 
 
+	{% if publication.website %}
+	<a href="{{publication.website}}" class="label label-danger">Website</a>
+	{% endif %}
+
 
 
 

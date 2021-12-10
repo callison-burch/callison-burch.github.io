@@ -1,4 +1,22 @@
 -
+   title: SynthBio&colon; A Case Study in Human-AI Collaborative Curation of Text Datasets
+   authors: Ann Yuan, Daphne Ippolito, Vitaly Nikolaev, Chris Callison-Burch, Andy Coenen, and Sebastian Gehrmann
+   venue: arXiv
+   type: preprint
+   year: 2021
+   url: https://arxiv.org/abs/2111.06467
+   page_count: 10
+   id: synthbio
+   data: https://storage.googleapis.com/gem-benchmark/SynthBio.json
+   abstract: NLP researchers need more, higher-quality text datasets. Human-labeled datasets are expensive to collect, while datasets collected via automatic retrieval from the web such as WikiBio are noisy and can include undesired biases. Moreover, data sourced from the web is often included in datasets used to pretrain models, leading to inadvertent cross-contamination of training and test sets. In this work we introduce a novel method for efficient dataset curation&colon; we use a large language model to provide seed generations to human raters, thereby changing dataset authoring from a writing task to an editing task. We use our method to curate SynthBio - a new evaluation set for WikiBio - composed of structured attribute lists describing fictional individuals, mapped to natural language biographies. We show that our dataset of fictional biographies is less noisy than WikiBio, and also more balanced with respect to gender and nationality.
+   bibtex: |
+      @article{Yuan2021SynthBio,
+        title={SynthBio: A Case Study in Human-AI Collaborative Curation of Text Datasets},
+        author={Ann Yuan and Daphne Ippolito and Vitaly Nikolaev and Chris Callison-Burch and Andy Coenen and Sebastian Gehrmann},
+        journal={arXiv preprint arXiv:2111.06467},
+        year={2021}
+      }
+-
    title: Deduplicating Training Data Makes Language Models Better
    authors: Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini 
    venue: arXiv
@@ -17,57 +35,122 @@
         year={2021}
       }
 -
-   title: 🥑 GooAQ&colon; Open Question Answering with Diverse Answer
-   authors: Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal, Hannaneh Hajishirzi, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
+   title: Identifying and Responding to Health Misinformation on Reddit Dermatology Forums With Artificially Intelligent Bots Using Natural Language Processing&colon; Design and Evaluation Study
+   authors: Monique A Sager, Aditya M Kashyap, Mila Tamminga, Sadhana Ravoori, Chris Callison-Burch and Jules B Lipoff 
+   venue: JMIR
+   type: journal
    year: 2021
-   url: https://arXiv.org/abs/2104.08727
-   page_count: 12
+   url: http://dx.doi.org/10.2196/20975 
+   page_count: 7
+   id: reddit-health-misinformation 
+   abstract: |
+      Background
+      Reddit, the fifth most popular website in the United States, boasts a large and engaged user base on its dermatology forums where users crowdsource free medical opinions. Unfortunately, much of the advice provided is unvalidated and could lead to the provision of inappropriate care. Initial testing has revealed that artificially intelligent bots can detect misinformation regarding tanning and essential oils on Reddit dermatology forums and may be able to produce responses to posts containing misinformation.
+
+      Objective
+      To analyze the ability of bots to find and respond to tanning and essential oil–related health misinformation on Reddit’s dermatology forums in a controlled test environment.
+
+      Methods
+      Using natural language processing techniques, we trained bots to target misinformation, using relevant keywords and to post prefabricated responses. By evaluating different model architectures across a held-out test set, we compared performances.
+
+      Results
+      Our models yielded data test accuracies ranging 95%-100%, with a Bidirectional Encoder Representations from Transformers (BERT) fine-tuned model resulting in the highest level of test accuracy. Bots were then able to post corrective prefabricated responses to misinformation in a test environment.
+
+      Conclusions
+      Using a limited data set, bots accurately detected examples of health misinformation within Reddit dermatology forums. Given that these bots can then post prefabricated responses, this technique may allow for interception of misinformation. Providing correct information does not mean that users will be receptive or find such interventions persuasive. Further studies should investigate this strategy’s effectiveness to inform future deployment of bots as a technique in combating health misinformation.
+   bibtex: |
+      @Article{info:doi/10.2196/20975,
+         author="Sager, Monique A and Kashyap, Aditya M and Tamminga, Mila and Ravoori, Sadhana and Callison-Burch, Chris and Lipoff, Jules B",
+         title="Identifying and Responding to Health Misinformation on Reddit Dermatology Forums With Artificially Intelligent Bots Using Natural Language Processing: Design and Evaluation Study",
+         journal="JMIR Dermatol",
+         year="2021",
+         month="Sep",
+         day="30",
+         volume="4",
+         number="2",
+         pages="e20975",
+         keywords="bots; natural language processing; artificial intelligence; Reddit, medical misinformation; health misinformation; detecting misinformation; dermatology; misinformation",
+         abstract="Background: Reddit, the fifth most popular website in the United States, boasts a large and engaged user base on its dermatology forums where users crowdsource free medical opinions. Unfortunately, much of the advice provided is unvalidated and could lead to the provision of inappropriate care. Initial testing has revealed that artificially intelligent bots can detect misinformation regarding tanning and essential oils on Reddit dermatology forums and may be able to produce responses to posts containing misinformation. Objective: To analyze the ability of bots to find and respond to tanning and essential oil--related health misinformation on Reddit's dermatology forums in a controlled test environment. Methods: Using natural language processing techniques, we trained bots to target misinformation, using relevant keywords and to post prefabricated responses. By evaluating different model architectures across a held-out test set, we compared performances. Results: Our models yielded data test accuracies ranging 95{\%}-100{\%}, with a Bidirectional Encoder Representations from Transformers            (BERT) fine-tuned model resulting in the highest level of test accuracy. Bots were then able to post corrective prefabricated responses to misinformation in a test environment. Conclusions: Using a limited data set, bots accurately detected examples of health misinformation within Reddit dermatology forums. Given that these bots can then post prefabricated responses, this technique may allow for interception of misinformation. Providing correct information does not mean that users will be receptive or find such interventions persuasive. Further studies should investigate this strategy's effectiveness to inform future deployment of bots as a technique in combating health misinformation. ",
+         issn="2562-0959",
+         doi="10.2196/20975",
+         url="https://derma.jmir.org/2021/2/e20975",
+         url="https://doi.org/10.2196/20975"
+      }
+-
+   title: BiSECT&colon; Learning to Split and Rephrase Sentences with Bitexts
+   authors: Joongwon Kim, Mounica Maddela, Reno Kriz, Wei Xu, and Chris Callison-Burch
+   venue: EMNLP
+   type: paper
+   year: 2021
+   url: publications/bisect.pdf
+   page_count: 17
+   id: visual-goal-step-inference-using-wikihow
+   code: https://github.com/mounicam/BiSECT
+   data: https://github.com/mounicam/BiSECT/tree/main/bisect
+   abstract:  An important task in NLP applications such as sentence simplification is the ability to take a long, complex sentence and split it into shorter sentences, rephrasing as necessary.  We introduce a novel dataset and a new model for this `split and rephrase' task. Our BiSECT training data consists of 1 million long English sentences paired with shorter, meaning-equivalent English sentences. We obtain these by extracting 1-2 sentence alignments in bilingual parallel corpora and then using machine translation to convert both sides of the corpus into the same language. BiSECT contains higher quality training examples than previous Split and Rephrase corpora, with sentence splits that require more significant modifications. We categorize examples in our corpus, and use these categories in a novel model that allows us to target specific regions of the input sentence to be split and edited. Moreover, we show that models trained on BiSECT can perform a wider variety of split operations and improve upon previous state-of-the-art approaches in automatic and human evaluations.
+   bibtex: |
+      @inproceedings{kim-maddela-et-al-2021,
+        title={{BiSECT}: Learning to Split and Rephrase Sentences with Bitexts,
+      author={Joongwon Kim and Mounica Maddela and Reno Kriz and Wei Xu and Chris Callison-Burch},
+        booktitle={Proceedings of The 2021 Conference on Empirical Methods In Natural Language Proceedings (EMNLP)},
+        year={2021},
+        url={http://www.cis.upenn.edu/~ccb/publications/bisect.pdf}
+      }
+-
+   title: GooAQ 🥑&colon; Open Question Answering with Diverse Answer Types
+   authors: Daniel Khashabi, Amos Ng, Tushar Khot, Ashish Sabharwal, Hannaneh Hajishirzi, Chris Callison-Burch
+   venue: Findings of EMNLP
+   type: paper
+   year: 2021
+   url: publications/GooAQ.pdf
+   page_count: 13
    id: GooAQ
    data: https://github.com/allenai/gooaq
    abstract: While day-to-day questions come with a variety of answer types, the current question-answering (QA) literature has failed to adequately address the answer diversity of questions. To this end, we present GooAQ, a large-scale dataset with a variety of answer types. This dataset contains over 5 million questions and 3 million answers collected from Google. GooAQ questions are collected semi-automatically from the Google search engine using its autocomplete feature. This results in naturalistic questions of practical interest that are nonetheless short and expressed using simple language. GooAQ answers are mined from Google's responses to our collected questions, specifically from the answer boxes in the search results. This yields a rich space of answer types, containing both textual answers (short and long) as well as more structured ones such as collections. We benchmarkT5 models on GooAQ and observe that (a) in line with recent work, LM's strong performance on GooAQ's short-answer questions heavily benefit from annotated data; however, (b) their quality in generating coherent and accurate responses for questions requiring long responses (such as 'how' and 'why' questions) is less reliant on observing annotated data and mainly supported by their pre-training. We release GooAQ to facilitate further research on improving QA with diverse response types
    bibtex: |
-      @article{khashabi2021gooaq,
+      @inproceedings{khashabi2021gooaq,
         title={GooAQ: Open Question Answering with Diverse Answer Types},
         author={Khashabi, Daniel and Ng, Amos and Khot, Tushar and Sabharwal, Ashish and Hajishirzi, Hannaneh and Callison-Burch, Chris},
-        journal={arXiv preprint arXiv:2104.08727},
-        year={2021}
+        booktitle={Proceedings of The 2021 Conference on Empirical Methods In Natural Language Proceedings (EMNLP)},
+        year={2021},
+        url={http://www.cis.upenn.edu/~ccb/publications/GooAQ.pdf}
       }
 -
-   title: Wikily Neural Machine Translation Tailored to Cross-Lingual Tasks
+   title: Wikily Supervised Neural Translation Tailored to Cross-Lingual Tasks
    authors: Mohammad Sadegh Rasooli, Chris Callison-Burch, Derry Wijaya
-   venue: arXiv
-   type: preprint
+   venue: EMNLP
+   type: paper
    year: 2021
-   url: https://arXiv.org/abs/2104.08384
+   url: publications/wikily-supervised-translation.pdf
    page_count: 16
-   id: Wikily-Neural-Machine-Translation
+   id: wikily-supervised-translation
    code: https://github.com/rasoolims/ImageTranslate
    abstract:  We present a simple but effective approach for leveraging Wikipedia for neural machine translation as well as cross-lingual tasks of image captioning and dependency parsing without using any direct supervision from external parallel data or supervised models in the target language. We show that first sentences and titles of linked Wikipedia pages, as well as cross-lingual image captions, are strong signals for a seed parallel data to extract bilingual dictionaries and cross-lingual word embeddings for mining parallel text from Wikipedia. Our final model achieves high BLEU scores that are close to or sometimes higher than strong supervised baselines in low-resource languages; e.g. supervised BLEU of 4.0 versus 12.1 from our model in English-to-Kazakh. Moreover, we tailor our wikily translation models to unsupervised image captioning and cross-lingual dependency parser transfer. In image captioning, we train a multi-tasking machine translation and image captioning pipeline for Arabic and English from which the Arabic training data is a wikily translation of the English captioning data. Our captioning results in Arabic are slightly better than that of its supervised model. In dependency parsing, we translate a large amount of monolingual text, and use it as an artificial training data in an annotation projection framework. We show that our model outperforms recent work on cross-lingual transfer of dependency parsers.
    bibtex: |
-      @article{rasooli2021wikily,
-        title={" Wikily" Neural Machine Translation Tailored to Cross-Lingual Tasks},
+      @inproceedings{rasooli2021wikily,
+        title={``Wikily'' Supervised Neural Translation Tailored to Cross-Lingual Tasks},
         author={Rasooli, Mohammad Sadegh and Callison-Burch, Chris and Wijaya, Derry Tanti},
-        journal={arXiv preprint arXiv:2104.08384},
-        year={2021}
+        booktitle={Proceedings of The 2021 Conference on Empirical Methods In Natural Language Proceedings (EMNLP)},
+        year={2021},
+        url={http://www.cis.upenn.edu/~ccb/publications/wikily-supervised-translation.pdf}
       }
 -
    title: Visual Goal-Step Inference using wikiHow
    authors: Yue Yang, Artemis Panagopoulou, Qing Lyu, Li Zhang, Mark Yatskar, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
+   venue: EMNLP
+   type: paper
    year: 2021
-   url: https://arxiv.org/abs/2104.05845
-   page_count: 10
+   url: publications/visual-goal-step-inference-using-wikihow.pdf
+   page_count: 13
    id: visual-goal-step-inference-using-wikihow
    abstract:  Procedural events can often be thought of as a high level goal composed of a sequence of steps. Inferring the sub-sequence of steps of a goal can help artificial intelligence systems reason about human activities. Past work in NLP has examined the task of goal-step inference for text. We introduce the visual analogue. We propose the Visual Goal-Step Inference (VGSI) task where a model is given a textual goal and must choose a plausible step towards that goal from among four candidate images. Our task is challenging for state-of-the-art muitimodal models. We introduce a novel dataset harvested from wikiHow that consists of 772,294 images representing human actions. We show that the knowledge learned from our data can effectively transfer to other datasets like HowTo100M, increasing the multiple-choice accuracy by 15% to 20%. Our task will facilitate multi-modal reasoning about procedural events.
    bibtex: |
-      @article{yang2021visual,
-        title={Visual Goal-Step Inference using wikiHow},
+      @inproceedings{yang2021visual,
+        title={Visual Goal-Step Inference using {wikiHow},
         author={Yang, Yue and Panagopoulou, Artemis and Lyu, Qing and Zhang, Li and Yatskar, Mark and Callison-Burch, Chris},
-        journal={arXiv preprint arXiv:2104.05845},
-        year={2021}
+        booktitle={Proceedings of The 2021 Conference on Empirical Methods In Natural Language Proceedings (EMNLP)},
+        year={2021},
+        url={http://www.cis.upenn.edu/~ccb/publications/visual-goal-step-inference-using-wikihow.pdf}
       }
 -
    title: Goal-Oriented Script Construction
@@ -78,7 +161,7 @@
    url: publications/goal-oriented-script-construction.pdf
    page_count: 17
    id: goal-oriented-script-construction
-   data: 
+   data: https://github.com/veronica320/wikihow-GOSC
    abstract: The knowledge of scripts, common chains of events in stereotypical scenarios, is a valuable asset for task-oriented natural language understanding systems. We propose the GoalOriented Script Construction task, where a model produces a sequence of steps to accomplish a given goal. We pilot our task on the first multilingual script learning dataset supporting 18 languages collected from wikiHow, a website containing half a million how-to articles. For baselines, we consider both a generation0based approach using a language model and a retrieval-based approach by first retrieving the relevant steps from a large candidate pool and then ordering them. We show that our task is practical, feasible but challenging for state-of-the-art Transformer models, and that our methods can be readily deployed for various other datasets and domains with decent zero-shot performance.
    bibtex: |
       @inproceedings{Lyu-et-al:2021,
@@ -91,7 +174,7 @@
 -
    title: TopGuNN&colon; Fast NLP Training Data Augmentation using Large Corpora
    authors: Rebecca Iglesias-Flores, Megha Mishra, Ajay Patel, Akanksha Malhotra, Reno Kriz, Martha Palmer and Chris Callison-Burch
-   venue: NAACL
+   venue: Workshop on Data Science with Human in the Loop 
    type: workshop
    year: 2021
    url: publications/TopGuNN-system.pdf
@@ -133,6 +216,7 @@
    type: conference
    year: 2021
    url: publications/cultural-and-geographical-influences-on-image-translatability-of-words-across-languages.pdf
+   code: https://github.com/nikzadkhani/MMID-CNN-Analysis
    page_count: 12
    id: cultural-and-geographical-influences-on-image-translatability-of-words-across-languages
    abstract: Neural Machine Translation (NMT) models have been observed to produce poor translations when there are few/no parallel sentences to train the models. In the absence of parallel data, several approaches have turned to the use of images to learn translations. Since images of words, e.g., *horse* may be unchanged across languages, translations can be identified via images associated with words in different languages that have a high degree of visual similarity. However, translating via images has been shown to improve upon text-only models only marginally. To better understand *when* images are useful for translation, we study *image translatability* of words, which we define as the translatability of words via images, by measuring intra- and inter-cluster similarities of image representations of words that are translations of each other. We find that images of words are not always invariant across languages, and that similarities of image representations of words that are translations of each other. We find that a language pairs with shared culture, meaning having either a common language family, ethnicity or religion, have improved image translatability (i.e., have more similar images for similar words) compared to its converse regardless of their geographic proximity. In addition, in line with previous works that show images help more in translating concrete words, we found that concrete words have improved image translatability compared to abstract ones.
@@ -246,6 +330,8 @@
    type: demo
    year: 2020
    url: publications/roft-demo.pdf
+   code: https://github.com/kirubarajan/roft
+   website: https://roft.io
    page_count: 7
    id: roft-demo
    abstract: In recent years, large neural networks for natural language generation (NLG) have made leaps and bounds in their ability to generate fluent text. However, the tasks of evaluating quality differences between NLG systems and understanding how humans perceive the generated text remain both crucial and difficult. In this system demonstration, we present Real or Fake Text (RoFT), a website that tackles both of these challenges by inviting users to try their hand at detecting machine-generated text in a variety of domains. We introduce a novel evaluation task based on detecting the boundary at which a text passage that starts off human-written transitions to being machine-generated. We show preliminary results of using RoFT to evaluate detection of machine-generated news articles.
@@ -300,6 +386,7 @@
    type: conference
    year: 2020
    url: publications/toward-better-storylines-with-sentence-level-language-models.pdf
+   code: https://github.com/google-research/google-research/tree/master/better_storylines
    page_count: 7
    id: toward-better-storylines-with-sentence-level-language-models
    abstract: We propose a sentence-level language model which selects the next sentence in a story from a finite set of fluent alternatives. Since it does not need to model fluency, the sentence-level language model can focus on longer range dependencies, which are crucial for multi-sentence coherence. Rather than dealing with individual words, our method treats the story so far as a list of pre-trained sentence embeddings and predicts an embedding for the next sentence, which is more efficient than predicting word embeddings. Notably this allows us to consider a large number of candidates for the next sentence during training. We demonstrate the effectiveness of our approach with state-of-the-art accuracy on the unsupervised Story Cloze task and with promising results on larger-scale next sentence prediction tasks.
@@ -388,6 +475,8 @@
    type: journal
    year: 2019
    url: publications/paraphrase-sense-tagged-sentences.pdf
+   website: http://www.psts.io
+   data: https://github.com/acocos/paraphrase-sense-tagged-sentences
    page_count: 15
    id: paraphrase-sense-tagged-sentences
    abstract: Many natural language processing tasks require discriminating the particular meaning of a word in context, but building corpora for developing sense-aware models can be a challenge. We present a large resource of example usages for words having a particular meaning, called Paraphrase-Sense Tagged Sentences (PSTS). Built upon the premise that a word's paraphrases instantiate its fine-grained meanings – i.e. bug has different meanings corresponding to its paraphrases fly and microbe – the resource contains up to 10,000 sentences for each of 3 million target-paraphrase pairs where the target word takes on the meaning of the paraphrase. We describe an automatic method based on bilingual pivoting used to enumerate sentences for PSTS, and present two models for ranking PSTS sentences based on their quality. Finally, we demonstrate the utility of PSTS by using it to build a dataset for the task of hypernym prediction in context. Training a model on this automatically-generated dataset produces accuracy that is competitive with a model trained on smaller datasets crafted with some manual effort.
@@ -408,6 +497,7 @@
    type: demo
    year: 2019
    url: publications/perspectroscope-demo.pdf
+   code: https://github.com/CogComp/perspectroscope
    page_count: 6
    id: perspectroscope-demo
    abstract: This work presents PERSPECTROSCOPE, a web-based system which lets users query a discussion-worthy natural language claim, and extract and visualize various perspectives in support or against the claim, along with evidence supporting each perspective. The system thus lets users explore various perspectives that could touch upon aspects of the issue at hand. The system is built as a combination of retrieval engines and learned textualentailment-like classifiers built using a few recent developments in natural language understanding. To make the system more adaptive, expand its coverage, and improve its decisions over time, our platform employs various mechanisms to get corrections from the users. PERSPECTROSCOPE is available at github.com/CogComp/perspectroscope.  A brief video of the system is available at youtube.com/watch?v=MXBTR1Sp3Bs.
@@ -427,6 +517,7 @@
    type: conference
    year: 2019
    url: publications/comparison-of-diverse-decoding-methods-from-conditional-language-models.pdf
+   code: https://github.com/rekriz11/DeDiv
    page_count: 11
    id: comparison-of-diverse-decoding-methods-from-conditional-language-models
    abstract: While conditional language models have greatly improved in their ability to output high-quality natural language, many NLP applications benefit from being able to generate a diverse set of candidate sequences. Diverse decoding strategies aim to, within a given-sized candidate list, cover as much of the space of high-quality outputs as possible, leading to improvements for tasks that re-rank and combine candidate outputs. Standard decoding methods, such as beam search, optimize for generating high likelihood sequences rather than diverse ones, though recent work has focused on increasing diversity in these methods. In this work, we perform an extensive survey of decoding-time strategies for generating diverse outputs from conditional language models. We also show how diversity can be improved without sacrificing quality by oversampling additional candidates, then filtering to the desired number.
@@ -504,6 +595,7 @@
    type: conference
    year: 2019
    url: publications/discovering-diverse-perspectives.pdf
+   data: https://github.com/CogComp/perspectrum
    page_count: 16
    id: discovering-diverse-perspectives
    abstract: One key consequence of the information revolution is a significant increase and a contamination of our information supply. The practice of fact checking won’t suffice to eliminate the biases in text data we observe, as the degree of factuality alone does not determine whether biases exist in the spectrum of opinions visible to us. To better understand controversial issues, one needs to view them from a diverse yet comprehensive set of perspectives. For example, there are many ways to respond to a claim such as “animals should have lawful rights”, and these responses form a spectrum of perspectives, each with a stance relative to this claim and, ideally, with evidence supporting it. Inherently, this is a natural language understanding task, and we propose to address it as such. Specifically, we propose the task of substantiated perspective discovery where, given a claim, a system is expected to discover a diverse set of well-corroborated perspectives that take a stance with respect to the claim. Each perspective should be substantiated by evidence paragraphs which summarize pertinent results and facts. We construct PERSPECTRUM, a dataset of claims, perspectives and evidence, making use of online debate websites to create the initial data collection, and augmenting it using search engines in order to expand and diversify our dataset. We use crowdsourcing to filter out the noise and ensure high-quality data. Our dataset contains 1k claims, accompanied with pools of 10k and 8k perspective sentences and evidence paragraphs, respectively. We provide a thorough analysis of the dataset to highlight key underlying language understanding challenges, and show that human baselines across multiple subtasks far outperform machine baselines built upon state-of-the-art NLP techniques. This poses a challenge and opportunity for the NLP community to address.
@@ -524,6 +616,7 @@
    type: demo
    year: 2019
    url: publications/chateval-demo.pdf
+   website: https://chateval.org
    page_count: 6
    id: chateval-demo
    abstract: Open-domain dialog systems (i.e. chatbots) are difficult to evaluate. The current best practice for analyzing and comparing these dialog systems is the use of human judgments. However, the lack of standardization in evaluation procedures, and the fact that model parameters and code are rarely published hinder systematic human evaluation experiments. We introduce a unified framework for human evaluation of chatbots that augments existing tools and provides a web-based hub for researchers to share and compare their dialog systems. Researchers can submit their trained models to the ChatEval web interface and obtain comparisons with baselines and prior work. The evaluation code is open-source to ensure standardization and transparency. In addition, we introduce open-source baseline models and evaluation datasets. ChatEval can be found at chateval.org.
@@ -819,6 +912,8 @@
    type: demo
    year: 2017
    url: publications/know-your-nyms.pdf
+   code: https://github.com/rossmechanic/know_your_nyms/
+   website: https://www.know-your-nyms.com
    page_count: 6 
    id: know-your-nyms
    abstract: Semantic relation knowledge is crucial for natural language understanding. We introduce KnowYourNyms?, a web-based game for learning semantic relations. While providing users with an engaging experience, the application collects large amounts of data that can be used to improve semantic relation classifiers. The data also broadly informs us of how people perceive the relationships between words, providing useful insights for research in psychology and linguistics.
@@ -1055,6 +1150,7 @@
    type: conference
    year: 2016
    url: publications/compositional-entailment-in-adjective-nouns.pdf
+   data: http://www.seas.upenn.edu/~nlp/resources/AN-composition.tgz
    page_count: 11
    id: compositional-entailment-in-adjective-nouns
    abstract: We examine adjective-noun (AN) composition in the task of recognizing textual entailment (RTE). We analyze behavior of ANs in large corpora and show that, despite conventional wisdom, adjectives do not always restrict the denotation of the nouns they modify. We use natural logic to characterize the variety of entailment relations that can result from AN composition. Predicting these relations depends on context and on common-sense knowledge, making AN composition especially challenging for current RTE systems. We demonstrate the inability of current state-of-the-art systems to handle AN composition in a simplified RTE task which involves the insertion of only a single word.
@@ -1075,6 +1171,7 @@
    type: conference
    year: 2016
    url: publications/simple-ppdb.pdf
+   data: http://www.seas.upenn.edu/~nlp/resources/simple-ppdb.tgz
    page_count: 6
    id: simple-ppdb
    abstract: We release the Simple Paraphrase Database, a subset of of the Paraphrase Database (PPDB) adapted for the task of text simplification. We train a supervised model to associate simplification scores with each phrase pair, producing rankings competitive with state-of-the-art lexical simplification models. Our new simplification database contains 4.4 million paraphrase rules, making it the largest available resource for lexical simplification.
@@ -1174,6 +1271,7 @@
    type: conference
    year: 2015
    url: publications/adding-semantics-to-data-driven-paraphrasing.pdf
+   data: http://cs.brown.edu/people/epavlick/resources/natlog-labeled-rte-pairs.gz
    page_count: 10
    id: adding-semantics-to-data-driven-paraphrasing
    figures:
@@ -1264,6 +1362,8 @@
    type: conference
    year: 2015
    url: publications/ppdb-reranking.pdf
+   data: http://www.seas.upenn.edu/~nlp/resources/ppdb-2.0-human-labels.tgz
+   website: http://paraphrase.org/
    page_count: 6
    id: ppdb-reranking
    abstract: We present a new release of the Paraphrase Database. PPDB 2.0 includes a discriminatively re-ranked set of paraphrases that achieve a higher correlation with human judgments than PPDB 1.0’s heuristic rankings. Each paraphrase pair in the database now also includes fine-grained entailment relations, word embedding similarities, and style annotations.
@@ -1304,6 +1404,7 @@
    type: conference
    year: 2015
    url: publications/FrameNetPlus.pdf
+   data: http://www.seas.upenn.edu/~nlp/resources/FN+.zip
    page_count: 6
    id: FrameNetPlus
    abstract: We increase the lexical coverage of FrameNet through automatic paraphrasing. We use crowdsourcing to manually filter out bad paraphrases in order to ensure a high-precision resource. Our expanded FrameNet contains an additional 22K lexical units, a 3-fold increase over the current FrameNet, and achieves 40% better coverage when evaluated in a practical setting on New York Times data.
@@ -1870,6 +1971,8 @@
    type: journal
    year: 2014
    url: publications/language-demographics-of-mechanical-turk.pdf
+   data: http://www.seas.upenn.edu/~nlp/resources/TACL-data-release/dictionaries.tar.gz
+   code: http://www.seas.upenn.edu/~nlp/resources/TACL-data-release/mturk-data.tar.gz
    page_count: 13
    id: language-demographics-of-mechanical-turk
    figures:
@@ -3069,6 +3172,7 @@
    venue: WMT
    type: workshop
    year: 2012
+   data: https://github.com/joshua-decoder/indian-parallel-corpora
    url: publications/constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing.pdf
    page_count: 9
    id: constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing
