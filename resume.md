@@ -46,7 +46,7 @@ active_tab: CV
   </tbody>
 </table>
 
-
+<!--
 <h2>Teaching</h2>
 
 <table class="table"> 
@@ -77,7 +77,7 @@ active_tab: CV
 
   </tbody>
 </table>
-
+-->
 
 <h2>Teaching Reviews at Penn</h2>
 Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
@@ -96,8 +96,8 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
        <td>{{course.term}} {{course.year}}</td>
        <td>{{course.title}} ({{course.number}})</td>
        <td>{{course.enrollment}}</td>
-       <td>{{course.course_rating | round: 1}}</td>
-       <td>{{course.instructor_rating | round: 1}}</td>
+       <td>{% if course.course_rating %}{{course.course_rating | round: 1}}{% endif %}</td>
+       <td>{% if course.instructor_rating %}{{course.instructor_rating | round: 1}}{% endif %}</td>
      </tr>
       {% endif %}
   {% endfor %}
@@ -281,25 +281,6 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 </ol>
 
 
-<h2>Thesis Committees</h2>
-
-<ol>
-    {% for student in site.data.thesis_committees %}
-<li>
-	{{ student.name }}, {{ student.institution }} 
-	{% if student.advisors contains ' and ' %}
-		(advisors: {{student.advisors}}),
-	{% else %}
-		(advisor: {{student.advisors}}),
-	{% endif %}
-	"{{ student.thesis_title }}", {{ student.graduation_date }}.
-</li>
-  {% endfor %}
-</ol>
-
-<h2>Undergraduate and Masters Advising</h2>
-
-
 <h3>Master's Theses Supervised</h3>
 
 
@@ -322,6 +303,30 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 </li>
   {% endfor %}
 </ol>
+
+
+
+<h2>Thesis Committees</h2>
+
+<ol>
+    {% for student in site.data.thesis_committees %}
+<li>
+	{{ student.name }}, {{ student.institution }} 
+	{% if student.advisors contains ' and ' %}
+		(advisors: {{student.advisors}}),
+	{% else %}
+		(advisor: {{student.advisors}}),
+	{% endif %}
+	"{{ student.thesis_title }}", {{ student.graduation_date }}.
+</li>
+  {% endfor %}
+</ol>
+
+
+
+<!--
+<h2>Undergraduate and Masters Advising</h2>
+
 
 <h3>Independent Studies and RAships </h3>
 
@@ -358,3 +363,4 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 {% endfor %}
 
   
+-->
