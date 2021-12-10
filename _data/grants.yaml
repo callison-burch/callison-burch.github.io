@@ -1,4 +1,14 @@
 -
+   title: KMASS&colon; Teachable Moments&colon; AI-enhanced Roleplay and Scenario Construction
+   awarding_body: DARPA
+   amount: $7.6m
+   start_date: 2022
+   end_date: 2025
+   status: rejected
+   PI_info: Chris Callison-Burch (PI), Carsten Eickhoff (Brown), Francis Ferraro and Tim Finin (UMBC), Kenneth Huang (Penn State), Mohit Iyyer (UMass Amherst), Alan Ritter and Wei Xu (Geogia Tech), João Sedoc (NYU), Zhou Yu (Columbia University)
+   url: 
+   abstract: 
+-
    title: Alexa Prize TaskBot Challenge
    awarding_body: Amazon
    amount: $250k
@@ -25,7 +35,7 @@
    amount: $8m
    start_date: 2021
    end_date: 2025
-   status: pending
+   status: rejected
    PI_info: Chris Callison-Burch (PI), Christoffer Heckman (Colorado), Heng Ji (UIUC), Katharina Kann (Colorado), Eleni Miltsakaki (UPenn), Martha Palmer (Colorado), Alessandro Roncone (Colorado), João Sedoc (NYU), Vivek Srikumar (Utah), Danielle Szafir (Colorado), Daniel Szafir (Colorado), Xiaolong Wang (UCSD), Mark Yatskar (UPenn)
    url: 
    abstract: 
