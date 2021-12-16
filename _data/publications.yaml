@@ -18,24 +18,6 @@
         year={2021}
       }
 -
-   title: SynthBio&colon; A Case Study in Human-AI Collaborative Curation of Text Datasets
-   authors: Ann Yuan, Daphne Ippolito, Vitaly Nikolaev, Chris Callison-Burch, Andy Coenen, and Sebastian Gehrmann
-   venue: arXiv
-   type: preprint
-   year: 2021
-   url: https://arxiv.org/abs/2111.06467
-   page_count: 10
-   id: synthbio
-   data: https://storage.googleapis.com/gem-benchmark/SynthBio.json
-   abstract: NLP researchers need more, higher-quality text datasets. Human-labeled datasets are expensive to collect, while datasets collected via automatic retrieval from the web such as WikiBio are noisy and can include undesired biases. Moreover, data sourced from the web is often included in datasets used to pretrain models, leading to inadvertent cross-contamination of training and test sets. In this work we introduce a novel method for efficient dataset curation&colon; we use a large language model to provide seed generations to human raters, thereby changing dataset authoring from a writing task to an editing task. We use our method to curate SynthBio - a new evaluation set for WikiBio - composed of structured attribute lists describing fictional individuals, mapped to natural language biographies. We show that our dataset of fictional biographies is less noisy than WikiBio, and also more balanced with respect to gender and nationality.
-   bibtex: |
-      @article{Yuan2021SynthBio,
-        title={SynthBio: A Case Study in Human-AI Collaborative Curation of Text Datasets},
-        author={Ann Yuan and Daphne Ippolito and Vitaly Nikolaev and Chris Callison-Burch and Andy Coenen and Sebastian Gehrmann},
-        journal={arXiv preprint arXiv:2111.06467},
-        year={2021}
-      }
--
    title: Deduplicating Training Data Makes Language Models Better
    authors: Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini 
    venue: arXiv
@@ -51,6 +33,24 @@
         title={Deduplicating Training Data Makes Language Models Better},
         author={Lee, Katherine and Ippolito, Daphne and Nystrom, Andrew and Zhang, Chiyuan and Eck, Douglas and Callison-Burch, Chris and Carlini, Nicholas},
         journal={arXiv preprint arXiv:2107.06499},
+        year={2021}
+      }
+-
+   title: SynthBio&colon; A Case Study in Human-AI Collaborative Curation of Text Datasets
+   authors: Ann Yuan, Daphne Ippolito, Vitaly Nikolaev, Chris Callison-Burch, Andy Coenen, and Sebastian Gehrmann
+   venue: NeurIPS 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.
+   type: conference
+   year: 2021
+   url: publications/synthbio.pdf
+   page_count: 24
+   id: synthbio
+   data: https://storage.googleapis.com/gem-benchmark/SynthBio.json
+   abstract: NLP researchers need more, higher-quality text datasets. Human-labeled datasets are expensive to collect, while datasets collected via automatic retrieval from the web such as WikiBio are noisy and can include undesired biases. Moreover, data sourced from the web is often included in datasets used to pretrain models, leading to inadvertent cross-contamination of training and test sets. In this work we introduce a novel method for efficient dataset curation&colon; we use a large language model to provide seed generations to human raters, thereby changing dataset authoring from a writing task to an editing task. We use our method to curate SynthBio - a new evaluation set for WikiBio - composed of structured attribute lists describing fictional individuals, mapped to natural language biographies. We show that our dataset of fictional biographies is less noisy than WikiBio, and also more balanced with respect to gender and nationality.
+   bibtex: |
+      @inproceedings{Yuan2021SynthBio,
+        title={{SynthBio}: A Case Study in Human-{AI} Collaborative Curation of Text Datasets},
+        author={Ann Yuan and Daphne Ippolito and Vitaly Nikolaev and Chris Callison-Burch and Andy Coenen and Sebastian Gehrmann},
+        booktitle={35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.},
         year={2021}
       }
 -
