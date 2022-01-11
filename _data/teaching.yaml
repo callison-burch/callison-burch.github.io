@@ -1,4 +1,15 @@
 -
+   title: Interactive Fiction and Text Generation
+   number: CIS 700-001
+   co-instructor: Lara Martin
+   institution: University of Pennsylvania
+   term: Spring
+   year: 2022
+   url: http://interactive-fiction-class.org
+   enrollment: 50
+   instructor_rating: 
+   course_rating: 
+-
    title: Artificial Intelligence
    number: CIS 421/521
    institution: University of Pennsylvania
@@ -7,8 +18,8 @@
    description: 
    url: http://artificial-intelligence-class.org/
    enrollment: 570
-   instructor_rating: 
-   course_rating: 
+   instructor_rating: 3.4
+   course_rating: 3.18
 -
    title: Artificial Intelligence
    number: CIS 521 - MCIT Online
