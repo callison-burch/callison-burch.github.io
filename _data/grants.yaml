@@ -1,4 +1,24 @@
 -
+   title: Semi-supervised Learning of Multimodal Representations
+   awarding_body: DARPA 
+   amount: $428k
+   start_date: 2019
+   end_date: 2022
+   status: past
+   PI_info: Chris Callison-Burch (PI-UPenn) and Derry Wijaya (Boston University)
+   url: 
+   abstract: Systems that process text and image can link semantic and real-world knowledge and make better inferences about object-word connections even when linguistic evidence is scarce. Most current multimodal systems are supervised and thus limited to recognizing objects represented in hand-crafted image databases. Starting with knowledge of the mapping between texts and images in existing image databases, we propose a semi-supervised model that can dynamically update and extend this knowledge as it encounters images of new objects. The model will combine learning from both images and captions using matrix completion, and will infer object collocations in images from word collocations in their captions. The model will acquire large-scale vision-to-language mappings that will dynamically update and extend the coverage of existing image databases.
+-
+   title: STTR&colon; Personalized Retrieval-based Simplification
+   awarding_body: NSF
+   amount: $225k
+   start_date: 2019
+   end_date: 2021
+   status: past
+   PI_info: Eleni Miltsakaki (Choosito.com) - PI, Chris Callison-Burch
+   url: https://www.nsf.gov/pubs/2017/nsf17595/nsf17595.htm
+   abstract: 
+-
    title: KMASS&colon; Teachable Moments&colon; AI-enhanced Roleplay and Scenario Construction
    awarding_body: DARPA
    amount: $7.6m
@@ -155,26 +175,6 @@
    PI_info: Dan Roth - PI, Zack Ives, Chris Callison-Burch, and Lyle Ungar
    url: https://www.grants.gov/web/grants/view-opportunity.html?oppId=302053
    abstract: In the next decade, intelligence analysts will need to monitor a huge number of events and entities, formulate, and evaluate hypotheses with respect to them. Analysts must interact, at the appropriate level of semantic abstraction, with systems that can synthesize, summarize and interpret vast amounts of multimodal and multilingual information, integrate observed data with domain models and background information in multiple formats, propose hypotheses, and help verify them.      Developing an understanding of a situation involves identifying, classifying, and integrating information about evolving events and other propositions identified in media streams, grounding them in existing resources and past situations, and providing ways to entertain hypotheses, and develop “what if” scenarios.  It also necessitates understanding the sources of the information, that are now more diverse than ever, in deeper ways that we considered before.      Revolutionizing the way textual and visual information streams are being analyzed, represented and synthesized requires a broad range of technical expertise, in machine learning and deep learning, in knowledge representation and reasoning and in natural language processing. And it requires extensive computational resources to support developing new insights and new algorithmic methods, and new technologies in these areas.       Most of the research described in this proposal is driven by machine learning methods and, specifically, by deep learning methods. There is a need to significantly augment the computational infrastructure to include clusters of GPUs and in order to support this research, and the computational needs go beyond those that can be supported by a single funded project.  Our proposal will support modernizing the computational infrastructure of the Data Science group at the Computer and Information Science Department at the University of Pennsylvania. Members of this group have already made long lasting and significant contributions in all these areas, and a significant increase in the infrastructure, as needed to support current deep learning and optimization methods is essential to continuing and amplifying these contributions.       At the same time, this infrastructure will support the education of a large number of research, PhD and MS, students and their preparation to careers in industry and DoD.      Members of our team have experience developing software packages that have been made available and used extensively by the research community; the new infrastructure will allow us to continue this tradition and make our algorithmic contributions and learning and natural language processing tools available. 
--
-   title: Semi-supervised Learning of Multimodal Representations
-   awarding_body: DARPA 
-   amount: $428k
-   start_date: 2019
-   end_date: 2022
-   status: current
-   PI_info: Chris Callison-Burch (PI-UPenn) and Derry Wijaya (Boston University)
-   url: 
-   abstract: Systems that process text and image can link semantic and real-world knowledge and make better inferences about object-word connections even when linguistic evidence is scarce. Most current multimodal systems are supervised and thus limited to recognizing objects represented in hand-crafted image databases. Starting with knowledge of the mapping between texts and images in existing image databases, we propose a semi-supervised model that can dynamically update and extend this knowledge as it encounters images of new objects. The model will combine learning from both images and captions using matrix completion, and will infer object collocations in images from word collocations in their captions. The model will acquire large-scale vision-to-language mappings that will dynamically update and extend the coverage of existing image databases.
--
-   title: STTR&colon; Personalized Retrieval-based Simplification
-   awarding_body: NSF
-   amount: $225k
-   start_date: 2019
-   end_date: 2021
-   status: past
-   PI_info: Eleni Miltsakaki (Choosito.com) - PI, Chris Callison-Burch
-   url: https://www.nsf.gov/pubs/2017/nsf17595/nsf17595.htm
-   abstract: 
 -
    title: Learning to Reason with Learned Models and Domain Knowledge
    awarding_body: ONR
