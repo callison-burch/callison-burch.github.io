@@ -4,8 +4,7 @@ layout: default
 img: womens_march_cropped
 img_link: assets/img/womens_march.jpg
 caption: |
- <b>Pandemic Office:</b> International Space Station<br />
- <b>Office Hours (Spring 2021):</b> My office hours are Wednesdays from 3pm-4:30pm Eastern on  <a href="https://ohq.io/courses/204">OHQ.io</a>.<br />
+ <b>Office Hours (Spring 2022):</b> My office hours are Mondays from 3pm-4pm Eastern  <a href="https://upenn.zoom.us/j/92208692872?pwd=aFFlZlhpc09RZmR1c0RhRW5xcTBlUT09">via Zoom</a>.<br />
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
