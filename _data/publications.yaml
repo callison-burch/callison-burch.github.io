@@ -1,4 +1,83 @@
 -
+   title: A Recipe For Arbitrary Text Style Transfer with Large Language Models
+   authors: Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, Jason Wei
+   venue: ACL
+   type: conference
+   year: 2022
+   website: https://bit.ly/3fLDuci
+   url: https://arxiv.org/abs/2109.03910
+   page_count: 12
+   id: zero-shot-arbitrary-text-style-transfer
+   data: 
+   abstract: In this paper, we leverage large language models (LMs) to perform zero-shot text style transfer. We present a prompting method that we call augmented zero-shot learning, which frames style transfer as a sentence rewriting task and requires only a natural language instruction, without model fine-tuning or exemplars in the target style. Augmented zero-shot learning is simple and demonstrates promising results not just on standard style transfer tasks such as sentiment, but also on arbitrary transformations such as "make this melodramatic" or "insert a metaphor."
+   bibtex: |
+      @inproceedings{Reif2022-style-transfer,
+        title={A Recipe For Arbitrary Text Style Transfer with Large Language Models},
+        author={Emily Reif and Daphne Ippolito and Ann Yuan and Andy Coenen and Chris Callison-Burch and Jason Wei},
+        booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
+        address={Dublin, Ireland}
+        year={2022}
+      }
+-
+   title: Deduplicating Training Data Makes Language Models Better
+   authors: Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini 
+   venue: ACL
+   type: conference
+   year: 2022
+   url: https://arXiv.org/abs/2107.06499
+   page_count: 20
+   id: deduplicating-training-data
+   data: https://github.com/google-research/deduplicate-text-datasets
+   abstract: We find that existing language modeling datasets contain many near-duplicate examples and long repetitive substrings. As a result, over 1% of the unprompted output of language models trained on these datasets is copied verbatim from the training data. We develop two tools that allow us to deduplicate training datasets -- for example removing from C4 a single 61 word English sentence that is repeated over 60,000 times. Deduplication allows us to train models that emit memorized text ten times less frequently and require fewer train steps to achieve the same or better accuracy. We can also reduce train-test overlap, which affects over 4% of the validation set of standard datasets, thus allowing for more accurate evaluation. We release code for reproducing our work and performing dataset deduplication at https://github.com/google-research/deduplicate-text-datasets
+   bibtex: |
+      @inproceedings{lee2022deduplicating,
+        title={Deduplicating Training Data Makes Language Models Better},
+        author={Lee, Katherine and Ippolito, Daphne and Nystrom, Andrew and Zhang, Chiyuan and Eck, Douglas and Callison-Burch, Chris and Carlini, Nicholas},
+        booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
+        address={Dublin, Ireland}
+        year={2022}
+      }
+-
+   title: Show Me More Details&colon; Discovering Hierarchies of Procedures from Semi-structured Web Data
+   authors: Shuyan Zhou, Li Zhang, Yue Yang, Qing Lyu, Ricardo Gonzalez, Pengcheng Yin, Chris Callison-Burch, Graham Neubig
+   venue: ACL
+   type: conference
+   year: 2022
+   website:
+   url:
+   page_count:
+   id: wikihow-hierarchies
+   data: 
+   abstract: Procedures are inherently hierarchical. To host a party, one may need to clean the house, which in turn may require putting away the clothes. While such hierarchical knowledge is critical for reasoning about complex procedures, most existing works treat procedures as shallow structures without modeling the hierarchical dependency between them. In this work, we attempt to construct an open-domain hierarchical knowledge-base (KB) of procedures based on wikiHow, a website containing more than 110k instructional articles, each documenting the steps to accomplish a complex procedure. To this end, we develop a simple and efficient method that links  steps (e.g. clean the house) in an article to other articles with similar intents (e.g. how to deep clean your house), which proceeds recursively to form the KB. Our method significantly outperforms several strong baselines according to automatic evaluation, human judgment, and application to downstream tasks such as instructional video retrieval.
+   bibtex: |
+      @inproceedings{Zhou-Zhang-et-al-2022-wikihow-hierarchies,
+        title={Show Me More Details: Discovering Hierarchies of Procedures from Semi-structured Web Data},
+        author={Shuyan Zhou and Li Zhang and Yue Yang and Qing Lyu and Ricardo Gonzalez and Pengcheng Yin and Chris Callison-Burch and Graham Neubig},
+        booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
+        address={Dublin, Ireland}
+        year={2022}
+      }
+-
+   title: A Feasibility Study of Answer-Unaware Question Generation for Education
+   authors: Liam Dugan, Eleni Miltsakaki, Etan Ginsberg, Shriyash Upadhyay, Hannah Gonzalez, Dahyeon Choi, Chuning Yuan, Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2022
+   website:
+   url:
+   page_count:
+   id: smart-textbook-feasibility-study
+   data: 
+   abstract: We conduct a feasibility study into the applicability of *answer-unaware* question generation models to textbook passages. We show that a significant portion of errors in such systems arise from asking irrelevant or un-interpretable questions and that such errors can be ameliorated by providing summarized input. We find that giving these models human-written summaries instead of the original text results in a significant increase in acceptability of generated questions (33% to 83%) as determined by expert annotators. We also find that, in the absence of human-written summaries, automatic summarization can serve as a good middle ground.
+   bibtex: |
+      @inproceedings{Dugan-et-al-2022-feasibility-study,
+        title={A Feasibility Study of Answer-Unaware Question Generation for Education},
+        author={Liam Dugan and Eleni Miltsakaki and Etan Ginsberg and Shriyash Upadhyay and Hannah Gonzalez and Dahyeon Choi and Chuning Yuan and Chris Callison-Burch},
+        booktitle={Findings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
+        address={Dublin, Ireland}
+        year={2022}
+      }
+-
    title: Is "my favorite new movie" my favorite movie? Probing the Understanding of Recursive Noun Phrases
    authors: Qing Lyu, Hua Zheng, Daoxin Li, Li Zhang, Marianna Apidianaki, Chris Callison-Burch
    venue: arXiv
@@ -14,43 +93,6 @@
         title={Is "my favorite new movie" my favorite movie? Probing the Understanding of Recursive Noun Phrases},
         author={Qing Lyu and Hua Zheng and Daoxin Li and Li Zhang and Marianna Apidianaki and Chris Callison-Burch},
         journal={arXiv preprint arXiv:2112.08326},
-        year={2021}
-      }
--
-   title: A Recipe For Arbitrary Text Style Transfer with Large Language Models
-   authors: Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, Jason Wei
-   venue: arXiv
-   type: preprint
-   year: 2021
-   website: https://bit.ly/3fLDuci
-   url: https://arxiv.org/abs/2109.03910
-   page_count: 12
-   id: zero-shot-arbitrary-text-style-transfer
-   data: 
-   abstract: In this paper, we leverage large language models (LMs) to perform zero-shot text style transfer. We present a prompting method that we call augmented zero-shot learning, which frames style transfer as a sentence rewriting task and requires only a natural language instruction, without model fine-tuning or exemplars in the target style. Augmented zero-shot learning is simple and demonstrates promising results not just on standard style transfer tasks such as sentiment, but also on arbitrary transformations such as "make this melodramatic" or "insert a metaphor."
-   bibtex: |
-      @article{Reif2021-style-transfer,
-        title={A Recipe For Arbitrary Text Style Transfer with Large Language Models},
-        author={Emily Reif and Daphne Ippolito and Ann Yuan and Andy Coenen and Chris Callison-Burch and Jason Wei},
-        journal={arXiv preprint arXiv:2109.03910},
-        year={2021}
-      }
--
-   title: Deduplicating Training Data Makes Language Models Better
-   authors: Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini 
-   venue: arXiv
-   type: preprint
-   year: 2021
-   url: https://arXiv.org/abs/2107.06499
-   page_count: 20
-   id: deduplicating-training-data
-   data: https://github.com/google-research/deduplicate-text-datasets
-   abstract: We find that existing language modeling datasets contain many near-duplicate examples and long repetitive substrings. As a result, over 1% of the unprompted output of language models trained on these datasets is copied verbatim from the training data. We develop two tools that allow us to deduplicate training datasets -- for example removing from C4 a single 61 word English sentence that is repeated over 60,000 times. Deduplication allows us to train models that emit memorized text ten times less frequently and require fewer train steps to achieve the same or better accuracy. We can also reduce train-test overlap, which affects over 4% of the validation set of standard datasets, thus allowing for more accurate evaluation. We release code for reproducing our work and performing dataset deduplication at https://github.com/google-research/deduplicate-text-datasets
-   bibtex: |
-      @article{lee2021deduplicating,
-        title={Deduplicating Training Data Makes Language Models Better},
-        author={Lee, Katherine and Ippolito, Daphne and Nystrom, Andrew and Zhang, Chiyuan and Eck, Douglas and Callison-Burch, Chris and Carlini, Nicholas},
-        journal={arXiv preprint arXiv:2107.06499},
         year={2021}
       }
 -
