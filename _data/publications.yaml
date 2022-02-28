@@ -39,7 +39,7 @@
       }
 -
    title: Show Me More Details&colon; Discovering Hierarchies of Procedures from Semi-structured Web Data
-   authors: Shuyan Zhou, Li Zhang, Yue Yang, Qing Lyu, Ricardo Gonzalez, Pengcheng Yin, Chris Callison-Burch, Graham Neubig
+   authors: Shuyan Zhou, Li Zhang, Yue Yang, Qing Lyu, Pengcheng Yin, Chris Callison-Burch, Graham Neubig
    venue: ACL
    type: conference
    year: 2022
@@ -52,7 +52,7 @@
    bibtex: |
       @inproceedings{Zhou-Zhang-et-al-2022-wikihow-hierarchies,
         title={Show Me More Details: Discovering Hierarchies of Procedures from Semi-structured Web Data},
-        author={Shuyan Zhou and Li Zhang and Yue Yang and Qing Lyu and Ricardo Gonzalez and Pengcheng Yin and Chris Callison-Burch and Graham Neubig},
+        author={Shuyan Zhou and Li Zhang and Yue Yang and Qing Lyu and Pengcheng Yin and Chris Callison-Burch and Graham Neubig},
         booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
         address={Dublin, Ireland}
         year={2022}
