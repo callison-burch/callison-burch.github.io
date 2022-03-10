@@ -7,7 +7,7 @@ keep_sidebar: true
 
 # Artifical Intelligence for Avrae
 
-The University of Pennsylvania is collaborating with Fandom to create an Artifical Intelligence (AI) module that will translate language onto Avrae commands.  The project will attempt to improve the usability of Avrae.  The sceintific goal of the project is to improve AI's ability to understand language.
+The University of Pennsylvania is collaborating with Fandom to create an Artifical Intelligence (AI) module that will translate language onto Avrae commands.  The project will attempt to improve the usability of Avrae.  The scientific goal of the project is to improve AI's ability to understand language.
 
 ## What is the goal of this study?
 
@@ -24,7 +24,7 @@ The goal of the data collection effort is to build technology that can automatic
 | I cast fire bolt on the fourth zombie | `!cast "fire bolt" -t zo4` |
 
 
-The larger goal of this research is to improve artificial intelligence (AI) systems in order to make them better at understanding the meaning of language, and how language is used to represent facts about the world.   AI research has focused on studying games throughout its history.  Examples include chess playing AI systems like Deep Blue to IBM’s Watson system which participated in Jeopardy to DeepMind’s AlphaGo.  We believe that role playing games present an interesting challenge for AI because they are primarily played using language.  Advances to the ability of AI systems to be able to understand and play RPGs may lead to better smart speakers or digital assistants.
+The larger goal of this research is to improve artificial intelligence (AI) systems in order to make them better at understanding the meaning of language, and how language is used to represent facts about the world.   AI research has focused on studying games throughout its history. Notable achievements in game playing AI systems include Deep Blue which beat the world chess champion Garry Kasparov in 1997, IBM's Watson system which beat  Jeopardy! champions like Ken Jennings in 2011, and DeepMind's AlphaGo which beat the international Go champion Lee Sedol in 2016.   We believe that role playing games present an interesting challenge for AI because they are primarily played using language.  Advances to the ability of AI systems to be able to understand and play RPGs may lead to better smart speakers or digital assistants.
 
 If your roleplaying group uses Avrae, and if you are interested in participating in the study, we would love to have you participate!  Please read the information below to get started. 
  
