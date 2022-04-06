@@ -64,11 +64,11 @@
    type: conference
    year: 2022
    website:
-   url:
+   url: publications/smart-textbook-feasibility-study.pdf
    page_count:
    id: smart-textbook-feasibility-study
    data: 
-   abstract: We conduct a feasibility study into the applicability of *answer-unaware* question generation models to textbook passages. We show that a significant portion of errors in such systems arise from asking irrelevant or un-interpretable questions and that such errors can be ameliorated by providing summarized input. We find that giving these models human-written summaries instead of the original text results in a significant increase in acceptability of generated questions (33% to 83%) as determined by expert annotators. We also find that, in the absence of human-written summaries, automatic summarization can serve as a good middle ground.
+   abstract: We conduct a feasibility study into the applicability of  answer-agnostic question generation models to textbook passages. We show that a significant portion of errors in such systems arise from asking irrelevant or uninterpretable questions and that such errors can be ameliorated by providing summarized input. We find that giving these models human-written summaries instead of the original text results in a significant increase in acceptability of generated questions (33% to 83%) as determined by expert annotators. We also find that, in the absence of human-written summaries, automatic summarization can serve as a good middle ground.
    bibtex: |
       @inproceedings{Dugan-et-al-2022-feasibility-study,
         title={A Feasibility Study of Answer-Unaware Question Generation for Education},
