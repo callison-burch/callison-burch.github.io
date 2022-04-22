@@ -163,6 +163,9 @@
    year: 2021
    url: publications/bisect.pdf
    page_count: 17
+   award: Rose Undergraduate Research Award
+   note: The Rose Foundation generously funds the Rose Undergraduate Research Award recognizing outstanding undergraduate research projects completed by graduating seniors at the University of Pennsylvania under the supervision of a Penn faculty member. The Rose Fund is administered by the Center for Undergraduate Research and Fellowships, and awards are determined each year on a competitive basis.
+
    id: visual-goal-step-inference-using-wikihow
    code: https://github.com/mounicam/BiSECT
    data: https://github.com/mounicam/BiSECT/tree/main/bisect
