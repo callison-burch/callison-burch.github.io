@@ -1,4 +1,24 @@
 -
+   title: Is “My Favorite New Movie” My Favorite Movie? Probing the Understanding of Recursive Noun Phrases
+   authors: Qing Lyu, Hua Zheng, Daoxin Li, Li Zhang, Marianna Apidianaki, Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2022
+   url: publications/recursive-noun-phrases.pdf
+   page_count: 12
+   id: recursive-noun-phrases
+   data: https://github.com/veronica320/Recursive-NPs
+   code: https://github.com/veronica320/Recursive-NPs
+   abstract: Recursive noun phrases (NPs) have interesting semantic properties. For example, my favorite new movie is not necessarily my favorite movie, whereas my new favorite movie is. This is common sense to humans, yet it is unknown whether language models have such knowledge. We introduce the Recursive Noun Phrase Challenge (RNPC), a dataset of three textual inference tasks involving textual entailment and event plausibility comparison, precisely targeting the understanding of recursive NPs. When evaluated on RNPC, state-of-the-art Transformer models only perform around chance. Still, we show that such knowledge is learnable with appropriate data. We further probe the models for relevant linguistic features that can be learned from our tasks, including modifier semantic category and modifier scope. Finally, models trained on RNPC achieve strong zero-shot performance on an extrinsic Harm Detection evaluation task, showing the usefulness of the understanding of recursive NPs in downstream applications.
+   bibtex: |
+      @inproceedings{Lyu2022-NPs,
+        title={Is “My Favorite New Movie” My Favorite Movie? Probing the Understanding of Recursive Noun Phrases},
+        author={Qing Lyu and Hua Zheng and Daoxin Li and Li Zhang and Marianna Apidianaki and Chris Callison-Burch},
+        booktitle={Proceedings of the 2022 Annual Conference of the North American Chapter of the Association for Computational Linguistic (NAACL 2022)},
+        address={Seattle, Washington}
+        year={2022}
+      }
+-
    title: A Recipe For Arbitrary Text Style Transfer with Large Language Models
    authors: Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, Jason Wei
    venue: ACL
