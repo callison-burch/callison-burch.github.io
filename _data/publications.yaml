@@ -186,8 +186,6 @@
    page_count: 17
    award: Rose Undergraduate Research Award
    note: The Rose Foundation generously funds the Rose Undergraduate Research Award recognizing outstanding undergraduate research projects completed by graduating seniors at the University of Pennsylvania under the supervision of a Penn faculty member. The Rose Fund is administered by the Center for Undergraduate Research and Fellowships, and awards are determined each year on a competitive basis.
-
-   id: visual-goal-step-inference-using-wikihow
    code: https://github.com/mounicam/BiSECT
    data: https://github.com/mounicam/BiSECT/tree/main/bisect
    abstract:  An important task in NLP applications such as sentence simplification is the ability to take a long, complex sentence and split it into shorter sentences, rephrasing as necessary.  We introduce a novel dataset and a new model for this `split and rephrase' task. Our BiSECT training data consists of 1 million long English sentences paired with shorter, meaning-equivalent English sentences. We obtain these by extracting 1-2 sentence alignments in bilingual parallel corpora and then using machine translation to convert both sides of the corpus into the same language. BiSECT contains higher quality training examples than previous Split and Rephrase corpora, with sentence splits that require more significant modifications. We categorize examples in our corpus, and use these categories in a novel model that allows us to target specific regions of the input sentence to be split and edited. Moreover, we show that models trained on BiSECT can perform a wider variety of split operations and improve upon previous state-of-the-art approaches in automatic and human evaluations.
