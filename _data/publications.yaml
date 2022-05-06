@@ -63,11 +63,12 @@
    venue: ACL
    type: conference
    year: 2022
-   website:
-   url:
-   page_count:
+   website: https://wikihow-hierarchy.github.io/
+   url: publications/wikihow-hierarchies.pdf
+   page_count: 14
    id: wikihow-hierarchies
-   data: 
+   data: https://github.com/shuyanzhou/wikihow_hierarchy
+   code: https://github.com/shuyanzhou/wikihow_hierarchy
    abstract: Procedures are inherently hierarchical. To host a party, one may need to clean the house, which in turn may require putting away the clothes. While such hierarchical knowledge is critical for reasoning about complex procedures, most existing works treat procedures as shallow structures without modeling the hierarchical dependency between them. In this work, we attempt to construct an open-domain hierarchical knowledge-base (KB) of procedures based on wikiHow, a website containing more than 110k instructional articles, each documenting the steps to accomplish a complex procedure. To this end, we develop a simple and efficient method that links  steps (e.g. clean the house) in an article to other articles with similar intents (e.g. how to deep clean your house), which proceeds recursively to form the KB. Our method significantly outperforms several strong baselines according to automatic evaluation, human judgment, and application to downstream tasks such as instructional video retrieval.
    bibtex: |
       @inproceedings{Zhou-Zhang-et-al-2022-wikihow-hierarchies,
