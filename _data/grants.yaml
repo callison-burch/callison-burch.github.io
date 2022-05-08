@@ -1,4 +1,24 @@
 -
+   title: IARPA HIATUS&colon; PAUSIT&colon; Privacy protection and Authorship attribution Using Style-based Interpretable Transfer
+   awarding_body: IARPA
+   amount: $7m
+   start_date: 2022
+   end_date: 2026
+   status: pending
+   PI_info: Chris Callison-Burch - PI, Marianna Apidianaki, Kathleen McKeown (Columbia), Smaranda Muresan (Columbia), Owen Rambow (Stony Brook University), Niranjan Balasubramanian (Stony Brook University), Andy Schwartz (Stony Brook University)
+   url:
+   abstract: 
+-
+   title: RI&colon; Small&colon; LINGATTACK&colon; A Semantics-driven Adversarial Framework for Deep Learning Models
+   awarding_body: NSF
+   amount: $600k
+   start_date: 2022
+   end_date: 2026
+   status: pending
+   PI_info: Marianna Apidianaki - PI, Chris Callison-Burch
+   url:
+   abstract: 
+-
    title: Semi-supervised Learning of Multimodal Representations
    awarding_body: DARPA 
    amount: $428k
