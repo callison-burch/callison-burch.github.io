@@ -1,4 +1,24 @@
 -
+   title: The Case for a Single Model that can Both Generate Continuations and Fill-in-the-Blank
+   authors: Daphne Ippolito, Liam Dugan, Emily Reif, Ann Yuan, Andy Coenen, Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2022
+   url: publications/fill-in-the-blank-LMs.pdf
+   page_count: 12
+   id: fill-in-the-blank-LMs
+   data: 
+   code: 
+   abstract: The task of inserting text into a specified position in a passage, known as fill in the blank (FitB), is useful for a variety of applications where writers interact with a natural language generation (NLG) system to craft text. While previous work has tackled this problem with models trained specifically to do fill in the blank, a more useful model is one that can effectively perform both FitB and continuation tasks. In this work, we evaluate the feasibility of using a single model to do both tasks. We show that models pre-trained with a FitB-style objective are capable of both tasks, while models pre-trained for continuation are not. Finally, we show how these models can be easily finetuned to allow for fine-grained control over the length and word choice of the generation.
+   bibtex: |
+      @inproceedings{Ippolito-2022-fill-in-the-blank,
+        title={The Case for a Single Model that can Both Generate Continuations and Fill in the Blank},
+        author={Daphne Ippolito and Liam Dugan and Emily Reif and Ann Yuan and Andy Coenen and Chris Callison-Burch},
+        booktitle={Findings of the 2022 Annual Conference of the North American Chapter of the Association for Computational Linguistic (NAACL 2022)},
+        address={Seattle, Washington}
+        year={2022}
+      }
+-
    title: Is “My Favorite New Movie” My Favorite Movie? Probing the Understanding of Recursive Noun Phrases
    authors: Qing Lyu, Hua Zheng, Daoxin Li, Li Zhang, Marianna Apidianaki, Chris Callison-Burch
    venue: NAACL
