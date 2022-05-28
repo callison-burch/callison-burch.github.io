@@ -1,4 +1,27 @@
 -
+   title: Empathic Conversations&colon; A Multi-level Dataset of Contextualized Conversations
+   authors: Damilola Omitaomu, Shabnam Tafreshi, Tingting Liu, Sven Buechel, Chris Callison-Burch, Johannes Eichstaedt, Lyle Ungar, João Sedoc
+   venue: arXiv
+   type: preprint
+   year: 2022
+   url: https://arxiv.org/abs/2205.12698
+   page_count: 21
+   id: empathic-conversations
+   data: 
+   code: 
+   abstract: Empathy is a cognitive and emotional reaction to an observed situation of others. Empathy has recently attracted interest because it has numerous applications in psychology and AI, but it is unclear how different forms of empathy (e.g., self-report vs counterpart other-report, concern vs. distress) interact with other affective phenomena or demographics like gender and age. To better understand this, we created the {\it Empathic Conversations} dataset of annotated negative, empathy-eliciting dialogues in which pairs of participants converse about news articles. People differ in their perception of the empathy of others. These differences are associated with certain characteristics such as personality and demographics. Hence, we collected detailed characterization of the participants' traits, their self-reported empathetic response to news articles, their conversational partner other-report, and turn-by-turn third-party assessments of the level of self-disclosure, emotion, and empathy expressed. This dataset is the first to present empathy in multiple forms along with personal distress, emotion, personality characteristics, and person-level demographic information. We present baseline models for predicting some of these features from conversations.
+   bibtex: |
+      @misc{https://doi.org/10.48550/arxiv.2205.12698,
+        doi = {10.48550/ARXIV.2205.12698},
+        url = {https://arxiv.org/abs/2205.12698},
+        author = {Omitaomu, Damilola and Tafreshi, Shabnam and Liu, Tingting and Buechel, Sven and Callison-Burch, Chris and Eichstaedt, Johannes and Ungar, Lyle and Sedoc, João},
+        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {Empathic Conversations: A Multi-level Dataset of Contextualized Conversations},
+        publisher = {arXiv},
+        year = {2022},
+        copyright = {Creative Commons Attribution 4.0 International}
+      }
+-
    title: The Case for a Single Model that can Both Generate Continuations and Fill-in-the-Blank
    authors: Daphne Ippolito, Liam Dugan, Emily Reif, Ann Yuan, Andy Coenen, Chris Callison-Burch
    venue: NAACL
@@ -261,6 +284,8 @@
    venue: EMNLP
    type: paper
    year: 2021
+   data: https://github.com/YueYANG1996/wikiHow-VGSI
+   code: https://github.com/YueYANG1996/wikiHow-VGSI
    url: publications/visual-goal-step-inference-using-wikihow.pdf
    page_count: 13
    id: visual-goal-step-inference-using-wikihow
