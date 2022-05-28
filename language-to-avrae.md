@@ -7,7 +7,7 @@ keep_sidebar: true
 
 # Artifical Intelligence for Avrae
 
-The University of Pennsylvania is collaborating with Fandom to create an Artifical Intelligence (AI) module that will translate language onto Avrae commands.  The project will attempt to improve the usability of Avrae.  The scientific goal of the project is to improve AI's ability to understand language.
+The University of Pennsylvania is collaborating with Wizards of the Coast to create an Artifical Intelligence (AI) module that will translate language onto Avrae commands.  The project will attempt to improve the usability of Avrae.  The scientific goal of the project is to improve AI's ability to understand language.
 
 ## What is the goal of this study?
 
@@ -38,14 +38,14 @@ The following information will be recorded:
 This will allow us to track details about the combat including things like how hit points change over time.  It will also let us collect the text used before and after commands are issued to Avrae, so that we can associate the language used during roleplay with the game commands.
 Additionally, when Avrae detects that combat has begun or ends, it will also collect up to 25 additional messages before and after the combat, so that we can capture the roleplay text about how battles begin and end. 
 
-This data will be used by researchers at the University of Pennsylvania and by employees of Fandom (which owns Avrae).  It will be distributed to other researchers who study artificial intelligence. 
+This data will be used by researchers at the University of Pennsylvania and by employees of Wizards of the Coast (which owns Avrae).  It will be distributed to other researchers who study artificial intelligence. 
 
 ## How to Participate
 
 You can opt-in to contribute data to this project.  Participation is limited to people 18 years old and older.  Your discord server administrator can opt in through the server settings menu built in to Avrae.  Here are the steps that the admin should run to opt-in.  In the server settings menu:
 1. Run the `!servsettings` command
 2. Click on the "Miscellaneous Settings" button on the presented menu
-3. Review the project description, FANDOM Privacy Policy, and the informed consent documents from the University of Pennsylvania. 
+3. Review the project description, Wizards of the Coast [Privacy Policy](https://company.wizards.com/en/legal/wizards-coasts-privacy-policy) and [General Terms](https://company.wizards.com/en/legal/terms), and the informed consent documents from the University of Pennsylvania. 
 4. Click on "Toggle NLP Opt In" and ensure the "Contribute Message Data to Natural Language AI Training" setting is set to True
 
 To begin combat in a participating channel, a user can:
@@ -95,5 +95,5 @@ Note that after the data in this study has been released to other researchers, i
 If you have questions or concerns about this project, you may contact these people:
 
 1. Professor Chris Callison-Burch <ccb@upenn.edu> – Chris is the research lead on the project. He can be your first point of contact. 
-2. Andrew Zhu <azhu@fandom.com> – Andrew is the lead developer of the Avrae software and he wrote the software to collect the user interactions with Avrae for this study.
+2. Andrew Zhu <andrew.zhu@c.wizards.com> – Andrew is the lead developer of the Avrae software and he wrote the software to collect the user interactions with Avrae for this study.
 3. The Institutional Review Board (IRB) at the University of Pennsylvania <PROVOST-IRB@pobox.upenn.edu> – Oversees all scientific studies at the university that involve human participants to ensure that participants are treated fairly, and that researchers have put careful consideration into the tradeoff between potential harms and potential benefits of their studies.  
