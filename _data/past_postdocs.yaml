@@ -1,13 +1,11 @@
 -
    name: Mohammad Sadegh Rasooli 
-   homepage: 
-   degree: Postdoc
-   institution: University of Pennsylvania
+   homepage: https://www.linkedin.com/in/mohammad-sadegh-rasooli-b5993857/
    phd_from: Columbia University
    pic: mohammad_sadegh_rasooli.jpg
    postdoc_start: January 2020
    postdoc_end: July 2021
-   current_position: 
+   current_position: Senior Applied Scientist
    current_employer: Microsoft
    gender: male
 -
@@ -27,8 +25,8 @@
    pic: anietie_andy.jpg
    postdoc_start: January 2017
    postdoc_end: June 2018 
-   current_position: Senior Data Scientist
-   current_employer: Penn Medicine Center for Digital Health
+   current_position: Assistant Professor
+   current_employer: Howard University
    gender: male
 -
    name: Wei Xu
@@ -47,8 +45,8 @@
    phd_from: University of Rochester
    postdoc_start:
    postdoc_end:
-   current_position: Research Scientist
-   current_employer: Human Language Technology Center of Excellence
+   current_position: Researcher
+   current_employer: Microsoft Translator
    gender: male
 -
    name: Alex Klementiev
@@ -57,6 +55,6 @@
    phd_from: UIUC
    postdoc_start: November 2009  
    postdoc_end: July 2011
-   current_position: Senior Machine Learning Scientist
+   current_position: Principal Applied Scientist
    current_employer: Amazon
    gender: male
