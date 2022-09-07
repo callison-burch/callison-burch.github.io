@@ -122,7 +122,7 @@
         year={2022}
       }
 -
-   title: A Feasibility Study of Answer-Unaware Question Generation for Education
+   title: A Feasibility Study of Answer-Agnostic Question Generation for Education
    authors: Liam Dugan, Eleni Miltsakaki, Etan Ginsberg, Shriyash Upadhyay, Hannah Gonzalez, Dahyeon Choi, Chuning Yuan, Chris Callison-Burch
    venue: ACL
    type: conference
