@@ -45,7 +45,7 @@ This data will be used by researchers at the University of Pennsylvania and by e
 You can opt-in to contribute data to this project.  Participation is limited to people 18 years old and older.  Your discord server administrator can opt in through the server settings menu built in to Avrae.  Here are the steps that the admin should run to opt-in.  In the server settings menu:
 1. Run the `!servsettings` command
 2. Click on the "Miscellaneous Settings" button on the presented menu
-3. Review the project description, Wizards of the Coast [Privacy Policy](https://company.wizards.com/en/legal/wizards-coasts-privacy-policy) and [General Terms](https://company.wizards.com/en/legal/terms), and the informed consent documents from the University of Pennsylvania. 
+3. Review the project description, Wizards of the Coast [Privacy Policy](https://company.wizards.com/en/legal/wizards-coasts-privacy-policy) and [General Terms](https://company.wizards.com/en/legal/terms), and the informed consent documents from the University of Pennsylvania (this page). 
 4. Click on "Toggle NLP Opt In" and ensure the "Contribute Message Data to Natural Language AI Training" setting is set to True
 
 To begin combat in a participating channel, a user can:
