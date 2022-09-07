@@ -4,7 +4,7 @@ layout: default
 img: womens_march_cropped
 img_link: assets/img/womens_march.jpg
 caption: |
- <b>Office Hours (Summer 2022):</b> TBD <br />
+ <b>Office Hours (Fall 2022):</b> Thursdays from 2-4pm Eastern <a href="https://upenn.zoom.us/j/93855856768?pwd=RnpDUXNrMnRTWGgwUk9yV1hrQjNvQT09">via Zoom</a><br />
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
