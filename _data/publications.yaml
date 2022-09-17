@@ -142,6 +142,23 @@
         year={2022}
       }
 -
+   title: QuakerBot&colon A Household Dialog System Powered by Large Language Models
+   authors: Artemis Panagopoulou, Manni Arora, Li Zhang, Dimitri Cugini, Weiqiu You, Yue Yang, Liyang Zhou, Yuxuan Wang, Zhaoyi Hou, Alyssa Hwang, Lara Martin, Sherry Shi, Chris Callison-Burch, Mark Yatskar
+   venue: Amazon Alexa Competition
+   type: preprint
+   year: 2022
+   url: https://assets.amazon.science/d2/af/3db9f05046e386108b76ce01e06d/quakerbot-a-household-dialog-system-powered-by-large-language-models.pdf
+   page_count: 12
+   id: taskbot
+   abstract: We describe QuakerBot, a dialog system that helps users with household tasks and a participant in the Alexa Prize TaskBot Challenge. QuakerBot can process a variety of user requests, search for instructions from web resources such as wikiHow or Whole Foods Market recipes, answer related questions, and so on. Its components simultaneously consist of large language models with an impressive few-shot performance, and rule-based models with robust service.
+   bibtex: |
+      @misc{quakerbot,
+        url = {https://assets.amazon.science/d2/af/3db9f05046e386108b76ce01e06d/quakerbot-a-household-dialog-system-powered-by-large-language-models.pdf},
+        author = {Artemis Panagopoulou and Manni Arora and Li Zhang and Dimitri Cugini and Weiqiu You and Yue Yang and Liyang Zhou and Yuxuan Wang and Zhaoyi Hou and Alyssa Hwang and Lara Martin and Sherry Shi and Chris Callison-Burch and Mark Yatskar},
+        title = {QuakerBot&colon A Household Dialog System Powered by Large Language Models},
+        year = {2022},
+      }
+-
    title: Is "my favorite new movie" my favorite movie? Probing the Understanding of Recursive Noun Phrases
    authors: Qing Lyu, Hua Zheng, Daoxin Li, Li Zhang, Marianna Apidianaki, Chris Callison-Burch
    venue: arXiv
