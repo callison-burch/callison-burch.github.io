@@ -1,4 +1,28 @@
 -
+   title: Towards Faithful Model Explanation in NLP&colon; A Survey
+   authors: Qing Lyu, Marianna Apidianaki, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2022
+   url: https://arxiv.org/abs/2209.11326
+   page_count: 62
+   id: faithful-model-explanations-survey
+   data: 
+   code: 
+   abstract: |
+      End-to-end neural NLP architectures are notoriously difficult to understand, which gives rise to numerous efforts towards model explainability in recent years. An essential principle of model explanation is Faithfulness, i.e., an explanation should accurately represent the reasoning process behind the model's prediction. This survey first discusses the definition and evaluation of Faithfulness, as well as its significance for explainability. We then introduce the recent advances in faithful explanation by grouping approaches into five categories: similarity methods, analysis of model-internal structures, backpropagation-based methods, counterfactual intervention, and self-explanatory models. Each category will be illustrated with its representative studies, advantages, and shortcomings. Finally, we discuss all the above methods in terms of their common virtues and limitations, and reflect on future work directions towards faithful explainability. For researchers interested in studying interpretability, this survey will offer an accessible and comprehensive overview of the area, laying the basis for further exploration. For users hoping to better understand their own models, this survey will be an introductory manual helping with choosing the most suitable explanation method(s).
+   bibtex: |
+      @misc{https://doi.org/10.48550/arxiv.2209.11326,
+        doi = {10.48550/ARXIV.2209.11326},
+        url = {https://arxiv.org/abs/2209.11326},
+        author = {Lyu, Qing and Apidianaki, Marianna and Callison-Burch, Chris},
+        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {Towards Faithful Model Explanation in NLP: A Survey},
+        publisher = {arXiv},
+        year = {2022},
+        copyright = {arXiv.org perpetual, non-exclusive license}
+      }
+-
    title: Empathic Conversations&colon; A Multi-level Dataset of Contextualized Conversations
    authors: Damilola Omitaomu, Shabnam Tafreshi, Tingting Liu, Sven Buechel, Chris Callison-Burch, Johannes Eichstaedt, Lyle Ungar, João Sedoc
    venue: arXiv
