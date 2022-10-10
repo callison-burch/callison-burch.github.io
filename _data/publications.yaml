@@ -1,4 +1,91 @@
 -
+   title: Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence
+   authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara Martin, Daphne Ippolito, Suma Bailis and David Reitter
+   venue: EMNLP
+   type: conference
+   year: 2022
+   url: publications/dungeons-and-dragons-as-a-dialog-challenge-for-artificial-intelligence.pdf
+   page_count: 15
+   id: dungeons-and-dragons-as-a-dialog-challenge-for-artificial-intelligence
+   data: 
+   code: 
+   abstract: |
+      AI researchers have posited Dungeons and Dragons (D&D) as a challenge problem to test systems on various language-related capabilities. In this paper, we frame D&D specifically as a dialogue system challenge, where the tasks are to both generate the next conversational turn in the game and predict the state of the game given the dialogue history. We create a gameplay dataset consisting of nearly 900 games, with a total of 7,000 players, 800,000 dialogue turns, 500,000 dice rolls, and 58 million words. We automatically annotate the data with partial state information about the game play. We train a large language model (LM) to generate the next game turn, conditioning it on different information. The LM can respond as a particular character or as the player who runs the game—i.e., the Dungeon Master (DM). It is trained to produce dialogue that is either in-character (roleplaying in the fictional world) or out-of-character (discussing rules or strategy). We perform a human evaluation to determine what factors make the generated output plausible and interesting. We further perform an automatic evaluation to determine how well the model can predict the game state given the history and examine how well tracking the game state improves its ability to produce plausible conversational output.
+   bibtex: |
+      @inproceedings{callison-burch-tomar-et-al-2022,
+        title={Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence},
+        author={Chris Callison-Burch and Gaurav Singh Tomar and Lara Martin and Daphne Ippolito and Suma Bailis and David Reitter},
+        booktitle={The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)},
+        address={Abu Dhabi, UAE}
+        year={2022}
+      }
+-
+   title: Unsupervised Entity Linking with Guided Summarization and Multiple-Choice Selection
+   authors: Jeffrey Young-Min Cho, Harry Li Zhang, Chris Callison-Burch
+   venue: EMNLP
+   type: conference
+   year: 2022
+   url: publications/unsupervised-entity-linking-with-guided-summarization.pdf
+   page_count: 9
+   id: unsupervised-entity-linking-with-guided-summarization
+   data: 
+   code: 
+   abstract: |
+      Entity linking, the task of linking potentially ambiguous mentions in texts to corresponding knowledge-base entities, is an important component for language understanding. We address two challenge in entity linking: how to leverage wider contexts surrounding a mention, and how to deal with limited training data. We propose a fully unsupervised model called SumMC that first generates a guided summary of the contexts conditioning on the mention, and then casts the task to a multiple-choice problem where the model chooses an entity from a list of candidates. In addition to evaluating our model on existing datasets that focus on named entities, we create a new dataset that links noun phrases from WikiHow to Wikidata. We show that our SumMC model achieves state-of-the-art unsupervised performance on our new dataset and on exiting datasets. 
+   bibtex: |
+      @inproceedings{cho-2022,
+        title={Unsupervised Entity Linking with Guided Summarization and Multiple-Choice Selection},
+        author={Young-Min Cho and Li Zhang and Chris Callison-Burch},
+        booktitle={The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)},
+        address={Abu Dhabi, UAE}
+        year={2022}
+      }
+-
+   title: Visualizing the Obvious&colon; A Concreteness-based Ensemble Model for Noun Property Prediction
+   authors: Yue Yang, Artemis Panagopoulou, Marianna Apidianaki, Mark Yatskar and Chris Callison-Burch
+   venue: Findings of EMNLP
+   type: conference
+   year: 2022
+   url: publications/visualizing-the-obvious.pdf
+   page_count: 17
+   id: visualizing-the-obvious
+   data: 
+   code: 
+   abstract: |
+      Neural language models encode rich knowledge about entities and their relationships which can be extracted from their representations using probing. Common properties of nouns (e.g., red strawberries, small ant) are, however, more challenging to extract compared to other types of knowledge because they are rarely explicitly stated in texts. We hypothesize this to mainly be the case for perceptual properties which are obvious to the participants in the communication. We propose to extract these properties from images and use them in an ensemble model, in order to complement the information that is extracted from language models. We consider perceptual properties to be more concrete than abstract properties (e.g., interesting, flawless). We propose to use the adjectives’ concreteness score as a lever to calibrate the contribution of each source (text vs. images). We evaluate our ensemble model in a ranking task where the actual properties of a noun need to be ranked higher than other non-relevant properties. Our results show that the proposed combination of text and images greatly improves noun property prediction compared to powerful text-based language models.
+   bibtex: |
+      @inproceedings{cho-2022,
+        title={Visualizing the Obvious: A Concreteness-based Ensemble Model for Noun Property Prediction},
+        author={Yue Yang and Artemis Panagopoulou and Marianna Apidianaki and Mark Yatskar and Chris Callison-Burch},
+        booktitle={Findings of The 2022 Conference on Empirical Methods in Natural Language Processing (EMNLP 2022)},
+        address={Abu Dhabi, UAE}
+        year={2022}
+      }
+-
+   title: Bidirectional Language Models Are Also Few-shot Learners
+   authors: Ajay Patel, Bryan Li, Mohammad Sadegh Rasooli, Noah Constant, Colin Raffel, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2022
+   url: https://arxiv.org/abs/2209.14500
+   page_count: 25
+   id: bidirectional-lms-are-few-shot-leaners
+   data: 
+   code: 
+   abstract: |
+      Large language models such as GPT-3 (Brown et al., 2020) can perform arbitrary tasks without undergoing fine-tuning after being prompted with only a few labeled examples. An arbitrary task can be reformulated as a natural language prompt, and a language model can be asked to generate the completion, indirectly performing the task in a paradigm known as prompt-based learning. To date, emergent prompt-based learning capabilities have mainly been demonstrated for unidirectional language models. However, bidirectional language models pre-trained on denoising objectives such as masked language modeling produce stronger learned representations for transfer learning. This motivates the possibility of prompting bidirectional models, but their pre-training objectives have made them largely incompatible with the existing prompting paradigm. We present SAP (Sequential Autoregressive Prompting), a technique that enables the prompting of bidirectional models. Utilizing the machine translation task as a case study, we prompt the bidirectional mT5 model (Xue et al., 2021) with SAP and demonstrate its few-shot and zero-shot translations outperform the few-shot translations of unidirectional models like GPT-3 and XGLM (Lin et al., 2021), despite mT5's approximately 50% fewer parameters. We further show SAP is effective on question answering and summarization. For the first time, our results demonstrate prompt-based learning is an emergent property of a broader class of language models, rather than only unidirectional models.
+   bibtex: |
+      @misc{https://doi.org/10.48550/arxiv.2209.14500,
+        doi = {10.48550/ARXIV.2209.14500}, 
+        url = {https://arxiv.org/abs/2209.14500},
+        author = {Patel, Ajay and Li, Bryan and Rasooli, Mohammad Sadegh and Constant, Noah and Raffel, Colin and Callison-Burch, Chris},
+        keywords = {Machine Learning (cs.LG), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {Bidirectional Language Models Are Also Few-shot Learners},
+        publisher = {arXiv},
+        year = {2022},
+        copyright = {arXiv.org perpetual, non-exclusive license}
+      }
+-
    title: Towards Faithful Model Explanation in NLP&colon; A Survey
    authors: Qing Lyu, Marianna Apidianaki, Chris Callison-Burch
    venue: arXiv
