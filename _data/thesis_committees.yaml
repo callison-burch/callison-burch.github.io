@@ -1,21 +1,22 @@
--
-   name: Carlos Toxtli-Hernandez 
-   institution: Northeastern University
-   advisors: Saiph Savage
-   graduation_date: 
-   thesis_title: 
--
-   name: Huda Khayrallah 
-   institution: Johns Hopkins University
-   advisors: Philipp Koehn
-   graduation_date: 
-   thesis_title: 
+
 -
    name: Soham Dan
    institution: University of Pennsylvania
    advisors: Dan Roth
-   graduation_date: 
+   graduation_date: July 2022
    thesis_title: Systematic Generalization and Compositionality in Grounded Reasoning
+-
+   name: Carlos Toxtli-Hernandez 
+   institution: Northeastern University
+   advisors: Saiph Savage
+   graduation_date: June 2022
+   thesis_title: Artificial Intelligence Tools to Promote Social Good in Gig Markets
+-
+   name: Daniel Deutsch
+   institution: University of Pennsylvania
+   advisors: Dan Roth
+   graduation_date: April 2022
+   thesis_title: Methods for Text Summarization Evaluation
 -
    name: Jonathan Mallinson
    institution: University of Edinburgh
