@@ -1,4 +1,28 @@
 -
+   title: Language in a Bottle&colon; Language Model Guided Concept Bottlenecks for Interpretable Image Classification
+   authors: Yue Yang, Artemis Panagopoulou, Shenghao Zhou, Daniel Jin, Chris Callison-Burch, Mark Yatskar
+   venue: arXiv
+   type: preprint
+   year: 2022
+   url: https://arxiv.org/abs/2211.11158
+   page_count: 18
+   id: language-in-a-bottle
+   data: 
+   code: 
+   abstract: |
+      Concept Bottleneck Models (CBM) are inherently interpretable models that factor model decisions into human-readable concepts. They allow people to easily understand why a model is failing, a critical feature for high-stakes applications. CBMs require manually specified concepts and often under-perform their black box counterparts, preventing their broad adoption. We address these shortcomings and are first to show how to construct high-performance CBMs without manual specification of similar accuracy to black box models. Our approach, Language Guided Bottlenecks (LaBo), leverages a language model, GPT-3, to define a large space of possible bottlenecks. Given a problem domain, LaBo uses GPT-3 to produce factual sentences about categories to form candidate concepts. LaBo efficiently searches possible bottlenecks through a novel submodular utility that promotes the selection of discriminative and diverse information. Ultimately, GPT-3's sentential concepts can be aligned to images using CLIP, to form a bottleneck layer. Experiments demonstrate that LaBo is a highly effective prior for concepts important to visual recognition. In the evaluation with 11 diverse datasets, LaBo bottlenecks excel at few-shot classification: they are 11.7% more accurate than black box linear probes at 1 shot and comparable with more data. Overall, LaBo demonstrates that inherently interpretable models can be widely applied at similar, or better, performance than black box approaches.
+   bibtex: |
+      @misc{https://doi.org/10.48550/arxiv.2211.11158,
+        doi = {10.48550/ARXIV.2211.11158},
+        url = {https://arxiv.org/abs/2211.11158},
+        author = {Yang, Yue and Panagopoulou, Artemis and Zhou, Shenghao and Jin, Daniel and Callison-Burch, Chris and Yatskar, Mark},
+        keywords = {Computer Vision and Pattern Recognition (cs.CV), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {Language in a Bottle: Language Model Guided Concept Bottlenecks for Interpretable Image Classification},
+        publisher = {arXiv},
+        year = {2022},
+        copyright = {arXiv.org perpetual, non-exclusive license}
+      }
+-
    title: Dungeons and Dragons as a Dialog Challenge for Artificial Intelligence
    authors: Chris Callison-Burch, Gaurav Singh Tomar, Lara Martin, Daphne Ippolito, Suma Bailis and David Reitter
    venue: EMNLP
