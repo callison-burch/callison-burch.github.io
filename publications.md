@@ -7,7 +7,7 @@ active_tab: publications
 
 <table class="table"> 
 <tbody>
-  {% for year in (2000..2022) reversed %}
+  {% for year in (2000..2023) reversed %}
     <tr><td>
 	<a name="{{year}}"></a><h1>{{year}}</h1>
     </td><td></td></tr>
