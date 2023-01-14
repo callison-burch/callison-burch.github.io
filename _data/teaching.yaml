@@ -55,18 +55,7 @@
    course_rating: 3.25
 -
    title: Artificial Intelligence
-   number: CIS 421/521 - on campus
-   institution: University of Pennsylvania
-   term: Fall
-   year: 2021
-   description: 
-   url: http://artificial-intelligence-class.org/
-   enrollment: 563
-   instructor_rating: 3.4
-   course_rating: 3.18
--
-   title: Artificial Intelligence
-   number: CIS 521 - MCIT Online
+   number: CIS 421/521 - on campus + MCIT Online
    institution: University of Pennsylvania
    term: Fall
    year: 2021
