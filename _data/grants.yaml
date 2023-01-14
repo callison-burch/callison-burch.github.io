@@ -4,8 +4,8 @@
    amount: $7m
    start_date: 2022
    end_date: 2026
-   status: pending
-   PI_info: Chris Callison-Burch - PI, Marianna Apidianaki, Kathleen McKeown (Columbia), Smaranda Muresan (Columbia), Owen Rambow (Stony Brook University), Niranjan Balasubramanian (Stony Brook University), Andy Schwartz (Stony Brook University)
+   status: current
+   PI_info: Chris Callison-Burch - PI, Marianna Apidianaki - co-PI, Kathleen McKeown (Columbia), Smaranda Muresan (Columbia), Owen Rambow (Stony Brook University), Niranjan Balasubramanian (Stony Brook University), Andy Schwartz (Stony Brook University)
    url:
    abstract: 
 -
@@ -14,7 +14,7 @@
    amount: $600k
    start_date: 2022
    end_date: 2026
-   status: pending
+   status: rejected
    PI_info: Marianna Apidianaki - PI, Chris Callison-Burch
    url:
    abstract: 
@@ -54,7 +54,7 @@
    amount: $250k
    start_date: 2021
    end_date: 2022
-   status: current
+   status: past
    PI_info: Chris Callison-Burch (PI), Mark Yatskar (UPenn)
    url: 
    abstract: 
@@ -217,7 +217,7 @@
    amount: $1.2m
    start_date: 2017
    end_date: 2022
-   status: current
+   status: past
    PI_info: co-PI with Christopher Cieri and Mark Liberman
    url: https://www.nsf.gov/awardsearch/showAward?AWD_ID=1730377
    abstract: Language touches every aspect of human life. People speak and write in order to manage relationships from the personal to the international, to gather and provide information, to negotiate, influence and inspire. Scientists use language to communicate their findings regardless of their field of study. Although researchers have worked for decades to process language via computer, only in the past several years have their efforts have produced technologies of sufficient maturity that they can affect the lives of the average citizen. Today, some of the most fortunate use computers to search the vast archives of the Internet, to translate material from languages they do not understand into languages they do and to interact with smart devices by giving them natural language commands and queries and receive responses in kind. Despite the growth and promise of human language technologies, they are in fact available only for a tiny portion of the world’s approximately 7000 languages and, even then, only for a limited range of situations. This is the case because the approaches that have proven most successful in developing human language technologies are data starved. Specifically, they require language volumes of spoken or written language that have been augmented by human judgment, but lack such resources for most languages and for many situations even in languages of international importance, including English. This project will address the shortage of language resources by employing novel incentives and alternate workflows to supplement the methods that have been used traditionally to collect and annotate language data. The resulting resources will support an expanded range of language technologies leading to apps for a broader range language of languages and situations. The same data will support basic research in language and language teaching. Even a brief observation of user behavior on social media, online games, citizen science and public good initiatives demonstrates that many people around the world are willing to devote collectively vast amounts of effort when given appropriate motivation and effective tools. This project will harness some of the immense people-power that drives such activities and focus it on problems of developing language resources that help computers learn to process language. Specifically, the project will create a software toolkit to be used by the project team and independent researchers to create online activities that yield language resources. The activities will include games, citizen science and tools for language professionals, clustered into a series of portals that appeal to different populations of users. The project will build and maintain the database and web servers, with redundancy, load balancing and fail over, to run the principal instance of all of the activities. An open source release of the software will enable others to build their own instances independently. Finally, the project will share the data resulting from this project with the least restrictive terms possible to support research, technology development and language teaching. 
