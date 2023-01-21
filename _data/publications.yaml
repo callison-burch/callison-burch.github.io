@@ -44,6 +44,30 @@
         copyright = {Creative Commons Attribution 4.0 International}
       }
 -
+   title: Low-Resource Authorship Style Transfer with In-Context Learning
+   authors: Ajay Patel, Nicholas Andrews, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2022
+   url: https://arxiv.org/abs/2212.08986
+   page_count: 19
+   id: low-resource-authorship-style-transfer
+   data: 
+   code: 
+   abstract: |
+      Authorship style transfer involves altering the style of text to match the style of some target author whilst preserving the semantic meaning of the original text. Existing approaches to unsupervised authorship style transfer like STRAP have largely focused on style transfer for target authors with many examples of their writing style through books, speeches, or other published works (Krishna et al., 2020). Due to this high-resource training data requirement (often greater than 100,000 words), these approaches are often only useful for style transfer to the style of published authors, politicians, or other well-known figures and authorship styles. In this paper, we attempt to perform low-resource authorship style transfer, a more challenging class of authorship style transfer where only a limited amount of text in the target author’s style may exist. In our experiments, we specifically choose source and target authors from Reddit to perform style transfer over their Reddit posts, limiting ourselves to just 16 posts (on average ≈ 500 words) of the target author’s style. We then propose a method for automatic evaluation on the lowresource authorship style transfer task utilizing authorship and style representation embeddings (Rivera-Soto et al., 2021; Wegmann et al., 2022). We evaluate our style transferred outputs with the proposed automatic evaluation method and find that our method, STYLL, is able to outperform STRAP and a comprehensive set of baselines.
+   bibtex: |
+      @misc{https://doi.org/10.48550/arxiv.2212.08986,
+        doi = {10.48550/ARXIV.2212.08986},
+        url = {https://arxiv.org/abs/2212.08986},
+        author = {Patel, Ajay and Andrews, Nicholas and Callison-Burch, Chris},
+        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {Low-Resource Authorship Style Transfer with In-Context Learning},
+        publisher = {arXiv},
+        year = {2022},
+        copyright = {arXiv.org perpetual, non-exclusive license}
+      }
+-
    title: Language in a Bottle&colon; Language Model Guided Concept Bottlenecks for Interpretable Image Classification
    authors: Yue Yang, Artemis Panagopoulou, Shenghao Zhou, Daniel Jin, Chris Callison-Burch, Mark Yatskar
    venue: arXiv
