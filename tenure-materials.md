@@ -1,7 +1,7 @@
 ---
 title: Tenure materials
 layout: default
-img: profile-small
+img: profile-small.jpg
 img_link: assets/img/profile-large.jpg
 active_tab: main_page 
 keep_sidebar: true 

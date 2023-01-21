@@ -80,6 +80,8 @@ active_tab: CV
 -->
 
 <h2>Teaching Reviews at Penn</h2>
+You can read my full teaching reviews [here](teaching-reviews.pdf).  Below are the summary statistics. 
+
 Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 <table class="table"> 
   <tbody>
