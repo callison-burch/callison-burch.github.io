@@ -1,7 +1,7 @@
 ---
 title: Teaching
 layout: default
-img: ar_path.gif
+img: AR_path.gif
 img_link: https://www.youtube.com/watch?v=6W8RBCcJ23A&t=13s
 caption: 
 ---
