@@ -102,6 +102,9 @@ active_tab: publications
 	{% endif %}
 
 
+	{% if publication.video %}
+	<a href="{{publication.video}}" class="label label-success">Video</a>
+	{% endif %}
 
 
 <!-- ccb - turning off figures for now, until I can figure out how to load them in a lazy fashion, so that the user doesn't get bombarded with so much data -->
