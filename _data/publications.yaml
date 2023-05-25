@@ -1,4 +1,196 @@
 -
+   title: Understanding Generative Artificial Intelligence and Its Relationship to Copyright
+   authors: Chris Callison-Burch
+   venue: The U.S. House of Representatives Judiciary Committee Subcommittee on Courts, Intellectual Property, and the Internet Hearing on Artificial Intelligence and Intellectual Property&colon; Part I – Interoperability of AI and Copyright Law
+   type: Testimony
+   year: 2023
+   url: publications/understanding-generative-AI-and-its-relationship-to-copyright.pdf
+   page_count: 24
+   id: copyright-and-ai-testimony
+   data: 
+   code: 
+   video: https://www.youtube.com/live/Mm1NQ_Kqumw?feature=share&t=887
+   abstract: |
+      Chairman Issa, Ranking Member Johnson, and distinguished Members of the Subcommittee, thank you for the opportunity to testify on the topic of artificial intelligence and intellectual property. Generative AI had its breakthrough moment last November with the release of OpenAI’s ChatGPT, bringing my field of research into the public eye and generating a huge amount of excitement. I had access to OpenAI's large language model about a year and a half before the public. Despite having been working in this field for 20 years, I was shocked at its capabilities.
+
+      My first encounter with it pitched me into a career existential crisis. This technology had seemingly solved many of the research problems that I was working on. It could translate texts from Russian into English. It could write coherent summaries of long documents, and answer questions about them. I wondered if there was any room left in the field for academic research, because training these large language models required Google-sized data centers, and I simply can’t compete at that scale. So I asked myself, "Should I just drop out of computer science and become a poet?" But then I trained the model to write better poetry than me.
+
+      I have subsequently calmed down, and I do not think I’m at imminent risk of losing my job to ChatGPT. But I understand that many other people are experiencing that same sense of panic that I had. Artists and writers are worried that their work will be devalued. I worry that a career as a paralegal may go the way of the lamplighter. I think that at its core, what we are talking about today goes far beyond copyright. It is about the value of work. This is a truly transformative technology that will shape many aspects of our lives. I hope that it is for the better. 
+
+      I optimistically believe that AI will enable us all to become more productive workers, and more creative in our artistic pursuits. In my testimony today, I hope to offer the Subcommittee: 1. My expertise in the technical aspects of generative AI, I promise to explain it in a way that is understandable without requiring a PhD in computer science. 2. Answers to any questions you may have about the emerging capabilities of this technology or what impact legislation might have on innovation in this field 3. Advocacy to retain fair use for the purposes of training AI systems.
+
+      In my written testimony, I have provided you and your staff with an overview of how Generative AI works. I’m happy to review any details about it, either during this hearing or 1-on-1 anytime in the future. To briefly summarize written testimony: Generative AI is trained on huge amounts of data. Large Language Models are now trained on roughly 1 trillion words. Image generators are trained on hundreds of millions of images. Much or most of that data consists of copyrighted works that have been gathered by automatically crawling the web.
+
+      From this data, AI systems learn. Their learning process is called “pre-training”. Pre-training an AI system is different from how children learn, but the effect is similar. AI systems learn how to use language. They learn facts about the world, ideas and opinions, visual concepts, and they even learn some rudimentary common sense reasoning skills. After this pre-training on the huge amount of copyrighted data, that data is set aside. They are then trained to specialize in different tasks – often using custom built data sets that are much smaller. For instance, a large language model could be specialized or “fine tuned” to become an intelligent tutoring system, or a computer vision system could be “fine tuned” to recognize cancerous growths in mammograms.
+
+      These systems could not be as easily adapted to these specialized tasks without the general knowledge that they acquired from the copyrighted texts that they were pre-trained on. I believe that pre-training squarely falls under fair use of copyrighted texts, and that Internet-era case law like Google books are good precedents that support this. I do believe that the output of Generative AI systems can infringe copyright, and that it is worth congress considering legislation to better shape copyright to govern things like copyrightable characters, or to extend it to cover Right-of-Publicity. I look forward to discussing this topic with you.
+   bibtex: |
+      @misc{CallisonBurch_2023,
+        author = {Callison-Burch, Chris},
+        title = {Understanding Generative Artificial Intelligence and Its Relationship to Copyright},
+        howpublished = {Testimony before The U.S. House of Representatives Judiciary Committee, Subcommittee on Courts, Intellectual Property, and the Internet},
+        month = {May},
+        year = {2023},
+        note = {Hearing on Artificial Intelligence and Intellectual Property: Part I – Interoperability of AI and Copyright Law},
+        institution = {University of Pennsylvania, School of Engineering and Applied Sciences, Department of Computer and Information Science}
+      }
+
+-
+   title: An AI Dungeon Master's Guide&colon; Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons
+   authors: Pei Zhou, Andrew Zhu, Jennifer Hu, Jay Pujara, Xiang Ren, Chris Callison-Burch, Yejin Choi, Prithviraj Ammanabrolu
+   venue: ACL
+   type: conference
+   year: 2023
+   url: publications/dnd-theory-of-mind.pdf
+   page_count: 18
+   id: dnd-theory-of-mind
+   data: 
+   code: 
+   abstract: |
+      We propose a novel task, G4C (Goal-driven Guidance Generation in Grounded Communication), for studying goal-driven and grounded natural language interactions. Specifically, we choose Dungeons and Dragons (D&D) -- a role-playing game consisting of multiple player characters and a Dungeon Master (DM) who collaborate to achieve a set of goals that are beneficial to the players -- as a testbed for this task. Here, each of the player characters is a student, with their own personas and abilities, and the DM is the teacher, an arbitrator of the rules of the world and responsible for assisting and guiding the students towards a global goal. We propose a theory-of-mind-inspired methodology for training such a DM with reinforcement learning (RL), where a DM: (1) learns to predict how the players will react to its utterances using a dataset of D&D dialogue transcripts; and (2) uses this prediction as a reward function providing feedback on how effective these utterances are at guiding the players towards a goal. Human and automated evaluations show that a DM trained with RL to generate guidance by incorporating a theory-of-mind of the players significantly improves the players' ability to achieve goals grounded in their shared world.
+   bibtex: |
+      @inproceedings{Pei-et-al-2023-dnd-theory-of-mind,
+        author = {Zhou, Pei and Zhu, Andrew and Hu, Jennifer and Pujara, Jay and Ren, Xiang and Callison-Burch, Chris and Choi, Yejin and Ammanabrolu, Prithviraj},
+        keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {An AI Dungeon Master's Guide: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons},
+        booktitle={Proceedings of the The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)},
+        address={Toronto, Canada}
+        year = {2023},  
+        copyright = {Creative Commons Attribution 4.0 International}
+      }
+   figures:
+      -
+         img: figures/dnd-theory-of-mind/dnd-theory-of-mind-figure-1.png
+         label: Figure 1
+         caption: A motivating example. The (human) Dungeon Master (DM), knowing the desired story path, intends the players to perform actions to find out about the goblins—the first plot point in a storyline that will eventually lead the players to treasure. They generate the guidance “You notice some movements in the bushes” using theory-of-mind by inferring that the players will perform the desired actions upon hearing their words.
+-
+   title: FIREBALL&colon; A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information
+   authors: Andrew Zhu, Karmanya Aggarwal, Alexander Feng, Lara J. Martin, and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2023
+   url: publications/fireball-dataset.pdf
+   page_count: 21
+   id: fireball-dataset
+   data: https://datasets.mechanus.zhu.codes/fireball-anonymized-nov-28-2022-kfdjl.tar.gz
+   code: 
+   abstract: |
+      Dungeons & Dragons (D&D) is a tabletop roleplaying game with complex natural language interactions between players and hidden state information. Recent work  has shown that large language models (LLMs) that have access to state information can generate higher quality game turns than LLMs that use dialog history alone. However, previous work used game state information that was heuristically created and was not a true gold standard game state. We present FIREBALL, a large dataset containing nearly 25,000 unique sessions from real D&D gameplay on Discord with true game state info.  We recorded game play sessions of players who used the Avrae bot, which was developed to aid people in playing D&D online, capturing language, game commands and underlying game state information.  We demonstrate that FIREBALL can improve natural language generation (NLG) by using Avrae state information, improving both automated metrics and human judgments of quality. Additionally, we show that LLMs can generate executable Avrae commands, particularly after finetuning. 
+   bibtex: |
+      @inproceedings{zhu-et-al-2023-fireball-dataset,
+        author = {Zhu, Andrew and Aggarwal, Karmanya and Feng, Alexander and Martin, Lara and Callison-Burch, Chris and Choi, Yejin and Ammanabrolu, Prithviraj},
+        title = {FIREBALL: A Dataset of Dungeons and Dragons Actual-Play with Structured Game State Information},
+        booktitle={Proceedings of the The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)},
+        address={Toronto, Canada}
+        year = {2023},  
+        copyright = {Creative Commons Attribution 4.0 International}
+      }
+-
+   title: Open-Domain Hierarchical Event Schema Induction by Incremental Prompting and Verification
+   authors: Zoey Sha Li, Ruining Zhao, Manling Li, Heng Ji, Chris Callison-Burch, Jiawei Han
+   venue: ACL
+   type: conference
+   year: 2023
+   url: publications/creating-event-schema-with-llms.pdf
+   page_count: 17
+   id: creating-event-schema-with-llms
+   data: 
+   code: 
+   abstract: |
+      Event schemas are a form of world knowledge about the typical progression of events. Recent methods for event schema induction use information extraction systems to construct a large number of event graph instances from documents, and then learn to generalize the schema from such instances. In contrast, we propose to treat event schemas as a form of commonsense knowledge that can be derived from large language models (LLMs). This new paradigm greatly simplifies the schema induction process and allows us to handle both hierarchical relations and temporal relations between events in a straightforward way. Since event schemas have complex graph structures, we design an incremental prompting and verification method INCPROMPT to break down the construction of a complex event graph into three stages: event skeleton construction, event expansion, and event-event relation verification. Compared to directly using LLMs to generate a linearized graph, INCPROMPT can generate large and complex schemas with 7.2% F1 improvement in temporal relations and 31.0% F1 improvement in hierarchical relations. In addition, compared to the previous state-of-the-art closed-domain schema induction model, human assessors were able to cover ∼10% more events when translating the schemas into coherent stories and rated our schemas 1.3 points higher (on a 5-point scale) in terms of readability.
+   bibtex: |
+      @inproceedings{sha-et-al-2023-creating-event-schema-with-llms,
+        author = {Li, Sha and  Zhao, Ruining and Li, Manling and Ji, Heng and Callison-Burch, Chris and Han, Jiawei},
+        title = {Open-Domain Hierarchical Event Schema Induction by Incremental Prompting and Verification},
+        booktitle={Proceedings of the The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)},
+        address={Toronto, Canada}
+        year = {2023},  
+        copyright = {Creative Commons Attribution 4.0 International}
+      }
+-
+   title: Explanation-based Finetuning Makes Models More Robust to Spurious Cues
+   authors: Josh Magnus Ludan, Yixuan Meng, Tai Nguyen, Saurabh Shah, Qing Lyu, Marianna Apidianaki and Chris Callison-BurchZoey Sha Li, Ruining Zhao, Manling Li, Heng Ji, Chris Callison-Burch, Jiawei Han
+   venue: ACL
+   type: conference
+   year: 2023
+   url: publications/explanation-based-finetuning.pdf
+   page_count: 17
+   id: explanation-based-finetuning
+   data: 
+   code: 
+   abstract: |
+      Large Language Models (LLMs) are so powerful that they sometimes learn correlations between labels and features that are irrelevant to the task, leading to poor generalization on out-of-distribution data. We propose explanation-based finetuning as a novel and general approach to mitigate LLMs’ reliance on spurious correlations. Unlike standard finetuning where the model only predicts the answer given the input, we finetune the model to additionally generate a free-text explanation supporting its answer. To evaluate our method, we finetune the model on artificially constructed training sets containing different types of spurious cues, and test it on a test set without these cues. Compared to standard finetuning, our method makes models remarkably more robust against spurious cues in terms of accuracy drop across four classification tasks: ComVE (+1.2), CREAK (+9.1), e-SNLI (+15.4), and SBIC (+6.5). Moreover, our method works equally well with explanations generated by the model, implying its applicability to more datasets without human-written explanations.
+   bibtex: |
+      @inproceedings{ludan-et-al-2023-explanation-based-finetuning,
+        author = {Ludan, Josh Magnus and Meng, Yixuan and Nguyen, Tai and Shah, Saurabh and Lyu, Qing and Apidianaki, Marianna and Callison-Burch, Chris},
+        title = {Explanation-based Finetuning Makes Models More Robust to Spurious Cues},
+        booktitle={Proceedings of the The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)},
+        address={Toronto, Canada}
+        year = {2023},  
+        copyright = {Creative Commons Attribution 4.0 International}
+      }
+-
+   title: Human-in-the-Loop Schema Induction
+   authors: Tianyi Zhang, Isaac Tham, Zhaoyi Hou, Jiaxuan Ren, Liyang Zhou, Hainiu Xu, Li Zhang, Lara J. Martin, Rotem Dror, Sha Li, Heng Ji, Martha Palmer, Susan Brown, Reece Suchocki, Chris Callison-Burch
+   venue: ACL
+   type: demo
+   year: 2023
+   url: https://arxiv.org/abs/2302.13048
+   page_count: 10
+   id: human-in-the-loop-schema-induction
+   data:
+   code:
+   website: https://www.youtube.com/watch?v=myru-fozVWI
+   abstract: |
+      Schema induction builds a graph representation explaining how events unfold in a scenario. Existing approaches have been based on information retrieval (IR) and information extraction (IE), often with limited human curation. We demonstrate a human-in-the-loop schema induction system powered by GPT-3. We first describe the different modules of our system, including prompting to generate schematic elements, manual edit of those elements, and conversion of those into a schema graph. By qualitatively comparing our system to previous ones, we show that our system not only transfers to new domains more easily than previous approaches, but also reduces efforts of human curation thanks to our interactive interface.
+   bibtex: |
+      @inproceedings{human-in-the-loop-schema-induction,
+        author = {Zhang, Tianyi and Tham, Isaac and Hou, Zhaoyi and Ren, Jiaxuan and Zhou, Liyang and Xu, Hainiu and Zhang, Li and Martin, Lara J. and Dror, Rotem and Li, Sha and Ji, Heng and Palmer, Martha and Brown, Susan and Suchocki, Reece and Callison-Burch, Chris},
+        keywords = {Human-Computer Interaction (cs.HC), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {Human-in-the-Loop Schema Induction},
+        booktitle={Proceedings of the The 61st Annual Meeting of the Association for Computational Linguistics: System Demonstrations (ACL 2023 demos)},
+        address={Toronto, Canada},
+        year = {2023}
+      }
+   figures:
+      -
+         img: figures/human-in-the-loop-schema-induction/human-in-the-loop-schema-induction-figure-4.png
+         label: Figure 4
+         caption: A sample of a constructed graph after human- curation for scenario ’cyber attack’
+
+
+-
+   title: CORRPUS&colon; Detecting Story Inconsistencies via Codex-Bootstrapped Neurosymbolic Reasoning
+   authors: Yijiang River Dong, Lara J. Martin, Chris Callison-Burch
+   venue: ACL Findings
+   type: conference
+   year: 2023
+   url: publications/detecting-story-inconsistencies.pdf
+   page_count: 15
+   id: detecting-story-inconsistencies
+   data: 
+   code: 
+   abstract: |
+      Story generation and understanding -- as with all NLG/NLU tasks -- has seen a surge in neurosymbolic work. Researchers have recognized that, while large language models (LLMs) have tremendous utility, they can be augmented with symbolic means to be even better and to make up for any flaws that the neural networks might have. However, symbolic methods are extremely costly in terms of the amount of time and expertise needed to create them. In this work, we capitalize on state-of-the-art Code-LLMs, such as Codex, to bootstrap the use of symbolic methods for tracking the state of stories and aiding in story understanding. We show that our CoRRPUS system and abstracted prompting procedures can beat current state-of-the-art structured LLM techniques on pre-existing story understanding tasks (bAbI task 2 and Re^3) with minimal hand engineering. We hope that this work can help highlight the importance of symbolic representations and specialized prompting for LLMs as these models require some guidance for performing reasoning tasks properly.
+   bibtex: |
+      @inproceedings{Dong-et-al-2023-detecting-story-inconsistencies,
+        doi = {10.48550/ARXIV.2212.10754},
+        url = {https://arxiv.org/abs/2212.10754},
+        author = {Dong, Yijiang River and Martin, Lara J. and Callison-Burch, Chris},
+        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {{CORRPUS{: Detecting Story Inconsistencies via Codex-Bootstrapped Neurosymbolic Reasoning},
+        booktitle={Findings of the The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)},
+        address={Toronto, Canada}
+        year = {2023},  
+        copyright = {Creative Commons Attribution 4.0 International}
+      }
+   figures:
+      -
+         img: figures/detecting-story-inconsistencies/detecting-story-inconsistencies-figure-1.png
+         label: Figure 1
+         caption: An example prompt used for bAbI Task 2. All three prompting methods have the same prompt initializa- tion (a) followed by their respective additional functions (b, c, or d), found inside the World class (end of a). That is, for the 1-shot example, CoRRPUS would be provided (a) + (b, c, or d) depending on the prompting method. To prompt for the next story, CoRRPUS is given (a) + the non-highlighted of (b, c, or d). The highlighted section would then be generated by CoRRPUS.
+
+-
    title: Language in a Bottle&colon; Language Model Guided Concept Bottlenecks for Interpretable Image Classification
    authors: Yue Yang, Artemis Panagopoulou, Shenghao Zhou, Daniel Jin, Chris Callison-Burch, Mark Yatskar
    venue: CVPR
@@ -40,11 +232,17 @@
    video: https://www.youtube.com/watch?v=gsZOBadj5t4
    press: 
     - 
+      title: NewsChannel 12 Investigates&colon; Artificial Intelligence Part 3 
+      source: Channel 12 News - ABC affiliate in North Carolina
+      by_line: Tyler Hardin
+      date: May 19, 2023
+      url: https://wcti12.com/news/newschannel-12-investigates/newschannel-12-investigates-artificial-intelligence-part-3
+    - 
       title: Real or Fake Text? We can learn to spot the difference
       source: Penn Today
       date: March 10, 2023
       url: https://penntoday.upenn.edu/news/penn-seas-real-or-fake-text-we-can-learn-spot-difference
- - 
+    - 
       title: A Bot Isn’t Going to Take Your Place, But AI Will Make Your Job Harder
       source: Corporate Compliance Insights 
       date: March 8, 2023
@@ -127,35 +325,34 @@
          label: Figure 3
          caption: Examples from each task (Math Word Problems, Multi-hop QA, Planning, Logical Inference) showing our 2-stage Translation and Problem Solving pipeline.
 -
-   title: Human-in-the-Loop Schema Induction
-   authors: Tianyi Zhang, Isaac Tham, Zhaoyi Hou, Jiaxuan Ren, Liyang Zhou, Hainiu Xu, Li Zhang, Lara J. Martin, Rotem Dror, Sha Li, Heng Ji, Martha Palmer, Susan Brown, Reece Suchocki, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
+   title: Learn With Martian&colon; A Tool For Creating Assignments That Can Write And Re-Write Themselves
+   authors: Shriyash Upadhyay, Etan Ginsberg, Chris Callison-Burch
+   venue: EACL Demos
+   type: conference
    year: 2023
-   url: https://arxiv.org/abs/2302.13048
+   url: publications/learn-with-martian.pdf
    page_count: 10
-   id: human-in-the-loop-schema-induction
-   data:
-   code:
-   website: https://www.youtube.com/watch?v=myru-fozVWI
+   id: learn-with-martian
+   data: 
+   code: 
+   website: https://learn.withmartian.com
    abstract: |
-      Schema induction builds a graph representation explaining how events unfold in a scenario. Existing approaches have been based on information retrieval (IR) and information extraction (IE), often with limited human curation. We demonstrate a human-in-the-loop schema induction system powered by GPT-3. We first describe the different modules of our system, including prompting to generate schematic elements, manual edit of those elements, and conversion of those into a schema graph. By qualitatively comparing our system to previous ones, we show that our system not only transfers to new domains more easily than previous approaches, but also reduces efforts of human curation thanks to our interactive interface.
+      n this paper, we propose Learn, a unified, easy-to-use tool to apply question generation and selection in classrooms. The tool lets instructors and TAs create assignments that can write and re-write themselves. Given existing course materials, for example a reference textbook, Learn can generate questions, select the highest quality questions, show the questions to students, adapt question difficulty to student knowledge, and generate new questions based on how effectively old questions help students learn. The modular, composable nature of the tools for handling each sub-task allow instructors to use only the parts of the tool necessary to the course, allowing for integration in a large number of courses with varied teaching styles. We also report on the adoption of the tool in classes at the University of Pennsylvania with over 1000 students. Learn is publicly released at https://learn.withmartian.com.
    bibtex: |
-      @misc{https://doi.org/10.48550/arxiv.2302.13048,
-        doi = {10.48550/ARXIV.2302.13048},
-        url = {https://arxiv.org/abs/2302.13048},
-        author = {Zhang, Tianyi and Tham, Isaac and Hou, Zhaoyi and Ren, Jiaxuan and Zhou, Liyang and Xu, Hainiu and Zhang, Li and Martin, Lara J. and Dror, Rotem and Li, Sha and Ji, Heng and Palmer, Martha and Brown, Susan and Suchocki, Reece and Callison-Burch, Chris},
-        keywords = {Human-Computer Interaction (cs.HC), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {Human-in-the-Loop Schema Induction},
-        publisher = {arXiv},
-        year = {2023},
-        copyright = {Creative Commons Attribution 4.0 International}
+      @inproceedings{upadhyay-etal-2023-learn,
+          title = "Learn With Martian: A Tool For Creating Assignments That Can Write And Re-Write Themselves",
+          author = "Upadhyay, Shriyash  and
+            Callison-burch, Chris  and
+            Ginsberg, Etan",
+          booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
+          month = may,
+          year = "2023",
+          address = "Dubrovnik, Croatia",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2023.eacl-demo.30",
+          pages = "267--276",
+          abstract = "In this paper, we propose Learn, a unified, easy-to-use tool to apply question generation and selection in classrooms. The tool lets instructors and TAs create assignments that can write and re-write themselves. Given existing course materials, for example a reference textbook, Learn can generate questions, select the highest quality questions, show the questions to students, adapt question difficulty to student knowledge, and generate new questions based on how effectively old questions help students learn. The modular, composable nature of the tools for handling each sub-task allow instructors to use only the parts of the tool necessary to the course, allowing for integration in a large number of courses with varied teaching styles. We also report on the adoption of the tool in classes at the University of Pennsylvania with over 1000 students. Learn is publicly released at https://learn.withmartian.com.",
       }
-   figures:
-      -
-         img: figures/human-in-the-loop-schema-induction/human-in-the-loop-schema-induction-figure-4.png
-         label: Figure 4
-         caption: A sample of a constructed graph after human- curation for scenario ’cyber attack’
 -
    title: Causal Reasoning About Entities and Events in Procedural Texts
    authors: Li Zhang, Hainiu Xu, Yue Yang, Shuyan Zhou, Weiqiu You, Manni Arora, Chris Callison-Burch
@@ -163,7 +360,7 @@
    type: conference
    year: 2023
    url: publications/casual-reasoning-about-entities-and-events-in-procedural-texts.pdf
-   page_count: 
+   page_count: 14
    id: casual-reasoning-about-entities-and-events-in-procedural-texts
    data: https://github.com/zharry29/causal_reasoning_of_entities_and_events
    code: https://github.com/zharry29/causal_reasoning_of_entities_and_events
@@ -215,35 +412,29 @@
          img: figures/bidirectional-lms-are-few-shot-leaners/bidirectional-lms-are-few-shot-leaners-figure-1.png
          label: Figure 1
          caption: A visualization of our SAP technique extracting high-quality translations from mT5. In the zero-shot setting, the examples used in the prompt are synthetic examples retrieved in a fully unsupervised manner.
+
 -
-   title: An AI Dungeon Master's Guide&colon; Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons
-   authors: Pei Zhou, Andrew Zhu, Jennifer Hu, Jay Pujara, Xiang Ren, Chris Callison-Burch, Yejin Choi, Prithviraj Ammanabrolu
+   title: Exploring the Curious Case of Code Prompts
+   authors: Li Zhang, Liam Dugan, Hainiu Xu, Chris Callison-Burch
    venue: arXiv
    type: preprint
-   year: 2022
-   url: https://arxiv.org/abs/2212.10060
-   page_count: 18
-   id: dnd-theory-of-mind
+   year: 2023
+   url: https://arxiv.org/abs/2304.13250
+   page_count: 9
+   id: curious-case-of-code-prompts
    data: 
    code: 
    abstract: |
-      We propose a novel task, G4C (Goal-driven Guidance Generation in Grounded Communication), for studying goal-driven and grounded natural language interactions. Specifically, we choose Dungeons and Dragons (D&D) -- a role-playing game consisting of multiple player characters and a Dungeon Master (DM) who collaborate to achieve a set of goals that are beneficial to the players -- as a testbed for this task. Here, each of the player characters is a student, with their own personas and abilities, and the DM is the teacher, an arbitrator of the rules of the world and responsible for assisting and guiding the students towards a global goal. We propose a theory-of-mind-inspired methodology for training such a DM with reinforcement learning (RL), where a DM: (1) learns to predict how the players will react to its utterances using a dataset of D&D dialogue transcripts; and (2) uses this prediction as a reward function providing feedback on how effective these utterances are at guiding the players towards a goal. Human and automated evaluations show that a DM trained with RL to generate guidance by incorporating a theory-of-mind of the players significantly improves the players' ability to achieve goals grounded in their shared world.
+      Recent work has shown that prompting language models with code-like representations of natural language leads to performance improvements on structured reasoning tasks. However, such tasks comprise only a small subset of all natural language tasks. In our work, we seek to answer whether or not code-prompting is the preferred way of interacting with language models in general. We compare code and text prompts across three popular GPT models (davinci, code-davinci-002, and text-davinci-002) on a broader selection of tasks (e.g., QA, sentiment, summarization) and find that with few exceptions, code prompts do not consistently outperform text prompts. Furthermore, we show that the style of code prompt has a large effect on performance for some but not all tasks and that fine-tuning on text instructions leads to better relative performance of code prompts
    bibtex: |
-      @misc{https://doi.org/10.48550/arxiv.2212.10060,
-        doi = {10.48550/ARXIV.2212.10060},
-        url = {https://arxiv.org/abs/2212.10060},
-        author = {Zhou, Pei and Zhu, Andrew and Hu, Jennifer and Pujara, Jay and Ren, Xiang and Callison-Burch, Chris and Choi, Yejin and Ammanabrolu, Prithviraj},
-        keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {An AI Dungeon Master's Guide: Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons},
-        publisher = {arXiv},
-        year = {2022},  
-        copyright = {Creative Commons Attribution 4.0 International}
+      @misc{zhang2023exploring,
+            title={Exploring the Curious Case of Code Prompts}, 
+            author={Li Zhang and Liam Dugan and Hainiu Xu and Chris Callison-Burch},
+            year={2023},
+            eprint={2304.13250},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
       }
-   figures:
-      -
-         img: figures/dnd-theory-of-mind/dnd-theory-of-mind-figure-1.png
-         label: Figure 1
-         caption: A motivating example. The (human) Dungeon Master (DM), knowing the desired story path, intends the players to perform actions to find out about the goblins—the first plot point in a storyline that will eventually lead the players to treasure. They generate the guidance “You notice some movements in the bushes” using theory-of-mind by inferring that the players will perform the desired actions upon hearing their words.
 -
    title: Low-Resource Authorship Style Transfer with In-Context Learning
    authors: Ajay Patel, Nicholas Andrews, Chris Callison-Burch
@@ -273,35 +464,6 @@
          img: figures/low-resource-authorship-style-transfer/low-resource-authorship-style-transfer-figure-1.png
          label: Figure 1
          caption: An actual output of STYLL on the unsupervised low-resource authorship style transfer task between two Reddit users using just 16 Reddit posts as examples of the target style.
--
-   title: CORRPUS&colon; Detecting Story Inconsistencies via Codex-Bootstrapped Neurosymbolic Reasoning
-   authors: Yijiang River Dong, Lara J. Martin, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2022
-   url: https://arxiv.org/abs/2212.10754
-   page_count: 14
-   id: detecting-story-inconsistencies
-   data: 
-   code: 
-   abstract: |
-      Story generation and understanding -- as with all NLG/NLU tasks -- has seen a surge in neurosymbolic work. Researchers have recognized that, while large language models (LLMs) have tremendous utility, they can be augmented with symbolic means to be even better and to make up for any flaws that the neural networks might have. However, symbolic methods are extremely costly in terms of the amount of time and expertise needed to create them. In this work, we capitalize on state-of-the-art Code-LLMs, such as Codex, to bootstrap the use of symbolic methods for tracking the state of stories and aiding in story understanding. We show that our CoRRPUS system and abstracted prompting procedures can beat current state-of-the-art structured LLM techniques on pre-existing story understanding tasks (bAbI task 2 and Re^3) with minimal hand engineering. We hope that this work can help highlight the importance of symbolic representations and specialized prompting for LLMs as these models require some guidance for performing reasoning tasks properly.
-   bibtex: |
-      @misc{https://doi.org/10.48550/arxiv.2212.10754,
-        doi = {10.48550/ARXIV.2212.10754},
-        url = {https://arxiv.org/abs/2212.10754},
-        author = {Dong, Yijiang River and Martin, Lara J. and Callison-Burch, Chris},
-        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {CORRPUS: Detecting Story Inconsistencies via Codex-Bootstrapped Neurosymbolic Reasoning},
-        publisher = {arXiv},
-        year = {2022},
-        copyright = {Creative Commons Attribution 4.0 International}
-      }
-   figures:
-      -
-         img: figures/detecting-story-inconsistencies/detecting-story-inconsistencies-figure-1.png
-         label: Figure 1
-         caption: An example prompt used for bAbI Task 2. All three prompting methods have the same prompt initializa- tion (a) followed by their respective additional functions (b, c, or d), found inside the World class (end of a). That is, for the 1-shot example, CoRRPUS would be provided (a) + (b, c, or d) depending on the prompting method. To prompt for the next story, CoRRPUS is given (a) + the non-highlighted of (b, c, or d). The highlighted section would then be generated by CoRRPUS.
 -
    title: A Deep Learning Method to Detect Opioid Prescription and Opioid Use Disorder from Electronic Health Records
    authors: Aditya Kashyap, Chris Callison-Burch, Mary Regina Boland
@@ -587,7 +749,7 @@
    year: 2022
    website:
    url: publications/smart-textbook-feasibility-study.pdf
-   page_count:
+   page_count: 8
    id: smart-textbook-feasibility-study
    data: 
    abstract: We conduct a feasibility study into the applicability of  answer-agnostic question generation models to textbook passages. We show that a significant portion of errors in such systems arise from asking irrelevant or uninterpretable questions and that such errors can be ameliorated by providing summarized input. We find that giving these models human-written summaries instead of the original text results in a significant increase in acceptability of generated questions (33% to 83%) as determined by expert annotators. We also find that, in the absence of human-written summaries, automatic summarization can serve as a good middle ground.
@@ -1616,7 +1778,7 @@
    type: conference
    year: 2017
    url: publications/learning-antonyms.pdf
-   page_count: 
+   page_count: 10
    id: learning-antonyms
    abstract: Recognizing antonymy is a key task for improving the performance of NLP systems. In this paper, we propose a novel method for deriving antonym pairs from paraphrase pairs containing negation markers. We further integrate morphological features indicative of antonymy into a path-based relation detection algorithm. Our novel neural network model, AntNET, outperforms state-of-the-art models in distinguishing antonyms from other semantic relations and is capable of efficiently handling multi-word expressions.
    bibtex: |
@@ -7125,7 +7287,7 @@
 -
    title: Co-Training for Statistical Machine Translation
    authors: Chris Callison-Burch
-   venue: Master's thesis, School offormatics, University of Edinburgh
+   venue: Master's thesis, School of Informatics, University of Edinburgh
    type: thesis
    year: 2002
    url: publications/msc-thesis.pdf
