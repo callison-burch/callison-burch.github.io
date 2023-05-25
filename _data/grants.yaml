@@ -1,4 +1,34 @@
 -
+   title: Research Gift
+   awarding_body: Salesforce
+   amount: $30k
+   start_date: 2023
+   end_date: 2024
+   status: current
+   PI_info: Chris Callison-Burch - PI, Mark Yatskar - co-PI
+   url:
+   abstract: 
+-
+   title: Research Gift
+   awarding_body: Roblox
+   amount: $100k
+   start_date: 2023
+   end_date: 2024
+   status: current
+   PI_info: Chris Callison-Burch - PI
+   url:
+   abstract: 
+-
+   title: UNCOVER&colon; Cross-lingual question answering to identifying information differences between English and Russian Wikipedia articles           
+   awarding_body: AFRL
+   amount: $150k
+   start_date: 2023
+   end_date: 2024
+   status: current
+   PI_info: Chris Callison-Burch - PI, Marianna Apidianaki - co-PI
+   url:
+   abstract: 
+-
    title: IARPA HIATUS&colon; PAUSIT&colon; Privacy protection and Authorship attribution Using Style-based Interpretable Transfer
    awarding_body: IARPA
    amount: $7m
@@ -64,7 +94,7 @@
    amount: ~$140k
    start_date: 2021
    end_date: 2023
-   status: current
+   status: past
    PI_info: Lara Martin (postdoc), Chris Callison-Burch (faculty advisor)
    url: 
    abstract: 
@@ -125,7 +155,7 @@
    amount: $3.3m
    start_date: 2019
    end_date: 2022
-   status: current
+   status: past
    PI_info: Dan Roth (PI - UPenn), Irfan Essa (Georgia Tech), Chris Callison-Burch (UPenn), Zsolt Kira (Georgia Tech), Le Song (Georgia Tech), Mayur Naik (UPenn), Osbert Bastani (UPenn)
    url: 
    abstract: 
@@ -155,7 +185,7 @@
    amount: $6m
    start_date: 2019
    end_date: 2023
-   status: current
+   status: past
    PI_info: Ellie Pavlick (PI - Brown), Carsten Eickhoff (Brown), Chris Callison-Burch (UPenn), Wei Xu (OSU), Alan Ritter (OSU)
    url: 
    abstract: 

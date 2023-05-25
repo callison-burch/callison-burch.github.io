@@ -1,4 +1,40 @@
 -
+   name: Yifei Li
+   degree: Masters in Data Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch and Lara Martin
+   graduation_date: May 2023
+   thesis_title: Improving Text-to-image Diffusion Generation Via Large Language Models
+   thesis_link: masters-theses/Yifei-Li-masters-thesis-2023.pdf
+   gender: male
+-
+   name: River Yijiang Dong
+   degree: Masters in Data Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch and Lara Martin
+   graduation_date: May 2023
+   thesis_title: COTTAGE&colon; Coherent Text Adventure Games Generation
+   thesis_link: masters-theses/River-Yijiang-Dong-masters-thesis-2023.pdf
+   gender: male
+-
+   name: Hainiu Xu
+   degree: Masters in Data Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch and Harry Li Zhang
+   graduation_date: May 2023
+   thesis_title: Fine-Grained And Coarse-Grained Causal Reasoning In Procedural Texts
+   thesis_link: masters-theses/Hainiu-Xu-masters-thesis-2023.pdf
+   gender: male
+-
+   name: Anshul Wadhawan
+   degree: Masters in Computer and Information Science 
+   institution: University of Pennsylvania 
+   advisors: Chris Callison-Burch and Liam Dugan
+   graduation_date: May 2023
+   thesis_title: Simultaneous Speech To Speech Translation
+   thesis_link: masters-theses/Anshul-Wadhawan-masters-thesis-2023.pdf
+   gender: male
+-
    name: Anna Orosz
    degree: Masters in Data Science 
    institution: University of Pennsylvania 

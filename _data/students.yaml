@@ -9,6 +9,7 @@
    gender: male
 -
    name: Artemis Panagopoulou
+   coadvisor: Mark Yatskar
    degree: PhD Student
    pic: artemis_panagopoulou.jpg
    institution: University of Pennsylvania
@@ -36,6 +37,7 @@
    gender: male
 -
    name: Alyssa Hwang 
+   coadvisor: Andrew Head
    degree: PhD Student
    pic: alyssa_hwang.jpg
    institution: University of Pennsylvania
@@ -54,6 +56,7 @@
    gender: male
 -
    name: Samar Haider
+   coadvisor: Duncan Watts
    degree: PhD Student
    pic: samar_haider.jpg
    institution: University of Pennsylvania
@@ -63,6 +66,7 @@
    gender: male
 -
    name: Yue Yang
+   coadvisor: Mark Yatskar
    degree: PhD Student
    pic: yue_yang.png
    institution: University of Pennsylvania
@@ -72,6 +76,7 @@
    gender: male
 -
    name: Veronica Qing Lyu 
+   coadvisor: Marianna Apidianaki
    degree: PhD Student
    pic: veronica_qing_lyu.png
    institution: University of Pennsylvania
@@ -90,6 +95,7 @@
    gender: male
 -
    name: Aditya Kashyap 
+   coadvisor: Mary Regina Boland
    degree: PhD Student
    pic: aditya_kashyap.jpg
    institution: University of Pennsylvania
@@ -97,13 +103,3 @@
    expected_graduation_date: Summer 2024
    homepage: 
    gender: male
--
-   name: Lara Martin
-   homepage: https://laramartin.net
-   degree: Postdoc
-   institution: University of Pennsylvania
-   phd_from: Georgia Tech
-   pic: lara_martin.png
-   postdoc_start: 2021
-   postdoc_end:
-   gender: female

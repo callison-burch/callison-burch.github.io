@@ -252,6 +252,10 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 <ol>
     {% for student in site.data.students %}
 <li> {{ student.name }},  {{ student.degree }}, {{ student.institution }}.
+    {% if student.coadvisor %}
+    Co-advised by {{ student.coadvisor }}.
+    {% endif %}
+
     {% if student.expected_graduation_date %}
     Expected graduation date: {{ student.expected_graduation_date }}
     {% endif %}
@@ -307,7 +311,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 </ol>
 
 
-
+<!--
 <h2>Thesis Committees</h2>
 
 <ol>
@@ -323,7 +327,7 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 </li>
   {% endfor %}
 </ol>
-
+-->
 
 
 <!--
