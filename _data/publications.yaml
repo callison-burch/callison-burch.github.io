@@ -36,7 +36,7 @@
       }
 
 -
-   title: An AI Dungeon Master's Guide&colon; Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons
+   title: I Cast Detect Thoughts&colon; Learning to Converse and Guide with Intents and Theory-of-Mind in Dungeons and Dragons
    authors: Pei Zhou, Andrew Zhu, Jennifer Hu, Jay Pujara, Xiang Ren, Chris Callison-Burch, Yejin Choi, Prithviraj Ammanabrolu
    venue: ACL
    type: conference
@@ -135,7 +135,7 @@
    venue: ACL
    type: demo
    year: 2023
-   url: https://arxiv.org/abs/2302.13048
+   url: publications/human-in-the-loop-schema-induction.pdf
    page_count: 10
    id: human-in-the-loop-schema-induction
    data:
