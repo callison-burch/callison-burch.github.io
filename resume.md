@@ -281,6 +281,16 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
         	"{{ student.thesis_title }}", {{ student.graduation_date }}.
 	{% endif %}
 
+  {% if student.current_position %}
+          {% if student.linkedin %}
+            Current position: <a href="{{student.linkedin}}">{{student.current_position}} at {{student.current_employer}}</a>.
+          {% else %}
+            Current position: {{student.current_position}} at {{student.current_employer}}.
+          {% endif %}
+
+  {% endif %}
+
+
 
 </li>
   {% endfor %}

@@ -6,7 +6,7 @@
    start_year: 2015
    advisors: Chris Callison-Burch and Doug Eck
    graduation_date: September 2022
-   homepage: https://www.seas.upenn.edu/~daphnei/me/
+   homepage:
    linkedin:
    thesis_title: Understanding the Limitations of Using Large Language Models for Text Generation
    thesis_link: dissertations/daphne-ippolito-thesis.pdf
@@ -24,6 +24,7 @@
    advisors: Chris Callison-Burch and Marianna Apidianaki
    graduation_date: June 2021
    homepage: https://rekriz11.github.io
+   linkedin: https://www.linkedin.com/in/reno-kriz/
    thesis_title: Towards a Practically Useful Text Simplification System
    thesis_link: dissertations/reno-kriz-thesis.pdf
    current_position: Research Scientist 
@@ -52,12 +53,11 @@
    start_year: 2009
    advisors: Chris Callison-Burch and Benjamin Van Durme
    graduation_date: June 2018
-   homepage: https://www.linkedin.com/in/cnapoles/
+   linkedin: https://www.linkedin.com/in/cnapoles/
    thesis_title: Monolingual Sentence Rewriting as Machine Translation&colon; Generation and Evaluation
    thesis_link: dissertations/courtney-napoles-thesis.pdf
-   current_position: Language Data Manager 
+   current_position: Engineering Director, NLP/ML/AI 
    current_employer: Grammarly 
-   homepage: 
    gender: female
 -
    name: Juri Ganitkevitch
@@ -69,9 +69,9 @@
    graduation_date: February 2018
    thesis_title: Large-Scale Paraphrase Extraction and Applications
    thesis_link: dissertations/juri-ganitkevitch-thesis.pdf
-   current_position: Machine Learning Engineer 
-   current_employer: Apple 
-   homepage: https://www.linkedin.com/in/juri-ganitkevitch-294a4b32
+   current_position: Chief Scientist & Co-Founder 
+   current_employer: Stealth 
+   linkedin: https://www.linkedin.com/in/juri-ganitkevitch-294a4b32
    gender: male
 -
    name: Ellie Pavlick
@@ -86,6 +86,7 @@
    current_position: Assistant Professor 
    current_employer: Brown University 
    homepage: https://cs.brown.edu/people/epavlick/
+   linkedin: https://www.linkedin.com/in/ellie-pavlick-tobochnik-982829b6/
    gender: female
 -
    name: Ann Irvine
@@ -95,9 +96,9 @@
    graduation_date: July 2014
    thesis_title: Using Comparable Corpora to Augment Low Resource Statistical Machine Translation Models
    thesis_link: dissertations/ann-irvine-thesis.pdf
-   current_position: Chief Data Scientist
+   current_position: Chief Data Scientist & VP of Product Management
    current_employer: Resilience
-   homepage: https://www.linkedin.com/in/ann-irvine-b5b39677/
+   linkedin: https://www.linkedin.com/in/ann-irvine-b5b39677/
    gender: female
 -
    name: Xuchen Yao
@@ -109,7 +110,7 @@
    thesis_link: dissertations/xuchen-yao-thesis.pdf
    current_position: Cofounder/CEO 
    current_employer: Seasalt.ai and Vobil.com
-   homepage: https://www.linkedin.com/in/xuchenyao/
+   linkedin: https://www.linkedin.com/in/xuchenyao/
    gender: male
 -
    name: Omar Zaidan
@@ -121,5 +122,5 @@
    current_position: Senior Applied Scientist
    current_employer: Amazon  
    thesis_link: dissertations/omar-zaidan-thesis.pdf
-   homepage: https://www.linkedin.com/in/ozaidan/
+   linkedin: https://www.linkedin.com/in/ozaidan/
    gender: male
