@@ -1,19 +1,26 @@
+-
+   venue: NLP Highlights Podcast
+   title: AI and Copyright
+   date: May 25, 2023
 - 
    venue: The U.S. House of Representatives Judiciary Committee, Subcommittee on Courts, Intellectual Property, and the Internet
    title: Testimony at hearing on "Artificial Intelligence and Intellectual Property&colon; Part I – Interoperability of AI and Copyright Law"
    date: May 17, 2023
+   url: https://www.youtube.com/live/Mm1NQ_Kqumw?feature=share&t=2520
 - 
    venue: US Copyright Office
    title: Panelist in the Copyright Office AI Listening Sessions - Literary Works
    date: April 19, 2023
+   url: https://stream-media.loc.gov/copyright/Copyright_and_Artificial_Intelligence_Listening_Session_Literary_Works_including_Software_04192023.mp4
 -
    venue: Community College of Philadelphia faculty meeting
    title: Ask an Expert about ChatGPT
    date: April 14, 2023
 -
    venue: Penn Engineering Podcast
-   title: Panel Discussion about ChatGPT
+   title: The Growth and Impact of Generative AI
    date: April 14, 2023
+   url: https://www.youtube.com/watch?v=MT3bf_qwHUo
 -
    venue: SEAS Board of Advisors Meeting
    title: Panel Discussion about ChatGPT
@@ -40,8 +47,9 @@
    date: February 23, 2023
 -
    venue: Penn’s Data Driven Discovery Initiative 
-   title: Panel Discussion on Where is Generative AI Headed
+   title: Panel Discussion on ChatGPT and Generative AI
    date: February 23, 2023
+   url: https://www.youtube.com/watch?v=n1gyEw--uqU
 -
    venue: ISAT/DARPA PARADIGM Workshop
    title: Participant in Performance and Resilience Arising from Defense-Informed Giant Models (PARADIGM) Workshop
@@ -54,10 +62,12 @@
    venue: Penn Medicine Seminar
    title: Ask An Expert About ChatGPT
    date: February 14, 2023
+   url: https://mediasite.med.upenn.edu/mediasite/Play/d4b956feb9fd45fe8543241701e488d51d
 -
    venue: Penn ASSET Seminar
    title: Using Large Language Models to Build Explainable Classifiers
    date: February 8, 2023
+   url: https://www.youtube.com/watch?v=sZux6V5J56c
 -
    venue: TAC Conference
    title: Panel Discussion on What Large Language Models Cannot Do

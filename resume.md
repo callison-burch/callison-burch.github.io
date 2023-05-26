@@ -214,7 +214,11 @@ Quality scale (0-4): 0=Poor, 1=Fair, 2=Good, 3=Very Good, 4=Excellent
 
 <ol>
     {% for talk in site.data.talks %}
-<li> {{ talk.venue }}. {{talk.title}}. {{talk.date}} </li>
+      {% if talk.url %}
+        <li> <a href="{{talk.url}}">{{ talk.venue }}. {{talk.title}}</a>. {{talk.date}} </li>
+      {% else %}
+       <li> {{ talk.venue }}. {{talk.title}}. {{talk.date}} </li>
+      {% endif %}
   {% endfor %}
 </ol>
 
