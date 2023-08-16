@@ -4,7 +4,7 @@
    venue: The U.S. House of Representatives Judiciary Committee Subcommittee on Courts, Intellectual Property, and the Internet Hearing on Artificial Intelligence and Intellectual Property&colon; Part I – Interoperability of AI and Copyright Law
    type: Testimony
    year: 2023
-   url: publications/understanding-generative-AI-and-its-relationship-to-copyright.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/understanding-generative-AI-and-its-relationship-to-copyright.pdf
    page_count: 24
    id: copyright-and-ai-testimony
    data: 
@@ -47,7 +47,7 @@
    venue: DIS
    type: conference
    year: 2023
-   url: publications/adapting-text-instructions-for-voice-interaction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/adapting-text-instructions-for-voice-interaction.pdf
    page_count: 16
    id: adapting-text-instructions-for-voice-interaction
    data: 
@@ -124,7 +124,7 @@
    venue: ACL
    type: conference
    year: 2023
-   url: publications/dnd-theory-of-mind.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/dnd-theory-of-mind.pdf
    page_count: 18
    id: dnd-theory-of-mind
    data: 
@@ -152,7 +152,7 @@
    venue: ACL
    type: conference
    year: 2023
-   url: publications/fireball-dataset.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/fireball-dataset.pdf
    page_count: 21
    id: fireball-dataset
    data: https://datasets.mechanus.zhu.codes/fireball-anonymized-nov-28-2022-kfdjl.tar.gz
@@ -174,7 +174,7 @@
    venue: ACL
    type: conference
    year: 2023
-   url: publications/creating-event-schema-with-llms.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/creating-event-schema-with-llms.pdf
    page_count: 17
    id: creating-event-schema-with-llms
    data: 
@@ -192,11 +192,11 @@
       }
 -
    title: Explanation-based Finetuning Makes Models More Robust to Spurious Cues
-   authors: Josh Magnus Ludan, Yixuan Meng, Tai Nguyen, Saurabh Shah, Qing Lyu, Marianna Apidianaki and Chris Callison-BurchZoey Sha Li, Ruining Zhao, Manling Li, Heng Ji, Chris Callison-Burch, Jiawei Han
+   authors: Josh Magnus Ludan, Yixuan Meng, Tai Nguyen, Saurabh Shah, Qing Lyu, Marianna Apidianaki and Chris Callison-Burch
    venue: ACL
    type: conference
    year: 2023
-   url: publications/explanation-based-finetuning.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/explanation-based-finetuning.pdf
    page_count: 17
    id: explanation-based-finetuning
    data: 
@@ -218,7 +218,7 @@
    venue: ACL
    type: demo
    year: 2023
-   url: publications/human-in-the-loop-schema-induction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/human-in-the-loop-schema-induction.pdf
    page_count: 10
    id: human-in-the-loop-schema-induction
    data:
@@ -243,12 +243,12 @@
 
 
 -
-   title: CORRPUS&colon; Detecting Story Inconsistencies via Codex-Bootstrapped Neurosymbolic Reasoning
+   title: CORRPUS&colon; Code-based Structured Prompting for Neurosymbolic Story Understanding
    authors: Yijiang River Dong, Lara J. Martin, Chris Callison-Burch
    venue: ACL Findings
    type: conference
    year: 2023
-   url: publications/detecting-story-inconsistencies.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/detecting-story-inconsistencies.pdf
    page_count: 15
    id: detecting-story-inconsistencies
    data: 
@@ -261,7 +261,7 @@
         url = {https://arxiv.org/abs/2212.10754},
         author = {Dong, Yijiang River and Martin, Lara J. and Callison-Burch, Chris},
         keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {{CORRPUS{: Detecting Story Inconsistencies via Codex-Bootstrapped Neurosymbolic Reasoning},
+        title = {{CORRPUS}: Code-based Structured Prompting for Neurosymbolic Story Understanding},
         booktitle={Findings of the The 61st Annual Meeting of the Association for Computational Linguistics (ACL 2023)},
         address={Toronto, Canada}
         year = {2023},  
@@ -279,7 +279,7 @@
    venue: CVPR
    type: conference
    year: 2023
-   url: publications/language-in-a-bottle.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/language-in-a-bottle.pdf
    page_count: 18
    id: language-in-a-bottle
    data: 
@@ -307,7 +307,7 @@
    venue: AAAI
    type: conference
    year: 2023
-   url: publications/real-or-fake-text-analysis.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/real-or-fake-text-analysis.pdf
    page_count: 13
    data: https://github.com/liamdugan/human-detection/tree/main/data
    code: https://github.com/liamdugan/human-detection
@@ -359,7 +359,7 @@
          caption: In the boundary detection task, players see one sentence at a time from a passage and try to guess when the passage transitions from human-written to machine-generated.
 -
    title: Exploring the Curious Case of Code Prompts
-   authors: Li Zhang, Liam Dugan, Hainiu Xu, Chris Callison-burch
+   authors: Li Zhang, Liam Dugan, Hainiu Xu, Chris Callison-Burch
    venue: Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)
    type: workshop
    year: 2023
@@ -371,7 +371,7 @@
    bibtex: |
       @inproceedings{zhang-etal-2023-exploring,
         title={Exploring the Curious Case of Code Prompts},
-        author={Li Zhang and Liam Dugan and Hainiu Xu and Chris Callison-burch},
+        author={Li Zhang and Liam Dugan and Hainiu Xu and Chris Callison-Burch},
         booktitle={Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)},
         address={Toronto, Canada},
         year={2023}
@@ -498,7 +498,7 @@
    venue: EACL Demos
    type: conference
    year: 2023
-   url: publications/learn-with-martian.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/learn-with-martian.pdf
    page_count: 10
    id: learn-with-martian
    data: 
@@ -527,7 +527,7 @@
    venue: Findings of EACL
    type: conference
    year: 2023
-   url: publications/casual-reasoning-about-entities-and-events-in-procedural-texts.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/casual-reasoning-about-entities-and-events-in-procedural-texts.pdf
    page_count: 14
    id: casual-reasoning-about-entities-and-events-in-procedural-texts
    data: https://github.com/zharry29/causal_reasoning_of_entities_and_events
@@ -581,28 +581,6 @@
          label: Figure 1
          caption: A visualization of our SAP technique extracting high-quality translations from mT5. In the zero-shot setting, the examples used in the prompt are synthetic examples retrieved in a fully unsupervised manner.
 
--
-   title: Exploring the Curious Case of Code Prompts
-   authors: Li Zhang, Liam Dugan, Hainiu Xu, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2023
-   url: https://arxiv.org/abs/2304.13250
-   page_count: 9
-   id: curious-case-of-code-prompts
-   data: 
-   code: 
-   abstract: |
-      Recent work has shown that prompting language models with code-like representations of natural language leads to performance improvements on structured reasoning tasks. However, such tasks comprise only a small subset of all natural language tasks. In our work, we seek to answer whether or not code-prompting is the preferred way of interacting with language models in general. We compare code and text prompts across three popular GPT models (davinci, code-davinci-002, and text-davinci-002) on a broader selection of tasks (e.g., QA, sentiment, summarization) and find that with few exceptions, code prompts do not consistently outperform text prompts. Furthermore, we show that the style of code prompt has a large effect on performance for some but not all tasks and that fine-tuning on text instructions leads to better relative performance of code prompts
-   bibtex: |
-      @misc{zhang2023exploring,
-            title={Exploring the Curious Case of Code Prompts}, 
-            author={Li Zhang and Liam Dugan and Hainiu Xu and Chris Callison-Burch},
-            year={2023},
-            eprint={2304.13250},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL}
-      }
 -
    title: Low-Resource Authorship Style Transfer with In-Context Learning
    authors: Ajay Patel, Nicholas Andrews, Chris Callison-Burch
@@ -685,7 +663,7 @@
    venue: EMNLP
    type: conference
    year: 2022
-   url: publications/dungeons-and-dragons-as-a-dialog-challenge-for-artificial-intelligence.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/dungeons-and-dragons-as-a-dialog-challenge-for-artificial-intelligence.pdf
    page_count: 15
    id: dungeons-and-dragons-as-a-dialog-challenge-for-artificial-intelligence
    data: 
@@ -711,7 +689,7 @@
    venue: EMNLP
    type: conference
    year: 2022
-   url: publications/unsupervised-entity-linking-with-guided-summarization.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/unsupervised-entity-linking-with-guided-summarization.pdf
    page_count: 9
    id: unsupervised-entity-linking-with-guided-summarization
    data: 
@@ -737,7 +715,7 @@
    venue: Findings of EMNLP
    type: conference
    year: 2022
-   url: publications/visualizing-the-obvious.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/visualizing-the-obvious.pdf
    page_count: 17
    id: visualizing-the-obvious
    data: 
@@ -815,7 +793,7 @@
    venue: NAACL
    type: conference
    year: 2022
-   url: publications/fill-in-the-blank-LMs.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/fill-in-the-blank-LMs.pdf
    page_count: 12
    id: fill-in-the-blank-LMs
    data: 
@@ -835,7 +813,7 @@
    venue: NAACL
    type: conference
    year: 2022
-   url: publications/recursive-noun-phrases.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/recursive-noun-phrases.pdf
    page_count: 12
    id: recursive-noun-phrases
    data: https://github.com/veronica320/Recursive-NPs
@@ -895,7 +873,7 @@
    type: conference
    year: 2022
    website: https://wikihow-hierarchy.github.io/
-   url: publications/wikihow-hierarchies.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/wikihow-hierarchies.pdf
    page_count: 14
    id: wikihow-hierarchies
    data: https://github.com/shuyanzhou/wikihow_hierarchy
@@ -916,7 +894,7 @@
    type: conference
    year: 2022
    website:
-   url: publications/smart-textbook-feasibility-study.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/smart-textbook-feasibility-study.pdf
    page_count: 8
    id: smart-textbook-feasibility-study
    data: 
@@ -970,7 +948,7 @@
    venue: NeurIPS 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.
    type: conference
    year: 2021
-   url: publications/synthbio.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/synthbio.pdf
    page_count: 24
    id: synthbio
    data: https://storage.googleapis.com/gem-benchmark/SynthBio.json
@@ -1031,7 +1009,7 @@
    type: paper
    year: 2021
    id: bisect
-   url: publications/bisect.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/bisect.pdf
    page_count: 17
    award: Rose Undergraduate Research Award
    note: The Rose Foundation generously funds the Rose Undergraduate Research Award recognizing outstanding undergraduate research projects completed by graduating seniors at the University of Pennsylvania under the supervision of a Penn faculty member. The Rose Fund is administered by the Center for Undergraduate Research and Fellowships, and awards are determined each year on a competitive basis.
@@ -1052,7 +1030,7 @@
    venue: Findings of EMNLP
    type: paper
    year: 2021
-   url: publications/GooAQ.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/GooAQ.pdf
    page_count: 13
    id: GooAQ
    data: https://github.com/allenai/gooaq
@@ -1071,7 +1049,7 @@
    venue: EMNLP
    type: paper
    year: 2021
-   url: publications/wikily-supervised-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/wikily-supervised-translation.pdf
    page_count: 16
    id: wikily-supervised-translation
    code: https://github.com/rasoolims/ImageTranslate
@@ -1092,7 +1070,7 @@
    year: 2021
    data: https://github.com/YueYANG1996/wikiHow-VGSI
    code: https://github.com/YueYANG1996/wikiHow-VGSI
-   url: publications/visual-goal-step-inference-using-wikihow.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/visual-goal-step-inference-using-wikihow.pdf
    page_count: 13
    id: visual-goal-step-inference-using-wikihow
    abstract:  Procedural events can often be thought of as a high level goal composed of a sequence of steps. Inferring the sub-sequence of steps of a goal can help artificial intelligence systems reason about human activities. Past work in NLP has examined the task of goal-step inference for text. We introduce the visual analogue. We propose the Visual Goal-Step Inference (VGSI) task where a model is given a textual goal and must choose a plausible step towards that goal from among four candidate images. Our task is challenging for state-of-the-art muitimodal models. We introduce a novel dataset harvested from wikiHow that consists of 772,294 images representing human actions. We show that the knowledge learned from our data can effectively transfer to other datasets like HowTo100M, increasing the multiple-choice accuracy by 15% to 20%. Our task will facilitate multi-modal reasoning about procedural events.
@@ -1110,7 +1088,7 @@
    venue: INGL
    type: conference
    year: 2021
-   url: publications/goal-oriented-script-construction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/goal-oriented-script-construction.pdf
    page_count: 17
    id: goal-oriented-script-construction
    data: https://github.com/veronica320/wikihow-GOSC
@@ -1129,7 +1107,7 @@
    venue: Workshop on Data Science with Human in the Loop 
    type: workshop
    year: 2021
-   url: publications/TopGuNN-system.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/TopGuNN-system.pdf
    page_count: 15
    id: TopGuNN-system
    code: https://github.com/Penn-TopGuNN/TopGuNN
@@ -1148,7 +1126,7 @@
    venue: NAACL
    type: demo
    year: 2021
-   url: publications/kairos-resin-system.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/kairos-resin-system.pdf
    code: https://github.com/RESIN-KAIROS/RESIN-pipeline-public
    page_count: 10
    id: kairos-resin-system
@@ -1167,7 +1145,7 @@
    venue: NAACL
    type: conference
    year: 2021
-   url: publications/cultural-and-geographical-influences-on-image-translatability-of-words-across-languages.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/cultural-and-geographical-influences-on-image-translatability-of-words-across-languages.pdf
    code: https://github.com/nikzadkhani/MMID-CNN-Analysis
    page_count: 12
    id: cultural-and-geographical-influences-on-image-translatability-of-words-across-languages
@@ -1242,7 +1220,7 @@
    venue: EMNLP
    type: conference
    year: 2020
-   url: publications/reasoning-about-goals-with-wikihow.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/reasoning-about-goals-with-wikihow.pdf
    data: https://github.com/zharry29/wikihow-goal-step
    code: https://colab.research.google.com/drive/16Qz4fp6eFHd0OGTITTHvw7sZo1Qe_VOS?usp=sharing
    page_count: 11
@@ -1262,7 +1240,7 @@
    venue: AACL-IJCNLP
    type: conference
    year: 2020
-   url: publications/intent-detection-with-wikihow.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/intent-detection-with-wikihow.pdf
    data: https://github.com/zharry29/wikihow-intent
    page_count: 6
    id: intent-detection-with-wikihow
@@ -1281,7 +1259,7 @@
    venue: EMNLP
    type: demo
    year: 2020
-   url: publications/roft-demo.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/roft-demo.pdf
    code: https://github.com/kirubarajan/roft
    website: https://roft.io
    page_count: 7
@@ -1301,7 +1279,7 @@
    venue: HCOMP
    type: demo
    year: 2020
-   url: publications/turkish-judge-demo.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/turkish-judge-demo.pdf
    page_count: 9
    id: turkish-judge-demo
    abstract: We present a crowd-driven adjudication system for rejected work on Amazon Mechanical Turk. The Mechanical Turk crowdsourcing platform allows Requesters to approve or reject assignments submitted by Workers. If the work is rejected, then Workers aren’t paid, and their reputation suffers. Currently, there is no built-in mechanism for Workers to appeal rejections, other than contacting Requesters directly. The time it takes Requesters to review potentially incorrectly rejected tasks means that their costs are substantially higher than the payment amount that is in dispute. As a solution to this issue, we present an automated appeals system called Turkish Judge which employs crowd workers as judges to adjudicate whether work was fairly rejected when their peers initiate an appeal. We describe our system, analyze the added cost to Requesters, and discuss the advantages of such a system to the Mechanical Turk marketplace and other similar microtasking platforms.
@@ -1319,7 +1297,7 @@
    venue: ACL
    type: conference
    year: 2020
-   url: publications/automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled.pdf
    page_count: 15
    id: automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled
    abstract: Recent advancements in neural language modeling make it possible to rapidly generate vast amounts of human-sounding text. The capabilities of humans and automatic discriminators to detect machine-generated text have been a large source of research interest, but humans and machines rely on different cues to make their decisions. Here, we perform careful benchmarking and analysis of three popular sampling-based decoding strategies like top-k, nucleus sampling, and untruncated random sampling—and show that improvements in decoding methods have primarily optimized for fooling humans. This comes at the expense of introducing statistical abnormalities that make detection easy for automatic systems. We also show that though both human and automatic detector performance improve with longer excerpt length, even multi-sentence excerpts can fool expert human raters over 30% of the time. Our findings reveal the importance of using both human and automatic detectors to assess the humanness of text generation systems.
@@ -1337,7 +1315,7 @@
    venue: ACL
    type: conference
    year: 2020
-   url: publications/toward-better-storylines-with-sentence-level-language-models.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/toward-better-storylines-with-sentence-level-language-models.pdf
    code: https://github.com/google-research/google-research/tree/master/better_storylines
    page_count: 7
    id: toward-better-storylines-with-sentence-level-language-models
@@ -1356,7 +1334,7 @@
    venue: Workshop on Computational Models of Reference, Anaphora and Coreference (CRAC)
    type: workshop
    year: 2020
-   url: publications/resolving-pronouns-in-twitter-streams.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/resolving-pronouns-in-twitter-streams.pdf
    page_count: 6
    id: resolving-pronouns-in-twitter-streams
    abstract: Many people live-tweet televised events like Presidential debates and popular TV-shows and discuss people or characters in the event. Naturally, many tweets make pronominal reference to these people/characters. We propose an algorithm for resolving personal pronouns that make reference to people involved in an event, in tweet streams collected during the event.
@@ -1426,7 +1404,7 @@
    venue: TACL
    type: journal
    year: 2019
-   url: publications/paraphrase-sense-tagged-sentences.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/paraphrase-sense-tagged-sentences.pdf
    website: http://www.psts.io
    data: https://github.com/acocos/paraphrase-sense-tagged-sentences
    page_count: 15
@@ -1448,7 +1426,7 @@
    venue: ACL
    type: demo
    year: 2019
-   url: publications/perspectroscope-demo.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/perspectroscope-demo.pdf
    code: https://github.com/CogComp/perspectroscope
    page_count: 6
    id: perspectroscope-demo
@@ -1468,7 +1446,7 @@
    venue: ACL
    type: conference
    year: 2019
-   url: publications/comparison-of-diverse-decoding-methods-from-conditional-language-models.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/comparison-of-diverse-decoding-methods-from-conditional-language-models.pdf
    code: https://github.com/rekriz11/DeDiv
    page_count: 11
    id: comparison-of-diverse-decoding-methods-from-conditional-language-models
@@ -1488,7 +1466,7 @@
    venue: Proceedings of the Second Workshop on Storytelling
    type: workshop
    year: 2019
-   url: publications/winter-is-here.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/winter-is-here.pdf
    page_count: 5
    id: winter-is-here
    abstract: Pre-scheduled events, such as TV shows and sports games, usually garner considerable attention from the public. Twitter captures large volumes of discussions and messages related to these events, in real-time. Twitter streams related to pre-scheduled events are characterized by the following&colon; (1) spikes in the volume of published tweets reflect the highlights of the event and (2) some of the published tweets make reference to the characters involved in the event, in the context in which they are currently portrayed in a subevent. In this paper, we take advantage of these characteristics to identify the highlights of pre-scheduled events from tweet streams and we demonstrate a method to summarize these highlights. We evaluate our algorithm on tweets collected around 2 episodes of a popular TV show, Game of Thrones, Season 7.
@@ -1507,7 +1485,7 @@
    venue: 13th International Conference on Computational Semantics (IWCS)
    type: workshop
    year: 2019
-   url: publications/comparison-of-context-sensitive-models-for-lexical-substitution.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/comparison-of-context-sensitive-models-for-lexical-substitution.pdf
    page_count: 12
    id: comparison-of-context-sensitive-models-for-lexical-substitution
    abstract: Word embedding representations provide good estimates of word meaning and give state-of-the art performance in semantic tasks. Embedding approaches differ as to whether and how they account for the context surrounding a word. We present a comparison of different word and context representations on the task of proposing substitutes for a target word in context (lexical substitution). We also experiment with tuning contextualized word embeddings on a dataset of sense-specific instances for each target word. We show that powerful contextualized word representations, which give high performance in several semantics-related tasks, deal less well with the subtle in-context similarity relationships needed for substitution. This is better handled by models trained with this objective in mind, where the inter-dependence between word and context representations is explicitly modeled during training.
@@ -1526,7 +1504,7 @@
    venue: NAACL
    type: conference
    year: 2019
-   url: publications/complexity-weighted-loss-for-sentence-simplification.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/complexity-weighted-loss-for-sentence-simplification.pdf
    page_count: 10
    id: complexity-weighted-loss-for-sentence-simplification
    abstract: Sentence simplification is the task of rewriting texts so they are easier to understand. Recent research has applied sequence-to-sequence (Seq2Seq) models to this task, focusing largely on training-time improvements via reinforcement learning and memory augmentation. One of the main problems with applying generic Seq2Seq models for simplification is that these models tend to copy directly from the original sentence, resulting in outputs that are relatively long and complex. We aim to alleviate this issue through the use of two main techniques. First, we incorporate content word complexities, as predicted with a leveled word complexity model, into our loss function during training. Second, we generate a large set of diverse candidate simplifications at test time, and rerank these to promote fluency, adequacy, and simplicity. Here, we measure simplicity through a novel sentence complexity model. These extensions allow our models to perform competitively with state-of-the-art systems while generating simpler sentences. We report standard automatic and human evaluation metrics.
@@ -1546,7 +1524,7 @@
    venue: NAACL
    type: conference
    year: 2019
-   url: publications/discovering-diverse-perspectives.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/discovering-diverse-perspectives.pdf
    data: https://github.com/CogComp/perspectrum
    page_count: 16
    id: discovering-diverse-perspectives
@@ -1567,7 +1545,7 @@
    venue: NAACL
    type: demo
    year: 2019
-   url: publications/chateval-demo.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/chateval-demo.pdf
    website: https://chateval.org
    page_count: 6
    id: chateval-demo
@@ -1588,7 +1566,7 @@
    venue: 13th International Conference on Computational Semantics (IWCS)
    type: workshop
    year: 2019
-   url: publications/story-infilling.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/story-infilling.pdf
    page_count: 7
    id: story-infilling
    abstract: Story infilling involves predicting words to go into a missing span from a story. This challenging task has the potential to transform interactive tools for creative writing. However, state-of-the-art conditional language models have trouble balancing fluency and coherence with novelty and diversity. We address this limitation with a hierarchical model which first selects a set of rare words and then generates text conditioned on that set. By relegating the high entropy task of picking rare words to a word-sampling model, the second-stage model conditioned on those words can achieve high fluency and coherence by searching for likely sentences, without sacrificing diversity.
@@ -1607,7 +1585,7 @@
    venue: Iberian Languages Evaluation Forum
    type: workshop
    year: 2019
-   url: publications/meddocan-shared-task-submission.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/meddocan-shared-task-submission.pdf
    page_count: 7
    id: meddocan-shared-task-submission
    abstract: Due to privacy constraints, clinical records with protected health information (PHI) cannot be directly shared. De-identification, i.e., the exhaustive removal, or replacement, of all mentioned PHI phrases has to be performed before making the clinical records available outside of hospitals. We have tried to identify PHI on medical records written in Spanish language. We applied two approaches for the anonymization of medical records in this paper. In the first approach, we gathered various token-level features and built a LinearSVC model which gave us F1 score of 0.861 on test data. In the other approach, we built a neural network involving an LSTM-CRF model which gave us a higher F1 score of 0.935 which is an improvement over the first approach.
@@ -1646,7 +1624,7 @@
    venue: CHI Late Breaking Work
    type: conference
    year: 2019
-   url: publications/crowd-workers-demographics.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/crowd-workers-demographics.pdf
    page_count: 5
    id: crowd-workers-demographics
    abstract: Prior research reported that workers on Amazon Mechanical Turk (AMT) are underpaid, earning about $2/h. But the prior research did not investigate the difference in wage due to worker characteristics (e.g., country of residence). We present the first data-driven analysis on wage gap on AMT. Using work log data and demographic data collected via online survey, we analyse the gap in wage due to different factors. We show that there is indeed wage gap; for example, workers in the U.S. earn $3.01/h while those in India earn $1.41/h.
@@ -1666,7 +1644,7 @@
    venue: EMNLP
    type: conference
    year: 2018
-   url: publications/learning-scalar-adjective-intensity-from-paraphrases.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/learning-scalar-adjective-intensity-from-paraphrases.pdf
    page_count: 11 
    id: learning-scalar-adjective-intensity-from-paraphrases
    abstract: Adjectives like *warm*, *hot*, and *scalding* all describe temperature but differ in intensity. Understanding these differences between adjectives is a necessary part of reasoning about natural language. We propose a new paraphrase-based method to automatically learn the relative intensity relation that holds between a pair of scalar adjectives. Our approach analyzes over 36k adjectival pairs from the Paraphrase Database under the assumption that, for example, paraphrase pair *really hot* <-> *scalding* suggests that *hot* < *scalding*. We show that combining this paraphrase evidence with existing, complementary pattern- and lexicon-based approaches improves the quality of systems for automatically ordering sets of scalar adjectives and inferring the polarity of indirect answers to yes/no questions.
@@ -1686,7 +1664,7 @@
    venue: EMNLP
    type: demo
    year: 2018
-   url: publications/magnitude-fast-efficient-vector-embeddings-in-python.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/magnitude-fast-efficient-vector-embeddings-in-python.pdf
    page_count: 7 
    id: magnitude-fast-efficient-vector-embeddings-in-python
    abstract: Vector space embedding models like word2vec, GloVe, and fastText are extremely popular representations in natural language processing (NLP) applications.  We present Magnitude, a fast, lightweight tool for utilizing and processing embeddings.  Magnitude is an open source Python package with a compact vector storage file format that allows for efficient manipulation of huge numbers of embeddings.  Magnitude performs common operations up to 60 to 6,000 times faster than Gensim. Magnitude introduces several novel features for improved robustness like out-of-vocabulary lookups.
@@ -1706,7 +1684,7 @@
    venue: ACL
    type: conference
    year: 2018
-   url: publications/learning-translations-via-images.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/learning-translations-via-images.pdf
    page_count: 12 
    id: learning-translations-via-images
    abstract: We conduct the most comprehensive study to date into translating words via images.  To facilitate research on the task, we introduce a large-scale multilingual corpus of images, each labeled with the word it represents.  Past datasets have been limited to only a few high-resource languages and unrealistically easy translation settings.  In contrast, we have collected by far the largest available dataset for this task, with images for approximately 10,000 words in each of 100 languages.  We run experiments on a dozen high resource languages and 20 low resources languages, demonstrating the effect of word concreteness and part-of-speech on translation quality.  To improve image-based translation, we introduce a novel method of predicting word concreteness from images, which improves upon previously state-of-the-art unsupervised techniques. This allows us to predict when image-based translation may be effective, enabling consistent improvements to a state-of-the-art text-based word translation system. Our code and dataset will be made available.
@@ -1726,7 +1704,7 @@
    venue: NAACL
    type: conference
    year: 2018
-   url: publications/simpliciation-using-paraphrases-and-lexical-substitution.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/simpliciation-using-paraphrases-and-lexical-substitution.pdf
    page_count: 12 
    id: simpliciation-using-paraphrases-and-lexical-substitution
    abstract: Lexical simplification involves, among other steps, identifying complex words or phrases that need simplification and recommending simpler words or phrases that can be more easily understood. In this paper, we improve the task of identifying English complex words by proposing a model that exploits both lexical and contextual features for identifying words in a text that need to be simplified. We improve the lexical substitution task by using a word embedding-based lexical substitution model, and replacing the detected complex words with simpler paraphrases that preserve the meaning of the original segments. We compare our lexical simplification system to several baselines, and evaluate the best performing system using human judgments for 2,351 tokens. 
@@ -1746,7 +1724,7 @@
    venue: NAACL
    type: conference
    year: 2018
-   url: publications/hyter-paraphrase-lattices.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/hyter-paraphrase-lattices.pdf
    page_count: 6 
    id: hyter-paraphrase-lattices
    abstract: Human translators and MT systems can produce multiple plausible translations for input texts. To reward meaning-equivalent but lexically divergent translations, MT evaluation metrics exploit synonyms and paraphrases, or multiple references. The HyTER metric relies on massive reference networks encoding an exponential number of correct translations for parts of a given sentence, proposed by human annotators. The manually built networks encode the set of all correct translations for a sentence, and HyTER rewards high quality hypotheses by measuring their minimum edit distance to the set of possible translations
@@ -1766,7 +1744,7 @@
    venue: NAACL
    type: conference
    year: 2018
-   url: publications/comparing-constraints-for-taxonomic-organization.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/comparing-constraints-for-taxonomic-organization.pdf
    page_count: 12 
    id: comparing-constraints-for-taxonomic-organization
    abstract: Building a lexical taxonomy from the ground up involves several sub-tasks&colon; selecting terms to include, predicting relations between terms, and selecting the best subset of relations to keep, given constraints on the taxonomy graph. Methods for the final taxonomic organization step vary in terms of the constraints they impose, and whether they enable discovery of synonymous terms. But it is hard to isolate the impact of these factors on the quality of the resulting taxonomy because organization methods are rarely compared directly. In this paper, we present a head-to-head comparison of six taxonomic organization algorithms that vary with respect to their structural and transitivity constraints, and treatment of synonymy. We find that while transitive algorithms out-perform their non-transitive counterparts, the top-performing transitive algorithm is prohibitively slow for taxonomies with as few as 50 entities. We propose a simple modification to a non-transitive maximum spanning tree algorithm to explicitly incorporate synonymy, resulting in a method that is orders of magnitude faster than the top-performer while giving comparable performance.
@@ -1804,7 +1782,7 @@
       date: November 15, 2019
       url: https://www.nytimes.com/interactive/2019/11/15/nyregion/amazon-mechanical-turk.html
    year: 2018
-   url: publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk.pdf
    page_count: 12 
    id: data-driven-analysis-of-workers-earnings-on-amazon-mechanical-turk
    abstract: A growing number of people are working as part of on-line crowd work. Crowd work is often thought to be low wage work. However, we know little about the wage distribution in practice and what causes low/high earnings in this setting. We recorded 2,676 workers performing 3.8 million tasks on Amazon Mechanical Turk. Our task-level analysis revealed that workers earned a median hourly wage of only ~$2/h, and only 4% earned more than $7.25/h. While the average requester pays more than $11/h, lower-paying requesters post much more work. Our wage calculations are influenced by how unpaid work is accounted for, e.g., time spent searching for tasks, working on tasks that are rejected, and working on tasks that are ultimately not submitted. We further explore the characteristics of tasks and working patterns that yield higher hourly wages. Our analysis informs platform design and worker tools to create a more positive future for crowd work.
@@ -1824,7 +1802,7 @@
    venue: Workshop on Intelligent Interactive Systems and Language Generation
    type: workshop
    year: 2018
-   url: publications/chateval.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/chateval.pdf
    page_count: 4 
    id: chateval
    abstract: Open-domain dialog systems are difficult to evaluate. The current best practice for analyzing and comparing these dialog systems is the use of human judgments. However, the lack of standardization in evaluation procedures, and the fact that model parameters and code are rarely published hinder systematic human evaluation experiments. We introduce a unified framework for human evaluation of chatbots that augments existing chatbot tools, and provides a web-based hub for researchers to share and compare their dialog systems. Researchers can submit their trained models to the ChatEval web interface and obtain comparisons with baselines and prior work. The evaluation code is open-source to ensure evaluation is performed in a standardized and transparent way. In addition, we introduce open-source baseline models and evaluation datasets. ChatEval can be found at https://chateval.org/
@@ -1843,7 +1821,7 @@
    venue: EMNLP
    type: conference
    year: 2017
-   url: publications/learning-translations-via-matrix-completion.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/learning-translations-via-matrix-completion.pdf
    page_count: 12 
    id: learning-translations-via-matrix-completion
    abstract: Bilingual Lexicon Induction is the task of learning word translations without bilingual parallel corpora. We model this task as a matrix completion problem, and present an effective and extendable framework for completing the matrix. This method harnesses diverse bilingual and monolingual signals, each of which may be incomplete or noisy. Our model achieves state-of-the-art performance for both high and low resource languages.
@@ -1863,7 +1841,7 @@
    venue: EMNLP
    type: demo
    year: 2017
-   url: publications/know-your-nyms.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/know-your-nyms.pdf
    code: https://github.com/rossmechanic/know_your_nyms/
    website: https://www.know-your-nyms.com
    page_count: 6 
@@ -1885,7 +1863,7 @@
    venue: Workshop on Noisy User-generated Text 
    type: workshop
    year: 2017
-   url: publications/constructing-an-alias-list.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/constructing-an-alias-list.pdf
    page_count: 5 
    id: constructing-an-alias-list
    abstract: In certain fields, real-time knowledge from events can help in making informed decisions. In order to extract pertinent realtime knowledge related to an event, it is important to identify the named entities and their corresponding aliases related to the event. The problem of identifying aliases of named entities that spike has remained unexplored. In this paper, we introduce an algorithm, EntitySpike, that identifies entities that spike in popularity in tweets from a given time period, and constructs an alias list for these spiked entities. EntitySpike uses a temporal heuristic to identify named entities with similar context that occur in the same time period (within minutes) during an event. Each entity is encoded as a vector using this temporal heuristic.We show how these entityvectors can be used to create a named entity alias list. We evaluated our algorithm on a dataset of temporally ordered tweets from a single event, the 2013 Grammy Awards show. We carried out various experiments on tweets that were published in the same time period and show that our algorithm identifies most entity name aliases and outperforms a competitive baseline.
@@ -1903,7 +1881,7 @@
    venue: 12th Workshop on Innovative Use of NLP for Building Educational Applications (BEA12)
    type: workshop
    year: 2017
-   url: publications/adapting-machine-translation-for-grammatical-error-correction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/adapting-machine-translation-for-grammatical-error-correction.pdf
    page_count: 12 
    id: adapting-machine-translation-for-grammatical-error-correction
    abstract: In this work we adapt machine translation (MT) to grammatical error correction, identifying how components of the statistical MT pipeline can be modified for this task and analyzing how each modification impacts system performance. We evaluate the contribution of each of these components with standard evaluation metrics and automatically characterize the morphological and lexical transformations made in system output. Our model rivals the current state of the art using a fraction of the training data.
@@ -1925,7 +1903,7 @@
    venue: STARSEM
    type: conference
    year: 2017
-   url: publications/mapping-ppdb-to-wordnet.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/mapping-ppdb-to-wordnet.pdf
    page_count: 
    id: mapping-ppdb-to-wordnet
    abstract: WordNet has facilitated important research in natural language processing but its usefulness is somewhat limited by its relatively small coverage. The Paraphrase Database (PPDB) covers 650 times more words, but lacks the semantic structure of WordNet that would make it more directly useful for downstream tasks. We present a method for mapping words from PPDB to WordNet synsets with 89% accuracy. The mapping also lays important groundwork for incorporating WordNet's  relations into PPDB so as to increase its utility for semantic  reasoning in applications. 
@@ -1945,7 +1923,7 @@
    venue: STARSEM
    type: conference
    year: 2017
-   url: publications/learning-antonyms.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/learning-antonyms.pdf
    page_count: 10
    id: learning-antonyms
    abstract: Recognizing antonymy is a key task for improving the performance of NLP systems. In this paper, we propose a novel method for deriving antonym pairs from paraphrase pairs containing negation markers. We further integrate morphological features indicative of antonymy into a path-based relation detection algorithm. Our novel neural network model, AntNET, outperforms state-of-the-art models in distinguishing antonyms from other semantic relations and is capable of efficiently handling multi-word expressions.
@@ -1966,7 +1944,7 @@
    type: workshop
    award: Best Paper Award
    year: 2017
-   url: publications/word-sense-filtering-improves-lexical-substitution.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/word-sense-filtering-improves-lexical-substitution.pdf
    page_count: 9
    id: word-sense-filtering-improves-lexical-substitution
    abstract: The role of word sense disambiguation in lexical substitution has been questioned due to the high performance of vector space models which propose good substitutes without explicitly accounting for sense. We show that a filtering mechanism based on a sense inventory optimized for substitutability can improve the results of these models. Our sense inventory is constructed using a clustering method which generates paraphrase clusters that are congruent with lexical substitution annotations in a development set. The results show that lexical substitution can still benefit from senses which can improve the output of vector space paraphrase ranking models. 
@@ -1988,7 +1966,7 @@
    venue: EACL
    type: conference
    year: 2017
-   url: publications/language-of-place.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/language-of-place.pdf
    page_count: 5
    id: language-of-place
    abstract: There is a relationship between what we say and where we say it. Word embeddings are usually trained assuming that semantically-similar words occur within the same textual contexts. We investigate the extent to which semantically-similar words occur within the same geospatial contexts. We enrich a corpus of geolocated Twitter posts with physical data derived from Google Places and OpenStreetMap, and train word embeddings using the resulting geospatial contexts. Intrinsic evaluation of the resulting vectors shows that geographic context alone does provide useful information about semantic relatedness.
@@ -2030,7 +2008,7 @@
    venue: Bloomberg Data for Good Exchange
    type: workshop
    year: 2016
-   url: publications/gvdb-d4gx.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/gvdb-d4gx.pdf
    page_count: 6
    id: gvdb-d4gx
    abstract: We describe the Gun Violence Database (GVDB), a large and growing database of gun violence incidents in the United States. The GVDB is built from the detailed information found in local news reports about gun violence, and is constructed via a large-scale crowdsourced annotation effort through our web site, http://gun-violence.org/. We argue that centralized and publicly available data about gun violence can facilitate scientific, fact-based discussion about a topic that is often dominated by politics and emotion. We describe our efforts to automate the construction of the database using state-of-the-art natural language processing (NLP) technologies, eventually enabling a fully-automated, highly-scalable resource for research on this important public health problem.
@@ -2040,7 +2018,7 @@
    venue: EMNLP
    type: conference
    year: 2016
-   url: publications/gun-violence-database.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/gun-violence-database.pdf
    page_count: 6
    id: gun-violence-database
    abstract: We argue that NLP researchers are especially well-positioned to contribute to the national discussion about gun violence. Reasoning about the causes and outcomes of gun violence is typically dominated by politics and emotion, and data-driven research on the topic is stymied by a shortage of data and a lack of federal funding. However, data abounds in the form of unstructured text from news articles across the country. This is an ideal application of NLP technologies, such as relation extraction, coreference resolution, and event detection. We introduce a new and growing dataset, the Gun Violence Database, in order to facilitate the adaptation of current NLP technologies to the domain of gun violence, thus enabling better social science research on this important and under-resourced problem.
@@ -2060,7 +2038,7 @@
    venue: EMNLP
    type: conference
    year: 2016
-   url: publications/tense-predicts-implicative-verbs.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/tense-predicts-implicative-verbs.pdf
    page_count: 5
    id: tense-predicts-implicative-verbs
    abstract: Implicative verbs (e.g. manage) entail their compliment clauses, while non-implicative verbs (e.g. want) do not. For example, while managing to solve the problem entails solving the problem, no such inference follows from wanting to solve the problem. Differentiating between implicative and non-implicative verbs is therefore an essential component of natural language understanding, relevant to applications such as textual entailment and summarization. We present a simple method for predicting implicativeness which exploits known constraints on the tense of implicative verbs and their compliments. We show that this yields an effective, data-driven way of capturing this nuanced property in verbs.
@@ -2081,7 +2059,7 @@
    type: conference
    award: Best Paper Award
    year: 2016
-   url: publications/non-subsective-adjectives.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/non-subsective-adjectives.pdf
    page_count: 6
    id: non-subsective-adjectives
    abstract: The interpretation of adjective-noun pairs plays a crucial role in tasks such as recognizing textual entailment. Formal semantics often places adjectives into a taxonomy which should dictate adjectives’ entailment behavior when placed in adjective-noun compounds. However, we show experimentally that the behavior of subsective adjectives (e.g. red) versus non-subsective adjectives (e.g. fake) is not as cut and dry as often assumed. For example, inferences are not always symmetric&colon; while ID is generally considered to be mutually exclusive with fake ID, fake ID is considered to entail ID. We discuss the implications of these findings for automated natural language understanding.
@@ -2101,7 +2079,7 @@
    venue: ACL
    type: conference
    year: 2016
-   url: publications/compositional-entailment-in-adjective-nouns.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/compositional-entailment-in-adjective-nouns.pdf
    data: http://www.seas.upenn.edu/~nlp/resources/AN-composition.tgz
    page_count: 11
    id: compositional-entailment-in-adjective-nouns
@@ -2122,7 +2100,7 @@
    venue: ACL
    type: conference
    year: 2016
-   url: publications/simple-ppdb.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/simple-ppdb.pdf
    data: http://www.seas.upenn.edu/~nlp/resources/simple-ppdb.tgz
    page_count: 6
    id: simple-ppdb
@@ -2143,7 +2121,7 @@
    venue: NAACL
    type: conference
    year: 2016
-   url: publications/clustering-paraphrases-by-word-sense.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/clustering-paraphrases-by-word-sense.pdf
    page_count: 10
    id: clustering-paraphrases-by-word-sense
    abstract: Automatically generated databases of English paraphrases have the drawback that they return a single list of paraphrases for an input word or phrase. This means that all senses of polysemous words are grouped together, unlike WordNet which partitions different senses into separate synsets. We present a new method for clustering paraphrases by word sense, and apply it to the Paraphrase Database (PPDB). We investigate the performance of hierarchical and spectral clustering algorithms, and systematically explore different ways of defining the similarity matrix that they use as input. Our method produces sense clusters that are qualitatively and quantitatively good, and that represent a substantial improvement to the PPDB resource.
@@ -2163,7 +2141,7 @@
    venue: NAACL
    type: conference
    year: 2016
-   url: publications/sentential-paraphrasing-demo-paper.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/sentential-paraphrasing-demo-paper.pdf
    page_count: 5
    id: sentential-paraphrasing-demo-paper
    abstract: We present a simple, prepackaged solution to generating paraphrases of English sentences. We use the Paraphrase Database (PPDB) for monolingual sentence rewriting and provide machine translation language packs&colon; prepackaged, tuned models that can be downloaded and used to generate paraphrases on a standard Unix environment. The language packs can be treated as a black box or customized to specific tasks. In this demonstration, we will explain how to use the included interactive web-based tool to generate sentential paraphrases.
@@ -2183,7 +2161,7 @@
    venue: TACL
    type: journal
    year: 2016
-   url: publications/optimizing-machine-translation-for-text-simplifciation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/optimizing-machine-translation-for-text-simplifciation.pdf
    page_count: 15
    id: optimizing-machine-translation-for-text-simplifciation
    abstract: Most recent sentence simplification systems use basic machine translation models to learn lexical and syntactic paraphrases from a manually simplified parallel corpus. These methods are limited by the quality and quantity of manually simplified corpora, which are expensive to build. In this paper, we conduct an in-depth adaptation of statistical machine translation to perform text simplification, taking advantage of large-scale paraphrases learned from bilingual texts and a small amount of manual simplifications with multiple references. Our work is the first to design automatic metrics that are effective for tuning and  evaluating simplification systems, which will facilitate iterative development for this task.
@@ -2203,7 +2181,7 @@
    venue: Computational Linguistics
    type: journal
    year: 2016
-   url: publications/discriminative-bilingual-lexicon-induction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/discriminative-bilingual-lexicon-induction.pdf
    page_count: 38
    id: discriminative-bilingual-lexicon-induction
    abstract: Bilingual lexicon induction is the task of inducing word translations from monolingual corpora in two languages.  In this paper we present the most comprehensive analysis of bilingual lexicon induction to date.  We present experiments on a wide range of languages and data sizes.  We examine translation into English from 25 foreign languages -- Albanian, Azeri, Bengali, Bosnian, Bulgarian, Cebuano, Gujarati, Hindi, Hungarian, Indonesian, Latvian, Nepali, Romanian, Serbian, Slovak, Somali, Spanish, Swedish, Tamil, Telugu, Turkish, Ukrainian, Uzbek, Vietnamese and Welsh.  We analyze the behavior of bilingual lexicon induction on low frequency words, rather than testing solely on high frequency words, as previous research has done.  Low frequency words are more relevant to statistical machine translation, where systems typically lack translations of rare words that fall outside of their training data.  We systematically explore a wide range of features and phenomena that affect the quality of the translations discovered by bilingual lexicon induction. We give illustrative examples of the highest ranking translations for orthogonal signals of translation equivalence like contextual similarity and temporal similarity.  We analyze the effects of frequency and burstiness, and the sizes of the seed bilingual dictionaries and the monolingual training corpora.  Additionally, we introduce a novel discriminative approach to bilingual lexicon induction.  Our discriminative model is capable of combining a wide variety of features, which individually provide only weak indications of translation equivalence.  When feature weights are discriminatively set, these signals produce dramatically higher translation quality than previous approaches that combined signals in an unsupervised fashion (e.g. using minimum reciprocal rank).  We also directly compare our model's performance against a sophisticated generative approach, the matching canonical correlation analysis (MCCA) algorithm used by Haghighi et al (2008).  Our algorithm achieves an accuracy of 42% versus MCCA's 15%.
@@ -2213,7 +2191,7 @@
    venue: The Adventure Zone podcast
    type: unpublished
    year: 2015
-   url: publications/shield-of-heroic-memories.mp3
+   url: https://www.cis.upenn.edu/~ccb/publications/shield-of-heroic-memories.mp3
    id: shield-of-heroic-memories
    abstract: I designed an item for The Adventure Zone, a comedy podcast about three brothers playing D&D with their dad.  The McElroy brothers were incredibly enthusiastic about my submission.  I want all of my paper reviews to say what they said, "That's already radical and then my boy Chris Callison-Burch kicked it up a notch. It's brilliant."       
 -
@@ -2222,7 +2200,7 @@
    venue: ACL
    type: conference
    year: 2015
-   url: publications/adding-semantics-to-data-driven-paraphrasing.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/adding-semantics-to-data-driven-paraphrasing.pdf
    data: http://cs.brown.edu/people/epavlick/resources/natlog-labeled-rte-pairs.gz
    page_count: 10
    id: adding-semantics-to-data-driven-paraphrasing
@@ -2313,7 +2291,7 @@
    venue: ACL
    type: conference
    year: 2015
-   url: publications/ppdb-reranking.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/ppdb-reranking.pdf
    data: http://www.seas.upenn.edu/~nlp/resources/ppdb-2.0-human-labels.tgz
    website: http://paraphrase.org/
    page_count: 6
@@ -2335,7 +2313,7 @@
    venue: ACL
    type: conference
    year: 2015
-   url: publications/domain-specific-paraphrases.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/domain-specific-paraphrases.pdf
    page_count: 6
    id: domain-specific-paraphrases
    abstract: The validity of applying paraphrase rules depends on the domain of the text that they are being applied to. We develop a novel method for extracting domain-specific paraphrases. We adapt the bilingual pivoting paraphrase method to bias the training data to be more like our target domain of biology. Our best model results in higher precision while retaining complete recall, giving a 10% relative improvement in AUC.
@@ -2355,7 +2333,7 @@
    venue: ACL
    type: conference
    year: 2015
-   url: publications/FrameNetPlus.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/FrameNetPlus.pdf
    data: http://www.seas.upenn.edu/~nlp/resources/FN+.zip
    page_count: 6
    id: FrameNetPlus
@@ -2376,7 +2354,7 @@
    venue: TACL
    type: journal
    year: 2015
-   url: publications/new-data-for-text-simplification.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf
    page_count: 16
    id: new-data-for-text-simplification
    figures:
@@ -2446,7 +2424,7 @@
    venue: NAACL
    type: conference
    year: 2015
-   url: publications/cost-optimization-for-crowdsourcing-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/cost-optimization-for-crowdsourcing-translation.pdf
    page_count: 9
    id: cost-optimization-for-crowdsourcing-translation
    figures:
@@ -2499,7 +2477,7 @@
    venue: SemEval
    type: workshop
    year: 2015
-   url: publications/paraphrase-and-semantic-similarity-in-twitter.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/paraphrase-and-semantic-similarity-in-twitter.pdf
    page_count: 11
    id: paraphrase-and-semantic-similarity-in-twitter
    figures:
@@ -2547,7 +2525,7 @@
    venue: Sixth International Workshop on Health Text Mining and Information Analysis
    type: workshop
    year: 2015
-   url: publications/crowdsourcing-radiology.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/crowdsourcing-radiology.pdf
    page_count: 6
    id: crowdsourcing-radiology
    abstract: Crowdsourcing platforms are a popular choice for researchers to gather text annotations quickly at scale. We investigate whether crowdsourced annotations are useful when the labeling task requires medical domain knowledge. Comparing a sentence classification model trained with expert-annotated sentences to the same model trained on crowd-labeled sentences, we find the crowdsourced training data to be just as effective as the manually produced dataset. We can improve the accuracy of the crowd-fueled model without collecting further labels by filtering out worker labels applied with low confidence.
@@ -2566,7 +2544,7 @@
    venue: Workshop on Innovative Use of NLP for Building Educational Applications
    type: workshop
    year: 2015
-   url: publications/automatically-scoring-freshman-writing.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/automatically-scoring-freshman-writing.pdf
    page_count: 10
    id: automatically-scoring-freshman-writing
    abstract: In this work, we explore applications of automatic essay scoring (AES) to a corpus of essays written by college freshmen and discuss the challenges we faced. While most AES systems evaluate highly constrained writing, we developed a system that handles open-ended, long-form writing. We present a novel corpus for this task, containing more than 3,000 essays and drafts written for a freshman writing course. We describe statistical analysis of the corpus and identify problems with automatically scoring this type of data. Finally, we demonstrate how to overcome grader bias by using a multi-task setup, and predict scores as well as human graders on a different dataset. Finally, we discuss how AES can help teachers assign more uniform grades.
@@ -2588,7 +2566,7 @@
    venue: HCOMP
    type: workshop
    year: 2015
-   url: publications/gun-violence-db.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/gun-violence-db.pdf
    page_count: 2
    id: gun-violence-db
    abstract: We present a system for extracting structured information from unstructured text using a combination of information retrieval, natural language processing, machine learning, and crowdsourcing. We test our pipeline by building a structured database of gun violence incidents in the United States. The results of our pilot study demonstrate that the proposed methodology is a viable way of collecting large-scale, up-to-date data for public health, public policy, and social science research.
@@ -2607,7 +2585,7 @@
    venue: STARTSEM
    type: conference
    year: 2015
-   url: publications/ideological-perspective-detection.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/ideological-perspective-detection.pdf
    page_count: 10
    id: ideological-perspective-detection
    abstract: In this paper, we propose the use of word sense disambiguation and latent semantic features to automatically identify a person’s perspective from his/her written text. We run an Amazon Mechanical Turk experiment where we ask Turkers to answer a set of constrained and open-ended political questions drawn from the American National Election Studies (ANES). We then extract the proposed features from the answers to the open-ended questions and use them to predict the answer to one of the constrained questions, namely, their preferred Presidential Candidate. In addition to this newly created dataset, we also evaluate our proposed approach on a second standard dataset of "Ideological-Debates". This latter dataset contains topics from four domains&colon; Abortion, Creationism, Gun Rights and Gay Rights. Experimental results show that using word sense disambiguation and latent semantics, whether separately or combined, beats the majority and random baselines on the cross-validation and held-out-test sets for both the ANES and the four domains of the "Ideological Debates" datasets. Moreover combining both feature sets outperforms a stronger unigram-only classification system.
@@ -2630,7 +2608,7 @@
    pages: 34
    type: journal
    year: 2016
-   url: publications/end-to-end-smt-with-zero-or-small-bitexts.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/end-to-end-smt-with-zero-or-small-bitexts.pdf
    page_count: 34
    id: end-to-end-smt-with-zero-or-small-bitexts
    abstract: We use bilingual lexicon induction techniques, which learn translations from monolingual texts in two languages, to build an end-to-end statistical machine translation (SMT) system without the use of any bilingual sentence-aligned parallel corpora. We present detailed analysis of the accuracy of bilingual lexicon induction, and show how a discriminative model can be used to combine various signals of translation equivalence (like contextual similarity, temporal similarity, orthographic similarity and topic similarity). Our discriminative model produces higher accuracy translations than previous bilingual lexicon induction techniques. We reuse these signals of translation equivalence as features on a phrase-based SMT system. These monolingually-estimated features enhance low resource SMT systems in addition to allowing end-to-end machine translation without parallel corpora.
@@ -2651,7 +2629,7 @@
    venue: Computational Linguistics
    type: journal
    year: 2014
-   url: publications/arabic-dialect-id.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/arabic-dialect-id.pdf
    page_count: 36
    id: arabic-dialect-id
    figures:
@@ -2749,7 +2727,7 @@
    venue: TACL
    type: journal
    year: 2014
-   url: publications/extracting-paraphrases-from-twitter.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/extracting-paraphrases-from-twitter.pdf
    page_count: 14
    id: extracting-paraphrases-from-twitter
    figures:
@@ -2817,7 +2795,7 @@
    venue: IWSLT
    type: workshop
    year: 2014
-   url: publications/callhome-egyptian-arabic-speech-translations.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/callhome-egyptian-arabic-speech-translations.pdf
    page_count: 5
    id: callhome-egyptian-arabic-speech-translations
    figures:
@@ -2860,7 +2838,7 @@
    venue: HCOMP Poster
    type: workshop
    year: 2014
-   url: publications/poetry-generation-with-crowdsourcing.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/poetry-generation-with-crowdsourcing.pdf
    page_count: 3
    id: poetry-generation-with-crowdsourcing
    figures:
@@ -2893,7 +2871,7 @@
    venue: HCOMP Poster
    type: workshop
    year: 2014
-   url: publications/crowd-workers.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/crowd-workers.pdf
    page_count: 2
    id: crowd-workers
    figures:
@@ -2922,7 +2900,7 @@
    venue: TACL
    type: journal
    year: 2014
-   url: publications/language-demographics-of-mechanical-turk.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/language-demographics-of-mechanical-turk.pdf
    data: http://www.seas.upenn.edu/~nlp/resources/TACL-data-release/dictionaries.tar.gz
    code: http://www.seas.upenn.edu/~nlp/resources/TACL-data-release/mturk-data.tar.gz
    page_count: 13
@@ -2996,7 +2974,7 @@
    venue: CoNLL
    type: conference
    year: 2014
-   url: publications/hallucinating-phrase-translations.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/hallucinating-phrase-translations.pdf
    page_count: 11
    id: hallucinating-phrase-translations
    figures:
@@ -3046,7 +3024,7 @@
    venue: WMT
    type: workshop
    year: 2014
-   url: publications/using-comparable-corpora-for-mt-adaptation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/using-comparable-corpora-for-mt-adaptation.pdf
    page_count: 8
    id: using-comparable-corpora-for-mt-adaptation
    figures:
@@ -3080,7 +3058,7 @@
    venue: ACL
    type: conference
    year: 2014
-   url: publications/crowdsourced-translation-via-collaboration-between-translators-and-editors.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/crowdsourced-translation-via-collaboration-between-translators-and-editors.pdf
    page_count: 11
    id: crowdsourced-translation-via-collaboration-between-translators-and-editors
    figures:
@@ -3135,7 +3113,7 @@
    venue: EACL
    type: conference
    year: 2014
-   url: publications/paradigm-paraphrase-evaluation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/paradigm-paraphrase-evaluation.pdf
    page_count: 10
    id: paradigm-paraphrase-evaluation
    figures:
@@ -3202,7 +3180,7 @@
    venue: CSCW Poster
    type: conference
    year: 2014
-   url: publications/crowdsourcing-for-grammatical-error-correction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/crowdsourcing-for-grammatical-error-correction.pdf
    page_count: 4
    id: crowdsourcing-for-grammatical-error-correction
    figures:
@@ -3246,7 +3224,7 @@
    venue: LREC
    type: conference
    year: 2014
-   url: publications/ppdb-multilingual.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/ppdb-multilingual.pdf
    page_count: 8
    id: ppdb-multilingual
    figures:
@@ -3290,7 +3268,7 @@
    venue: LREC
    type: conference
    year: 2014
-   url: publications/american-local-news-corpus.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/american-local-news-corpus.pdf
    page_count: 4
    id: american-local-news-corpus
    figures:
@@ -3334,7 +3312,7 @@
    venue: LREC
    type: conference
    year: 2014
-   url: publications/arabic-dialect-corpus-2.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/arabic-dialect-corpus-2.pdf
    page_count: 5
    id: arabic-dialect-corpus-2
    figures:
@@ -3398,7 +3376,7 @@
    venue: LREC Workshop on Free/Open-Source Arabic Corpora and Corpora Processing Tools
    type: workshop
    year: 2014
-   url: publications/arabic-french-codeswitching.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/arabic-french-codeswitching.pdf
    page_count: 4
    id: arabic-french-codeswitching
    abstract: Arabic is not just one language, but rather a collection of dialects in addition to Modern Standard Arabic (MSA). While MSA is used in formal situations, dialects are the language of every day life. Until recently, there was very little dialectal Arabic in written form. With the advent of social-media, however, the landscape has changed. We provide the first romanized code-switched Algerian Arabic-French corpus annotated for word-level language id. We review the history and sociological factors that make the linguistic situation in Algerian unique and highlight the value of this corpus to the natural language processing and linguistics communities. To build this corpus, we crawled an Algerian newspaper and extracted the comments from the news story. We discuss the informal nature of the language in the corpus and the challenges it will present. Additionally, we provide a preliminary analysis of the corpus. We then discuss some potential uses of our corpus of interest to the computational linguistics community. 
@@ -3421,7 +3399,7 @@
    venue: Unpublished
    type: unpublished
    year: 2013
-   url: publications/letter-to-the-president.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/letter-to-the-president.pdf
    page_count: 2
    id: letter-to-the-president
    abstract: I wrote an open letter to President Obama about my former PhD student, Omar Zaidan, who had his student visa revoked on the eve of his PhD defense, and who has not been allowed to return to the US in 1.5 years. The letter was read by over 35,000 people in the first week after I published it. 
@@ -3431,7 +3409,7 @@
    venue: IWSLT
    type: workshop
    year: 2013
-   url: publications/improved-speech-to-speech-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/improved-speech-to-speech-translation.pdf
    page_count: 7
    id: improved-speech-to-speech-translation
    figures:
@@ -3482,7 +3460,7 @@
    venue: EMNLP
    type: conference
    year: 2013
-   url: publications/semi-markov-phrase-based-monolingual-alignment.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/semi-markov-phrase-based-monolingual-alignment.pdf
    page_count: 11
    id: semi-markov-phrase-based-monolingual-alignment
    figures:
@@ -3529,7 +3507,7 @@
    venue: WMT
    type: workshop
    year: 2013
-   url: publications/findings-of-the-wmt13-shared-tasks.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/findings-of-the-wmt13-shared-tasks.pdf
    page_count: 44
    id: findings-of-the-wmt13-shared-tasks
    figures:
@@ -3629,7 +3607,7 @@
    venue: WMT
    type: workshop
    year: 2013
-   url: publications/joshua-5.0.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/joshua-5.0.pdf
    page_count: 7
    id: joshua-5
    figures:
@@ -3669,7 +3647,7 @@
    venue: WMT
    type: workshop
    year: 2013
-   url: publications/combining-bilingual-and-comparable-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/combining-bilingual-and-comparable-corpora.pdf
    page_count: 9
    id: combining-bilingual-and-comparable-corpora
    figures:
@@ -3725,7 +3703,7 @@
    venue: ACL
    type: conference
    year: 2013
-   url: publications/monolingual-word-aligner.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/monolingual-word-aligner.pdf
    page_count: 6
    id: monolingual-word-aligner
    figures:
@@ -3760,7 +3738,7 @@
    venue: ACL
    type: conference
    year: 2013
-   url: publications/parma.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/parma.pdf
    page_count: 6
    id: parma
    figures:
@@ -3794,7 +3772,7 @@
    venue: TACL
    type: journal
    year: 2013
-   url: publications/teaching-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/teaching-machine-translation.pdf
    page_count: 13
    id: teaching-machine-translation
    figures:
@@ -3832,7 +3810,7 @@
    venue: ACL
    type: conference
    year: 2013
-   url: publications/bitexts-from-common-crawl.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/bitexts-from-common-crawl.pdf
    page_count: 10
    id: bitexts-from-common-crawl
    figures:
@@ -3899,7 +3877,7 @@
    venue: NAACL
    type: conference
    year: 2013
-   url: publications/ppdb.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/ppdb.pdf
    page_count: 7
    id: ppdb
    figures:
@@ -3946,7 +3924,7 @@
    venue: NAACL
    type: conference
    year: 2013
-   url: publications/supervised-bilingual-lexicon-induction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/supervised-bilingual-lexicon-induction.pdf
    page_count: 6
    id: supervised-bilingual-lexicon-induction
    figures:
@@ -3993,7 +3971,7 @@
    venue: NAACL
    type: conference
    year: 2013
-   url: publications/answer-extraction-as-sequence-tagging.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/answer-extraction-as-sequence-tagging.pdf
    page_count: 10
    id: answer-extraction-as-sequence-tagging
    figures:
@@ -4048,7 +4026,7 @@
    venue: WMT
    type: workshop
    year: 2012
-   url: publications/findings-of-the-wmt12-shared-tasks.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/findings-of-the-wmt12-shared-tasks.pdf
    page_count: 42
    id: findings-of-the-wmt12-shared-tasks
    figures:
@@ -4125,7 +4103,7 @@
    type: workshop
    year: 2012
    data: https://github.com/joshua-decoder/indian-parallel-corpora
-   url: publications/constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing.pdf
    page_count: 9
    id: constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing
    figures:
@@ -4189,7 +4167,7 @@
    venue: WMT
    type: workshop
    year: 2012
-   url: publications/using-categorial-grammar-to-label-translation-rules.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/using-categorial-grammar-to-label-translation-rules.pdf
    page_count: 10
    id: using-categorial-grammar-to-label-translation-rules
    figures:
@@ -4245,7 +4223,7 @@
    venue: WMT
    type: workshop
    year: 2012
-   url: publications/joshua-4.0.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/joshua-4.0.pdf
    page_count: 9
    id: joshua-4
    figures:
@@ -4301,7 +4279,7 @@
    venue: NAACL
    type: conference
    year: 2012
-   url: publications/expectations-of-word-sense-in-parallel-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/expectations-of-word-sense-in-parallel-corpora.pdf
    page_count: 5
    id: expectations-of-word-sense-in-parallel-corpora
    figures:
@@ -4342,7 +4320,7 @@
    venue: the NAACL Workshop on Language in Social Media
    type: workshop
    year: 2012
-   url: publications/pakistani-SMS-corpus.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/pakistani-SMS-corpus.pdf
    page_count: 4
    id: pakistani-SMS-corpus
    figures:
@@ -4390,7 +4368,7 @@
    venue: STARSEM
    type: conference
    year: 2012
-   url: publications/monolingual-distributional-similarity-for-text-to-text-generation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/monolingual-distributional-similarity-for-text-to-text-generation.pdf
    page_count: 9
    id: monolingual-distributional-similarity-for-text-to-text-generation
    figures:
@@ -4449,7 +4427,7 @@
    venue: NAACL
    type: conference
    year: 2012
-   url: publications/machine-translation-of-arabic-dialects.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
    page_count: 11
    id: machine-translation-of-arabic-dialects
    figures:
@@ -4516,7 +4494,7 @@
    venue: EACL
    type: conference
    year: 2012
-   url: publications/toward-statistical-machine-translation-without-parallel-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/toward-statistical-machine-translation-without-parallel-corpora.pdf
    page_count: 11
    id: toward-statistical-machine-translation-without-parallel-corpora
    figures:
@@ -4574,7 +4552,7 @@
    venue: Computational Linguistics
    type: journal
    year: 2012
-   url: publications/modality-and-negation-in-semantically-informed-syntactic-mt.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/modality-and-negation-in-semantically-informed-syntactic-mt.pdf
    page_count: 28
    id: modality-and-negation-in-semantically-informed-syntactic-mt
    figures:
@@ -4648,7 +4626,7 @@
    venue: WMT
    type: workshop
    year: 2011
-   url: publications/findings-of-the-wmt11-shared-tasks.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/findings-of-the-wmt11-shared-tasks.pdf
    page_count: 43
    id: findings-of-the-wmt11-shared-tasks
    figures:
@@ -4704,7 +4682,7 @@
    venue: EMNLP
    type: conference
    year: 2011
-   url: publications/learning-sentential-paraphrases-from-bilingual-parallel-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/learning-sentential-paraphrases-from-bilingual-parallel-corpora.pdf
    page_count: 12
    id: learning-sentential-paraphrases-from-bilingual-parallel-corpora
    figures:
@@ -4760,7 +4738,7 @@
    venue: GEMS
    type: workshop
    year: 2011
-   url: publications/reranking-bilingually-extracted-paraphrases-using-monolingual-distributional-similarity.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/reranking-bilingually-extracted-paraphrases-using-monolingual-distributional-similarity.pdf
    page_count: 10
    id: reranking-bilingually-extracted-paraphrases-using-monolingual-distributional-similarity
    figures:
@@ -4804,7 +4782,7 @@
    venue: WMT
    type: workshop
    year: 2011
-   url: publications/joshua-3.0.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/joshua-3.0.pdf
    page_count: 7
    id: joshua-3
    figures:
@@ -4848,7 +4826,7 @@
    venue: ACL Workshop on Automatic Summarization for Different Genres, Media, and Languages
    type: workshop
    year: 2011
-   url: publications/wikitopics-what-is-popular-on-wikipedia-and-why.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/wikitopics-what-is-popular-on-wikipedia-and-why.pdf
    page_count: 8
    id: wikitopics-what-is-popular-on-wikipedia-and-why
    figures:
@@ -4908,7 +4886,7 @@
    venue: Workshop on Monolingual Text-To-Text Generation
    type: workshop
    year: 2011
-   url: publications/evaluating-sentence-compression-pitfalls-and-suggested-remedies.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/evaluating-sentence-compression-pitfalls-and-suggested-remedies.pdf
    page_count: 7
    id: evaluating-sentence-compression-pitfalls-and-suggested-remedies
    figures:
@@ -4944,7 +4922,7 @@
    venue: Workshop on Monolingual Text-To-Text Generation
    type: workshop
    year: 2011
-   url: publications/paraphrastic-sentence-compression.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/paraphrastic-sentence-compression.pdf
    page_count: 7
    id: paraphrastic-sentence-compression
    figures:
@@ -4984,7 +4962,7 @@
    venue: BUCC
    type: workshop
    year: 2011
-   url: publications/paraphrase-fragment-extraction-from-monolingual-comparable-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/paraphrase-fragment-extraction-from-monolingual-comparable-corpora.pdf
    page_count: 9
    id: paraphrase-fragment-extraction-from-monolingual-comparable-corpora
    figures:
@@ -5040,7 +5018,7 @@
    venue: ACL
    type: conference
    year: 2011
-   url: publications/arabic-dialect-corpus.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/arabic-dialect-corpus.pdf
    page_count: 5
    id: arabic-dialect-corpus
    figures:
@@ -5088,7 +5066,7 @@
    venue: ACL
    type: conference
    year: 2011
-   url: publications/crowdsourcing-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
    page_count: 10
    id: crowdsourcing-translation
    figures:
@@ -5136,7 +5114,7 @@
    venue: ACL
    type: conference
    year: 2011
-   url: publications/incremental-syntactic-language-models-for-phrase-based-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/incremental-syntactic-language-models-for-phrase-based-translation.pdf
    page_count: 12
    id: incremental-syntactic-language-models-for-phrase-based-translation
    figures:
@@ -5196,7 +5174,7 @@
    venue: NAACL
    type: conference
    year: 2010
-   url: publications/predicting-HTER-from-untrained-annotators.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/predicting-HTER-from-untrained-annotators.pdf
    page_count: 4
    id: predicting-HTER-from-untrained-annotators
    figures:
@@ -5228,7 +5206,7 @@
    venue: AMTA
    type: conference
    year: 2010
-   url: publications/semantically-informed-syntactic-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/semantically-informed-syntactic-machine-translation.pdf
    page_count: 10
    id: semantically-informed-syntactic-machine-translation
    figures:
@@ -5289,7 +5267,7 @@
    venue: AMTA
    type: conference
    year: 2010
-   url: publications/transliterating-from-all-languages.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/transliterating-from-all-languages.pdf
    page_count: 8
    id: transliterating-from-all-languages
    figures:
@@ -5354,7 +5332,7 @@
    venue: WMT
    type: workshop
    year: 2010
-   url: publications/joshua-2.0.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/joshua-2.0.pdf
    page_count: 5
    id: joshua-2
    abstract: We describe the progress we have made in the past year on Joshua (Li et al., 2009a), an open source toolkit for parsing-based machine translation. The new functionality includes&colon; support for translation grammars with a rich set of syntactic nonterminals, the ability for external modules to posit constraints on how spans in the input sentence should be translated, lattice parsing for dealing with input uncertainty, a semiring framework that provides a unified way of doing various dynamic programming calculations, variational decoding for approximating the intractable MAP decoding, hypergraph-based discriminative training for better feature engineering, a parallelized MERT module, document-level and tail-based MERT, visualization of the derivation trees, and a cleaner pipeline for MT experiments. 
@@ -5377,7 +5355,7 @@
    venue: WMT
    type: workshop
    year: 2010
-   url: publications/findings-of-wmt10-and-metrics-matr.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/findings-of-wmt10-and-metrics-matr.pdf
    page_count: 33
    id: findings-of-wmt10-and-metrics-matr
    figures:
@@ -5461,7 +5439,7 @@
    venue: ACL
    type: conference
    year: 2010
-   url: publications/cost-focused-active-learning-for-statistical-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/cost-focused-active-learning-for-statistical-machine-translation.pdf
    page_count: 11
    id: cost-focused-active-learning-for-statistical-machine-translation
    figures:
@@ -5529,7 +5507,7 @@
    venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
    type: workshop
    year: 2010
-   url: publications/creating-speech-and-language-data-with-amazon-mechanical-turk.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/creating-speech-and-language-data-with-amazon-mechanical-turk.pdf
    page_count: 12
    id: creating-speech-and-language-data-with-amazon-mechanical-turk
    figures:
@@ -5557,7 +5535,7 @@
    venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
    type: workshop
    year: 2010
-   url: publications/using-mechanical-turk-to-build-machine-translation-evaluation-sets.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/using-mechanical-turk-to-build-machine-translation-evaluation-sets.pdf
    page_count: 4
    id: using-mechanical-turk-to-build-machine-translation-evaluation-sets
    figures:
@@ -5589,7 +5567,7 @@
    venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
    type: workshop
    year: 2010
-   url: publications/crowdsourced-accessibility-elicitation-of-wikipedia-articles.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/crowdsourced-accessibility-elicitation-of-wikipedia-articles.pdf
    page_count: 4
    id: crowdsourced-accessibility-elicitation-of-wikipedia-articles
    abstract: Mechanical Turk is useful for generating complex speech resources like conversational speech transcription. In this work, we explore the next step of eliciting narrations of Wikipedia articles to improve accessibility for low-literacy users. This task proves a useful test-bed to implement qualitative vetting of workers based on difficult to define metrics like narrative quality. Working with the Mechanical Turk API, we collected sample narrations, had other Turkers rate these samples and then granted access to full narration HITs depending on aggregate quality. While narrating full articles proved too onerous a task to be viable, using other Turkers to perform vetting was very successful. Elicitation is possible on Mechanical Turk, but it should conform to suggested best practices of simple tasks that can be completed in a streamlined workflow. 
@@ -5612,7 +5590,7 @@
    venue: NAACL Workshop on Creating Speech and Language Data With Amazon’s Mechanical Turk
    type: workshop
    year: 2010
-   url: publications/cheap-facts-and-counter-facts.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/cheap-facts-and-counter-facts.pdf
    page_count: 5
    id: cheap-facts-and-counter-facts
    figures:
@@ -5656,7 +5634,7 @@
    venue: NAACL
    type: conference
    year: 2010
-   url: publications/stream-based-translation-models.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/stream-based-translation-models.pdf
    page_count: 9
    id: stream-based-translation-models
    figures:
@@ -5712,7 +5690,7 @@
    venue: NAACL
    type: conference
    year: 2010
-   url: publications/automatic-speech-recognition-with-non-expert-transcription.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
    page_count: 9
    id: automatic-speech-recognition-with-non-expert-transcription
    figures:
@@ -5768,7 +5746,7 @@
    venue: PBML
    type: journal
    year: 2010
-   url: publications/integrating-output-from-specialized-modules-in-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/integrating-output-from-specialized-modules-in-machine-translation.pdf
    page_count: 10
    id: integrating-output-from-specialized-modules-in-machine-translation
    figures:
@@ -5801,7 +5779,7 @@
    venue: PBML
    type: journal
    year: 2010
-   url: publications/visualizing-data-structures-in-parsing-based-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/visualizing-data-structures-in-parsing-based-machine-translation.pdf
    page_count: 10
    id: visualizing-data-structures-in-parsing-based-machine-translation
    figures:
@@ -5842,7 +5820,7 @@
    venue: PBML
    type: journal
    year: 2010
-   url: publications/hiero-grammar-extraction-with-suffix-arrays.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/hiero-grammar-extraction-with-suffix-arrays.pdf
    page_count: 10
    id: hiero-grammar-extraction-with-suffix-arrays
    figures:
@@ -5871,7 +5849,7 @@
    venue: HLTCOE
    type: report
    year: 2009
-   url: publications/scale-2009-report.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/scale-2009-report.pdf
    page_count: 152
    id: scale-2009-report
    figures:
@@ -5923,7 +5901,7 @@
    award: Nominated for the ACL 2019 Test of Time Award 
    note: This was one of 4 papers nominated for the 10 year Test of Time Award at ACL 2019. 
    year: 2009
-   url: publications/mechanical-turk-for-machine-translation-evaluation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf
    page_count: 10
    id: mechanical-turk-for-machine-translation-evaluation
    figures:
@@ -5975,7 +5953,7 @@
    venue: EMNLP
    type: conference
    year: 2009
-   url: publications/HMERT.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/HMERT.pdf
    page_count: 10
    id: HMERT
    figures:
@@ -6019,7 +5997,7 @@
    venue: EMNLP
    type: conference
    year: 2009
-   url: publications/improved-translation-with-monolingually-derived-paraphrases.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/improved-translation-with-monolingually-derived-paraphrases.pdf
    page_count: 10
    id: improved-translation-with-monolingually-derived-paraphrases
    figures:
@@ -6067,7 +6045,7 @@
    venue: CoNLL
    type: conference
    year: 2009
-   url: publications/improving-translation-lexicon-induction.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/improving-translation-lexicon-induction.pdf
    page_count: 9
    id: improving-translation-lexicon-induction
    figures:
@@ -6139,7 +6117,7 @@
    venue: WMT
    type: workshop
    year: 2009
-   url: publications/findings-of-the-wmt09-shared-tasks.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/findings-of-the-wmt09-shared-tasks.pdf
    page_count: 28
    id: findings-of-the-wmt09-shared-tasks
    figures:
@@ -6223,7 +6201,7 @@
    venue: WMT
    type: workshop
    year: 2009
-   url: publications/joshua-open-source-toolkit-for-statistical-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/joshua-open-source-toolkit-for-statistical-machine-translation.pdf
    page_count: 5
    id: joshua-open-source-toolkit-for-statistical-machine-translation
    figures:
@@ -6251,7 +6229,7 @@
    venue: PBML
    type: journal
    year: 2009
-   url: publications/decoding-in-joshua.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/decoding-in-joshua.pdf
    page_count: 10
    id: decoding-in-joshua
    figures:
@@ -6284,7 +6262,7 @@
    venue: EMNLP
    type: conference
    year: 2008
-   url: publications/syntactic-constraints-on-paraphrases.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/syntactic-constraints-on-paraphrases.pdf
    page_count: 10
    id: syntactic-constraints-on-paraphrases
    figures:
@@ -6340,7 +6318,7 @@
    venue: CoLing
    type: conference
    year: 2008
-   url: publications/parametric.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/parametric.pdf
    page_count: 8
    id: parametric
    figures:
@@ -6388,7 +6366,7 @@
    venue: WMT
    type: workshop
    year: 2008
-   url: publications/further-meta-evaluation-of-machine-tranlsion.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/further-meta-evaluation-of-machine-tranlsion.pdf
    page_count: 37
    id: further-meta-evaluation-of-machine-tranlsion
    figures:
@@ -6468,7 +6446,7 @@
    venue: Computational Linguistics
    type: journal
    year: 2008
-   url: publications/constructing-corpora-for-paraphrase-systems.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/constructing-corpora-for-paraphrase-systems.pdf
    page_count: 18
    id: constructing-corpora-for-paraphrase-systems
    figures:
@@ -6530,7 +6508,7 @@
    venue: of the 3rd Textgraphs workshop on Graph-based Algorithms for Natural Language Processing at CoLing
    type: workshop
    year: 2008
-   url: publications/graph-laplacian-affinity-measures.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/graph-laplacian-affinity-measures.pdf
    page_count: 8
    id: graph-laplacian-affinity-measures
    figures:
@@ -6586,7 +6564,7 @@
    venue: PhD Thesis, University of Edinburgh
    type: thesis
    year: 2007
-   url: publications/callison-burch-thesis.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/callison-burch-thesis.pdf
    page_count: 
    id: callison-burch-thesis
    figures:
@@ -6635,7 +6613,7 @@
    venue: WMT
    type: workshop
    year: 2007
-   url: publications/meta-evaluation-of-machine-tranlsion.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/meta-evaluation-of-machine-tranlsion.pdf
    page_count: 
    id: meta-evaluation-of-machine-tranlsion
    figures:
@@ -6719,7 +6697,7 @@
    venue: CLSP Summer Workshop Final Report WS, Johns Hopkins University
    type: workshop
    year: 2007
-   url: publications/open-source-toolkit-for-statistical-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/open-source-toolkit-for-statistical-machine-translation.pdf
    page_count: 
    id: open-source-toolkit-for-statistical-machine-translation
    abstract: The 2006 Language Engineering Workshop Open Source Toolkit for Statistical Machine Translationhad the objective to advance the current state-of-the-art in statistical machine translation through richer input and richer annotation of the training data. The workshop focused on three topics&colon; factored translation models, confusion network decoding, and the development of an open source toolkit that incorporates this advancements. This report describes the scientific goals, the novel methods, and experimental results of the workshop. It also documents details of the implementation of the open source toolkit. 
@@ -6739,7 +6717,7 @@
    venue: ACL
    type: conference
    year: 2007
-   url: publications/moses-toolkit.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/moses-toolkit.pdf
    page_count: 
    id: moses-toolkit
    figures:
@@ -6775,7 +6753,7 @@
    venue: Evaluation of Multilingual and Multimodalformation Retrieval, Lecture Notes in Computer Science, C Peters et al editors
    type: chapter
    year: 2007
-   url: publications/paraphrase-substitution-for-recognizing-textual-entailment.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/paraphrase-substitution-for-recognizing-textual-entailment.pdf
    page_count: 
    id: paraphrase-substitution-for-recognizing-textual-entailment
    figures:
@@ -6803,7 +6781,7 @@
    venue: NAACL
    type: conference
    year: 2006
-   url: publications/improved-statistical-machine-translation-using-paraphrases.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/improved-statistical-machine-translation-using-paraphrases.pdf
    page_count: 
    id: improved-statistical-machine-translation-using-paraphrases
    figures:
@@ -6855,7 +6833,7 @@
    venue: EACL
    type: conference
    year: 2006
-   url: publications/re-evaluating-the-role-of-bleu-in-mt-research.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/re-evaluating-the-role-of-bleu-in-mt-research.pdf
    page_count: 8
    id: re-evaluating-the-role-of-bleu-in-mt-research
    abstract: We argue that the machine translation community is overly reliant on the Bleu machine translation evaluation metric. We show that an improved Bleu score is neither necessary nor sufficient for achieving an actual improvement in translation quality, and give two significant counterexamples to Bleu’s correlation with human judgments of quality. This offers new potential for research which was previously deemed unpromising by an inability to improve upon Bleu scores. 
@@ -6878,7 +6856,7 @@
    venue: WMT
    type: workshop
    year: 2006
-   url: publications/constraining-the-phrase-based-joint-probability-model.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/constraining-the-phrase-based-joint-probability-model.pdf
    page_count: 
    id: constraining-the-phrase-based-joint-probability-model
    figures:
@@ -6914,7 +6892,7 @@
    venue: ACL
    type: conference
    year: 2005
-   url: publications/scaling-phrase-based-statistical-machine-translation.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/scaling-phrase-based-statistical-machine-translation.pdf
    page_count: 
    id: scaling-phrase-based-statistical-machine-translation
    figures:
@@ -6970,7 +6948,7 @@
    venue: ACL
    type: conference
    year: 2005
-   url: publications/paraphrasing-with-bilingual-parallel-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/paraphrasing-with-bilingual-parallel-corpora.pdf
    page_count: 
    id: paraphrasing-with-bilingual-parallel-corpora
    figures:
@@ -7022,7 +7000,7 @@
    venue: EAMT
    type: workshop
    year: 2005
-   url: publications/compact-data-structure-for-searchable-translation-memories.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/compact-data-structure-for-searchable-translation-memories.pdf
    page_count: 
    id: compact-data-structure-for-searchable-translation-memories
    figures:
@@ -7061,7 +7039,7 @@
    venue: Machine Translation Evaluation Workshop
    type: workshop
    year: 2005
-   url: publications/linear-b-system-description-for-nist-mt-eval-2005.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/linear-b-system-description-for-nist-mt-eval-2005.pdf
    page_count: 
    id: linear-b-system-description-for-nist-mt-eval-2005
    figures:
@@ -7096,7 +7074,7 @@
    venue: IWSLT
    type: workshop
    year: 2005
-   url: publications/iwslt05-report.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/iwslt05-report.pdf
    page_count: 
    id: iwslt05-report
    figures:
@@ -7164,7 +7142,7 @@
    venue: ACL
    type: conference
    year: 2004
-   url: publications/smt-with-word-and-sentence-aligned-parallel-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/smt-with-word-and-sentence-aligned-parallel-corpora.pdf
    page_count: 
    id: smt-with-word-and-sentence-aligned-parallel-corpora
    figures:
@@ -7227,7 +7205,7 @@
    venue: ASLIB Translating and the Computer
    type: workshop
    year: 2004
-   url: publications/searchable-translation-memories.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/searchable-translation-memories.pdf
    page_count: 
    id: searchable-translation-memories
    figures:
@@ -7266,7 +7244,7 @@
    venue: EAMT
    type: workshop
    year: 2004
-   url: publications/improved-smt-through-editing.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/improved-smt-through-editing.pdf
    page_count: 
    id: improved-smt-through-editing
    figures:
@@ -7309,7 +7287,7 @@
    venue: A Handbook for Language Engineers, Ali Farghaly, Editor
    type: chapter
    year: 2003
-   url: publications/statistical-natural-language-processing-chapter.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/statistical-natural-language-processing-chapter.pdf
    page_count: 
    id: statistical-natural-language-processing-chapter
    figures:
@@ -7346,7 +7324,7 @@
    venue: NAACL workshop Building and Using Parallel Texts
    type: workshop
    year: 2003
-   url: publications/bootstrapping-parallel-corpora.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/bootstrapping-parallel-corpora.pdf
    page_count: 6
    id: bootstrapping-parallel-corpora
    figures:
@@ -7388,7 +7366,7 @@
    venue: the 6th Annual CLUK Research Colloquium
    type: workshop
    year: 2003
-   url: publications/co-training-for-smt.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/co-training-for-smt.pdf
    page_count: 
    id: co-training-for-smt
    figures:
@@ -7431,7 +7409,7 @@
    venue: the 6th Annual CLUK Research Colloquium
    type: workshop
    year: 2003
-   url: publications/evaluating-question-answering-systems-using-faq-answer-injection.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/evaluating-question-answering-systems-using-faq-answer-injection.pdf
    page_count: 
    id: evaluating-question-answering-systems-using-faq-answer-injection
    figures:
@@ -7458,7 +7436,7 @@
    venue: Master's thesis, School of Informatics, University of Edinburgh
    type: thesis
    year: 2002
-   url: publications/msc-thesis.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/msc-thesis.pdf
    page_count: 
    id: msc-thesis
    abstract: I propose a novel co-training method for statistical machine translation. As co-training requires multiple learners trained on views of the data which are disjoint and sufficient for the labeling task, I use multiple source documents as views on translation. Co-training for statistical machine translation is therefore a type of multi-source translation. Unlike previous mutli-source methods, it improves the overall quality of translations produced by a model, rather than single translations. This is achieved by augmenting the parallel corpora on which the statistical translation models are trained. Experiments suggest that co-training is especially effective for languages with highly impoverished parallel corpora. 
@@ -7476,7 +7454,7 @@
    venue: ASLIB Translating and the Computer
    type: workshop
    year: 2001
-   url: publications/upping-the-ante.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/upping-the-ante.pdf
    page_count: 
    id: upping-the-ante
    figures:
@@ -7511,7 +7489,7 @@
    venue: MT Summit
    type: conference
    year: 2001
-   url: publications/multi-engine-mt-with-language-models.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/multi-engine-mt-with-language-models.pdf
    page_count: 
    id: multi-engine-mt-with-language-models
    figures:
@@ -7546,7 +7524,7 @@
    venue: MT Summit Workshop
    type: workshop
    year: 2001
-   url: publications/secondary-benefits-of-user-feedback-in-mt.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/secondary-benefits-of-user-feedback-in-mt.pdf
    page_count: 
    id: secondary-benefits-of-user-feedback-in-mt
    figures:
@@ -7573,7 +7551,7 @@
    venue: Undergraduate thesis, Symbolic Systems Program, Stanford University
    type: thesis
    year: 2000
-   url: publications/computer-model-of-a-grammar-for-english-questions.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/computer-model-of-a-grammar-for-english-questions.pdf
    page_count: 78
    id: computer-model-of-a-grammar-for-english-questions
    figures:
