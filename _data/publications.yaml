@@ -156,7 +156,7 @@
    page_count: 11
    id: calypso-llms-for-dms
    data: 
-   code: 
+   code: https://github.com/northern-lights-province/calypso-aiide-artifact
    website:
    press: 
     - 
@@ -618,7 +618,7 @@
    id: bidirectional-lms-are-few-shot-leaners
    data:
    code:
-   website:
+   website: https://www.cis.upenn.edu/~ccb/publications/bidirectional-lms-are-few-shot-leaners.pdf
    abstract: |
       Large language models such as GPT-3 (Brown et al., 2020) can perform arbitrary tasks without undergoing fine-tuning after being prompted with only a few labeled examples. An arbitrary task can be reformulated as a natural language prompt, and a language model can be asked to generate the completion, indirectly performing the task in a paradigm known as prompt-based learning. To date, emergent prompt-based learning capabilities have mainly been demonstrated for unidirectional language models. However, bidirectional language models pre-trained on denoising objectives such as masked language modeling produce stronger learned representations for transfer learning. This motivates the possibility of prompting bidirectional models, but their pre-training objectives have made them largely incompatible with the existing prompting paradigm. We present SAP (Sequential Autoregressive Prompting), a technique that enables the prompting of bidirectional models. Utilizing the machine translation task as a case study, we prompt the bidirectional mT5 model (Xue et al., 2021) with SAP and demonstrate its few-shot and zero-shot translations outperform the few-shot translations of unidirectional models like GPT-3 and XGLM (Lin et al., 2021), despite mT5's approximately 50% fewer parameters. We further show SAP is effective on question answering and summarization. For the first time, our results demonstrate prompt-based learning is an emergent property of a broader class of language models, rather than only unidirectional models.
    bibtex: |
@@ -909,8 +909,8 @@
    venue: ACL
    type: conference
    year: 2022
-   url: https://arXiv.org/abs/2107.06499
-   page_count: 20
+   url: https://www.cis.upenn.edu/~ccb/publications/deduplicating-training-data-makes-lms-better.pdf
+   page_count: 22
    id: deduplicating-training-data
    data: https://github.com/google-research/deduplicate-text-datasets
    abstract: We find that existing language modeling datasets contain many near-duplicate examples and long repetitive substrings. As a result, over 1% of the unprompted output of language models trained on these datasets is copied verbatim from the training data. We develop two tools that allow us to deduplicate training datasets -- for example removing from C4 a single 61 word English sentence that is repeated over 60,000 times. Deduplication allows us to train models that emit memorized text ten times less frequently and require fewer train steps to achieve the same or better accuracy. We can also reduce train-test overlap, which affects over 4% of the validation set of standard datasets, thus allowing for more accurate evaluation. We release code for reproducing our work and performing dataset deduplication at https://github.com/google-research/deduplicate-text-datasets
