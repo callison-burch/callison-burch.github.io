@@ -890,7 +890,8 @@
    type: conference
    year: 2022
    website: https://bit.ly/3fLDuci
-   url: https://arxiv.org/abs/2109.03910
+   video: https://aclanthology.org/2022.acl-short.94.mp4
+   url: https://www.cis.upenn.edu/~ccb/publications/zero-shot-arbitrary-text-style-transfer.pdf
    page_count: 12
    id: zero-shot-arbitrary-text-style-transfer
    data: 
