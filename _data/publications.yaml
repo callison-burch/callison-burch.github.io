@@ -72,6 +72,30 @@
       series = {DIS '23}
       }
 -
+   title: Learning When to Speak&colon; Latency and Quality Trade-offs for Simultaneous Speech-to-Speech Translation with Offline Models
+   authors: Liam Dugan, Anshul Wadhawan, Kyle Spence, Chris Callison-Burch, Morgan McGuire, Victor Zordan
+   venue: Interspeech 
+   type: conference
+   year: 2023
+   url: https://arxiv.org/pdf/2306.01201.pdf
+   page_count: 2
+   id: learning-when-to-speak
+   data: 
+   code: https://github.com/liamdugan/speech-to-speech
+   website:
+   abstract: | 
+      Recent work in speech-to-speech translation (S2ST) has focused primarily on offline settings, where the full input utterance is available before any output is given. This, however, is not reasonable in many real-world scenarios. In latency-sensitive applications, rather than waiting for the full utterance, translations should be spoken as soon as the information in the input is present. In this work, we introduce a system for simultaneous S2ST targeting real-world use cases. Our system supports translation from 57 languages to English with tunable parameters for dynamically adjusting the latency of the output—including four policies for determining when to speak an output sequence. We show that these policies achieve offline-level accuracy with minimal increases in latency over a Greedy (wait-k) baseline. We open-source our evaluation code and interactive test script to aid future SimulS2ST research and application development.
+   bibtex: |
+      @inproceedings{dugan2023learning,
+        title={Learning When to Speak: Latency and Quality Trade-offs for Simultaneous Speech-to-Speech Translation with Offline Models},
+        author={Dugan, Liam and Wadhawan, Anshul and Spence, Kyle and Callison-Burch, Chris and McGuire, Morgan and Zordan, Victor},
+        booktitle={Proceedings of INTERSPEECH 2023},
+        year={2023},
+        address={Dublin, Ireland},
+        month={August}
+        pages={5265-5266}
+      }
+-
    title: This Land is {Your, My} Land&colon; Evaluating Geopolitical Biases in Language Models
    authors: Bryan Li, Chris Callison-Burch
    venue: arXiv
