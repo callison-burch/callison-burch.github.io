@@ -9,7 +9,8 @@
    id: copyright-and-ai-testimony
    data: 
    code: 
-   video: https://www.youtube.com/live/Mm1NQ_Kqumw?feature=share&t=887
+   video: https://youtube.com/playlist?list=PL0S5TKwqfRKKUNWzp7rEe5uuLV-o9VC2f&si=z5cNeqF4_5xgAyHs
+   video_alt: https://www.youtube.com/live/Mm1NQ_Kqumw?feature=share&t=887
    press: 
     - 
       title: Copyright Law and Generative AI&colon; What a mess
@@ -45,6 +46,35 @@
         note = {Hearing on Artificial Intelligence and Intellectual Property: Part I – Interoperability of AI and Copyright Law},
         institution = {University of Pennsylvania, School of Engineering and Applied Sciences, Department of Computer and Information Science}
       }
+-
+   title: Faithful Chain-of-Thought Reasoning
+   authors: Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch
+   venue: AACL-IJCNLP
+   type: conference
+   year: 2023
+   url: https://www.cis.upenn.edu/~ccb/publications/faithful-chain-of-thought-reasoning.pdf
+   page_count: 25
+   id: faithful-chain-of-thought-reasoning
+   data: https://github.com/veronica320/Faithful-COT
+   code: https://github.com/veronica320/Faithful-COT
+   website:
+   abstract: |
+      While Chain-of-Thought (CoT) prompting boosts Language Models’ (LM) performance on a gamut of complex reasoning tasks, the generated reasoning chain does not necessarily reflect how the model arrives at the answer (aka. faithfulness). We propose Faithful CoT, a reasoning framework involving two stages: Translation (Natural Language query → symbolic reasoning chain) and Problem Solving (reasoning chain → answer), using an LM and a deterministic solver respectively. This guarantees that the reasoning chain provides a faithful explanation of the final answer. Aside from interpretability, Faithful CoT also improves empirical performance: it outperforms standard CoT on 9 of 10 benchmarks from 4 diverse domains, with a relative accuracy gain of 6.3% on Math Word Problems (MWP), 3.4% on Planning, 5.5% on Multi-hop Question Answering (QA), and 21.4% on Relational Inference. Furthermore, with GPT-4 and Codex, it sets the new state-of-the-art few-shot performance on 7 datasets (with 95.0+ accuracy on 6 of them), showing a strong synergy between faithfulness and accuracy.
+   bibtex: |
+      @inproceedings{lyu2023faithful,
+          author = {Lyu, Qing and Havaldar, Shreya and Stein, Adam and Zhang, Li and Rao, Delip and Wong, Eric and Apidianaki, Marianna and Callison-Burch, Chris},
+          title = {Faithful Chain-of-Thought Reasoning},
+          booktitle = {Proceedings of the 13th International Joint Conference on Natural Language Processing and the 3rd Conference of the Asia-Pacific Chapter of the Association for Computational Linguistics (IJCNLP-AACL 2023)},
+          year = {2023},
+          location = {Bali, Indonesia},
+          date = {November 1--4}
+      }
+   figures:
+      -
+         img: figures/faithful-chain-of-thought-reasoning/faithful-chain-of-thought-reasoning-figure-3.png
+         label: Figure 3
+         caption: Examples from each task (Math Word Problems, Multi-hop QA, Planning, Logical Inference) showing our 2-stage Translation and Problem Solving pipeline.
+
 -
    title: Rewriting the Script&colon; Adapting Text Instructions for Voice Interaction
    authors: Alyssa Hwang, Natasha Oza, Andrew Head, Chris Callison-Burch
@@ -547,36 +577,6 @@
          img: figures/language-models-are-drummers/language-models-are-drummers-figure-1.png
          label: Figure 1
          caption: The sheet music of an example of our generated drum track, demonstrating our model’s ability to somewhat musically follow the motif and make variations. The first two measures are provided while the rest are generated.
--
-   title: Faithful Chain-of-Thought Reasoning
-   authors: Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2023
-   url: https://arxiv.org/abs/2301.13379
-   page_count: 24
-   id: faithful-chain-of-thought-reasoning
-   data: https://github.com/veronica320/Faithful-COT
-   code: https://github.com/veronica320/Faithful-COT
-   website:
-   abstract: |
-      While Chain-of-Thought (CoT) prompting boosts Language Models' (LM) performance on a gamut of complex reasoning tasks, the generated reasoning chain does not necessarily reflect how the model arrives at the answer (aka. faithfulness). We propose Faithful CoT, a faithful-by-construction framework that decomposes a reasoning task into two stages: Translation (Natural Language query → symbolic reasoning chain) and Problem Solving (reasoning chain → answer), using an LM and a deterministic solver respectively. We demonstrate the efficacy of our approach on 10 reasoning datasets from 4 diverse domains. It outperforms traditional CoT prompting on 9 out of the 10 datasets, with an average accuracy gain of 4.4 on Math Word Problems, 1.9 on Planning, 4.0 on Multi-hop Question Answering (QA), and 18.1 on Logical Inference, under greedy decoding. Together with self-consistency decoding, we achieve new state-of-the-art few-shot performance on 7 out of the 10 datasets, showing a strong synergy between faithfulness and accuracy.
-   bibtex: |
-      @misc{https://doi.org/10.48550/arxiv.2301.13379,
-        doi = {10.48550/ARXIV.2301.13379},
-        url = {https://arxiv.org/abs/2301.13379},
-        author = {Lyu, Qing and Havaldar, Shreya and Stein, Adam and Zhang, Li and Rao, Delip and Wong, Eric and Apidianaki, Marianna and Callison-Burch, Chris},
-        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {Faithful Chain-of-Thought Reasoning},
-        publisher = {arXiv},
-        year = {2023},
-        copyright = {Creative Commons Attribution Non Commercial No Derivatives 4.0 International}
-      }
-   figures:
-      -
-         img: figures/faithful-chain-of-thought-reasoning/faithful-chain-of-thought-reasoning-figure-3.png
-         label: Figure 3
-         caption: Examples from each task (Math Word Problems, Multi-hop QA, Planning, Logical Inference) showing our 2-stage Translation and Problem Solving pipeline.
 -
    title: Learn With Martian&colon; A Tool For Creating Assignments That Can Write And Re-Write Themselves
    authors: Shriyash Upadhyay, Etan Ginsberg, Chris Callison-Burch
