@@ -1,4 +1,13 @@
 -
+   venue: The Transformative Power of Generative AI in Healthcare Delivery
+   title: Hopkins Business of Health Initiative (HBHI)
+   date: September 15, 2023
+-
+   venue: The Society Of Composers and Lyricists
+   title: Ask an Expert about ChatGPT and Generative AI
+   date: August 14, 2023
+   url: https://thescl.com/exclusives/ask-an-expert/
+-
    venue: NLP Highlights Podcast
    title: Generative AI and Copyright
    date: May 25, 2023
@@ -7,6 +16,8 @@
    venue: Wharton
    title: Invited Speaker at workshop on Large Language Models&colon; Computer Science meets Social Science
    date: May 19, 2023
+   url: https://players.brightcove.net/13421203001/default_default/index.html?videoId=6328669369112
+   alt_url: https://bcove.video/4371ZpD
 - 
    venue: The U.S. House of Representatives Judiciary Committee, Subcommittee on Courts, Intellectual Property, and the Internet
    title: Testimony at hearing on "Artificial Intelligence and Intellectual Property&colon; Part I – Interoperability of AI and Copyright Law"
@@ -78,6 +89,7 @@
    venue: TAC Conference
    title: Panel Discussion on What Large Language Models Cannot Do
    date: February 3, 2023
+   url: https://youtu.be/2oOQIRvkq_o?si=PxThSwvhLsmXCI9L
 -
    venue: Keynote Address to AACL 2022 Conference
    title: Reasoning about Goals and Making Plans with Large Language Models
