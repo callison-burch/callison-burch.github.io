@@ -13,6 +13,7 @@
 -
    name: Mohammad Sadegh Rasooli 
    homepage: https://www.linkedin.com/in/mohammad-sadegh-rasooli-b5993857/
+   institution: University of Pennsylvania
    phd_from: Columbia University
    pic: mohammad_sadegh_rasooli.jpg
    postdoc_start: January 2020
@@ -23,7 +24,8 @@
 -
    name: Derry Wijaya
    homepage: https://derrywijaya.github.io
-   phd_from: Carnegie Mellon University University
+   institution: University of Pennsylvania
+   phd_from: Carnegie Mellon University 
    pic: derry_wijaya.jpg
    postdoc_start: 2016
    postdoc_end: August 2018
@@ -32,7 +34,8 @@
    pronouns: she/her
 -
    name: Anietie Andy
-   homepage: https://anietieandy.github.io/
+   homepage: https://nlp.howard.edu
+   institution: University of Pennsylvania
    phd_from: Howard University
    pic: anietie_andy.jpg
    postdoc_start: January 2017
@@ -43,6 +46,7 @@
 -
    name: Wei Xu
    homepage: https://cocoxu.github.io/
+   institution: University of Pennsylvania
    phd_from: New York University
    pic: wei_xu.jpg
    postdoc_start: February 2014
@@ -54,6 +58,7 @@
    name: Matt Post
    homepage: http://cs.jhu.edu/~post/
    pic: matt_post.jpg
+   institution: Johns Hopkins University
    phd_from: University of Rochester
    postdoc_start:
    postdoc_end:
@@ -64,6 +69,7 @@
    name: Alex Klementiev
    homepage: http://klementiev.org
    pic: alex_klementiev.jpg
+   institution: Johns Hopkins University
    phd_from: UIUC
    postdoc_start: November 2009  
    postdoc_end: July 2011

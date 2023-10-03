@@ -1,6 +1,8 @@
 -
    title: Research Gift
    awarding_body: Salesforce
+   is_company: True
+   type: gift
    amount: $30k
    start_date: 2023
    end_date: 2024
@@ -11,6 +13,8 @@
 -
    title: Research Gift
    awarding_body: Roblox
+   is_company: True
+   type: gift
    amount: $100k
    start_date: 2023
    end_date: 2024
@@ -81,6 +85,7 @@
 -
    title: Alexa Prize TaskBot Challenge
    awarding_body: Amazon
+   is_company: True
    amount: $250k
    start_date: 2021
    end_date: 2022
@@ -130,6 +135,7 @@
 -
    title: SPUR WOMEN&colon; Support and Promote Undergraduate Research for Women
    awarding_body: Google
+   is_company: True
    amount: $15k from Google 
    start_date: 2019
    end_date: 2020
@@ -192,6 +198,8 @@
 -
    title: Google Faculty Research Award (Using Self-Identification of Group Membership to Explore Differences in Argumentation and Evidence Finding)
    awarding_body: Google
+   is_company: True
+   type: gift
    amount: $80,000
    PI_info: Chris Callison-Burch and Emily Falk
    start_date: 2019
@@ -268,10 +276,10 @@
    status: past
    PI_info: co-PI with Christopher Cieri and Mark Liberman
 -
-   title: Amazon Web Services supplimental grant to Amazon Academic Research Award
+   title: Amazon Web Services supplemental grant to Amazon Academic Research Award
    awarding_body: Amazon
-   amount: $40,000 
-   type: AWS credit
+   amount: $40,000 (AWS Credit)
+   type: gift
    start_date: 2016
    end_date: 2017
    status: past
@@ -279,7 +287,8 @@
 -
    title: Low Resource Machine Translation via Matrix Factorization (Amazon Academic Research Awards)
    awarding_body: Amazon
-   type: Gift
+   is_company: True
+   type: gift
    amount: $68,000
    start_date: 2016
    end_date: 2017
@@ -319,6 +328,8 @@
    status: past
 -
    title: Unsolicited Gift
+   type: gift
+   is_company: True
    awarding_body: Facebook
    amount: $50,000
    start_date: 2014
@@ -332,6 +343,8 @@
 -
    title: Google Faculty Research Award (Learning Paraphrases from Large, Diverse Data Sets)
    awarding_body: Google
+   is_company: True
+   type: gift
    amount: $62,000
    start_date: 2013
    status: past
@@ -386,6 +399,8 @@
    title: Crowdsourcing Translation
    awarding_body: Microsoft
    amount: $25,000
+   is_company: True
+   type: gift
    status: past
    start_date: 2011
 -
@@ -416,6 +431,8 @@
    title: Google Faculty Research Award (The Babel Challenge&colon; Translating all the World’s Languages)
    awarding_body: Google
    amount: $45,000
+   type: gift
+   is_company: True
    start_date: 2010
    status: past
    PI_info: co-PI with Miles Osborne

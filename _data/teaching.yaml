@@ -20,8 +20,9 @@
    enrollment: 196
    instructor_rating: 
    course_rating: 
+   online_degree: True
 -
-   title: Artificial Intelligence
+   title: Natural Language Processing
    number: CIS 5300 - Penn Engineering Online
    institution: University of Pennsylvania
    term: Fall
@@ -31,6 +32,7 @@
    enrollment: 159
    instructor_rating: 
    course_rating: 
+   online_degree: True
 -
    title: Large Language Models and Programming Languages
    number: CIS 8000
@@ -39,9 +41,10 @@
    year: 2023
    description: 
    url: 
-   enrollment: 40
+   enrollment: 20
    instructor_rating: 
    course_rating: 
+   voluntary_overload: True
 -
    title: Artificial Intelligence
    number: CIS 5210 - Penn Engineering Online
@@ -53,6 +56,7 @@
    enrollment: 107
    instructor_rating: 3.5
    course_rating: 3.35
+   online_degree: True
 -
    title: Natural Language Processing
    number: CIS 5300 - Penn Engineering Online
@@ -64,6 +68,7 @@
    enrollment: 45
    instructor_rating: 3.45
    course_rating: 3.26
+   online_degree: True
 -
    title: Artificial Intelligence
    number: CIS 4210/5210 - on campus
@@ -86,6 +91,7 @@
    enrollment: 94
    instructor_rating: 3.62
    course_rating: 3.38
+   online_degree: True
 -
    title: Research Practicum
    number: CIS 8000
@@ -97,6 +103,7 @@
    enrollment: 16
    instructor_rating: 3.57
    course_rating: 3.50
+   voluntary_overload: True
 -
    title: Artificial Intelligence
    number: CIS 521 - Penn Engineering Online
@@ -108,6 +115,7 @@
    enrollment: 70
    instructor_rating: 3.74
    course_rating: 3.48
+   online_degree: True
 -
    title: Interactive Fiction and Text Generation
    number: CIS 700-001
@@ -121,15 +129,52 @@
    course_rating: 3.25
 -
    title: Artificial Intelligence
-   number: CIS 421/521 - on campus + MCIT Online
+   number: CIS 521 - MCIT Online
    institution: University of Pennsylvania
    term: Fall
    year: 2021
    description: 
    url: http://artificial-intelligence-class.org/
-   enrollment: 563
-   instructor_rating: 3.4
+   enrollment: 234
+   instructor_rating: 3.39
+   course_rating: 3.16
+   online_degree: True
+-
+   title: Artificial Intelligence
+   number: CIS 421/521 - on campus - section 1
+   institution: University of Pennsylvania
+   term: Fall
+   year: 2021
+   description: 
+   url: http://artificial-intelligence-class.org/
+   enrollment: 180
+   instructor_rating: 3.43
    course_rating: 3.18
+
+-
+   title: Artificial Intelligence
+   number: CIS 421/521 - on campus - section 2
+   institution: University of Pennsylvania
+   term: Fall
+   year: 2021
+   description: 
+   url: http://artificial-intelligence-class.org/
+   enrollment: 138
+   instructor_rating: 3.45
+   course_rating: 3.24
+   voluntary_overload: True
+-
+   title: Artificial Intelligence
+   number: CIS 421/521 - online only section for foreign graduate students unable to return to campus because of pandemic
+   institution: University of Pennsylvania
+   term: Fall
+   year: 2021
+   description: 
+   url: http://artificial-intelligence-class.org/
+   enrollment: 11
+   instructor_rating: 2.29
+   course_rating: 2.5
+   voluntary_overload: True
 -
    title: Artificial Intelligence
    number: CIS 521 - MCIT Online
@@ -141,6 +186,7 @@
    enrollment: 49
    instructor_rating: 3.6
    course_rating: 3.0
+   online_degree: True
 -
    title: Crowdsourcing and Human Computation
    number: NETS 213
@@ -174,6 +220,7 @@
    enrollment: 125
    instructor_rating: 3.33
    course_rating: 3.25
+   voluntary_overload: True
 -
    title: Interactive Fiction and Text Generation
    number: CIS 700-008
@@ -219,6 +266,7 @@
    enrollment: 75
    instructor_rating: 2.96
    course_rating: 2.78
+   voluntary_overload: True
 -
    title: Crowdsourcing and Human Computation
    number: NETS 213

@@ -4,254 +4,397 @@ layout: default
 active_tab: main_page 
 keep_sidebar: false
 publications:
-- moses-toolkit
-- joshua-open-source-toolkit-for-statistical-machine-translation
-- joshua-2     
-- joshua-3
-- joshua-4
-- joshua-5
-- findings-of-the-wmt09-shared-tasks
-- callison-burch-thesis
-- paraphrasing-with-bilingual-parallel-corpora
-- ppdb-reranking
-- semantically-informed-syntactic-machine-translation
-- learning-sentential-paraphrases-from-bilingual-parallel-corpora
-- ppdb
-- adding-semantics-to-data-driven-paraphrasing
-- domain-specific-paraphrases
-- new-data-for-text-simplification
-- optimizing-machine-translation-for-text-simplifciation
-- clustering-paraphrases-by-word-sense
-- toward-statistical-machine-translation-without-parallel-corpora
-- end-to-end-smt-with-zero-or-small-bitexts
-- supervised-bilingual-lexicon-induction
-- discriminative-bilingual-lexicon-induction
-- crowdsourcing-translation
-- creating-speech-and-language-data-with-amazon-mechanical-turk
-- findings-of-wmt10-and-metrics-matr
-- arabic-dialect-corpus
-- machine-translation-of-arabic-dialects
-- constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing
-- callhome-egyptian-arabic-speech-translations
-- improved-speech-to-speech-translation
-- language-demographics-of-mechanical-turk
-- crowd-workers
-- gun-violence-database
+  -
+   title: Deduplicating Training Data Makes Language Models Better
+   authors: Katherine Lee, Daphne Ippolito, Andrew Nystrom, Chiyuan Zhang, Douglas Eck, Chris Callison-Burch, Nicholas Carlini 
+   venue: ACL
+   type: conference
+   year: 2022
+   url: https://www.cis.upenn.edu/~ccb/publications/deduplicating-training-data-makes-lms-better.pdf
+   page_count: 22
+   highly_cited: 172
+   id: deduplicating-training-data
+   code: https://github.com/google-research/deduplicate-text-datasets
+   abstract: We find that existing language modeling datasets contain many near-duplicate examples and long repetitive substrings. As a result, over 1% of the unprompted output of language models trained on these datasets is copied verbatim from the training data. We develop two tools that allow us to deduplicate training datasets -- for example removing from C4 a single 61 word English sentence that is repeated over 60,000 times. Deduplication allows us to train models that emit memorized text ten times less frequently and require fewer train steps to achieve the same or better accuracy. We can also reduce train-test overlap, which affects over 4% of the validation set of standard datasets, thus allowing for more accurate evaluation. We release code for reproducing our work and performing dataset deduplication at https://github.com/google-research/deduplicate-text-datasets
+   bibtex: |
+      @inproceedings{lee2022deduplicating,
+        title={Deduplicating Training Data Makes Language Models Better},
+        author={Lee, Katherine and Ippolito, Daphne and Nystrom, Andrew and Zhang, Chiyuan and Eck, Douglas and Callison-Burch, Chris and Carlini, Nicholas},
+        booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
+        address={Dublin, Ireland}
+        year={2022}
+      }
+  -
+   title: A Recipe For Arbitrary Text Style Transfer with Large Language Models
+   authors: Emily Reif, Daphne Ippolito, Ann Yuan, Andy Coenen, Chris Callison-Burch, Jason Wei
+   venue: ACL
+   type: conference
+   year: 2022
+   website: https://bit.ly/3fLDuci
+   video: https://aclanthology.org/2022.acl-short.94.mp4
+   url: https://www.cis.upenn.edu/~ccb/publications/zero-shot-arbitrary-text-style-transfer.pdf
+   page_count: 12
+   id: zero-shot-arbitrary-text-style-transfer
+   data: 
+   abstract: In this paper, we leverage large language models (LMs) to perform zero-shot text style transfer. We present a prompting method that we call augmented zero-shot learning, which frames style transfer as a sentence rewriting task and requires only a natural language instruction, without model fine-tuning or exemplars in the target style. Augmented zero-shot learning is simple and demonstrates promising results not just on standard style transfer tasks such as sentiment, but also on arbitrary transformations such as "make this melodramatic" or "insert a metaphor."
+   bibtex: |
+      @inproceedings{Reif2022-style-transfer,
+        title={A Recipe For Arbitrary Text Style Transfer with Large Language Models},
+        author={Emily Reif and Daphne Ippolito and Ann Yuan and Andy Coenen and Chris Callison-Burch and Jason Wei},
+        booktitle={Proceedings of the 60th Annual Meeting of the Association for Computational Linguistics (ACL 2022)},
+        address={Dublin, Ireland}
+        year={2022}
+      }
+  -
+   title: The Case for a Single Model that can Both Generate Continuations and Fill-in-the-Blank
+   authors: Daphne Ippolito, Liam Dugan, Emily Reif, Ann Yuan, Andy Coenen, Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2022
+   url: https://www.cis.upenn.edu/~ccb/publications/fill-in-the-blank-LMs.pdf
+   page_count: 12
+   id: fill-in-the-blank-LMs
+   data: 
+   code: 
+   abstract: The task of inserting text into a specified position in a passage, known as fill in the blank (FitB), is useful for a variety of applications where writers interact with a natural language generation (NLG) system to craft text. While previous work has tackled this problem with models trained specifically to do fill in the blank, a more useful model is one that can effectively perform both FitB and continuation tasks. In this work, we evaluate the feasibility of using a single model to do both tasks. We show that models pre-trained with a FitB-style objective are capable of both tasks, while models pre-trained for continuation are not. Finally, we show how these models can be easily finetuned to allow for fine-grained control over the length and word choice of the generation.
+   bibtex: |
+      @inproceedings{Ippolito-2022-fill-in-the-blank,
+        title={The Case for a Single Model that can Both Generate Continuations and Fill in the Blank},
+        author={Daphne Ippolito and Liam Dugan and Emily Reif and Ann Yuan and Andy Coenen and Chris Callison-Burch},
+        booktitle={Findings of the 2022 Annual Conference of the North American Chapter of the Association for Computational Linguistic (NAACL 2022)},
+        address={Seattle, Washington}
+        year={2022}
+      }
+  -
+   title: Bidirectional Language Models Are Also Few-shot Learners
+   authors: Ajay Patel, Bryan Li, Mohammad Sadegh Rasooli, Noah Constant, Colin Raffel, Chris Callison-Burch
+   venue: ICLR
+   type: conference
+   year: 2023
+   url: https://arxiv.org/abs/2209.14500
+   page_count: 25
+   id: bidirectional-lms-are-few-shot-leaners
+   data:
+   code:
+   website: https://www.cis.upenn.edu/~ccb/publications/bidirectional-lms-are-few-shot-leaners.pdf
+   abstract: |
+      Large language models such as GPT-3 (Brown et al., 2020) can perform arbitrary tasks without undergoing fine-tuning after being prompted with only a few labeled examples. An arbitrary task can be reformulated as a natural language prompt, and a language model can be asked to generate the completion, indirectly performing the task in a paradigm known as prompt-based learning. To date, emergent prompt-based learning capabilities have mainly been demonstrated for unidirectional language models. However, bidirectional language models pre-trained on denoising objectives such as masked language modeling produce stronger learned representations for transfer learning. This motivates the possibility of prompting bidirectional models, but their pre-training objectives have made them largely incompatible with the existing prompting paradigm. We present SAP (Sequential Autoregressive Prompting), a technique that enables the prompting of bidirectional models. Utilizing the machine translation task as a case study, we prompt the bidirectional mT5 model (Xue et al., 2021) with SAP and demonstrate its few-shot and zero-shot translations outperform the few-shot translations of unidirectional models like GPT-3 and XGLM (Lin et al., 2021), despite mT5's approximately 50% fewer parameters. We further show SAP is effective on question answering and summarization. For the first time, our results demonstrate prompt-based learning is an emergent property of a broader class of language models, rather than only unidirectional models.
+   bibtex: |
+      @inproceedings{Patel-ICLR-2023,
+        url = {https://arxiv.org/abs/2209.14500},
+        author = {Patel, Ajay and Li, Bryan and Rasooli, Mohammad Sadegh and Constant, Noah and Raffel, Colin and Callison-Burch, Chris},
+        keywords = {Machine Learning (cs.LG), Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
+        title = {Bidirectional Language Models Are Also Few-shot Learners},
+        booktitle={Eleventh International Conference on Learning Representations (ICLR 2023)},
+        address={Kigali, Rwanda}
+        year={2023}
+      }
+   figures:
+      -
+         img: figures/bidirectional-lms-are-few-shot-leaners/bidirectional-lms-are-few-shot-leaners-figure-1.png
+         label: Figure 1
+         caption: A visualization of our SAP technique extracting high-quality translations from mT5. In the zero-shot setting, the examples used in the prompt are synthetic examples retrieved in a fully unsupervised manner.
+
+  -
+   title: SynthBio&colon; A Case Study in Human-AI Collaborative Curation of Text Datasets
+   authors: Ann Yuan, Daphne Ippolito, Vitaly Nikolaev, Chris Callison-Burch, Andy Coenen, and Sebastian Gehrmann
+   venue: NeurIPS 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.
+   type: conference
+   year: 2021
+   url: https://www.cis.upenn.edu/~ccb/publications/synthbio.pdf
+   page_count: 24
+   id: synthbio
+   data: https://storage.googleapis.com/gem-benchmark/SynthBio.json
+   abstract: NLP researchers need more, higher-quality text datasets. Human-labeled datasets are expensive to collect, while datasets collected via automatic retrieval from the web such as WikiBio are noisy and can include undesired biases. Moreover, data sourced from the web is often included in datasets used to pretrain models, leading to inadvertent cross-contamination of training and test sets. In this work we introduce a novel method for efficient dataset curation&colon; we use a large language model to provide seed generations to human raters, thereby changing dataset authoring from a writing task to an editing task. We use our method to curate SynthBio - a new evaluation set for WikiBio - composed of structured attribute lists describing fictional individuals, mapped to natural language biographies. We show that our dataset of fictional biographies is less noisy than WikiBio, and also more balanced with respect to gender and nationality.
+   bibtex: |
+      @inproceedings{Yuan2021SynthBio,
+        title={{SynthBio}: A Case Study in Human-{AI} Collaborative Curation of Text Datasets},
+        author={Ann Yuan and Daphne Ippolito and Vitaly Nikolaev and Chris Callison-Burch and Andy Coenen and Sebastian Gehrmann},
+        booktitle={35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.},
+        year={2021}
+      }
+  -
+   title: Exploring the Curious Case of Code Prompts
+   authors: Li Zhang, Liam Dugan, Hainiu Xu, Chris Callison-Burch
+   venue: Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)
+   type: workshop
+   year: 2023
+   url: https://aclanthology.org/2023.nlrse-1.2
+   page_count: 9
+   id: the-curious-case-of-code-prompts
+   abstract: |
+      Recent work has shown that prompting language models with code-like representations of natural language leads to performance improvements on structured reasoning tasks. However, such tasks comprise only a small subset of all natural language tasks. In our work, we seek to answer whether or not code-prompting is the preferred way of interacting with language models in general. We compare code and text prompts across three popular GPT models (davinci, code-davinci-002, and text-davinci-002) on a broader selection of tasks (e.g., QA, sentiment, summarization) and find that with few exceptions, code prompts do not consistently outperform text prompts. Furthermore, we show that the style of code prompt has a large effect on performance for some (but not all) tasks and that fine-tuning on text instructions leads to better relative performance of code prompts.
+   bibtex: |
+      @inproceedings{zhang-etal-2023-exploring,
+        title={Exploring the Curious Case of Code Prompts},
+        author={Li Zhang and Liam Dugan and Hainiu Xu and Chris Callison-Burch},
+        booktitle={Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)},
+        address={Toronto, Canada},
+        year={2023}
+      }
+  -
+   title: Real or Fake Text?&colon; Investigating Human Ability to Detect Boundaries Between Human-Written and Machine-Generated Text
+   authors: Liam Dugan, Daphne Ippolito, Arun Kirubarajan, Sherry Shi, Chris Callison-Burch
+   venue: AAAI
+   type: conference
+   year: 2023
+   url: https://www.cis.upenn.edu/~ccb/publications/real-or-fake-text-analysis.pdf
+   page_count: 13
+   data: https://github.com/liamdugan/human-detection/tree/main/data
+   code: https://github.com/liamdugan/human-detection
+   website: https://roft.io
+   video: https://www.youtube.com/watch?v=gsZOBadj5t4
+   press: 
+    - 
+      title: Bot or not? How to tell when you’re reading something written by AI
+      source: CNN
+      by_line: Clare Duffy and Kenneth Uzquiano
+      date: July 11, 2023
+      url: https://www.cnn.com/interactive/2023/07/business/detect-ai-text-human-writing/
+    - 
+      title: NewsChannel 12 Investigates&colon; Artificial Intelligence Part 3 
+      source: Channel 12 News - ABC affiliate in North Carolina
+      by_line: Tyler Hardin
+      date: May 19, 2023
+      url: https://wcti12.com/news/newschannel-12-investigates/newschannel-12-investigates-artificial-intelligence-part-3
+    - 
+      title: Real or Fake Text? We can learn to spot the difference
+      source: Penn Today
+      date: March 10, 2023
+      url: https://penntoday.upenn.edu/news/penn-seas-real-or-fake-text-we-can-learn-spot-difference
+    - 
+      title: A Bot Isn’t Going to Take Your Place, But AI Will Make Your Job Harder
+      source: Corporate Compliance Insights 
+      date: March 8, 2023
+      url: https://www.corporatecomplianceinsights.com/ai-compliance-jobs/
+    - 
+      title: How can humans detect AI writing? These Penn researchers have some tips
+      source: Technical.ly
+      date: March 6, 2023
+      url: https://technical.ly/software-development/how-humans-detect-ai-writing-penn-research/
+   id: real-or-fake-text-analysis
+   abstract: |
+      As text generated by large language models proliferates, it becomes vital to understand how humans engage with such text, and whether or not they are able to detect when the text they are reading did not originate with a human writer. Prior work on human detection of generated text focuses on the case where an entire passage is either human-written or machine-generated. In this paper, we study a more realistic setting where text begins as human-written and transitions to being generated by state-of-the-art neural language models. We show that, while annotators often struggle at this task, there is substantial variance in annotator skill and that given proper incentives, annotators can improve at this task over time. Furthermore, we conduct a detailed comparison study and analyze how a variety of variables (model size, decoding strategy, fine-tuning, prompt genre, etc.) affect human detection performance. Finally, we collect error annotations from our participants and use them to show that certain textual genres influence models to make different types of errors and that certain sentence-level features correlate highly with annotator selection. We release the RoFT dataset: a collection of over 21,000 human annotations paired with error classifications to encourage future work in human detection and evaluation of generated text.
+   bibtex: |
+      @inproceedings{dugan-ippolito-et-al-2023,
+        title={Real or Fake Text? Investigating Human Ability to Detect Boundaries Between Human-Written and Machine-Generated Text},
+        author={Liam Dugan and Daphne Ippolito and Arun Kirubarajan and Sherry Shi and Chris Callison-Burch},
+        booktitle={The 37th AAAI Conference on Artificial Intelligence (AAAI 2023)},
+        address={Washington DC, USA}
+        year={2023}
+      }
+   figures:
+      -
+         img: figures/real-or-fake-text-analysis/real-or-fake-text-analysis-figure-1.png
+         label: Figure 1
+         caption: In the boundary detection task, players see one sentence at a time from a passage and try to guess when the passage transitions from human-written to machine-generated.
+  -
+   title: Automatic Detection of Generated Text is Easiest when Humans are Fooled
+   authors: Daphne Ippolito*, Daniel Duckworth*, Chris Callison-Burch and Douglas Eck
+   venue: ACL
+   type: conference
+   year: 2020
+   url: https://www.cis.upenn.edu/~ccb/publications/automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled.pdf
+   page_count: 15
+   highly_cited: 158
+   id: automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled
+   abstract: Recent advancements in neural language modeling make it possible to rapidly generate vast amounts of human-sounding text. The capabilities of humans and automatic discriminators to detect machine-generated text have been a large source of research interest, but humans and machines rely on different cues to make their decisions. Here, we perform careful benchmarking and analysis of three popular sampling-based decoding strategies like top-k, nucleus sampling, and untruncated random sampling—and show that improvements in decoding methods have primarily optimized for fooling humans. This comes at the expense of introducing statistical abnormalities that make detection easy for automatic systems. We also show that though both human and automatic detector performance improve with longer excerpt length, even multi-sentence excerpts can fool expert human raters over 30% of the time. Our findings reveal the importance of using both human and automatic detectors to assess the humanness of text generation systems.
+   bibtex: |
+      @inproceedings{Ippolito-Duckworth-et-al:2020,
+       author = {Daphne Ippolito and Daniel Duckworth and Douglas Eck and Chris Callison-Burch},
+       title = {Automatic Detection of Generated Text is Easiest when Humans are Fooled},
+       booktitle = {Proceedings of The 58th Annual Meeting of the Association for Computational Linguistics (ACL)},
+       year = {2020},
+       url = {http://www.cis.upenn.edu/~ccb/publications/automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled.pdf}
+      } 
 ---
-
-
 
 # Research Statement
 <p class="text-muted">
-(Last updated October 2016)<br/>
+(Last updated October 1, 2023)<br/>
 </p>
 
-Most of human knowledge is encoded in natural language.  A longstanding goal of artificial intelligence has been to automate the understanding of natural language. Formulating an appropriate  representation for the meaning of language has proved problematic. Approaches that employ complex semantic representations, like first order predicate logic, are difficult or impossible to scale to cover the broad range of expressions used in real language.  I approach natural language understanding using pairs of English phrases as the basic unit of representation, and automatically labeling them with a small number of semantic relationships that allows a subset of automated reasoning to be applied.  This design decision allows us to scale to open domains and to implement data-driven algorithms for acquiring semantic knowledge about language.
 
-My approach to language understanding is inspired by my past research in machine translation. The advent of data-driven, statistical models has resulted in dramatically improved quality for machine translation.  Commercial systems like Google Translate, or state-of-the-art research software that I have helped develop (the Moses system ([Koehn et al, 2007](#moses-toolkit)) and the Joshua decoder ([Li et al, 2009](#joshua-open-source-toolkit-for-statistical-machine-translation), [Li et al, 2010](#joshua-2), [Weese et al, 2011](#joshua-3), [Ganitkevitch et al, 2012](#joshua-4), [Post et al, 2013](#joshua-5))) use pairs of English and foreign phrases as their underlying representation.  These phrase pairs are automatically acquired from a large volume of translated documents, and are treated as meaning-equivalent without having an explicit semantic representation.  Vast quantities of bilingual training data allow us to extract a huge number of phrase pairs and to estimate associated probabilities. I assembled the largest publicly available bilingual training data for statistical machine translation, consisting of 22 million sentence pairs with 1.5 billion French + English words ([Callison-Burch et al, 2009](#findings-of-the-wmt09-shared-tasks)). This encompasses a huge range of language use from scientific abstracts to movie dialog slang, and thus allows the system to translate a wide variety of input sentences. 
+In the field of Natural Language Processing, the rise of Large-Language Models (LLMs) like ChatGPT symbolizes a pivotal transformation - it marks a historical milestone  towards fulfilling the longstanding objective of developing models capable of understanding and generating natural language.
 
-Currently, I have three areas of research.  My primary research focus is to automate the understanding of English via paraphrases. I adapt the data, representations, and algorithms from statistical machine translation to facilitate natural language understanding.  In addition, I have two other research directions.  One attempts to extend machine translation so that it may be applied to a wider range of languages by doing away with the necessity for bilingual parallel corpora.  Instead, my research focuses on learning translations from monolingual texts in two languages.  My third research focus is on using crowdsourcing to explore new areas of natural language processing.  (This crowdsourcing work has even extended beyond NLP and now includes social justice issues, including workers' rights and gun violence in the United States.)
+Although ChatGPT seems like an overnight success, its hisotry can be traced to the 1990s and the introduction of statistical n-gram Language Models, and to the inroduction of neural LMs in the early 2000s.  In the mid-2010s, we witnessed the rise of pre-trained models like word2vec, ELMo and BERT, which redefined the state-of-the-art by employing vector space representations and the transformer architecture to capture the nuances of natural language semantics. Then, we entered the current generation of Generative Pretrained Transformer (GPT) models like ChatGPT, Llama, and PALM, which, powered by immense  training data and huge computational power, have ushered in an entirely new era for the NLP community.
 
+These advances have caused a paradigm shift in our field. Like many other NLP professors, I initially struggled to understand how I could continue to make a research contribution.  On numerous occasions, I have related how my using GPT-3 for the first time in early 2021 lead to what I describe as a "career existential crisis" because it seemingly supplanted many NLP tasks that were previously first order research concerns. I realized that research areas like machine translation, automatic summarization, and question answering had largely been subsumed by GPT-style models. Moreover, because these models require Google-sized data centers to train, I believed that no university would every be able to create one.  If you're interested in hearing me recount my career existential crisis, you can watch this YouTube clip: 
 
-## Natural Language Understanding via Paraphrasing
+<center>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2oOQIRvkq_o?si=t9kd6FAKwpRir81p" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</center>
 
-
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />
-<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
-</div>
-</div><div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/pivoting.jpg" alt="Figure 1: The German festgenommen links the English phrase thrown into jail to its paraphrase imprisoned." class="img-responsive" /><br />
-<b>Figure 1:</b> The German <i>festgenommen</i> links the English phrase <i>thrown into jail</i> to its paraphrase <i>imprisoned</i>. 
-</div>
-</div>
-
-I developed a method that extracts paraphrases from bilingual parallel corpora  by identifying equivalent English expressions using a shared foreign phrase.  This ensures that their meaning is similar.  Figure 1 illustrates the method ([Bannard and Callison-Burch (2005)](#paraphrasing-with-bilingual-parallel-corpora), [Callison-Burch (2007)](#callison-burch-thesis)).  *Thrown into jail* occurs many times in the training data, aligning with several different foreign phrases. Each of these may align with a variety of other English paraphrases. Thus, *thrown into jail* not only paraphrases as *imprisoned*, but also as *arrested, detained, incarcerated, jailed, locked up, taken into custody*, and *thrown into prison*.  However, not all the paraphrases are uniformly good.  The baseline method also extracts candidate paraphrases that mean the same thing, but do not share the same syntactic category as the original phrase, such as *be thrown in prison, been thrown into jail, being arrested, in jail, in prison, put in prison for, were thrown into jail,* and *who are held in detention*. It is also prone to generating many bad paraphrases, such as *maltreated, thrown, cases, custody, arrest, owners,* and *protection*, because of noisy/inaccurate word alignments and other problems.  Separating good paraphrases from bad presents fascinating research challenges ([Pavlick et al (2015)](#ppdb-reranking)).
+What makes the advent of LLMs profoundly transformative is their ability to act as general-purpose learners. The paradigm of "pre-training-then-fine-tuning" gives them the flexibility to adapt to discrete tasks, while requiring a mere fraction of the training data. Moreover, their proficiency in few-shot learning and instruction following have outstripped most previous machine learning methodologies. In essence, we now have general purpose AI systems that can observe and learn from a handful of examples, and also interpret and execute fairly complex instructions articulated in natural language.  This means that NLP is now delivering tools that are genuinely transformatively –not only to our own field– but to soceity as a whole.
 
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />
-<b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/scfg-paraphrase-rule.jpg" alt="Figure 2: We learn the English possessive rule by pivoting over SCFG translation rules." class="img-responsive" /><br />
-<b>Figure 2:</b> We learn the English possessive rule by pivoting over SCFG translation rules.
-</div>
-</div>
+Is there still room for academics like me to make a research contribution in the era of large pretrained models?  I have come to the position that there is still a place for academic research in NLP.  In the past two years, I've figured out several research directions that are a good fit for academic researchers in this era.   My research directions are now:
 
-I have extended the bilingual pivoting methodology to syntactic representations of translation rules.  This builds on my research group's work into adding syntactic information into statistical machine translation rules. We have adopted a synchronous context free grammar (SCFG) representation for our Joshua decoder, and we demonstrated that it is useful for translating between languages with different word orders like Urdu's subject-object-verb order and English's subject-verb-object order
-([Baker et al (2010)](#semantically-informed-syntactic-machine-translation)).  Instead of pivoting over foreign phrases, we can pivot over foreign SCFG rules, as shown in Figure 2. This allows us to automatically acquire meaning-preserving syntactic transformations like the English possessive rule.  This rule is a general transformation that can apply to most noun phrases in English.  It allows us to recognize that *the laptop's screen* can be rewritten as *the screen of the laptop*. Table 1 shows a variety of other meaning-preserving structural transformations that we learn in this way ([Ganitkevitch et al (2011)](#learning-sentential-paraphrases-from-bilingual-parallel-corpora)).
+1. Understanding the capabilities of LLMs
+2. Building explainable models
+3. Enabling symbolic reasoning with LLMs
+4. Building LLM-based applications 
+5. Advising policymakers on AI and the law
+
+<!--
+## Understanding the Capabilities of LLMs
 
 
-<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
-<img src="figures/research-statement/structural-transformations.jpg"  alt="Table 1: We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules." class="img-responsive" /><br />
-<b>Table 1:</b> We are able to automatically acquire a variety of meaning-preserving structural translations in English by pivoting over SCFG translation rules.
-</div>
+A major focus has been analyzing what LLMs like GPT-3 learn and developing techniques to improve their capabilities. Much of this work was done with my PhD student Daphne Ippolito, who spent time interning at Google Brain. We looked at how the pretraining corpus impacts model performance, finding that diversity of domains is more important than volume. We also analyzed model biases, proposing methods to quantify and mitigate harmful stereotypes. Additionally, we developed prompting techniques to improve few-shot learning, enabling LLMs to perform complex reasoning tasks with minimal training examples.
+-->
+
+# Research Direction 1: Understanding the Capabilities of Large Language Models 
 
 
-We used my bilingual pivoting technique to create the paraphrase database, called PPDB for short  ([Ganitkevitch et al, 2013](#ppdb)).   PPDB contains 8 million synonyms, 68 million phrasal paraphrases, and 94 million meaning-preserving syntactic transformations.  PPDB is freely available from our web site [paraphrase.org](http://paraphrase.org/#/search?q=freely%20available&filter=&lang=en).  It is a much larger resource than the manually-constructed WordNet resource that is heavily used in NLP research.  PPDB has made immediate impact and was widely adopted by other researchers.  It has been cited 185 times in the three years since its publication, and it was central to the research described in the NAACL 2015 best paper ([Faruqui et al, 2015](http://aclweb.org/anthology/N/N15/N15-1184.pdf)) on retrofitting word vectors to semantic lexicons.  The NAACL paper shows that PPDB has enormous potential for improving deep learning of word embeddings.  I plan to explore this connection further. 
+I aim to understand the extent and limitations of LLMs through my research. I have explored a variety of different aspects of LLMs including prompting techniques, 
+
+<b>Prompting Techniques</b>  An important attribute of LLMs is their ability to adapt to new tasks given a relatively small number of examples. This characteristic, termed as "few-shot learning," effectively demonstrates how these models perform in-context learning which recognizes patterns within a prompt rather than requiring weight updates. 
+
+We harnessed this trait to demonstrate the flexibility of language models in replicating novel styles beyond conventional style transfer tasks ([Ippolito et al., ACL 2022](#zero-shot-arbitrary-text-style-transfer)). In parallel, we also explored the crossover of LLMs trained on code to NLP tasks, shedding light on this novel and rapidly growing area of research ([Zhang et al., NLRSE 2023](#the-curious-case-of-code-prompts)).
+
+## Model Architectures
+
+Alongside this, we also devoted research effort towards examining various architectures for LLMs. specifically, we turned our focus on assessing how tweaks in the training setup can vastly alter the model's strengths ([Ippolito et al., AAAI 2023](#fill-in-the-blank-LMs), [Patel et al., ICLR 2023](#bidirectional-lms-are-few-shot-leaners)).
+
+## Synthetic Datasets
+
+LLMs also showcased their utility in producing synthetic datasets. In an effort to better combat biases present in naturally occurring data, we used LLMs to create a high-quality synthetic dataset for generating Wikipedia-style biographies from infoboxes([Yuan et al., NeurIPS 2021](#synthbio)). This line of inquiry indicates a promising prospect of LLMs being used to generate data for machine learning tasks beyond language processing.
+
+## Detecting Machine Generated Text
+
+The last but equally significant focus of this research direction is the discernment of "real" from "fake" or machine-generated text. In a large-scale human study, we analyzed how well participants could distinguish machine-generated text from human-written counterparts. We found that while humans found it increasingly challenging to recognize machine-generated outputs, they could indeed be trained to become more proficient at this task ([Dugan et al., AAAI 2023](#real-or-fake-text-analysis)).
+
+Concurrently, we also explored the automatic detection of machine-generated text. The experiments highlighted that though improvements in decoding methods optimized for tricking humans, they inadvertently introduced statistical anomalies that automation found easy to detect ([Ippolito et al., ACL 2020](#automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled)).
+
+## Data Preprocessing
+
+In another line of inquiry, we investigated how a minor adjustment in data preprocessing could lead to appreciable differences in LLMs' performance. We deduced that by merely keeping unique instances of each sentence in the training data, the frequency of 'memorization' in LLMs significantly reduced. This development has now become a staple preprocessing technique for training LLMs ([Lee et al., ACL 2022](#deduplicating-training-data)). 
+
+Each of these lines of inquiry adds up to a broader understanding of LLMs' capabilities, forms a significant portion of my ongoing research, and will continue to guide my research initiatives over the coming years.
 
 
-<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 600px">
-<img src="figures/research-statement/semantic-entailment-types.jpg" alt="Table 2: Examples of different types of entailment relations appearing in PPDB." class="img-responsive"/><br />
-<b>Table 2:</b> Examples of different types of entailment relations appearing in PPDB.
-</div>
+# Understanding the Capabilities of Large Language Models (LLMs)
 
+I aim to understand the extent and limitations of LLMs through my research. One primary focus has been the exploration of prompting techniques for LLMs. In our research paper ["A Recipe For Arbitrary Text Style Transfer with Large Language Models" (Ippolito et. al, ACL 2022)](#zero-shot-arbitrary-text-style-transfer), we demonstrated that LLMs can rewrite prose into varying styles using a straightforward method. The approach implies the potential to generalize few-shot prompting across novel styles.
 
+Our study ["Exploring the Curious Case of Code Prompts" (Zhang et. al, NLRSE 2023)](#the-curious-case-of-code-prompts) illustrates a systematic examination into the use of LLMs, which were trained on code for NLP tasks. These efforts have broadened our understanding of the dynamic nature of LLMs and how their in-context learning can be manipulated for different purposes.
 
-Over the past two years we made several advances to PPDB that improve its usefulness for understanding natural language:
+I also participate in research aimed at improving the LLM architectures as depicted in ["The Case for a Single Model that can Both Generate Continuations and Fill in the Blank" (Ippolito et. al, AAAI 2023)](#fill-in-the-blank-LMs) and ["Bidirectional Language Models Are Also Few-shot Learners" (Patel et. al, ICLR 2023)](#bidirectional-lms-are-few-shot-leaners). These papers focus on analyzing the performance of model architectures, particularly during the execution of tasks that rely on both forward-looking and backward-looking context.
 
-- **Semantics**:  In [Pavlick et al (2015)](#adding-semantics-to-data-driven-paraphrasing), we add an interpretable semantics to PPDB. The relationship between the phrase pairs in the database had been defined as approximately equivalent.  Our new research allows these pairs to be encoded with more nuanced semantic relations, including directed entailment (*little girl/girl*) and exclusion (*nobody/someone*). We automatically assign semantic entailment relations to all 100 million entries in PPDB using features derived from past work on discovering inference rules from text and semantic taxonomy induction.  Examples are given in Table 2.
+One promising approach is the application of LLMs to synthetic data generation. In ["SynthBio: A Case Study in Human-AI Collaborative Curation of Text Datasets" (Yuan et. al, NeurIPS 2021)](#synthbio), we found that LLMs could aid us in creating a new dataset with minimal human editing, while also diminishing the biases present in natural data. The study suggests that LLMs hold potential utility in generating quality synthetic data for machine learning tasks.
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/bug_clusters.jpg" alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />
-<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />
-<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/bug_clusters.jpg"  alt="Figure 3: We partition paraphrases of an input word like bug into clusters representing its distinct senses." class="img-responsive" /><br />
-<img src="figures/research-statement/bug_matrix.jpg" alt="Figure 3: We produce an affinity matrix and use spectral clustering to group the different senses." class="img-responsive" /><br />
-<b>Figure 3:</b> We partition paraphrases of an input word like bug into clusters representing its distinct senses.
-</div>
-</div>
+Lastly, a significant part of our research probes into the feasibility of distinguishing machine-generated text by either humans or machines. Works like ["Real or Fake Text?: Investigating Human Ability to Detect Boundaries Between Human-Written and Machine-Generated Text" (Dugan et. al, AAAI 2023)](#real-or-fake-text-analysis) and ["Automatic Detection of Generated Text is Easiest when Humans are Fooled" (Ippolito et. al, ACL 2020)](#automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled) provide evidence of the challenge of discerning "fake" text.
 
+Our study on "fake" text gained significant attention, revealing that as LLMs increase in size, they become more elusive to human detection. However, training can improve humans' capability to discern such texts.
 
-- **Domain adaptation**: Language is used differently in different domains.  In [Pavlick et al (2015)](#domain-specific-paraphrases) we demonstrate an algorithm that is able to automatically adapt paraphrases to suit a particular domain.  For instance, paraphrase of the word *divide* when used in biology should include *division, break, split, dispense, multiply, cleave, fracture, separate, mitotic division, partition* since it refers to cellular division/multiplication.  In a parliamentary domain it more commonly refers to the divide between rich and poor, and should be paraphrased as *gap, division, gulf, separate, distinction, rift, difference*.
-- **Natural language generation**: Paraphrases are useful in the generation components of dialog systems like Apple's Siri, question answering, and automatic summarization. We are investigating using paraphrases for text to text generation.  Given an input text, rewrite it subject to constraints: for summarization make it shorter; for simplification use words that are easier to understand; for poetry generation conform to a meter and a rhyming scheme.  In [Xu et al (2015)](#new-data-for-text-simplification) and [Xu et al (2016)](#optimizing-machine-translation-for-text-simplifciation), we show how paraphrasing and machine translation techniques can be used for the problem of text simplification.  
-- **Word sense clustering**: The original release of PPDB grouped all senses of polysemous words together, and did not partition paraphrases into groups like WordNet does with its synsets. Thus a search for paraphrases of the noun *bug* would yield a single list of paraphrases that includes *insect, glitch, beetle, error, microbe, wire, cockroach, malfunction, microphone, mosquito, virus, tracker, pest, informer, snitch, parasite, bacterium, fault, mistake, failure* and many others.   In [Cocos and Callison-Burch (2016)](#clustering-paraphrases-by-word-sense), we systematically explore different clustering algorithms, and ways of defining the similarity matrix that they use as input (Figure 3). We produce high quality sense clusters that represent a substantial improvement to PPDB.  We are currently exploring using our sense clusters to perform word sense disambiguation.
+In the paper ["Deduplicating Training Data Makes Language Models Better" (Lee et. al, ACL 2022)](#deduplicating-training-data), we demonstrated a practical application of data preprocessing, namely deduplication, in training LLMs. By reducing the rate of "memorization" in LLMs, this method now stands as a standard practice in the LLM training process.
 
+Through diverse studies and analyses, I continue to explore the capabilities of LLMs, their applications, potential issues, and viable solutions for enhanced proficiency in NLP.
 
+# Understanding the Capabilities of Large Language Models (LLMs)
 
-The goal of the paraphrasing line of my research is to advance the longstanding AI goal of language understanding  data-driven methods and statistical models.  If successful, it has the potential to impact a wide variety of NLP tasks including information retrieval, question answering, and machine translation.  My research into this area has been sponsored by two NSF EAGER awards, multiple grants from the Allen Institute for Artificial Intelligence (AI2) and its predecessor Vulcan, and a $1.6 million DARPA DEFT award.  I have submitted an NSF CAREER proposal on this topic.  It is currently under review.
+My endeavors to comprehend the potential and limitations of LLMs have yielded wide-ranging and influential results. One significant area of my research has been the exploration of various novel prompting techniques for LLMs. For instance, noted in our paper ["A Recipe For Arbitrary Text Style Transfer with Large Language Models" (Ippolito et. al, ACL 2022)](#zero-shot-arbitrary-text-style-transfer), we revealed the capability of LLMs and LLM dialogue systems to rewrite prose into different styles via a simple recipe. This approach demonstrated that few-shot prompting for style transfer could generalize across novel styles.
 
+In another study ["Exploring the Curious Case of Code Prompts" (Zhang et. al, NLRSE 2023)](#the-curious-case-of-code-prompts), my team systematically examined the emerging topic of using LLMs trained on code for Natural Language Processing (NLP) tasks. These research explorations have expanded our understanding of the dynamic nature of LLMs, and how in-context learning could be expertly manipulated to fulfill varying purposes.
 
-## Statistical Machine Translation Without Parallel Corpora
+Enhancing the architecture of LLMs is another vital aspect of my research as outlined in ["The Case for a Single Model that can Both Generate Continuations and Fill in the Blank" (Ippolito et. al, AAAI 2023)](#fill-in-the-blank-LMs) and ["Bidirectional Language Models Are Also Few-shot Learners" (Patel et. al, ICLR 2023)](#bidirectional-lms-are-few-shot-leaners). These explorations dwelt upon the performance of diverse model architectures, especially to ascertain the effective implementation of tasks relying on both forward-looking and backward-looking information in the presented context.
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
-<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/context.jpg" alt="Figure 4: Example of projecting contextual vectors over a seed bilingual lexicon." class="img-responsive" /><br />
-<b>Figure 4:</b> Example of projecting contextual vectors over a seed bilingual lexicon.
-</div>
-</div>
+Additionally, my group has investigated using LLMs for synthetic data generation. In our work ["SynthBio: A Case Study in Human-AI Collaborative Curation of Text Datasets" (Yuan et. al, NeurIPS 2021)](#synthbio), we found that with minimal human editing, we could create a new dataset while simultaneously mitigating the bias present in naturally occurring data, which suggests the potential application of LLMs in creating high-quality synthetic data to train machine learning for other tasks.
 
-Statistical machine translation has long been purported to be "language independent" since linguistic information is not typically used when training systems.  This has been touted as a strength of the paradigm, because the only requirement for building a  new system is a sentence-aligned bilingual parallel corpus.  However, this language independence does not mean that statistical machine translation works equally well for every language.  Translation quality depends on many factors, including the amount of training data, morphological complexity, and divergences in word order.  Since very large parallel corpora are required to achieve good translation quality, statistical machine translation can, in reality, only be applied to a very limited number of languages. My research agenda for the next decade is to transform statistical machine translation so that (1) models can be trained without the use bilingual parallel corpora, (2) linguistic information can be integrated directly into the models and as priors for learning translations and re-ordering patterns, and (3) large groups of Internet users can collaborate to improve translation quality.   If successful, these efforts will radically change the field and make statistical machine translation applicable to (nearly) all of the world's languages.
+Finally, an essential and noteworthy aspect of our research has centered upon examining the detectability of machine-generated text, whether by humans or machines. Our studies, such as ["Real or Fake Text?: Investigating Human Ability to Detect Boundaries Between Human-Written and Machine-Generated Text" (Dugan et. al, AAAI 2023)](#real-or-fake-text-analysis) and ["Automatic Detection of Generated Text is Easiest when Humans are Fooled" (Ippolito et. al, ACL 2020)](#automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled), provided intriguing insights into the difficulty levels while discerning "fake" text.
+
+Particularly, our study examining "fake" text was the largest ever human study on this topic and was published a few months after ChatGPT was released. It demonstrated that larger LLMs make it increasingly difficult for humans to spot their output. However, we also found that humans can be successfully trained to spot their output.
+
+Lastly, in our research ["Deduplicating Training Data Makes Language Models Better" (Lee et. al, ACL 2022)](#deduplicating-training-data), we explored the impact of a simple yet effective data preprocessing step on training LLMs. We noticed that the rate of "memorization," where LLMs tend to reproduce large portions of their training data, dramatically reduced by deduplicating the training data. This method is now considered a standard practice when training LLMs.
+
+My exploration into understanding the capabilities of LLMs informs various aspects of their applications, including but not limited to, novel prompting techniques, model architectures, synthetic data generation, and the detectability of machine-generated text. Through rigorous studies and experimental analysis, my research probes into technological advancements while simultaneously enhancing our grasp of potential issues and solutions in the field of Natural Language Processing.
 
 
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
-<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/temporal.jpg" alt="Figure 5: The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar." class="img-responsive" /><br />
-<b>Figure 5:</b> The temporal histograms are collected from monolingual texts spanning several years and show the number of occurrences of each word (on the y-axes) across time. While the correct translation has a good temporal match, the non-translations are less temporally similar.
-</div>
-</div>
- 
-Like other statistical NLP systems and machine learning applications, the  performance of statistical machine translation improves as more training data is used.   For a few language pairs, we have tremendous amounts of training data --  I created a French-English parallel corpus with nearly 1 billion words on  each side, the DARPA GALE program produced Arabic-English and Chinese-English parallel corpora with 250 million words in each language, and we have somewhere on the order of 50--100 million words worth of parallel data for the official languages of the European Union.  However, for most language pairs, we have comparatively tiny amounts of bilingual training data, which means that current statistical machine translation techniques will not work.  
+## Building Explainable Models
 
+I have been exploring concept bottleneck models as a way to make LLMs more interpretable. The key idea is to force the model to predict an intermediate conceptual representation, which provides a bottleneck that grounds the model's predictions. For instance, we can force a model to first predict a series of "scene" concepts before generating a caption for an image. My collaborators include Prof. Mark Yatskar and Prof. Eric Wong in CIS as well as several PhD students. Our results show improved accuracy and greater explainability compared to end-to-end models.
 
-To build statistical machine translation systems without parallel corpora, I have revived research started by <a href="http://www.aclweb.org/anthology/P/P99/P99-1067.pdf">Rapp (1999)</a>, who investigated  inducing bilingual lexicons from monolingual texts.  The method uses vector-space semantic models to build a context vector representing words whose  translations are unknown.  The elements in an unknown word's vector are projected into the vector space of the other language using the known translations from a small seed bilingual dictionary.  This sparse projected vector is compared to the vectors for all words in the target language.  The word whose vector is most similar to the projected vector is considered to be the best translation of the unknown word.  This process is illustrated in Figure 4.  I have successfully replicated the results of Rapp (1999), and used the method to estimate the parameters of phrase-based statistical machine translation systems 
-<a href="#toward-statistical-machine-translation-without-parallel-corpora">(Klementiev et al (2012)</a>, <a href="#end-to-end-smt-with-zero-or-small-bitexts">(Irvine and Callison-Burch (2015))</a>.  The advantage of this paradigm is that it only requires a small bilingual dictionary and large monolingual corpora, rather than bilingual parallel data.
+## Enabling Symbolic Reasoning with LLMs
 
+LLMs have proven weak at symbolic reasoning, but can be coupled with classical AI systems. My approach extracts structured representations from LLMs, like executable Python code, which are passed to a solver. The solver output is used to guide the LLM to iteratively refine its structured prediction. This allows combining the reasoning capabilities of symbolic systems with the natural language prowess of LLMs. I'm interested in expanding the representations, such as to PDDL and BayesNets.
 
-My students and I have examined combining a diverse set of monolingually-derived signals of translation equivalence ([Irvine and Callison-Burch (2013)](#supervised-bilingual-lexicon-induction)). In addition to vector space models, we have incorporated a diverse set of signals including temporal similarity (Figure 5), orthographic similarity,  and topical similarity.  Table 3 shows examples of the highest ranking English translations of 5 Spanish words for several of our signals of translation equivalence.  Each signal produces different types of errors.(For instance, using topic similarity, *montana, miley*, and *hannah* are ranked highly as candidate translations of the Spanish word *montana*. 
-The TV character Hannah Montana is played by actress Miley Cyrus, so the topic similarity between these words makes sense.)  
+## Building LLM-based Applications
 
+I'm constantly exploring new applications of LLMs:
 
-<div class="hidden-sm hidden-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 50%; max-width: 400px">
-<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3: Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded." class="img-responsive" /><br />
-<b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
-</div>
-</div>
-<div class="visible-sm visible-xs">
-<div class="pull-right" style="margin-bottom: 20px; width: 100%; max-width: 400px">
-<img src="figures/research-statement/ranked-translations.jpg" alt="Table 3: Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded." class="img-responsive" /><br />
-<b>Table 3:</b> Examples of translation candidates ranked using contextual  similarity, temporal similarity, orthographic similarity and topic similarity. The correct English translations, when found, are bolded.
-</div>
-</div>
+- Intelligent tutoring systems that generate personalized materials and feedback.
 
-My group has conducted a study of bilingual lexicon induction on a wide range of languages and data sizes ([Irvine and Callison-Burch (accepted)](#discriminative-bilingual-lexicon-induction)). We examine translation into  English from 25 foreign languages: Albanian, Azeri, Bengali, Bosnian, Bulgarian, Cebuano, Gujarati, Hindi, Hungarian, Indonesian, Latvian, Nepali, Romanian, Serbian, Slovak, Somali, Spanish, Swedish, Tamil, Telugu, Turkish, Ukrainian, Uzbek, Vietnamese and Welsh.  Rather than testing solely on high frequency words, as previous research has done, we test on low frequency as well, so that our results are more relevant to statistical machine translation, where systems typically lack translations of rare words that fall outside of their training data.  We systematically explore a wide range of features and phenomena that affect the quality of the translations discovered by bilingual lexicon induction. We give illustrative examples of the highest ranking translations for orthogonal signals of translation equivalence like contextual similarity and temporal similarity.  We analyze the effects of frequency and burstiness, and the sizes of the seed bilingual dictionaries and the monolingual training corpora.  Our model performs better than the previous state-of-the-art matching canonical correlation analysis (MCCA) algorithm, achieving an accuracy of 42% versus MCCA's 15%.
+- Analyzing deficiencies in smart home assistants using HCI methods and proposing improvements based on LLMs. 
 
+- Language-based games, like using LLMs as Dungeon Masters in D&D.
 
- 
- 
- 
-My goal is to go beyond simply expanding bilingual dictionaries so that we can use bilingual lexicon induction techniques in order to produce full translations systems.  I am extending the model to translations of phrases (instead of just words), to calculate translation probabilities, and to predict word order of translations.  My research has been supported by two DARPA grants -- a $500k follow-on grant to my participation in the DARPA Computer Science Study Group, and a new $450k multi-year DARPA LORELEI project.
- 
+- Advising industry and government on responsible applications of LLMs.
 
+## Advising Policymakers on AI and the Law
 
+I have become an expert on AI copyright issues that arise from LLMs' ability to generate creative content. I served on the US Copyright Office's listening tour and provided Congressional testimony. Lawyers from companies like Meta and OpenAI have consulted me on pending lawsuits. My research aims to develop techniques to mitigate copyright risks for generative models.
 
-
-## Crowdsourcing
-
-My third research focus is crowdsourcing.  The idea of using crowdsourcing to create annotated data for natural language processing applications is a relatively new topic, and it raises a number of scientific challenges. Rather than treating annotated training data as a gold standard created by experts whose labels are authoritative, we must cope with the fact that we have anonymous, non-expert annotators whose labels are noisy and who may not even be doing the task conscientiously. We build models of the annotators themselves, and use those models to create high quality labeled training data by soliciting redundant labels and making predictions about which labels and which annotators are most likely to be correct. The ability to accurately model the annotators has direct implications for the cost of creating a labeled training data set, since we can decide how much to trust a given annotator's label and whether soliciting a redundant label would be likely to improve the accuracy. 
-
-
-<div class="center-block" style="margin-bottom: 20px; width: 100%; max-width: 800px;">
-<img src="figures/research-statement/bleu-scores-for-mturk-pilot.jpg" alt="Figure 6: A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations." class="img-responsive" /><br />
-<b>Figure 6:</b> A comparison of the translation quality (approximated by Bleu score) for professionals against different ways of selecting the Turker translations from among 4 redundant translations.  
-</div>
-
-
-One of my first successes with crowdsourcing for NLP was to show that the quality of Urdu-English translations produced by non-professional translators can be made to approach the quality of professional translation at a fraction of the cost  ([Zaidan and Callison-Burch (2011)](#crowdsourcing-translation))  Figure 6 highlights the main findings of the study.  It shows that through judicious application of quality control techniques, crowdsourced translations can fall in the range that we would expect of professional translators. This, combined with the fact that crowdsourced translations are more than an order of magnitude cheaper, opens the real possibility of creating training data for SMT, previously thought to be too expensive to create from scratch. I have established myself as one of the foremost experts in crowdsourcing as applied to language ([Callison-Burch and Dredze (2010)](#creating-speech-and-language-data-with-amazon-mechanical-turk))  . I have used crowdsourcing to create a wide range of new NLP data sets, which approach the size and quality of ones produced by the Linguistics Data Consortium (LDC).   Here's a sample of what I have produced:
-
-* A large scale evaluation of machine translation output by crowd workers with a comprehensive comparison against expert annotators and recommendations for quality control
-([Callison-Burch et al (2010)](#findings-of-wmt10-and-metrics-matr)).
-* An Arabic dialect corpus with manual classification of the dialect for 150k sentences harvested from the online comments of Arabic newspapers from different countries.  We used this data to train a system that could automatically identify Arabic dialects  
-([Zaidan and Callison-Burch (2011)](#arabic-dialect-corpus)).
-* Translations of 1.5 million words worth of Egyptian Arabic and Levine Arabic  data.  This allowed us to train a statistical machine translation system to translate Arabic dialect that was better than a system trained on 100 times more MSA data 
-([Zbib et al (2012)](#machine-translation-of-arabic-dialects)).
-* Parallel corpora for six Indian languages.  These data sets are valuable for evaluating syntactic models of translations, since Indian languages are verb final and require a lot of long-distance reordering ([Post et al (2012)](#constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing)).
-* Translations of 1.8 million words of spoken Spanish and of 143k words of spoke Egyptian Arabic.  This data facilitates research into spoken language translation 
-([Kumar et al (2014)](#callhome-egyptian-arabic-speech-translations), [Post et al (2013)](#improved-speech-to-speech-translation)).
-* A demographic study of the languages spoken by workers on the Mechanical Turk crowdsourcing platform, which resulted in bilingual dictionaries for 100 languages with 10,000 words translated in each of the languages  ([Pavlick et al (2014)](#language-demographics-of-mechanical-turk)).
-
-My research into crowdsourcing for NLP has been facilitated by a $500,000 DARPA grant, two Google faculty research awards totaling $195,000, and approximately $100,000 towards a Mechanical Turk annotation budget from the Human Language Technology Center of Excellence.   I have a new 2 year DARPA LORELEI grant under the LDC for creating data for low resource languages using crowdsourcing. 
-
-My interests in crowdsourcing have expanded beyond natural language processing.  I have designed a semester-long course on Crowdsourcing and Human Computation (described in my teaching statement).  I have two research projects related to social justice that use crowdsourcing.  In one project, I am designing tools to help crowd workers find better higher paying work 
- ([Callison-Burch (2014)](#crowd-workers)) (see [crowd-workers.com](http://crowd-workers.com/landing)).  In another, I am using crowdsourcing to create a [structured database of all shootings in the United States](http://gun-violence.org) to facilitate public health research (which the Republican congress has blocked the CDC and NIH from doing).  See my teaching statement for a description of the gun violence database project 
- ([Pavlick and Callison-Burch (2016)](#gun-violence-db)).
 
 
 ## Bibliography 
 
-  
 <table class="table"> 
 <tbody>
-
-{% for year in (2000..2016) reversed %}
- {% for id in page.publications %}
-  {% for publication in site.data.publications %}
-   {% if publication.id == id %} 
-    {% if publication.year == year %}
-    <tr id="{{ publication.id }}">
-      <td>
+ {% for publication in page.publications %}
+    <tr>
+      <td id="{{publication.id}}"> 	
 	{% if publication.url %}
 		<a href="{{ publication.url }}">{{ publication.title }}.</a>
         {% else %}
 		{{ publication.title }}.
 	{% endif %}
+	{% if publication.award %}
+		<b>{{ publication.award }}.</b>
+	{% endif %}
 	{{ publication.authors }}.
-	{{ publication.venue }}-{{ publication.year }}.
+	{{ publication.venue }}  {{ publication.year }}.
+    {% if publication.page_count < 8  %}
+			{% if publication.venue == "ACL" or publication.venue == "NAACL" or publication.venue == "EMNLP" or publication.venue == "EACL" %}
+       			{% if publication.type == "demo" %}
+							Demo papers.
+						{% else %}
+							Short papers.
+						{% endif %}
+			{% endif %}
+		{% endif %}
+    {% if publication.type == "preprint" %}
+				Unpublished preprint.
+		{% endif %}
+
+
+
+	{% if publication.press %}
+	<!-- press button -->
+	<a data-toggle="modal" href="#{{publication.id}}-press" class="label label-info">Press</a>
+	<!-- /.press button -->
+	<!-- press content -->
+	<div id="{{publication.id}}-press" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="{{publication.id}}">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="{{publication.id}}">Press Coverage</h4>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+        <ul>
+    	{% for coverage in publication.press %}
+			<li><b>{{ coverage.source }}</b> - {{ coverage.date }} - <a href="{{coverage.url}}">{{coverage.title}}</a></li>
+		{% endfor %}
+		</ul>
+        </div><!-- /.modal-body -->
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+	</div><!-- /.press-content -->
+	{% endif %}
+
+
+
 
 	{% if publication.abstract %}
 	<!-- abstract button -->
@@ -274,7 +417,27 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	{% endif %}
 
 
-	{% if publication.figures %}
+	{% if publication.data %}
+	<a href="{{publication.data}}" class="label label-warning">Data</a>
+	{% endif %}
+
+	{% if publication.code %}
+	<a href="{{publication.code}}" class="label label-primary">Code</a>
+	{% endif %}
+
+
+	{% if publication.website %}
+	<a href="{{publication.website}}" class="label label-danger">Website</a>
+	{% endif %}
+
+
+	{% if publication.video %}
+	<a href="{{publication.video}}" class="label label-success">Video</a>
+	{% endif %}
+
+
+<!-- ccb - turning off figures for now, until I can figure out how to load them in a lazy fashion, so that the user doesn't get bombarded with so much data -->
+	{% if publication.figures_TURN_OFF_FOR_NOW %}
 	<!-- figures button -->
 	<a data-toggle="modal" href="#{{publication.id}}-figures" class="label label-primary">Figures</a>
 	<!-- /.figures button -->
@@ -296,9 +459,11 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	  	{% for figure in publication.figures %}
 		  	{% if isFirstFigure == 1 %}
 			  	<div class="item active">
+				<!-- ccb testing adding abstract as first time on carousel -->
 			        <b>Abstract:</b> {{publication.abstract}}
 				</div>
 			  	<div class="item">
+				<!-- /ccb end testing adding abstract as first time on carousel -->
                 		{% assign isFirstFigure = 0 %}
 		  	{% else %}
 			  	<div class="item">
@@ -311,11 +476,11 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	  <!-- /.Carousel items -->
 	  <!-- Controls -->
 		<a class="left carousel-control" href="#{{publication.id}}-figures-carousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="margin-bottom: 20px; color:gray"></span>
+		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true" style="color:gray"></span>
 		<span class="sr-only">Previous</span>
 		</a>
 		<a class="right carousel-control" href="#{{publication.id}}-figures-carousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="margin-bottom: 20px; color:gray"></span>
+		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true" style="color:gray"></span>
 		<span class="sr-only">Next</span>
 		</a>
 	  <!-- /.Controls -->
@@ -351,9 +516,4 @@ My interests in crowdsourcing have expanded beyond natural language processing. 
 	{% endif %}
 	</td>
     <tr>
-    {% endif %}
-   {% endif %}
   {% endfor %}
- {% endfor %}
-{% endfor %}
-

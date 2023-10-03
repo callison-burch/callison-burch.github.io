@@ -47,6 +47,29 @@
         institution = {University of Pennsylvania, School of Engineering and Applied Sciences, Department of Computer and Information Science}
       }
 -
+   title: Kani &#129408;&colon; A Lightweight and Highly Hackable Framework for Building Language Model Applications
+   authors: Andrew Zhu, Liam Dugan, Alyssa Hwang, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2023
+   url: https://arxiv.org/abs/2309.05542
+   page_count: 13
+   id: kani-python-framework-for-building-llm-applications
+   data: 
+   code: https://github.com/zhudotexe/kani
+   website:
+   abstract: | 
+      Language model applications are becoming increasingly popular and complex, often including features like tool usage and retrieval augmentation. However, existing frameworks for such applications are often opinionated, deciding for developers how their prompts ought to be formatted and imposing limitations on customizability and reproducibility. To solve this we present Kani: a lightweight, flexible, and model-agnostic open-source framework for building language model applications. Kani helps developers implement a variety of complex features by supporting the core building blocks of chat interaction: model interfacing, chat management, and robust function calling. All Kani core functions are easily overridable and well documented to empower developers to customize functionality for their own needs. Kani thus serves as a useful tool for researchers, hobbyists, and industry professionals alike to accelerate their development while retaining interoperability and fine-grained control.
+   bibtex: |
+      @misc{zhu2023kani,
+            title={Kani: A Lightweight and Highly Hackable Framework for Building Language Model Applications}, 
+            author={Andrew Zhu and Liam Dugan and Alyssa Hwang and Chris Callison-Burch},
+            year={2023},
+            eprint={2309.05542},
+            archivePrefix={arXiv},
+            primaryClass={cs.SE}
+      }
+-
    title: Faithful Chain-of-Thought Reasoning
    authors: Qing Lyu, Shreya Havaldar, Adam Stein, Li Zhang, Delip Rao, Eric Wong, Marianna Apidianaki, Chris Callison-Burch
    venue: AACL-IJCNLP
@@ -178,7 +201,7 @@
       }
 -
    title: Representation of Lexical Stylistic Features in Language Models’ Embedding Space
-   authors: Qing Lyu, Marianna Apidianaki, Chris Callison-burch
+   authors: Qing Lyu, Marianna Apidianaki, Chris Callison-Burch
    venue: StarSEM
    type: conference
    year: 2023
@@ -195,7 +218,7 @@
           title = "Representation of Lexical Stylistic Features in Language Models{'} Embedding Space",
           author = "Lyu, Qing  and
             Apidianaki, Marianna  and
-            Callison-burch, Chris",
+            Callison-Burch, Chris",
           booktitle = "Proceedings of the 12th Joint Conference on Lexical and Computational Semantics (*SEM 2023)",
           month = jul,
           year = "2023",
@@ -595,7 +618,7 @@
       @inproceedings{upadhyay-etal-2023-learn,
           title = "Learn With Martian: A Tool For Creating Assignments That Can Write And Re-Write Themselves",
           author = "Upadhyay, Shriyash  and
-            Callison-burch, Chris  and
+            Callison-Burch, Chris  and
             Ginsberg, Etan",
           booktitle = "Proceedings of the 17th Conference of the European Chapter of the Association for Computational Linguistics: System Demonstrations",
           month = may,
@@ -941,8 +964,9 @@
    year: 2022
    url: https://www.cis.upenn.edu/~ccb/publications/deduplicating-training-data-makes-lms-better.pdf
    page_count: 22
+   highly_cited: 172
    id: deduplicating-training-data
-   data: https://github.com/google-research/deduplicate-text-datasets
+   code: https://github.com/google-research/deduplicate-text-datasets
    abstract: We find that existing language modeling datasets contain many near-duplicate examples and long repetitive substrings. As a result, over 1% of the unprompted output of language models trained on these datasets is copied verbatim from the training data. We develop two tools that allow us to deduplicate training datasets -- for example removing from C4 a single 61 word English sentence that is repeated over 60,000 times. Deduplication allows us to train models that emit memorized text ten times less frequently and require fewer train steps to achieve the same or better accuracy. We can also reduce train-test overlap, which affects over 4% of the validation set of standard datasets, thus allowing for more accurate evaluation. We release code for reproducing our work and performing dataset deduplication at https://github.com/google-research/deduplicate-text-datasets
    bibtex: |
       @inproceedings{lee2022deduplicating,
@@ -1031,7 +1055,7 @@
 -
    title: SynthBio&colon; A Case Study in Human-AI Collaborative Curation of Text Datasets
    authors: Ann Yuan, Daphne Ippolito, Vitaly Nikolaev, Chris Callison-Burch, Andy Coenen, and Sebastian Gehrmann
-   venue: NeurIPS 35th Conference on Neural Information Processing Systems (NeurIPS 2021) Track on Datasets and Benchmarks.
+   venue: NeurIPS
    type: conference
    year: 2021
    url: https://www.cis.upenn.edu/~ccb/publications/synthbio.pdf
@@ -1283,7 +1307,7 @@
 -
    title: Artificial Intelligence in mental health and the biases of language based models
    authors: Isabel Straw and Chris Callison-Burch
-   venue: PloS one
+   venue: PLOS One
    type: journal
    year: 2020
    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0240376
@@ -1385,6 +1409,7 @@
    year: 2020
    url: https://www.cis.upenn.edu/~ccb/publications/automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled.pdf
    page_count: 15
+   highly_cited: 158
    id: automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled
    abstract: Recent advancements in neural language modeling make it possible to rapidly generate vast amounts of human-sounding text. The capabilities of humans and automatic discriminators to detect machine-generated text have been a large source of research interest, but humans and machines rely on different cues to make their decisions. Here, we perform careful benchmarking and analysis of three popular sampling-based decoding strategies like top-k, nucleus sampling, and untruncated random sampling—and show that improvements in decoding methods have primarily optimized for fooling humans. This comes at the expense of introducing statistical abnormalities that make detection easy for automatic systems. We also show that though both human and automatic detector performance improve with longer excerpt length, even multi-sentence excerpts can fool expert human raters over 30% of the time. Our findings reveal the importance of using both human and automatic detectors to assess the humanness of text generation systems.
    bibtex: |
@@ -1467,7 +1492,7 @@
 -
    title: SNAP judgments into the digital age&colon; Reporting on food stamps varies significantly with time, publication type, and political leaning
    authors: Benjamin Chrisinger, Eliza Kinsey, Ellie Pavlick, Chris Callison-Burch
-   venue: PloS one
+   venue: PLOS One
    type: journal
    year: 2020
    url: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0229180
@@ -1851,9 +1876,10 @@
    type: conference
    award: Honorable Mention Award
    note: Honorable Mention Award for CHI 2018, which means that it is ranked among the top 5% of all submissions to the SIGCHI 2018 conference. The conference received over 2500 submissions and 25 were chosen for Best Paper (101 were chosen for Honourable Mention.)
+   highly_cited: 590
    press: 
     - 
-      title: Newly Unemployed, and Labeling Photos for Pennies&colon;People who've lost jobs and are stuck indoors are turning to crowd work—filling out online surveys and transcribing audio for less than the minimum wage.
+      title: Newly Unemployed, and Labeling Photos for Pennies&colon; People who've lost jobs and are stuck indoors are turning to crowd work—filling out online surveys and transcribing audio for less than the minimum wage.
       source: Wired Magazine
       date: April 23, 2020
       url: https://www.wired.com/story/newly-unemployed-labeling-photos-pennies/
@@ -2189,6 +2215,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/simple-ppdb.pdf
    data: http://www.seas.upenn.edu/~nlp/resources/simple-ppdb.tgz
    page_count: 6
+   highly_cited: 108
    id: simple-ppdb
    abstract: We release the Simple Paraphrase Database, a subset of of the Paraphrase Database (PPDB) adapted for the task of text simplification. We train a supervised model to associate simplification scores with each phrase pair, producing rankings competitive with state-of-the-art lexical simplification models. Our new simplification database contains 4.4 million paraphrase rules, making it the largest available resource for lexical simplification.
    bibtex: |
@@ -2249,6 +2276,7 @@
    year: 2016
    url: https://www.cis.upenn.edu/~ccb/publications/optimizing-machine-translation-for-text-simplifciation.pdf
    page_count: 15
+   highly_cited: 520
    id: optimizing-machine-translation-for-text-simplifciation
    abstract: Most recent sentence simplification systems use basic machine translation models to learn lexical and syntactic paraphrases from a manually simplified parallel corpus. These methods are limited by the quality and quantity of manually simplified corpora, which are expensive to build. In this paper, we conduct an in-depth adaptation of statistical machine translation to perform text simplification, taking advantage of large-scale paraphrases learned from bilingual texts and a small amount of manual simplifications with multiple references. Our work is the first to design automatic metrics that are effective for tuning and  evaluating simplification systems, which will facilitate iterative development for this task.
    bibtex: |
@@ -2382,6 +2410,7 @@
    website: http://paraphrase.org/
    page_count: 6
    id: ppdb-reranking
+   highly_cited: 363
    abstract: We present a new release of the Paraphrase Database. PPDB 2.0 includes a discriminatively re-ranked set of paraphrases that achieve a higher correlation with human judgments than PPDB 1.0’s heuristic rankings. Each paraphrase pair in the database now also includes fine-grained entailment relations, word embedding similarities, and style annotations.
    bibtex: |
     @InProceedings{PavlickEtAl-2015:ACL:Semantics,
@@ -2442,6 +2471,7 @@
    year: 2015
    url: https://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf
    page_count: 16
+   highly_cited: 420
    id: new-data-for-text-simplification
    figures:
       -
@@ -2565,6 +2595,7 @@
    year: 2015
    url: https://www.cis.upenn.edu/~ccb/publications/paraphrase-and-semantic-similarity-in-twitter.pdf
    page_count: 11
+   highly_cited: 172
    id: paraphrase-and-semantic-similarity-in-twitter
    figures:
       -
@@ -2668,7 +2699,7 @@
 -
    title: Ideological Perspective Detection Using Semantic Features
    authors: Heba Elfardy, Mona Diab and Chris Callison-Burch
-   venue: STARTSEM
+   venue: STARSEM
    type: conference
    year: 2015
    url: https://www.cis.upenn.edu/~ccb/publications/ideological-perspective-detection.pdf
@@ -2815,6 +2846,7 @@
    year: 2014
    url: https://www.cis.upenn.edu/~ccb/publications/extracting-paraphrases-from-twitter.pdf
    page_count: 14
+   highly_cited: 130
    id: extracting-paraphrases-from-twitter
    figures:
       -
@@ -3400,6 +3432,7 @@
    year: 2014
    url: https://www.cis.upenn.edu/~ccb/publications/arabic-dialect-corpus-2.pdf
    page_count: 5
+   highly_cited: 105
    id: arabic-dialect-corpus-2
    figures:
       -
@@ -3497,6 +3530,7 @@
    year: 2013
    url: https://www.cis.upenn.edu/~ccb/publications/improved-speech-to-speech-translation.pdf
    page_count: 7
+   highly_cited: 129
    id: improved-speech-to-speech-translation
    figures:
       -
@@ -3898,6 +3932,7 @@
    year: 2013
    url: https://www.cis.upenn.edu/~ccb/publications/bitexts-from-common-crawl.pdf
    page_count: 10
+   highly_cited: 168
    id: bitexts-from-common-crawl
    figures:
       -
@@ -3966,6 +4001,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/ppdb.pdf
    page_count: 7
    id: ppdb
+   highly_cited: 921
    figures:
       -
          img: figures/ppdb/ppdb-figure-1.jpg
@@ -4059,6 +4095,7 @@
    year: 2013
    url: https://www.cis.upenn.edu/~ccb/publications/answer-extraction-as-sequence-tagging.pdf
    page_count: 10
+   highly_cited: 245
    id: answer-extraction-as-sequence-tagging
    figures:
       -
@@ -4191,6 +4228,7 @@
    data: https://github.com/joshua-decoder/indian-parallel-corpora
    url: https://www.cis.upenn.edu/~ccb/publications/constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing.pdf
    page_count: 9
+   highly_cited: 164
    id: constructing-parallel-corpora-for-six-indian-languages-via-crowdsourcing
    figures:
       -
@@ -4515,6 +4553,7 @@
    year: 2012
    url: https://www.cis.upenn.edu/~ccb/publications/machine-translation-of-arabic-dialects.pdf
    page_count: 11
+   highly_cited: 202
    id: machine-translation-of-arabic-dialects
    figures:
       -
@@ -5106,6 +5145,7 @@
    year: 2011
    url: https://www.cis.upenn.edu/~ccb/publications/arabic-dialect-corpus.pdf
    page_count: 5
+   highly_cited: 206
    id: arabic-dialect-corpus
    figures:
       -
@@ -5155,6 +5195,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
    page_count: 10
    id: crowdsourcing-translation
+   highly_cited: 500
    figures:
       -
          img: figures/crowdsourcing-translation/crowdsourcing-translation-figure-1.jpg
@@ -5413,7 +5454,7 @@
        }
        
 -
-   title: Joshua 2.0&colon; A Toolkit for Parsing-Based Machine Translationwith Syntax, Semirings, Discriminative Training and Other Goodies
+   title: Joshua 2.0&colon; A Toolkit for Parsing-Based Machine Translation with Syntax, Semirings, Discriminative Training and Other Goodies
    authors: Zhifei Li, Chris Callison-Burch, Chris Dyer, Juri Ganitkevitch, Ann Irvine, Lane Schwartz, Wren N. G. Thornton, Ziyuan Wang, Jonathan Weese and Omar F. Zaidan
    venue: WMT
    type: workshop
@@ -5444,6 +5485,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/findings-of-wmt10-and-metrics-matr.pdf
    page_count: 33
    id: findings-of-wmt10-and-metrics-matr
+   highly_cited: 254
    figures:
       -
          img: figures/findings-of-wmt10-and-metrics-matr/findings-of-wmt10-and-metrics-matr-figure-1.jpg
@@ -5595,6 +5637,7 @@
    year: 2010
    url: https://www.cis.upenn.edu/~ccb/publications/creating-speech-and-language-data-with-amazon-mechanical-turk.pdf
    page_count: 12
+   highly_cited: 430
    id: creating-speech-and-language-data-with-amazon-mechanical-turk
    figures:
       -
@@ -5778,6 +5821,7 @@
    year: 2010
    url: https://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
    page_count: 9
+   highly_cited: 211
    id: automatic-speech-recognition-with-non-expert-transcription
    figures:
       -
@@ -5989,6 +6033,7 @@
    year: 2009
    url: https://www.cis.upenn.edu/~ccb/publications/mechanical-turk-for-machine-translation-evaluation.pdf
    page_count: 10
+   highly_cited: 632
    id: mechanical-turk-for-machine-translation-evaluation
    figures:
       -
@@ -6085,6 +6130,7 @@
    year: 2009
    url: https://www.cis.upenn.edu/~ccb/publications/improved-translation-with-monolingually-derived-paraphrases.pdf
    page_count: 10
+   highly_cited: 198
    id: improved-translation-with-monolingually-derived-paraphrases
    figures:
       -
@@ -6205,6 +6251,7 @@
    year: 2009
    url: https://www.cis.upenn.edu/~ccb/publications/findings-of-the-wmt09-shared-tasks.pdf
    page_count: 28
+   highly_cited: 834
    id: findings-of-the-wmt09-shared-tasks
    figures:
       -
@@ -6289,6 +6336,7 @@
    year: 2009
    url: https://www.cis.upenn.edu/~ccb/publications/joshua-open-source-toolkit-for-statistical-machine-translation.pdf
    page_count: 5
+   highly_cited: 230
    id: joshua-open-source-toolkit-for-statistical-machine-translation
    figures:
       -
@@ -6350,6 +6398,7 @@
    year: 2008
    url: https://www.cis.upenn.edu/~ccb/publications/syntactic-constraints-on-paraphrases.pdf
    page_count: 10
+   highly_cited: 229
    id: syntactic-constraints-on-paraphrases
    figures:
       -
@@ -6454,6 +6503,7 @@
    year: 2008
    url: https://www.cis.upenn.edu/~ccb/publications/further-meta-evaluation-of-machine-tranlsion.pdf
    page_count: 37
+   highly_cited: 306
    id: further-meta-evaluation-of-machine-tranlsion
    figures:
       -
@@ -6651,7 +6701,7 @@
    type: thesis
    year: 2007
    url: https://www.cis.upenn.edu/~ccb/publications/callison-burch-thesis.pdf
-   page_count: 
+   page_count: 206
    id: callison-burch-thesis
    figures:
       -
@@ -6701,6 +6751,7 @@
    year: 2007
    url: https://www.cis.upenn.edu/~ccb/publications/meta-evaluation-of-machine-tranlsion.pdf
    page_count: 
+   highly_cited: 188
    id: meta-evaluation-of-machine-tranlsion
    figures:
       -
@@ -6799,13 +6850,14 @@
        
 -
    title: Moses&colon; Open source toolkit for statistical machine translation
-   authors: Philipp Koehn, Hieu Hoang,  Alexandra Birch,  Chris Callison-burch,    Marcello Federico,  Nicola Bertoldi,   Brooke Cowan,  Wade Shen,  Christine Moran,  Richard Zens, Chris Dyer, Ondřej Bojar,  Alexandra Constantin,  and Evan Herbst
+   authors: Philipp Koehn, Hieu Hoang,  Alexandra Birch,  Chris Callison-Burch,    Marcello Federico,  Nicola Bertoldi,   Brooke Cowan,  Wade Shen,  Christine Moran,  Richard Zens, Chris Dyer, Ondřej Bojar,  Alexandra Constantin,  and Evan Herbst
    venue: ACL
    type: conference
    year: 2007
    url: https://www.cis.upenn.edu/~ccb/publications/moses-toolkit.pdf
    page_count: 
    id: moses-toolkit
+   highly_cited: 7047
    figures:
       -
          img: figures/moses-toolkit/moses-toolkit-figure-1.jpg
@@ -6869,6 +6921,7 @@
    year: 2006
    url: https://www.cis.upenn.edu/~ccb/publications/improved-statistical-machine-translation-using-paraphrases.pdf
    page_count: 
+   highly_cited: 391
    id: improved-statistical-machine-translation-using-paraphrases
    figures:
       -
@@ -6922,6 +6975,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/re-evaluating-the-role-of-bleu-in-mt-research.pdf
    page_count: 8
    id: re-evaluating-the-role-of-bleu-in-mt-research
+   highly_cited: 960
    abstract: We argue that the machine translation community is overly reliant on the Bleu machine translation evaluation metric. We show that an improved Bleu score is neither necessary nor sufficient for achieving an actual improvement in translation quality, and give two significant counterexamples to Bleu’s correlation with human judgments of quality. This offers new potential for research which was previously deemed unpromising by an inability to improve upon Bleu scores. 
    bibtex: |
       @InProceedings{callisonburch-koehn-osborne:2006:HLT-NAACL06-Main,
@@ -6980,6 +7034,7 @@
    year: 2005
    url: https://www.cis.upenn.edu/~ccb/publications/scaling-phrase-based-statistical-machine-translation.pdf
    page_count: 
+   highly_cited: 116
    id: scaling-phrase-based-statistical-machine-translation
    figures:
       -
@@ -7037,6 +7092,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/paraphrasing-with-bilingual-parallel-corpora.pdf
    page_count: 
    id: paraphrasing-with-bilingual-parallel-corpora
+   highly_cited: 772
    figures:
       -
          img: figures/paraphrasing-with-bilingual-parallel-corpora/paraphrasing-with-bilingual-parallel-corpora-figure-1.jpg
@@ -7162,6 +7218,7 @@
    year: 2005
    url: https://www.cis.upenn.edu/~ccb/publications/iwslt05-report.pdf
    page_count: 
+   highly_cited: 446
    id: iwslt05-report
    figures:
       -
@@ -7230,6 +7287,7 @@
    year: 2004
    url: https://www.cis.upenn.edu/~ccb/publications/smt-with-word-and-sentence-aligned-parallel-corpora.pdf
    page_count: 
+   highly_cited: 161
    id: smt-with-word-and-sentence-aligned-parallel-corpora
    figures:
       -
@@ -7453,7 +7511,6 @@
    type: workshop
    year: 2003
    url: https://www.cis.upenn.edu/~ccb/publications/co-training-for-smt.pdf
-   page_count: 
    id: co-training-for-smt
    figures:
       -
@@ -7523,7 +7580,7 @@
    type: thesis
    year: 2002
    url: https://www.cis.upenn.edu/~ccb/publications/msc-thesis.pdf
-   page_count: 
+   page_count: 64 
    id: msc-thesis
    abstract: I propose a novel co-training method for statistical machine translation. As co-training requires multiple learners trained on views of the data which are disjoint and sufficient for the labeling task, I use multiple source documents as views on translation. Co-training for statistical machine translation is therefore a type of multi-source translation. Unlike previous mutli-source methods, it improves the overall quality of translations produced by a model, rather than single translations. This is achieved by augmenting the parallel corpora on which the statistical translation models are trained. Experiments suggest that co-training is especially effective for languages with highly impoverished parallel corpora. 
    bibtex: |
@@ -7573,7 +7630,7 @@
    title: A program for automatically selecting the best output from multiple machine translation engines
    authors: Chris Callison-Burch and Raymond Flournoy
    venue: MT Summit
-   type: conference
+   type: workshop
    year: 2001
    url: https://www.cis.upenn.edu/~ccb/publications/multi-engine-mt-with-language-models.pdf
    page_count: 
