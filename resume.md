@@ -353,7 +353,7 @@ You can read my full teaching reviews [here](teaching-reviews.pdf).  Below are t
   {% endif %}
   <!-- End marker -->
     {% if grant.type == "gift" %}
-     <li>{{grant.title}} - {{grant.amount}} from {{grant.awarding_body}} ({{grant.start_date}})</li>
+     <li>{{grant.start_date}} award from {{grant.awarding_body}} ({{grant.amount}})</li>
      {% endif %}
   {% endfor %}
 </ul>
@@ -364,7 +364,7 @@ You can read my full teaching reviews [here](teaching-reviews.pdf).  Below are t
 
 <ol>
     {% for student in site.data.students %}
-<li> {{ student.name }},  {{ student.degree }}, {{ student.institution }}.
+<li> {{ student.name }}.
     {% if student.coadvisor %}
     Co-advised by {{ student.coadvisor }}.
     {% endif %}

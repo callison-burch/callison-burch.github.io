@@ -17,6 +17,17 @@ Prof Callison-Burch has more than 100 publications, which have been cited over 2
 
 On May 17, 2023, Prof Callison-Burch [testified before congress](https://www.youtube.com/playlist?list=PL0S5TKwqfRKKUNWzp7rEe5uuLV-o9VC2f) about the relationship of generative AI and Copyright Law.
 
+<b>Promotion Materials</b>
+
+I'm going up for promotion to Full Professor this year.  If you'd like to see my materials here they are:
+
+<ul>
+<li> <a href="resume.html" class="label label-primary">CV</a> </li>
+<li> <a href="research-statement.html" class="label label-success">Research Statement</a> </li>
+<li> <a href="teaching-statement.html" class="label label-warning">Teaching Statement</a> </li>
+<li> <a href="promotion-summary.html" class="label label-danger">Highlights</a> </li>
+</ul>
+
 <b>Recent Talks</b>
 
 <ol>

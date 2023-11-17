@@ -1,25 +1,25 @@
 -
    title: Research Gift
-   awarding_body: Salesforce
-   is_company: True
-   type: gift
-   amount: $30k
-   start_date: 2023
-   end_date: 2024
-   status: current
-   PI_info: Chris Callison-Burch - PI, Mark Yatskar - co-PI
-   url:
-   abstract: 
--
-   title: Research Gift
    awarding_body: Roblox
    is_company: True
    type: gift
-   amount: $100k
+   amount: $100,000
    start_date: 2023
    end_date: 2024
    status: current
    PI_info: Chris Callison-Burch - PI
+   url:
+   abstract: 
+-
+   title: Research Gift
+   awarding_body: Salesforce
+   is_company: True
+   type: gift
+   amount: $30,000
+   start_date: 2023
+   end_date: 2024
+   status: current
+   PI_info: Chris Callison-Burch - PI, Mark Yatskar - co-PI
    url:
    abstract: 
 -
@@ -35,7 +35,7 @@
 -
    title: IARPA HIATUS&colon; PAUSIT&colon; Privacy protection and Authorship attribution Using Style-based Interpretable Transfer
    awarding_body: IARPA
-   amount: $7m
+   amount: $7m (Penn's portion is $3.1m)
    start_date: 2022
    end_date: 2026
    status: current
@@ -144,7 +144,7 @@
 -
    title: FFW-HTF-RL&colon; Collaborative Research&colon; Up-skilling and Re-skilling Marginalized Rural and Urban Digital Workers&colon; AI-worker collaboration to access creative work
    awarding_body: NSF 
-   amount: $3m
+   amount: $3m (Penn's portion is $375k)
    start_date: 2019
    end_date: 2024
    status: current
@@ -168,7 +168,7 @@
 -
    title: KAIROS&colon; RESIN&colon; Reasoning about Event Schemas for Induction of kNowledge
    awarding_body: DARPA
-   amount: $12m
+   amount: $12m (Penn's portion is $2m)
    start_date: 2019
    end_date: 2024
    status: current

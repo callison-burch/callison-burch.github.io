@@ -47,12 +47,153 @@
         institution = {University of Pennsylvania, School of Engineering and Applied Sciences, Department of Computer and Information Science}
       }
 -
-   title: Kani &#129408;&colon; A Lightweight and Highly Hackable Framework for Building Language Model Applications
-   authors: Andrew Zhu, Liam Dugan, Alyssa Hwang, Chris Callison-Burch
+   title: AI2's Response to the US Copyright Requence for Comments on Artificial Intelligence and Copyright
+   authors: Ali Farhadi, David Atkinson, Chris Callison-Burch, Nicole DeCario, Jennifer Dumas, Kyle Lo,  Luca Soldiani
+   venue: US Copyright Office Docket No. 2023-6
+   type: Comment
+   year: 2023
+   url: https://www.cis.upenn.edu/~ccb/publications/AI2-response-to-US-copyright-office-2023.pdf
+   page_count: 15
+   id: AI2-response-to-US-copyright-office-2023
+   data: 
+   code: 
+   abstract: |
+      We are AI researchers, engineers, policy advisors, and legal counsel from The Allen Institute for Artificial Intelligence (AI2). We offer the following submission in response to the U.S. Copyright Office, Library of Congress Notice of inquiry and request for comments (RFC). Our response centers on the use of copyrighted materials to train AI Models, as defined in the RFC, and the Output derived from the Training Materials via the AI Models or AI Systems (Output).1 In this response, we provide background and details on the technical aspects of training AI Models, as outlined in the Training section of the RFC, and we offer two recommendations for consideration.
+      AI2 is a non-profit research institute founded in 2014 with the mission of conducting high-impact AI research and engineering in service of the common good. AI2 is the creation of the late Paul G. Allen, philanthropist and Microsoft co-founder, and is led by Dr. Ali Farhadi. Headquartered in Seattle, AI2 employs over 200 world-class AI researchers and engineers from across the globe. We share Paul Allen’s vision and belief that AI can transform lives in positive ways.
+      Generative AI has potential applications that will benefit society, including medical diagnosis, treatment, and cure research; assistive technologies for people with disabilities; intelligent tutoring systems for personalized and more equitable education; and climate modeling to predict impacts in specific regions. We also recognize the inherent and potential challenges that exist with this technology. Our focus at AI2 is to work not only on cutting edge AI research, but also at the intersection of AI ethics, AI policy, and AI literacy to create solutions that enable a future where AI is universally designed, developed, and deployed responsibly.
+      Starting in March 2023, researchers at AI2 have been building a state-of-the-art generative language model called OLMo (Open Language Model). AI2 expects to publicly release OLMo in early 2024. Our goal is to produce an AI Model designed for scientific research that provides access and education around all aspects of AI Model creation. This summer we released Dolma, the Training Dataset used to create OLMo. Dolma2, consists of 3 trillion tokens from a diverse mix of web content, academic publications, software code, books, and encyclopedic materials.
+      We offer our feedback here as a nonprofit research institute with first-hand experience training generative AI Models from scratch. We will describe aspects of model training, collection of Training Material for AI Models, and related copyright considerations.
+   bibtex: |
+      @misc{ai2response2023,
+        title = {{AI2's Response to the US Copyright Requence for Comments on Artificial Intelligence and Copyright}},
+        author = {Farhadi, Ali and Atkinson, David and Callison-Burch, Chris and DeCario, Nicole and Dumas, Jennifer and Lo, Kyle and Soldiani, Luca},
+        howpublished = {US Copyright Office Docket No. 2023-6},
+        year = {2023},
+        url = {https://www.cis.upenn.edu/~ccb/publications/understanding-generative-AI-and-its-relationship-to-copyright.pdf},
+        note = {Comment}
+      }
+-
+   title: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
+   authors: Bodhisattwa Prasad Majumder, Bhavana Dalvi Mishra, Peter Jansen, Oyvind Tafjord, Niket Tandon, Li Zhang, Chris Callison-Burch, Peter Clark
    venue: arXiv
    type: preprint
    year: 2023
-   url: https://arxiv.org/abs/2309.05542
+   url: https://arxiv.org/abs/2310.10134
+   page_count: 20
+   id: continuous-learning-agent-for-task-adaptation
+   data: 
+   code: 
+   website: https://allenai.github.io/clin/
+   abstract: | 
+      Language agents have shown some ability to interact with an external environment, e.g., a virtual world such as ScienceWorld, to perform complex tasks, e.g., growing a plant, without the startup costs of reinforcement learning. However, despite their zero-shot capabilities, these agents to date do not continually improve over time beyond performance refinement on a specific task. Here we present CLIN, the first language-based agent to achieve this, so that it continually improves over multiple trials, including when both the environment and task are varied, and without requiring parameter updates. Our approach is to use a persistent, dynamic, textual memory centered on causal abstractions (rather than general "helpful hints") that is regularly updated after each trial so that the agent gradually learns useful knowledge for new trials. In the ScienceWorld benchmark, CLIN is able to continually improve on repeated trials on the same task and environment, outperforming state-of-the-art reflective language agents like Reflexion by 23 absolute points. CLIN can also transfer its learning to new environments (or new tasks), improving its zero-shot performance by 4 points (13 for new tasks) and can further improve performance there through continual memory updates, enhancing performance by an additional 17 points (7 for new tasks). This suggests a new architecture for agents built on frozen models that can still continually and rapidly improve over time.
+   bibtex: |
+      @misc{majumder2023clin,
+            title={CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization}, 
+            author={Bodhisattwa Prasad Majumder and Bhavana Dalvi Mishra and Peter Jansen and Oyvind Tafjord and Niket Tandon and Li Zhang and Chris Callison-Burch and Peter Clark},
+            year={2023},
+            eprint={2310.10134},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
+   title: Grounded Intuition of GPT-Vision's Abilities with Scientific Images
+   authors: Alyssa Hwang, Andrew Head, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2023
+   url: https://arxiv.org/abs/2311.02069
+   page_count: 29
+   id: analysis-of-gpt-4-vision-on-scientific-images
+   data: 
+   code: 
+   website:
+   abstract: | 
+      GPT-Vision has impressed us on a range of vision-language tasks, but it comes with the familiar new challenge: we have little idea of its capabilities and limitations. In our study, we formalize a process that many have instinctively been trying already to develop "grounded intuition" of this new model. Inspired by the recent movement away from benchmarking in favor of example-driven qualitative evaluation, we draw upon grounded theory and thematic analysis in social science and human-computer interaction to establish a rigorous framework for qualitative evaluation in natural language processing. We use our technique to examine alt text generation for scientific figures, finding that GPT-Vision is particularly sensitive to prompting, counterfactual text in images, and relative spatial relationships. Our method and analysis aim to help researchers ramp up their own grounded intuitions of new models while exposing how GPT-Vision can be applied to make information more accessible.
+   bibtex: |
+      @misc{hwang2023grounded,
+            title={Grounded Intuition of GPT-Vision's Abilities with Scientific Images}, 
+            author={Alyssa Hwang and Andrew Head and Chris Callison-Burch},
+            year={2023},
+            eprint={2311.02069},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
+   title: Interpretable-by-Design Text Classification with Iteratively Generated Concept Bottleneck
+   authors: Josh Magnus Ludan, Qing Lyu, Yue Yang, Liam Dugan, Mark Yatskar, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2023
+   url: https://arxiv.org/abs/2310.19660
+   page_count: 25
+   id: text-concept-bottlenecks-with-LLMs
+   data: 
+   code: 
+   website:
+   abstract: | 
+      Deep neural networks excel in text classification tasks, yet their application in high-stakes domains is hindered by their lack of interpretability. To address this, we propose Text Bottleneck Models (TBMs), an intrinsically interpretable text classification framework that offers both global and local explanations. Rather than directly predicting the output label, TBMs predict categorical values for a sparse set of salient concepts and use a linear layer over those concept values to produce the final prediction. These concepts can be automatically discovered and measured by a Large Language Model (LLM), without the need for human curation. On 12 diverse datasets, using GPT-4 for both concept generation and measurement, we show that TBMs can rival the performance of established black-box baselines such as GPT-4 fewshot and finetuned DeBERTa, while falling short against finetuned GPT-3.5. Overall, our findings suggest that TBMs are a promising new framework that enhances interpretability, with minimal performance tradeoffs, particularly for general-domain text.
+   bibtex: |
+      @misc{ludan2023interpretablebydesign,
+            title={Interpretable-by-Design Text Classification with Iteratively Generated Concept Bottleneck}, 
+            author={Josh Magnus Ludan and Qing Lyu and Yue Yang and Liam Dugan and Mark Yatskar and Chris Callison-Burch},
+            year={2023},
+            eprint={2310.19660},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
+   title: Choice-75&colon; A Dataset on Decision Branching in Script Learning
+   authors: Zhaoyi Joey Hou, Li Zhang, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2023
+   url: https://arxiv.org/abs/2309.11737
+   page_count: 9
+   id: choice-75-dataset
+   data: 
+   code: 
+   website:
+   abstract: | 
+      Script learning studies how daily events unfold. Previous works tend to consider a script as a linear sequence of events while ignoring the potential branches that arise due to people's circumstantial choices. We hence propose Choice-75, the first benchmark that challenges intelligent systems to predict decisions given descriptive scenarios, containing 75 scripts and more than 600 scenarios. While large language models demonstrate overall decent performances, there is still notable room for improvement in many hard scenarios.
+   bibtex: |
+      @misc{hou2023choice75,
+            title={Choice-75: A Dataset on Decision Branching in Script Learning}, 
+            author={Zhaoyi Joey Hou and Li Zhang and Chris Callison-Burch},
+            year={2023},
+            eprint={2309.11737},
+            archivePrefix={arXiv},
+            primaryClass={cs.AI}
+      }
+-
+   title: ParaGuide&colon; Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer
+   authors: Zachary Horvitz, Ajay Patel, Chris Callison-Burch, Zhou Yu, Kathleen McKeown
+   venue: arXiv
+   type: preprint
+   year: 2023
+   url: https://arxiv.org/abs/2308.15459
+   page_count: 17
+   id: paraguide
+   data: 
+   code: 
+   website:
+   abstract: | 
+      Textual style transfer is the task of transforming stylistic properties of text while preserving meaning. Target "styles" can be defined in numerous ways, ranging from single attributes (e.g, formality) to authorship (e.g, Shakespeare). Previous unsupervised style-transfer approaches generally rely on significant amounts of labeled data for only a fixed set of styles or require large language models. In contrast, we introduce a novel diffusion-based framework for general-purpose style transfer that can be flexibly adapted to arbitrary target styles at inference time. Our parameter-efficient approach, ParaGuide, leverages paraphrase-conditioned diffusion models alongside gradient-based guidance from both off-the-shelf classifiers and strong existing style embedders to transform the style of text while preserving semantic information. We validate the method on the Enron Email Corpus, with both human and automatic evaluations, and find that it outperforms strong baselines on formality, sentiment, and even authorship style transfer.
+   bibtex: |
+      @misc{horvitz2023paraguide,
+            title={ParaGuide: Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer}, 
+            author={Zachary Horvitz and Ajay Patel and Chris Callison-Burch and Zhou Yu and Kathleen McKeown},
+            year={2023},
+            eprint={2308.15459},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
+   title: Kani &#129408;&colon; A Lightweight and Highly Hackable Framework for Building Language Model Applications
+   authors: Andrew Zhu, Liam Dugan, Alyssa Hwang, Chris Callison-Burch
+   venue: 3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS)
+   type: workshop
+   year: 2023
+   url: https://www.cis.upenn.edu/~ccb/publications/kani-python-framework-for-building-llm-applications.pdf
    page_count: 13
    id: kani-python-framework-for-building-llm-applications
    data: 
@@ -61,13 +202,57 @@
    abstract: | 
       Language model applications are becoming increasingly popular and complex, often including features like tool usage and retrieval augmentation. However, existing frameworks for such applications are often opinionated, deciding for developers how their prompts ought to be formatted and imposing limitations on customizability and reproducibility. To solve this we present Kani: a lightweight, flexible, and model-agnostic open-source framework for building language model applications. Kani helps developers implement a variety of complex features by supporting the core building blocks of chat interaction: model interfacing, chat management, and robust function calling. All Kani core functions are easily overridable and well documented to empower developers to customize functionality for their own needs. Kani thus serves as a useful tool for researchers, hobbyists, and industry professionals alike to accelerate their development while retaining interoperability and fine-grained control.
    bibtex: |
-      @misc{zhu2023kani,
+      @inproceedings{zhu2023kani,
             title={Kani: A Lightweight and Highly Hackable Framework for Building Language Model Applications}, 
             author={Andrew Zhu and Liam Dugan and Alyssa Hwang and Chris Callison-Burch},
             year={2023},
-            eprint={2309.05542},
-            archivePrefix={arXiv},
-            primaryClass={cs.SE}
+            booktitle={3rd Workshop for Natural Language Processing Open Source Software (NLP-OSS)},
+            address={Singapore}
+            year = {2023}
+      }
+-
+   title: Learning Interpretable Style Embeddings via Prompting LLMs
+   authors: Ajay Patel, Delip Rao, Ansh Kothary, Kathleen McKeown, Chris Callison-Burch
+   venue: EMNLP Findings
+   type: conference
+   year: 2023
+   url:  https://www.cis.upenn.edu/~ccb/publications/interpretable-style-embeddings.pdf
+   page_count: 21
+   id: interpretable-style-embeddings
+   data: 
+   code: 
+   website:
+   abstract: | 
+      Style representation learning builds content independent representations of author style in text. To date, no large dataset of texts with stylometric annotations on a wide range of style dimensions has been compiled, perhaps because the linguistic expertise to perform such annotation would be prohibitively expensive. Therefore, current style representation approaches make use of unsupervised neural methods to disentangle style from content to create style vectors. These approaches, however, result in uninterpretable representations, complicating their usage in downstream applications like authorship attribution where auditing and explainability is critical. In this work, we use prompting to perform stylometry on a large number of texts to generate a synthetic stylometry dataset. We use this synthetic data to then train human interpretable style representations we call LISA embeddings. We release our synthetic dataset (STYLEGENOME) and our interpretable style embedding model (LISA) as resources.
+   bibtex: |
+      @inproceedings{patel2023learning,
+            title={Learning Interpretable Style Embeddings via Prompting LLMs}, 
+            author={Ajay Patel and Delip Rao and Ansh Kothary and Kathleen McKeown and Chris Callison-Burch},
+            booktitle={Findings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023 Findings)},
+            address={Singapore}
+            year = {2023}
+      }
+-
+   title: PAXQA&colon; Generating Cross-lingual Question Answering Examples at Training Scale
+   authors: Bryan Li, Chris Callison-Burch
+   venue: EMNLP Findings
+   type: conference
+   year: 2023
+   url:  https://www.cis.upenn.edu/~ccb/publications/generating-cross-lingual-question-answering-examples.pdf
+   page_count: 21
+   id: generating-cross-lingual-question-answering-examples
+   data: 
+   code: 
+   website:
+   abstract: | 
+      Existing question answering (QA) systems owe much of their success to large, high-quality training data. Such annotation efforts are costly, and the difficulty compounds in the cross-lingual setting. Therefore, prior cross-lingual QA work has focused on releasing evaluation datasets, and then applying zero-shot methods as baselines. In this work, we propose a synthetic data generation method for cross-lingual QA which leverages indirect supervision from existing parallel corpora. Our method termed paxqa (Projecting annotations for cross-lingual (x) QA) decomposes cross-lingual QA into two stages. In the first stage, we apply a question generation (QG) model to the English side. In the second stage, we apply annotation projection to translate both the questions and answers. To better translate questions, we propose a novel use of lexically-constrained machine translation, in which constrained entities are extracted from the parallel bitexts. We release cross-lingual QA datasets across 4 languages, totaling 662K QA examples. We then show that extractive QA models fine-tuned on these datasets outperform both zero-shot and prior synthetic data generation models, showing the sufficient quality of our generations. We find that the largest performance gains are for cross-lingual directions with non-English questions and English contexts. Ablation studies show that our dataset generation method is relatively robust to noise from automatic word alignments.
+   bibtex: |
+      @inproceedings{li2023crosslingualqa,
+            title={{PAXQA} Generating Cross-lingual Question Answering Examples at Training Scale}, 
+            author={Bryan Li and Chris Callison-Burch},
+            booktitle={Findings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP 2023 Findings)},
+            address={Singapore}
+            year = {2023}
       }
 -
    title: Faithful Chain-of-Thought Reasoning
@@ -80,6 +265,7 @@
    id: faithful-chain-of-thought-reasoning
    data: https://github.com/veronica320/Faithful-COT
    code: https://github.com/veronica320/Faithful-COT
+   award: Area Chair Award (Interpretability and Analysis of Models for NLP) 
    website:
    abstract: |
       While Chain-of-Thought (CoT) prompting boosts Language Models’ (LM) performance on a gamut of complex reasoning tasks, the generated reasoning chain does not necessarily reflect how the model arrives at the answer (aka. faithfulness). We propose Faithful CoT, a reasoning framework involving two stages: Translation (Natural Language query → symbolic reasoning chain) and Problem Solving (reasoning chain → answer), using an LM and a deterministic solver respectively. This guarantees that the reasoning chain provides a faithful explanation of the final answer. Aside from interpretability, Faithful CoT also improves empirical performance: it outperforms standard CoT on 9 of 10 benchmarks from 4 diverse domains, with a relative accuracy gain of 6.3% on Math Word Problems (MWP), 3.4% on Planning, 5.5% on Multi-hop Question Answering (QA), and 21.4% on Relational Inference. Furthermore, with GPT-4 and Codex, it sets the new state-of-the-art few-shot performance on 7 datasets (with 95.0+ accuracy on 6 of them), showing a strong synergy between faithfulness and accuracy.
@@ -173,29 +359,6 @@
             author={Bryan Li and Chris Callison-Burch},
             year={2023},
             eprint={2305.14610},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL}
-      }
--
-   title: Learning Interpretable Style Embeddings via Prompting LLMs
-   authors: Ajay Patel, Delip Rao, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2023
-   url: https://arxiv.org/abs/2305.12696
-   page_count: 9
-   id: interpretable-style-embeddings
-   data: 
-   code: 
-   website:
-   abstract: | 
-      Style representation learning builds content-independent representations of author style in text. Stylometry, the analysis of style in text, is often performed by expert forensic linguists and no large dataset of stylometric annotations exists for training. Current style representation learning uses neural methods to disentangle style from content to create style vectors, however, these approaches result in uninterpretable representations, complicating their usage in downstream applications like authorship attribution where auditing and explainability is critical. In this work, we use prompting to perform stylometry on a large number of texts to create a synthetic dataset and train human-interpretable style representations we call LISA embeddings. We release our synthetic stylometry dataset and our interpretable style models as resources.
-   bibtex: |
-      @misc{patel2023learning,
-            title={Learning Interpretable Style Embeddings via Prompting LLMs}, 
-            author={Ajay Patel and Delip Rao and Chris Callison-Burch},
-            year={2023},
-            eprint={2305.12696},
             archivePrefix={arXiv},
             primaryClass={cs.CL}
       }
@@ -501,7 +664,7 @@
    venue: Proceedings of the 1st Workshop on Natural Language Reasoning and Structured Explanations (NLRSE)
    type: workshop
    year: 2023
-   url: https://aclanthology.org/2023.nlrse-1.2
+   url: https://www.cis.upenn.edu/~ccb/publications/the-curious-case-of-code-prompts.pdf
    page_count: 9
    id: the-curious-case-of-code-prompts
    abstract: |

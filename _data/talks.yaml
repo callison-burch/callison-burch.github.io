@@ -44,6 +44,11 @@
    title: Panel Discussion about ChatGPT
    date: March 31, 2023
 -
+   venue: Duolingo
+   title: Using Large Language Models to Generate Course Materials 
+   date: March 16, 2023
+   url: https://youtu.be/LaU1RgfMntU
+-
    venue: Penn Center for Learning Analytics
    title: Smart Textbooks and Course Materials Using Large Language Models 
    date: March 13, 2023
@@ -72,10 +77,6 @@
    venue: ISAT/DARPA PARADIGM Workshop
    title: Participant in Performance and Resilience Arising from Defense-Informed Giant Models (PARADIGM) Workshop
    date: February 22, 2023
--
-   venue: Duolingo
-   title: Using Large Language Models to Generate Course Materials 
-   date: February 16, 2023
 -
    venue: Penn Medicine Seminar
    title: Ask An Expert About ChatGPT
