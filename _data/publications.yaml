@@ -1,4 +1,57 @@
 -
+   title: Towards Faithful Model Explanation in NLP&colon; A Survey
+   authors: Qing Lyu, Marianna Apidianaki, Chris Callison-Burch
+   venue: Computational Linguistics
+   type: journal
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/faithful-model-explanations-survey
+   page_count: 65
+   id: faithful-model-explanations-survey
+   figures:
+      -
+         img: figures/faithful-model-explanations-survey/faithful-model-explanations-survey-table-1.png
+         label: Table 1
+         caption: Comparison of different model explanation methods in terms of their proper- ties. Different colors denote different values of a property. See Section 1.1.3 for details.
+   data: 
+   code: 
+   abstract: |
+      End-to-end neural Natural Language Processing (NLP) models are notoriously difficult to understand. This has given rise to numerous efforts towards model explainability in recent years. One desideratum of model explanation is faithfulness, i.e. an explanation should accurately represent the reasoning process behind the model’s prediction. In this survey, we review over 110 model explanation methods in NLP through the lens of faithfulness. We first discuss the definition and evaluation of faithfulness, as well as its significance for explainability. We then introduce recent advances in faithful explanation, grouping existing approaches into five categories: similarity-based methods, analysis of model-internal structures, backpropagation- based methods, counterfactual intervention, and self-explanatory models. For each category, we synthesize its representative studies, strengths, and weaknesses. Finally, we summarize their common virtues and remaining challenges, and reflect on future work directions towards faithful explainability in NLP.
+   bibtex: |
+      @article{Lyu-et-al:CL:2024,
+         author    = {Qing Lyu and Marianna Apidianaki and Chris Callison-Burch},
+         title =   {Towards Faithful Model Explanation in {NLP}: A Survey},
+         journal = {Computational Linguistics},
+         year =    {2024},
+         volume = {XXX},
+         number = {XXX},
+         pages = {XXX}
+       }
+-
+   title: ParaGuide&colon; Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer
+   authors: Zachary Horvitz, Ajay Patel, Chris Callison-Burch, Zhou Yu, Kathleen McKeown
+   venue: AAAI
+   type: conference
+   year: 2024
+   url: https://arxiv.org/abs/2308.15459
+   page_count: 17
+   id: paraguide
+   data: 
+   code: 
+   website:
+   abstract: | 
+      Textual style transfer is the task of transforming stylistic properties of text while preserving meaning. Target "styles" can be defined in numerous ways, ranging from single attributes (e.g, formality) to authorship (e.g, Shakespeare). Previous unsupervised style-transfer approaches generally rely on significant amounts of labeled data for only a fixed set of styles or require large language models. In contrast, we introduce a novel diffusion-based framework for general-purpose style transfer that can be flexibly adapted to arbitrary target styles at inference time. Our parameter-efficient approach, ParaGuide, leverages paraphrase-conditioned diffusion models alongside gradient-based guidance from both off-the-shelf classifiers and strong existing style embedders to transform the style of text while preserving semantic information. We validate the method on the Enron Email Corpus, with both human and automatic evaluations, and find that it outperforms strong baselines on formality, sentiment, and even authorship style transfer.
+   bibtex: |
+      @inproceedings{horvitz2023paraguide,
+            title={{ParaGuide}: Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer}, 
+            author={Zachary Horvitz and Ajay Patel and Chris Callison-Burch and Zhou Yu and Kathleen McKeown},
+            year={2024},
+            address={Vancouver, Canada},
+            date={February 20-27, 2024},
+            eprint={2308.15459},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
    title: Understanding Generative Artificial Intelligence and Its Relationship to Copyright
    authors: Chris Callison-Burch
    venue: The U.S. House of Representatives Judiciary Committee Subcommittee on Courts, Intellectual Property, and the Internet Hearing on Artificial Intelligence and Intellectual Property&colon; Part I – Interoperability of AI and Copyright Law
@@ -75,8 +128,8 @@
 -
    title: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
    authors: Bodhisattwa Prasad Majumder, Bhavana Dalvi Mishra, Peter Jansen, Oyvind Tafjord, Niket Tandon, Li Zhang, Chris Callison-Burch, Peter Clark
-   venue: arXiv
-   type: preprint
+   venue: Agent Learning in Open-Endedness (ALOE)  Workshop
+   type: workshop
    year: 2023
    url: https://arxiv.org/abs/2310.10134
    page_count: 20
@@ -87,13 +140,13 @@
    abstract: | 
       Language agents have shown some ability to interact with an external environment, e.g., a virtual world such as ScienceWorld, to perform complex tasks, e.g., growing a plant, without the startup costs of reinforcement learning. However, despite their zero-shot capabilities, these agents to date do not continually improve over time beyond performance refinement on a specific task. Here we present CLIN, the first language-based agent to achieve this, so that it continually improves over multiple trials, including when both the environment and task are varied, and without requiring parameter updates. Our approach is to use a persistent, dynamic, textual memory centered on causal abstractions (rather than general "helpful hints") that is regularly updated after each trial so that the agent gradually learns useful knowledge for new trials. In the ScienceWorld benchmark, CLIN is able to continually improve on repeated trials on the same task and environment, outperforming state-of-the-art reflective language agents like Reflexion by 23 absolute points. CLIN can also transfer its learning to new environments (or new tasks), improving its zero-shot performance by 4 points (13 for new tasks) and can further improve performance there through continual memory updates, enhancing performance by an additional 17 points (7 for new tasks). This suggests a new architecture for agents built on frozen models that can still continually and rapidly improve over time.
    bibtex: |
-      @misc{majumder2023clin,
-            title={CLIN: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization}, 
+      @inproceedings{majumder2023clin,
+            title={{CLIN}: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization}, 
             author={Bodhisattwa Prasad Majumder and Bhavana Dalvi Mishra and Peter Jansen and Oyvind Tafjord and Niket Tandon and Li Zhang and Chris Callison-Burch and Peter Clark},
+            booktitle={Proceedings of the Agent Learning in Open-Endedness (ALOE) Workshop, NeurIPS 2023},
             year={2023},
-            eprint={2310.10134},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL}
+            address={New Orleans},
+            date={December 15, 2023},
       }
 -
    title: Grounded Intuition of GPT-Vision's Abilities with Scientific Images
@@ -163,29 +216,6 @@
             eprint={2309.11737},
             archivePrefix={arXiv},
             primaryClass={cs.AI}
-      }
--
-   title: ParaGuide&colon; Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer
-   authors: Zachary Horvitz, Ajay Patel, Chris Callison-Burch, Zhou Yu, Kathleen McKeown
-   venue: arXiv
-   type: preprint
-   year: 2023
-   url: https://arxiv.org/abs/2308.15459
-   page_count: 17
-   id: paraguide
-   data: 
-   code: 
-   website:
-   abstract: | 
-      Textual style transfer is the task of transforming stylistic properties of text while preserving meaning. Target "styles" can be defined in numerous ways, ranging from single attributes (e.g, formality) to authorship (e.g, Shakespeare). Previous unsupervised style-transfer approaches generally rely on significant amounts of labeled data for only a fixed set of styles or require large language models. In contrast, we introduce a novel diffusion-based framework for general-purpose style transfer that can be flexibly adapted to arbitrary target styles at inference time. Our parameter-efficient approach, ParaGuide, leverages paraphrase-conditioned diffusion models alongside gradient-based guidance from both off-the-shelf classifiers and strong existing style embedders to transform the style of text while preserving semantic information. We validate the method on the Enron Email Corpus, with both human and automatic evaluations, and find that it outperforms strong baselines on formality, sentiment, and even authorship style transfer.
-   bibtex: |
-      @misc{horvitz2023paraguide,
-            title={ParaGuide: Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer}, 
-            author={Zachary Horvitz and Ajay Patel and Chris Callison-Burch and Zhou Yu and Kathleen McKeown},
-            year={2023},
-            eprint={2308.15459},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL}
       }
 -
    title: Kani &#129408;&colon; A Lightweight and Highly Hackable Framework for Building Language Model Applications
@@ -1006,35 +1036,6 @@
          img: figures/visualizing-the-obvious/visualizing-the-obvious-figure-1.png
          label: Figure 1
          caption: Our task is to retrieve relevant properties of nouns from a set of candidates. We tackle the task using (a) Cloze-task probing; (b) CLIP to compute the similarity between the properties and images of the noun; (c) a Concreteness Ensemble Model (CEM) to ensemble language and CLIP predictions which relies on properties’ concreteness ratings.
--
-   title: Towards Faithful Model Explanation in NLP&colon; A Survey
-   authors: Qing Lyu, Marianna Apidianaki, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2022
-   url: https://arxiv.org/abs/2209.11326
-   page_count: 62
-   id: faithful-model-explanations-survey
-   figures:
-      -
-         img: figures/faithful-model-explanations-survey/faithful-model-explanations-survey-table-1.png
-         label: Table 1
-         caption: Comparison of different model explanation methods in terms of their proper- ties. Different colors denote different values of a property. See Section 1.1.3 for details.
-   data: 
-   code: 
-   abstract: |
-      End-to-end neural NLP architectures are notoriously difficult to understand, which gives rise to numerous efforts towards model explainability in recent years. An essential principle of model explanation is Faithfulness, i.e., an explanation should accurately represent the reasoning process behind the model's prediction. This survey first discusses the definition and evaluation of Faithfulness, as well as its significance for explainability. We then introduce the recent advances in faithful explanation by grouping approaches into five categories: similarity methods, analysis of model-internal structures, backpropagation-based methods, counterfactual intervention, and self-explanatory models. Each category will be illustrated with its representative studies, advantages, and shortcomings. Finally, we discuss all the above methods in terms of their common virtues and limitations, and reflect on future work directions towards faithful explainability. For researchers interested in studying interpretability, this survey will offer an accessible and comprehensive overview of the area, laying the basis for further exploration. For users hoping to better understand their own models, this survey will be an introductory manual helping with choosing the most suitable explanation method(s).
-   bibtex: |
-      @misc{https://doi.org/10.48550/arxiv.2209.11326,
-        doi = {10.48550/ARXIV.2209.11326},
-        url = {https://arxiv.org/abs/2209.11326},
-        author = {Lyu, Qing and Apidianaki, Marianna and Callison-Burch, Chris},
-        keywords = {Computation and Language (cs.CL), FOS: Computer and information sciences, FOS: Computer and information sciences},
-        title = {Towards Faithful Model Explanation in NLP: A Survey},
-        publisher = {arXiv},
-        year = {2022},
-        copyright = {arXiv.org perpetual, non-exclusive license}
-      }
 -
    title: Empathic Conversations&colon; A Multi-level Dataset of Contextualized Conversations
    authors: Damilola Omitaomu, Shabnam Tafreshi, Tingting Liu, Sven Buechel, Chris Callison-Burch, Johannes Eichstaedt, Lyle Ungar, João Sedoc

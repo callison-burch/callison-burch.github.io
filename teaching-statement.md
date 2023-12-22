@@ -15,7 +15,7 @@ publications:
 </p>
 
 
-I teach one of the most popular courses at Penn, which is our Artificial Intelligence (AI) course.  This semester (Fall 2023), the course has an enrollment of 600 students – 400 in-person, plus 200 online students who are doing a master's from Penn Engineering Online.  Even with more than 500 students in my course, I consistently receive excellent teaching reviews.  I worked hard to achieve this scale and quality in my teaching.  
+I teach one of the most popular classes at Penn, which is our Artificial Intelligence (AI) course.  This semester (Fall 2023), the course has an enrollment of 600 students – 400 in-person, plus 200 online students who are doing a master's from Penn Engineering Online.  Even with more than 500 students in my course, I consistently receive excellent teaching reviews.  I worked hard to achieve this scale and quality in my teaching.  
 
 
 <div class="hidden-sm hidden-xs">
@@ -68,7 +68,7 @@ I'm proud to say that I managed to eliminate the inverse correlation between cla
 I have designed two courses for Penn Engineering Online: Artificial Intelligence and Natural Language Processing.  I re-designed NLP while I was on sabbatical last year to center the course on large language models.  My online courses are not "watered down". The content of the courses is identical to what I teach in my on-campus courses.  In fact, my on-campus courses have improved as a result of my investing the effort I put into creating the online courses.  I carefully thought out the course design. I recorded high-quality lecture videos.  I designed homework assignments that are auto-graded and give students instant feedback.   
 
 
-I frequently take on extra teaching duties for Penn Engineering Online, and voluntary overloads.   This semester I'm teaching a total of 750 students. 600 in AI, 100 in NLP, and about 20 enrolled in my PhD seminar on Large Language Models and Programming Languages (which I'm teaching for fun in collaboration with Benjamin Pierce a PL faculty member here at Penn).  
+I frequently take on extra teaching duties for Penn Engineering Online, and voluntary overloads.   This semester I'm teaching a total of 750 students. 600 in AI, 150 in NLP, and about 20 enrolled in my PhD seminar on Large Language Models and Programming Languages (which I'm teaching for fun in collaboration with Benjamin Pierce a PL faculty member here at Penn).  
 
 I am proud of my teaching record, and the fact that my large classes get consistently excellent reviews from students.  
 
