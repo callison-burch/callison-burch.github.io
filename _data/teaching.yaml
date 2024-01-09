@@ -6,9 +6,9 @@
    year: 2023
    description: 
    url: 
-   enrollment: 384
-   instructor_rating: 
-   course_rating: 
+   enrollment: 373
+   instructor_rating: 3.39 
+   course_rating: 3.14
 -
    title: Artificial Intelligence
    number: CIS 5210 - Penn Engineering Online
@@ -17,9 +17,9 @@
    year: 2023
    description: 
    url: 
-   enrollment: 196
-   instructor_rating: 
-   course_rating: 
+   enrollment: 186
+   instructor_rating: 3.45
+   course_rating: 2.99
    online_degree: True
 -
    title: Natural Language Processing
@@ -29,9 +29,9 @@
    year: 2023
    description: 
    url: 
-   enrollment: 159
-   instructor_rating: 
-   course_rating: 
+   enrollment: 152
+   instructor_rating: 3.62 
+   course_rating: 3.23
    online_degree: True
 -
    title: Large Language Models and Programming Languages
@@ -42,8 +42,8 @@
    description: 
    url: 
    enrollment: 12
-   instructor_rating: 
-   course_rating: 
+   instructor_rating: 3.5
+   course_rating: 3.5
    voluntary_overload: True
 -
    title: Artificial Intelligence
