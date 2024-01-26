@@ -34,8 +34,8 @@ Back in 2018, I plotted my teaching reviews against my course sizes and found an
 * I improved the organization of my courses 
 * I developed better course materials, including high-quality recorded videos and good, auto-graded assignments
 * I designed a fun set of hands-on extra credit assignments that use programmable toy R2D2s to demonstrate the key ideas in my AI course. 
-* I recruited and organized teams of TAs (each year I have 30+ students return TAs)
-* During the pandemic, I developed course policies that were empathetic to students learning situation.
+* I recruited and organized teams of TAs (each year I have 30+ students return as TAs)
+* During the pandemic, I developed course policies that were empathetic to students' learning situation.
 
 I'm proud to say that I managed to eliminate the inverse correlation between class size and course reviews (Figure 2).  Since dedicating myself to improving my teaching quality, my reviews have steadily gone up, and my courses are now consistently rated between 'very good' and 'excellent' (Figure 3).
 
@@ -160,7 +160,7 @@ I have supervised 15 master's theses and supervised dozens of independent study 
 
 ## Mentorship of PhD Students and Postdocs
 
-I am currently supervising or co-supervising 11 PhD students.  In my career so far, I have graduated 9 PhD students and supervised 7 postdocs.  All of them have gone on to excellent positions.  I am especially proud of my mentorship of women – 5 women who I mentored now hold faculty positions.  I also value the diversity of my group, and I have mentored several URM and LGBTQ students. 
+I am currently supervising or co-supervising 11 PhD students.  In my career so far, I have graduated 9 PhD students and supervised 7 postdocs.  All of them have gone on to excellent positions.  I am especially proud of my mentorship of women – 5 women who I mentored now hold faculty positions.  I value the diversity of my group, and I have mentored several URM and LGBTQ students. 
 
 PhDs Graduated:
 
