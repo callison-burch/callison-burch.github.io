@@ -144,7 +144,7 @@ You can read my full teaching reviews [here](teaching-reviews.pdf).  Below are t
 
 ## Advising Awards
 
-During the pandemic, I won the Ford Motor Company Award for Faculty Advising twice – once in 2021 and once again in 2022.  This award is presented annually by the undergraduate student body in recognition of faculty dedication in helping students realize their educational, career and personal goals.  I attribute this award to the care I put into teaching and the empathy that I expressed for students during the pandemic when we all of our learning rapidly changed to an online remote format.  I made several accommodations to students to help mitigate the negative effects of learning online. 
+During the pandemic, I won the Ford Motor Company Award for Faculty Advising twice – once in 2021 and once again in 2022.  This award is presented annually by the undergraduate student body in recognition of faculty dedication in helping students realize their educational, career and personal goals.  I attribute this award to the care I put into teaching and the empathy that I expressed for students during the pandemic when all of our learning rapidly changed to an online remote format.  I made several accommodations to students to help mitigate the negative effects of learning online. 
 
 
 ## Mentorship of Undergraduates and Master's Students
