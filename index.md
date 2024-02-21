@@ -4,7 +4,7 @@ layout: default
 img: CCB-small.jpg
 img_link: assets/img/CCB.jpeg
 caption: |
- <b>My office hours for Fall 2023 are Mondays 2-4pm in Towne M70.<br />
+ <b>My office hours for Spring 2024 are Thursdays 3:30-5pm in Towne 280.<br />
  <b>Email:</b> ccb@upenn.edu<br />
 active_tab: main_page 
 keep_sidebar: true 
