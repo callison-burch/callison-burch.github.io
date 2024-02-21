@@ -1,4 +1,51 @@
 -
+   title: DataDreamer&colon; A Tool for Synthetic Data Generation and Reproducible LLM Workflows
+   authors: Ajay Patel, Colin Raffel, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2402.10379
+   page_count: 29
+   id: datadreamer
+   data: 
+   code: https://datadreamer.dev/docs/latest/
+   website: 
+   abstract: | 
+      Large language models (LLMs) have become a dominant and important tool for NLP researchers in a wide range of tasks. Today, many researchers use LLMs in synthetic data generation, task evaluation, fine-tuning, distillation, and other model-in-the-loop research workflows. However, challenges arise when using these models that stem from their scale, their closed source nature, and the lack of standardized tooling for these new and emerging workflows. The rapid rise to prominence of these models and these unique challenges has had immediate adverse impacts on open science and on the reproducibility of work that uses them. In this paper, we introduce DataDreamer, an open source Python library that allows researchers to write simple code to implement powerful LLM workflows. DataDreamer also helps researchers adhere to best practices that we propose to encourage open science and reproducibility. The library and documentation are available at this https URL .
+   bibtex: |
+      @misc{patel2024datadreamer,
+            title={DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows}, 
+            author={Ajay Patel and Colin Raffel and Chris Callison-Burch},
+            year={2024},
+            eprint={2402.10379},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
+   title: Choice-75&colon; A Dataset on Decision Branching in Script Learning
+   authors: Zhaoyi Joey Hou, Li Zhang, Chris Callison-Burch
+   venue: COLING
+   type: conferece
+   year: 2024
+   url: https://arxiv.org/abs/2309.11737
+   page_count: 9
+   id: choice-75-dataset
+   data: 
+   code: 
+   website:
+   abstract: | 
+      Script learning studies how daily events unfold. Previous works tend to consider a script as a linear sequence of events while ignoring the potential branches that arise due to people's circumstantial choices. We hence propose Choice-75, the first benchmark that challenges intelligent systems to predict decisions given descriptive scenarios, containing 75 scripts and more than 600 scenarios. While large language models demonstrate overall decent performances, there is still notable room for improvement in many hard scenarios.
+   bibtex: |
+      @inproceedings{hou2024choice75,
+            title={Choice-75: A Dataset on Decision Branching in Script Learning},
+            author={Zhaoyi Joey Hou and Li Zhang and Chris Callison-Burch},
+            booktitle={Proceedings of The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024)},
+            year={2024},
+            address={Torino, Italy},
+            month={May},
+            pages={20--25}
+      }
+-
    title: Towards Faithful Model Explanation in NLP&colon; A Survey
    authors: Qing Lyu, Marianna Apidianaki, Chris Callison-Burch
    venue: Computational Linguistics
@@ -193,29 +240,6 @@
             eprint={2310.19660},
             archivePrefix={arXiv},
             primaryClass={cs.CL}
-      }
--
-   title: Choice-75&colon; A Dataset on Decision Branching in Script Learning
-   authors: Zhaoyi Joey Hou, Li Zhang, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2023
-   url: https://arxiv.org/abs/2309.11737
-   page_count: 9
-   id: choice-75-dataset
-   data: 
-   code: 
-   website:
-   abstract: | 
-      Script learning studies how daily events unfold. Previous works tend to consider a script as a linear sequence of events while ignoring the potential branches that arise due to people's circumstantial choices. We hence propose Choice-75, the first benchmark that challenges intelligent systems to predict decisions given descriptive scenarios, containing 75 scripts and more than 600 scenarios. While large language models demonstrate overall decent performances, there is still notable room for improvement in many hard scenarios.
-   bibtex: |
-      @misc{hou2023choice75,
-            title={Choice-75: A Dataset on Decision Branching in Script Learning}, 
-            author={Zhaoyi Joey Hou and Li Zhang and Chris Callison-Burch},
-            year={2023},
-            eprint={2309.11737},
-            archivePrefix={arXiv},
-            primaryClass={cs.AI}
       }
 -
    title: Kani &#129408;&colon; A Lightweight and Highly Hackable Framework for Building Language Model Applications
