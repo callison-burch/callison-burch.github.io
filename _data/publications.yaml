@@ -1,4 +1,28 @@
 -
+   title: Holodeck&colon; Language Guided Generation of 3D Embodied AI Environments
+   authors: Yue Yang, Fan-Yun Sun, Luca Weihs, Eli VanderBilt, Alvaro Herrasti, Winson Han, Jiajun Wu, Nick Haber, Ranjay Krishna, Lingjie Liu, Chris Callison-Burch, Mark Yatskar, Aniruddha Kembhavi, Christopher Clark 
+   venue: CVPR
+   type: conference
+   year: 2024
+   url: https://yueyang1996.github.io/papers/holodeck.pdf
+   page_count: 18
+   id: holodeck
+   data: 
+   code: https://github.com/allenai/Holodeck
+   website: https://yueyang1996.github.io/holodeck/
+   abstract: |
+      3D simulated environments play a critical role in Embodied AI, but their creation requires expertise and extensive manual effort, restricting their diversity and scope. To mitigate this limitation, we present Holodeck, a system that generates 3D environments to match a user-supplied prompt fully automatedly. Holodeck can generate diverse scenes, e.g., arcades, spas, and museums, adjust the designs for styles, and can capture the semantics of complex queries such as "apartment for a researcher with a cat" and "office of a professor who is a fan of Star Wars". Holodeck leverages a large language model (GPT-4) for common sense knowledge about what the scene might look like and uses a large collection of 3D assets from Objaverse to populate the scene with diverse objects. To address the challenge of positioning objects correctly, we prompt GPT-4 to generate spatial relational constraints between objects and then optimize the layout to satisfy those constraints. Our large-scale human evaluation shows that annotators prefer Holodeck over manually designed procedural baselines in residential scenes and that Holodeck can produce high-quality outputs for diverse scene types. We also demonstrate an exciting application of Holodeck in Embodied AI, training agents to navigate in novel scenes like music rooms and daycares without human-constructed data, which is a significant step forward in developing general-purpose embodied agents.
+   bibtex: |
+      @inproceedings{yang-etal-2024-holodeck,
+        title = {Holodeck: Language Guided Generation of 3D Embodied AI Environments},
+        author = {Yue Yang and Fan-Yun Sun and Luca Weihs and Eli VanderBilt and Alvaro Herrasti and Winson Han and Jiajun Wu and Nick Haber and Ranjay Krishna and Lingjie Liu and Chris Callison-Burch and Mark Yatskar and Aniruddha Kembhavi and Christopher Clark },
+        booktitle = {The IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2024)},
+        year = {2024},
+        address = {Seattle, Washington},
+        publisher = "IEEE/CVF",
+        url = {https://yueyang1996.github.io/papers/holodeck.pdf}
+      }
+-
    title: DataDreamer&colon; A Tool for Synthetic Data Generation and Reproducible LLM Workflows
    authors: Ajay Patel, Colin Raffel, Chris Callison-Burch
    venue: arXiv
@@ -9,7 +33,7 @@
    id: datadreamer
    data: 
    code: https://datadreamer.dev/docs/latest/
-   website: 
+   website:  https://datadreamer.dev/docs/latest/
    abstract: | 
       Large language models (LLMs) have become a dominant and important tool for NLP researchers in a wide range of tasks. Today, many researchers use LLMs in synthetic data generation, task evaluation, fine-tuning, distillation, and other model-in-the-loop research workflows. However, challenges arise when using these models that stem from their scale, their closed source nature, and the lack of standardized tooling for these new and emerging workflows. The rapid rise to prominence of these models and these unique challenges has had immediate adverse impacts on open science and on the reproducibility of work that uses them. In this paper, we introduce DataDreamer, an open source Python library that allows researchers to write simple code to implement powerful LLM workflows. DataDreamer also helps researchers adhere to best practices that we propose to encourage open science and reproducibility. The library and documentation are available at this https URL .
    bibtex: |
@@ -18,6 +42,52 @@
             author={Ajay Patel and Colin Raffel and Chris Callison-Burch},
             year={2024},
             eprint={2402.10379},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
+   title: FanOutQA&colon; Multi-Hop, Multi-Document Question Answering for Large Language Models
+   authors: Andrew Zhu, Alyssa Hwang, Liam Dugan, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2402.14116
+   page_count: 
+   id: fanoutqa
+   data: https://github.com/zhudotexe/fanoutqa/tree/main/fanoutqa/data
+   code: https://github.com/zhudotexe/fanoutqa
+   website: https://fanoutqa.com
+   abstract: | 
+      One type of question that is commonly found in day-to-day scenarios is ``fan-out'' questions, complex multi-hop, multi-document reasoning questions that require finding information about a large number of entities. However, there exist few resources to evaluate this type of question-answering capability among large language models. To evaluate complex reasoning in LLMs more fully, we present FanOutQA, a high-quality dataset of fan-out question-answer pairs and human-annotated decompositions with English Wikipedia as the knowledge base. We formulate three benchmark settings across our dataset and benchmark 7 LLMs, including GPT-4, LLaMA 2, Claude-2.1, and Mixtral-8x7B, finding that contemporary models still have room to improve reasoning over inter-document dependencies in a long context. We provide our dataset and open-source tools to run models to encourage evaluation at fanoutqa.com
+   bibtex: |
+      @misc{zhu2024fanoutqa,
+            title={FanOutQA: Multi-Hop, Multi-Document Question Answering for Large Language Models}, 
+            author={Andrew Zhu and Alyssa Hwang and Liam Dugan and Chris Callison-Burch},
+            year={2024},
+            eprint={2402.14116},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL}
+      }
+-
+   title: Calibrating Large Language Models with Sample Consistency
+   authors: Veronica Qing Lyu, Kumar Shridhar, Chaitanya Malaviya, Li Zhang, Yanai Elazar, Niket Tandon, Marianna Apidianaki, Mrinmaya Sachan, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2402.13904
+   page_count: 
+   id: calibrating-llms
+   data: 
+   code: 
+   website: 
+   abstract: | 
+      Accurately gauging the confidence level of Large Language Models' (LLMs) predictions is pivotal for their reliable application. However, LLMs are often uncalibrated inherently and elude conventional calibration techniques due to their proprietary nature and massive scale. In this work, we explore the potential of deriving confidence from the distribution of multiple randomly sampled model generations, via three measures of consistency. We perform an extensive evaluation across various open and closed-source models on nine reasoning datasets. Results show that consistency-based calibration methods outperform existing post-hoc approaches. Meanwhile, we find that factors such as intermediate explanations, model scaling, and larger sample sizes enhance calibration, while instruction-tuning makes calibration more difficult. Moreover, confidence scores obtained from consistency have the potential to enhance model performance. Finally, we offer practical guidance on choosing suitable consistency metrics for calibration, tailored to the characteristics of various LMs.
+   bibtex: |
+      @misc{lyu2024calibrating,
+            title={Calibrating Large Language Models with Sample Consistency}, 
+            author={Qing Lyu and Kumar Shridhar and Chaitanya Malaviya and Li Zhang and Yanai Elazar and Niket Tandon and Marianna Apidianaki and Mrinmaya Sachan and Chris Callison-Burch},
+            year={2024},
+            eprint={2402.13904},
             archivePrefix={arXiv},
             primaryClass={cs.CL}
       }
