@@ -5,7 +5,7 @@
    type: conference
    year: 2024
    url: https://yueyang1996.github.io/papers/holodeck.pdf
-   page_count: 18
+   page_count: 20
    id: holodeck
    data: 
    code: https://github.com/allenai/Holodeck
