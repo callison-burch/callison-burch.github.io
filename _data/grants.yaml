@@ -23,7 +23,7 @@
    url:
    abstract: 
 -
-   title: UNCOVER&colon; Cross-lingual question answering to identifying information differences between English and Russian Wikipedia articles           
+   title: UNCOVER&colon; Cross-lingual question answering to identif information differences between English and Russian Wikipedia articles           
    awarding_body: AFRL
    amount: $150k
    start_date: 2023
@@ -148,7 +148,7 @@
    start_date: 2019
    end_date: 2024
    status: current
-   PI_info: Jeffrey Bigham (CMU) - PI, Chris Callison-Burch (UPenn), Ben Hanrahan (Penn State), Niki Kittur (CMU), Beibei Li (CMU), Amy Ogan (CMU), Amy Pavel (CMU), Saiph Savage (West Virgina University), Julia Ticona (UPenn)
+   PI_info: Jeffrey Bigham (CMU) - PI, Chris Callison-Burch (UPenn), Ben Hanrahan (Penn State), Niki Kittur (CMU), Beibei Li (CMU), Amy Ogan (CMU), Amy Pavel (CMU), Saiph Savage (West Virginia University), Julia Ticona (UPenn)
    url: https://www.nsf.gov/pubs/2018/nsf18548/nsf18548.htm
    abstract: |
       The future of work includes new opportunities for rural and marginalized communities through online work and the gig economy. Many rural areas in the United States are plagued by a lack of economic opportunity. Urban areas may be geographically closer to opportunity, but workers similarly struggle to access it. Digital work can bring opportunities to otherwise marginalized communities; however, work on current platforms is often low-level labeling work offering few opportunities for advancement. It is often intended to train Artificial Intelligence to automate this work away, instead of training workers. Our proposed research instead aims to uplift workers and improve the marketplace for online work.We contend that if thus transformed, digital work may help with the economic recovery of regions whose traditional industries have left. 
