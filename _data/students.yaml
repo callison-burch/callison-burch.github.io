@@ -36,16 +36,6 @@
    homepage: https://ajayp.app
    gender: male
 -
-   name: Alyssa Hwang 
-   coadvisor: Andrew Head
-   degree: PhD Student
-   pic: alyssa_hwang.jpg
-   institution: University of Pennsylvania
-   start_year: 2020
-   expected_graduation_date: Summer 2025
-   homepage: https://alyssahwang.com
-   gender: female
--
    name: Bryan Li
    degree: PhD Student
    pic: bryan_li.jpg
@@ -84,15 +74,6 @@
    expected_graduation_date: Summer 2024
    homepage: https://veronica320.github.io/
    gender: female
--
-   name: Harry Zhang 
-   degree: PhD Student
-   pic: harry_li_zhang.jpg
-   institution: University of Pennsylvania
-   start_year: 2019
-   expected_graduation_date: Summer 2024
-   homepage: http://zharry.com/
-   gender: male
 -
    name: Aditya Kashyap 
    coadvisor: Mary Regina Boland

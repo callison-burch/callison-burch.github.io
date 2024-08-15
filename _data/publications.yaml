@@ -1,4 +1,113 @@
 -
+   title: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
+   authors: Bodhisattwa Prasad Majumder, Bhavana Dalvi Mishra, Peter Jansen, Oyvind Tafjord, Niket Tandon, Li Zhang, Chris Callison-Burch, Peter Clark
+   venue: COLM
+   type: conference
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/faithful-model-explanations-survey.pdf
+   page_count: 23
+   id: clin-continual-learning-from-interactions
+   data: 
+   code: 
+   website:  https://allenai.github.io/clin/
+   abstract: | 
+      Language agents have shown some ability to interact with an external environment, e.g., a virtual world such as ScienceWorld, to perform complex tasks, e.g., growing a plant, without the startup costs of reinforcement learning. While recent work, e.g., Reflexion, has demonstrated how such agents can also self-improve by adding a textual memory of “hints” learned from prior experience, such improvements have been limited both in size and scope. In contrast, our goal is a language agent that can robustly improve performance over time, including when both the task and environment are varied. Our approach is to have the agent learn a textual representation of how the world works (rather than just isolated hints), expressed as a memory of causal abstractions, to guide future decision-making. In experiments, we find CLIN is able to continually improve on repeated trials on the same task and environment, outperforming state-of-the-art reflective language agents like Reflexion by 23 points in ScienceWorld and 1.4 points in ALFWorld benchmarks. CLIN can also transfer its learning to new environments and tasks, enhancing performance by 21 points in ScienceWorld and 11 points in ALFWorld. This suggests that language agents with a textual causal memory can play a significant role in interactive environments, including being able to rapidly improve over time.
+   bibtex: |
+      @inproceedings{clin-continual-learning-from-interactions,
+        title = {{CLIN}: A Continually Learning Language Agent for Rapid Task Adaptation and Generalization},
+        author = {Majumder, Bodhisattwa Prasad and Dalvi Mishra, Bhavana and Jansen, Peter and Tafjord, Oyvind and Tandon, Niket and Zhang, Li and Callison-Burch, Chris and Clark, Peter},
+        booktitle = {Conference on Language Modeling ({COLM})},
+        year = {2024},
+        url = {https://www.cis.upenn.edu/~ccb/publications/faithful-model-explanations-survey.pdf},
+        address = {Philadelphia, PA},
+        month = {October}
+      }
+-
+   title: DataDreamer&colon; A Tool for Synthetic Data Generation and Reproducible LLM Workflows
+   authors: Ajay Patel, Colin Raffel, Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2024
+   url: https://arxiv.org/abs/2402.10379
+   page_count: 29
+   id: datadreamer
+   data: 
+   code: https://datadreamer.dev/docs/latest/
+   website:  https://datadreamer.dev/docs/latest/
+   abstract: | 
+      Large language models (LLMs) have become a dominant and important tool for NLP researchers in a wide range of tasks. Today, many researchers use LLMs in synthetic data generation, task evaluation, fine-tuning, distillation, and other model-in-the-loop research workflows. However, challenges arise when using these models that stem from their scale, their closed source nature, and the lack of standardized tooling for these new and emerging workflows. The rapid rise to prominence of these models and these unique challenges has had immediate adverse impacts on open science and on the reproducibility of work that uses them. In this paper, we introduce DataDreamer, an open source Python library that allows researchers to write simple code to implement powerful LLM workflows. DataDreamer also helps researchers adhere to best practices that we propose to encourage open science and reproducibility. The library and documentation are available at this https URL .
+   bibtex: |
+      @inproceedings{patel2024datadreamer,
+          title={{DataDreamer}: A Tool for Synthetic Data Generation and Reproducible LLM Workflows},
+          author={Ajay Patel and Colin Raffel and Chris Callison-Burch},
+          booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)},
+          year={2024},
+          address={Bangkok, Thailand},
+          month={August 11--16},
+          eprint={2402.10379},
+          archivePrefix={arXiv},
+          primaryClass={cs.CL}
+      }
+-
+   title: FanOutQA&colon; Multi-Hop, Multi-Document Question Answering for Large Language Models
+   authors: Andrew Zhu, Alyssa Hwang, Liam Dugan, Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2024
+   url: https://arxiv.org/abs/2402.14116
+   page_count: 18
+   id: fanoutqa
+   data: https://github.com/zhudotexe/fanoutqa/tree/main/fanoutqa/data
+   code: https://github.com/zhudotexe/fanoutqa
+   website: https://fanoutqa.com
+   abstract: | 
+      One type of question that is commonly found in day-to-day scenarios is ``fan-out'' questions, complex multi-hop, multi-document reasoning questions that require finding information about a large number of entities. However, there exist few resources to evaluate this type of question-answering capability among large language models. To evaluate complex reasoning in LLMs more fully, we present FanOutQA, a high-quality dataset of fan-out question-answer pairs and human-annotated decompositions with English Wikipedia as the knowledge base. We formulate three benchmark settings across our dataset and benchmark 7 LLMs, including GPT-4, LLaMA 2, Claude-2.1, and Mixtral-8x7B, finding that contemporary models still have room to improve reasoning over inter-document dependencies in a long context. We provide our dataset and open-source tools to run models to encourage evaluation at fanoutqa.com
+   bibtex: |
+      @inproceedings{zhu2024fanoutqa,
+          title={{FanOutQA}: Multi-Hop, Multi-Document Question Answering for Large Language Models},
+          author={Andrew Zhu and Alyssa Hwang and Liam Dugan and Chris Callison-Burch},
+          booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)},
+          year={2024},
+          address={Bangkok, Thailand},
+          month={August 11--16},
+          eprint={2402.14116},
+          archivePrefix={arXiv},
+          primaryClass={cs.CL}
+      }
+-
+   title: RAID&colon; A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors
+   authors: Liam Dugan, Alyssa Hwang, Filip Trhlik, Josh Magnus Ludan, Andrew Zhu, Hainiu Xu, Daphne Ippolito, and Chris Callison-Burch
+   venue: ACL
+   type: conference
+   year: 2024
+   url: https://arxiv.org/abs/2405.07940
+   page_count: 26
+   id: raid-dataset
+   data: 
+   code: 
+   website: 
+   abstract: | 
+      Many commercial and open-source models claim to detect machine-generated text with very high accuracy (99\% or higher). However, very few of these detectors are evaluated on shared benchmark datasets and even when they are, the datasets used for evaluation are insufficiently challenging -- lacking variations in sampling strategy, adversarial attacks, and open-source generative models. In this work we present RAID: the largest and most challenging benchmark dataset for machine-generated text detection. RAID includes over 6 million generations spanning 11 models, 8 domains, 11 adversarial attacks and 4 decoding strategies. Using RAID, we evaluate the out-of-domain and adversarial robustness of 8 open- and 4 closed-source detectors and find that current detectors are easily fooled by adversarial attacks, variations in sampling strategies, repetition penalties, and unseen generative models. We release our dataset and tools to encourage further exploration into detector robustness.
+   bibtex: |
+      @inproceedings{dugan2024raid,
+          title={{RAID}: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors},
+          author={Liam Dugan and Alyssa Hwang and Filip Trhlik and Josh Magnus Ludan and Andrew Zhu and Hainiu Xu and Daphne Ippolito and Chris Callison-Burch},
+          booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)},
+          year={2024},
+          address={Bangkok, Thailand},
+          month={August 11--16},
+          eprint={2405.07940},
+          archivePrefix={arXiv},
+          primaryClass={cs.CL}
+      }
+   press: 
+    - 
+      title: Detecting Machine-Generated Text&colon; An Arms Race With the Advancements of Large Language Models
+      source: Penn Engineering Today
+      by_line: Melissa Pappas
+      date: August 12, 2024
+      url: https://blog.seas.upenn.edu/detecting-machine-generated-text-an-arms-race-with-the-advancements-of-large-language-models/
+-
    title: Holodeck&colon; Language Guided Generation of 3D Embodied AI Environments
    authors: Yue Yang, Fan-Yun Sun, Luca Weihs, Eli VanderBilt, Alvaro Herrasti, Winson Han, Jiajun Wu, Nick Haber, Ranjay Krishna, Lingjie Liu, Chris Callison-Burch, Mark Yatskar, Aniruddha Kembhavi, Christopher Clark 
    venue: CVPR
@@ -22,51 +131,233 @@
         publisher = "IEEE/CVF",
         url = {https://yueyang1996.github.io/papers/holodeck.pdf}
       }
+   press: 
+    - 
+      title: Recreating ‘Star Trek’ Virtual Environments&colon; Holodeck generates a virtually limitless range of indoor environments, using AI to interpret users’ requests.
+      source: Tech Briefs
+      date: June 11, 2024
+      url: https://www.techbriefs.com/component/content/article/50943-recreating-star-trek-virtual-environments
 -
-   title: DataDreamer&colon; A Tool for Synthetic Data Generation and Reproducible LLM Workflows
-   authors: Ajay Patel, Colin Raffel, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
+   title: CoMo&colon; Controllable Motion Generation through Language Guided Pose Code Editing
+   authors: Yiming Huang, Weilin Wan, Yue Yang, Chris Callison-Burch, Mark Yatskar, Lingjie Liu
+   venue: ECCV
+   type: conference
    year: 2024
-   url: https://arxiv.org/abs/2402.10379
-   page_count: 29
-   id: datadreamer
+   url: https://arxiv.org/abs/2403.13900
+   page_count: 27
+   id: controllable-motion-generation
    data: 
-   code: https://datadreamer.dev/docs/latest/
-   website:  https://datadreamer.dev/docs/latest/
-   abstract: | 
-      Large language models (LLMs) have become a dominant and important tool for NLP researchers in a wide range of tasks. Today, many researchers use LLMs in synthetic data generation, task evaluation, fine-tuning, distillation, and other model-in-the-loop research workflows. However, challenges arise when using these models that stem from their scale, their closed source nature, and the lack of standardized tooling for these new and emerging workflows. The rapid rise to prominence of these models and these unique challenges has had immediate adverse impacts on open science and on the reproducibility of work that uses them. In this paper, we introduce DataDreamer, an open source Python library that allows researchers to write simple code to implement powerful LLM workflows. DataDreamer also helps researchers adhere to best practices that we propose to encourage open science and reproducibility. The library and documentation are available at this https URL .
+   code: 
+   website: https://yh2371.github.io/como/
+   abstract: |
+      Text-to-motion models excel at efficient human motion generation, but existing approaches lack fine-grained controllability over the generation process. Consequently, modifying subtle postures within a motion or inserting new actions at specific moments remains a challenge, limiting the applicability of these methods in diverse scenarios. In light of these challenges, we introduce CoMo, a Controllable Motion generation model, adept at accurately generating and editing motions by leveraging the knowledge priors of large language models (LLMs). Specifically, CoMo decomposes motions into discrete and semantically meaningful pose codes, with each code encapsulating the semantics of a body part, representing elementary information such as "left knee slightly bent". Given textual inputs, CoMo autoregressively generates sequences of pose codes, which are then decoded into 3D motions. Leveraging pose codes as interpretable representations, an LLM can directly intervene in motion editing by adjusting the pose codes according to editing instructions. Experiments demonstrate that CoMo achieves competitive performance in motion generation compared to state-of-the-art models while, in human studies, CoMo substantially surpasses previous work in motion editing abilities.
    bibtex: |
-      @misc{patel2024datadreamer,
-            title={DataDreamer: A Tool for Synthetic Data Generation and Reproducible LLM Workflows}, 
-            author={Ajay Patel and Colin Raffel and Chris Callison-Burch},
+      @inproceedings{huang2024comocontrollablemotiongeneration,
+            title={{CoMo}: Controllable Motion Generation through Language Guided Pose Code Editing}, 
+            author={Yiming Huang and Weilin Wan and Yue Yang and Chris Callison-Burch and Mark Yatskar and Lingjie Liu},
+            booktitle={Proceedings of the 18th European Conference on Computer Vision (ECCV 2024)},
             year={2024},
-            eprint={2402.10379},
+            month={September},
+            address={Milan, Italy},
+            eprint={2403.13900},
             archivePrefix={arXiv},
-            primaryClass={cs.CL}
+            primaryClass={cs.CV},
+            url={https://arxiv.org/abs/2403.13900}, 
       }
 -
-   title: FanOutQA&colon; Multi-Hop, Multi-Document Question Answering for Large Language Models
-   authors: Andrew Zhu, Alyssa Hwang, Liam Dugan, Chris Callison-Burch
+   title: ReDel&colon; A Toolkit for LLM-Powered Recursive Multi-Agent Systems
+   authors: Andrew Zhu, Liam Dugan, Chris Callison-Burch
    venue: arXiv
    type: preprint
    year: 2024
-   url: https://arxiv.org/abs/2402.14116
+   url: https://arxiv.org/abs/2408.02248
    page_count: 
-   id: fanoutqa
-   data: https://github.com/zhudotexe/fanoutqa/tree/main/fanoutqa/data
-   code: https://github.com/zhudotexe/fanoutqa
-   website: https://fanoutqa.com
-   abstract: | 
-      One type of question that is commonly found in day-to-day scenarios is ``fan-out'' questions, complex multi-hop, multi-document reasoning questions that require finding information about a large number of entities. However, there exist few resources to evaluate this type of question-answering capability among large language models. To evaluate complex reasoning in LLMs more fully, we present FanOutQA, a high-quality dataset of fan-out question-answer pairs and human-annotated decompositions with English Wikipedia as the knowledge base. We formulate three benchmark settings across our dataset and benchmark 7 LLMs, including GPT-4, LLaMA 2, Claude-2.1, and Mixtral-8x7B, finding that contemporary models still have room to improve reasoning over inter-document dependencies in a long context. We provide our dataset and open-source tools to run models to encourage evaluation at fanoutqa.com
+   id: recursive-multi-agent-llms
+   data: https://datasets.mechanus.zhu.codes/redel-dist.zip
+   code: https://github.com/zhudotexe/redel
+   website: 
+   abstract: |
+      Recently, there has been increasing interest in using Large Language Models (LLMs) to construct complex multi-agent systems to perform tasks such as compiling literature reviews, drafting consumer reports, and planning vacations. Many tools and libraries exist for helping create such systems, however none support recursive multi-agent systems -- where the models themselves flexibly decide when to delegate tasks and how to organize their delegation structure. In this work, we introduce ReDel: a toolkit for recursive multi-agent systems that supports custom tool-use, delegation schemes, event-based logging, and interactive replay in an easy-to-use web interface. We show that, using ReDel, we are able to achieve significant performance gains on agentic benchmarks and easily identify potential areas of improvements through the visualization and debugging tools. Our code, documentation, and PyPI package are open-source and free to use under the MIT license.
    bibtex: |
-      @misc{zhu2024fanoutqa,
-            title={FanOutQA: Multi-Hop, Multi-Document Question Answering for Large Language Models}, 
-            author={Andrew Zhu and Alyssa Hwang and Liam Dugan and Chris Callison-Burch},
+      @misc{zhu2024redeltoolkitllmpoweredrecursive,
+            title={{ReDel}: A Toolkit for LLM-Powered Recursive Multi-Agent Systems}, 
+            author={Andrew Zhu and Liam Dugan and Chris Callison-Burch},
             year={2024},
-            eprint={2402.14116},
+            eprint={2408.02248},
             archivePrefix={arXiv},
-            primaryClass={cs.CL}
+            primaryClass={cs.CL},
+            url={https://arxiv.org/abs/2408.02248}, 
+      }
+-
+   title: A Textbook Remedy for Domain Shifts&colon; Knowledge Priors for Medical Image Analysis
+   authors: Yue Yang, Mona Gandhi, Yufei Wang, Yifan Wu, Michael S. Yao, Chris Callison-Burch, James C. Gee, Mark Yatskar
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2405.14839
+   page_count: 
+   id: knowledge-priors-for-medical-images
+   data: 
+   code: 
+   website:
+   abstract: |
+      While deep networks have achieved broad success in analyzing natural images, when applied to medical scans, they often fail in unexcepted situations. We investigate this challenge and focus on model sensitivity to domain shifts, such as data sampled from different hospitals or data confounded by demographic variables such as sex, race, etc, in the context of chest X-rays and skin lesion images. A key finding we show empirically is that existing visual backbones lack an appropriate prior from the architecture for reliable generalization in these settings. Taking inspiration from medical training, we propose giving deep networks a prior grounded in explicit medical knowledge communicated in natural language. To this end, we introduce Knowledge-enhanced Bottlenecks (KnoBo), a class of concept bottleneck models that incorporates knowledge priors that constrain it to reason with clinically relevant factors found in medical textbooks or PubMed. KnoBo uses retrieval-augmented language models to design an appropriate concept space paired with an automatic training procedure for recognizing the concept. We evaluate different resources of knowledge and recognition architectures on a broad range of domain shifts across 20 datasets. In our comprehensive evaluation with two imaging modalities, KnoBo outperforms fine-tuned models on confounded datasets by 32.4% on average. Finally, evaluations reveal that PubMed is a promising resource for making medical models less sensitive to domain shift, outperforming other resources on both diversity of information and final prediction performance.
+   bibtex: |
+      @misc{yang2024textbookremedydomainshifts,
+            title={A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis}, 
+            author={Yue Yang and Mona Gandhi and Yufei Wang and Yifan Wu and Michael S. Yao and Chris Callison-Burch and James C. Gee and Mark Yatskar},
+            year={2024},
+            eprint={2405.14839},
+            archivePrefix={arXiv},
+            primaryClass={cs.CV},
+            url={https://arxiv.org/abs/2405.14839}, 
+      }
+-
+   title: Evaluating Vision-Language Models on Bistable Images
+   authors: Artemis Panagopoulou, Coby Melkin, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2405.19793
+   page_count: 
+   id: bistable-images-with-vlms
+   data: 
+   code: 
+   website:
+   abstract: |
+      Bistable images, also known as ambiguous or reversible images, present visual stimuli that can be seen in two distinct interpretations, though not simultaneously by the observer. In this study, we conduct the most extensive examination of vision-language models using bistable images to date. We manually gathered a dataset of 29 bistable images, along with their associated labels, and subjected them to 116 different manipulations in brightness, tint, and rotation. We evaluated twelve different models in both classification and generative tasks across six model architectures. Our findings reveal that, with the exception of models from the Idefics family and LLaVA1.5-13b, there is a pronounced preference for one interpretation over another among the models, and minimal variance under image manipulations, with few exceptions on image rotations. Additionally, we compared the model preferences with humans, noting that the models do not exhibit the same continuity biases as humans and often diverge from human initial interpretations. We also investigated the influence of variations in prompts and the use of synonymous labels, discovering that these factors significantly affect model interpretations more than image manipulations showing a higher influence of the language priors on bistable image interpretations compared to image-text training data. All code and data is open sourced.
+   bibtex: |
+      @misc{panagopoulou2024evaluatingvisionlanguagemodelsbistable,
+            title={Evaluating Vision-Language Models on Bistable Images}, 
+            author={Artemis Panagopoulou and Coby Melkin and Chris Callison-Burch},
+            year={2024},
+            eprint={2405.19423},
+            archivePrefix={arXiv},
+            primaryClass={cs.CV},
+            url={https://arxiv.org/abs/2405.19423}, 
+      }
+-
+   title: PROC2PDDL&colon; Open-Domain Planning Representations from Texts
+   authors: Tianyi Zhang, Harry Li Zhang, Zhaoyi Hou, Ziyu Wang, Yuling Gu, Peter Clark, Chris Callison-Burch, Niket Tandon
+   venue: Natural Language Reasoning and Structured Explanations Workshop
+   type: workshop
+   year: 2024
+   url: https://arxiv.org/abs/2403.00092
+   page_count: 
+   id: proc2pddl
+   data: 
+   code: 
+   website:
+   abstract: |
+      Planning in a text-based environment continues to be a major challenge for AI systems. Recent approaches have used language models to predict a planning domain definition (e.g., PDDL) but have only been evaluated in closed-domain simulated environments. To address this, we present Proc2PDDL , the first dataset containing open-domain procedural texts paired with expert-annotated PDDL representations. Using this dataset, we evaluate state-of-the-art models on defining the preconditions and effects of actions. We show that Proc2PDDL is highly challenging, with GPT-3.5's success rate close to 0% and GPT-4's around 35%. Our analysis shows both syntactic and semantic errors, indicating LMs' deficiency in both generating domain-specific prgorams and reasoning about events. We hope this analysis and dataset helps future progress towards integrating the best of LMs and formal planning.
+   bibtex: |
+      @inproceedings{zhang2024proc2pddlopendomainplanningrepresentations,
+            title={{PROC2PDDL}: Open-Domain Planning Representations from Texts}, 
+            author={Tianyi Zhang and Li Zhang and Zhaoyi Hou and Ziyu Wang and Yuling Gu and Peter Clark and Chris Callison-Burch and Niket Tandon},
+            booktitle={Proceedings of the Natural Language Reasoning and Structured Explanations Workshop at the 62nd Annual Meeting of the Association for Computational Linguistics (ACL 2024)},
+            year={2024},
+            month={August},
+            address={Bangkok, Thailand},
+            eprint={2403.00092},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL},
+            url={https://arxiv.org/abs/2403.00092}, 
+      }
+-
+   title: PDDLEGO&colon; Iterative Planning in Textual Environments
+   authors: Harry Li Zhang, Peter Jansen, Tianyi Zhang, Peter Clark, Chris Callison-Burch, Niket Tandon
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2405.19793
+   page_count: 
+   id: pddlego
+   data: 
+   code: 
+   website:
+   abstract: |
+      Planning in textual environments have been shown to be a long-standing challenge even for current models. A recent, promising line of work uses LLMs to generate a formal representation of the environment that can be solved by a symbolic planner. However, existing methods rely on a fully-observed environment where all entity states are initially known, so a one-off representation can be constructed, leading to a complete plan. In contrast, we tackle partially-observed environments where there is initially no sufficient information to plan for the end-goal. We propose PDDLEGO that iteratively construct a planning representation that can lead to a partial plan for a given sub-goal. By accomplishing the sub-goal, more information is acquired to augment the representation, eventually achieving the end-goal. We show that plans produced by few-shot PDDLEGO are 43% more efficient than generating plans end-to-end on the Coin Collector simulation, with strong performance (98%) on the more complex Cooking World simulation where end-to-end LLMs fail to generate coherent plans (4%).
+   bibtex: |
+      @misc{zhang2024pddlegoiterativeplanningtextual,
+            title={{PDDLEGO}: Iterative Planning in Textual Environments}, 
+            author={Li Zhang and Peter Jansen and Tianyi Zhang and Peter Clark and Chris Callison-Burch and Niket Tandon},
+            year={2024},
+            eprint={2405.19793},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL},
+            url={https://arxiv.org/abs/2405.19793}, 
+      }
+-
+   title: PaCE&colon; Parsimonious Concept Engineering for Large Language Models
+   authors: Jinqi Luo, Tianjiao Ding, Kwan Ho Ryan Chan, Darshan Thaker, Aditya Chattopadhyay, Chris Callison-Burch, René Vidal
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2406.04331
+   page_count: 
+   id: parsimonious-concept-engineering
+   data: 
+   code: 
+   website:
+   abstract: |
+      Large Language Models (LLMs) are being used for a wide variety of tasks. While they are capable of generating human-like responses, they can also produce undesirable output including potentially harmful information, racist or sexist language, and hallucinations. Alignment methods are designed to reduce such undesirable output, via techniques such as fine-tuning, prompt engineering, and representation engineering. However, existing methods face several challenges: some require costly fine-tuning for every alignment task; some do not adequately remove undesirable concepts, failing alignment; some remove benign concepts, lowering the linguistic capabilities of LLMs. To address these issues, we propose Parsimonious Concept Engineering (PaCE), a novel activation engineering framework for alignment. First, to sufficiently model the concepts, we construct a large-scale concept dictionary in the activation space, in which each atom corresponds to a semantic concept. Then, given any alignment task, we instruct a concept partitioner to efficiently annotate the concepts as benign or undesirable. Finally, at inference time, we decompose the LLM activations along the concept dictionary via sparse coding, to accurately represent the activation as a linear combination of the benign and undesirable components. By removing the latter ones from the activation, we reorient the behavior of LLMs towards alignment goals. We conduct experiments on tasks such as response detoxification, faithfulness enhancement, and sentiment revising, and show that PaCE achieves state-of-the-art alignment performance while maintaining linguistic capabilities.
+   bibtex: |
+      @misc{luo2024paceparsimoniousconceptengineering,
+            title={{PaCE}: Parsimonious Concept Engineering for Large Language Models}, 
+            author={Jinqi Luo and Tianjiao Ding and Kwan Ho Ryan Chan and Darshan Thaker and Aditya Chattopadhyay and Chris Callison-Burch and René Vidal},
+            year={2024},
+            eprint={2406.04331},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL},
+            url={https://arxiv.org/abs/2406.04331}, 
+      }
+-
+   title: Large Language Models Can Self-Improve At Web Agent Tasks
+   authors: Ajay Patel, Markus Hofmarcher, Claudiu Leoveanu-Condrei, Marius-Constantin Dinu, Chris Callison-Burch, Sepp Hochreiter
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2405.20309
+   page_count: 
+   id: llm-web-agents
+   data: 
+   code: 
+   website:
+   abstract: |
+      Training models to act as agents that can effectively navigate and perform actions in a complex environment, such as a web browser, has typically been challenging due to lack of training data. Large language models (LLMs) have recently demonstrated some capability to navigate novel environments as agents in a zero-shot or few-shot fashion, purely guided by natural language instructions as prompts. Recent research has also demonstrated LLMs have the capability to exceed their base performance through self-improvement, i.e. fine-tuning on data generated by the model itself. In this work, we explore the extent to which LLMs can self-improve their performance as agents in long-horizon tasks in a complex environment using the WebArena benchmark. In WebArena, an agent must autonomously navigate and perform actions on web pages to achieve a specified objective. We explore fine-tuning on three distinct synthetic training data mixtures and achieve a 31\% improvement in task completion rate over the base model on the WebArena benchmark through a self-improvement procedure. We additionally contribute novel evaluation metrics for assessing the performance, robustness, capabilities, and quality of trajectories of our fine-tuned agent models to a greater degree than simple, aggregate-level benchmark scores currently used to measure self-improvement.
+   bibtex: |
+      @misc{patel2024largelanguagemodelsselfimprove,
+            title={Large Language Models Can Self-Improve At Web Agent Tasks}, 
+            author={Ajay Patel and Markus Hofmarcher and Claudiu Leoveanu-Condrei and Marius-Constantin Dinu and Chris Callison-Burch and Sepp Hochreiter},
+            year={2024},
+            eprint={2405.20309},
+            archivePrefix={arXiv},
+            primaryClass={cs.LG},
+            url={https://arxiv.org/abs/2405.20309}, 
+      }
+-
+   title: TinyStyler&colon; Efficient Few-Shot Text Style Transfer with Authorship Embeddings
+   authors: Zachary Horvitz, Ajay Patel, Kanishk Singh, Chris Callison-Burch, Kathleen McKeown, Zhou Yu
+   venue: arXiv
+   type: preprint
+   year: 2024
+   url: https://arxiv.org/abs/2406.15586
+   page_count: 
+   id: tinystyler
+   data: 
+   code: 
+   website: https://huggingface.co/tinystyler/tinystyler
+   abstract: |
+      The goal of text style transfer is to transform the style of texts while preserving their original meaning, often with only a few examples of the target style. Existing style transfer methods generally rely on the few-shot capabilities of large language models or on complex controllable text generation approaches that are inefficient and underperform on fluency metrics. We introduce TinyStyler, a lightweight but effective approach, which leverages a small language model (800M params) and pre-trained authorship embeddings to perform efficient, few-shot text style transfer. We evaluate on the challenging task of authorship style transfer and find TinyStyler outperforms strong approaches such as GPT-4. We also evaluate TinyStyler's ability to perform text attribute style transfer (formal ↔ informal) with automatic and human evaluations and find that the approach outperforms recent controllable text generation methods. 
+   bibtex: |
+      @misc{horvitz2024tinystylerefficientfewshottext,
+            title={TinyStyler: Efficient Few-Shot Text Style Transfer with Authorship Embeddings}, 
+            author={Zachary Horvitz and Ajay Patel and Kanishk Singh and Chris Callison-Burch and Kathleen McKeown and Zhou Yu},
+            year={2024},
+            eprint={2406.15586},
+            archivePrefix={arXiv},
+            primaryClass={cs.CL},
+            url={https://arxiv.org/abs/2406.15586}, 
       }
 -
    title: Calibrating Large Language Models with Sample Consistency
@@ -80,7 +371,7 @@
    data: 
    code: 
    website: 
-   abstract: | 
+   abstract: |
       Accurately gauging the confidence level of Large Language Models' (LLMs) predictions is pivotal for their reliable application. However, LLMs are often uncalibrated inherently and elude conventional calibration techniques due to their proprietary nature and massive scale. In this work, we explore the potential of deriving confidence from the distribution of multiple randomly sampled model generations, via three measures of consistency. We perform an extensive evaluation across various open and closed-source models on nine reasoning datasets. Results show that consistency-based calibration methods outperform existing post-hoc approaches. Meanwhile, we find that factors such as intermediate explanations, model scaling, and larger sample sizes enhance calibration, while instruction-tuning makes calibration more difficult. Moreover, confidence scores obtained from consistency have the potential to enhance model performance. Finally, we offer practical guidance on choosing suitable consistency metrics for calibration, tailored to the characteristics of various LMs.
    bibtex: |
       @misc{lyu2024calibrating,
@@ -103,7 +394,7 @@
    data: 
    code: 
    website:
-   abstract: | 
+   abstract: |
       Script learning studies how daily events unfold. Previous works tend to consider a script as a linear sequence of events while ignoring the potential branches that arise due to people's circumstantial choices. We hence propose Choice-75, the first benchmark that challenges intelligent systems to predict decisions given descriptive scenarios, containing 75 scripts and more than 600 scenarios. While large language models demonstrate overall decent performances, there is still notable room for improvement in many hard scenarios.
    bibtex: |
       @inproceedings{hou2024choice75,
@@ -121,7 +412,7 @@
    venue: Computational Linguistics
    type: journal
    year: 2024
-   url: https://www.cis.upenn.edu/~ccb/publications/faithful-model-explanations-survey
+   url: https://www.cis.upenn.edu/~ccb/publications/faithful-model-explanations-survey.pdf
    page_count: 65
    id: faithful-model-explanations-survey
    figures:
@@ -139,9 +430,10 @@
          title =   {Towards Faithful Model Explanation in {NLP}: A Survey},
          journal = {Computational Linguistics},
          year =    {2024},
-         volume = {XXX},
-         number = {XXX},
-         pages = {XXX}
+         volume = {50},
+         number = {2},
+         pages = {657–723},
+         url = {https://doi.org/10.1162/coli_a_00511}
        }
 -
    title: ParaGuide&colon; Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer
@@ -241,6 +533,31 @@
         year = {2023},
         url = {https://www.cis.upenn.edu/~ccb/publications/understanding-generative-AI-and-its-relationship-to-copyright.pdf},
         note = {Comment}
+      }
+-
+   title: The Gender Wage Gap in an Online Labor Market&colon; The Cost of Interruptions 
+   authors: Abi Adams-Prassl,  Kotaro Hara,  Kristy Milland,  Chris Callison-Burch
+   venue: The Review of Economics and Statistics 
+   type: journal
+   year: 2023
+   url: https://doi.org/10.1162/rest_a_01282
+   page_count: 23
+   id: gender-wage-gap-on-mturk
+   abstract: |
+      This paper analyzes gender differences in working patterns and wages on Amazon Mechanical Turk, a popular online labor platform. Using information on 2 million tasks, we find no gender differences in task selection nor experience. Nonetheless, women earn 20% less per hour on average. Gender differences in working patterns are a significant driver of this wage gap. Women are more likely to interrupt their working time on the platform with consequences for their task completion speed. A follow-up survey shows that the gender differences in working patterns and hourly wages are concentrated amongst workers with children.
+   bibtex: |
+      @article{10.1162/rest_a_01282,
+          author = {Adams-Prassl, Abi and Hara, Kotaro and Milland, Kristy and Callison-Burch, Chris},
+          title = {The Gender Wage Gap in an Online Labor Market: The Cost of Interruptions},
+          journal = {The Review of Economics and Statistics},
+          pages = {1-23},
+          year = {2023},
+          month = {02},
+          abstract = {This paper analyses gender differences in working patterns and wages on Amazon Mechanical Turk, a popular online labour platform. Using information on 2 million tasks, we find no gender differences in task selection nor experience. Nonetheless, women earn 20\\% less per hour on average. Gender differences in working patterns are a significant driver of this wage gap. Women are more likely to interrupt their working time on the platform with consequences for their task completion speed. A follow-up survey shows that the gender differences in working patterns and hourly wages are concentrated amongst workers with children.},
+          issn = {0034-6535},
+          doi = {10.1162/rest_a_01282},
+          url = {https://doi.org/10.1162/rest\_a\_01282},
+          eprint = {https://direct.mit.edu/rest/article-pdf/doi/10.1162/rest\_a\_01282/2070066/rest\_a\_01282.pdf}
       }
 -
    title: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
@@ -343,8 +660,8 @@
    url:  https://www.cis.upenn.edu/~ccb/publications/interpretable-style-embeddings.pdf
    page_count: 21
    id: interpretable-style-embeddings
-   data: 
-   code: 
+   data: https://ajayp.app/posts/2023/11/learning-interpretable-embeddings-via-llms/
+   code: https://ajayp.app/posts/2023/11/learning-interpretable-embeddings-via-llms/
    website:
    abstract: | 
       Style representation learning builds content independent representations of author style in text. To date, no large dataset of texts with stylometric annotations on a wide range of style dimensions has been compiled, perhaps because the linguistic expertise to perform such annotation would be prohibitively expensive. Therefore, current style representation approaches make use of unsupervised neural methods to disentangle style from content to create style vectors. These approaches, however, result in uninterpretable representations, complicating their usage in downstream applications like authorship attribution where auditing and explainability is critical. In this work, we use prompting to perform stylometry on a large number of texts to generate a synthetic stylometry dataset. We use this synthetic data to then train human interpretable style representations we call LISA embeddings. We release our synthetic dataset (STYLEGENOME) and our interpretable style embedding model (LISA) as resources.
