@@ -1,9 +1,44 @@
 -
+   title: Research Practicum
+   number: CIS 8000
+   institution: University of Pennsylvania
+   term: Fall
+   year: 2024
+   description: 
+   url: 
+   enrollment:
+   instructor_rating:
+   course_rating:
+   voluntary_overload: True
+-
+   title: Artificial Intelligence
+   number: CIS 4210/5210 - on campus
+   institution: University of Pennsylvania
+   term: Fall
+   year: 2024
+   description: 
+   url: 
+   enrollment:
+   instructor_rating:
+   course_rating:
+-
+   title: Artificial Intelligence
+   number: CIS 5210 - Penn Engineering Online
+   institution: University of Pennsylvania
+   term: Fall
+   year: 2024
+   description: 
+   url: 
+   enrollment:
+   instructor_rating:
+   course_rating:
+   online_degree: True
+-
    title: Interactive Fiction and Text Generation
    number: CIS 7000
    institution: University of Pennsylvania
    term: Spring
-   year: 2022
+   year: 2024
    url: http://interactive-fiction-class.org
    enrollment: 53
    instructor_rating: 3.70
