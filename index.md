@@ -34,9 +34,22 @@ I'm going up for promotion to Full Professor this year.  If you'd like to see my
 <ol>
     {% assign recent_talks = site.data.talks | slice:0,12 %}
     {% for talk in recent_talks %}
-      {% if site.data.talks %}
+      {% if talk.url %}
         <li> <a href="{{talk.url}}">{{ talk.venue }}. {{talk.title}}</a>. {{talk.date}} </li>
       {% endif %}
   {% endfor %}
+</ol>
+
+
+<b>Recent Press</b>
+
+<ol>
+    {% assign recent_press = site.data.press | slice: 0, 6 %}
+    {% for press in recent_press %}
+        {% if press.url %}
+            <li>
+                 <a href="{{ press.url }}">{{ press.source }}."{{ press.title }}" by {{ press.by_line }}.</a>  {{ press.date }} </li>
+        {% endif %}
+    {% endfor %}
 </ol>
 
