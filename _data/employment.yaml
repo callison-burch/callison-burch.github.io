@@ -1,9 +1,15 @@
 -
+   position: Professor
+   employer: University of Pennsylvania
+   location: Philadelphia, PA
+   start_date: July 2024
+   end_date: present
+-
    position: Part-time Visiting Research Scientist
    employer: Allen Institute for Artificial Intelligence (AI2)
    location: Seattle, WA
    start_date: September 2023
-   end_date: 
+   end_date: August 2024
    description: 20% appointment
 -
    position: Visiting Research Scientist
@@ -17,7 +23,7 @@
    employer: University of Pennsylvania
    location: Philadelphia, PA
    start_date: June 2017
-   end_date: present
+   end_date: July 2024
    description: Faculty member in the Computer and Information Sciences Department
 -
    position: Part-time Visiting Researcher
