@@ -28,7 +28,7 @@
    amount: $150k
    start_date: 2023
    end_date: 2024
-   status: current
+   status: past
    PI_info: Chris Callison-Burch - PI, Marianna Apidianaki - co-PI
    url:
    abstract: 
@@ -147,7 +147,7 @@
    amount: $3m (Penn's portion is $375k)
    start_date: 2019
    end_date: 2024
-   status: current
+   status: past
    PI_info: Jeffrey Bigham (CMU) - PI, Chris Callison-Burch (UPenn), Ben Hanrahan (Penn State), Niki Kittur (CMU), Beibei Li (CMU), Amy Ogan (CMU), Amy Pavel (CMU), Saiph Savage (West Virginia University), Julia Ticona (UPenn)
    url: https://www.nsf.gov/pubs/2018/nsf18548/nsf18548.htm
    abstract: |
@@ -171,7 +171,7 @@
    amount: $12m (Penn's portion is $2m)
    start_date: 2019
    end_date: 2024
-   status: current
+   status: past
    PI_info: Heng Ji (PI - UIUC), Mohit Bansal (UNC), Chris Callison-Burch (UPenn), Shih-Fu Chang (Columbia), Jiawei Han (UIUC), Martha Palmer (Colorado), Dan Roth (UPenn), Carl Vondrick (Columbia)
    url: 
    abstract: 
