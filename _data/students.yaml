@@ -1,4 +1,13 @@
 -
+   name: Delip Rao
+   degree: PhD Student
+   pic: 
+   institution: University of Pennsylvania
+   start_year: 2024
+   expected_graduation_date: Summer 2029
+   homepage: 
+   gender: male
+-
    name: Andrew Zhu
    degree: PhD Student
    pic: andrew_zhu.png
@@ -65,22 +74,12 @@
    homepage: https://yueyang1996.github.io
    gender: male
 -
-   name: Veronica Qing Lyu 
-   coadvisor: Marianna Apidianaki
-   degree: PhD Student
-   pic: veronica_qing_lyu.png
-   institution: University of Pennsylvania
-   start_year: 2019
-   expected_graduation_date: Summer 2024
-   homepage: https://veronica320.github.io/
-   gender: female
--
    name: Aditya Kashyap 
    coadvisor: Mary Regina Boland
    degree: PhD Student
    pic: aditya_kashyap.jpg
    institution: University of Pennsylvania
    start_year: 2019
-   expected_graduation_date: Summer 2024
+   expected_graduation_date: Spring 2025
    homepage: 
    gender: male
