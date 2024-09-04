@@ -102,6 +102,13 @@
           primaryClass={cs.CL}
       }
    press: 
+    -
+      title: Teachers still can't trust AI text checkers
+      source: Axios
+      by_line: Megan Morrone
+      date: September 3, 2024
+      url: https://www.techbriefs.com/component/content/article/50943-recreating-star-trek-virtual-environments
+      year: 2024 
     - 
       title: Detecting Machine-Generated Text&colon; An Arms Race With the Advancements of Large Language Models
       source: Penn Engineering Today
