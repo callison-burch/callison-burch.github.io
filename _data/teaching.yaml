@@ -6,9 +6,9 @@
    year: 2024
    description: 
    url: 
-   enrollment:
-   instructor_rating:
-   course_rating:
+   enrollment: 54
+   instructor_rating: 3.27
+   course_rating: 2.94
    voluntary_overload: True
 -
    title: Artificial Intelligence
@@ -18,9 +18,9 @@
    year: 2024
    description: 
    url: 
-   enrollment:
-   instructor_rating:
-   course_rating:
+   enrollment: 373
+   instructor_rating: 3.34
+   course_rating: 3.12
 -
    title: Artificial Intelligence
    number: CIS 5210 - Penn Engineering Online
@@ -29,9 +29,9 @@
    year: 2024
    description: 
    url: 
-   enrollment:
-   instructor_rating:
-   course_rating:
+   enrollment: 159
+   instructor_rating: 3.49
+   course_rating: 3.28
    online_degree: True
 -
    title: Interactive Fiction and Text Generation

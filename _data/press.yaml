@@ -1,102 +1,90 @@
-- 
-  title: Teachers still can't trust AI text checkers
+- title: "When ChatGPT Broke an Entire Field: An Oral History"
+  source: Quanta Magazine
+  by_line: John Pavlus
+  date: April 30, 2025
+  url: https://www.quantamagazine.org/when-chatgpt-broke-an-entire-field-an-oral-history-20250430/
+  year: 2025
+  summary: Quanta Magazine oral history interviewing 19 NLP researchers about the transformer and large language model revolution; Chris Callison-Burch is quoted describing early access to GPT‑3, realizing classical NLP tasks could be replicated "in one shot," and experiencing a career‑existential crisis amid the field’s paradigm shift.
+- title: "‘WithdrarXiv’ database of 14,000 retracted preprints launches"
+  source: Nature News
+  by_line: Dalmeet Singh Chawla
+  date: January 6, 2025
+  url: https://www.nature.com/articles/d41586-025-00011-8
+  year: 2025
+  summary: Nature News profiles the launch of the WithdrarXiv database of 14,000 withdrawn arXiv papers, co-authored by Chris Callison-Burch, positioning the dataset as a new tool for studying scientific integrity; the article mentions him as project co-lead without direct quotation.
+- title: What you need to know about AI, misinformation and the election
+  source: PBS NewsHour
+  by_line: Casey Kuhn
+  date: November 1, 2024
+  url: https://youtu.be/uEPqf7fLgTM
+  year: 2024
+  summary: National TV segment explains risks of AI-generated election misinformation; Chris Callison-Burch is interviewed on-camera, warning that spotting AI content is extremely difficult and urging critical media literacy.
+- title: Training Medical AI with Knowledge, Not Shortcuts
+  source: Penn Engineering
+  by_line: Ian Scheffler
+  date: October 15, 2024
+  url: https://ai.seas.upenn.edu/news/training-medical-ai-with-knowledge-not-shortcuts/
+  year: 2024
+  summary: Penn Engineering news release highlights a NeurIPS’24 study co-authored by Callison-Burch that trains medical-image AI in stages mirroring physician education to avoid spurious shortcuts; he is cited as senior collaborator.
+- title: AI detectors are easily fooled, researchers find
+  source: EdScoop
+  by_line: Colin Wood
+  date: September 9, 2024
+  url: https://edscoop.com/ai-detectors-are-easily-fooled-researchers-find/
+  year: 2024
+  summary: EdScoop covers UPenn’s RAID benchmark showing popular AI-text detectors have high false-positive rates and are vulnerable to simple attacks; Callison-Burch is extensively quoted advising educators not to rely solely on such tools.
+- title: Teachers still can't trust AI text checkers
   source: Axios
   by_line: Megan Morrone
   date: September 3, 2024
-  url: https://www.techbriefs.com/component/content/article/50943-recreating-star-trek-virtual-environments
+  url: https://www.axios.com/2024/09/03/ai-text-detectors-school-cheating
   year: 2024
-- 
-  title: Detecting Machine-Generated Text&colon; An Arms Race With the Advancements of Large Language Models
+  summary: Axios back-to-school piece cites Callison-Burch’s RAID study and quotes him calling detector accuracy claims "too good to be true" and urging professors to rethink assessment rather than penalize students on detector scores alone.
+- title: Detecting Machine-Generated Text&colon; An Arms Race With the Advancements of Large Language Models
   source: Penn Engineering Today
   by_line: Melissa Pappas
   date: August 12, 2024
   url: https://blog.seas.upenn.edu/detecting-machine-generated-text-an-arms-race-with-the-advancements-of-large-language-models/
-- 
-  title: Recreating ‘Star Trek’ Virtual Environments&colon; Holodeck generates a virtually limitless range of indoor environments, using AI to interpret users’ requests.
+  summary: University feature announces the RAID dataset and public leaderboard; Callison-Burch explains the "arms race" between detectors and evasive tactics and stresses need for transparent benchmarking.
+- title: Most AI text detectors aren’t as reliable as advertised, study finds
+  source: Emerging Tech Brew
+  by_line: Patrick Kulp
+  date: August 22, 2024
+  url: https://www.emergingtechbrew.com/stories/2024/08/22/ai-detector-study
+  year: 2024
+  summary: Morning Brew’s tech vertical reports on RAID, quoting Callison-Burch about providing a systematic benchmark to measure genuine detector improvements amid an "arms race" with evasion attacks.
+- title: Recreating ‘Star Trek’ Virtual Environments&colon; Holodeck generates a virtually limitless range of indoor environments, using AI to interpret users’ requests.
   source: Tech Briefs
   by_line: Andrew Corselli
   date: June 11, 2024
   url: https://www.techbriefs.com/component/content/article/50943-recreating-star-trek-virtual-environments
   year: 2024
-- 
-  title: Artificial Intelligence 101&colon; Understanding the power of AI and its dangers
+  summary: Tech Briefs profiles a Penn project co-led by Callison-Burch that uses language models to generate on-the-fly 3-D virtual worlds—a "Holodeck"—to scale robot training environments; he is quoted on the need for billions of simulated scenes.
+- title: Artificial Intelligence 101&colon; Understanding the power of AI and its dangers
   source: ABC 6 Action News WPVI-TV Philadelphia
   by_line: Cheryl Mettendorf and Chad Pradelli
   date: June 4, 2024
   url: https://6abc.com/post/artificial-intelligence-101-what-is-ai-dangers-technology-generator/14907240/
   year: 2024
-- 
-  title: New Penn AI master’s program aims to prep students for ‘jobs that we can’t yet imagine’
+  summary: Local TV explainer features Callison-Burch demonstrating ChatGPT and encouraging viewers to experiment with AI while noting job-market uncertainty; multiple on-camera quotes present him as trusted expert.
+- title: Should We Trust AI? A Penn Expert Weighs In
+  source: Philadelphia Magazine
+  by_line: Malcolm Burnley
+  date: June 8, 2024
+  url: https://www.phillymag.com/news/2024/06/08/should-we-trust-ai/
+  year: 2024
+  summary: In an in-depth Q&A, Callison-Burch dismisses AI doomsday scenarios, discusses deepfakes and congressional testimony, and explains Penn’s rapid launch of undergraduate AI degrees, offering balanced insight into risks and benefits.
+- title: New Penn AI master’s program aims to prep students for ‘jobs that we can’t yet imagine’
   source: Philadelphia Inquirer
   by_line: Ariana Perez-Castells
   date: May 2, 2024
   url: https://www.inquirer.com/business/university-pennsylvania-artificial-intelligence-ai-masters-20240502.html
   year: 2024
-- 
-  title: Penn Engineering rolls out an online master’s degree in AI, first in Ivy League
+  summary: Philadelphia Inquirer announces Penn’s online master’s in AI, quoting Callison-Burch on skyrocketing student demand and the need to train talent for unforeseen AI careers.
+- title: Penn Engineering rolls out an online master’s degree in AI, first in Ivy League
   source: Technical.ly
   by_line: Sarah Huffman
   date: April 30, 2024
   url: https://technical.ly/software-development/university-of-pennsylvania-online-ai-masters-degree/
   year: 2024
-- 
-  title: Can we stop AI hallucinations? And do we even want to?
-  source: BigThink
-  by_line: Sascha Brodsky
-  date: April 13, 2024
-  url: https://bigthink.com/the-future/can-we-stop-ai-hallucinations/
-  year: 2024
-- 
-  title: A peek into the future of visual data interpretation
-  source: Penn Today
-  by_line: Nathi Magubane
-  date: November 16, 2023
-  url: https://penntoday.upenn.edu/news/peek-future-visual-data-interpretation
-  year: 2023
-- 
-  title: As OpenAI’s multimodal API launches broadly, research shows it’s still flawed
-  source: TechCrunch
-  by_line: Kyle Wiggers
-  date: November 6, 2023
-  url: https://techcrunch.com/2023/11/06/openai-gpt-4-with-vision-release-research-flaws/
-  year: 2023
-- 
-  title: Why actors are fighting for AI protections
-  source: The Hill
-  by_line: Rebecca Klar
-  date: October 23, 2023
-  url: https://thehill.com/policy/technology/4267345-why-actors-are-fighting-for-ai-protections/
-  year: 2023
-- 
-  title: Why ChatGPT's New Ability to Speak Could Change Everything
-  source: LifeWire – Tech for Humans
-  by_line: Sascha Brodsky
-  date: September 27, 2023
-  url: https://www.lifewire.com/chatgpt-can-now-see-hear-speak-7975324
-  year: 2023
-- 
-  title: What Amazon's up to $4B commitment to Anthropic could mean for AI space
-  source: Yahoo Finance
-  date: September 25, 2023
-  url: https://finance.yahoo.com/video/amazons-4b-commitment-anthropic-could-211251643.html
-  year: 2023
-- 
-  title: Microsoft Sees Low Risk for Customers in AI Copyright Lawsuits
-  source: Bloomberg Law
-  date: September 11, 2023
-  url: https://news.bloomberglaw.com/in-house-counsel/how-risky-is-microsofts-pledge-to-defend-ai-copyright-lawsuits
-  year: 2023
-- 
-  title: What Teachers and Parents Need to Know about ChatGPT
-  source: Bloomberg Businessweek 
-  date: September 6, 2023
-  url: https://overcast.fm/+yGZvQ533g/20:55
-  year: 2023
-- 
-  title: Alien Minds, Immaculate Bullshit, Outstanding Questions
-  source: The Pennsylvania Gazette
-  by_line: Trey Popp
-  date: April 26, 2023
-  url: https://thepenngazette.com/alien-minds-immaculate-bullshit-outstanding-questions/
-  year: 2023
-
+  summary: Technical.ly covers same AI master’s launch, highlighting Callison-Burch’s role in fast-tracking the curriculum and commitment to accessible, ethics-focused training.

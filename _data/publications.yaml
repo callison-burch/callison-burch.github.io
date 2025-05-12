@@ -1,10 +1,463 @@
 -
+   title: StyleDistance&colon; Stronger Content-Independent Style Embeddings with Synthetic Parallel Examples
+   authors: Ajay Patel, Jiacheng Zhu, Justin Qiu, Zachary Horvitz, Marianna Apidianaki, Kathleen McKeown, Chris Callison-Burch
+   venue: NAACL
+   type: conference
+   year: 2025
+   url: https://aclanthology.org/2025.naacl-long.436/
+   page_count: 24
+   id: styledistance
+   data: https://huggingface.co/datasets/StyleDistance/synthstel
+   code: https://huggingface.co/StyleDistance/styledistance
+   website: 
+   abstract: |
+      Style representations aim to embed texts with similar writing styles closely and texts with different styles far apart, regardless of content. However, the contrastive triplets often used for training these representations may vary in both style and content, leading to potential content leakage in the representations. We introduce StyleDistance, a novel approach to training stronger content-independent style embeddings. We use a large language model to create a synthetic dataset of near-exact paraphrases with controlled style variations, and produce positive and negative examples across 40 distinct style features for precise contrastive learning. We assess the quality of our synthetic data and embeddings through human and automatic evaluations. StyleDistance enhances the content-independence of style embeddings, which generalize to real-world benchmarks and outperform leading style representations in downstream applications.
+   bibtex: |
+      @inproceedings{patel-etal-2025-styledistance,
+          title = "{S}tyle{D}istance: Stronger Content-Independent Style Embeddings with Synthetic Parallel Examples",
+          author = "Patel, Ajay  and
+            Zhu, Jiacheng  and
+            Qiu, Justin  and
+            Horvitz, Zachary  and
+            Apidianaki, Marianna  and
+            McKeown, Kathleen  and
+            Callison-Burch, Chris",
+          editor = "Chiruzzo, Luis  and
+            Ritter, Alan  and
+            Wang, Lu",
+          booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+          month = apr,
+          year = "2025",
+          address = "Albuquerque, New Mexico",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2025.naacl-long.436/",
+          pages = "8662--8685",
+          ISBN = "979-8-89176-189-6",
+          abstract = "Style representations aim to embed texts with similar writing styles closely and texts with different styles far apart, regardless of content. However, the contrastive triplets often used for training these representations may vary in both style and content, leading to potential content leakage in the representations. We introduce StyleDistance, a novel approach to training stronger content-independent style embeddings. We use a large language model to create a synthetic dataset of near-exact paraphrases with controlled style variations, and produce positive and negative examples across 40 distinct style features for precise contrastive learning. We assess the quality of our synthetic data and embeddings through human and automatic evaluations. StyleDistance enhances the content-independence of style embeddings, which generalize to real-world benchmarks and outperform leading style representations in downstream applications."
+      }
+-
+   title: Molmo and PixMo&colon; Open Weights and Open Data for State-of-the-Art Vision-Language Models
+   authors: Matt Deitke, Christopher Clark, Sangho Lee, Rohun Tripathi, Yue Yang, Jae Sung Park, Mohammadreza Salehi, Niklas Muennighoff, Kyle Lo, Luca Soldaini, Jiasen Lu, Taira Anderson, Erin Bransom, Kiana Ehsani, Huong Ngo, YenSung Chen, Ajay Patel, Mark Yatskar, Chris Callison-Burch, Andrew Head, Rose Hendrix, Favyen Bastani, Eli VanderBilt, Nathan Lambert, Yvonne Chou, Arnavi Chheda, Jenna Sparks, Sam Skjonsberg, Michael Schmitz, Aaron Sarnat, Byron Bischoff, Pete Walsh, Chris Newell, Piper Wolters, Tanmay Gupta, Kuo-Hao Zeng, Jon Borchardt, Dirk Groeneveld, Crystal Nam, Sophie Lebrecht, Caitlin Wittlif, Carissa Schoenick, Oscar Michel, Ranjay Krishna, Luca Weihs, Noah A. Smith, Hannaneh Hajishirzi, Ross Girshick, Ali Farhadi, Aniruddha Kembhavi
+   venue: CVPR
+   type: conference
+   year: 2025
+   url: https://arxiv.org/abs/2409.17146
+   page_count: 30
+   id: molmo
+   data: https://huggingface.co/collections/allenai/pixmo-674746ea613028006285687b
+   code: https://github.com/allenai/molmo
+   website: https://molmo.allenai.org/
+   abstract: |
+      Today's most advanced vision-language models (VLMs) remain proprietary. The strongest open-weight models rely heavily on synthetic data from proprietary VLMs to achieve good performance, effectively distilling these closed VLMs into open ones. As a result, the community has been missing foundational knowledge about how to build performant VLMs from scratch. We present Molmo, a new family of VLMs that are state-of-the-art in their class of openness. Our key contribution is a collection of new datasets called PixMo, including a dataset of highly detailed image captions for pre-training, a free-form image Q&A dataset for fine-tuning, and an innovative 2D pointing dataset, all collected without the use of external VLMs. The success of our approach relies on careful modeling choices, a well-tuned training pipeline, and, most critically, the quality of our newly collected datasets. Our best-in-class 72B model not only outperforms others in the class of open weight and data models, but also outperforms larger proprietary models including Claude 3.5 Sonnet, and Gemini 1.5 Pro and Flash, second only to GPT-4o based on both academic benchmarks and on a large human evaluation. Our model weights, new datasets, and source code are available at https://molmo.allenai.org/blog
+   bibtex: |
+      @inproceedings{deitke2025molmo,
+        title={Molmo and PixMo: Open Weights and Open Data for State-of-the-Art Vision-Language Models},
+        author={Deitke, Matt and Clark, Christopher and Lee, Sangho and Tripathi, Rohun and Yang, Yue and Park, Jae Sung and Salehi, Mohammadreza and Muennighoff, Niklas and Lo, Kyle and Soldaini, Luca and Lu, Jiasen and Anderson, Taira and Bransom, Erin and Ehsani, Kiana and Ngo, Huong and Chen, YenSung and Patel, Ajay and Yatskar, Mark and Callison-Burch, Chris and Head, Andrew and Hendrix, Rose and Bastani, Favyen and VanderBilt, Eli and Lambert, Nathan and Chou, Yvonne and Chheda, Arnavi and Sparks, Jenna and Skjonsberg, Sam and Schmitz, Michael and Sarnat, Aaron and Bischoff, Byron and Walsh, Pete and Newell, Chris and Wolters, Piper and Gupta, Tanmay and Zeng, Kuo-Hao and Borchardt, Jon and Groeneveld, Dirk and Nam, Crystal and Lebrecht, Sophie and Wittlif, Caitlin and Schoenick, Carissa and Michel, Oscar and Krishna, Ranjay and Weihs, Luca and Smith, Noah A. and Hajishirzi, Hannaneh and Girshick, Ross and Farhadi, Ali and Kembhavi, Aniruddha},
+        booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+        year={2025},
+        address={Nashville, Tennessee},
+        url={https://arxiv.org/abs/2409.17146}
+      }
+-
+   title: Concept Lancet&colon; Image Editing with Compositional Representation Transplant
+   authors: Jinqi Luo, Tianjiao Ding, Kwan Ho Ryan Chan, Hancheng Min, Chris Callison-Burch, René Vidal
+   venue: CVPR
+   type: conference
+   year: 2025
+   url: https://arxiv.org/abs/2504.02828
+   page_count: 19
+   id: concept-lancet
+   data: https://github.com/peterljq/Concept-Lancet
+   code: https://github.com/peterljq/Concept-Lancet
+   website: https://peterljq.github.io/project/colan/
+   abstract: |
+     Diffusion models are widely used for image editing tasks. Existing editing methods often design a representation manipulation procedure by curating an edit direction in the text embedding or score space. However, such a procedure faces a key challenge: overestimating the edit strength harms visual consistency while underestimating it fails the editing task. Notably, each source image may require a different editing strength, and it is costly to search for an appropriate strength via trial-and-error. To address this challenge, we propose Concept Lancet (CoLan), a zero-shot plug-and-play framework for principled representation manipulation in diffusion-based image editing. At inference time, we decompose the source input in the latent (text embedding or diffusion score) space as a sparse linear combination of the representations of the collected visual concepts. This allows us to accurately estimate the presence of concepts in each image, which informs the edit. Based on the editing task (replace/add/remove), we perform a customized concept transplant process to impose the corresponding editing direction. To sufficiently model the concept space, we curate a conceptual representation dataset, CoLan-150K, which contains diverse descriptions and scenarios of visual terms and phrases for the latent dictionary. Experiments on multiple diffusion-based image editing baselines show that methods equipped with CoLan achieve state-of-the-art performance in editing effectiveness and consistency preservation.
+   bibtex: |
+     @inproceedings{luo2025concept,
+       title={Concept Lancet: Image Editing with Compositional Representation Transplant},
+       author={Luo, Jinqi and Ding, Tianjiao and Chan, Kwan Ho Ryan and Min, Hancheng and Callison-Burch, Chris and Vidal, Ren{\'e}},
+       booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+       year={2025},
+       address={Nashville, Tennessee},
+       url={https://arxiv.org/abs/2504.02828}
+     }
+-
+   title: ViUniT&colon; Visual Unit Tests for More Robust Visual Programming
+   authors: Artemis Panagopoulou, Honglu Zhou, Silvio Savarese, Caiming Xiong, Chris Callison-Burch, Mark Yatskar, Juan Carlos Niebles
+   venue: CVPR
+   type: conference
+   year: 2025
+   url: https://arxiv.org/abs/2412.08859
+   doi: 10.48550/arXiv.2412.08859
+   page_count: 41
+   id: viunit
+   data: 
+   code: https://github.com/SalesforceAIResearch/visual-unit-testing
+   website: https://artemisp.github.io/viunit/
+   abstract: |
+     Programming based approaches to reasoning tasks have substantially expanded the types of questions models can answer about visual scenes. Yet on benchmark visual reasoning data, when models answer correctly, they produce incorrect programs 33% of the time. These models are often right for the wrong reasons and risk unexpected failures on new data. Unit tests play a foundational role in ensuring code correctness and could be used to repair such failures. We propose Visual Unit Testing (ViUniT), a framework to improve the reliability of visual programs by automatically generating unit tests. In our framework, a unit test is represented as a novel image and answer pair meant to verify the logical correctness of a program produced for a given query. Our method leverages a language model to create unit tests in the form of image descriptions and expected answers and image synthesis to produce corresponding images. We conduct a comprehensive analysis of what constitutes an effective visual unit test suite, exploring unit test generation, sampling strategies, image generation methods, and varying the number of programs and unit tests. Additionally, we introduce four applications of visual unit tests: best program selection, answer refusal, re-prompting, and unsupervised reward formulations for reinforcement learning. Experiments with two models across three datasets in visual question answering and image-text matching demonstrate that ViUniT improves model performance by 11.4%. Notably, it enables 7B open-source models to outperform gpt-4o-mini by an average of 7.7% and reduces the occurrence of programs that are correct for the wrong reasons by 40%.
+   bibtex: |
+     @inproceedings{panagopoulou2025viunit,
+       title={ViUniT: Visual Unit Tests for More Robust Visual Programming},
+       author={Panagopoulou, Artemis and Zhou, Honglu and Savarese, Silvio and Xiong, Caiming and Callison-Burch, Chris and Yatskar, Mark and Niebles, Juan Carlos},
+       booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+       year={2025},
+       address={Nashville, Tennessee},
+       url={https://arxiv.org/abs/2412.08859},
+       doi={10.48550/arXiv.2412.08859}
+     }
+-
+   title: Calibrating Large Language Models with Sample Consistency
+   authors: Veronica Qing Lyu, Kumar Shridhar, Chaitanya Malaviya, Li Zhang, Yanai Elazar, Niket Tandon, Marianna Apidianaki, Mrinmaya Sachan, Chris Callison-Burch
+   venue: AAAI
+   type: conference
+   year: 2025
+   url: https://arxiv.org/abs/2402.13904
+   page_count: 
+   id: calibrating-llms
+   data: 
+   code: 
+   website: 
+   abstract: |
+      Accurately gauging the confidence level of Large Language Models' (LLMs) predictions is pivotal for their reliable application. However, LLMs are often uncalibrated inherently and elude conventional calibration techniques due to their proprietary nature and massive scale. In this work, we explore the potential of deriving confidence from the distribution of multiple randomly sampled model generations, via three measures of consistency. We perform an extensive evaluation across various open and closed-source models on nine reasoning datasets. Results show that consistency-based calibration methods outperform existing post-hoc approaches. Meanwhile, we find that factors such as intermediate explanations, model scaling, and larger sample sizes enhance calibration, while instruction-tuning makes calibration more difficult. Moreover, confidence scores obtained from consistency have the potential to enhance model performance. Finally, we offer practical guidance on choosing suitable consistency metrics for calibration, tailored to the characteristics of various LMs.
+   bibtex: |
+      @inproceedings{lyu2025calibrating,
+        title={Calibrating Large Language Models with Sample Consistency},
+        author={Lyu, Veronica Qing and Shridhar, Kumar and Malaviya, Chaitanya and Zhang, Li and Elazar, Yanai and Tandon, Niket and Apidianaki, Marianna and Sachan, Mrinmaya and Callison-Burch, Chris},
+        booktitle={Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+        year={2025},
+        url={https://arxiv.org/abs/2402.13904}
+      }
+-
+   title: NSF-SciFy&colon; Mining the NSF Awards Database for Scientific Claims
+   authors: Delip Rao, Weiqiu You, Eric Wong, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2025
+   url: https://arxiv.org/abs/2503.08600
+   page_count: 15
+   id: nsf-scify
+   data: 
+   code: 
+   website: 
+   abstract: |
+      We present NSF-SciFy, a large-scale dataset for scientific claim extraction derived from the National Science Foundation (NSF) awards database, comprising over 400K grant abstracts spanning five decades. While previous datasets relied on published literature, we leverage grant abstracts which offer a unique advantage: they capture claims at an earlier stage in the research lifecycle before publication takes effect. We also introduce a new task to distinguish between existing scientific claims and aspirational research intentions in proposals. Using zero-shot prompting with frontier large language models, we jointly extract 114K scientific claims and 145K investigation proposals from 16K grant abstracts in the materials science domain to create a focused subset called NSF-SciFy-MatSci. We use this dataset to evaluate 3 three key tasks: (1) technical to non-technical abstract generation, where models achieve high BERTScore (0.85+ F1); (2) scientific claim extraction, where fine-tuned models outperform base models by 100% relative improvement; and (3) investigation proposal extraction, showing 90%+ improvement with fine-tuning. We introduce novel LLM-based evaluation metrics for robust assessment of claim/proposal extraction quality. As the largest scientific claim dataset to date -- with an estimated 2.8 million claims across all STEM disciplines funded by the NSF -- NSF-SciFy enables new opportunities for claim verification and meta-scientific research. We publicly release all datasets, trained models, and evaluation code to facilitate further research.
+   bibtex: |
+      @misc{rao2025nsfscify,
+        title={{NSF-SciFy}: Mining the NSF Awards Database for Scientific Claims},
+        author={Rao, Delip and You, Weiqiu and Wong, Eric and Callison-Burch, Chris},
+        year={2025},
+        eprint={2503.08600},
+        archivePrefix={arXiv},
+        primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2503.08600}
+      }
+-
+   title: mStyleDistance&colon; Multilingual Style Embeddings and their Evaluation
+   authors: Justin Qiu, Jiacheng Zhu, Ajay Patel, Marianna Apidianaki, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2025
+   url: https://arxiv.org/abs/2502.15168
+   page_count: 
+   id: mstyledistance
+   data: 
+   code: 
+   website: https://huggingface.co/StyleDistance/mstyledistance
+   abstract: |
+      Style embeddings are useful for stylistic analysis and style transfer; however, only English style embeddings have been made available. We introduce Multilingual StyleDistance (mStyleDistance), a multilingual style embedding model trained using synthetic data and contrastive learning. We train the model on data from nine languages and create a multilingual STEL-or-Content benchmark (Wegmann et al., 2022) that serves to assess the embeddings' quality. We also employ our embeddings in an authorship verification task involving different languages. Our results show that mStyleDistance embeddings outperform existing models on these multilingual style benchmarks and generalize well to unseen features and languages. We make our model publicly available at https://huggingface.co/StyleDistance/mstyledistance.
+   bibtex: |
+      @misc{qiu2025mstyledistance,
+        title={{mStyleDistance}: Multilingual Style Embeddings and their Evaluation},
+        author={Qiu, Justin and Zhu, Jiacheng and Patel, Ajay and Apidianaki, Marianna and Callison-Burch, Chris},
+        year={2025},
+        eprint={2502.15168},
+        archivePrefix={arXiv},
+        primaryClass={cs.CL},
+        url={https://arxiv.org/abs/2502.15168}
+      }
+-
+   title: Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation
+   authors: Yue Yang, Ajay Patel, Matt Deitke, Tanmay Gupta, Luca Weihs, Andrew Head, Mark Yatskar, Chris Callison-Burch, Ranjay Krishna, Aniruddha Kembhavi, Christopher Clark
+   venue: arXiv
+   type: preprint
+   year: 2025
+   url: https://arxiv.org/abs/2502.14846
+   page_count: 59
+   id: cosyn
+   data: 
+   code: 
+   website: https://yueyang1996.github.io/cosyn/
+   abstract: |
+      Reasoning about images with rich text, such as charts and documents, is a critical application of vision-language models (VLMs). However, VLMs often struggle in these domains due to the scarcity of diverse text-rich vision-language data. To address this challenge, we present CoSyn, a framework that leverages the coding capabilities of text-only large language models (LLMs) to automatically create synthetic text-rich multimodal data. Given input text describing a target domain (e.g., "nutrition fact labels"), CoSyn prompts an LLM to generate code (Python, HTML, LaTeX, etc.) for rendering synthetic images. With the underlying code as textual representations of the synthetic images, CoSyn can generate high-quality instruction-tuning data, again relying on a text-only LLM. Using CoSyn, we constructed a dataset comprising 400K images and 2.7M rows of vision-language instruction-tuning data. Comprehensive experiments on seven benchmarks demonstrate that models trained on our synthetic data achieve state-of-the-art performance among competitive open-source models, including Llama 3.2, and surpass proprietary models such as GPT-4V and Gemini 1.5 Flash. Furthermore, CoSyn can produce synthetic pointing data, enabling VLMs to ground information within input images, showcasing its potential for developing multimodal agents capable of acting in real-world environments.
+   bibtex: |
+      @misc{yang2025scaling,
+        title={Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation},
+        author={Yang, Yue and Patel, Ajay and Deitke, Matt and Gupta, Tanmay and Weihs, Luca and Head, Andrew and Yatskar, Mark and Callison-Burch, Chris and Krishna, Ranjay and Kembhavi, Aniruddha and Clark, Christopher},
+        year={2025},
+        eprint={2502.14846},
+        archivePrefix={arXiv},
+        primaryClass={cs.CV},
+        url={https://arxiv.org/abs/2502.14846}
+      }
+-
+   title: Media Bias Detector&colon; Designing and Implementing a Tool for Real-Time Selection and Framing Bias Analysis in News Coverage
+   authors: Jenny S Wang, Samar Haider, Amir Tohidi, Anushkaa Gupta, Yuxuan Zhang, Chris Callison-Burch, David Rothschild, Duncan J Watts
+   venue: CHI
+   type: conference
+   year: 2025
+   url: https://arxiv.org/abs/2502.06009
+   page_count: 17
+   id: media-bias-detector
+   data: 
+   code: 
+   website: 
+   abstract: |
+      Mainstream media, through their decisions on what to cover and how to frame the stories they cover, can mislead readers without using outright falsehoods. Therefore, it is crucial to have tools that expose these editorial choices underlying media bias. In this paper, we introduce the Media Bias Detector, a tool for researchers, journalists, and news consumers. By integrating large language models, we provide near real-time granular insights into the topics, tone, political lean, and facts of news articles aggregated to the publisher level. We assessed the tool's impact by interviewing 13 experts from journalism, communications, and political science, revealing key insights into usability and functionality, practical applications, and AI's role in powering media bias tools. We explored this in more depth with a follow-up survey of 150 news consumers. This work highlights opportunities for AI-driven tools that empower users to critically engage with media content, particularly in politically charged environments.
+   bibtex: |
+      @inproceedings{wang2025media,
+        title={Media Bias Detector: Designing and Implementing a Tool for Real-Time Selection and Framing Bias Analysis in News Coverage},
+        author={Wang, Jenny S and Haider, Samar and Tohidi, Amir and Gupta, Anushkaa and Zhang, Yuxuan and Callison-Burch, Chris and Rothschild, David and Watts, Duncan J},
+        booktitle={Proceedings of the 2025 CHI Conference on Human Factors in Computing Systems (CHI '25)},
+        year={2025},
+        address={Yokohama, Japan},
+        url={https://arxiv.org/abs/2502.06009}
+      }
+-
+   title: GenAI Content Detection Task 3&colon; Cross-Domain Machine-Generated Text Detection Challenge
+   authors: Liam Dugan, Andrew Zhu, Firoj Alam, Preslav Nakov, Marianna Apidianaki, Chris Callison-Burch
+   venue: GenAIDetect @ COLING
+   type: workshop
+   year: 2025
+   url: https://aclanthology.org/2025.genaidetect-1.45/
+   page_count: 12
+   id: raid-shared-task
+   data: 
+   code: 
+   website: https://raid-bench.xyz/shared-task
+   abstract: |
+      Recently there have been many shared tasks targeting the detection of generated text from Large Language Models (LLMs). However, these shared tasks tend to focus either on cases where text is limited to one particular domain or cases where text can be from many domains, some of which may not be seen during test time. In this shared task, using the newly released RAID benchmark, we aim to answer whether or not models can detect generated text from a large, yet fixed, number of domains and LLMs, all of which are seen during training. Over the course of three months, our task was attempted by 9 teams with 23 detector submissions. We find that multiple participants were able to obtain accuracies of over 99% on machine-generated text from RAID while maintaining a 5% False Positive Rate -- suggesting that detectors are able to robustly detect text from many domains and models simultaneously. We discuss potential interpretations of this result and provide directions for future research.
+   bibtex: |
+      @inproceedings{dugan-etal-2025-genai,
+          title = "{G}en{AI} Content Detection Task 3: Cross-Domain Machine Generated Text Detection Challenge",
+          author = "Dugan, Liam  and
+            Zhu, Andrew  and
+            Alam, Firoj  and
+            Nakov, Preslav  and
+            Apidianaki, Marianna  and
+            Callison-Burch, Chris",
+          editor = "Alam, Firoj  and
+            Nakov, Preslav  and
+            Habash, Nizar  and
+            Gurevych, Iryna  and
+            Chowdhury, Shammur  and
+            Shelmanov, Artem  and
+            Wang, Yuxia  and
+            Artemova, Ekaterina  and
+            Kutlu, Mucahid  and
+            Mikros, George",
+          booktitle = "Proceedings of the 1stWorkshop on GenAI Content Detection (GenAIDetect)",
+          month = jan,
+          year = "2025",
+          address = "Abu Dhabi, UAE",
+          publisher = "International Conference on Computational Linguistics",
+          url = "https://aclanthology.org/2025.genaidetect-1.45/",
+          pages = "377--388",
+          abstract = "Recently there have been many shared tasks targeting the detection of generated text from Large Language Models (LLMs). However, these shared tasks tend to focus either on cases where text is limited to one particular domain or cases where text can be from many domains, some of which may not be seen during test time. In this shared task, using the newly released RAID benchmark, we aim to answer whether or not models can detect generated text from a large, yet fixed, number of domains and LLMs, all of which are seen during training. Over the course of three months, our task was attempted by 9 teams with 23 detector submissions. We find that multiple participants were able to obtain accuracies of over 99{\%} on machine-generated text from RAID while maintaining a 5{\%} False Positive Rate{---}suggesting that detectors are able to robustly detect text from many domains and models simultaneously. We discuss potential interpretations of this result and provide directions for future research."
+      }
+
+-
+   title: WithdrarXiv&colon; A Large-Scale Dataset for Retraction Study
+   authors: Delip Rao, Jonathan Young, Thomas Dietterich, Chris Callison-Burch
+   venue: arXiv
+   type: preprint
+   year: 2025
+   url: https://arxiv.org/abs/2412.03775
+   page_count: 11
+   id: withdrarxiv
+   data: https://huggingface.co/datasets/darpa-scify/withdrarxiv
+   code: https://github.com/darpa-scify/withdrarxiv/
+   website: 
+   abstract: |
+      Retractions play a vital role in maintaining scientific integrity, yet systematic studies of retractions in computer science and other STEM fields remain scarce. We present WithdrarXiv, the first large-scale dataset of withdrawn papers from arXiv, containing over 14,000 papers and their associated retraction comments spanning the repository's entire history through September 2024. Through careful analysis of author comments, we develop a comprehensive taxonomy of retraction reasons, identifying 10 distinct categories ranging from critical errors to policy violations. We demonstrate a simple yet highly accurate zero-shot automatic categorization of retraction reasons, achieving a weighted average F1-score of 0.96. Additionally, we release WithdrarXiv-SciFy, an enriched version including scripts for parsed full-text PDFs, specifically designed to enable research in scientific feasibility studies, claim verification, and automated theorem proving. These findings provide valuable insights for improving scientific quality control and automated verification systems. Finally, and most importantly, we discuss ethical issues and take a number of steps to implement responsible data release while fostering open science in this area.
+   bibtex: |
+      @misc{rao2024withdrarxiv,
+         title={{WithdrarXiv}: A Large-Scale Dataset for Retraction Study}, 
+         author={Delip Rao and Jonathan Young and Thomas Dietterich and Chris Callison-Burch},
+         year={2024},
+         eprint={2412.03775},
+         archivePrefix={arXiv},
+         primaryClass={cs.CL},
+         url={https://arxiv.org/abs/2412.03775}, 
+      }
+   press:
+      - 
+        title: ‘WithdrarXiv’ database of 14,000 retracted preprints launches
+        source: Nature News
+        by_line: Dalmeet Singh Chawla
+        date: January 6, 2024
+        url: https://www.nature.com/articles/d41586-025-00011-8
+        year: 2025
+-
+   title: ReDel&colon; A Toolkit for LLM-Powered Recursive Multi-Agent Systems
+   authors: Andrew Zhu, Liam Dugan, Chris Callison-Burch
+   venue: EMNLP
+   type: demo
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/recursive-multi-agent-llms.pdf
+   page_count: 10
+   id: recursive-multi-agent-llms
+   data: https://datasets.mechanus.zhu.codes/redel-dist.zip
+   code: https://github.com/zhudotexe/redel
+   website: 
+   abstract: |
+      Recently, there has been increasing interest in using Large Language Models (LLMs) to construct complex multi-agent systems to perform tasks such as compiling literature reviews, drafting consumer reports, and planning vacations. Many tools and libraries exist for helping create such systems, however none support *recursive* multi-agent systems—where the models themselves flexibly decide when to delegate tasks and how to organize their delegation structure. In this work, we introduce ReDel: a toolkit for recursive multi-agent systems that supports custom tool-use, delegation schemes, event-based logging, and interactive replay in an easy-to-use web interface. We show that, using ReDel, we are able to achieve significant performance gains on agentic benchmarks and easily identify potential areas of improvements through the visualization and debugging tools. Our code, documentation, and PyPI package are open-source at https://github.com/zhudotexe/redel, and free to use under the MIT license
+   bibtex: |
+      @inproceedings{zhu-etal-2024-redel,
+          title = "{R}e{D}el: A Toolkit for {LLM}-Powered Recursive Multi-Agent Systems",
+          author = "Zhu, Andrew  and
+            Dugan, Liam  and
+            Callison-Burch, Chris",
+          editor = "Hernandez Farias, Delia Irazu  and
+            Hope, Tom  and
+            Li, Manling",
+          booktitle = "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing: System Demonstrations",
+          month = nov,
+          year = "2024",
+          address = "Miami, Florida, USA",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.emnlp-demo.17",
+          pages = "162--171",
+          abstract = "Recently, there has been increasing interest in using Large Language Models (LLMs) to construct complex multi-agent systems to perform tasks such as compiling literature reviews, drafting consumer reports, and planning vacations. Many tools and libraries exist for helping create such systems, however none support *recursive* multi-agent systems{---}where the models themselves flexibly decide when to delegate tasks and how to organize their delegation structure. In this work, we introduce ReDel: a toolkit for recursive multi-agent systems that supports custom tool-use, delegation schemes, event-based logging, and interactive replay in an easy-to-use web interface. We show that, using ReDel, we are able to achieve significant performance gains on agentic benchmarks and easily identify potential areas of improvements through the visualization and debugging tools. Our code, documentation, and PyPI package are open-source at https://github.com/zhudotexe/redel, and free to use under the MIT license.",
+      }
+-
+   title: TinyStyler&colon; Efficient Few-Shot Text Style Transfer with Authorship Embeddings
+   authors: Zachary Horvitz, Ajay Patel, Kanishk Singh, Chris Callison-Burch, Kathleen McKeown, Zhou Yu
+   venue: EMNLP
+   type: conference
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/tinystyler.pdf
+   page_count: 14
+   id: tinystyler
+   data: 
+   code: 
+   website: https://huggingface.co/tinystyler/tinystyler
+   abstract: |
+      The goal of text style transfer is to transform the style of texts while preserving their original meaning, often with only a few examples of the target style. Existing style transfer methods generally rely on the few-shot capabilities of large language models or on complex controllable text generation approaches that are inefficient and underperform on fluency metrics. We introduce TinyStyler, a lightweight but effective approach, which leverages a small language model (800M params) and pre-trained authorship embeddings to perform efficient, few-shot text style transfer. We evaluate on the challenging task of authorship style transfer and find TinyStyler outperforms strong approaches such as GPT-4. We also evaluate TinyStyler’s ability to perform text attribute style transfer (formal ↔ informal) with automatic and human evaluations and find that the approach outperforms recent controllable text generation methods.
+   bibtex: |
+      @inproceedings{horvitz-etal-2024-tinystyler,
+          title = "{T}iny{S}tyler: Efficient Few-Shot Text Style Transfer with Authorship Embeddings",
+          author = "Horvitz, Zachary  and
+            Patel, Ajay  and
+            Singh, Kanishk  and
+            Callison-Burch, Chris  and
+            McKeown, Kathleen  and
+            Yu, Zhou",
+          editor = "Al-Onaizan, Yaser  and
+            Bansal, Mohit  and
+            Chen, Yun-Nung",
+          booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+          month = nov,
+          year = "2024",
+          address = "Miami, Florida, USA",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.findings-emnlp.781",
+          pages = "13376--13390",
+          abstract = "The goal of text style transfer is to transform the style of texts while preserving their original meaning, often with only a few examples of the target style. Existing style transfer methods generally rely on the few-shot capabilities of large language models or on complex controllable text generation approaches that are inefficient and underperform on fluency metrics. We introduce TinyStyler, a lightweight but effective approach, which leverages a small language model (800M params) and pre-trained authorship embeddings to perform efficient, few-shot text style transfer. We evaluate on the challenging task of authorship style transfer and find TinyStyler outperforms strong approaches such as GPT-4. We also evaluate TinyStyler{'}s ability to perform text attribute style transfer (formal $\leftrightarrow$ informal) with automatic and human evaluations and find that the approach outperforms recent controllable text generation methods.",
+      }
+-
+   title: MiRAGeNews&colon; Multimodal Realistic AI-Generated News Detection
+   authors: Runsheng (Anson) Huang, Liam Dugan, Yue Yang, Chris Callison-Burch
+   venue: emnlp
+   type: conference
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/miragenews.pdf
+   page_count: 12
+   id: miragenews
+   data: https://github.com/nosna/miragenews
+   code: 
+   website: 
+   abstract: |
+      The proliferation of inflammatory or misleading “fake” news content has become increasingly common in recent years. Simultaneously, it has become easier than ever to use AI tools to generate photorealistic images depicting any scene imaginable. Combining these two—AI-generated fake news content—is particularly potent and dangerous. To combat the spread of AI-generated fake news, we propose the MiRAGeNews Dataset, a dataset of 12,500 high-quality real and AI-generated image-caption pairs from state-of-the-art generators. We find that our dataset poses a significant challenge to humans (60% F-1) and state-of-the-art multi-modal LLMs (< 24% F-1). Using our dataset we train a multi-modal detector (MiRAGe) that improves by +5.1% F-1 over state-of-the-art baselines on image-caption pairs from out-of-domain image generators and news publishers. We release our code and data to aid future work on detecting AI-generated content.
+   bibtex: |
+      @inproceedings{huang-etal-2024-miragenews,
+          title = "{M}i{RAG}e{N}ews: Multimodal Realistic {AI}-Generated News Detection",
+          author = "Huang, Runsheng  and
+            Dugan, Liam  and
+            Yang, Yue  and
+            Callison-Burch, Chris",
+          editor = "Al-Onaizan, Yaser  and
+            Bansal, Mohit  and
+            Chen, Yun-Nung",
+          booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+          month = nov,
+          year = "2024",
+          address = "Miami, Florida, USA",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.findings-emnlp.959",
+          pages = "16436--16448",
+          abstract = "The proliferation of inflammatory or misleading {``}fake{''} news content has become increasingly common in recent years. Simultaneously, it has become easier than ever to use AI tools to generate photorealistic images depicting any scene imaginable. Combining these two{---}AI-generated fake news content{---}is particularly potent and dangerous. To combat the spread of AI-generated fake news, we propose the MiRAGeNews Dataset, a dataset of 12,500 high-quality real and AI-generated image-caption pairs from state-of-the-art generators. We find that our dataset poses a significant challenge to humans (60{\%} F-1) and state-of-the-art multi-modal LLMs ({\textless} 24{\%} F-1). Using our dataset we train a multi-modal detector (MiRAGe) that improves by +5.1{\%} F-1 over state-of-the-art baselines on image-caption pairs from out-of-domain image generators and news publishers. We release our code and data to aid future work on detecting AI-generated content.",
+      }
+
+-
+   title: A Textbook Remedy for Domain Shifts&colon; Knowledge Priors for Medical Image Analysis
+   authors: Yue Yang, Mona Gandhi, Yufei Wang, Yifan Wu, Michael S. Yao, Chris Callison-Burch, James C. Gee, Mark Yatskar
+   venue: NeurIPS
+   type: conference
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/knowledge-priors-for-medical-images.pdf
+   page_count: 23
+   id: knowledge-priors-for-medical-images
+   data: 
+   code: https://github.com/YueYANG1996/KnoBo
+   website: https://yueyang1996.github.io/knobo/
+   abstract: |
+      While deep networks have achieved broad success in analyzing natural images, when applied to medical scans, they often fail in unexcepted situations. We investigate this challenge and focus on model sensitivity to domain shifts, such as data sampled from different hospitals or data confounded by demographic variables such as sex, race, etc, in the context of chest X-rays and skin lesion images. A key finding we show empirically is that existing visual backbones lack an appropriate prior from the architecture for reliable generalization in these settings. Taking inspiration from medical training, we propose giving deep networks a prior grounded in explicit medical knowledge communicated in natural language. To this end, we introduce Knowledge-enhanced Bottlenecks (KnoBo), a class of concept bottleneck models that incorporates knowledge priors that constrain it to reason with clinically relevant factors found in medical textbooks or PubMed. KnoBo uses retrieval-augmented language models to design an appropriate concept space paired with an automatic training procedure for recognizing the concept. We evaluate different resources of knowledge and recognition architectures on a broad range of domain shifts across 20 datasets. In our comprehensive evaluation with two imaging modalities, KnoBo outperforms fine-tuned models on confounded datasets by 32.4% on average. Finally, evaluations reveal that PubMed is a promising resource for making medical models less sensitive to domain shift, outperforming other resources on both diversity of information and final prediction performance.
+   bibtex: |
+      @inproceedings{yang2024textbookremedydomainshifts,
+        title={A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis},
+        author={Yang, Yue and Gandhi, Mona and Wang, Yufei and Wu, Yifan and Yao, Michael S. and Callison-Burch, Chris and Gee, James C. and Yatskar, Mark},
+        booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+        year={2024},
+        url={https://neurips.cc/virtual/2024/poster/95098},
+      }
+   press:
+      - 
+        title: Training Medical AI with Knowledge, Not Shortcuts
+        source: Penn Engineering
+        by_line: Ian Scheffler
+        date: October 15, 2024
+        url: https://ai.seas.upenn.edu/news/training-medical-ai-with-knowledge-not-shortcuts/
+        year: 2024
+-
+   title: PaCE&colon; Parsimonious Concept Engineering for Large Language Models
+   authors: Jinqi Luo, Tianjiao Ding, Kwan Ho Ryan Chan, Darshan Thaker, Aditya Chattopadhyay, Chris Callison-Burch, René Vidal
+   venue: NeurIPS
+   type: conference
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/parsimonious-concept-engineering.pdf
+   page_count: 
+   id: parsimonious-concept-engineering
+   data: 
+   code: 
+   website:
+   abstract: |
+      Large Language Models (LLMs) are being used for a wide variety of tasks. While they are capable of generating human-like responses, they can also produce undesirable output including potentially harmful information, racist or sexist language, and hallucinations. Alignment methods are designed to reduce such undesirable output, via techniques such as fine-tuning, prompt engineering, and representation engineering. However, existing methods face several challenges: some require costly fine-tuning for every alignment task; some do not adequately remove undesirable concepts, failing alignment; some remove benign concepts, lowering the linguistic capabilities of LLMs. To address these issues, we propose Parsimonious Concept Engineering (PaCE), a novel activation engineering framework for alignment. First, to sufficiently model the concepts, we construct a large-scale concept dictionary in the activation space, in which each atom corresponds to a semantic concept. Then, given any alignment task, we instruct a concept partitioner to efficiently annotate the concepts as benign or undesirable. Finally, at inference time, we decompose the LLM activations along the concept dictionary via sparse coding, to accurately represent the activation as a linear combination of the benign and undesirable components. By removing the latter ones from the activation, we reorient the behavior of LLMs towards alignment goals. We conduct experiments on tasks such as response detoxification, faithfulness enhancement, and sentiment revising, and show that PaCE achieves state-of-the-art alignment performance while maintaining linguistic capabilities.
+   bibtex: |
+      @inproceedings{luo2024pace,
+        title={{PaCE}: Parsimonious Concept Engineering for Large Language Models},
+        author={Luo, Jinqi and Ding, Tianjiao and Chan, Kwan Ho Ryan and Thaker, Darshan and Chattopadhyay, Aditya and Callison-Burch, Chris and Vidal, Ren{\'e}},
+        booktitle={Advances in Neural Information Processing Systems (NeurIPS)},
+        year={2024},
+        url={https://peterljq.github.io/project/pace/PaCE.pdf}
+      }
+-
    title: CLIN&colon; A Continually Learning Language Agent for Rapid Task Adaptation and Generalization
    authors: Bodhisattwa Prasad Majumder, Bhavana Dalvi Mishra, Peter Jansen, Oyvind Tafjord, Niket Tandon, Li Zhang, Chris Callison-Burch, Peter Clark
    venue: COLM
    type: conference
    year: 2024
-   url: https://www.cis.upenn.edu/~ccb/publications/faithful-model-explanations-survey.pdf
+   url: https://www.cis.upenn.edu/~ccb/publications/clin-continual-learning-from-interactions.pdf
    page_count: 23
    id: clin-continual-learning-from-interactions
    data: 
@@ -151,7 +604,7 @@
    venue: ECCV
    type: conference
    year: 2024
-   url: https://arxiv.org/abs/2403.13900
+   url: https://link.springer.com/chapter/10.1007/978-3-031-73397-0_11
    page_count: 27
    id: controllable-motion-generation
    data: 
@@ -160,89 +613,123 @@
    abstract: |
       Text-to-motion models excel at efficient human motion generation, but existing approaches lack fine-grained controllability over the generation process. Consequently, modifying subtle postures within a motion or inserting new actions at specific moments remains a challenge, limiting the applicability of these methods in diverse scenarios. In light of these challenges, we introduce CoMo, a Controllable Motion generation model, adept at accurately generating and editing motions by leveraging the knowledge priors of large language models (LLMs). Specifically, CoMo decomposes motions into discrete and semantically meaningful pose codes, with each code encapsulating the semantics of a body part, representing elementary information such as "left knee slightly bent". Given textual inputs, CoMo autoregressively generates sequences of pose codes, which are then decoded into 3D motions. Leveraging pose codes as interpretable representations, an LLM can directly intervene in motion editing by adjusting the pose codes according to editing instructions. Experiments demonstrate that CoMo achieves competitive performance in motion generation compared to state-of-the-art models while, in human studies, CoMo substantially surpasses previous work in motion editing abilities.
    bibtex: |
-      @inproceedings{huang2024comocontrollablemotiongeneration,
-            title={{CoMo}: Controllable Motion Generation through Language Guided Pose Code Editing}, 
-            author={Yiming Huang and Weilin Wan and Yue Yang and Chris Callison-Burch and Mark Yatskar and Lingjie Liu},
-            booktitle={Proceedings of the 18th European Conference on Computer Vision (ECCV 2024)},
-            year={2024},
-            month={September},
-            address={Milan, Italy},
-            eprint={2403.13900},
-            archivePrefix={arXiv},
-            primaryClass={cs.CV},
-            url={https://arxiv.org/abs/2403.13900}, 
+      @inproceedings{huang2024como,
+        title={{CoMo}: Controllable Motion Generation through Language Guided Pose Code Editing},
+        author={Huang, Yiming and Wan, Weilin and Yang, Yue and Callison-Burch, Chris and Yatskar, Mark and Liu, Lingjie},
+        booktitle={Computer Vision--ECCV 2024},
+        pages={180--196},
+        year={2024},
+        publisher={Springer},
+        doi={10.1007/978-3-031-73397-0_11},
+        url={https://link.springer.com/chapter/10.1007/978-3-031-73397-0_11}
       }
 -
-   title: ReDel&colon; A Toolkit for LLM-Powered Recursive Multi-Agent Systems
-   authors: Andrew Zhu, Liam Dugan, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
+   title: BORDIRLINES&colon; A Dataset for Evaluating Cross-lingual Retrieval-Augmented Generation
+   authors: Bryan Li, Samar Haider, Fiona Luo, Adwait Agashe, Chris Callison-Burch
+   venue: First Workshop on Advancing Natural Language Processing for Wikipedia
+   type: workshop
    year: 2024
-   url: https://arxiv.org/abs/2408.02248
-   page_count: 
-   id: recursive-multi-agent-llms
-   data: https://datasets.mechanus.zhu.codes/redel-dist.zip
-   code: https://github.com/zhudotexe/redel
-   website: 
-   abstract: |
-      Recently, there has been increasing interest in using Large Language Models (LLMs) to construct complex multi-agent systems to perform tasks such as compiling literature reviews, drafting consumer reports, and planning vacations. Many tools and libraries exist for helping create such systems, however none support recursive multi-agent systems -- where the models themselves flexibly decide when to delegate tasks and how to organize their delegation structure. In this work, we introduce ReDel: a toolkit for recursive multi-agent systems that supports custom tool-use, delegation schemes, event-based logging, and interactive replay in an easy-to-use web interface. We show that, using ReDel, we are able to achieve significant performance gains on agentic benchmarks and easily identify potential areas of improvements through the visualization and debugging tools. Our code, documentation, and PyPI package are open-source and free to use under the MIT license.
-   bibtex: |
-      @misc{zhu2024redeltoolkitllmpoweredrecursive,
-            title={{ReDel}: A Toolkit for LLM-Powered Recursive Multi-Agent Systems}, 
-            author={Andrew Zhu and Liam Dugan and Chris Callison-Burch},
-            year={2024},
-            eprint={2408.02248},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL},
-            url={https://arxiv.org/abs/2408.02248}, 
-      }
--
-   title: A Textbook Remedy for Domain Shifts&colon; Knowledge Priors for Medical Image Analysis
-   authors: Yue Yang, Mona Gandhi, Yufei Wang, Yifan Wu, Michael S. Yao, Chris Callison-Burch, James C. Gee, Mark Yatskar
-   venue: arXiv
-   type: preprint
-   year: 2024
-   url: https://arxiv.org/abs/2405.14839
-   page_count: 
-   id: knowledge-priors-for-medical-images
+   url: https://www.cis.upenn.edu/~ccb/publications/BORDIRLINES.pdf
+   page_count: 13
+   id: BORDIRLINES
    data: 
    code: 
    website:
    abstract: |
-      While deep networks have achieved broad success in analyzing natural images, when applied to medical scans, they often fail in unexcepted situations. We investigate this challenge and focus on model sensitivity to domain shifts, such as data sampled from different hospitals or data confounded by demographic variables such as sex, race, etc, in the context of chest X-rays and skin lesion images. A key finding we show empirically is that existing visual backbones lack an appropriate prior from the architecture for reliable generalization in these settings. Taking inspiration from medical training, we propose giving deep networks a prior grounded in explicit medical knowledge communicated in natural language. To this end, we introduce Knowledge-enhanced Bottlenecks (KnoBo), a class of concept bottleneck models that incorporates knowledge priors that constrain it to reason with clinically relevant factors found in medical textbooks or PubMed. KnoBo uses retrieval-augmented language models to design an appropriate concept space paired with an automatic training procedure for recognizing the concept. We evaluate different resources of knowledge and recognition architectures on a broad range of domain shifts across 20 datasets. In our comprehensive evaluation with two imaging modalities, KnoBo outperforms fine-tuned models on confounded datasets by 32.4% on average. Finally, evaluations reveal that PubMed is a promising resource for making medical models less sensitive to domain shift, outperforming other resources on both diversity of information and final prediction performance.
+      Large language models excel at creative generation but continue to struggle with the issues of hallucination and bias. While retrieval-augmented generation (RAG) provides a framework for grounding LLMs’ responses in accurate and up-to-date information, it still raises the question of bias: which sources should be selected for inclusion in the context? And how should their importance be weighted? In this paper, we study the challenge of cross-lingual RAG and present a dataset to investigate the robustness of existing systems at answering queries about geopolitical disputes, which exist at the intersection of linguistic, cultural, and political boundaries. Our dataset is sourced from Wikipedia pages containing information relevant to the given queries and we investigate the impact of including additional context, as well as the composition of this context in terms of language and source, on an LLM’s response. Our results show that existing RAG systems continue to be challenged by cross-lingual use cases and suffer from a lack of consistency when they are provided with competing information in multiple languages. We present case studies to illustrate these issues and outline steps for future research to address these challenges.
    bibtex: |
-      @misc{yang2024textbookremedydomainshifts,
-            title={A Textbook Remedy for Domain Shifts: Knowledge Priors for Medical Image Analysis}, 
-            author={Yue Yang and Mona Gandhi and Yufei Wang and Yifan Wu and Michael S. Yao and Chris Callison-Burch and James C. Gee and Mark Yatskar},
-            year={2024},
-            eprint={2405.14839},
-            archivePrefix={arXiv},
-            primaryClass={cs.CV},
-            url={https://arxiv.org/abs/2405.14839}, 
+      @inproceedings{li-etal-2024-bordirlines,
+          title = "{B}ord{IR}lines: A Dataset for Evaluating Cross-lingual Retrieval Augmented Generation",
+          author = "Li, Bryan  and
+            Haider, Samar  and
+            Luo, Fiona  and
+            Agashe, Adwait  and
+            Callison-Burch, Chris",
+          editor = "Lucie-Aim{\'e}e, Lucie  and
+            Fan, Angela  and
+            Gwadabe, Tajuddeen  and
+            Johnson, Isaac  and
+            Petroni, Fabio  and
+            van Strien, Daniel",
+          booktitle = "Proceedings of the First Workshop on Advancing Natural Language Processing for Wikipedia",
+          month = nov,
+          year = "2024",
+          address = "Miami, Florida, USA",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.wikinlp-1.3",
+          pages = "1--13",
+          abstract = "Large language models excel at creative generation but continue to struggle with the issues of hallucination and bias. While retrieval-augmented generation (RAG) provides a framework for grounding LLMs{'} responses in accurate and up-to-date information, it still raises the question of bias: which sources should be selected for inclusion in the context? And how should their importance be weighted? In this paper, we study the challenge of cross-lingual RAG and present a dataset to investigate the robustness of existing systems at answering queries about geopolitical disputes, which exist at the intersection of linguistic, cultural, and political boundaries. Our dataset is sourced from Wikipedia pages containing information relevant to the given queries and we investigate the impact of including additional context, as well as the composition of this context in terms of language and source, on an LLM{'}s response. Our results show that existing RAG systems continue to be challenged by cross-lingual use cases and suffer from a lack of consistency when they are provided with competing information in multiple languages. We present case studies to illustrate these issues and outline steps for future research to address these challenges.",
+      }
+-
+   title: Uncovering Differences in Persuasive Language in Russian versus English Wikipedia
+   authors: Bryan Li, Aleksey Panasyuk, Chris Callison-Burch
+   venue: First Workshop on Advancing Natural Language Processing for Wikipedia
+   type: workshop
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/uncovering-differences-in-persuasive-language.pdf
+   page_count: 15
+   id: uncovering-differences-in-persuasive-language
+   data: 
+   code: 
+   website:
+   abstract: |
+      We study how differences in persuasive language across Wikipedia articles, written in either English and Russian, can uncover each culture’s distinct perspective on different subjects. We develop a large language model (LLM) powered system to identify instances of persuasive language in multilingual texts. Instead of directly prompting LLMs to detect persuasion, which is subjective and difficult, we propose to reframe the task to instead ask high-level questions (HLQs) which capture different persuasive aspects. Importantly, these HLQs are authored by LLMs themselves. LLMs over-generate a large set of HLQs, which are subsequently filtered to a small set aligned with human labels for the original task. We then apply our approach to a large-scale, bilingual dataset of Wikipedia articles (88K total), using a two-stage identify-then-extract prompting strategy to find instances of persuasion. We quantify the amount of persuasion per article, and explore the differences in persuasion through several experiments on the paired articles. Notably, we generate rankings of articles by persuasion in both languages. These rankings match our intuitions on the culturally-salient subjects; Russian Wikipedia highlights subjects on Ukraine, while English Wikipedia highlights the Middle East. Grouping subjects into larger topics, we find politically-related events contain more persuasion than others. We further demonstrate that HLQs obtain similar performance when posed in either English or Russian. Our methodology enables cross-lingual, cross-cultural understanding at scale, and we release our code, prompts, and data.
+   bibtex: |
+      @inproceedings{li-etal-2024-uncovering,
+          title = "Uncovering Differences in Persuasive Language in {R}ussian versus {E}nglish {W}ikipedia",
+          author = "Li, Bryan  and
+            Panasyuk, Aleksey  and
+            Callison-Burch, Chris",
+          editor = "Lucie-Aim{\'e}e, Lucie  and
+            Fan, Angela  and
+            Gwadabe, Tajuddeen  and
+            Johnson, Isaac  and
+            Petroni, Fabio  and
+            van Strien, Daniel",
+          booktitle = "Proceedings of the First Workshop on Advancing Natural Language Processing for Wikipedia",
+          month = nov,
+          year = "2024",
+          address = "Miami, Florida, USA",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.wikinlp-1.8",
+          pages = "21--35",
+          abstract = "We study how differences in persuasive language across Wikipedia articles, written in either English and Russian, can uncover each culture{'}s distinct perspective on different subjects. We develop a large language model (LLM) powered system to identify instances of persuasive language in multilingual texts. Instead of directly prompting LLMs to detect persuasion, which is subjective and difficult, we propose to reframe the task to instead ask high-level questions (HLQs) which capture different persuasive aspects. Importantly, these HLQs are authored by LLMs themselves. LLMs over-generate a large set of HLQs, which are subsequently filtered to a small set aligned with human labels for the original task. We then apply our approach to a large-scale, bilingual dataset of Wikipedia articles (88K total), using a two-stage identify-then-extract prompting strategy to find instances of persuasion. We quantify the amount of persuasion per article, and explore the differences in persuasion through several experiments on the paired articles. Notably, we generate rankings of articles by persuasion in both languages. These rankings match our intuitions on the culturally-salient subjects; Russian Wikipedia highlights subjects on Ukraine, while English Wikipedia highlights the Middle East. Grouping subjects into larger topics, we find politically-related events contain more persuasion than others. We further demonstrate that HLQs obtain similar performance when posed in either English or Russian. Our methodology enables cross-lingual, cross-cultural understanding at scale, and we release our code, prompts, and data.",
       }
 -
    title: Evaluating Vision-Language Models on Bistable Images
    authors: Artemis Panagopoulou, Coby Melkin, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
+   venue: Workshop on Cognitive Modeling and Computational Linguistics
+   type: workshop
    year: 2024
-   url: https://arxiv.org/abs/2405.19793
-   page_count: 
+   url: https://www.cis.upenn.edu/~ccb/publications/bistable-images-with-vlms.pdf
+   page_count: 22
    id: bistable-images-with-vlms
+   award: Best paper award at the Workshop on Cognitive Modeling and Computational Linguistics (CMCL)
    data: 
    code: 
    website:
    abstract: |
       Bistable images, also known as ambiguous or reversible images, present visual stimuli that can be seen in two distinct interpretations, though not simultaneously by the observer. In this study, we conduct the most extensive examination of vision-language models using bistable images to date. We manually gathered a dataset of 29 bistable images, along with their associated labels, and subjected them to 116 different manipulations in brightness, tint, and rotation. We evaluated twelve different models in both classification and generative tasks across six model architectures. Our findings reveal that, with the exception of models from the Idefics family and LLaVA1.5-13b, there is a pronounced preference for one interpretation over another among the models, and minimal variance under image manipulations, with few exceptions on image rotations. Additionally, we compared the model preferences with humans, noting that the models do not exhibit the same continuity biases as humans and often diverge from human initial interpretations. We also investigated the influence of variations in prompts and the use of synonymous labels, discovering that these factors significantly affect model interpretations more than image manipulations showing a higher influence of the language priors on bistable image interpretations compared to image-text training data. All code and data is open sourced.
    bibtex: |
-      @misc{panagopoulou2024evaluatingvisionlanguagemodelsbistable,
-            title={Evaluating Vision-Language Models on Bistable Images}, 
-            author={Artemis Panagopoulou and Coby Melkin and Chris Callison-Burch},
-            year={2024},
-            eprint={2405.19423},
-            archivePrefix={arXiv},
-            primaryClass={cs.CV},
-            url={https://arxiv.org/abs/2405.19423}, 
+      @inproceedings{panagopoulou-etal-2024-evaluating,
+          title = "Evaluating Vision-Language Models on Bistable Images",
+          author = "Panagopoulou, Artemis  and
+            Melkin, Coby  and
+            Callison-Burch, Chris",
+          editor = "Kuribayashi, Tatsuki  and
+            Rambelli, Giulia  and
+            Takmaz, Ece  and
+            Wicke, Philipp  and
+            Oseki, Yohei",
+          booktitle = "Proceedings of the Workshop on Cognitive Modeling and Computational Linguistics",
+          month = aug,
+          year = "2024",
+          address = "Bangkok, Thailand",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.cmcl-1.2",
+          doi = "10.18653/v1/2024.cmcl-1.2",
+          pages = "8--29",
+          abstract = "Bistable images, also known as ambiguous or reversible images, present visual stimuli that can be seen in two distinct interpretations, though not simultaneously, by the observer. In this study, we conduct the most extensive examination of vision-language models using bistable images to date. We manually gathered a dataset of 29 bistable images, along with their associated labels, and subjected them to 121 different manipulations in brightness, resolution, tint, and rotation. We evaluated twelve different models in both classification and generative tasks across six model architectures. Our findings reveal that, with the exception of models from the Idefics family and LLaVA1.5-13b, there is a pronounced preference for one interpretation over another among the models, and minimal variance under image manipulations, with few exceptions on image rotations. Additionally, we compared the models{'} preferences with humans, noting that the models do not exhibit the same continuity biases as humans and often diverge from human initial interpretations. We also investigated the influence of variations in prompts and the use of synonymous labels, discovering that these factors significantly affect model interpretations more than image manipulations showing a higher influence of the language priors on bistable image interpretations compared to image-text training data. All code and data is open sourced.",
       }
 -
    title: PROC2PDDL&colon; Open-Domain Planning Representations from Texts
@@ -250,11 +737,12 @@
    venue: Natural Language Reasoning and Structured Explanations Workshop
    type: workshop
    year: 2024
-   url: https://arxiv.org/abs/2403.00092
+   url: https://www.cis.upenn.edu/~ccb/publications/proc2pddl.pdf
    page_count: 
    id: proc2pddl
-   data: 
+   data: https://github.com/zharry29/proc2pddl/blob/main/README.md
    code: 
+   video: https://www.youtube.com/watch?v=6tNGxIeMVpw
    website:
    abstract: |
       Planning in a text-based environment continues to be a major challenge for AI systems. Recent approaches have used language models to predict a planning domain definition (e.g., PDDL) but have only been evaluated in closed-domain simulated environments. To address this, we present Proc2PDDL , the first dataset containing open-domain procedural texts paired with expert-annotated PDDL representations. Using this dataset, we evaluate state-of-the-art models on defining the preconditions and effects of actions. We show that Proc2PDDL is highly challenging, with GPT-3.5's success rate close to 0% and GPT-4's around 35%. Our analysis shows both syntactic and semantic errors, indicating LMs' deficiency in both generating domain-specific prgorams and reasoning about events. We hope this analysis and dataset helps future progress towards integrating the best of LMs and formal planning.
@@ -271,53 +759,44 @@
             primaryClass={cs.CL},
             url={https://arxiv.org/abs/2403.00092}, 
       }
+
+
+
 -
-   title: PDDLEGO&colon; Iterative Planning in Textual Environments
-   authors: Harry Li Zhang, Peter Jansen, Tianyi Zhang, Peter Clark, Chris Callison-Burch, Niket Tandon
-   venue: arXiv
-   type: preprint
+   title: PDDLego&colon; Iterative Planning in Textual Environments
+   authors: Li Zhang, Peter Jansen, Tianyi Zhang, Peter Clark, Chris Callison-Burch, Niket Tandon
+   venue: "*SEM"
+   type: conference
    year: 2024
-   url: https://arxiv.org/abs/2405.19793
-   page_count: 
+   url: https://aclanthology.org/2024.starsem-1.17/
+   page_count: 10
    id: pddlego
    data: 
    code: 
-   website:
+   website: 
+   doi: 10.18653/v1/2024.starsem-1.17
    abstract: |
       Planning in textual environments have been shown to be a long-standing challenge even for current models. A recent, promising line of work uses LLMs to generate a formal representation of the environment that can be solved by a symbolic planner. However, existing methods rely on a fully-observed environment where all entity states are initially known, so a one-off representation can be constructed, leading to a complete plan. In contrast, we tackle partially-observed environments where there is initially no sufficient information to plan for the end-goal. We propose PDDLEGO that iteratively construct a planning representation that can lead to a partial plan for a given sub-goal. By accomplishing the sub-goal, more information is acquired to augment the representation, eventually achieving the end-goal. We show that plans produced by few-shot PDDLEGO are 43% more efficient than generating plans end-to-end on the Coin Collector simulation, with strong performance (98%) on the more complex Cooking World simulation where end-to-end LLMs fail to generate coherent plans (4%).
    bibtex: |
-      @misc{zhang2024pddlegoiterativeplanningtextual,
-            title={{PDDLEGO}: Iterative Planning in Textual Environments}, 
-            author={Li Zhang and Peter Jansen and Tianyi Zhang and Peter Clark and Chris Callison-Burch and Niket Tandon},
-            year={2024},
-            eprint={2405.19793},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL},
-            url={https://arxiv.org/abs/2405.19793}, 
-      }
--
-   title: PaCE&colon; Parsimonious Concept Engineering for Large Language Models
-   authors: Jinqi Luo, Tianjiao Ding, Kwan Ho Ryan Chan, Darshan Thaker, Aditya Chattopadhyay, Chris Callison-Burch, René Vidal
-   venue: arXiv
-   type: preprint
-   year: 2024
-   url: https://arxiv.org/abs/2406.04331
-   page_count: 
-   id: parsimonious-concept-engineering
-   data: 
-   code: 
-   website:
-   abstract: |
-      Large Language Models (LLMs) are being used for a wide variety of tasks. While they are capable of generating human-like responses, they can also produce undesirable output including potentially harmful information, racist or sexist language, and hallucinations. Alignment methods are designed to reduce such undesirable output, via techniques such as fine-tuning, prompt engineering, and representation engineering. However, existing methods face several challenges: some require costly fine-tuning for every alignment task; some do not adequately remove undesirable concepts, failing alignment; some remove benign concepts, lowering the linguistic capabilities of LLMs. To address these issues, we propose Parsimonious Concept Engineering (PaCE), a novel activation engineering framework for alignment. First, to sufficiently model the concepts, we construct a large-scale concept dictionary in the activation space, in which each atom corresponds to a semantic concept. Then, given any alignment task, we instruct a concept partitioner to efficiently annotate the concepts as benign or undesirable. Finally, at inference time, we decompose the LLM activations along the concept dictionary via sparse coding, to accurately represent the activation as a linear combination of the benign and undesirable components. By removing the latter ones from the activation, we reorient the behavior of LLMs towards alignment goals. We conduct experiments on tasks such as response detoxification, faithfulness enhancement, and sentiment revising, and show that PaCE achieves state-of-the-art alignment performance while maintaining linguistic capabilities.
-   bibtex: |
-      @misc{luo2024paceparsimoniousconceptengineering,
-            title={{PaCE}: Parsimonious Concept Engineering for Large Language Models}, 
-            author={Jinqi Luo and Tianjiao Ding and Kwan Ho Ryan Chan and Darshan Thaker and Aditya Chattopadhyay and Chris Callison-Burch and René Vidal},
-            year={2024},
-            eprint={2406.04331},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL},
-            url={https://arxiv.org/abs/2406.04331}, 
+      @inproceedings{zhang-etal-2024-pddlego,
+          title = "{PDDLEGO}: Iterative Planning in Textual Environments",
+          author = "Zhang, Li  and
+            Jansen, Peter  and
+            Zhang, Tianyi  and
+            Clark, Peter  and
+            Callison-Burch, Chris  and
+            Tandon, Niket",
+          editor = "Bollegala, Danushka  and
+            Shwartz, Vered",
+          booktitle = "Proceedings of the 13th Joint Conference on Lexical and Computational Semantics (*SEM 2024)",
+          month = jun,
+          year = "2024",
+          address = "Mexico City, Mexico",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.starsem-1.17/",
+          doi = "10.18653/v1/2024.starsem-1.17",
+          pages = "212--221",
+          abstract = "Planning in textual environments have been shown to be a long-standing challenge even for current models. A recent, promising line of work uses LLMs to generate a formal representation of the environment that can be solved by a symbolic planner. However, existing methods rely on a fully-observed environment where all entity states are initially known, so a one-off representation can be constructed, leading to a complete plan. In contrast, we tackle partially-observed environments where there is initially no sufficient information to plan for the end-goal. We propose PDDLEGO that iteratively construct a planning representation that can lead to a partial plan for a given sub-goal. By accomplishing the sub-goal, more information is acquired to augment the representation, eventually achieving the end-goal. We show that plans produced by few-shot PDDLEGO are 43{\%} more efficient than generating plans end-to-end on the Coin Collector simulation, with strong performance (98{\%}) on the more complex Cooking World simulation where end-to-end LLMs fail to generate coherent plans (4{\%})."
       }
 -
    title: Large Language Models Can Self-Improve At Web Agent Tasks
@@ -342,53 +821,6 @@
             archivePrefix={arXiv},
             primaryClass={cs.LG},
             url={https://arxiv.org/abs/2405.20309}, 
-      }
--
-   title: TinyStyler&colon; Efficient Few-Shot Text Style Transfer with Authorship Embeddings
-   authors: Zachary Horvitz, Ajay Patel, Kanishk Singh, Chris Callison-Burch, Kathleen McKeown, Zhou Yu
-   venue: arXiv
-   type: preprint
-   year: 2024
-   url: https://arxiv.org/abs/2406.15586
-   page_count: 
-   id: tinystyler
-   data: 
-   code: 
-   website: https://huggingface.co/tinystyler/tinystyler
-   abstract: |
-      The goal of text style transfer is to transform the style of texts while preserving their original meaning, often with only a few examples of the target style. Existing style transfer methods generally rely on the few-shot capabilities of large language models or on complex controllable text generation approaches that are inefficient and underperform on fluency metrics. We introduce TinyStyler, a lightweight but effective approach, which leverages a small language model (800M params) and pre-trained authorship embeddings to perform efficient, few-shot text style transfer. We evaluate on the challenging task of authorship style transfer and find TinyStyler outperforms strong approaches such as GPT-4. We also evaluate TinyStyler's ability to perform text attribute style transfer (formal ↔ informal) with automatic and human evaluations and find that the approach outperforms recent controllable text generation methods. 
-   bibtex: |
-      @misc{horvitz2024tinystylerefficientfewshottext,
-            title={TinyStyler: Efficient Few-Shot Text Style Transfer with Authorship Embeddings}, 
-            author={Zachary Horvitz and Ajay Patel and Kanishk Singh and Chris Callison-Burch and Kathleen McKeown and Zhou Yu},
-            year={2024},
-            eprint={2406.15586},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL},
-            url={https://arxiv.org/abs/2406.15586}, 
-      }
--
-   title: Calibrating Large Language Models with Sample Consistency
-   authors: Veronica Qing Lyu, Kumar Shridhar, Chaitanya Malaviya, Li Zhang, Yanai Elazar, Niket Tandon, Marianna Apidianaki, Mrinmaya Sachan, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2024
-   url: https://arxiv.org/abs/2402.13904
-   page_count: 
-   id: calibrating-llms
-   data: 
-   code: 
-   website: 
-   abstract: |
-      Accurately gauging the confidence level of Large Language Models' (LLMs) predictions is pivotal for their reliable application. However, LLMs are often uncalibrated inherently and elude conventional calibration techniques due to their proprietary nature and massive scale. In this work, we explore the potential of deriving confidence from the distribution of multiple randomly sampled model generations, via three measures of consistency. We perform an extensive evaluation across various open and closed-source models on nine reasoning datasets. Results show that consistency-based calibration methods outperform existing post-hoc approaches. Meanwhile, we find that factors such as intermediate explanations, model scaling, and larger sample sizes enhance calibration, while instruction-tuning makes calibration more difficult. Moreover, confidence scores obtained from consistency have the potential to enhance model performance. Finally, we offer practical guidance on choosing suitable consistency metrics for calibration, tailored to the characteristics of various LMs.
-   bibtex: |
-      @misc{lyu2024calibrating,
-            title={Calibrating Large Language Models with Sample Consistency}, 
-            author={Qing Lyu and Kumar Shridhar and Chaitanya Malaviya and Li Zhang and Yanai Elazar and Niket Tandon and Marianna Apidianaki and Mrinmaya Sachan and Chris Callison-Burch},
-            year={2024},
-            eprint={2402.13904},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL}
       }
 -
    title: Choice-75&colon; A Dataset on Decision Branching in Script Learning
@@ -443,6 +875,99 @@
          pages = {657–723},
          url = {https://doi.org/10.1162/coli_a_00511}
        }
+-
+   title: Outwit, Outplay, Out-Generate&colon; A Framework for Designing Strategic Generative Agents in Competitive Environments
+   authors: Samuel Thudium, Federico Cimini, Rut Vyas, Kyle Sullivan, Louis Petro, Andrew Zhu and Chris Callison-Burch
+   venue: Wordplay Workshop
+   type: workshop
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/survivor-sim.pdf
+   page_count: 24
+   id: survivor-sim
+   data: 
+   code: 
+   website:
+   abstract: |
+      We explore the strategic capabilities of generative agents in a series of social competitive games that emulate the television show Survivor. Large Language Models have been shown to act as intelligent agents through the addition of external cognitive architectures, but it is still unknown how these agents perform in competitive, multi-agent environments. We suggest a framework, built on top of a frozen large language model, GPT-4, for designing generative agents in competitive, episodic environments and we evaluate their game performance. We provide new modules which enable strategic agents to set and evaluate goals, develop theories of mind about other agents, and embody descriptive personas that affect their behavior. Across many simulations, though agents with varied cognitive abilities displayed even performance in a "last-agent-standing" scenario, strategic agents exhibit more diverse action selection, including an affinity for exploratory behaviors. We also observe that agents with personas tailored to the social environment are significantly more likely to win these challenges. Finally, goal-driven agents perform well in a search-based game, displaying an emergent capacity to rapidly utilize information perceived from their environment to inform task-related actions.
+   bibtex: |
+      @inproceedings{thudium-et-al-2024,
+        title     = {Outwit, Outplay, Out-Generate: A Framework for Designing Strategic Generative Agents in Competitive Environments},
+        author    = {Samuel Thudium and Federico Cimini and Rut Vyas and Kyle Sullivan and Louis Petro and Andrew Zhu and Chris Callison-Burch},
+        booktitle = {Proceedings of the Wordplay Workshop},
+        year      = {2024},
+        url       = {https://www.cis.upenn.edu/~ccb/publications/survivor-sim.pdf},
+        address   = {Bangkok, Thailand},
+        date      = {August 16, 2024}
+      }
+-
+   title: You Have Thirteen Hours in Which to Solve the Labyrinth&colon; Enhancing AI Game Masters with Function Calling
+   authors: Jaewoo Song, Andrew Zhu and Chris Callison-Burch
+   venue: Wordplay Workshop
+   type: workshop
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/labyrinth-ai-gm.pdf
+   page_count: 26
+   id: labyrinth-ai-gm
+   data: 
+   code: 
+   website:
+   abstract: |
+      Developing a consistent and reliable AI game master for text-based games is a challenging task due to the limitations of large language models (LLMs) and the complexity of the game master's role. This paper presents a novel approach to enhance AI game masters by leveraging function calling in the context of the table-top role-playing game "Jim Henson’s Labyrinth: The Adventure Game." Our methodology involves integrating game-specific controls through functions, improving narrative quality and state update consistency. The experimental results, based on human evaluations and unit tests, demonstrate the effectiveness of our approach in enhancing the gameplay experience and maintaining coherence with the game state.
+   bibtex: |
+      @inproceedings{song-et-al-2024,
+        title     = {You Have Thirteen Hours in Which to Solve the Labyrinth: Enhancing AI Game Masters with Function Calling},
+        author    = {Jaewoo Song and Andrew Zhu and Chris Callison-Burch},
+        booktitle = {Proceedings of the Wordplay Workshop},
+        year      = {2024},
+        url       = {https://www.cis.upenn.edu/~ccb/publications/labyrinth-ai-gm.pdf},
+        address   = {Bangkok, Thailand},
+        date      = {August 16, 2024}
+-
+   title: DAGGER&colon; Data Augmentation for Generative Gaming in Enriched Realms
+   authors: Chris Callison-Burch, Ajay Patel, James Dennis, and Andrew Zhu
+   venue: Wordplay Workshop
+   type: workshop
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/dagger.pdf
+   page_count: 23
+   id: dagger
+   data: 
+   code: 
+   website:
+   abstract: |
+      DAGGER is a synthetically generated dataset for creating text adventure games from fiction and for generating prose from game states. It extends the LIGHT dataset by enhancing the original game locations with new characters and items generated using GPT-4. Additionally, each location is paired with a piece of short fiction, totaling 259,582 words across the entire dataset. DAGGER was created using a novel methodology that leverages the capabilities of GPT-4 and a new tool called DataDreamer, which simplifies the implementation of complex prompting workflows and enables the generation of high-quality synthetic training data. The DAGGER dataset is used to train two baseline models: one that converts game states into fictional narrative descriptions and another that predicts game states from fiction. These models demonstrate the usefulness of the dataset for tasks involving the mapping between stories and playable text adventure games. We make the dataset, the trained models, and a Python game engine publicly available to facilitate further research.
+   bibtex: |
+      @inproceedings{callisonburch-et-al-2024,
+        title     = {DAGGER: Data Augmentation for Generative Gaming in Enriched Realms},
+        author    = {Chris Callison-Burch and Ajay Patel and James Dennis and Andrew Zhu},
+        booktitle = {Proceedings of the Wordplay Workshop},
+        year      = {2024},
+        url       = {https://www.cis.upenn.edu/~ccb/publications/dagger.pdf},
+        address   = {Bangkok, Thailand},
+        date      = {August 16, 2024}
+-
+   title: WorldWeaver&colon; Procedural World Generation for Text Adventure Games using Large Language Models
+   authors: Meiqing Jin, Manvi Kaul, Shriya Ramakrishanan, Hardik Jain, Samarth Chandrawat, Ishita Agarwal, Tianyi Zhang, Andrew Zhu, and Chris Callison-Burch
+   venue: Wordplay Workshop
+   type: workshop
+   year: 2024
+   url: https://www.cis.upenn.edu/~ccb/publications/worldweaver.pdf
+   page_count: 18
+   id: worldweaver
+   data: 
+   code: https://github.com/EmmaMQJin/WorldWeaver-Interactive-World-Generation
+   website:
+   abstract: |
+      WorldWeaver proposes a novel approach for enhancing content generation in text adventure games through procedural world generation using large language models. Our system generates game elements including locations, characters, and items, integrating human-in-the-loop intervention to better align with creator intentions. The methodology improves semantic and logical coherence, allowing for interactive creation of complex virtual environments. By utilizing few-shot prompting and task-specific models, we ensure the consistency of the generated game world, which is validated through qualitative and quantitative evaluations. The project provides tools for dynamic world generation, including a Python class for game execution.
+   bibtex: |
+      @inproceedings{jin-et-al-2024,
+        title     = {WorldWeaver: Procedural World Generation for Text Adventure Games using Large Language Models},
+        author    = {Meiqing Jin and Manvi Kaul and Shriya Ramakrishanan and Hardik Jain and Samarth Chandrawat and Ishita Agarwal and Tianyi Zhang and Andrew Zhu and Chris Callison-Burch},
+        booktitle = {Proceedings of the Wordplay Workshop},
+        year      = {2024},
+        url       = {https://www.cis.upenn.edu/~ccb/publications/worldweaver.pdf},
+        address   = {Bangkok, Thailand},
+        date      = {August 16, 2024}
 -
    title: ParaGuide&colon; Guided Diffusion Paraphrasers for Plug-and-Play Textual Style Transfer
    authors: Zachary Horvitz, Ajay Patel, Chris Callison-Burch, Zhou Yu, Kathleen McKeown
@@ -541,6 +1066,28 @@
         year = {2023},
         url = {https://www.cis.upenn.edu/~ccb/publications/understanding-generative-AI-and-its-relationship-to-copyright.pdf},
         note = {Comment}
+      }
+-
+   title: Beyond the Imitation Game&colon; Quantifying and extrapolating the capabilities of language models
+   authors: Aarohi Srivastava, Abhinav Rastogi, Abhishek Rao, ... (450 authors including Chris Callison-Burch), Ziyi Wu
+   venue: TMLR
+   type: journal
+   year: 2023
+   url: https://arxiv.org/abs/2206.04615
+   page_count: 95
+   id: big-bench
+   data: https://github.com/google/BIG-bench
+   code: https://github.com/google/BIG-bench
+   website: https://github.com/google/BIG-bench
+   abstract: |
+      Language models demonstrate both quantitative improvement and new qualitative capabilities with increasing scale. Despite their potentially transformative impact, these new capabilities are as yet poorly characterized. In order to inform future research, prepare for disruptive new model capabilities, and ameliorate socially harmful effects, it is vital that we understand the present and near-future capabilities and limitations of language models. To address this challenge, we introduce the Beyond the Imitation Game benchmark (BIG-bench). BIG-bench currently consists of 204 tasks, contributed by 450 authors across 132 institutions. Task topics are diverse, drawing problems from linguistics, childhood development, math, common-sense reasoning, biology, physics, social bias, software development, and beyond. BIG-bench focuses on tasks that are believed to be beyond the capabilities of current language models. We evaluate the behavior of OpenAI's GPT models, Google-internal dense transformer architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters. In addition, a team of human expert raters performed all tasks in order to provide a strong baseline. Findings include: model performance and calibration both improve with scale, but are poor in absolute terms (and when compared with rater performance); performance is remarkably similar across model classes, though with benefits from sparsity; tasks that improve gradually and predictably commonly involve a large knowledge or memorization component, whereas tasks that exhibit "breakthrough" behavior at a critical scale often involve multiple steps or components, or brittle metrics; social bias typically increases with scale in settings with ambiguous context, but this can be improved with prompting.
+   bibtex: |
+      @article{srivastava2023beyond,
+        title={Beyond the Imitation Game: Quantifying and extrapolating the capabilities of language models},
+        author={Srivastava, Aarohi and Rastogi, Abhinav and Rao, Abhishek and Shoeb, Abu Awal Md and Abid, Abubakar and Fisch, Adam and Brown, Adam R and Santoro, Adam and Gupta, Aditya and Garriga-Alonso, Adri{\`a} and others},
+        journal={Transactions on Machine Learning Research},
+        year={2023},
+        url={https://arxiv.org/abs/2206.04615}
       }
 -
    title: The Gender Wage Gap in an Online Labor Market&colon; The Cost of Interruptions 
@@ -791,25 +1338,35 @@
 -
    title: This Land is {Your, My} Land&colon; Evaluating Geopolitical Biases in Language Models
    authors: Bryan Li, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
+   venue: NAACL
+   type: conference
    year: 2023
-   url: https://arxiv.org/abs/2305.14610
+   url: https://www.cis.upenn.edu/~ccb/publications/geopolitical-biases-in-multilingual-llms.pdf
    page_count: 9
    id: geopolitical-biases-in-multilingual-llms
    data: 
    code: 
    website:
    abstract: | 
-      We introduce the notion of geopolitical bias -- a tendency to report different geopolitical knowledge depending on the linguistic context. As a case study, we consider territorial disputes between countries. For example, for the widely contested Spratly Islands, would an LM be more likely to say they belong to China if asked in Chinese, vs. to the Philippines if asked in Tagalog? To evaluate if such biases exist, we first collect a dataset of territorial disputes from Wikipedia, then associate each territory with a set of multilingual, multiple-choice questions. This dataset, termed BorderLines, consists of 250 territories with questions in 45 languages. We pose these question sets to language models, and analyze geopolitical bias in their responses through several proposed quantitative metrics. The metrics compare between responses in different question languages as well as to the actual geopolitical situation. The phenomenon of geopolitical bias is a uniquely cross-lingual evaluation, contrasting with prior work's monolingual (mostly English) focus on bias evaluation. Its existence shows that the knowledge of LMs, unlike multilingual humans, is inconsistent across languages.
+      Do the Spratly Islands belong to China, the Philippines, or Vietnam? A pretrained large language model (LLM) may answer differently if asked in the languages of each claimant country: Chinese, Tagalog, or Vietnamese. This contrasts with a multilingual human, who would likely answer consistently. In this paper, we show that LLMs recall certain geographical knowledge inconsistently when queried in different languages—a phenomenon we term geopolitical bias. As a targeted case study, we consider territorial disputes, an inherently controversial and multilingual task. We introduce BorderLines, a dataset of territorial disputes which covers 251 territories, each associated with a set of multiple-choice questions in the languages of each claimant country (49 languages in total). We also propose a suite of evaluation metrics to precisely quantify bias and consistency in responses across different languages. We then evaluate various multilingual LLMs on our dataset and metrics to probe their internal knowledge and use the proposed metrics to discover numerous inconsistencies in how these models respond in different languages. Finally, we explore several prompt modification strategies, aiming to either amplify or mitigate geopolitical bias, which highlights how brittle LLMs are and how they tailor their responses depending on cues from the interaction context. Our code and data are available at https://github.com/manestay/borderlines.
    bibtex: |
-      @misc{li2023land,
-            title={This Land is {Your, My} Land: Evaluating Geopolitical Biases in Language Models}, 
-            author={Bryan Li and Chris Callison-Burch},
-            year={2023},
-            eprint={2305.14610},
-            archivePrefix={arXiv},
-            primaryClass={cs.CL}
+      @inproceedings{li-etal-2024-land,
+          title = "This Land is {Your, My} Land: Evaluating Geopolitical Bias in Language Models through Territorial Disputes",
+          author = "Li, Bryan  and
+            Haider, Samar  and
+            Callison-Burch, Chris",
+          editor = "Duh, Kevin  and
+            Gomez, Helena  and
+            Bethard, Steven",
+          booktitle = "Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+          month = jun,
+          year = "2024",
+          address = "Mexico City, Mexico",
+          publisher = "Association for Computational Linguistics",
+          url = "https://aclanthology.org/2024.naacl-long.213",
+          doi = "10.18653/v1/2024.naacl-long.213",
+          pages = "3855--3871",
+          abstract = "Do the Spratly Islands belong to China, the Philippines, or Vietnam? A pretrained large language model (LLM) may answer differently if asked in the languages of each claimant country: Chinese, Tagalog, or Vietnamese. This contrasts with a multilingual human, who would likely answer consistently. In this paper, we show that LLMs recall certain geographical knowledge inconsistently when queried in different languages{---}a phenomenon we term geopolitical bias. As a targeted case study, we consider territorial disputes, an inherently controversial and multilingual task. We introduce BorderLines, a dataset of territorial disputes which covers 251 territories, each associated with a set of multiple-choice questions in the languages of each claimant country (49 languages in total). We also propose a suite of evaluation metrics to precisely quantify bias and consistency in responses across different languages. We then evaluate various multilingual LLMs on our dataset and metrics to probe their internal knowledge and use the proposed metrics to discover numerous inconsistencies in how these models respond in different languages. Finally, we explore several prompt modification strategies, aiming to either amplify or mitigate geopolitical bias, which highlights how brittle LLMs are and how they tailor their responses depending on cues from the interaction context. Our code and data are available at https://github.com/manestay/borderlines.",
       }
 -
    title: Representation of Lexical Stylistic Features in Language Models’ Embedding Space
@@ -1616,24 +2173,6 @@
         author = {Artemis Panagopoulou and Manni Arora and Li Zhang and Dimitri Cugini and Weiqiu You and Yue Yang and Liyang Zhou and Yuxuan Wang and Zhaoyi Hou and Alyssa Hwang and Lara Martin and Sherry Shi and Chris Callison-Burch and Mark Yatskar},
         title = {QuakerBot&colon A Household Dialog System Powered by Large Language Models},
         year = {2022},
-      }
--
-   title: Is "my favorite new movie" my favorite movie? Probing the Understanding of Recursive Noun Phrases
-   authors: Qing Lyu, Hua Zheng, Daoxin Li, Li Zhang, Marianna Apidianaki, Chris Callison-Burch
-   venue: arXiv
-   type: preprint
-   year: 2021
-   url: https://arxiv.org/abs/2112.08326
-   page_count: 12
-   id: recursive-noun-phrases
-   data: https://github.com/veronica320/Recursive-NPs
-   abstract: Recursive noun phrases (NPs) have interesting semantic properties. For example, "my favorite new movie" is not necessarily "my favorite movie", whereas "my new favorite movie" is. This is common sense to humans, yet it is unknown whether pre-trained language models have such knowledge. We introduce the Recursive Noun Phrase Challenge (RNPC), a challenge set targeting the understanding of recursive NPs. When evaluated on our dataset, state-of-the-art Transformer models only achieve around chance performance. Still, we show that such knowledge is learnable with appropriate data. We further probe the models for relevant linguistic features that can be learned from our tasks, including modifier semantic category and modifier scope. Finally, models trained on RNPC achieve strong zero-shot performance on an extrinsic Harm Detection task, showing the usefulness of the understanding of recursive NPs in downstream applications.
-   bibtex: |
-      @article{Lyu2021-NPs,
-        title={Is "my favorite new movie" my favorite movie? Probing the Understanding of Recursive Noun Phrases},
-        author={Qing Lyu and Hua Zheng and Daoxin Li and Li Zhang and Marianna Apidianaki and Chris Callison-Burch},
-        journal={arXiv preprint arXiv:2112.08326},
-        year={2021}
       }
 -
    title: SynthBio&colon; A Case Study in Human-AI Collaborative Curation of Text Datasets

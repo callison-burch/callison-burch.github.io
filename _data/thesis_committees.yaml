@@ -1,27 +1,57 @@
 -
+   name: Shreya Havaldar
+   institution: Towards Quantifying and Mitigating Cultural Bias in LLMs
+   advisors: Lyle Ungar and Eric Wong
+   graduation_date:
+   thesis_title: 
+-
+   name: Stephanie Schoch
+   institution: University of Virginia
+   advisors: Yangfeng Ji
+   graduation_date:
+   thesis_title: 
+-
+   name: Tianjiao Ding
+   institution: University of Pennsylvania
+   advisors: René Vidal
+   graduation_date:
+   thesis_title: 
+-
+   name: Kwan Ho Ryan Chan
+   institution: University of Pennsylvania
+   advisors: René Vidal
+   graduation_date:
+   thesis_title: 
+-
+   name: Ben Zhou
+   institution: University of Pennsylvania
+   advisors: Dan Roth
+   graduation_date: July 2024
+   thesis_title: Incidental Decomposition for Complex Reasoning
+-
    name: Sihao Chen
    institution: University of Pennsylvania
    advisors: Dan Roth
-   graduation_date:
-   thesis_title: 
+   graduation_date: October 2024
+   thesis_title: Methods and Challenges in Inference Across Textual Sources
 -
    name: Zhenwen Liang
    institution: University of Notre Dame
    advisors: Xiangliang (Lynn) Zhang
-   graduation_date:
-   thesis_title: 
+   graduation_date: April 2024
+   thesis_title: Learning to Represent and Reason with Event Temporalities
 -
    name: Zoey Sha Li
    institution: UIUC
    advisors: Jiawei Han and Heng Ji
-   graduation_date:
-   thesis_title: 
+   graduation_date: June 2024
+   thesis_title: Open-Domain Event Understanding with Global Context
 -
    name: Salvatore Giorgi
    institution: University of Pennsylvania
    advisors: Lyle Ungar
-   graduation_date:
-   thesis_title: 
+   graduation_date: May 2024
+   thesis_title: Computational Methods for Understanding Mental Health from Social Media
 -
    name: Soham Dan
    institution: University of Pennsylvania

@@ -5,6 +5,7 @@ img: CCB-small.jpg
 img_link: assets/img/CCB.jpeg
 caption: |
  <b>Email:</b> ccb@upenn.edu<br />
+ <b>Office hours (Spring 2025):</b> Wednesdays 3:30-4:30pm in AGH 431<br />
 active_tab: main_page 
 keep_sidebar: true 
 ---
