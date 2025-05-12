@@ -49,7 +49,7 @@ active_tab: CV
 
 <h2>Publications</h2>
 
-My publications have been cited more than 25,000 times. I have an h-index of 66.
+My publications have been cited more than 31,000 times. I have an h-index of 71.
 
 <!--
 According to Google Scholar, [my publications have been cited more than 25,000 times](https://scholar.google.com/citations?user=nv-MV58AAAAJ&hl=en), with 12,000 of those citations coming since after I got tenure in 2017.  I have an h-index of 61 (46 post tenure).  [My Semantic Scholar profile](https://www.semanticscholar.org/author/Chris-Callison-Burch/1763608) has an automatically ranked list of my most influential publications. Here is a filtered list of [my most influential publications since getting tenure](https://www.semanticscholar.org/author/Chris-Callison-Burch/1763608?year%5B0%5D=2017&year%5B1%5D=2030&sort=influence). 

@@ -44,6 +44,7 @@
    url: https://arxiv.org/abs/2409.17146
    page_count: 30
    id: molmo
+   highly_cited: 114
    data: https://huggingface.co/collections/allenai/pixmo-674746ea613028006285687b
    code: https://github.com/allenai/molmo
    website: https://molmo.allenai.org/
@@ -577,6 +578,7 @@
    url: https://yueyang1996.github.io/papers/holodeck.pdf
    page_count: 20
    id: holodeck
+   highly_cited: 118
    data: 
    code: https://github.com/allenai/Holodeck
    website: https://yueyang1996.github.io/holodeck/
@@ -1079,6 +1081,7 @@
    data: https://github.com/google/BIG-bench
    code: https://github.com/google/BIG-bench
    website: https://github.com/google/BIG-bench
+   highly_cited: 1526
    abstract: |
       Language models demonstrate both quantitative improvement and new qualitative capabilities with increasing scale. Despite their potentially transformative impact, these new capabilities are as yet poorly characterized. In order to inform future research, prepare for disruptive new model capabilities, and ameliorate socially harmful effects, it is vital that we understand the present and near-future capabilities and limitations of language models. To address this challenge, we introduce the Beyond the Imitation Game benchmark (BIG-bench). BIG-bench currently consists of 204 tasks, contributed by 450 authors across 132 institutions. Task topics are diverse, drawing problems from linguistics, childhood development, math, common-sense reasoning, biology, physics, social bias, software development, and beyond. BIG-bench focuses on tasks that are believed to be beyond the capabilities of current language models. We evaluate the behavior of OpenAI's GPT models, Google-internal dense transformer architectures, and Switch-style sparse transformers on BIG-bench, across model sizes spanning millions to hundreds of billions of parameters. In addition, a team of human expert raters performed all tasks in order to provide a strong baseline. Findings include: model performance and calibration both improve with scale, but are poor in absolute terms (and when compared with rater performance); performance is remarkably similar across model classes, though with benefits from sparsity; tasks that improve gradually and predictably commonly involve a large knowledge or memorization component, whereas tasks that exhibit "breakthrough" behavior at a critical scale often involve multiple steps or components, or brittle metrics; social bias typically increases with scale in settings with ambiguous context, but this can be improved with prompting.
    bibtex: |
@@ -1262,6 +1265,7 @@
    data: https://github.com/veronica320/Faithful-COT
    code: https://github.com/veronica320/Faithful-COT
    award: Area Chair Award (Interpretability and Analysis of Models for NLP) 
+   highly_cited: 266
    website:
    abstract: |
       While Chain-of-Thought (CoT) prompting boosts Language Models’ (LM) performance on a gamut of complex reasoning tasks, the generated reasoning chain does not necessarily reflect how the model arrives at the answer (aka. faithfulness). We propose Faithful CoT, a reasoning framework involving two stages: Translation (Natural Language query → symbolic reasoning chain) and Problem Solving (reasoning chain → answer), using an LM and a deterministic solver respectively. This guarantees that the reasoning chain provides a faithful explanation of the final answer. Aside from interpretability, Faithful CoT also improves empirical performance: it outperforms standard CoT on 9 of 10 benchmarks from 4 diverse domains, with a relative accuracy gain of 6.3% on Math Word Problems (MWP), 3.4% on Planning, 5.5% on Multi-hop Question Answering (QA), and 21.4% on Relational Inference. Furthermore, with GPT-4 and Codex, it sets the new state-of-the-art few-shot performance on 7 datasets (with 95.0+ accuracy on 6 of them), showing a strong synergy between faithfulness and accuracy.
@@ -1589,6 +1593,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/language-in-a-bottle.pdf
    page_count: 18
    id: language-in-a-bottle
+   highly_cited: 243
    data: 
    code: 
    abstract: |
@@ -2104,7 +2109,7 @@
    year: 2022
    url: https://www.cis.upenn.edu/~ccb/publications/deduplicating-training-data-makes-lms-better.pdf
    page_count: 22
-   highly_cited: 172
+   highly_cited: 666
    id: deduplicating-training-data
    code: https://github.com/google-research/deduplicate-text-datasets
    abstract: We find that existing language modeling datasets contain many near-duplicate examples and long repetitive substrings. As a result, over 1% of the unprompted output of language models trained on these datasets is copied verbatim from the training data. We develop two tools that allow us to deduplicate training datasets -- for example removing from C4 a single 61 word English sentence that is repeated over 60,000 times. Deduplication allows us to train models that emit memorized text ten times less frequently and require fewer train steps to achieve the same or better accuracy. We can also reduce train-test overlap, which affects over 4% of the validation set of standard datasets, thus allowing for more accurate evaluation. We release code for reproducing our work and performing dataset deduplication at https://github.com/google-research/deduplicate-text-datasets
@@ -2531,7 +2536,7 @@
    year: 2020
    url: https://www.cis.upenn.edu/~ccb/publications/automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled.pdf
    page_count: 15
-   highly_cited: 158
+   highly_cited: 411
    id: automatic-detection-of-generated-text-is-easiest-when-humans-are-fooled
    abstract: Recent advancements in neural language modeling make it possible to rapidly generate vast amounts of human-sounding text. The capabilities of humans and automatic discriminators to detect machine-generated text have been a large source of research interest, but humans and machines rely on different cues to make their decisions. Here, we perform careful benchmarking and analysis of three popular sampling-based decoding strategies like top-k, nucleus sampling, and untruncated random sampling—and show that improvements in decoding methods have primarily optimized for fooling humans. This comes at the expense of introducing statistical abnormalities that make detection easy for automatic systems. We also show that though both human and automatic detector performance improve with longer excerpt length, even multi-sentence excerpts can fool expert human raters over 30% of the time. Our findings reveal the importance of using both human and automatic detectors to assess the humanness of text generation systems.
    bibtex: |
@@ -2998,7 +3003,7 @@
    type: conference
    award: Honorable Mention Award
    note: Honorable Mention Award for CHI 2018, which means that it is ranked among the top 5% of all submissions to the SIGCHI 2018 conference. The conference received over 2500 submissions and 25 were chosen for Best Paper (101 were chosen for Honourable Mention.)
-   highly_cited: 590
+   highly_cited: 762
    press: 
     - 
       title: Newly Unemployed, and Labeling Photos for Pennies&colon; People who've lost jobs and are stuck indoors are turning to crowd work—filling out online surveys and transcribing audio for less than the minimum wage.
@@ -3224,7 +3229,7 @@
    year: 2017
    url: http://www.sciencedirect.com/science/article/pii/S1532046417300746
    page_count: 22
-   id: optimizing-machine-translation-for-text-simplifciation
+   id: crowd-control
    abstract: Annotating unstructured texts in Electronic Health Records data is usually a necessary step for conducting machine learning research on such datasets. Manual annotation by domain experts provides data of the best quality, but has become increasingly impractical given the rapid increase in the volume of EHR data. In this article, we examine the effectiveness of crowdsourcing with unscreened online workers as an alternative for transforming unstructured texts in EHRs into annotated data that are directly usable in supervised learning models. We find the crowdsourced annotation data to be just as effective as expert data in training a sentence classification model to detect the mentioning of abnormal ear anatomy in radiology reports of audiology. Furthermore, we have discovered that enabling workers to self-report a confidence level associated with each annotation can help researchers pinpoint less-accurate annotations requiring expert scrutiny. Our findings suggest that even crowd workers without specific domain knowledge can contribute effectively to the task of annotating unstructured EHR datasets.
    bibtex: |
       @article{Cocos-EtAl:2017:Biomedical-Informatics,
@@ -3398,7 +3403,7 @@
    year: 2016
    url: https://www.cis.upenn.edu/~ccb/publications/optimizing-machine-translation-for-text-simplifciation.pdf
    page_count: 15
-   highly_cited: 520
+   highly_cited: 736
    id: optimizing-machine-translation-for-text-simplifciation
    abstract: Most recent sentence simplification systems use basic machine translation models to learn lexical and syntactic paraphrases from a manually simplified parallel corpus. These methods are limited by the quality and quantity of manually simplified corpora, which are expensive to build. In this paper, we conduct an in-depth adaptation of statistical machine translation to perform text simplification, taking advantage of large-scale paraphrases learned from bilingual texts and a small amount of manual simplifications with multiple references. Our work is the first to design automatic metrics that are effective for tuning and  evaluating simplification systems, which will facilitate iterative development for this task.
    bibtex: |
@@ -3532,7 +3537,7 @@
    website: http://paraphrase.org/
    page_count: 6
    id: ppdb-reranking
-   highly_cited: 363
+   highly_cited: 400
    abstract: We present a new release of the Paraphrase Database. PPDB 2.0 includes a discriminatively re-ranked set of paraphrases that achieve a higher correlation with human judgments than PPDB 1.0’s heuristic rankings. Each paraphrase pair in the database now also includes fine-grained entailment relations, word embedding similarities, and style annotations.
    bibtex: |
     @InProceedings{PavlickEtAl-2015:ACL:Semantics,
@@ -3593,7 +3598,7 @@
    year: 2015
    url: https://www.cis.upenn.edu/~ccb/publications/new-data-for-text-simplification.pdf
    page_count: 16
-   highly_cited: 420
+   highly_cited: 561
    id: new-data-for-text-simplification
    figures:
       -
@@ -3870,6 +3875,7 @@
    year: 2014
    url: https://www.cis.upenn.edu/~ccb/publications/arabic-dialect-id.pdf
    page_count: 36
+   highly_cited: 438
    id: arabic-dialect-id
    figures:
       -
@@ -5123,7 +5129,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/ppdb.pdf
    page_count: 7
    id: ppdb
-   highly_cited: 921
+   highly_cited: 988
    figures:
       -
          img: figures/ppdb/ppdb-figure-1.jpg
@@ -5217,7 +5223,7 @@
    year: 2013
    url: https://www.cis.upenn.edu/~ccb/publications/answer-extraction-as-sequence-tagging.pdf
    page_count: 10
-   highly_cited: 245
+   highly_cited: 252
    id: answer-extraction-as-sequence-tagging
    figures:
       -
@@ -6317,7 +6323,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/crowdsourcing-translation.pdf
    page_count: 10
    id: crowdsourcing-translation
-   highly_cited: 500
+   highly_cited: 535
    figures:
       -
          img: figures/crowdsourcing-translation/crowdsourcing-translation-figure-1.jpg
@@ -6607,7 +6613,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/findings-of-wmt10-and-metrics-matr.pdf
    page_count: 33
    id: findings-of-wmt10-and-metrics-matr
-   highly_cited: 254
+   highly_cited: 258
    figures:
       -
          img: figures/findings-of-wmt10-and-metrics-matr/findings-of-wmt10-and-metrics-matr-figure-1.jpg
@@ -6759,7 +6765,7 @@
    year: 2010
    url: https://www.cis.upenn.edu/~ccb/publications/creating-speech-and-language-data-with-amazon-mechanical-turk.pdf
    page_count: 12
-   highly_cited: 430
+   highly_cited: 449
    id: creating-speech-and-language-data-with-amazon-mechanical-turk
    figures:
       -
@@ -6943,7 +6949,7 @@
    year: 2010
    url: https://www.cis.upenn.edu/~ccb/publications/automatic-speech-recognition-with-non-expert-transcription.pdf
    page_count: 9
-   highly_cited: 211
+   highly_cited: 669
    id: automatic-speech-recognition-with-non-expert-transcription
    figures:
       -
@@ -7252,7 +7258,7 @@
    year: 2009
    url: https://www.cis.upenn.edu/~ccb/publications/improved-translation-with-monolingually-derived-paraphrases.pdf
    page_count: 10
-   highly_cited: 198
+   highly_cited: 407
    id: improved-translation-with-monolingually-derived-paraphrases
    figures:
       -
@@ -7373,7 +7379,7 @@
    year: 2009
    url: https://www.cis.upenn.edu/~ccb/publications/findings-of-the-wmt09-shared-tasks.pdf
    page_count: 28
-   highly_cited: 834
+   highly_cited: 868
    id: findings-of-the-wmt09-shared-tasks
    figures:
       -
@@ -7625,7 +7631,7 @@
    year: 2008
    url: https://www.cis.upenn.edu/~ccb/publications/further-meta-evaluation-of-machine-tranlsion.pdf
    page_count: 37
-   highly_cited: 306
+   highly_cited: 324
    id: further-meta-evaluation-of-machine-tranlsion
    figures:
       -
@@ -7979,7 +7985,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/moses-toolkit.pdf
    page_count: 
    id: moses-toolkit
-   highly_cited: 7047
+   highly_cited: 7358
    figures:
       -
          img: figures/moses-toolkit/moses-toolkit-figure-1.jpg
@@ -8097,7 +8103,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/re-evaluating-the-role-of-bleu-in-mt-research.pdf
    page_count: 8
    id: re-evaluating-the-role-of-bleu-in-mt-research
-   highly_cited: 960
+   highly_cited: 1135
    abstract: We argue that the machine translation community is overly reliant on the Bleu machine translation evaluation metric. We show that an improved Bleu score is neither necessary nor sufficient for achieving an actual improvement in translation quality, and give two significant counterexamples to Bleu’s correlation with human judgments of quality. This offers new potential for research which was previously deemed unpromising by an inability to improve upon Bleu scores. 
    bibtex: |
       @InProceedings{callisonburch-koehn-osborne:2006:HLT-NAACL06-Main,
@@ -8214,7 +8220,7 @@
    url: https://www.cis.upenn.edu/~ccb/publications/paraphrasing-with-bilingual-parallel-corpora.pdf
    page_count: 
    id: paraphrasing-with-bilingual-parallel-corpora
-   highly_cited: 772
+   highly_cited: 801
    figures:
       -
          img: figures/paraphrasing-with-bilingual-parallel-corpora/paraphrasing-with-bilingual-parallel-corpora-figure-1.jpg
